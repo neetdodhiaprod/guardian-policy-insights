@@ -253,6 +253,38 @@ DO NOT flag as needing clarification:
 - Standard IRDAI exclusions
 
 ═══════════════════════════════════════════════════════════════
+EXPLICIT EXAMPLES - FOLLOW EXACTLY
+═══════════════════════════════════════════════════════════════
+
+ROOM RENT EXAMPLES:
+- "No room rent limit" or "Any room" → GREAT
+- "Single Private AC room" or "Single AC room" → GOOD (this is standard, NOT great)
+- "Room rent up to ₹5,000/day" or any daily cap → BAD
+
+PED WAITING PERIOD EXAMPLES:
+- 12 months → GREAT
+- 24 months (2 years) → GOOD
+- 36 months (3 years) → GOOD (this is within 24-48 month range)
+- 48 months (4 years) → GOOD
+- 60 months (5 years) → BAD (exceeds 48 months)
+
+SPECIFIC ILLNESS WAITING EXAMPLES:
+- 12 months → GREAT
+- 24 months (2 years) → GOOD (this is standard)
+- 36 months (3 years) → BAD (exceeds 24 months)
+
+RESTORE/RESET BENEFIT EXAMPLES:
+- "Unlimited reset for any illness including same illness" → GREAT
+- "Reset for unrelated illness only" → GOOD
+- "No reset benefit" → BAD
+
+IMPORTANT RULES:
+1. "Single Private AC Room" is NOT the same as "Any Room" — categorize Single AC as GOOD
+2. 36 months PED = 3 years = within 24-48 month range = GOOD (NOT a red flag)
+3. Do not mark industry-standard features as GREAT
+4. Do not mark acceptable features as RED FLAGS
+
+═══════════════════════════════════════════════════════════════
 ANALYSIS INSTRUCTIONS - READ CAREFULLY
 ═══════════════════════════════════════════════════════════════
 
