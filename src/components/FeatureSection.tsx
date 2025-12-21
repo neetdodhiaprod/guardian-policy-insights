@@ -50,7 +50,7 @@ const FeatureSection = ({ type, features, defaultOpen = false }: FeatureSectionP
   const config = typeConfig[type];
   const Icon = config.icon;
 
-  if (features.length === 0) return null;
+  if (!features || features.length === 0) return null;
 
   return (
     <div className="feature-section border border-border rounded-xl overflow-hidden mb-4">
