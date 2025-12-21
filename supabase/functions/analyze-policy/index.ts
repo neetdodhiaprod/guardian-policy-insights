@@ -5,7 +5,7 @@ const corsHeaders = {
   'Access-Control-Allow-Headers': 'authorization, x-client-info, apikey, content-type',
 };
 
-// Step 1: Document validation tool (uses minimal tokens)
+// Document validation tool
 const documentValidationTool = {
   name: "validate_document",
   description: "Validate if the uploaded document is a health insurance policy document from India",
@@ -30,7 +30,7 @@ const documentValidationTool = {
   }
 };
 
-// Step 2: Policy analysis tool (full analysis)
+// Policy analysis tool
 const policyAnalysisTool = {
   name: "submit_policy_analysis",
   description: "Submit the structured analysis of a health insurance policy document",
@@ -116,226 +116,200 @@ const policyAnalysisTool = {
   }
 };
 
-const analysisSystemPrompt = `You are a health insurance policy analysis expert for Indian health insurance policies. Your job is to THOROUGHLY analyze policies and find BOTH positives AND negatives.
+const analysisSystemPrompt = `You are a health insurance policy analysis expert for Indian health insurance policies.
 
 ═══════════════════════════════════════════════════════════════
-STANDARD IRDAI EXCLUSIONS - DO NOT FLAG THESE AS RED FLAGS
+CRITICAL RULES - READ FIRST
 ═══════════════════════════════════════════════════════════════
 
-These are STANDARD exclusions - DO NOT flag as red flags:
+BEFORE you categorize ANY feature, check these rules:
+
+1. PED WAITING PERIOD:
+   - 12 months = GREAT
+   - 24 months = GOOD
+   - 36 months = GOOD (this is 3 years - STILL GOOD, NOT a red flag)
+   - 48 months = GOOD (this is 4 years - STILL GOOD, NOT a red flag)
+   - 60+ months = BAD (only flag if MORE than 48 months)
+
+2. SPECIFIC ILLNESS WAITING:
+   - 12 months = GREAT
+   - 24 months = GOOD (standard)
+   - 36+ months = BAD (only flag if MORE than 24 months)
+
+3. ROOM RENT:
+   - "Any room" / "No limit" / "No capping" = GREAT
+   - "Single Private AC room" / "Single AC" = GOOD (NOT great)
+   - Any rupee cap (₹3,000/day, ₹5,000/day, etc.) = BAD
+
+4. INITIAL WAITING:
+   - 0 days = GREAT
+   - 30 days = GOOD (standard)
+   - 31+ days = BAD
+
+5. STANDARD EXCLUSIONS - NEVER FLAG:
+   - Maternity (in base plan) = IGNORE
+   - Infertility = IGNORE
+   - Cosmetic surgery = IGNORE
+   - All other standard IRDAI exclusions = IGNORE
+
+═══════════════════════════════════════════════════════════════
+STANDARD IRDAI EXCLUSIONS - DO NOT MENTION THESE
+═══════════════════════════════════════════════════════════════
+
+Do NOT flag these anywhere (not in red flags, not in needs clarification):
 - Maternity (when not covered in base plan)
 - Infertility / Sterility treatments
-- Cosmetic / Plastic surgery (unless for reconstruction)
+- Cosmetic / Plastic surgery
 - Obesity / Weight control programs
 - War / Nuclear / Terrorism
-- Self-inflicted injuries / Suicide attempt
-- Hazardous sports / Adventure activities
-- Breach of law / Criminal activity
-- Alcoholism / Drug abuse / Substance abuse
-- Unproven / Experimental treatments
-- Dental (unless due to accident)
-- Spectacles / Contact lenses / Hearing aids
+- Self-inflicted injuries
+- Hazardous sports
+- Breach of law
+- Alcoholism / Drug abuse
+- Unproven treatments
+- Dental (unless accident)
+- Spectacles / Hearing aids
 - External congenital diseases
-- HIV/AIDS (unless specifically covered)
-- Vaccination (unless post-bite treatment)
-- Vitamins / Tonics / Supplements
+- HIV/AIDS
+- Vaccination
+- Vitamins / Tonics
 - Investigation without diagnosis
-- Rest cures / Rehabilitation
-- Refractive error correction (LASIK etc.)
+- Rest cures
+- Refractive error correction
 - Change of gender
-- Sleep apnea devices
 
 ═══════════════════════════════════════════════════════════════
-🟩 GREAT (Best-in-class) - Features BETTER than market standard
+🟩 GREAT (Best-in-class)
 ═══════════════════════════════════════════════════════════════
 
-Look for and flag these as GREAT:
-- Room Rent: No limit / Any room allowed / No sub-limit
-- PED Waiting: Less than 24 months (2 years)
-- Specific Illness Waiting: Less than 24 months
-- Initial Waiting: 0 days (no waiting period)
-- Maternity Waiting: 9 months or less (when maternity IS covered)
-- Maternity Amount: ₹75,000 or more (when covered)
-- Restore/Recharge: Works for same illness / Unlimited restores
-- Consumables: Fully covered with no cap
-- Pre-hospitalization: 60 days or more
-- Post-hospitalization: 180 days or more
-- Co-pay: 0% for all ages including seniors
-- Cashless Network: More than 10,000 hospitals
-- Modern Treatments (AYUSH, Robotic surgery): Covered without sub-limits
-- No Claim Bonus: More than 50% per year / Unlimited accumulation
-- Air Ambulance: Covered with high limits (₹5L+)
-- Organ Donor: Fully covered
-- Domiciliary Treatment: Covered
-- Global Coverage: Available for emergencies abroad
-- Day Care Procedures: All covered without restrictions
-- Mental Health: Covered beyond IRDAI minimum
-- Bariatric Surgery: Covered
-- Road Ambulance: Covered without cap
+Flag as GREAT only if BETTER than market standard:
+
+| Feature | GREAT Threshold |
+|---------|-----------------|
+| Room Rent | "No limit" / "Any room" (NOT Single AC) |
+| PED Waiting | Less than 24 months |
+| Specific Illness | Less than 24 months |
+| Initial Waiting | 0 days |
+| Maternity Waiting | ≤9 months (when covered) |
+| Maternity Amount | ≥₹75,000 |
+| Restore Benefit | Same illness covered / Unlimited |
+| Consumables | Fully covered, no cap |
+| Pre-hospitalization | ≥60 days |
+| Post-hospitalization | ≥180 days |
+| Co-pay | 0% for all ages |
+| Cashless Network | >10,000 hospitals |
+| Modern Treatments | No sub-limits |
+| NCB | >50% per year |
+| Air Ambulance | Covered |
+| Domiciliary | Covered |
+| Bariatric Surgery | Covered |
 
 ═══════════════════════════════════════════════════════════════
-🟨 GOOD (Industry Standard) - Features that meet market norms
+🟨 GOOD (Industry Standard)
 ═══════════════════════════════════════════════════════════════
 
-- Room Rent: Single AC private room allowed
-- PED Waiting: 24-48 months (2-4 years) - THIS IS STANDARD
-- Specific Illness Waiting: 24 months (2 years) - THIS IS STANDARD  
-- Initial Waiting: 30 days - THIS IS STANDARD
-- Maternity Waiting: 9-36 months (when covered)
-- Maternity Amount: ₹25,000 - ₹74,999
-- Restore Benefit: For unrelated illness only
-- Consumables: Partially covered or with sub-limits
-- Pre-hospitalization: 30-59 days
-- Post-hospitalization: 60-179 days
-- Co-pay: 10-20% for age 60+ only
-- Cashless Network: 7,000-10,000 hospitals
-- Modern Treatments: Covered with sub-limits
-- No Claim Bonus: 10-50% per year
+Flag as GOOD if meets market standard:
+
+| Feature | GOOD Threshold |
+|---------|----------------|
+| Room Rent | Single Private AC room |
+| PED Waiting | 24-48 months (2-4 years) |
+| Specific Illness | 24 months |
+| Initial Waiting | 30 days |
+| Maternity Waiting | 9-36 months |
+| Maternity Amount | ₹25,000-₹74,999 |
+| Restore Benefit | Unrelated illness only |
+| Consumables | Partially covered |
+| Pre-hospitalization | 30-59 days |
+| Post-hospitalization | 60-179 days |
+| Co-pay | 10-20% for 60+ only |
+| Cashless Network | 7,000-10,000 |
+| Modern Treatments | With sub-limits |
+| NCB | 10-50% per year |
 
 ═══════════════════════════════════════════════════════════════
-🟥 BAD (Red Flags) - ACTIVELY LOOK FOR THESE PROBLEMS
+🟥 BAD (Red Flags) - BE CAREFUL
 ═══════════════════════════════════════════════════════════════
 
-IMPORTANT: Do not skip this section. Actively search the document for:
+ONLY flag as BAD if WORSE than market standard:
 
-1. ROOM RENT RESTRICTIONS:
-   - Any daily room rent cap (₹3,000, ₹5,000, ₹10,000 per day = RED FLAG)
-   - Room rent as % of sum insured = RED FLAG
-   - "Proportionate deduction" if room exceeds limit = MAJOR RED FLAG
-   - ICU limits lower than main room limit = RED FLAG
+| Feature | BAD Threshold |
+|---------|---------------|
+| Room Rent | Any daily cap (₹3K, ₹5K, ₹10K/day) |
+| Proportionate Deduction | If present |
+| PED Waiting | >48 months (more than 4 years) |
+| Specific Illness | >24 months |
+| Initial Waiting | >30 days |
+| Restore Benefit | Not available |
+| Consumables | Not covered |
+| Pre-hospitalization | <30 days |
+| Post-hospitalization | <60 days |
+| Co-pay | >20% any age OR mandatory all ages |
+| Zone-based Co-pay | If present |
+| Cashless Network | <7,000 hospitals |
+| Disease Sub-limits | Any (cataract ₹40K, etc.) |
+| Non-standard Exclusions | Beyond IRDAI list |
 
-2. WAITING PERIODS (longer than standard):
-   - PED waiting > 48 months (> 4 years) = RED FLAG
-   - Specific illness waiting > 24 months = RED FLAG
-   - Initial waiting > 30 days = RED FLAG
-
-3. CO-PAYMENT CLAUSES:
-   - Mandatory co-pay for ALL ages (not just seniors) = RED FLAG
-   - Co-pay > 20% = RED FLAG
-   - Zone-based co-pay (higher in metro cities) = RED FLAG
-   - Co-pay on specific treatments = RED FLAG
-
-4. SUB-LIMITS ON TREATMENTS:
-   - Cataract surgery limits (e.g., ₹40,000 per eye) = RED FLAG
-   - Knee replacement limits = RED FLAG
-   - Hernia limits = RED FLAG
-   - Any disease-wise sub-limits = RED FLAG
-
-5. MISSING OR LIMITED COVERAGE:
-   - Restore/Recharge benefit NOT available = RED FLAG
-   - Consumables NOT covered = RED FLAG
-   - Modern treatments (robotic surgery, etc.) NOT covered = RED FLAG
-   - Ambulance cover with low caps (below ₹2,000) = RED FLAG
-
-6. CLAIM RESTRICTIONS:
-   - "Reasonable and customary" clauses = NEEDS CLARIFICATION
-   - "At insurer's discretion" for key benefits = RED FLAG
-   - Aggregate sub-limits on categories = RED FLAG
-
-7. NETWORK RESTRICTIONS:
-   - Cashless only at limited hospitals = RED FLAG
-   - Zone-based restrictions = RED FLAG
-
-═══════════════════════════════════════════════════════════════
-🟡 NEEDS CLARIFICATION - STRICT RULES
-═══════════════════════════════════════════════════════════════
-
-ONLY flag as "Needs Clarification" when information is GENUINELY missing or vague.
-
-DO NOT flag as "Needs Clarification":
-- Room rent stated as "Single Private AC room" — this is clear, not ambiguous
-- Room rent stated as "No capping" or "Any room" — this is clear
-- Any clearly defined benefit with specific terms
-- Standard policy language that is industry-accepted
-- Your own speculation about what "might" be unclear
-- Premium amounts (this is policy-specific)
-- Claim settlement process details
+DO NOT flag as BAD:
+- 36 month PED (this is GOOD)
+- 24 month specific illness (this is GOOD)
+- Single AC room (this is GOOD)
 - Standard IRDAI exclusions
 
-ONLY flag when:
-- Policy says "as per company discretion" without defining criteria
-- Policy mentions a benefit but gives no limit or duration
-- Policy has genuinely conflicting statements
-- Critical information is actually missing from the document
-- A coverage uses vague terms: "reasonable", "customary", "as decided by TPA"
-- Waiting period mentioned but exact duration not specified
-
-BAD EXAMPLE (do not do this):
-Feature: "Single Private AC room"
-Flagging as unclear because: "there might be rupee caps not mentioned"
-→ WRONG. Do not speculate. If it says Single Private AC, that's the coverage.
-
-GOOD EXAMPLE:
-Feature: "Room rent as per eligibility"
-Flagging as unclear because: "eligibility criteria not defined anywhere in document"
-→ CORRECT. This is genuinely vague.
-
 ═══════════════════════════════════════════════════════════════
-EXPLICIT CATEGORIZATION EXAMPLES
+🟡 NEEDS CLARIFICATION
 ═══════════════════════════════════════════════════════════════
 
-ROOM RENT:
-- "No room rent limit" or "Any room" → GREAT
-- "Single Private AC room" → GOOD (clear benefit, do NOT flag as unclear)
-- "Room rent up to ₹5,000/day" → BAD
-- "Room rent as per eligibility" (undefined) → NEEDS CLARIFICATION
+ONLY flag when GENUINELY unclear:
+- "As per company discretion" without criteria
+- Benefit mentioned but no limit specified
+- Conflicting statements
+- Vague terms: "reasonable", "customary", "as decided by TPA"
 
-PED WAITING PERIOD:
-- Less than 24 months → GREAT
-- 24 months (2 years) → GOOD
-- 36 months (3 years) → GOOD
-- 48 months (4 years) → GOOD
-- More than 48 months → BAD
-
-SPECIFIC ILLNESS WAITING:
-- Less than 24 months → GREAT
-- 24 months (2 years) → GOOD
-- More than 24 months → BAD
-
-RESTORE/RESET BENEFIT:
-- "Unlimited reset for any illness including same illness" → GREAT
-- "Reset for unrelated illness only" → GOOD
-- "No reset benefit" → BAD
-
-IMPORTANT RULES:
-1. Do NOT speculate about hidden terms or caps
-2. Do NOT create doubt where the policy language is clear
-3. Only flag genuinely ambiguous or missing information
-4. If a benefit is clearly stated, categorize it — don't flag as unclear
-5. "Single Private AC Room" is NOT the same as "Any Room" — Single AC is GOOD
-6. 36 months PED = 3 years = within 24-48 month range = GOOD (NOT a red flag)
+DO NOT flag:
+- "Single Private AC room" - this is clear
+- "No room rent limit" - this is clear
+- Premium amounts
+- Claim process details
+- Standard IRDAI exclusions
+- Your speculation about "possible" hidden terms
 
 ═══════════════════════════════════════════════════════════════
-ANALYSIS INSTRUCTIONS - READ CAREFULLY
+FINAL CHECKLIST - VERIFY BEFORE SUBMITTING
 ═══════════════════════════════════════════════════════════════
 
-1. READ THE ENTIRE DOCUMENT - Do not skim
-2. For EACH category (GREAT, GOOD, BAD, UNCLEAR), aim for:
-   - GREAT: 5-8 features that are better than market standard
-   - GOOD: 3-5 features that meet market standard
-   - BAD: ALL red flags found (do not minimize - if there are 10 red flags, list all 10)
-   - UNCLEAR: Any genuinely vague or conflicting terms
+Before using submit_policy_analysis, verify:
 
-3. For EACH feature found, provide:
-   - name: Clear feature name
-   - quote: EXACT text from the document (copy-paste)
-   - reference: Section/page reference if available
-   - explanation: Why this is great/good/bad/unclear
+☐ PED 24-48 months is in GOOD (not red flags)
+☐ Specific illness 24 months is in GOOD (not red flags)
+☐ Single AC room is in GOOD (not great)
+☐ Initial 30 days is in GOOD (not red flags)
+☐ NO standard IRDAI exclusions in red flags
+☐ NO standard IRDAI exclusions in needs clarification
+☐ NO speculation in needs clarification
+☐ Room rent with daily cap IS in red flags
+☐ Proportionate deduction IS in red flags (if present)
 
-4. Common things to check:
-   - Does policy have room rent limits? Check "Room Rent" section
-   - Does policy have disease-wise sub-limits? Check "Sub-limits" or schedule
-   - What are the waiting periods? Check "Waiting Period" section
-   - Is there mandatory co-pay? Check "Co-payment" section
-   - What's NOT covered? Check "Exclusions" section carefully
-   - Are consumables covered? Check specifically for this
+═══════════════════════════════════════════════════════════════
+OUTPUT REQUIREMENTS
+═══════════════════════════════════════════════════════════════
 
-5. Add disclaimer: "Standard IRDAI exclusions apply. Please verify all details with your insurer."
+1. GREAT: 5-8 features better than market
+2. GOOD: 3-5 features meeting market standard
+3. BAD: ALL genuine red flags (do not minimize)
+4. UNCLEAR: Only genuinely vague items
 
-Use the submit_policy_analysis tool to submit your findings.`;
+For each feature provide:
+- name: Clear feature name
+- quote: EXACT text from document
+- reference: Section/page if available
+- explanation: Simple explanation for customer
+
+Add disclaimer: "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
+
+Now analyze the policy and submit using the tool.`;
 
 serve(async (req) => {
-  // Handle CORS preflight
   if (req.method === 'OPTIONS') {
     return new Response(null, { headers: corsHeaders });
   }
@@ -355,9 +329,7 @@ serve(async (req) => {
       throw new Error('ANTHROPIC_API_KEY not configured');
     }
 
-    // ═══════════════════════════════════════════════════════════════
-    // STEP 1: Validate document type first (uses minimal tokens)
-    // ═══════════════════════════════════════════════════════════════
+    // STEP 1: Validate document type
     console.log('Step 1: Validating document type...');
     
     const validationResponse = await fetch('https://api.anthropic.com/v1/messages', {
@@ -375,22 +347,15 @@ serve(async (req) => {
         messages: [
           {
             role: 'user',
-            content: `Check if this is a health insurance document from India (policy wording, brochure, or policy schedule). 
+            content: `Check if this is a health insurance document from India.
 
-A health insurance document will typically contain:
-- Terms like "hospitalization", "sum insured", "cashless", "pre-existing disease", "waiting period", "room rent", "ICU"
-- References to IRDAI (Insurance Regulatory and Development Authority of India)
-- Medical expense coverage, in-patient treatment coverage
+Health insurance documents contain: hospitalization, sum insured, cashless, pre-existing disease, waiting period, room rent, ICU, IRDAI.
 
-This is NOT a health insurance document if it's:
-- Life insurance, motor insurance, travel insurance, home insurance
-- Bank statement, invoice, resume, or any non-insurance document
-- A document from outside India
+NOT health insurance: life insurance, motor insurance, travel insurance, bank statements, invoices, resumes, non-Indian documents.
 
-Use the validate_document tool to submit your assessment.
+Use validate_document tool.
 
-Document text (first 2000 characters):
-
+Document (first 2000 chars):
 ${policyText.substring(0, 2000)}`
           }
         ]
@@ -399,18 +364,14 @@ ${policyText.substring(0, 2000)}`
 
     if (!validationResponse.ok) {
       const errorText = await validationResponse.text();
-      console.error('Claude API validation error:', validationResponse.status, errorText);
+      console.error('Validation error:', validationResponse.status, errorText);
       throw new Error(`Document validation failed: ${validationResponse.status}`);
     }
 
     const validationData = await validationResponse.json();
-    console.log('Validation response received');
-
-    // Extract validation result using Tools format
     const validationToolUse = validationData.content?.find((block: any) => block.type === 'tool_use');
     
     if (!validationToolUse || validationToolUse.type !== 'tool_use') {
-      console.error('No tool use in validation response:', validationData.content);
       throw new Error('Document validation failed - invalid response format');
     }
 
@@ -422,9 +383,7 @@ ${policyText.substring(0, 2000)}`
 
     console.log('Validation result:', validation);
 
-    // If not a health insurance document, return error immediately
     if (!validation.isHealthInsurance) {
-      console.log('Document rejected - not health insurance');
       return new Response(
         JSON.stringify({ 
           error: 'invalid_document',
@@ -438,10 +397,8 @@ ${policyText.substring(0, 2000)}`
       );
     }
 
-    // ═══════════════════════════════════════════════════════════════
-    // STEP 2: Full analysis (only if validation passed)
-    // ═══════════════════════════════════════════════════════════════
-    console.log('Step 2: Document validated, proceeding with full analysis...');
+    // STEP 2: Full analysis
+    console.log('Step 2: Running full analysis...');
     
     const analysisResponse = await fetch('https://api.anthropic.com/v1/messages', {
       method: 'POST',
@@ -459,7 +416,16 @@ ${policyText.substring(0, 2000)}`
         messages: [
           {
             role: 'user',
-            content: `Analyze this health insurance policy document thoroughly and submit your analysis using the submit_policy_analysis tool:\n\n${policyText}`
+            content: `Analyze this health insurance policy. Follow the CRITICAL RULES and FINAL CHECKLIST before submitting.
+
+REMEMBER:
+- 36 month PED = GOOD (not red flag)
+- 24 month specific illness = GOOD (not red flag)
+- Single AC room = GOOD (not great)
+- Do NOT flag standard IRDAI exclusions
+
+Policy document:
+${policyText}`
           }
         ]
       }),
@@ -467,50 +433,34 @@ ${policyText.substring(0, 2000)}`
 
     if (!analysisResponse.ok) {
       const errorText = await analysisResponse.text();
-      console.error('Claude API analysis error:', analysisResponse.status, errorText);
+      console.error('Analysis error:', analysisResponse.status, errorText);
       throw new Error(`Policy analysis failed: ${analysisResponse.status}`);
     }
 
     const analysisData = await analysisResponse.json();
-    console.log('Analysis response received, extracting tool use...');
-
-    // Extract analysis result using Tools format
     const analysisToolUse = analysisData.content?.find((block: any) => block.type === 'tool_use');
     
     if (!analysisToolUse || analysisToolUse.type !== 'tool_use') {
-      console.error('No tool use in analysis response:', analysisData.content);
       throw new Error('Policy analysis failed - invalid response format');
     }
 
-    const analysisResult = analysisToolUse.input;
+    const result = analysisToolUse.input;
+    
     console.log('Analysis complete:', {
-      policyName: analysisResult.policyName,
-      insurer: analysisResult.insurer,
-      summary: analysisResult.summary,
-      greatCount: analysisResult.features?.great?.length || 0,
-      goodCount: analysisResult.features?.good?.length || 0,
-      badCount: analysisResult.features?.bad?.length || 0,
-      unclearCount: analysisResult.features?.unclear?.length || 0,
+      policy: result.policyName,
+      insurer: result.insurer,
+      great: result.features?.great?.length || 0,
+      good: result.features?.good?.length || 0,
+      bad: result.features?.bad?.length || 0,
+      unclear: result.features?.unclear?.length || 0,
     });
-    
-    // Log red flags specifically for debugging
-    if (analysisResult.features?.bad?.length > 0) {
-      console.log('Red flags found:', analysisResult.features.bad.map((f: any) => f.name));
-    } else {
-      console.log('No red flags found - verify if policy genuinely has none');
-    }
-    
-    // Log unclear items
-    if (analysisResult.features?.unclear?.length > 0) {
-      console.log('Unclear items:', analysisResult.features.unclear.map((f: any) => f.name));
-    }
 
-    return new Response(JSON.stringify(analysisToolUse.input), {
+    return new Response(JSON.stringify(result), {
       headers: { ...corsHeaders, 'Content-Type': 'application/json' },
     });
 
   } catch (error: unknown) {
-    console.error('Error in analyze-policy function:', error);
+    console.error('Error:', error);
     const errorMessage = error instanceof Error ? error.message : 'Failed to analyze policy';
     return new Response(
       JSON.stringify({ error: errorMessage }),
