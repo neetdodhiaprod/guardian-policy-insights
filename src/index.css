@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Archivo:wght@400;500;600;700&display=swap');
+/* Fonts loaded via index.html for better performance */
 
 @tailwind base;
 @tailwind components;
