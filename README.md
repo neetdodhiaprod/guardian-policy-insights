@@ -1,73 +1,81 @@
-# Welcome to your Lovable project
+# Insurance Policy Analyzer
 
-## Project info
+An AI-powered web application that analyzes insurance policy documents and provides clear, actionable insights about your coverage.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## What It Does
 
-## How can I edit this code?
+Upload your insurance policy PDF and get an instant, easy-to-understand breakdown of:
 
-There are several ways of editing your application.
+- **Great Features** - Excellent coverage provisions that protect you well
+- **Good Features** - Standard benefits included in your policy
+- **Bad Features** - Limitations, exclusions, or concerning clauses to be aware of
+- **Unclear Features** - Ambiguous language that may need clarification
 
-**Use Lovable**
+For each feature identified, the tool provides:
+- The exact policy quote/reference
+- A plain-English explanation of what it means for you
+- The section reference for easy lookup
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## How It Works
 
-Changes made via Lovable will be committed automatically to this repo.
+1. **Upload** - Drag and drop or select your insurance policy PDF (max 20MB)
+2. **Extract** - The tool extracts text from your document
+3. **Analyze** - AI analyzes the policy content for key provisions
+4. **Review** - Get categorized results with explanations and references
 
-**Use your preferred IDE**
+## Technology Stack
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- **Frontend**: React, TypeScript, Vite, Tailwind CSS, shadcn/ui
+- **Backend**: Lovable Cloud (Supabase Edge Functions)
+- **AI**: Google Gemini for policy analysis
+- **PDF Processing**: pdf.js for client-side text extraction
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Features
 
-Follow these steps:
+- Responsive design for desktop and mobile
+- Real-time loading states with progress indicators
+- Client-side PDF validation (file type and size)
+- Server-side input sanitization and validation
+- Privacy-focused: policies are analyzed but not stored
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js & npm installed ([install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating))
+
+### Local Development
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
+# Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# Navigate to project directory
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+### Environment Variables
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+The following environment variables are configured automatically via Lovable Cloud:
+- `VITE_SUPABASE_URL`
+- `VITE_SUPABASE_PUBLISHABLE_KEY`
 
-**Use GitHub Codespaces**
+For the AI analysis to work, ensure the `GOOGLE_GEMINI_API_KEY` secret is configured in your project settings.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Deployment
 
-## What technologies are used for this project?
+Open [Lovable](https://lovable.dev) and click Share → Publish to deploy your app.
 
-This project is built with:
+## Custom Domain
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+To connect a custom domain, navigate to Project → Settings → Domains in Lovable.
 
-## How can I deploy this project?
+## License
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+This project is private. All rights reserved.
