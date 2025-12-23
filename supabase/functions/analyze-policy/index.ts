@@ -153,6 +153,51 @@ BEFORE you categorize ANY feature, check these rules:
    - All other standard IRDAI exclusions = IGNORE
 
 ═══════════════════════════════════════════════════════════════
+OPTIONAL COVERS / ADD-ONS - IMPORTANT DISTINCTION
+═══════════════════════════════════════════════════════════════
+
+Many policies offer OPTIONAL covers where customers make a conscious trade-off.
+These are NOT red flags - they are CHOICES that provide flexibility.
+
+RULE: If a restriction ONLY applies when customer OPTS INTO a discounted/optional cover, it is NOT a red flag.
+
+EXAMPLES:
+
+1. Network Advantage / Preferred Provider Network:
+   - "10% premium discount if you opt for Network Advantage"
+   - "20% co-pay applies only if you go outside Preferred Provider Network"
+   → This is GOOD (optional trade-off), NOT a red flag
+   → Customer who doesn't want restriction simply doesn't opt for it
+
+2. Co-pay Waiver Add-on:
+   - "Base plan has 10% co-pay, but co-pay waiver available as add-on"
+   → This is GOOD (flexibility offered)
+
+3. Room Rent Upgrade:
+   - "Base plan covers Single AC, upgrade to Any Room available"
+   → Base plan is GOOD, upgrade option is GREAT
+
+4. Zone-based Pricing:
+   - "Zone A premium vs Zone B premium with different network access"
+   → This is a pricing choice, not a restriction
+
+HOW TO IDENTIFY OPTIONAL VS MANDATORY:
+
+OPTIONAL (flag as GOOD or don't flag):
+- "If the Insured Person has opted for this Optional Cover..."
+- "Subject to the Insured Person choosing..."
+- "Available as an add-on..."
+- "Discount available if you choose..."
+- Customer must actively select it
+
+MANDATORY (may be RED FLAG):
+- "Applicable on all claims..."
+- "Co-payment shall be deducted..."
+- "In all cases, the insured shall bear..."
+- No opt-out mentioned
+- Applies by default to all policyholders
+
+═══════════════════════════════════════════════════════════════
 STANDARD IRDAI EXCLUSIONS - DO NOT MENTION THESE
 ═══════════════════════════════════════════════════════════════
 
@@ -226,6 +271,7 @@ Flag as GOOD if meets market standard:
 | Cashless Network | 7,000-10,000 |
 | Modern Treatments | With sub-limits |
 | NCB | 10-50% per year |
+| Optional Cover Trade-offs | Network Advantage, Zone discounts, etc. |
 
 ═══════════════════════════════════════════════════════════════
 🟥 BAD (Red Flags) - BE CAREFUL
@@ -244,8 +290,8 @@ ONLY flag as BAD if WORSE than market standard:
 | Consumables | Not covered |
 | Pre-hospitalization | <30 days |
 | Post-hospitalization | <60 days |
-| Co-pay | >20% any age OR mandatory all ages |
-| Zone-based Co-pay | If present |
+| Co-pay | >20% any age OR mandatory all ages (NOT optional covers) |
+| Zone-based Co-pay | Only if MANDATORY (not if part of optional discount) |
 | Cashless Network | <7,000 hospitals |
 | Disease Sub-limits | Any (cataract ₹40K, etc.) |
 | Non-standard Exclusions | Beyond IRDAI list |
@@ -255,6 +301,35 @@ DO NOT flag as BAD:
 - 24 month specific illness (this is GOOD)
 - Single AC room (this is GOOD)
 - Standard IRDAI exclusions
+- Co-pay in OPTIONAL covers (like Network Advantage)
+- Restrictions that only apply if customer opts for a discount
+- Network limitations in optional add-ons
+- Trade-offs in add-on covers where customer gets a benefit in return
+- Zone-based pricing options (these are choices, not restrictions)
+
+═══════════════════════════════════════════════════════════════
+EXPLICIT EXAMPLES FOR OPTIONAL VS MANDATORY
+═══════════════════════════════════════════════════════════════
+
+Example 1:
+Policy says: "Network Advantage Optional Cover: 10% premium discount, 20% co-pay outside Preferred Provider Network"
+→ Categorize as: GOOD
+→ Explanation: "Optional feature offering premium savings. Co-pay only applies if you choose this option AND go outside network hospitals. You can skip this option for unrestricted access."
+
+Example 2:
+Policy says: "A co-payment of 20% shall be applicable on all claims"
+→ Categorize as: BAD
+→ Explanation: "Mandatory 20% co-pay on every claim reduces effective coverage."
+
+Example 3:
+Policy says: "Co-payment of 10% applicable for insured persons above 60 years"
+→ Categorize as: GOOD (if 10-20%)
+→ This is industry standard for senior citizens
+
+Example 4:
+Policy says: "Zone-based co-pay: 10% if treated outside your zone"
+→ Categorize as: BAD (if mandatory)
+→ Categorize as: GOOD (if part of optional discounted plan)
 
 ═══════════════════════════════════════════════════════════════
 🟡 NEEDS CLARIFICATION
@@ -273,6 +348,7 @@ DO NOT flag:
 - Claim process details
 - Standard IRDAI exclusions
 - Your speculation about "possible" hidden terms
+- Optional cover terms that are clearly explained
 
 ═══════════════════════════════════════════════════════════════
 FINAL CHECKLIST - VERIFY BEFORE SUBMITTING
@@ -287,6 +363,8 @@ Before using submit_policy_analysis, verify:
 ☐ NO standard IRDAI exclusions in red flags
 ☐ NO standard IRDAI exclusions in needs clarification
 ☐ NO speculation in needs clarification
+☐ OPTIONAL cover trade-offs are in GOOD (not red flags)
+☐ Only MANDATORY restrictions are considered for red flags
 ☐ Room rent with daily cap IS in red flags
 ☐ Proportionate deduction IS in red flags (if present)
 
