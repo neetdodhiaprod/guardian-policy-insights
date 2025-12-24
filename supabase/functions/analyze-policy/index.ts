@@ -446,7 +446,7 @@ serve(async (req) => {
         'anthropic-version': '2023-06-01',
       },
       body: JSON.stringify({
-        model: 'claude-sonnet-4-20250514',
+        model: 'claude-3-5-haiku-20241022',
         max_tokens: 500,
         tools: [documentValidationTool],
         tool_choice: { type: "tool", name: "validate_document" },
@@ -514,7 +514,7 @@ ${sanitizedPolicyText.substring(0, 2000)}`
         'anthropic-version': '2023-06-01',
       },
       body: JSON.stringify({
-        model: 'claude-sonnet-4-20250514',
+        model: 'claude-3-5-haiku-20241022',
         max_tokens: 8000,
         system: analysisSystemPrompt,
         tools: [policyAnalysisTool],
