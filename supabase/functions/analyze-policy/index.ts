@@ -474,26 +474,31 @@ serve(async (req) => {
       throw new Error('ANTHROPIC_API_KEY not configured');
     }
 
-    // Full policy analysis
-    console.log('Running full analysis...');
+    // Full policy analysis with retry logic
+    const MAX_RETRIES = 2;
+    let result = null;
     
-    const analysisResponse = await fetch('https://api.anthropic.com/v1/messages', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'x-api-key': anthropicApiKey,
-        'anthropic-version': '2023-06-01',
-      },
-      body: JSON.stringify({
-        model: 'claude-3-5-haiku-20241022',
-        max_tokens: 8192,
-        system: analysisSystemPrompt,
-        tools: [policyAnalysisTool],
-        tool_choice: { type: "tool", name: "submit_policy_analysis" },
-        messages: [
-          {
-            role: 'user',
-            content: `Analyze this health insurance policy.
+    for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
+      console.log(`Running analysis attempt ${attempt}/${MAX_RETRIES}...`);
+      
+      const analysisResponse = await fetch('https://api.anthropic.com/v1/messages', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'x-api-key': anthropicApiKey,
+          'anthropic-version': '2023-06-01',
+        },
+        body: JSON.stringify({
+          model: 'claude-3-5-haiku-20241022',
+          max_tokens: 8192,
+          temperature: 0.3,
+          system: analysisSystemPrompt,
+          tools: [policyAnalysisTool],
+          tool_choice: { type: "tool", name: "submit_policy_analysis" },
+          messages: [
+            {
+              role: 'user',
+              content: `Analyze this health insurance policy.
 
 ═══════════════════════════════════════════════════════════════
 BEFORE CATEGORIZING ANY FEATURE, ASK YOURSELF:
@@ -523,16 +528,9 @@ EXAMPLES OF APPLYING THESE QUESTIONS:
 - Removing it makes policy BETTER → It's a restriction
 - Answer: RED FLAG ✓
 
-"Deductible option with 25% premium discount":
-- Is it CHOICE or FORCED? → CHOICE (optional)
-- Answer: GOOD ✓
-
-"20% co-pay on all claims":
-- Is it CHOICE or FORCED? → FORCED (mandatory)
-- Answer: RED FLAG ✓
-
-"36 months PED waiting period":
-- Is this worse than market? → NO (market allows up to 48 months)
+"Network Advantage with 20% co-pay outside network":
+- Does customer CHOOSE this? → YES (optional add-on)
+- Removing it removes an OPTION → It's a benefit
 - Answer: GOOD ✓
 
 ═══════════════════════════════════════════════════════════════
@@ -610,49 +608,61 @@ If you flag "room rent at actuals" as unclear, you are WRONG.
 
 ═══════════════════════════════════════════════════════════════
 
+IMPORTANT: You MUST extract and list at least 5 features in GREAT and 5 in GOOD categories. Every health policy has these standard features - find them!
+
 Now analyze this policy:
 
 ${sanitizedPolicyText}`
-          }
-        ]
-      }),
-    });
+            }
+          ]
+        }),
+      });
 
-    if (!analysisResponse.ok) {
-      const errorText = await analysisResponse.text();
-      console.error('Analysis error:', analysisResponse.status, errorText);
-      throw new Error(`Policy analysis failed: ${analysisResponse.status}`);
-    }
+      if (!analysisResponse.ok) {
+        const errorText = await analysisResponse.text();
+        console.error('Analysis error:', analysisResponse.status, errorText);
+        throw new Error(`Policy analysis failed: ${analysisResponse.status}`);
+      }
 
-    const analysisData = await analysisResponse.json();
-    
-    // Log API response details for debugging
-    console.log('API response stop_reason:', analysisData.stop_reason);
-    console.log('API response usage:', JSON.stringify(analysisData.usage));
-    
-    const analysisToolUse = analysisData.content?.find((block: any) => block.type === 'tool_use');
-    
-    if (!analysisToolUse || analysisToolUse.type !== 'tool_use') {
-      console.error('Invalid response format. Content:', JSON.stringify(analysisData.content));
-      throw new Error('Policy analysis failed - invalid response format');
-    }
+      const analysisData = await analysisResponse.json();
+      
+      // Log API response details for debugging
+      console.log('API response stop_reason:', analysisData.stop_reason);
+      console.log('API response usage:', JSON.stringify(analysisData.usage));
+      
+      const analysisToolUse = analysisData.content?.find((block: any) => block.type === 'tool_use');
+      
+      if (!analysisToolUse || analysisToolUse.type !== 'tool_use') {
+        console.error('Invalid response format. Content:', JSON.stringify(analysisData.content));
+        throw new Error('Policy analysis failed - invalid response format');
+      }
 
-    const result = analysisToolUse.input;
-    
-    // Log feature counts
-    const featureCounts = {
-      policy: result.policyName,
-      insurer: result.insurer,
-      great: result.features?.great?.length || 0,
-      good: result.features?.good?.length || 0,
-      bad: result.features?.bad?.length || 0,
-      unclear: result.features?.unclear?.length || 0,
-    };
-    console.log('Analysis complete:', JSON.stringify(featureCounts));
-    
-    // Warn if no features found
-    if (featureCounts.great === 0 && featureCounts.good === 0 && featureCounts.bad === 0) {
-      console.warn('WARNING: No features extracted! This may indicate a problem.');
+      result = analysisToolUse.input;
+      
+      // Log feature counts
+      const featureCounts = {
+        policy: result.policyName,
+        insurer: result.insurer,
+        great: result.features?.great?.length || 0,
+        good: result.features?.good?.length || 0,
+        bad: result.features?.bad?.length || 0,
+        unclear: result.features?.unclear?.length || 0,
+      };
+      console.log('Analysis complete:', JSON.stringify(featureCounts));
+      
+      // Check if we got features
+      const totalFeatures = featureCounts.great + featureCounts.good + featureCounts.bad + featureCounts.unclear;
+      if (totalFeatures > 0) {
+        console.log('Features extracted successfully, returning result');
+        break;
+      }
+      
+      // No features found, retry if we have attempts left
+      if (attempt < MAX_RETRIES) {
+        console.warn(`WARNING: No features extracted on attempt ${attempt}. Retrying...`);
+      } else {
+        console.error('ERROR: No features extracted after all retries!');
+      }
     }
 
     return new Response(JSON.stringify(result), {
