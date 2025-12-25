@@ -326,6 +326,30 @@ DO NOT flag:
 - Optional cover terms that are clearly explained
 
 ═══════════════════════════════════════════════════════════════
+BONUS BENEFITS - NEVER FLAG AS RED FLAG
+═══════════════════════════════════════════════════════════════
+
+These are EXTRA benefits. Even with limits, they are GOOD, never red flags:
+
+- Daily cash for shared room (₹500-1000/day) → GOOD
+- Health check-up allowance → GOOD  
+- Ambulance charges covered → GOOD
+- Wellness vouchers → GOOD
+- E-opinion / second opinion → GOOD
+
+WRONG: "Daily cash ₹800 for shared room" as red flag
+RIGHT: This is a BONUS - you get extra money for choosing economy option
+
+═══════════════════════════════════════════════════════════════
+ADD-ON COVERS - DO NOT FLAG AS UNCLEAR
+═══════════════════════════════════════════════════════════════
+
+Add-ons are optional paid features. If names and prices are listed, they are clear.
+
+- Mention in GOOD section: "Optional add-ons available for critical illness, hospital cash"
+- Only flag as UNCLEAR if terms are genuinely contradictory
+
+═══════════════════════════════════════════════════════════════
 FINAL CHECKLIST - VERIFY BEFORE SUBMITTING
 ═══════════════════════════════════════════════════════════════
 
@@ -342,6 +366,8 @@ Before using submit_policy_analysis, verify:
 ☐ Only MANDATORY restrictions are considered for red flags
 ☐ Room rent with daily cap IS in red flags
 ☐ Proportionate deduction IS in red flags (if present)
+☐ NO bonus benefits (daily cash, health checkup, ambulance) in red flags
+☐ NO add-on covers in needs clarification (unless genuinely contradictory)
 
 ═══════════════════════════════════════════════════════════════
 OUTPUT REQUIREMENTS
