@@ -486,15 +486,68 @@ serve(async (req) => {
         messages: [
           {
             role: 'user',
-            content: `Analyze this health insurance policy. Follow the CRITICAL RULES and FINAL CHECKLIST before submitting.
+            content: `Analyze this health insurance policy.
 
-REMEMBER:
-- 36 month PED = GOOD (not red flag)
-- 24 month specific illness = GOOD (not red flag)
-- Single AC room = GOOD (not great)
-- Do NOT flag standard IRDAI exclusions
+═══════════════════════════════════════════════════════════════
+BEFORE CATEGORIZING ANY FEATURE, ASK YOURSELF:
+═══════════════════════════════════════════════════════════════
 
-Policy document:
+Question 1: "Does this feature GIVE the customer something, or TAKE AWAY?"
+- GIVES something (even with a limit) → GREAT or GOOD
+- TAKES AWAY or RESTRICTS → Could be RED FLAG
+
+Question 2: "Would removing this feature make the policy BETTER or WORSE?"
+- Removing makes it WORSE → It's a benefit → GREAT or GOOD
+- Removing makes it BETTER → It's a restriction → Could be RED FLAG
+
+Question 3: "Is this a CHOICE the customer makes, or FORCED on them?"
+- Customer CHOOSES (optional, discount trade-off) → GOOD
+- FORCED on everyone (mandatory) → Could be RED FLAG
+
+EXAMPLES OF APPLYING THESE QUESTIONS:
+
+"Daily cash ₹800 for shared room":
+- Does it GIVE or TAKE? → GIVES extra money
+- Removing it makes policy WORSE → It's a benefit
+- Answer: GOOD ✓
+
+"Room rent capped at ₹5000/day":
+- Does it GIVE or TAKE? → TAKES (limits your claim)
+- Removing it makes policy BETTER → It's a restriction
+- Answer: RED FLAG ✓
+
+"Deductible option with 25% premium discount":
+- Is it CHOICE or FORCED? → CHOICE (optional)
+- Answer: GOOD ✓
+
+"20% co-pay on all claims":
+- Is it CHOICE or FORCED? → FORCED (mandatory)
+- Answer: RED FLAG ✓
+
+"36 months PED waiting period":
+- Is this worse than market? → NO (market allows up to 48 months)
+- Answer: GOOD ✓
+
+═══════════════════════════════════════════════════════════════
+THINGS THAT SHOULD NEVER BE RED FLAGS:
+═══════════════════════════════════════════════════════════════
+
+- Any feature that GIVES you extra money/benefit (daily cash, vouchers, health checkup allowance)
+- Any OPTIONAL discount/trade-off the customer can choose or skip
+- Waiting periods at or below market standard (PED ≤48 months, Specific ≤24 months)
+- Standard IRDAI exclusions
+
+THINGS THAT SHOULD NEVER BE "UNCLEAR":
+
+- Deductible/discount options (these are clear choices)
+- Add-on covers with listed names and prices
+- Standard waiting periods
+- Clear room rent terms ("at actuals", "single AC", "₹5000/day")
+
+═══════════════════════════════════════════════════════════════
+
+Now analyze this policy:
+
 ${sanitizedPolicyText}`
           }
         ]
