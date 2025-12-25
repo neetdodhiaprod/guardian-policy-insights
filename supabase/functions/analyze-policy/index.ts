@@ -546,6 +546,26 @@ THINGS THAT SHOULD NEVER BE "UNCLEAR":
 
 ═══════════════════════════════════════════════════════════════
 
+FINAL CHECK - READ CAREFULLY:
+
+═══════════════════════════════════════════════════════════════
+
+- PED waiting 36 months or less = GOOD (IRDAI allows up to 48 months, so 36 is standard)
+- PED waiting 48 months or less = GOOD (still within IRDAI limit)
+- PED waiting 49+ months = RED FLAG (exceeds IRDAI limit)
+- "Room rent at actuals" = GREAT (this means NO LIMIT - best possible term)
+- "Room rent: no limit" = GREAT
+- "Room rent: any room" = GREAT
+
+DO NOT flag these as red flags or unclear:
+- 36 month PED waiting (this is GOOD, not a red flag)
+- "Room rent at actuals" (this is GREAT, not unclear)
+
+If you flag 36-month PED as red flag, you are WRONG.
+If you flag "room rent at actuals" as unclear, you are WRONG.
+
+═══════════════════════════════════════════════════════════════
+
 Now analyze this policy:
 
 ${sanitizedPolicyText}`
