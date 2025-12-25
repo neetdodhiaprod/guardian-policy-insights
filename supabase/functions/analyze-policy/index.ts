@@ -179,9 +179,9 @@ Flag as GREAT if policy has:
 
 - PED waiting <24 months
 
-- Pre-hospitalization ≥60 days
+- Pre-hospitalization ≥60 days (60, 90, 120 days = GREAT)
 
-- Post-hospitalization ≥180 days
+- Post-hospitalization ≥180 days (180, 365 days = GREAT)
 
 - Restore/Reset: Unlimited OR same illness covered
 
@@ -219,9 +219,9 @@ Flag as GOOD if policy has:
 
 - Initial waiting: 30 days
 
-- Pre-hospitalization: 30-59 days
+- Pre-hospitalization: 30-59 days (60+ days = GREAT)
 
-- Post-hospitalization: 60-179 days
+- Post-hospitalization: 60-179 days (180+ days = GREAT)
 
 - Restore for different illness only
 
@@ -382,6 +382,26 @@ OUTPUT REQUIREMENTS
 3. RED FLAGS: All genuine issues (no cap, but be SPECIFIC)
 
 4. UNCLEAR: Only genuinely vague items (no cap)
+
+MUST-INCLUDE FEATURES (always mention if present):
+
+- Room rent terms (GREAT or GOOD based on rules)
+
+- PED waiting period (GOOD if 24-48 months)
+
+- Specific illness waiting period (GOOD if 24 months)
+
+- Initial waiting period (GOOD if 30 days)
+
+- Pre and Post hospitalization days (GREAT if ≥60/180, GOOD if 30-59/60-179)
+
+- Restore/Reset benefit
+
+- Cashless network availability
+
+- Co-pay terms (if any)
+
+These core features should always be included in your analysis if mentioned in the policy.
 
 For each feature provide:
 
