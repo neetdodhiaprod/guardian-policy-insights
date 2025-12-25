@@ -373,10 +373,15 @@ Before using submit_policy_analysis, verify:
 OUTPUT REQUIREMENTS
 ═══════════════════════════════════════════════════════════════
 
-1. GREAT: ALL meaningful features better than market (no cap)
-2. GOOD: ALL meaningful features meeting market standard (no cap)
-3. BAD: ALL genuine red flags (be specific, not vague)
-4. UNCLEAR: Only genuinely vague/contradictory items
+1. GREAT: 5-10 features better than market
+2. GOOD: 5-10 features meeting market standard
+3. BAD (Red Flags): ALL genuine red flags (no cap, be specific)
+4. UNCLEAR: Only genuinely vague/contradictory items (no cap)
+
+CRITICAL REMINDERS:
+- 24-month specific illness waiting = GOOD (market standard, NOT a red flag)
+- 36-month PED waiting = GOOD (market standard, NOT a red flag)
+- The summary counts MUST match the actual number of features listed
 
 NOTE: Only list MEANINGFUL features that impact the customer. Do not pad with trivial items.
 
