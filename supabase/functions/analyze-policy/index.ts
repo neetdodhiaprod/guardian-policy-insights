@@ -481,7 +481,7 @@ serve(async (req) => {
       },
       body: JSON.stringify({
         model: 'claude-3-5-haiku-20241022',
-        max_tokens: 16000,
+        max_tokens: 8192,
         system: analysisSystemPrompt,
         tools: [policyAnalysisTool],
         tool_choice: { type: "tool", name: "submit_policy_analysis" },
