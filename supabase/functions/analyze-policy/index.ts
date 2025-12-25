@@ -481,7 +481,7 @@ serve(async (req) => {
       },
       body: JSON.stringify({
         model: 'claude-3-5-haiku-20241022',
-        max_tokens: 8000,
+        max_tokens: 16000,
         system: analysisSystemPrompt,
         tools: [policyAnalysisTool],
         tool_choice: { type: "tool", name: "submit_policy_analysis" },
@@ -620,22 +620,35 @@ ${sanitizedPolicyText}`
     }
 
     const analysisData = await analysisResponse.json();
+    
+    // Log API response details for debugging
+    console.log('API response stop_reason:', analysisData.stop_reason);
+    console.log('API response usage:', JSON.stringify(analysisData.usage));
+    
     const analysisToolUse = analysisData.content?.find((block: any) => block.type === 'tool_use');
     
     if (!analysisToolUse || analysisToolUse.type !== 'tool_use') {
+      console.error('Invalid response format. Content:', JSON.stringify(analysisData.content));
       throw new Error('Policy analysis failed - invalid response format');
     }
 
     const result = analysisToolUse.input;
     
-    console.log('Analysis complete:', {
+    // Log feature counts
+    const featureCounts = {
       policy: result.policyName,
       insurer: result.insurer,
       great: result.features?.great?.length || 0,
       good: result.features?.good?.length || 0,
       bad: result.features?.bad?.length || 0,
       unclear: result.features?.unclear?.length || 0,
-    });
+    };
+    console.log('Analysis complete:', JSON.stringify(featureCounts));
+    
+    // Warn if no features found
+    if (featureCounts.great === 0 && featureCounts.good === 0 && featureCounts.bad === 0) {
+      console.warn('WARNING: No features extracted! This may indicate a problem.');
+    }
 
     return new Response(JSON.stringify(result), {
       headers: { ...corsHeaders, 'Content-Type': 'application/json' },
