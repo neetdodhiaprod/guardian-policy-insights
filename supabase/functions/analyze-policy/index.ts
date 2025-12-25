@@ -535,7 +535,38 @@ THINGS THAT SHOULD NEVER BE RED FLAGS:
 - Any feature that GIVES you extra money/benefit (daily cash, vouchers, health checkup allowance)
 - Any OPTIONAL discount/trade-off the customer can choose or skip
 - Waiting periods at or below market standard (PED ≤48 months, Specific ≤24 months)
-- Standard IRDAI exclusions
+- Standard IRDAI exclusions (listed below)
+
+STANDARD IRDAI EXCLUSIONS - DO NOT FLAG THESE:
+These are in EVERY health insurance policy. Never flag them or mention "policy has many exclusions":
+- Cosmetic/plastic surgery
+- Obesity/weight control
+- Infertility/sterility
+- Maternity (if not covered in base plan)
+- Dental (unless accident)
+- Spectacles/contact lenses
+- Vitamins/tonics/supplements
+- Self-inflicted injuries
+- War/nuclear/terrorism
+- Hazardous sports/activities
+- Alcohol/drug abuse
+- Experimental/unproven treatments
+- Vaccination (preventive)
+- Rest cures/convalescence
+- Change of gender
+- Refractive error correction
+- External congenital conditions
+
+LAZY ANALYSIS - DO NOT DO THIS:
+- ❌ WRONG: "Policy has numerous exclusions" - this is meaningless, ALL policies have exclusions
+- ❌ WRONG: "Multiple exclusions may limit claims" - too vague
+- ✅ RIGHT: Flag SPECIFIC non-standard exclusions (e.g., "Knee replacement sub-limit ₹1.5L", "Cancer treatment capped at ₹3L")
+
+WHAT TO ACTUALLY FLAG AS RED FLAG:
+- Sub-limits on specific diseases (cataract ₹40K, knee ₹1.5L, cancer ₹3L)
+- Exclusions NOT in IRDAI standard list
+- Conditions worse than market standard
+- Permanent exclusions for common conditions
 
 THINGS THAT SHOULD NEVER BE "UNCLEAR":
 
