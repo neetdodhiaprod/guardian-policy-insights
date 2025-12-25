@@ -91,217 +91,136 @@ const policyAnalysisTool = {
   }
 };
 
-const analysisSystemPrompt = `You are an expert Indian health insurance policy analyzer. Your job is to help customers understand their policy by identifying what's great, good, concerning, and unclear.
+const analysisSystemPrompt = `You are an expert Indian health insurance policy analyzer.
 
-════════════════════════════════════════════════════════════════
-CRITICAL MISTAKES TO AVOID
-════════════════════════════════════════════════════════════════
+══════════════════════════════════════════════════════════════
+CLASSIFICATION RULES - FOLLOW EXACTLY
+══════════════════════════════════════════════════════════════
 
-❌ DO NOT flag these as RED FLAG:
-- 24-month specific illness waiting (this is GOOD - market standard)
-- 36-month PED waiting (this is GOOD - within IRDAI limit)
-- 48-month PED waiting (this is GOOD - within IRDAI limit)
-- "Multiple exclusions" or "Numerous exclusions" (lazy analysis - not allowed)
-- Daily cash for shared room (this is a BONUS benefit = GOOD)
-- Standard IRDAI exclusions (every policy has these)
-- Voluntary deductible options (customer choice = GOOD)
+WAITING PERIODS:
+| Type              | GREAT      | GOOD         | RED FLAG    |
+|-------------------|------------|--------------|-------------|
+| PED               | ≤12 months | 24-48 months | >48 months  |
+| Specific Illness  | ≤12 months | 24 months    | >24 months  |
+| Initial           | 0 days     | 30 days      | >30 days    |
 
-✅ DO flag these as RED FLAG (don't miss them):
-- Proportionate deduction clause (ALWAYS flag if present)
-- Room rent daily cap in rupees (₹3K, ₹5K, ₹10K/day)
-- Disease-wise sub-limits (cataract ₹40K, knee ₹1.5L, etc.)
-- Mandatory co-pay for ALL ages
-- PED waiting >48 months
-- Specific illness waiting >24 months
-- PPN/Network restriction with mandatory co-pay penalty
+ROOM RENT:
+| Term                              | Category |
+|-----------------------------------|----------|
+| "At Actuals" / "No limit"         | GREAT    |
+| "Single Private AC"               | GOOD     |
+| Daily cap (₹3K-₹10K/day)          | RED FLAG |
+| Proportionate deduction clause    | RED FLAG |
 
-════════════════════════════════════════════════════════════════
-WAITING PERIOD RULES
-════════════════════════════════════════════════════════════════
+PRE/POST HOSPITALIZATION:
+| Pre-hosp    | Post-hosp   | Category |
+|-------------|-------------|----------|
+| ≥60 days    | ≥180 days   | GREAT    |
+| 30-59 days  | 60-179 days | GOOD     |
+| <30 days    | <60 days    | RED FLAG |
 
-| Type                | GREAT        | GOOD           | RED FLAG      |
-|---------------------|--------------|----------------|---------------|
-| PED (Pre-existing)  | ≤12 months   | 24-48 months   | >48 months    |
-| Specific Illness    | ≤12 months   | 24 months      | >24 months    |
-| Initial Waiting     | 0 days       | 30 days        | >30 days      |
-
-════════════════════════════════════════════════════════════════
-ROOM RENT RULES
-════════════════════════════════════════════════════════════════
-
-| Room Rent Term                      | Category  |
-|-------------------------------------|-----------|
-| "At Actuals" / "No limit" / "Any"   | GREAT     |
-| "Single Private AC room"            | GOOD      |
-| Daily cap (₹3K, ₹5K, ₹10K/day)      | RED FLAG  |
-| Proportionate deduction clause      | RED FLAG  |
-
-════════════════════════════════════════════════════════════════
-PRE/POST HOSPITALIZATION RULES
-════════════════════════════════════════════════════════════════
-
-| Type                | GREAT          | GOOD        |
-|---------------------|----------------|-------------|
-| Pre-hospitalization | ≥60 days       | 30-59 days  |
-| Post-hospitalization| ≥180 days      | 60-179 days |
-
-════════════════════════════════════════════════════════════════
+══════════════════════════════════════════════════════════════
 GREAT FEATURES (Better than market)
-════════════════════════════════════════════════════════════════
+══════════════════════════════════════════════════════════════
 
-- Room rent: "At Actuals" / "No limit" / "Any room"
-- PED waiting: <24 months
-- Specific illness waiting: <24 months
-- Initial waiting: 0 days
-- Pre-hospitalization: ≥60 days
-- Post-hospitalization: ≥180 days
-- Restore/Reset: Unlimited OR same illness covered
-- Consumables: Fully covered without sub-limit
-- Coverage multipliers: 2X / 3X / 4X from day 1
-- Automatic sum insured increase regardless of claims
-- Air ambulance covered
-- No co-pay at any age
+- Room rent at actuals/no limit
+- Pre-hosp ≥60 days, Post-hosp ≥180 days
+- Restore/Reset: Unlimited or same illness covered
+- Consumables fully covered (Protect Benefit)
+- 2X/3X/4X coverage multipliers
+- Auto SI increase regardless of claims
+- Air ambulance, No co-pay any age
 - No geography-based co-pay
-- Worldwide emergency cover
-- Waiting period reduces on renewal
-- Lifelong renewal guaranteed
-- No claim bonus >50% per year
+- Worldwide cover, Lifelong renewal
 
-════════════════════════════════════════════════════════════════
+══════════════════════════════════════════════════════════════
 GOOD FEATURES (Market standard)
-════════════════════════════════════════════════════════════════
+══════════════════════════════════════════════════════════════
 
-- Room rent: Single Private AC room
-- PED waiting: 24-48 months (including 36 months)
-- Specific illness waiting: 24 months
+- Room rent: Single Private AC
+- PED: 24-48 months (incl. 36 months)
+- Specific illness: 24 months
 - Initial waiting: 30 days
-- Pre-hospitalization: 30-59 days
-- Post-hospitalization: 60-179 days
-- Restore: For different illness only
-- Co-pay: 10-20% for age 60+ only (age-based)
-- AYUSH treatment covered
-- Day care procedures covered
-- Domiciliary hospitalization covered
-- Road ambulance covered
-- Health check-up benefit
-- Organ donor expenses covered
-- Daily cash for shared room (BONUS - any amount)
-- Cashless network available
-- Optional add-ons available
-- Voluntary deductible with premium discount
-- Portability option
-- E-opinion/second opinion
+- Pre-hosp: 30-59 days, Post-hosp: 60-179 days
+- Restore for different illness only
+- Co-pay 10-20% for 60+ only
+- AYUSH, Day care, Domiciliary covered
+- Ambulance, Health check-up, Donor expenses
+- Cashless network, Optional add-ons
+- Daily cash for shared room (any amount)
+- Voluntary deductible with discount
 
-════════════════════════════════════════════════════════════════
-RED FLAGS (Worse than market) - MUST BE SPECIFIC
-════════════════════════════════════════════════════════════════
+══════════════════════════════════════════════════════════════
+RED FLAGS (Must flag if present)
+══════════════════════════════════════════════════════════════
 
-- Room rent: Daily cap in rupees (₹3K, ₹5K, ₹10K/day)
-- Room rent: Proportionate deduction clause
-- PED waiting: >48 months
-- Specific illness waiting: >24 months
-- Initial waiting: >30 days
-- Mandatory co-pay for ALL ages (not just seniors)
-- Disease-wise sub-limits (name the exact disease and limit)
-- Specific non-standard exclusions (name them exactly)
-- No restore/reset benefit at all
-- Consumables not covered at all
-- PPN/Network restriction with mandatory co-pay penalty
-- Pre-hospitalization: <30 days
-- Post-hospitalization: <60 days
+- Proportionate deduction clause
+- Room rent daily cap in rupees
+- PED >48 months, Specific illness >24 months
+- Mandatory co-pay ALL ages
+- Disease sub-limits (name exact disease + limit)
+- PPN/Network co-pay penalty (10-20% outside network)
+- No restore benefit, Consumables not covered
 
-IMPORTANT: 
-- You MUST name the SPECIFIC issue
-- "Multiple exclusions" is NOT a valid red flag
-- Proportionate deduction MUST be flagged if present
+══════════════════════════════════════════════════════════════
+NEVER FLAG AS RED FLAG
+══════════════════════════════════════════════════════════════
 
-════════════════════════════════════════════════════════════════
-UNCLEAR (Only genuinely vague items)
-════════════════════════════════════════════════════════════════
-
-Flag as UNCLEAR only if:
-- Conflicting statements in the policy
-- Important benefit mentioned without any details
-- "As per company discretion" without criteria
-- Non-standard exclusions exist but specifics not clear
-
-DO NOT flag as UNCLEAR:
-- Standard waiting periods
-- Clear room rent terms
-- Add-on covers with listed names/prices
+- 24-month specific illness (GOOD)
+- 36-month PED (GOOD)
+- 48-month PED (GOOD)
+- "Multiple exclusions" (lazy - not allowed)
+- Daily cash benefit (BONUS = GOOD)
+- Standard IRDAI exclusions
 - Voluntary deductible options
 
-════════════════════════════════════════════════════════════════
-STANDARD IRDAI EXCLUSIONS - NEVER MENTION
-════════════════════════════════════════════════════════════════
+STANDARD IRDAI EXCLUSIONS (never mention):
+Cosmetic, Obesity, Infertility, Maternity (base), Dental, 
+Spectacles, Vitamins, Self-harm, War, Hazardous sports, 
+Alcohol/drugs, Experimental, Vaccination, Rest cures
 
-Every policy has these. Do not flag or mention:
-Cosmetic surgery, Obesity treatment, Infertility, Maternity (if not in base), 
-Dental (non-accident), Spectacles, Vitamins/tonics, Self-inflicted injuries, 
-War/terrorism, Hazardous sports, Alcohol/drug abuse, Experimental treatments, 
-Preventive vaccination, Rest cures, Gender change, Refractive error, 
-External congenital conditions
+══════════════════════════════════════════════════════════════
+UNCLEAR (Only if genuinely vague)
+══════════════════════════════════════════════════════════════
 
-════════════════════════════════════════════════════════════════
-BONUS BENEFITS - ALWAYS POSITIVE
-════════════════════════════════════════════════════════════════
+- Conflicting statements
+- Benefit without details
+- "Company discretion" without criteria
 
-These GIVE extra value = GOOD or GREAT, never red flags:
-- Daily cash for shared room (any amount)
-- Health check-up allowance
-- Ambulance charges
-- Wellness vouchers/program
-- E-opinion/second opinion
-- Convalescence benefit
+NOT unclear: Waiting periods, room rent terms, add-ons with prices
 
-════════════════════════════════════════════════════════════════
-MUST-INCLUDE FEATURES
-════════════════════════════════════════════════════════════════
+══════════════════════════════════════════════════════════════
+OUTPUT
+══════════════════════════════════════════════════════════════
 
-Always analyze and include these if present in policy:
-- Room rent terms
-- PED waiting period
-- Specific illness waiting period
-- Initial waiting period
-- Pre and Post hospitalization coverage
-- Restore/Reset benefit
-- Cashless network
-- Co-pay terms (if any)
-- Proportionate deduction (if any)
+- GREAT: All that qualify (typically 4-8)
+- GOOD: All that qualify (typically 5-10)
+- RED FLAGS: ONLY genuine issues (can be 0 if none exist)
+- UNCLEAR: ONLY genuinely vague items (can be 0)
 
-════════════════════════════════════════════════════════════════
-OUTPUT REQUIREMENTS
-════════════════════════════════════════════════════════════════
+DO NOT invent red flags. Many good policies have 0 red flags.
 
-1. GREAT: 5-10 meaningful features
-2. GOOD: 5-10 meaningful features
-3. RED FLAGS: All genuine issues (be SPECIFIC, no vague flags)
-4. UNCLEAR: Only genuinely vague items
+Each feature: name, quote (<100 chars), reference, explanation (1-2 sentences, "you/your")
 
-For each feature:
-- name: Clear feature name
-- quote: Exact text from policy (short, <100 chars)
-- reference: Section or page reference
-- explanation: 1-2 sentences using "you/your" language
+══════════════════════════════════════════════════════════════
+MUST INCLUDE (if in policy)
+══════════════════════════════════════════════════════════════
 
-Summary counts MUST match actual features listed.
+Room rent, PED waiting, Specific illness waiting, Initial waiting,
+Pre/Post hospitalization, Restore benefit, Cashless network,
+Proportionate deduction (if present), Co-pay terms (if any)
 
-════════════════════════════════════════════════════════════════
-FINAL CHECKLIST - VERIFY BEFORE SUBMITTING
-════════════════════════════════════════════════════════════════
+══════════════════════════════════════════════════════════════
+CHECKLIST BEFORE SUBMIT
+══════════════════════════════════════════════════════════════
 
-✓ 24-month specific illness is in GOOD (not red flags)
-✓ 36-month PED is in GOOD (not red flags)  
-✓ No "multiple exclusions" in red flags
-✓ No standard IRDAI exclusions mentioned
-✓ No bonus benefits in red flags
-✓ Pre/Post ≥60/180 days is in GREAT (not good)
-✓ Proportionate deduction IS in red flags (if present in policy)
-✓ Room rent daily cap IS in red flags (if present in policy)
-✓ All red flags are SPECIFIC
-✓ Summary counts match actual features
-
-If any of the above is wrong, your analysis is INCORRECT.`;
+□ 24-month specific illness in GOOD
+□ 36/48-month PED in GOOD
+□ Pre/Post ≥60/180 in GREAT
+□ Proportionate deduction in RED FLAG (if exists)
+□ No "multiple exclusions" anywhere
+□ No IRDAI exclusions mentioned
+□ Counts match actual features`;
 
 // Code-based document validation (no API call needed)
 function validateDocument(text: string): { valid: boolean; error?: string } {
@@ -406,17 +325,15 @@ serve(async (req) => {
           messages: [
             {
               role: 'user',
-              content: `Analyze this Indian health insurance policy.
+              content: `Analyze this health insurance policy.
 
-CRITICAL RULES:
-- 24-month specific illness waiting = GOOD (not red flag)
-- 36-month PED waiting = GOOD (not red flag)
-- Proportionate deduction clause = RED FLAG (must flag if present)
-- "Multiple exclusions" = DO NOT FLAG (not allowed)
-- Daily cash for shared room = GOOD (bonus benefit)
-- Pre/Post hospitalization ≥60/180 days = GREAT
+CRITICAL:
+- 24-month specific illness = GOOD (NOT red flag)
+- 36-month PED = GOOD (NOT red flag)  
+- Do NOT invent red flags. 0 red flags is OK for good policies.
+- Only flag proportionate deduction if policy ACTUALLY has it.
 
-Policy Document:
+Policy:
 ${sanitizedPolicyText}`
             }
           ]
