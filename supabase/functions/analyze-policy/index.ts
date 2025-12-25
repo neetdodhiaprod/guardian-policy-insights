@@ -560,15 +560,21 @@ These are in EVERY health insurance policy. Never flag them or mention "policy h
 - External congenital conditions
 
 LAZY ANALYSIS - DO NOT DO THIS:
-- ❌ WRONG: "Policy has numerous exclusions" - this is meaningless, ALL policies have exclusions
-- ❌ WRONG: "Multiple exclusions may limit claims" - too vague
-- ✅ RIGHT: Flag SPECIFIC non-standard exclusions (e.g., "Knee replacement sub-limit ₹1.5L", "Cancer treatment capped at ₹3L")
+- ❌ WRONG: "Policy has numerous exclusions" as RED FLAG
+- ❌ WRONG: "Multiple exclusions may limit claims" as RED FLAG
+- ❌ WRONG: "Various specific exclusions beyond IRDAI" as RED FLAG without naming them
 
-WHAT TO ACTUALLY FLAG AS RED FLAG:
-- Sub-limits on specific diseases (cataract ₹40K, knee ₹1.5L, cancer ₹3L)
-- Exclusions NOT in IRDAI standard list
-- Conditions worse than market standard
-- Permanent exclusions for common conditions
+HOW TO HANDLE EXCLUSIONS:
+1. SPECIFIC non-standard exclusion found (e.g., "Knee replacement capped at ₹1.5L"):
+   → Flag as RED FLAG with exact details
+
+2. Non-standard exclusions seem to exist but details are unclear:
+   → Flag as UNCLEAR: "Policy appears to have exclusions beyond IRDAI standard list. Verify specific exclusions with insurer before purchasing."
+
+3. Only standard IRDAI exclusions found:
+   → Do NOT flag at all
+
+REMEMBER: Vague red flags are useless. Either be specific (RED FLAG) or ask for clarification (UNCLEAR).
 
 THINGS THAT SHOULD NEVER BE "UNCLEAR":
 
