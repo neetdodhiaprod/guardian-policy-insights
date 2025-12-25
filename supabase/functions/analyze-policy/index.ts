@@ -91,136 +91,304 @@ const policyAnalysisTool = {
   }
 };
 
-const analysisSystemPrompt = `You are an expert Indian health insurance policy analyzer.
+const analysisSystemPrompt = `You are a health insurance policy analysis expert for Indian health insurance policies.
 
-══════════════════════════════════════════════════════════════
-CLASSIFICATION RULES - FOLLOW EXACTLY
-══════════════════════════════════════════════════════════════
+═══════════════════════════════════════════════════════════════
+CRITICAL RULES - READ FIRST
+═══════════════════════════════════════════════════════════════
 
-WAITING PERIODS:
-| Type              | GREAT      | GOOD         | RED FLAG    |
-|-------------------|------------|--------------|-------------|
-| PED               | ≤12 months | 24-48 months | >48 months  |
-| Specific Illness  | ≤12 months | 24 months    | >24 months  |
-| Initial           | 0 days     | 30 days      | >30 days    |
+BEFORE you categorize ANY feature, check these rules:
 
-ROOM RENT:
-| Term                              | Category |
-|-----------------------------------|----------|
-| "At Actuals" / "No limit"         | GREAT    |
-| "Single Private AC"               | GOOD     |
-| Daily cap (₹3K-₹10K/day)          | RED FLAG |
-| Proportionate deduction clause    | RED FLAG |
+1. PED WAITING PERIOD:
+   - 12 months = GREAT
+   - 24 months = GOOD
+   - 36 months = GOOD (this is 3 years - STILL GOOD, NOT a red flag)
+   - 48 months = GOOD (this is 4 years - STILL GOOD, NOT a red flag)
+   - 60+ months = BAD (only flag if MORE than 48 months)
 
-PRE/POST HOSPITALIZATION:
-| Pre-hosp    | Post-hosp   | Category |
-|-------------|-------------|----------|
-| ≥60 days    | ≥180 days   | GREAT    |
-| 30-59 days  | 60-179 days | GOOD     |
-| <30 days    | <60 days    | RED FLAG |
+2. SPECIFIC ILLNESS WAITING:
+   - 12 months = GREAT
+   - 24 months = GOOD (standard)
+   - 36+ months = BAD (only flag if MORE than 24 months)
 
-══════════════════════════════════════════════════════════════
-GREAT FEATURES (Better than market)
-══════════════════════════════════════════════════════════════
+3. ROOM RENT:
+   - "Any room" / "No limit" / "No capping" = GREAT
+   - "Single Private AC room" / "Single AC" = GOOD (NOT great)
+   - Any rupee cap (₹3,000/day, ₹5,000/day, etc.) = BAD
 
-- Room rent at actuals/no limit
-- Pre-hosp ≥60 days, Post-hosp ≥180 days
-- Restore/Reset: Unlimited or same illness covered
-- Consumables fully covered (Protect Benefit)
-- 2X/3X/4X coverage multipliers
-- Auto SI increase regardless of claims
-- Air ambulance, No co-pay any age
-- No geography-based co-pay
-- Worldwide cover, Lifelong renewal
+4. INITIAL WAITING:
+   - 0 days = GREAT
+   - 30 days = GOOD (standard)
+   - 31+ days = BAD
 
-══════════════════════════════════════════════════════════════
-GOOD FEATURES (Market standard)
-══════════════════════════════════════════════════════════════
+5. STANDARD EXCLUSIONS - NEVER FLAG:
+   - Maternity (in base plan) = IGNORE
+   - Infertility = IGNORE
+   - Cosmetic surgery = IGNORE
+   - All other standard IRDAI exclusions = IGNORE
 
-- Room rent: Single Private AC
-- PED: 24-48 months (incl. 36 months)
-- Specific illness: 24 months
-- Initial waiting: 30 days
-- Pre-hosp: 30-59 days, Post-hosp: 60-179 days
-- Restore for different illness only
-- Co-pay 10-20% for 60+ only
-- AYUSH, Day care, Domiciliary covered
-- Ambulance, Health check-up, Donor expenses
-- Cashless network, Optional add-ons
-- Daily cash for shared room (any amount)
-- Voluntary deductible with discount
+═══════════════════════════════════════════════════════════════
+OPTIONAL COVERS / ADD-ONS - IMPORTANT DISTINCTION
+═══════════════════════════════════════════════════════════════
 
-══════════════════════════════════════════════════════════════
-RED FLAGS (Must flag if present)
-══════════════════════════════════════════════════════════════
+Many policies offer OPTIONAL covers where customers make a conscious trade-off.
+These are NOT red flags - they are CHOICES that provide flexibility.
 
-- Proportionate deduction clause
-- Room rent daily cap in rupees
-- PED >48 months, Specific illness >24 months
-- Mandatory co-pay ALL ages
-- Disease sub-limits (name exact disease + limit)
-- PPN/Network co-pay penalty (10-20% outside network)
-- No restore benefit, Consumables not covered
+RULE: If a restriction ONLY applies when customer OPTS INTO a discounted/optional cover, it is NOT a red flag.
 
-══════════════════════════════════════════════════════════════
-NEVER FLAG AS RED FLAG
-══════════════════════════════════════════════════════════════
+EXAMPLES:
 
-- 24-month specific illness (GOOD)
-- 36-month PED (GOOD)
-- 48-month PED (GOOD)
-- "Multiple exclusions" (lazy - not allowed)
-- Daily cash benefit (BONUS = GOOD)
+1. Network Advantage / Preferred Provider Network:
+   - "10% premium discount if you opt for Network Advantage"
+   - "20% co-pay applies only if you go outside Preferred Provider Network"
+   → This is GOOD (optional trade-off), NOT a red flag
+   → Customer who doesn't want restriction simply doesn't opt for it
+
+2. Co-pay Waiver Add-on:
+   - "Base plan has 10% co-pay, but co-pay waiver available as add-on"
+   → This is GOOD (flexibility offered)
+
+3. Room Rent Upgrade:
+   - "Base plan covers Single AC, upgrade to Any Room available"
+   → Base plan is GOOD, upgrade option is GREAT
+
+4. Zone-based Pricing:
+   - "Zone A premium vs Zone B premium with different network access"
+   → This is a pricing choice, not a restriction
+
+HOW TO IDENTIFY OPTIONAL VS MANDATORY:
+
+OPTIONAL (flag as GOOD or don't flag):
+- "If the Insured Person has opted for this Optional Cover..."
+- "Subject to the Insured Person choosing..."
+- "Available as an add-on..."
+- "Discount available if you choose..."
+- Customer must actively select it
+
+MANDATORY (may be RED FLAG):
+- "Applicable on all claims..."
+- "Co-payment shall be deducted..."
+- "In all cases, the insured shall bear..."
+- No opt-out mentioned
+- Applies by default to all policyholders
+
+═══════════════════════════════════════════════════════════════
+STANDARD IRDAI EXCLUSIONS - DO NOT MENTION THESE
+═══════════════════════════════════════════════════════════════
+
+Do NOT flag these anywhere (not in red flags, not in needs clarification):
+- Maternity (when not covered in base plan)
+- Infertility / Sterility treatments
+- Cosmetic / Plastic surgery
+- Obesity / Weight control programs
+- War / Nuclear / Terrorism
+- Self-inflicted injuries
+- Hazardous sports
+- Breach of law
+- Alcoholism / Drug abuse
+- Unproven treatments
+- Dental (unless accident)
+- Spectacles / Hearing aids
+- External congenital diseases
+- HIV/AIDS
+- Vaccination
+- Vitamins / Tonics
+- Investigation without diagnosis
+- Rest cures
+- Refractive error correction
+- Change of gender
+
+═══════════════════════════════════════════════════════════════
+🟩 GREAT (Best-in-class)
+═══════════════════════════════════════════════════════════════
+
+Flag as GREAT only if BETTER than market standard:
+
+| Feature | GREAT Threshold |
+|---------|-----------------|
+| Room Rent | "No limit" / "Any room" (NOT Single AC) |
+| PED Waiting | Less than 24 months |
+| Specific Illness | Less than 24 months |
+| Initial Waiting | 0 days |
+| Maternity Waiting | ≤9 months (when covered) |
+| Maternity Amount | ≥₹75,000 |
+| Restore Benefit | Same illness covered / Unlimited |
+| Consumables | Fully covered, no cap |
+| Pre-hospitalization | ≥60 days |
+| Post-hospitalization | ≥180 days |
+| Co-pay | 0% for all ages |
+| Cashless Network | >10,000 hospitals |
+| Modern Treatments | No sub-limits |
+| NCB | >50% per year |
+| Air Ambulance | Covered |
+| Domiciliary | Covered |
+| Bariatric Surgery | Covered |
+
+═══════════════════════════════════════════════════════════════
+🟨 GOOD (Industry Standard)
+═══════════════════════════════════════════════════════════════
+
+Flag as GOOD if meets market standard:
+
+| Feature | GOOD Threshold |
+|---------|----------------|
+| Room Rent | Single Private AC room |
+| PED Waiting | 24-48 months (2-4 years) |
+| Specific Illness | 24 months |
+| Initial Waiting | 30 days |
+| Maternity Waiting | 9-36 months |
+| Maternity Amount | ₹25,000-₹74,999 |
+| Restore Benefit | Unrelated illness only |
+| Consumables | Partially covered |
+| Pre-hospitalization | 30-59 days |
+| Post-hospitalization | 60-179 days |
+| Co-pay | 10-20% for 60+ only |
+| Cashless Network | 7,000-10,000 |
+| Modern Treatments | With sub-limits |
+| NCB | 10-50% per year |
+| Optional Cover Trade-offs | Network Advantage, Zone discounts, etc. |
+
+═══════════════════════════════════════════════════════════════
+🟥 BAD (Red Flags) - BE CAREFUL
+═══════════════════════════════════════════════════════════════
+
+ONLY flag as BAD if WORSE than market standard:
+
+| Feature | BAD Threshold |
+|---------|---------------|
+| Room Rent | Any daily cap (₹3K, ₹5K, ₹10K/day) |
+| Proportionate Deduction | If present |
+| PED Waiting | >48 months (more than 4 years) |
+| Specific Illness | >24 months |
+| Initial Waiting | >30 days |
+| Restore Benefit | Not available |
+| Consumables | Not covered |
+| Pre-hospitalization | <30 days |
+| Post-hospitalization | <60 days |
+| Co-pay | >20% any age OR mandatory all ages (NOT optional covers) |
+| Zone-based Co-pay | Only if MANDATORY (not if part of optional discount) |
+| Cashless Network | <7,000 hospitals |
+| Disease Sub-limits | Any (cataract ₹40K, etc.) |
+| Non-standard Exclusions | Beyond IRDAI list |
+
+DO NOT flag as BAD:
+- 36 month PED (this is GOOD)
+- 24 month specific illness (this is GOOD)
+- Single AC room (this is GOOD)
 - Standard IRDAI exclusions
-- Voluntary deductible options
+- Co-pay in OPTIONAL covers (like Network Advantage)
+- Restrictions that only apply if customer opts for a discount
+- Network limitations in optional add-ons
+- Trade-offs in add-on covers where customer gets a benefit in return
+- Zone-based pricing options (these are choices, not restrictions)
 
-STANDARD IRDAI EXCLUSIONS (never mention):
-Cosmetic, Obesity, Infertility, Maternity (base), Dental, 
-Spectacles, Vitamins, Self-harm, War, Hazardous sports, 
-Alcohol/drugs, Experimental, Vaccination, Rest cures
+═══════════════════════════════════════════════════════════════
+EXPLICIT EXAMPLES FOR OPTIONAL VS MANDATORY
+═══════════════════════════════════════════════════════════════
 
-══════════════════════════════════════════════════════════════
-UNCLEAR (Only if genuinely vague)
-══════════════════════════════════════════════════════════════
+Example 1:
+Policy says: "Network Advantage Optional Cover: 10% premium discount, 20% co-pay outside Preferred Provider Network"
+→ Categorize as: GOOD
+→ Explanation: "Optional feature offering premium savings. Co-pay only applies if you choose this option AND go outside network hospitals. You can skip this option for unrestricted access."
 
+Example 2:
+Policy says: "A co-payment of 20% shall be applicable on all claims"
+→ Categorize as: BAD
+→ Explanation: "Mandatory 20% co-pay on every claim reduces effective coverage."
+
+Example 3:
+Policy says: "Co-payment of 10% applicable for insured persons above 60 years"
+→ Categorize as: GOOD (if 10-20%)
+→ This is industry standard for senior citizens
+
+Example 4:
+Policy says: "Zone-based co-pay: 10% if treated outside your zone"
+→ Categorize as: BAD (if mandatory)
+→ Categorize as: GOOD (if part of optional discounted plan)
+
+═══════════════════════════════════════════════════════════════
+🟡 NEEDS CLARIFICATION
+═══════════════════════════════════════════════════════════════
+
+ONLY flag when GENUINELY unclear:
+- "As per company discretion" without criteria
+- Benefit mentioned but no limit specified
 - Conflicting statements
-- Benefit without details
-- "Company discretion" without criteria
+- Vague terms: "reasonable", "customary", "as decided by TPA"
 
-NOT unclear: Waiting periods, room rent terms, add-ons with prices
+DO NOT flag:
+- "Single Private AC room" - this is clear
+- "No room rent limit" - this is clear
+- Premium amounts
+- Claim process details
+- Standard IRDAI exclusions
+- Your speculation about "possible" hidden terms
+- Optional cover terms that are clearly explained
 
-══════════════════════════════════════════════════════════════
-OUTPUT
-══════════════════════════════════════════════════════════════
+═══════════════════════════════════════════════════════════════
+BONUS BENEFITS - NEVER FLAG AS RED FLAG
+═══════════════════════════════════════════════════════════════
 
-- GREAT: All that qualify (typically 4-8)
-- GOOD: All that qualify (typically 5-10)
-- RED FLAGS: ONLY genuine issues (can be 0 if none exist)
-- UNCLEAR: ONLY genuinely vague items (can be 0)
+These are EXTRA benefits. Even with limits, they are GOOD, never red flags:
 
-DO NOT invent red flags. Many good policies have 0 red flags.
+- Daily cash for shared room (₹500-1000/day) → GOOD
+- Health check-up allowance → GOOD  
+- Ambulance charges covered → GOOD
+- Wellness vouchers → GOOD
+- E-opinion / second opinion → GOOD
 
-Each feature: name, quote (<100 chars), reference, explanation (1-2 sentences, "you/your")
+WRONG: "Daily cash ₹800 for shared room" as red flag
+RIGHT: This is a BONUS - you get extra money for choosing economy option
 
-══════════════════════════════════════════════════════════════
-MUST INCLUDE (if in policy)
-══════════════════════════════════════════════════════════════
+═══════════════════════════════════════════════════════════════
+ADD-ON COVERS - DO NOT FLAG AS UNCLEAR
+═══════════════════════════════════════════════════════════════
 
-Room rent, PED waiting, Specific illness waiting, Initial waiting,
-Pre/Post hospitalization, Restore benefit, Cashless network,
-Proportionate deduction (if present), Co-pay terms (if any)
+Add-ons are optional paid features. If names and prices are listed, they are clear.
 
-══════════════════════════════════════════════════════════════
-CHECKLIST BEFORE SUBMIT
-══════════════════════════════════════════════════════════════
+- Mention in GOOD section: "Optional add-ons available for critical illness, hospital cash"
+- Only flag as UNCLEAR if terms are genuinely contradictory
 
-□ 24-month specific illness in GOOD
-□ 36/48-month PED in GOOD
-□ Pre/Post ≥60/180 in GREAT
-□ Proportionate deduction in RED FLAG (if exists)
-□ No "multiple exclusions" anywhere
-□ No IRDAI exclusions mentioned
-□ Counts match actual features`;
+═══════════════════════════════════════════════════════════════
+FINAL CHECKLIST - VERIFY BEFORE SUBMITTING
+═══════════════════════════════════════════════════════════════
+
+Before using submit_policy_analysis, verify:
+
+☐ PED 24-48 months is in GOOD (not red flags)
+☐ Specific illness 24 months is in GOOD (not red flags)
+☐ Single AC room is in GOOD (not great)
+☐ Initial 30 days is in GOOD (not red flags)
+☐ NO standard IRDAI exclusions in red flags
+☐ NO standard IRDAI exclusions in needs clarification
+☐ NO speculation in needs clarification
+☐ OPTIONAL cover trade-offs are in GOOD (not red flags)
+☐ Only MANDATORY restrictions are considered for red flags
+☐ Room rent with daily cap IS in red flags
+☐ Proportionate deduction IS in red flags (if present)
+☐ NO bonus benefits (daily cash, health checkup, ambulance) in red flags
+☐ NO add-on covers in needs clarification (unless genuinely contradictory)
+
+═══════════════════════════════════════════════════════════════
+OUTPUT REQUIREMENTS
+═══════════════════════════════════════════════════════════════
+
+1. GREAT: ALL meaningful features better than market (no cap)
+2. GOOD: ALL meaningful features meeting market standard (no cap)
+3. BAD: ALL genuine red flags (be specific, not vague)
+4. UNCLEAR: Only genuinely vague/contradictory items
+
+NOTE: Only list MEANINGFUL features that impact the customer. Do not pad with trivial items.
+
+For each feature provide:
+- name: Clear feature name
+- quote: EXACT text from document
+- reference: Section/page if available
+- explanation: Simple explanation for customer
+
+Add disclaimer: "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
+
+Now analyze the policy and submit using the tool.`;
 
 // Code-based document validation (no API call needed)
 function validateDocument(text: string): { valid: boolean; error?: string } {
@@ -301,90 +469,185 @@ serve(async (req) => {
       throw new Error('ANTHROPIC_API_KEY not configured');
     }
 
-    // Full policy analysis with retry logic
-    const MAX_RETRIES = 2;
-    let result = null;
+    // Full policy analysis
+    console.log('Running full analysis...');
     
-    for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
-      console.log(`Running analysis attempt ${attempt}/${MAX_RETRIES}...`);
-      
-      const analysisResponse = await fetch('https://api.anthropic.com/v1/messages', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'x-api-key': anthropicApiKey,
-          'anthropic-version': '2023-06-01',
-        },
-        body: JSON.stringify({
-          model: 'claude-3-5-haiku-20241022',
-          max_tokens: 8192,
-          temperature: 0.3,
-          system: analysisSystemPrompt,
-          tools: [policyAnalysisTool],
-          tool_choice: { type: "tool", name: "submit_policy_analysis" },
-          messages: [
-            {
-              role: 'user',
-              content: `Analyze this health insurance policy.
+    const analysisResponse = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'x-api-key': anthropicApiKey,
+        'anthropic-version': '2023-06-01',
+      },
+      body: JSON.stringify({
+        model: 'claude-3-5-haiku-20241022',
+        max_tokens: 8192,
+        system: analysisSystemPrompt,
+        tools: [policyAnalysisTool],
+        tool_choice: { type: "tool", name: "submit_policy_analysis" },
+        messages: [
+          {
+            role: 'user',
+            content: `Analyze this health insurance policy.
 
-CRITICAL:
-- 24-month specific illness = GOOD (NOT red flag)
-- 36-month PED = GOOD (NOT red flag)  
-- Do NOT invent red flags. 0 red flags is OK for good policies.
-- Only flag proportionate deduction if policy ACTUALLY has it.
+═══════════════════════════════════════════════════════════════
+BEFORE CATEGORIZING ANY FEATURE, ASK YOURSELF:
+═══════════════════════════════════════════════════════════════
 
-Policy:
+Question 1: "Does this feature GIVE the customer something, or TAKE AWAY?"
+- GIVES something (even with a limit) → GREAT or GOOD
+- TAKES AWAY or RESTRICTS → Could be RED FLAG
+
+Question 2: "Would removing this feature make the policy BETTER or WORSE?"
+- Removing makes it WORSE → It's a benefit → GREAT or GOOD
+- Removing makes it BETTER → It's a restriction → Could be RED FLAG
+
+Question 3: "Is this a CHOICE the customer makes, or FORCED on them?"
+- Customer CHOOSES (optional, discount trade-off) → GOOD
+- FORCED on everyone (mandatory) → Could be RED FLAG
+
+EXAMPLES OF APPLYING THESE QUESTIONS:
+
+"Daily cash ₹800 for shared room":
+- Does it GIVE or TAKE? → GIVES extra money
+- Removing it makes policy WORSE → It's a benefit
+- Answer: GOOD ✓
+
+"Room rent capped at ₹5000/day":
+- Does it GIVE or TAKE? → TAKES (limits your claim)
+- Removing it makes policy BETTER → It's a restriction
+- Answer: RED FLAG ✓
+
+"Deductible option with 25% premium discount":
+- Is it CHOICE or FORCED? → CHOICE (optional)
+- Answer: GOOD ✓
+
+"20% co-pay on all claims":
+- Is it CHOICE or FORCED? → FORCED (mandatory)
+- Answer: RED FLAG ✓
+
+"36 months PED waiting period":
+- Is this worse than market? → NO (market allows up to 48 months)
+- Answer: GOOD ✓
+
+═══════════════════════════════════════════════════════════════
+THINGS THAT SHOULD NEVER BE RED FLAGS:
+═══════════════════════════════════════════════════════════════
+
+- Any feature that GIVES you extra money/benefit (daily cash, vouchers, health checkup allowance)
+- Any OPTIONAL discount/trade-off the customer can choose or skip
+- Waiting periods at or below market standard (PED ≤48 months, Specific ≤24 months)
+- Standard IRDAI exclusions (listed below)
+
+STANDARD IRDAI EXCLUSIONS - DO NOT FLAG THESE:
+These are in EVERY health insurance policy. Never flag them or mention "policy has many exclusions":
+- Cosmetic/plastic surgery
+- Obesity/weight control
+- Infertility/sterility
+- Maternity (if not covered in base plan)
+- Dental (unless accident)
+- Spectacles/contact lenses
+- Vitamins/tonics/supplements
+- Self-inflicted injuries
+- War/nuclear/terrorism
+- Hazardous sports/activities
+- Alcohol/drug abuse
+- Experimental/unproven treatments
+- Vaccination (preventive)
+- Rest cures/convalescence
+- Change of gender
+- Refractive error correction
+- External congenital conditions
+
+LAZY ANALYSIS - DO NOT DO THIS:
+- ❌ WRONG: "Policy has numerous exclusions" as RED FLAG
+- ❌ WRONG: "Multiple exclusions may limit claims" as RED FLAG
+- ❌ WRONG: "Various specific exclusions beyond IRDAI" as RED FLAG without naming them
+
+HOW TO HANDLE EXCLUSIONS:
+1. SPECIFIC non-standard exclusion found (e.g., "Knee replacement capped at ₹1.5L"):
+   → Flag as RED FLAG with exact details
+
+2. Non-standard exclusions seem to exist but details are unclear:
+   → Flag as UNCLEAR: "Policy appears to have exclusions beyond IRDAI standard list. Verify specific exclusions with insurer before purchasing."
+
+3. Only standard IRDAI exclusions found:
+   → Do NOT flag at all
+
+REMEMBER: Vague red flags are useless. Either be specific (RED FLAG) or ask for clarification (UNCLEAR).
+
+THINGS THAT SHOULD NEVER BE "UNCLEAR":
+
+- Deductible/discount options (these are clear choices)
+- Add-on covers with listed names and prices
+- Standard waiting periods
+- Clear room rent terms ("at actuals", "single AC", "₹5000/day")
+
+═══════════════════════════════════════════════════════════════
+
+FINAL CHECK - READ CAREFULLY:
+
+═══════════════════════════════════════════════════════════════
+
+- PED waiting 36 months or less = GOOD (IRDAI allows up to 48 months, so 36 is standard)
+- PED waiting 48 months or less = GOOD (still within IRDAI limit)
+- PED waiting 49+ months = RED FLAG (exceeds IRDAI limit)
+- "Room rent at actuals" = GREAT (this means NO LIMIT - best possible term)
+- "Room rent: no limit" = GREAT
+- "Room rent: any room" = GREAT
+
+DO NOT flag these as red flags or unclear:
+- 36 month PED waiting (this is GOOD, not a red flag)
+- "Room rent at actuals" (this is GREAT, not unclear)
+
+If you flag 36-month PED as red flag, you are WRONG.
+If you flag "room rent at actuals" as unclear, you are WRONG.
+
+═══════════════════════════════════════════════════════════════
+
+Now analyze this policy:
+
 ${sanitizedPolicyText}`
-            }
-          ]
-        }),
-      });
+          }
+        ]
+      }),
+    });
 
-      if (!analysisResponse.ok) {
-        const errorText = await analysisResponse.text();
-        console.error('Analysis error:', analysisResponse.status, errorText);
-        throw new Error(`Policy analysis failed: ${analysisResponse.status}`);
-      }
+    if (!analysisResponse.ok) {
+      const errorText = await analysisResponse.text();
+      console.error('Analysis error:', analysisResponse.status, errorText);
+      throw new Error(`Policy analysis failed: ${analysisResponse.status}`);
+    }
 
-      const analysisData = await analysisResponse.json();
-      
-      // Log API response details for debugging
-      console.log('API response stop_reason:', analysisData.stop_reason);
-      console.log('API response usage:', JSON.stringify(analysisData.usage));
-      
-      const analysisToolUse = analysisData.content?.find((block: any) => block.type === 'tool_use');
-      
-      if (!analysisToolUse || analysisToolUse.type !== 'tool_use') {
-        console.error('Invalid response format. Content:', JSON.stringify(analysisData.content));
-        throw new Error('Policy analysis failed - invalid response format');
-      }
+    const analysisData = await analysisResponse.json();
+    
+    // Log API response details for debugging
+    console.log('API response stop_reason:', analysisData.stop_reason);
+    console.log('API response usage:', JSON.stringify(analysisData.usage));
+    
+    const analysisToolUse = analysisData.content?.find((block: any) => block.type === 'tool_use');
+    
+    if (!analysisToolUse || analysisToolUse.type !== 'tool_use') {
+      console.error('Invalid response format. Content:', JSON.stringify(analysisData.content));
+      throw new Error('Policy analysis failed - invalid response format');
+    }
 
-      result = analysisToolUse.input;
-      
-      // Log feature counts
-      const featureCounts = {
-        policy: result.policyName,
-        insurer: result.insurer,
-        great: result.features?.great?.length || 0,
-        good: result.features?.good?.length || 0,
-        bad: result.features?.bad?.length || 0,
-        unclear: result.features?.unclear?.length || 0,
-      };
-      console.log('Analysis complete:', JSON.stringify(featureCounts));
-      
-      // Check if we got features
-      const totalFeatures = featureCounts.great + featureCounts.good + featureCounts.bad + featureCounts.unclear;
-      if (totalFeatures > 0) {
-        console.log('Features extracted successfully, returning result');
-        break;
-      }
-      
-      // No features found, retry if we have attempts left
-      if (attempt < MAX_RETRIES) {
-        console.warn(`WARNING: No features extracted on attempt ${attempt}. Retrying...`);
-      } else {
-        console.error('ERROR: No features extracted after all retries!');
-      }
+    const result = analysisToolUse.input;
+    
+    // Log feature counts
+    const featureCounts = {
+      policy: result.policyName,
+      insurer: result.insurer,
+      great: result.features?.great?.length || 0,
+      good: result.features?.good?.length || 0,
+      bad: result.features?.bad?.length || 0,
+      unclear: result.features?.unclear?.length || 0,
+    };
+    console.log('Analysis complete:', JSON.stringify(featureCounts));
+    
+    // Warn if no features found
+    if (featureCounts.great === 0 && featureCounts.good === 0 && featureCounts.bad === 0) {
+      console.warn('WARNING: No features extracted! This may indicate a problem.');
     }
 
     return new Response(JSON.stringify(result), {
