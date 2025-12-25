@@ -373,10 +373,12 @@ Before using submit_policy_analysis, verify:
 OUTPUT REQUIREMENTS
 ═══════════════════════════════════════════════════════════════
 
-1. GREAT: 5-8 features better than market
-2. GOOD: 3-5 features meeting market standard
-3. BAD: ALL genuine red flags (do not minimize)
-4. UNCLEAR: Only genuinely vague items
+1. GREAT: ALL meaningful features better than market (no cap)
+2. GOOD: ALL meaningful features meeting market standard (no cap)
+3. BAD: ALL genuine red flags (be specific, not vague)
+4. UNCLEAR: Only genuinely vague/contradictory items
+
+NOTE: Only list MEANINGFUL features that impact the customer. Do not pad with trivial items.
 
 For each feature provide:
 - name: Clear feature name
