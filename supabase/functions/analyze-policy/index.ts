@@ -5,31 +5,6 @@ const corsHeaders = {
   'Access-Control-Allow-Headers': 'authorization, x-client-info, apikey, content-type',
 };
 
-// Document validation tool
-const documentValidationTool = {
-  name: "validate_document",
-  description: "Validate if the uploaded document is a health insurance policy document from India",
-  input_schema: {
-    type: "object" as const,
-    properties: {
-      isHealthInsurance: {
-        type: "boolean",
-        description: "True if this is a health insurance policy, brochure, or policy wording document from India"
-      },
-      documentType: {
-        type: "string",
-        enum: ["Health Insurance Policy", "Health Insurance Brochure", "Policy Schedule", "Not Health Insurance"],
-        description: "Type of document detected"
-      },
-      reason: {
-        type: "string",
-        description: "Brief explanation of why this is or isn't a health insurance document"
-      }
-    },
-    required: ["isHealthInsurance", "documentType", "reason"]
-  }
-};
-
 // Policy analysis tool
 const policyAnalysisTool = {
   name: "submit_policy_analysis",
@@ -387,6 +362,23 @@ Add disclaimer: "Standard IRDAI exclusions apply. Please verify all details with
 
 Now analyze the policy and submit using the tool.`;
 
+// Code-based document validation (no API call needed)
+function validateDocument(text: string): { valid: boolean; error?: string } {
+  if (!text || text.length < 500) {
+    return { valid: false, error: "Document too short. Please upload complete policy." };
+  }
+  
+  const lower = text.substring(0, 10000).toLowerCase();
+  const healthKeywords = ['health insurance', 'hospitalization', 'sum insured', 'cashless', 'waiting period', 'room rent', 'co-pay', 'irdai', 'claim', 'pre-existing'];
+  const matches = healthKeywords.filter(k => lower.includes(k)).length;
+  
+  if (matches < 3) {
+    return { valid: false, error: "This doesn't appear to be a health insurance policy. Please upload a valid policy document." };
+  }
+  
+  return { valid: true };
+}
+
 serve(async (req) => {
   if (req.method === 'OPTIONS') {
     return new Response(null, { headers: corsHeaders });
@@ -429,82 +421,28 @@ serve(async (req) => {
 
     console.log(`Analyzing policy text (${sanitizedPolicyText.length} characters)`);
 
+    // Validate document using code (no API call needed)
+    const validation = validateDocument(sanitizedPolicyText);
+    if (!validation.valid) {
+      return new Response(
+        JSON.stringify({ 
+          error: 'invalid_document',
+          message: validation.error,
+          detectedType: 'Not Health Insurance'
+        }),
+        { status: 400, headers: { ...corsHeaders, 'Content-Type': 'application/json' } }
+      );
+    }
+    console.log('Document validation passed (code-based)');
+
     const anthropicApiKey = Deno.env.get('ANTHROPIC_API_KEY');
     if (!anthropicApiKey) {
       console.error('ANTHROPIC_API_KEY not configured');
       throw new Error('ANTHROPIC_API_KEY not configured');
     }
 
-    // STEP 1: Validate document type
-    console.log('Step 1: Validating document type...');
-    
-    const validationResponse = await fetch('https://api.anthropic.com/v1/messages', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'x-api-key': anthropicApiKey,
-        'anthropic-version': '2023-06-01',
-      },
-      body: JSON.stringify({
-        model: 'claude-3-5-haiku-20241022',
-        max_tokens: 500,
-        tools: [documentValidationTool],
-        tool_choice: { type: "tool", name: "validate_document" },
-        messages: [
-          {
-            role: 'user',
-            content: `Check if this is a health insurance document from India.
-
-Health insurance documents contain: hospitalization, sum insured, cashless, pre-existing disease, waiting period, room rent, ICU, IRDAI.
-
-NOT health insurance: life insurance, motor insurance, travel insurance, bank statements, invoices, resumes, non-Indian documents.
-
-Use validate_document tool.
-
-Document (first 2000 chars):
-${sanitizedPolicyText.substring(0, 2000)}`
-          }
-        ]
-      }),
-    });
-
-    if (!validationResponse.ok) {
-      const errorText = await validationResponse.text();
-      console.error('Validation error:', validationResponse.status, errorText);
-      throw new Error(`Document validation failed: ${validationResponse.status}`);
-    }
-
-    const validationData = await validationResponse.json();
-    const validationToolUse = validationData.content?.find((block: any) => block.type === 'tool_use');
-    
-    if (!validationToolUse || validationToolUse.type !== 'tool_use') {
-      throw new Error('Document validation failed - invalid response format');
-    }
-
-    const validation = validationToolUse.input as {
-      isHealthInsurance: boolean;
-      documentType: string;
-      reason: string;
-    };
-
-    console.log('Validation result:', validation);
-
-    if (!validation.isHealthInsurance) {
-      return new Response(
-        JSON.stringify({ 
-          error: 'invalid_document',
-          message: `This doesn't appear to be a health insurance policy document. Detected: ${validation.documentType}. ${validation.reason}. Please upload a health insurance policy wording, brochure, or policy schedule.`,
-          detectedType: validation.documentType
-        }),
-        { 
-          status: 400,
-          headers: { ...corsHeaders, 'Content-Type': 'application/json' },
-        }
-      );
-    }
-
-    // STEP 2: Full analysis
-    console.log('Step 2: Running full analysis...');
+    // Full policy analysis
+    console.log('Running full analysis...');
     
     const analysisResponse = await fetch('https://api.anthropic.com/v1/messages', {
       method: 'POST',
