@@ -634,23 +634,48 @@ ${sanitizedPolicyText}`
 
     const result = analysisToolUse.input;
     
+    // Debug: Log the raw result structure to understand what we're getting
+    console.log('Raw result keys:', Object.keys(result).join(', '));
+    console.log('Raw result sample:', JSON.stringify(result).substring(0, 500));
+    
+    // Check if features are nested under 'features' or at root level
+    const features = result.features || {
+      great: result.great || [],
+      good: result.good || [],
+      bad: result.bad || [],
+      unclear: result.unclear || []
+    };
+    
     // Log feature counts
     const featureCounts = {
       policy: result.policyName,
       insurer: result.insurer,
-      great: result.features?.great?.length || 0,
-      good: result.features?.good?.length || 0,
-      bad: result.features?.bad?.length || 0,
-      unclear: result.features?.unclear?.length || 0,
+      great: features.great?.length || 0,
+      good: features.good?.length || 0,
+      bad: features.bad?.length || 0,
+      unclear: features.unclear?.length || 0,
     };
     console.log('Analysis complete:', JSON.stringify(featureCounts));
     
     // Warn if no features found
     if (featureCounts.great === 0 && featureCounts.good === 0 && featureCounts.bad === 0) {
       console.warn('WARNING: No features extracted! This may indicate a problem.');
+      console.warn('Features object:', JSON.stringify(features).substring(0, 500));
     }
+    
+    // Ensure the response has the expected structure
+    const normalizedResult = {
+      ...result,
+      features: features,
+      summary: result.summary || {
+        great: featureCounts.great,
+        good: featureCounts.good,
+        bad: featureCounts.bad,
+        unclear: featureCounts.unclear
+      }
+    };
 
-    return new Response(JSON.stringify(result), {
+    return new Response(JSON.stringify(normalizedResult), {
       headers: { ...corsHeaders, 'Content-Type': 'application/json' },
     });
 
