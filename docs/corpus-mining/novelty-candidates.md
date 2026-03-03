@@ -1,0 +1,4903 @@
+# Novelty Candidates (pattern-based)
+
+This report lists evidence snippets around key clause patterns. “Rare/uncommon” patterns are good candidates for special features.
+
+## policy-wording/aditya-birla/Activ_Assured_Diamond.pdf
+
+- **rare** (df=1) — `maximum liability shall not exceed` — page 14
+  - snippet: Sum Insured shall be available unlimited times during the Policy Period. It is, however clariﬁed that in case of a single claim payout, Our maximum liability shall not exceed the limit as speciﬁed in the Policy Schedule/Product Beneﬁt Table of this Policy. (ii) No Claim Bonus (Section C.II.(l)) and Super NCB (Sec
+- **common** (df=55) — `air ambulance` — page 11
+  - snippet: l or alleged errors, omissions and representations made by the Medical Practitioner. ( o) Domestic Emergency Assistance Services (including Air Ambulance) What is covered We will provide the Emergency medical assistance as described below when an Insured Person is travelling, within India for
+- **common** (df=55) — `air ambulance` — page 12
+  - snippet: triate a child born while the Insured Person was traveling beyond the 28th week. (p) International Emergency Assistance Services (including Air Ambulance) What is covered We will provide the Emergency medical assistance outside India as described below when an Insured Person is travelling 150
+- **common** (df=55) — `air ambulance` — page 26
+  - snippet: mail • Health Assessment TM • HealthReturns TM • Health Check-up Program • Health Coach • Domestic Emergency Assistance Services (including Air Ambulance) • International Emergency Assistance Services (including Air Ambulance) • Second E-Opinion on Critical Illnesses III. Claims Assessment & 
+- **common** (df=93) — `ayush` — page 1
+  - snippet: Period. I. Standard Deﬁnitions 1. Accident means sudden, unforeseen and involuntary event caused by external, visible and violent means. 2. AYUSH Hospital is a healthcare facility wherein medical/surgical/para-surgical treatment procedures and interventions are carried out by AYUSH Me
+- **common** (df=93) — `ayush` — page 5
+  - snippet: nt Hospitalization under Section CI.(a) or Day Care Treatment under Section C.I.(d) or Domiciliary Hospitalization under Section C.I.(e) or Ayush (In-patient Hospitalization) under Section C.I.(i)for the same Illness/Injury; (ii) The date of admission to Hospital for the purpose of th
+- **common** (df=93) — `ayush` — page 6
+  - snippet: nt Hospitalization under Section CI.(a) or Day Care Treatment under Section C.I.(d) or Domiciliary Hospitalization under Section C.I.(e) or Ayush (In-patient Hospitalization) under Section C.I.(i)for the same Illness/Injury; (ii) The date of admission to Hospital for the purpose of th
+- **common** (df=93) — `ayush` — page 7
+  - snippet:  speciﬁed in the Policy Schedule); and (4) The reloaded Sum Insured; and (5) Unlimited Reload of Sum Insured; and (6) HealthReturns TM. (i) Ayush (In-patient Hospitalization) What is covered We shall cover up to the limits as speciﬁed in the Policy Schedule / Product Beneﬁt Table of t
+- **common** (df=93) — `ayush` — page 13
+  - snippet: Non-Medical Expenses’ that would not otherwise be payable under the Policy. (v) Out-patient expenses up to the value of accrued funds. (vi) Ayush Treatments in excess of the limits as speciﬁed in Policy Schedule / Product Beneﬁt Table of this Policy. (vii)Payment of Premium for any ot
+- **common** (df=93) — `ayush` — page 33
+  - snippet: ospital Aaradhya Multispeciality Hospital Aashirvad Multispeciality Hospital Ahuja Hospital Anand Hospital Ardent Hospital Arogaya Hospital Ayush General and Children Hospital Ayush Hospital and Research Centre Balaji Hospital (Hisar) Care & Cure Divine Services Private Limited Chitra
+- **common** (df=87) — `co-?pay(?:ment)?` — page 1
+  - snippet: h the policy terms and conditions, are directly made to the Network Provider by the insurer to the extent pre-authorization is approved. 7. Co-payment means a cost sharing requirement under a health insurance policy that provides that the policyholder/insured will bear a speciﬁed percent a
+- **common** (df=87) — `co-?pay(?:ment)?` — page 13
+  - snippet: ited Reload of Sum Insured (if opted and available) are exhausted during the Policy Year as speciﬁed in section E.(II).(30) (ii) Payment of Co-payment (wherever applicable). (iii) For non-payable claims, in case of an In-patient Hospitalization or Day Care Treatment. (iv) Non-Medical Expen
+- **common** (df=87) — `co-?pay(?:ment)?` — page 15
+  - snippet:  section C.I.(a) in a Hospital other than those listed as “Preferred Provider Network”, then the Policyholder / Insured Person shall bear a Co-Payment of 10% on each and every claim arising in such regard, which will be in addition to any other Co-Payment applicable under the Policy. ii. T
+- **common** (df=87) — `co-?pay(?:ment)?` — page 24
+  - snippet:  not eligible for a speciﬁc limit, then may choose to utilize from the next available limit in the given sequence as may be applicable. 31. Co-payment At the time of inception of initial policy (ﬁrst policy) with Us, if the Age (Age at entry) of the Insured Person or eldest Insured Person 
+- **common** (df=72) — `consumable` — page 5
+  - snippet: ng fees of specialists and anaesthetists treating the Insured Person; (5) Qualiﬁed Nurses charges; (6) Medicines, drugs and other allowable consumables prescribed by the treating Medical Practitioner; (7) Investigative tests or diagnostic procedures directly related to the Injury/Illness f
+- **common** (df=72) — `consumable` — page 6
+  - snippet: ng fees of specialists and anaesthetists treating the Insured Person; (5) Qualiﬁed Nurses charges; (6) Medicines, drugs and other allowable consumables prescribed by the treating Medical Practitioner; (7) Investigative tests or diagnostic procedures directly related to the Injury/Illness f
+- **common** (df=72) — `consumable` — page 15
+  - snippet: • Qualiﬁed Nurses’ charges; • Medicines, drugs and other allowable consumables prescribed by the treating Medical Practitioner; • Investigative tests or diagnostic procedures directly related to the Injury/Illness for
+- **common** (df=93) — `day care` — page 1
+  - snippet: ut; iv. Maintaining daily records of the patients and making them accessible to the insurance company's authorized representative. 3. AYUSH Day care Center means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, Polyclinic or any such health cen
+- **common** (df=93) — `day care` — page 2
+  - snippet: . Cumulative Bonus means any increase or addition in the Sum Insured granted by the insurer without any associated increase in premium. 11. Day Care Treatment means medical treatment, and/or surgical procedure which is: i. undertaken under General or Local Anaesthesia in a hospital/day c
+- **common** (df=93) — `day care` — page 3
+  - snippet: intly by an Insurer and TPA to provide medical services to an insured by a cashless facility. 32. Non- Network Provider means any hospital, day care centre or other provider that is not part of the network. 33. Notiﬁcation of Claim means the process of intimating a claim to the insurer o
+- **common** (df=93) — `day care` — page 5
+  - snippet: e shall cover the Medical Expenses for the following modern treatment procedures under section C .I. a. In-Patient Hospitalization or C.1.d Day Care Treatment arising out of an Insured Person’s Hospitalization following an Illness or Injury that’s diagnosed during the Policy Period up to
+- **common** (df=93) — `day care` — page 6
+  - snippet: e shall cover the Medical Expenses for the following modern treatment procedures under section C .I. a. In-Patient Hospitalization or C.1.d Day Care Treatment arising out of an Insured Person’s Hospitalization following an Illness or Injury that’s diagnosed during the Policy Period up to
+- **common** (df=93) — `day care` — page 7
+  - snippet: (i) A claim shall be admissible under this Beneﬁt only if the claim is admissible under In-patient Hospitalization under Section C.I.(a) or Day Care Treatment under Section C.I.(d). (ii) The reload of Sum Insured shall not apply to the ﬁrst claim in the Policy Year. (iii) The reload of S
+- **common** (df=93) — `day care` — page 13
+  - snippet:  one spend HealthReturnsTM: Funds under HealthReturnsTM may be utilized towards the following expenses: (i) In-patient Medical Expenses and Day Care Treatment, provided that the Sum Insured, No Claim Bonus(if any), Super NCB(if any), Accidental Hospitalization Booster(if opted as speciﬁe
+- **common** (df=93) — `day care` — page 18
+  - snippet: ut not limited to Vitamins, minerals and organic substances unless prescribed by a medical practitioner as part of hospitalization claim or day care procedure (Code- Excl14) 15. Refractive Error:(Code- Excl15) - Expenses related to the treatment for correction of eye sight due to refract
+
+## policy-wording/aditya-birla/Activ_Care_Classic.pdf
+
+- **common** (df=55) — `air ambulance` — page 8
+  - snippet: will be given the choice of NCB and NCD in case of last policy year being claim free. (m) Domestic Emergency Assistance Services (including Air Ambulance) What is covered We will provide the Emergency medical assistance as described below when an Insured Person is travelling, within India for
+- **common** (df=55) — `air ambulance` — page 9
+  - snippet: triate a child born while the Insured Person was traveling beyond the 28th week. (n) International Emergency Assistance Services (including Air Ambulance) What is covered We will provide the Emergency medical assistance outside India as described below when an Insured Person is travelling 150
+- **common** (df=55) — `air ambulance` — page 10
+  - snippet: triate a child born while the Insured Person was traveling beyond the 28th week. (n) International Emergency Assistance Services (including Air Ambulance) What is covered We will provide the Emergency medical assistance outside India as described below when an Insured Person is travelling 150
+- **common** (df=93) — `ayush` — page 1
+  - snippet:  versa. I. Standard Deﬁnitions 1. Accident means sudden, unforeseen and involuntary event caused by external, visible and violent means. 2. AYUSH Hospital is a healthcare facility wherein medical/surgical/para-surgical treatment procedures and interventions are carried out by AYUSH Me
+- **common** (df=93) — `ayush` — page 5
+  - snippet: Hospitalization under Section C (I)(a) or Day Care Treatment under Section B (I)(d) or Domiciliary Hospitalization under section C (I)(e)or Ayush (In-patient Hospitalization) under Section C.I.(i) for the same Illness/Injury; (ii) The date of admission to Hospital for the purpose of t
+- **common** (df=93) — `ayush` — page 6
+  - snippet: exceed the sum of: (1) The Sum Insured; and (2) No Claim Bonus; and (3) The reloaded Sum Insured; and (4) HealthReturns TM(If earned). ( i) Ayush (In-patient Hospitalization) What is covered We shall cover, up to the limits as speciﬁed in the Policy Schedule / Product Beneﬁt Table of 
+- **common** (df=93) — `ayush` — page 9
+  - snippet: and diagnostic tests which are incurred on an out-patient basis up to the limits as speciﬁed in the Policy Schedule / Product Beneﬁt Table. Ayush Treatment for OPD shall also be covered under this Beneﬁt. Conditions I. These services can be availed at Our Network Provider / Empanelled
+- **common** (df=93) — `ayush` — page 10
+  - snippet: and diagnostic tests which are incurred on an out-patient basis up to the limits as speciﬁed in the Policy Schedule / Product Beneﬁt Table. Ayush Treatment for OPD shall also be covered under this Beneﬁt. Conditions I. These services can be availed at Our Network Provider / Empanelled
+- **common** (df=93) — `ayush` — page 12
+  - snippet: Non-Medical Expenses’ that would not otherwise be payable under the Policy. (v) Out-patient expenses up to the value of accrued funds. (vi) Ayush Treatments in excess of the limits as speciﬁed in Policy Schedule / Product Beneﬁt Table of this Policy. Alternatively, funds can also be u
+- **common** (df=87) — `co-?pay(?:ment)?` — page 1
+  - snippet: h the policy terms and conditions, are directly made to the Network Provider by the insurer to the extent pre-authorization is approved. 7. Co-payment means a cost sharing requirement under a health insurance policy that provides that the policyholder/insured will bear a speciﬁed percent a
+- **common** (df=87) — `co-?pay(?:ment)?` — page 4
+  - snippet: ﬁts under this Section C.I are subject to the terms, conditions and exclusions of this Policy. The Sum Insured and/or the Sub-limit and /or Co-Payment as may be applicable for each Beneﬁt under Section C.I is speciﬁed against that Beneﬁt in the Policy Schedule / Product Beneﬁt Table of thi
+- **common** (df=87) — `co-?pay(?:ment)?` — page 12
+  - snippet: Claim Bonus (if any) and Reloaded Sum Insured (if any) are exhausted during the Policy Year as speciﬁed in section E.II.31. (ii) Payment of Co-payment (wherever applicable). (iii) For non-payable claims, in case of an In-patient Hospitalization or Day Care Treatment. (iv) Non-Medical Expen
+- **common** (df=87) — `co-?pay(?:ment)?` — page 13
+  - snippet: Beneﬁts under this Section are subject to the terms, conditions and exclusions of this Policy. The Sum Insured and/or the Sub-limit and /or Co-Payment as may be applicable for each Beneﬁt under Section C.IV is speciﬁed against that Beneﬁt in the Policy Schedule / Product Beneﬁt Table of th
+- **common** (df=87) — `co-?pay(?:ment)?` — page 15
+  - snippet: neﬁts under this Section V are subject to the terms, conditions and exclusions of this Policy. The Sum Insured and/or the Sub-Limit and /or Co-Payment as may be applicable for each Beneﬁt under Section C.V is speciﬁed against that Beneﬁt in the Policy Schedule / Product Beneﬁt Table of thi
+- **common** (df=87) — `co-?pay(?:ment)?` — page 23
+  - snippet:  not eligible for a speciﬁc limit, then may choose to utilize from the next available limit in the given sequence as may be applicable. 32. Co-payment At the time of inception of initial policy (ﬁrst policy) with Us, if the Age (Age at entry) of the Insured Person or eldest Insured Person 
+- **common** (df=87) — `co-?pay(?:ment)?` — page 24
+  - snippet:  not eligible for a speciﬁc limit, then may choose to utilize from the next available limit in the given sequence as may be applicable. 32. Co-payment At the time of inception of initial policy (ﬁrst policy) with Us, if the Age (Age at entry) of the Insured Person or eldest Insured Person 
+- **common** (df=72) — `consumable` — page 5
+  - snippet: hysicians, specialists and anaesthetists treating the Insured Person; (5) Qualiﬁed Nurses charges; (6) Medicines, drugs and other allowable consumables prescribed by the treating Medical Practitioner; (7) Investigative tests or diagnostic procedures directly related to the Injury/Illness f
+- **common** (df=93) — `day care` — page 1
+  - snippet: ut; iv. Maintaining daily records of the patients and making them accessible to the insurance company's authorized representative. 3. AYUSH Day care Center - means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, Polyclinic or any such health c
+- **common** (df=93) — `day care` — page 2
+  - snippet: . Cumulative Bonus means any increase or addition in the Sum Insured granted by the insurer without any associated increase in premium. 11. Day Care Treatment means medical treatment, and/or surgical procedure which is: i. undertaken under General or Local Anaesthesia in a hospital/day c
+- **common** (df=93) — `day care` — page 3
+  - snippet: intly by an Insurer and TPA to provide medical services to an insured by a cashless facility. 31. Non- Network Provider means any hospital, day care centre or other provider that is not part of the network. 32. Notiﬁcation of Claim means the process of intimating a claim to the insurer o
+- **common** (df=93) — `day care` — page 5
+  - snippet: jury that occurs during the Policy Period. Conditions (i) We have accepted a claim for In-patient Hospitalization under Section C (I)(a) or Day Care Treatment under Section B (I)(d) or Domiciliary Hospitalization under section C (I)(e)or Ayush (In-patient Hospitalization) under Section C
+- **common** (df=93) — `day care` — page 6
+  - snippet: (i) A claim shall be admissible under this Beneﬁt only if the claim is admissible under In-patient Hospitalization under Section C(I)(a) or Day Care Treatment under Section C(I) (d). (ii) The reload of Sum Insured shall not apply to the ﬁrst claim in the Policy Year. (iii) The reload of 
+- **common** (df=93) — `day care` — page 12
+  - snippet: one spend HealthReturnsTM: Funds under HealthReturns TM may be utilized towards the following expenses: (i) In-patient Medical Expenses and Day Care Treatment, provided that the Sum Insured, No Claim Bonus (if any) and Reloaded Sum Insured (if any) are exhausted during the Policy Year as
+- **common** (df=93) — `day care` — page 13
+  - snippet: o be provided to the Insured Person a0t his/her home; III. We have accepted a claim for In-patient Hospitalization under Section C(I)(a) or Day Care Treatment under Section C (I)(d) for the same Illness/Injury; IV. Section D.I.5 & D.II.27of the Exclusions and exclusion no. 52as speciﬁed 
+- **common** (df=93) — `day care` — page 17
+  - snippet: ut not limited to Vitamins, minerals and organic substances unless prescribed by a medical practitioner as part of hospitalization claim or day care procedure (Code- Excl14) 15. Refractive Error:(Code- Excl15) - Expenses related to the treatment for correction of eye sight due to refract
+
+## policy-wording/aditya-birla/Activ_Care_Premier.pdf
+
+- **common** (df=55) — `air ambulance` — page 8
+  - snippet: will be given the choice of NCB and NCD in case of last policy year being claim free. (m) Domestic Emergency Assistance Services (including Air Ambulance) What is covered We will provide the Emergency medical assistance as described below when an Insured Person is travelling, within India for
+- **common** (df=55) — `air ambulance` — page 9
+  - snippet: triate a child born while the Insured Person was traveling beyond the 28th week. (n) International Emergency Assistance Services (including Air Ambulance) What is covered We will provide the Emergency medical assistance outside India as described below when an Insured Person is travelling 150
+- **common** (df=55) — `air ambulance` — page 10
+  - snippet: triate a child born while the Insured Person was traveling beyond the 28th week. (n) International Emergency Assistance Services (including Air Ambulance) What is covered We will provide the Emergency medical assistance outside India as described below when an Insured Person is travelling 150
+- **common** (df=93) — `ayush` — page 1
+  - snippet:  versa. I. Standard Deﬁnitions 1. Accident means sudden, unforeseen and involuntary event caused by external, visible and violent means. 2. AYUSH Hospital is a healthcare facility wherein medical/surgical/para-surgical treatment procedures and interventions are carried out by AYUSH Me
+- **common** (df=93) — `ayush` — page 5
+  - snippet: Hospitalization under Section C (I)(a) or Day Care Treatment under Section B (I)(d) or Domiciliary Hospitalization under section C (I)(e)or Ayush (In-patient Hospitalization) under Section C.I.(i) for the same Illness/Injury; (ii) The date of admission to Hospital for the purpose of t
+- **common** (df=93) — `ayush` — page 6
+  - snippet: exceed the sum of: (1) The Sum Insured; and (2) No Claim Bonus; and (3) The reloaded Sum Insured; and (4) HealthReturns TM(If earned). ( i) Ayush (In-patient Hospitalization) What is covered We shall cover, up to the limits as speciﬁed in the Policy Schedule / Product Beneﬁt Table of 
+- **common** (df=93) — `ayush` — page 9
+  - snippet: and diagnostic tests which are incurred on an out-patient basis up to the limits as speciﬁed in the Policy Schedule / Product Beneﬁt Table. Ayush Treatment for OPD shall also be covered under this Beneﬁt. Conditions I. These services can be availed at Our Network Provider / Empanelled
+- **common** (df=93) — `ayush` — page 10
+  - snippet: and diagnostic tests which are incurred on an out-patient basis up to the limits as speciﬁed in the Policy Schedule / Product Beneﬁt Table. Ayush Treatment for OPD shall also be covered under this Beneﬁt. Conditions I. These services can be availed at Our Network Provider / Empanelled
+- **common** (df=93) — `ayush` — page 12
+  - snippet: Non-Medical Expenses’ that would not otherwise be payable under the Policy. (v) Out-patient expenses up to the value of accrued funds. (vi) Ayush Treatments in excess of the limits as speciﬁed in Policy Schedule / Product Beneﬁt Table of this Policy. Alternatively, funds can also be u
+- **common** (df=87) — `co-?pay(?:ment)?` — page 1
+  - snippet: h the policy terms and conditions, are directly made to the Network Provider by the insurer to the extent pre-authorization is approved. 7. Co-payment means a cost sharing requirement under a health insurance policy that provides that the policyholder/insured will bear a speciﬁed percent a
+- **common** (df=87) — `co-?pay(?:ment)?` — page 4
+  - snippet: ﬁts under this Section C.I are subject to the terms, conditions and exclusions of this Policy. The Sum Insured and/or the Sub-limit and /or Co-Payment as may be applicable for each Beneﬁt under Section C.I is speciﬁed against that Beneﬁt in the Policy Schedule / Product Beneﬁt Table of thi
+- **common** (df=87) — `co-?pay(?:ment)?` — page 12
+  - snippet: Claim Bonus (if any) and Reloaded Sum Insured (if any) are exhausted during the Policy Year as speciﬁed in section E.II.31. (ii) Payment of Co-payment (wherever applicable). (iii) For non-payable claims, in case of an In-patient Hospitalization or Day Care Treatment. (iv) Non-Medical Expen
+- **common** (df=87) — `co-?pay(?:ment)?` — page 13
+  - snippet: Beneﬁts under this Section are subject to the terms, conditions and exclusions of this Policy. The Sum Insured and/or the Sub-limit and /or Co-Payment as may be applicable for each Beneﬁt under Section C.IV is speciﬁed against that Beneﬁt in the Policy Schedule / Product Beneﬁt Table of th
+- **common** (df=87) — `co-?pay(?:ment)?` — page 15
+  - snippet: neﬁts under this Section V are subject to the terms, conditions and exclusions of this Policy. The Sum Insured and/or the Sub-Limit and /or Co-Payment as may be applicable for each Beneﬁt under Section C.V is speciﬁed against that Beneﬁt in the Policy Schedule / Product Beneﬁt Table of thi
+- **common** (df=87) — `co-?pay(?:ment)?` — page 23
+  - snippet:  not eligible for a speciﬁc limit, then may choose to utilize from the next available limit in the given sequence as may be applicable. 32. Co-payment At the time of inception of initial policy (ﬁrst policy) with Us, if the Age (Age at entry) of the Insured Person or eldest Insured Person 
+- **common** (df=87) — `co-?pay(?:ment)?` — page 24
+  - snippet:  not eligible for a speciﬁc limit, then may choose to utilize from the next available limit in the given sequence as may be applicable. 32. Co-payment At the time of inception of initial policy (ﬁrst policy) with Us, if the Age (Age at entry) of the Insured Person or eldest Insured Person 
+- **common** (df=72) — `consumable` — page 5
+  - snippet: hysicians, specialists and anaesthetists treating the Insured Person; (5) Qualiﬁed Nurses charges; (6) Medicines, drugs and other allowable consumables prescribed by the treating Medical Practitioner; (7) Investigative tests or diagnostic procedures directly related to the Injury/Illness f
+- **common** (df=93) — `day care` — page 1
+  - snippet: ut; iv. Maintaining daily records of the patients and making them accessible to the insurance company's authorized representative. 3. AYUSH Day care Center - means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, Polyclinic or any such health c
+- **common** (df=93) — `day care` — page 2
+  - snippet: . Cumulative Bonus means any increase or addition in the Sum Insured granted by the insurer without any associated increase in premium. 11. Day Care Treatment means medical treatment, and/or surgical procedure which is: i. undertaken under General or Local Anaesthesia in a hospital/day c
+- **common** (df=93) — `day care` — page 3
+  - snippet: intly by an Insurer and TPA to provide medical services to an insured by a cashless facility. 31. Non- Network Provider means any hospital, day care centre or other provider that is not part of the network. 32. Notiﬁcation of Claim means the process of intimating a claim to the insurer o
+- **common** (df=93) — `day care` — page 5
+  - snippet: jury that occurs during the Policy Period. Conditions (i) We have accepted a claim for In-patient Hospitalization under Section C (I)(a) or Day Care Treatment under Section B (I)(d) or Domiciliary Hospitalization under section C (I)(e)or Ayush (In-patient Hospitalization) under Section C
+- **common** (df=93) — `day care` — page 6
+  - snippet: (i) A claim shall be admissible under this Beneﬁt only if the claim is admissible under In-patient Hospitalization under Section C(I)(a) or Day Care Treatment under Section C(I) (d). (ii) The reload of Sum Insured shall not apply to the ﬁrst claim in the Policy Year. (iii) The reload of 
+- **common** (df=93) — `day care` — page 12
+  - snippet: one spend HealthReturnsTM: Funds under HealthReturns TM may be utilized towards the following expenses: (i) In-patient Medical Expenses and Day Care Treatment, provided that the Sum Insured, No Claim Bonus (if any) and Reloaded Sum Insured (if any) are exhausted during the Policy Year as
+- **common** (df=93) — `day care` — page 13
+  - snippet: o be provided to the Insured Person a0t his/her home; III. We have accepted a claim for In-patient Hospitalization under Section C(I)(a) or Day Care Treatment under Section C (I)(d) for the same Illness/Injury; IV. Section D.I.5 & D.II.27of the Exclusions and exclusion no. 52as speciﬁed 
+- **common** (df=93) — `day care` — page 17
+  - snippet: ut not limited to Vitamins, minerals and organic substances unless prescribed by a medical practitioner as part of hospitalization claim or day care procedure (Code- Excl14) 15. Refractive Error:(Code- Excl15) - Expenses related to the treatment for correction of eye sight due to refract
+
+## policy-wording/aditya-birla/Activ_Care_Standard.pdf
+
+- **common** (df=55) — `air ambulance` — page 8
+  - snippet: will be given the choice of NCB and NCD in case of last policy year being claim free. (m) Domestic Emergency Assistance Services (including Air Ambulance) What is covered We will provide the Emergency medical assistance as described below when an Insured Person is travelling, within India for
+- **common** (df=55) — `air ambulance` — page 9
+  - snippet: triate a child born while the Insured Person was traveling beyond the 28th week. (n) International Emergency Assistance Services (including Air Ambulance) What is covered We will provide the Emergency medical assistance outside India as described below when an Insured Person is travelling 150
+- **common** (df=55) — `air ambulance` — page 10
+  - snippet: triate a child born while the Insured Person was traveling beyond the 28th week. (n) International Emergency Assistance Services (including Air Ambulance) What is covered We will provide the Emergency medical assistance outside India as described below when an Insured Person is travelling 150
+- **common** (df=93) — `ayush` — page 1
+  - snippet:  versa. I. Standard Deﬁnitions 1. Accident means sudden, unforeseen and involuntary event caused by external, visible and violent means. 2. AYUSH Hospital is a healthcare facility wherein medical/surgical/para-surgical treatment procedures and interventions are carried out by AYUSH Me
+- **common** (df=93) — `ayush` — page 5
+  - snippet: Hospitalization under Section C (I)(a) or Day Care Treatment under Section B (I)(d) or Domiciliary Hospitalization under section C (I)(e)or Ayush (In-patient Hospitalization) under Section C.I.(i) for the same Illness/Injury; (ii) The date of admission to Hospital for the purpose of t
+- **common** (df=93) — `ayush` — page 6
+  - snippet: exceed the sum of: (1) The Sum Insured; and (2) No Claim Bonus; and (3) The reloaded Sum Insured; and (4) HealthReturns TM(If earned). ( i) Ayush (In-patient Hospitalization) What is covered We shall cover, up to the limits as speciﬁed in the Policy Schedule / Product Beneﬁt Table of 
+- **common** (df=93) — `ayush` — page 9
+  - snippet: and diagnostic tests which are incurred on an out-patient basis up to the limits as speciﬁed in the Policy Schedule / Product Beneﬁt Table. Ayush Treatment for OPD shall also be covered under this Beneﬁt. Conditions I. These services can be availed at Our Network Provider / Empanelled
+- **common** (df=93) — `ayush` — page 10
+  - snippet: and diagnostic tests which are incurred on an out-patient basis up to the limits as speciﬁed in the Policy Schedule / Product Beneﬁt Table. Ayush Treatment for OPD shall also be covered under this Beneﬁt. Conditions I. These services can be availed at Our Network Provider / Empanelled
+- **common** (df=93) — `ayush` — page 12
+  - snippet: Non-Medical Expenses’ that would not otherwise be payable under the Policy. (v) Out-patient expenses up to the value of accrued funds. (vi) Ayush Treatments in excess of the limits as speciﬁed in Policy Schedule / Product Beneﬁt Table of this Policy. Alternatively, funds can also be u
+- **common** (df=87) — `co-?pay(?:ment)?` — page 1
+  - snippet: h the policy terms and conditions, are directly made to the Network Provider by the insurer to the extent pre-authorization is approved. 7. Co-payment means a cost sharing requirement under a health insurance policy that provides that the policyholder/insured will bear a speciﬁed percent a
+- **common** (df=87) — `co-?pay(?:ment)?` — page 4
+  - snippet: ﬁts under this Section C.I are subject to the terms, conditions and exclusions of this Policy. The Sum Insured and/or the Sub-limit and /or Co-Payment as may be applicable for each Beneﬁt under Section C.I is speciﬁed against that Beneﬁt in the Policy Schedule / Product Beneﬁt Table of thi
+- **common** (df=87) — `co-?pay(?:ment)?` — page 12
+  - snippet: Claim Bonus (if any) and Reloaded Sum Insured (if any) are exhausted during the Policy Year as speciﬁed in section E.II.31. (ii) Payment of Co-payment (wherever applicable). (iii) For non-payable claims, in case of an In-patient Hospitalization or Day Care Treatment. (iv) Non-Medical Expen
+- **common** (df=87) — `co-?pay(?:ment)?` — page 13
+  - snippet: Beneﬁts under this Section are subject to the terms, conditions and exclusions of this Policy. The Sum Insured and/or the Sub-limit and /or Co-Payment as may be applicable for each Beneﬁt under Section C.IV is speciﬁed against that Beneﬁt in the Policy Schedule / Product Beneﬁt Table of th
+- **common** (df=87) — `co-?pay(?:ment)?` — page 15
+  - snippet: neﬁts under this Section V are subject to the terms, conditions and exclusions of this Policy. The Sum Insured and/or the Sub-Limit and /or Co-Payment as may be applicable for each Beneﬁt under Section C.V is speciﬁed against that Beneﬁt in the Policy Schedule / Product Beneﬁt Table of thi
+- **common** (df=87) — `co-?pay(?:ment)?` — page 23
+  - snippet:  not eligible for a speciﬁc limit, then may choose to utilize from the next available limit in the given sequence as may be applicable. 32. Co-payment At the time of inception of initial policy (ﬁrst policy) with Us, if the Age (Age at entry) of the Insured Person or eldest Insured Person 
+- **common** (df=87) — `co-?pay(?:ment)?` — page 24
+  - snippet:  not eligible for a speciﬁc limit, then may choose to utilize from the next available limit in the given sequence as may be applicable. 32. Co-payment At the time of inception of initial policy (ﬁrst policy) with Us, if the Age (Age at entry) of the Insured Person or eldest Insured Person 
+- **common** (df=72) — `consumable` — page 5
+  - snippet: hysicians, specialists and anaesthetists treating the Insured Person; (5) Qualiﬁed Nurses charges; (6) Medicines, drugs and other allowable consumables prescribed by the treating Medical Practitioner; (7) Investigative tests or diagnostic procedures directly related to the Injury/Illness f
+- **common** (df=93) — `day care` — page 1
+  - snippet: ut; iv. Maintaining daily records of the patients and making them accessible to the insurance company's authorized representative. 3. AYUSH Day care Center - means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, Polyclinic or any such health c
+- **common** (df=93) — `day care` — page 2
+  - snippet: . Cumulative Bonus means any increase or addition in the Sum Insured granted by the insurer without any associated increase in premium. 11. Day Care Treatment means medical treatment, and/or surgical procedure which is: i. undertaken under General or Local Anaesthesia in a hospital/day c
+- **common** (df=93) — `day care` — page 3
+  - snippet: intly by an Insurer and TPA to provide medical services to an insured by a cashless facility. 31. Non- Network Provider means any hospital, day care centre or other provider that is not part of the network. 32. Notiﬁcation of Claim means the process of intimating a claim to the insurer o
+- **common** (df=93) — `day care` — page 5
+  - snippet: jury that occurs during the Policy Period. Conditions (i) We have accepted a claim for In-patient Hospitalization under Section C (I)(a) or Day Care Treatment under Section B (I)(d) or Domiciliary Hospitalization under section C (I)(e)or Ayush (In-patient Hospitalization) under Section C
+- **common** (df=93) — `day care` — page 6
+  - snippet: (i) A claim shall be admissible under this Beneﬁt only if the claim is admissible under In-patient Hospitalization under Section C(I)(a) or Day Care Treatment under Section C(I) (d). (ii) The reload of Sum Insured shall not apply to the ﬁrst claim in the Policy Year. (iii) The reload of 
+- **common** (df=93) — `day care` — page 12
+  - snippet: one spend HealthReturnsTM: Funds under HealthReturns TM may be utilized towards the following expenses: (i) In-patient Medical Expenses and Day Care Treatment, provided that the Sum Insured, No Claim Bonus (if any) and Reloaded Sum Insured (if any) are exhausted during the Policy Year as
+- **common** (df=93) — `day care` — page 13
+  - snippet: o be provided to the Insured Person a0t his/her home; III. We have accepted a claim for In-patient Hospitalization under Section C(I)(a) or Day Care Treatment under Section C (I)(d) for the same Illness/Injury; IV. Section D.I.5 & D.II.27of the Exclusions and exclusion no. 52as speciﬁed 
+- **common** (df=93) — `day care` — page 17
+  - snippet: ut not limited to Vitamins, minerals and organic substances unless prescribed by a medical practitioner as part of hospitalization claim or day care procedure (Code- Excl14) 15. Refractive Error:(Code- Excl15) - Expenses related to the treatment for correction of eye sight due to refract
+
+## policy-wording/aditya-birla/Activ_Fit_Plus.pdf
+
+- **common** (df=23) — `2x|two times|twice|double` — page 16
+  - snippet: onus Active Days, by achieving daily step count goal on monthly basis and/or can achieve ﬁtness level by completing the Fitness Assessment, twice in a Policy Year after a gap of 6 months. The health return accrued post completion of Fitness Assessment will stay applicable every month 
+- **common** (df=55) — `air ambulance` — page 12
+  - snippet: is not available in the proximity of the Insured Person, as determined by Our Empanelled Service Provider for providing Emergency Services, Air Ambulance under appropriate medical supervision will be arranged by Our Empanelled Service Provider, through an appropriate mode of transport to the 
+- **common** (df=93) — `ayush` — page 1
+  - snippet: d vice versa. I. Standard Deﬁnitions 1. Accident Sudden, unforeseen and involuntary event caused by external, visible and violent means. 2. AYUSH Day Care Centre AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, Po
+- **common** (df=93) — `ayush` — page 7
+  - snippet: .(a) or Day Care Treatment under Section C.I.(c) or Domiciliary Hospitalization under Section C.I. (f).(a) or Home Treatment C.I. (f) b. or AYUSH cover under Section C.I.(i) for the same Illness/Injury; (ii) The date of admission to Hospital for the purpose of this Beneﬁt shall be the
+- **common** (df=93) — `ayush` — page 8
+  - snippet: n donor. (iv) Costs associated with the acquisition of the donor’s organ. (v) Expenses related to organ transportation or preservation. (i) AYUSH Cover What is covered We shall cover Reasonable and Customary charges up to the Sum Insured as speciﬁed in the Policy Schedule / Product Be
+- **common** (df=93) — `ayush` — page 9
+  - snippet: n donor. (iv) Costs associated with the acquisition of the donor’s organ. (v) Expenses related to organ transportation or preservation. (i) AYUSH Cover What is covered We shall cover Reasonable and Customary charges up to the Sum Insured as speciﬁed in the Policy Schedule / Product Be
+- **common** (df=93) — `ayush` — page 10
+  - snippet: t), C.I. (f).(a) (Domiciliary Hospitalization), C.I.(f). (b) (Home Treatment), C.I.(g) (Road Ambulance Cover), C.I.(h)Organ Donor & C.I.(i) AYUSH Cover. (iv) The accumulated No Claim Bonus can be utilised only when Sum Insured speciﬁed in the Policy Schedule/ Product Beneﬁt Table have
+- **common** (df=93) — `ayush` — page 23
+  - snippet: d provided that claim under In-patient Hospitalization under Section C.I.(a) or Day Care Treatment under Section C.I.(c) or Section C.I.(i) AYUSH Cover or Section C.I. (f) (a) Domiciliary Hospitalization or (f) (b) Home Treatment is admitted by Us. The beneﬁt amount will be paid as a 
+- **common** (df=72) — `consumable` — page 4
+  - snippet: st within the same Hospital where the Insured Person has been admitted. “Associated Medical Expenses” does not include cost of pharmacy and consumables, cost of implants and medical devices and cost of diagnostics. 53. City of Residence Shall mean and includes any city, town or village in 
+- **common** (df=72) — `consumable` — page 6
+  - snippet: ysicians, specialists and anaesthetists treating the Insured Person; (v) Qualiﬁed Nurses charges; (vi) Medicines, drugs and other allowable consumables prescribed by the treating Medical Practitioner; (vii) Investigative tests or diagnostic procedures directly related to the Injury/Illness
+- **common** (df=93) — `day care` — page 1
+  - snippet:  versa. I. Standard Deﬁnitions 1. Accident Sudden, unforeseen and involuntary event caused by external, visible and violent means. 2. AYUSH Day Care Centre AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, Polyclinic 
+- **common** (df=93) — `day care` — page 2
+  - snippet:  body 9. Cumulative Bonus Any increase or addition in the Sum Insured granted by the insurer without any associated Increase in premium 10. Day Care Treatment Medical treatment, and/or surgical procedure which is: i. undertaken under General or Local Anaesthesia in a hospital/day care ce
+- **common** (df=93) — `day care` — page 3
+  - snippet:  or jointly by an Insurer and TPA to provide medical services to an insured by a cashless facility. 32. Non- Network Provider Any hospital, day care centre or other provider that is not part of the network. 33. Notiﬁcation of Claim The process of intimating a claim to the insurer or TPA 
+- **common** (df=93) — `day care` — page 4
+  - snippet: tion of deformities and defects, diagnosis and cure of diseases, relief from suffering and prolongation of life, performed in a hospital or day care centre by a medical practitioner. 44. Speciﬁc waiting period Speciﬁc waiting period means a period up to 36 months from the commencement of
+- **common** (df=93) — `day care` — page 6
+  - snippet: e shall cover the Medical Expenses for the following modern treatment procedures under section C .I. a. In-Patient Hospitalization or C.1.c Day Care Treatment arising out of an Insured Person’s Hospitalization following an Illness or Injury that’s diagnosed during the Policy Period up to
+- **common** (df=93) — `day care` — page 7
+  - snippet:  treatment of an Illness/Injury. What is not covered Daily Cash Beneﬁt for time spent by the Insured Person in an intensive care unit. (c.) Day Care Treatment: What is covered We shall cover the Medical Expenses incurred on the Insured Person’s Day Care Treatment, up to the Sum Insured a
+- **common** (df=93) — `day care` — page 8
+  - snippet: / healthcare service provider is duly registered; (ii) We have accepted a claim for In-patient Hospitalization under Section C.I.(a) and or Day Care Treatment under Section C.I.(c) above for the same Illness/Injury; What is not covered Any expenses in relation to transportation of the In
+- **common** (df=93) — `day care` — page 9
+  - snippet: / healthcare service provider is duly registered; (ii) We have accepted a claim for In-patient Hospitalization under Section C.I.(a) and or Day Care Treatment under Section C.I.(c) above for the same Illness/Injury; What is not covered Any expenses in relation to transportation of the In
+- **common** (df=93) — `day care` — page 10
+  - snippet: (a) (In-patient Hospitalization), C.I.(d) (Pre-hospitalization Medical Expenses), C.I.(e) (Post-hospitalization Medical Expenses), C.I.(c) (Day Care Treatment), C.I. (f).(a) (Domiciliary Hospitalization), C.I.(f). (b) (Home Treatment), C.I.(g) (Road Ambulance Cover), C.I.(h)Organ Donor &
+- **common** (df=93) — `day care` — page 16
+  - snippet: ation expenses not payable as per the Policy terms and conditions iii. For non-payable expenses in case of an In-patient Hospitalization or Day Care Treatment iv. Non-Medical expenses listed in Annexure I ‘Non-Medical Expenses’ that would not otherwise be payable under the Policy. v. Out
+- **common** (df=93) — `day care` — page 23
+  - snippet: ays during the Policy Period while the policy is in force and provided that claim under In-patient Hospitalization under Section C.I.(a) or Day Care Treatment under Section C.I.(c) or Section C.I.(i) AYUSH Cover or Section C.I. (f) (a) Domiciliary Hospitalization or (f) (b) Home Treatmen
+- **common** (df=93) — `day care` — page 25
+  - snippet: ut not limited to Vitamins, minerals and organic substances unless prescribed by a medical practitioner as part of hospitalization claim or day care procedure (Code- Excl14) 15. Refractive Error:(Code- Excl15) - Expenses related to the treatment for correction of eye sight due to refract
+- **common** (df=93) — `day care` — page 26
+  - snippet: ut not limited to Vitamins, minerals and organic substances unless prescribed by a medical practitioner as part of hospitalization claim or day care procedure (Code- Excl14) 15. Refractive Error:(Code- Excl15) - Expenses related to the treatment for correction of eye sight due to refract
+- **common** (df=93) — `day care` — page 32
+  - snippet: ments) (4) Copy of the Network Provider’s Registration Certiﬁcate / Copy of Form C in case of Hospitalization (5) Original Discharge Card / Day Care Summary / Transfer Summary (6) Original ﬁnal Hospital Bill with all original deposit and ﬁnal payment receipt (7) Original invoice with pay
+- **common** (df=93) — `day care` — page 33
+  - snippet: minee (if Insured Person is not alive) (iii) Copy of the claim intimation, if any (iv) Final Hospital bill (v) Hospital discharge summary / day care summary / transfer summary (vi) Operation theatre notes (vii) Investigation reports (Including CT scan/ MRI /USG / Histopathology or Biopsy
+
+## policy-wording/aditya-birla/Activ_Fit_Preferred.pdf
+
+- **common** (df=23) — `2x|two times|twice|double` — page 16
+  - snippet: onus Active Days, by achieving daily step count goal on monthly basis and/or can achieve ﬁtness level by completing the Fitness Assessment, twice in a Policy Year after a gap of 6 months. The health return accrued post completion of Fitness Assessment will stay applicable every month 
+- **common** (df=55) — `air ambulance` — page 12
+  - snippet: is not available in the proximity of the Insured Person, as determined by Our Empanelled Service Provider for providing Emergency Services, Air Ambulance under appropriate medical supervision will be arranged by Our Empanelled Service Provider, through an appropriate mode of transport to the 
+- **common** (df=93) — `ayush` — page 1
+  - snippet: d vice versa. I. Standard Deﬁnitions 1. Accident Sudden, unforeseen and involuntary event caused by external, visible and violent means. 2. AYUSH Day Care Centre AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, Po
+- **common** (df=93) — `ayush` — page 7
+  - snippet: .(a) or Day Care Treatment under Section C.I.(c) or Domiciliary Hospitalization under Section C.I. (f).(a) or Home Treatment C.I. (f) b. or AYUSH cover under Section C.I.(i) for the same Illness/Injury; (ii) The date of admission to Hospital for the purpose of this Beneﬁt shall be the
+- **common** (df=93) — `ayush` — page 8
+  - snippet: n donor. (iv) Costs associated with the acquisition of the donor’s organ. (v) Expenses related to organ transportation or preservation. (i) AYUSH Cover What is covered We shall cover Reasonable and Customary charges up to the Sum Insured as speciﬁed in the Policy Schedule / Product Be
+- **common** (df=93) — `ayush` — page 9
+  - snippet: n donor. (iv) Costs associated with the acquisition of the donor’s organ. (v) Expenses related to organ transportation or preservation. (i) AYUSH Cover What is covered We shall cover Reasonable and Customary charges up to the Sum Insured as speciﬁed in the Policy Schedule / Product Be
+- **common** (df=93) — `ayush` — page 10
+  - snippet: t), C.I. (f).(a) (Domiciliary Hospitalization), C.I.(f). (b) (Home Treatment), C.I.(g) (Road Ambulance Cover), C.I.(h)Organ Donor & C.I.(i) AYUSH Cover. (iv) The accumulated No Claim Bonus can be utilised only when Sum Insured speciﬁed in the Policy Schedule/ Product Beneﬁt Table have
+- **common** (df=93) — `ayush` — page 23
+  - snippet: d provided that claim under In-patient Hospitalization under Section C.I.(a) or Day Care Treatment under Section C.I.(c) or Section C.I.(i) AYUSH Cover or Section C.I. (f) (a) Domiciliary Hospitalization or (f) (b) Home Treatment is admitted by Us. The beneﬁt amount will be paid as a 
+- **common** (df=72) — `consumable` — page 4
+  - snippet: st within the same Hospital where the Insured Person has been admitted. “Associated Medical Expenses” does not include cost of pharmacy and consumables, cost of implants and medical devices and cost of diagnostics. 53. City of Residence Shall mean and includes any city, town or village in 
+- **common** (df=72) — `consumable` — page 6
+  - snippet: ysicians, specialists and anaesthetists treating the Insured Person; (v) Qualiﬁed Nurses charges; (vi) Medicines, drugs and other allowable consumables prescribed by the treating Medical Practitioner; (vii) Investigative tests or diagnostic procedures directly related to the Injury/Illness
+- **common** (df=93) — `day care` — page 1
+  - snippet:  versa. I. Standard Deﬁnitions 1. Accident Sudden, unforeseen and involuntary event caused by external, visible and violent means. 2. AYUSH Day Care Centre AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, Polyclinic 
+- **common** (df=93) — `day care` — page 2
+  - snippet:  body 9. Cumulative Bonus Any increase or addition in the Sum Insured granted by the insurer without any associated Increase in premium 10. Day Care Treatment Medical treatment, and/or surgical procedure which is: i. undertaken under General or Local Anaesthesia in a hospital/day care ce
+- **common** (df=93) — `day care` — page 3
+  - snippet:  or jointly by an Insurer and TPA to provide medical services to an insured by a cashless facility. 32. Non- Network Provider Any hospital, day care centre or other provider that is not part of the network. 33. Notiﬁcation of Claim The process of intimating a claim to the insurer or TPA 
+- **common** (df=93) — `day care` — page 4
+  - snippet: tion of deformities and defects, diagnosis and cure of diseases, relief from suffering and prolongation of life, performed in a hospital or day care centre by a medical practitioner. 44. Speciﬁc waiting period Speciﬁc waiting period means a period up to 36 months from the commencement of
+- **common** (df=93) — `day care` — page 6
+  - snippet: e shall cover the Medical Expenses for the following modern treatment procedures under section C .I. a. In-Patient Hospitalization or C.1.c Day Care Treatment arising out of an Insured Person’s Hospitalization following an Illness or Injury that’s diagnosed during the Policy Period up to
+- **common** (df=93) — `day care` — page 7
+  - snippet:  treatment of an Illness/Injury. What is not covered Daily Cash Beneﬁt for time spent by the Insured Person in an intensive care unit. (c.) Day Care Treatment: What is covered We shall cover the Medical Expenses incurred on the Insured Person’s Day Care Treatment, up to the Sum Insured a
+- **common** (df=93) — `day care` — page 8
+  - snippet: / healthcare service provider is duly registered; (ii) We have accepted a claim for In-patient Hospitalization under Section C.I.(a) and or Day Care Treatment under Section C.I.(c) above for the same Illness/Injury; What is not covered Any expenses in relation to transportation of the In
+- **common** (df=93) — `day care` — page 9
+  - snippet: / healthcare service provider is duly registered; (ii) We have accepted a claim for In-patient Hospitalization under Section C.I.(a) and or Day Care Treatment under Section C.I.(c) above for the same Illness/Injury; What is not covered Any expenses in relation to transportation of the In
+- **common** (df=93) — `day care` — page 10
+  - snippet: (a) (In-patient Hospitalization), C.I.(d) (Pre-hospitalization Medical Expenses), C.I.(e) (Post-hospitalization Medical Expenses), C.I.(c) (Day Care Treatment), C.I. (f).(a) (Domiciliary Hospitalization), C.I.(f). (b) (Home Treatment), C.I.(g) (Road Ambulance Cover), C.I.(h)Organ Donor &
+- **common** (df=93) — `day care` — page 16
+  - snippet: ation expenses not payable as per the Policy terms and conditions iii. For non-payable expenses in case of an In-patient Hospitalization or Day Care Treatment iv. Non-Medical expenses listed in Annexure I ‘Non-Medical Expenses’ that would not otherwise be payable under the Policy. v. Out
+- **common** (df=93) — `day care` — page 23
+  - snippet: ays during the Policy Period while the policy is in force and provided that claim under In-patient Hospitalization under Section C.I.(a) or Day Care Treatment under Section C.I.(c) or Section C.I.(i) AYUSH Cover or Section C.I. (f) (a) Domiciliary Hospitalization or (f) (b) Home Treatmen
+- **common** (df=93) — `day care` — page 25
+  - snippet: ut not limited to Vitamins, minerals and organic substances unless prescribed by a medical practitioner as part of hospitalization claim or day care procedure (Code- Excl14) 15. Refractive Error:(Code- Excl15) - Expenses related to the treatment for correction of eye sight due to refract
+- **common** (df=93) — `day care` — page 26
+  - snippet: ut not limited to Vitamins, minerals and organic substances unless prescribed by a medical practitioner as part of hospitalization claim or day care procedure (Code- Excl14) 15. Refractive Error:(Code- Excl15) - Expenses related to the treatment for correction of eye sight due to refract
+- **common** (df=93) — `day care` — page 32
+  - snippet: ments) (4) Copy of the Network Provider’s Registration Certiﬁcate / Copy of Form C in case of Hospitalization (5) Original Discharge Card / Day Care Summary / Transfer Summary (6) Original ﬁnal Hospital Bill with all original deposit and ﬁnal payment receipt (7) Original invoice with pay
+- **common** (df=93) — `day care` — page 33
+  - snippet: minee (if Insured Person is not alive) (iii) Copy of the claim intimation, if any (iv) Final Hospital bill (v) Hospital discharge summary / day care summary / transfer summary (vi) Operation theatre notes (vii) Investigation reports (Including CT scan/ MRI /USG / Histopathology or Biopsy
+
+## policy-wording/aditya-birla/Activ_Health_Platinum_Enhanced.pdf
+
+- **common** (df=55) — `air ambulance` — page 17
+  - snippet: c stem cells for bone marrow transplant for haematological conditions to be covered. (15) Domestic Emergency Assistance Services (including Air Ambulance): What is covered We will provide the Emergency medical assistance as described below when an Insured Person is travelling, within India fo
+- **common** (df=55) — `air ambulance` — page 18
+  - snippet: riate a child born while the Insured Person was traveling beyond the 28th week. (16) International Emergency Assistance Services (including Air Ambulance): What is covered We will provide the Emergency medical assistance outside India as described below when an Insured Person is travelling 15
+- **common** (df=55) — `air ambulance` — page 31
+  - snippet: in accordance with the procedure set out in Section F.1. Coverage under section (16) International Emergency Assistance Services (including Air Ambulance) is not applicable for this Section C.IV.(31) (31). (a) In-patient Hospitalization (outside India): What is covered We will cover the Medic
+- **common** (df=93) — `ayush` — page 1
+  - snippet: NITIONS l. Standard Deﬁnitions 1. Accident means sudden, unforeseen and involuntary event caused by external, visible and violent means. 2. AYUSH Hospital is a healthcare facility wherein medical / surgical / para-surgical treatment procedures and interventions are carried out by AYUS
+- **common** (df=93) — `ayush` — page 2
+  - snippet: 4. AYUSH Treatment refers to medical and / or hospitalization treatments given under Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homeopathy sy
+- **common** (df=93) — `ayush` — page 13
+  - snippet: t Hospitalization under Section C.I.(1) or Day Care Treatment under Section C.I.(4) or Domiciliary Hospitalization under Section C.I.(5) or Ayush Treatment under Section C.I.(10) for the same Illness / Injury; (ii) The date of admission to Hospital for the purpose of this Beneﬁt shall
+- **common** (df=93) — `ayush` — page 15
+  - snippet: claim is admissible under In-patient Hospitalization under Section C.I.(1) or Day Care Treatment under Section C.I.(4) or Section C.I.(10) (AYUSH Cover) or Section C.I.(5) (Domiciliary Hospitalization) or Section C.I.(14) (Modern Treatment Methods and Advancement in Technologies) or S
+- **common** (df=93) — `ayush` — page 29
+  - snippet: I ‘Non-Medical Expenses’ that would not otherwise be payable under the Policy. v. Out-patient expenses up to the value of accrued funds vi. Ayush Treatments in excess of the limits as speciﬁed in Policy Schedule / Product Beneﬁt Table of this Policy. vii. For expenses towards buying h
+- **common** (df=87) — `co-?pay(?:ment)?` — page 2
+  - snippet: h the policy terms and conditions, are directly made to the Network Provider by the insurer to the extent pre-authorization is approved. 7. Co-payment means a cost sharing requirement under a health insurance policy that provides that the policyholder / insured will bear a speciﬁed percent
+- **common** (df=87) — `co-?pay(?:ment)?` — page 11
+  - snippet:  under this Section C.I are subject to the terms, conditions and exclusions of this Policy. The Sum Insured and / or the sub-limit and / or Co-payment as may be applicable for each Beneﬁt under Section C.I is speciﬁed against that Beneﬁt in the Policy Schedule / Product Beneﬁt Table of thi
+- **common** (df=87) — `co-?pay(?:ment)?` — page 20
+  - snippet:  Optional Covers – International Coverage for Major Illnesses, Critical Illness Cover and Personal Accident Cover (AD, PTD), if opted. (20) Co-payment for treatment in a Higher Zone In case of treatment taken in a city, in a Zone higher than the eligible Zone for the Insured Person, the Co
+- **common** (df=87) — `co-?pay(?:ment)?` — page 21
+  - snippet:  under this Section C.I are subject to the terms, conditions and exclusions of this Policy. The Sum Insured and / or the sub-limit and / or Co-payment as may be applicable for each Beneﬁt under Section C.I is speciﬁed against that Beneﬁt in the Policy Schedule / Product Beneﬁt Table of thi
+- **common** (df=87) — `co-?pay(?:ment)?` — page 29
+  - snippet: ve Bonus(if any) , Reloaded Sum Insured (if any), Super Reload of Sum Insured (if any) are exhausted during the Policy Year. ii. Payment of Co-payment (wherever applicable). iii. For non-payable claims, in case of an In-patient Hospitalization or Day Care Treatment. iv. Non-Medical expense
+- **common** (df=72) — `consumable` — page 12
+  - snippet: ysicians, specialists and anaesthetists treating the Insured Person; (v) Qualiﬁed Nurses charges; (vi) Medicines, drugs and other allowable consumables prescribed by the treating Medical Practitioner; (vii) Investigative tests or diagnostic procedures directly related to the Injury / Illne
+- **common** (df=72) — `consumable` — page 31
+  - snippet: g fees of specialists and anaesthetists treating the Insured Person; (v) Qualiﬁed Nurses charges; (vi) Medicines, drugs and other allowable consumables prescribed by the treating Medical Practitioner; (vii) Investigative tests or diagnostic procedures directly related to the Major Illness 
+- **common** (df=93) — `day care` — page 1
+  - snippet: ut; iv. Maintaining daily records of the patients and making them accessible to the insurance company's authorized representative. 3. AYUSH Day care Center - means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, Polyclinic or any such health c
+- **common** (df=93) — `day care` — page 2
+  - snippet: . Cumulative Bonus means any increase or addition in the Sum Insured granted by the insurer without any associated increase in premium. 11. Day Care Treatment means medical treatment, and / or surgical procedure which is: i. undertaken under General or Local Anaesthesia in a hospital / d
+- **common** (df=93) — `day care` — page 3
+  - snippet: od, if the premium is paid in instalments during the Policy Period. 19. Hospital means any institution established for in- patient care and day care treatment of illness and / or injuries and which has been registered as a hospital with the local authorities under Clinical Establishments
+- **common** (df=93) — `day care` — page 4
+  - snippet: intly by an Insurer and TPA to provide medical services to an insured by a cashless facility. 33. Non- Network Provider means any hospital, day care centre or other provider that is not part of the network. 34. Notiﬁcation of Claim means the process of intimating a claim to the insurer o
+- **common** (df=93) — `day care` — page 5
+  - snippet: tion of deformities and defects, diagnosis and cure of diseases, relief from suffering and prolongation of life, performed in a hospital or day care centre by a medical practitioner. 46. Speciﬁc waiting period means a period up to 36 months from the commencement of a health insurance pol
+- **common** (df=93) — `day care` — page 13
+  - snippet: Conditions (i) We have accepted a claim for In-patient Hospitalization under Section C.I.(1) or Day Care Treatment under Section C.I.(4) or Domiciliary Hospitalization under Section C.I.(5) or Ayush Treatment under Section C.I.(10) for the same
+- **common** (df=93) — `day care` — page 15
+  - snippet: (i) A claim shall be admissible under this Beneﬁt only if the claim is admissible under In-patient Hospitalization under Section C.I.(1) or Day Care Treatment under Section C.I.(4). (ii) The reload of Sum Insured shall not apply to the ﬁrst claim in the Policy Year. (iii) The reload of S
+- **common** (df=93) — `day care` — page 17
+  - snippet:  of the Insured Person will be covered (wherever medically indicated) either as In- patient Hospitalization (Section C.I.(1)) or as part of Day Care Treatment (Section C.I.(4)) in a Hospital, up to the limit as speciﬁed in the Policy Schedule / Product Beneﬁt Table of this Policy, during
+- **common** (df=93) — `day care` — page 21
+  - snippet: .I.(1) (In-patient Hospitalization),C.I.(2) (Pre-hospitalization Medical Expenses),C.I.(3) (Post-hospitalization Medical Expenses),C.I.(4) (Day Care Treatment),C.I.(5) (Domiciliary Hospitalization),C.I.(6) (Road Ambulance Cover) (vi) The accumulated Cumulative Bonus can be utilised only 
+- **common** (df=93) — `day care` — page 29
+  - snippet: one spend HealthReturns TM: Funds under HealthReturns TM may be utilized towards the following expenses: i. In-patient Medical Expenses and Day Care Treatment, provided that the Sum Insured, accumulated Cumulative Bonus(if any) , Reloaded Sum Insured (if any), Super Reload of Sum Insured
+
+## policy-wording/aditya-birla/Activ_Health_Platinum_Essential.pdf
+
+- **common** (df=55) — `air ambulance` — page 17
+  - snippet: c stem cells for bone marrow transplant for haematological conditions to be covered. (15) Domestic Emergency Assistance Services (including Air Ambulance): What is covered We will provide the Emergency medical assistance as described below when an Insured Person is travelling, within India fo
+- **common** (df=55) — `air ambulance` — page 18
+  - snippet: riate a child born while the Insured Person was traveling beyond the 28th week. (16) International Emergency Assistance Services (including Air Ambulance): What is covered We will provide the Emergency medical assistance outside India as described below when an Insured Person is travelling 15
+- **common** (df=55) — `air ambulance` — page 31
+  - snippet: in accordance with the procedure set out in Section F.1. Coverage under section (16) International Emergency Assistance Services (including Air Ambulance) is not applicable for this Section C.IV.(31) (31). (a) In-patient Hospitalization (outside India): What is covered We will cover the Medic
+- **common** (df=93) — `ayush` — page 1
+  - snippet: NITIONS l. Standard Deﬁnitions 1. Accident means sudden, unforeseen and involuntary event caused by external, visible and violent means. 2. AYUSH Hospital is a healthcare facility wherein medical / surgical / para-surgical treatment procedures and interventions are carried out by AYUS
+- **common** (df=93) — `ayush` — page 2
+  - snippet: 4. AYUSH Treatment refers to medical and / or hospitalization treatments given under Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homeopathy sy
+- **common** (df=93) — `ayush` — page 13
+  - snippet: t Hospitalization under Section C.I.(1) or Day Care Treatment under Section C.I.(4) or Domiciliary Hospitalization under Section C.I.(5) or Ayush Treatment under Section C.I.(10) for the same Illness / Injury; (ii) The date of admission to Hospital for the purpose of this Beneﬁt shall
+- **common** (df=93) — `ayush` — page 15
+  - snippet: claim is admissible under In-patient Hospitalization under Section C.I.(1) or Day Care Treatment under Section C.I.(4) or Section C.I.(10) (AYUSH Cover) or Section C.I.(5) (Domiciliary Hospitalization) or Section C.I.(14) (Modern Treatment Methods and Advancement in Technologies) or S
+- **common** (df=93) — `ayush` — page 29
+  - snippet: I ‘Non-Medical Expenses’ that would not otherwise be payable under the Policy. v. Out-patient expenses up to the value of accrued funds vi. Ayush Treatments in excess of the limits as speciﬁed in Policy Schedule / Product Beneﬁt Table of this Policy. vii. For expenses towards buying h
+- **common** (df=87) — `co-?pay(?:ment)?` — page 2
+  - snippet: h the policy terms and conditions, are directly made to the Network Provider by the insurer to the extent pre-authorization is approved. 7. Co-payment means a cost sharing requirement under a health insurance policy that provides that the policyholder / insured will bear a speciﬁed percent
+- **common** (df=87) — `co-?pay(?:ment)?` — page 11
+  - snippet:  under this Section C.I are subject to the terms, conditions and exclusions of this Policy. The Sum Insured and / or the sub-limit and / or Co-payment as may be applicable for each Beneﬁt under Section C.I is speciﬁed against that Beneﬁt in the Policy Schedule / Product Beneﬁt Table of thi
+- **common** (df=87) — `co-?pay(?:ment)?` — page 20
+  - snippet:  Optional Covers – International Coverage for Major Illnesses, Critical Illness Cover and Personal Accident Cover (AD, PTD), if opted. (20) Co-payment for treatment in a Higher Zone In case of treatment taken in a city, in a Zone higher than the eligible Zone for the Insured Person, the Co
+- **common** (df=87) — `co-?pay(?:ment)?` — page 21
+  - snippet:  under this Section C.I are subject to the terms, conditions and exclusions of this Policy. The Sum Insured and / or the sub-limit and / or Co-payment as may be applicable for each Beneﬁt under Section C.I is speciﬁed against that Beneﬁt in the Policy Schedule / Product Beneﬁt Table of thi
+- **common** (df=87) — `co-?pay(?:ment)?` — page 29
+  - snippet: ve Bonus(if any) , Reloaded Sum Insured (if any), Super Reload of Sum Insured (if any) are exhausted during the Policy Year. ii. Payment of Co-payment (wherever applicable). iii. For non-payable claims, in case of an In-patient Hospitalization or Day Care Treatment. iv. Non-Medical expense
+- **common** (df=72) — `consumable` — page 12
+  - snippet: ysicians, specialists and anaesthetists treating the Insured Person; (v) Qualiﬁed Nurses charges; (vi) Medicines, drugs and other allowable consumables prescribed by the treating Medical Practitioner; (vii) Investigative tests or diagnostic procedures directly related to the Injury / Illne
+- **common** (df=72) — `consumable` — page 31
+  - snippet: g fees of specialists and anaesthetists treating the Insured Person; (v) Qualiﬁed Nurses charges; (vi) Medicines, drugs and other allowable consumables prescribed by the treating Medical Practitioner; (vii) Investigative tests or diagnostic procedures directly related to the Major Illness 
+- **common** (df=93) — `day care` — page 1
+  - snippet: ut; iv. Maintaining daily records of the patients and making them accessible to the insurance company's authorized representative. 3. AYUSH Day care Center - means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, Polyclinic or any such health c
+- **common** (df=93) — `day care` — page 2
+  - snippet: . Cumulative Bonus means any increase or addition in the Sum Insured granted by the insurer without any associated increase in premium. 11. Day Care Treatment means medical treatment, and / or surgical procedure which is: i. undertaken under General or Local Anaesthesia in a hospital / d
+- **common** (df=93) — `day care` — page 3
+  - snippet: od, if the premium is paid in instalments during the Policy Period. 19. Hospital means any institution established for in- patient care and day care treatment of illness and / or injuries and which has been registered as a hospital with the local authorities under Clinical Establishments
+- **common** (df=93) — `day care` — page 4
+  - snippet: intly by an Insurer and TPA to provide medical services to an insured by a cashless facility. 33. Non- Network Provider means any hospital, day care centre or other provider that is not part of the network. 34. Notiﬁcation of Claim means the process of intimating a claim to the insurer o
+- **common** (df=93) — `day care` — page 5
+  - snippet: tion of deformities and defects, diagnosis and cure of diseases, relief from suffering and prolongation of life, performed in a hospital or day care centre by a medical practitioner. 46. Speciﬁc waiting period means a period up to 36 months from the commencement of a health insurance pol
+- **common** (df=93) — `day care` — page 13
+  - snippet: Conditions (i) We have accepted a claim for In-patient Hospitalization under Section C.I.(1) or Day Care Treatment under Section C.I.(4) or Domiciliary Hospitalization under Section C.I.(5) or Ayush Treatment under Section C.I.(10) for the same
+- **common** (df=93) — `day care` — page 15
+  - snippet: (i) A claim shall be admissible under this Beneﬁt only if the claim is admissible under In-patient Hospitalization under Section C.I.(1) or Day Care Treatment under Section C.I.(4). (ii) The reload of Sum Insured shall not apply to the ﬁrst claim in the Policy Year. (iii) The reload of S
+- **common** (df=93) — `day care` — page 17
+  - snippet:  of the Insured Person will be covered (wherever medically indicated) either as In- patient Hospitalization (Section C.I.(1)) or as part of Day Care Treatment (Section C.I.(4)) in a Hospital, up to the limit as speciﬁed in the Policy Schedule / Product Beneﬁt Table of this Policy, during
+- **common** (df=93) — `day care` — page 21
+  - snippet: .I.(1) (In-patient Hospitalization),C.I.(2) (Pre-hospitalization Medical Expenses),C.I.(3) (Post-hospitalization Medical Expenses),C.I.(4) (Day Care Treatment),C.I.(5) (Domiciliary Hospitalization),C.I.(6) (Road Ambulance Cover) (vi) The accumulated Cumulative Bonus can be utilised only 
+- **common** (df=93) — `day care` — page 29
+  - snippet: one spend HealthReturns TM: Funds under HealthReturns TM may be utilized towards the following expenses: i. In-patient Medical Expenses and Day Care Treatment, provided that the Sum Insured, accumulated Cumulative Bonus(if any) , Reloaded Sum Insured (if any), Super Reload of Sum Insured
+
+## policy-wording/aditya-birla/Activ_Health_Plus_TopUp.pdf
+
+- **common** (df=55) — `air ambulance` — page 7
+  - snippet: sions of this Policy. Claims under this Section C.II will not impact the Sum Insured. (j) Domestic Emergency Assistance Services (including Air Ambulance) What is covered We will provide the Emergency medical assistance as described below when an Insured Person is travelling, within India for
+- **common** (df=93) — `ayush` — page 1
+  - snippet:  versa. I. Standard Deﬁnitions 1. Accident means sudden, unforeseen and involuntary event caused by external, visible and violent means. 2. AYUSH Hospital is a healthcare facility wherein medical/surgical/para-surgical treatmentprocedures and interventions are carried out by AYUSH Med
+- **common** (df=93) — `ayush` — page 5
+  - snippet: t Hospitalization under Section C.I.(a) or Day Care Treatment under Section C.I.(d) or Domiciliary Hospitalization under Section C.I.(e) or Ayush (In-patient Hospitalization) under Section C.I.(h) for the same Illness/Injury; (ii) The date of admission to Hospital for the purpose of t
+- **common** (df=93) — `ayush` — page 6
+  - snippet: rgan transportation or preservation. (7) Any other medical treatment or complication in respect of the donor, consequent to harvesting. (h) Ayush (In-patient Hospitalization) What is covered We shall cover, up to the limits as speciﬁed in the Policy Schedule / Product Beneﬁt Table of 
+- **common** (df=93) — `ayush` — page 9
+  - snippet: Non-Medical Expenses’ that would not otherwise be payable under the Policy. (v) Out-patient expenses up to the value of accrued funds. (vi) Ayush Treatments (if applicable) in excess of the limits as speciﬁed in Policy Schedule / Product Beneﬁt Table of this Policy. Alternatively, the
+- **common** (df=87) — `co-?pay(?:ment)?` — page 1
+  - snippet: h the policy terms and conditions, are directly made to the Network Provider by the insurer to the extent pre-authorization is approved. 7. Co-payment means a cost sharing requirement under a health insurance policy that provides that the policyholder/insured will bear a speciﬁed percent a
+- **common** (df=87) — `co-?pay(?:ment)?` — page 9
+  - snippet: (i) In-patient Medical Expenses and Day Care Treatment, provided that the Sum Insured, is exhausted during the Policy Year. (ii) Payment of Co-payment (wherever applicable). (iii) For non-payable claims, in case of an In-patient Hospitalization or Day Care Treatment. (iv) Non-Medical Expen
+- **common** (df=72) — `consumable` — page 5
+  - snippet: ing fees of specialists and anaesthetists treating the Insured Person; 5) Qualiﬁed Nurse’s charges; 6) Medicines, drugs and other allowable consumables prescribed by the treating Medical Practitioner; 7) Investigative tests or diagnostic procedures directly related to the Injury/ Illness f
+- **common** (df=93) — `day care` — page 1
+  - snippet: ut; iv. Maintaining daily records of the patients and making them accessible to the insurance company's authorized representative. 3. Ayush Day care Center means and includes Community Health Centre (CHC), Prima Health Centre (PHC), Dispensa , Clinic, Polyclinic or any such health centre
+- **common** (df=93) — `day care` — page 2
+  - snippet: cessible parts of the body. b. External Congenital Anomaly Congenital anomaly which is in the visible and accessible parts of the body. 10. Day Care Treatment means medical treatment, and/or surgical procedure which is: i. undertaken under General or Local Anaesthesia in a hospital/day c
+- **common** (df=93) — `day care` — page 3
+  - snippet: intly by an Insurer and TPA to provide medical services to an insured by a cashless facility. 32. Non- Network Provider means any hospital, day care centre or other provider that is not part of the network. 33. Notiﬁcation of Claim means the process of intimating a claim to the insurer o
+- **common** (df=93) — `day care` — page 5
+  - snippet: njury that occurs during the Policy Period. Conditions (i) We have accepted a claim for In-patient Hospitalization under Section C.I.(a) or Day Care Treatment under Section C.I.(d) or Domiciliary Hospitalization under Section C.I.(e) or Ayush (In-patient Hospitalization) under Section C.
+- **common** (df=93) — `day care` — page 6
+  - snippet:  the Medical Expenses for In-patient Hospitalization incurred with respect to the AYUSH Treatment undertaken in any Ayush Hospital or Ayush Day Care Center by the Insured Person during the Policy Period. Conditions (i) Treatment taken is within India; (ii) The Permanent Exclusion mention
+- **common** (df=93) — `day care` — page 9
+  - snippet: rns TM may be utilized by the Insured Person upon due intimation to Us, towards the following expenses: (i) In-patient Medical Expenses and Day Care Treatment, provided that the Sum Insured, is exhausted during the Policy Year. (ii) Payment of Co-payment (wherever applicable). (iii) For 
+- **common** (df=93) — `day care` — page 11
+  - snippet: ut not limited to Vitamins, minerals and organic substances unless prescribed by a medical practitioner as part of hospitalization claim or day care procedure (Code- Excl14) 15. Refractive Error:(Code- Excl15) - Expenses related to the treatment for correction of eye sight due to refract
+- **common** (df=93) — `day care` — page 19
+  - snippet: ments) (4) Copy of the Network Provider’s Registration Certiﬁcate / Copy of Form C in case of Hospitalization (5) Original Discharge Card / Day Care Summary / Transfer Summary (6) Original ﬁnal Hospital Bill with all original deposit and ﬁnal payment receipt (7) Original invoice with pay
+- **common** (df=93) — `day care` — page 24
+  - snippet: ody Removal From Nose 34 Other Operations On The Middle And Inner Ear Ear Super Health Plus Top Up - Policy Wordings - Annexure C - List of Day Care Treatments Super Health Plus Top Up, Product UIN: ADIHLIP21061V022021.
+- **common** (df=93) — `day care` — page 30
+  - snippet: at Shoulder Joint Note: This list is only indicative and may change at a later stage. Please check our website for the most updated list of Day Care Procedures Registered Oﬃce: 9th Floor, Tower1, One World Centre, Jupiter Mills Compound, 841, Senapati Bapat Marg, Elphinstone Road, Mumbai
+- **common** (df=68) — `deductible` — page 2
+  - snippet: condition to be removed to a hospital, or ii. the patient takes treatment at home on account of non-availability of room in a hospital. 15. Deductible means a cost sharing requirement under a health insurance policy that provides that the insurer will not be liable for a speciﬁed rupee amo
+- **common** (df=68) — `deductible` — page 5
+  - snippet: dical Expenses, in respect to the following Beneﬁts under Section C.I (relating to Hospitalisation(s)) in a Policy Year is in excess of the Deductible as stated in the Policy Schedule/Product Beneﬁt Table of this Policy, and is subject to the exhaustion of any other applicable deductibles 
+- **common** (df=68) — `deductible` — page 17
+  - snippet: rency All beneﬁts are available in India only (except Section C.II.(k), and all claims shall be payable in India in Indian Rupees only. 30. Deductible What is covered The Deductible speciﬁed in the Policy Schedule shall be applicable in each Policy Year on the aggregate of all admissible c
+- **common** (df=74) — `domiciliary` — page 2
+  - snippet: id thereon shall be forfeited to the Company in the event of misrepresentation, mis-description or non-disclosure of any material fact. 14. Domiciliary Hospitalization means medical treatment for an illness/disease/ injury which in the normal course would require care and treatment at a hos
+- **common** (df=74) — `domiciliary` — page 5
+  - snippet: Conditions (i) We have accepted a claim for In-patient Hospitalization under Section C.I.(a) or Day Care Treatment under Section C.I.(d) or Domiciliary Hospitalization under Section C.I.(e) or Ayush (In-patient Hospitalization) under Section C.I.(h) for the same Illness/Injury; (ii) The dat
+- **common** (df=74) — `domiciliary` — page 6
+  - snippet: (e) Domiciliary Hospitalization: What is covered We shall cover the Medical Expenses incurred towards the Insured Person’s Domiciliary Hospitalization, up 
+- **common** (df=48) — `non[- ]medical` — page 7
+  - snippet: der this Beneﬁt or any consequences of actions taken or not taken in reliance thereon. (x) The exclusion no. 52 as speciﬁed in Annexure B – Non Medical Expenses shall be waived off to the extent covered under this Beneﬁt. (xi) We do not assume any liability towards any additional or inciden
+
+## policy-wording/aditya-birla/Activ_One_MAX.pdf
+
+- **common** (df=93) — `ayush` — page 1
+  - snippet: e same. B.1 – Standard Deﬁnitions 1. Accident: Sudden, unforeseen and involunta/r_y event caused by external, visible and violent means. 2. AYUSH Hospital: Is a healthcare facility wherein medical / surgical / para-surgical treatment procedures and interventions are carried out by AYU
+- **common** (df=93) — `ayush` — page 2
+  - snippet: a. Having qualiﬁed registered AYUSH Medical Practitioner(s) in charge; b. Having dedicated AYUSH therapy sections as required and / or has equipped operation theatre where sur
+- **common** (df=93) — `ayush` — page 13
+  - snippet: e same. B.1 – Standard Deﬁnitions 1. Accident: Sudden, unforeseen and involunta/r_y event caused by external, visible and violent means. 2. AYUSH Hospital: Is a healthcare facility wherein medical / surgical / para-surgical treatment procedures and interventions are carried out by AYU
+- **common** (df=93) — `ayush` — page 29
+  - snippet: er Section C.1 (Hospitalization Treatment) or Section C.5 (Domicilia/r_y Hospitalization) or Section C.6 (Home Health Care) or Section C.7 (AYUSH Treatment) for up to 90 days immediately prior to the date of such Hospitalization. C.3 Post-Hospitalization Expenses The Company shall ind
+- **common** (df=93) — `ayush` — page 30
+  - snippet: er Section C.1 (Hospitalization Treatment) or Section C.5 (Domicilia/r_y Hospitalization) or Section C.6 (Home Health Care) or Section C.7 (AYUSH Treatment) or Section C.8 (Organ Donor Expenses) arising in that Policy Year for any or all Insured Person(s). b. The Super Reload shall no
+- **common** (df=93) — `ayush` — page 33
+  - snippet: ii. For Non-Payable Claims, In case of an In-Patient Hospitalization. iv. Expenses for OPD Treatment up to the value of rewards accrued. v. AYUSH Treatments in excess of the limits as speciﬁed in Policy Schedule / Product Beneﬁt Table of this Policy. vi. For expenses towards buying an
+- **common** (df=87) — `co-?pay(?:ment)?` — page 2
+  - snippet: cessible parts of the body. b. External Congenital Anomaly Congenital anomaly which is in the visible and accessible parts of the body. 10. Co-Payment: means a cost sharing requirement under a health insurance policy that provides that the Policyholder / Insured will bear a speciﬁed percen
+- **common** (df=87) — `co-?pay(?:ment)?` — page 17
+  - snippet: ed except in cases of proven fraud or permanent exclusions listed in the policy contract. However, the policy still has limits, sub-limits, co-payments, and deductibles that apply E.1.9. Claim Settlement (Provision for Penal Interest) a). The Company shall settle or reject a claim, as the 
+- **common** (df=87) — `co-?pay(?:ment)?` — page 34
+  - snippet:  under Section C in a Hospital other than those listed as “Preferred Provider Network”, then the Policyholder / Insured Person shall bear a Co-Payment of 10% on each and eve/r_y claim arising in such regard. ii. The updated list of Hospitals listed as “Preferred Provider Network” can be re
+- **common** (df=72) — `consumable` — page 5
+  - snippet: sia, blood, oxygen incurred during Hospitalization of the Insured Person. Associated Medical Expenses does not include cost of pharmacy and consumables, cost of implants and medical devices, and cost of diagnostics. 7. Alzheimer’s Disease: We will be covering the Unequivocal diagnosis of A
+- **common** (df=72) — `consumable` — page 17
+  - snippet: sia, blood, oxygen incurred during Hospitalization of the Insured Person. Associated Medical Expenses does not include cost of pharmacy and consumables, cost of implants and medical devices, and cost of diagnostics. 7. Alzheimer’s Disease: We will be covering the Unequivocal diagnosis of A
+- **common** (df=72) — `consumable` — page 28
+  - snippet:  Medicines and drugs prescribed in writing by Medical Practitioner. f. Intravenous ﬂuids, blood transfusion, surgical appliances, allowable consumables and /or enteral feedings. g. Operation theatre charges. h. The cost of prosthetics and other devices or equipment, if implanted internally
+- **common** (df=93) — `day care` — page 1
+  - snippet: ; viii. Maintaining daily records of the patients and making them accessible to the insurance company's authorized representative. 3. AYUSH Day Care Centre: means and includes Community Health Centre (CHC), Prima/r_y Health Centre (PHC), Dispensa/r_y, Clinic, Polyclinic or any such healt
+- **common** (df=93) — `day care` — page 2
+  - snippet:  The condition has to be conﬁrmed by a specialist medical practitioner. Coma resulting directly from alcohol or drug abuse is excluded. 12. Day Care Centre: means any institution established for day care treatment of illness and / or injuries or a medical set-up with a hospital and which
+- **common** (df=93) — `day care` — page 3
+  - snippet: iod, if the premium is paid in instalments during the Policy Period 24. Hospital: means any institution established for In-patient care and day care treatment of Illness and / or injuries and which has been registered as a hospital with the local authorities under the Clinical Establishm
+- **common** (df=93) — `day care` — page 4
+  - snippet: intly by an Insurer and TPA to provide medical services to an insured by a cashless facility. 44. Non-Network Provider: means any hospital, day care centre or other provider that is not part of the network. 45. Notiﬁcation of Claim: means the process of intimating a claim to the insurer 
+- **common** (df=93) — `day care` — page 5
+  - snippet: ction of deformities and defects, diagnosis and cure of diseases, relief from suﬀering and prolongation of life, performed in a hospital or day care centre by a medical practitioner. 58. Surgical Treatment for benign Brain Tumour: a. We will be covering surgical treatment of Benign solid
+- **common** (df=93) — `day care` — page 12
+  - snippet: ut not limited to Vitamins, minerals and organic substances unless prescribed by a medical practitioner as part of hospitalization claim or day care procedure (Code-Excl14) Addictive Condition: When someone becomes dependent on substances or behaviours, leading to uncontrollable and harm
+- **common** (df=93) — `day care` — page 13
+  - snippet: ; viii. Maintaining daily records of the patients and making them accessible to the insurance company's authorized representative. 3. AYUSH Day Care Centre: means and includes Community Health Centre (CHC), Prima/r_y Health Centre (PHC), Dispensa/r_y, Clinic, Polyclinic or any such healt
+- **common** (df=93) — `day care` — page 17
+  - snippet: ction of deformities and defects, diagnosis and cure of diseases, relief from suﬀering and prolongation of life, performed in a hospital or day care centre by a medical practitioner. 58. Surgical Treatment for benign Brain Tumour: a. We will be covering surgical treatment of Benign solid
+- **common** (df=93) — `day care` — page 20
+  - snippet: one such delay on merits where the delay has been proved to be for reasons beyond the claimant’s control. Reimbursement of Hospitalization, Day Care Treatment or Pre Hospitalization Expenses Reimbursement of Post Hospitalization Expenses Within 30 days of date of discharge from Hospital.
+- **common** (df=93) — `day care` — page 21
+  - snippet: ovider of the Company or certiﬁcate from Hospital authorities providing facilities available including number of beds, iv. Discharge Card / Day Care Summa/r_y / Transfer Summa/r_y, v. Final Hospital bill with all original deposit and ﬁnal payment receipt and refund receipt(s), if advance
+- **common** (df=93) — `day care` — page 22
+  - snippet: uments) 4. Copy of the Network Provider’s Registration Certiﬁcate / Copy of Form C in case of Hospitalization. 5. Original Discharge Card / Day Care Summa/r_y / Transfer Summa/r_y 6. Original ﬁnal Hospital Bill with all original Deposit & Final Payment Receipt 7. Original Invoice with Pa
+- **common** (df=93) — `day care` — page 23
+  - snippet: ominee (if Insured Person is not alive). 3. Copy of the claim intimation, if any. 4. Final Hospital bill. 5. Hospital discharge summa/r_y / day care summa/r_y / transfer summa/r_y. 6. Operation theatre notes. 7. Investigation reports (Including CT scan / MRI / USG / Histopathology or Bio
+- **common** (df=93) — `day care` — page 25
+  - snippet: cuments) 4. Copy of the Network Provider’s Registration Certiﬁcate / Copy of Form C in case of Hospitalization 5. Original Discharge Card / Day Care Summa/r_y / Transfer Summa/r_y 6. Original ﬁnal Hospital Bill with all original deposit and ﬁnal payment receipt 7. Original invoice with p
+
+## policy-wording/aditya-birla/Activ_One_MAX_Plus.pdf
+
+- **common** (df=93) — `ayush` — page 1
+  - snippet: e same. B.1 – Standard Deﬁnitions 1. Accident: Sudden, unforeseen and involunta/r_y event caused by external, visible and violent means. 2. AYUSH Hospital: Is a healthcare facility wherein medical / surgical / para-surgical treatment procedures and interventions are carried out by AYU
+- **common** (df=93) — `ayush` — page 2
+  - snippet: a. Having qualiﬁed registered AYUSH Medical Practitioner(s) in charge; b. Having dedicated AYUSH therapy sections as required and / or has equipped operation theatre where sur
+- **common** (df=93) — `ayush` — page 13
+  - snippet: e same. B.1 – Standard Deﬁnitions 1. Accident: Sudden, unforeseen and involunta/r_y event caused by external, visible and violent means. 2. AYUSH Hospital: Is a healthcare facility wherein medical / surgical / para-surgical treatment procedures and interventions are carried out by AYU
+- **common** (df=93) — `ayush` — page 29
+  - snippet: er Section C.1 (Hospitalization Treatment) or Section C.5 (Domicilia/r_y Hospitalization) or Section C.6 (Home Health Care) or Section C.7 (AYUSH Treatment) for up to 90 days immediately prior to the date of such Hospitalization. C.3 Post-Hospitalization Expenses The Company shall ind
+- **common** (df=93) — `ayush` — page 30
+  - snippet: der Section C.1(Hospitalization Treatment) or Section C.5 (Domicilia/r_y Hospitalization) or Section C.6 (Home Health Care) or Section C.7 (AYUSH Treatment) or Section C.8 (Organ Donor Expenses) arising in that Policy Year for any or all Insured Person(s). b. The Super Reload shall no
+- **common** (df=93) — `ayush` — page 34
+  - snippet: ii. For Non-Payable Claims, In case of an In-Patient Hospitalization. iv. Expenses for OPD Treatment up to the value of rewards accrued. v. AYUSH Treatments in excess of the limits as speciﬁed in Policy Schedule / Product Beneﬁt Table of this Policy. vi. For expenses towards buying an
+- **common** (df=87) — `co-?pay(?:ment)?` — page 2
+  - snippet: cessible parts of the body. b. External Congenital Anomaly Congenital anomaly which is in the visible and accessible parts of the body. 10. Co-Payment: means a cost sharing requirement under a health insurance policy that provides that the Policyholder / Insured will bear a speciﬁed percen
+- **common** (df=87) — `co-?pay(?:ment)?` — page 17
+  - snippet: ed except in cases of proven fraud or permanent exclusions listed in the policy contract. However, the policy still has limits, sub-limits, co-payments, and deductibles that apply E.1.9. Claim Settlement (Provision for Penal Interest) a). The Company shall settle or reject a claim, as the 
+- **common** (df=87) — `co-?pay(?:ment)?` — page 35
+  - snippet:  under Section C in a Hospital other than those listed as “Preferred Provider Network”, then the Policyholder / Insured Person shall bear a Co-Payment of 10% on each and eve/r_y claim arising in such regard. ii. The updated list of Hospitals listed as “Preferred Provider Network” can be re
+- **common** (df=72) — `consumable` — page 5
+  - snippet: sia, blood, oxygen incurred during Hospitalization of the Insured Person. Associated Medical Expenses does not include cost of pharmacy and consumables, cost of implants and medical devices, and cost of diagnostics. 7. Alzheimer’s Disease: We will be covering the Unequivocal diagnosis of A
+- **common** (df=72) — `consumable` — page 17
+  - snippet: sia, blood, oxygen incurred during Hospitalization of the Insured Person. Associated Medical Expenses does not include cost of pharmacy and consumables, cost of implants and medical devices, and cost of diagnostics. 7. Alzheimer’s Disease: We will be covering the Unequivocal diagnosis of A
+- **common** (df=72) — `consumable` — page 28
+  - snippet:  Medicines and drugs prescribed in writing by Medical Practitioner. f. Intravenous ﬂuids, blood transfusion, surgical appliances, allowable consumables and / or enteral feedings. g. Operation theatre charges. h. The cost of prosthetics and other devices or equipment, if implanted internall
+- **common** (df=93) — `day care` — page 1
+  - snippet: ; viii. Maintaining daily records of the patients and making them accessible to the insurance company's authorized representative. 3. AYUSH Day Care Centre: means and includes Community Health Centre (CHC), Prima/r_y Health Centre (PHC), Dispensa/r_y, Clinic, Polyclinic or any such healt
+- **common** (df=93) — `day care` — page 2
+  - snippet:  The condition has to be conﬁrmed by a specialist medical practitioner. Coma resulting directly from alcohol or drug abuse is excluded. 12. Day Care Centre: means any institution established for day care treatment of illness and / or injuries or a medical set-up with a hospital and which
+- **common** (df=93) — `day care` — page 3
+  - snippet: iod, if the premium is paid in instalments during the Policy Period 24. Hospital: means any institution established for In-patient care and day care treatment of Illness and / or injuries and which has been registered as a hospital with the local authorities under the Clinical Establishm
+- **common** (df=93) — `day care` — page 4
+  - snippet: intly by an Insurer and TPA to provide medical services to an insured by a cashless facility. 44. Non-Network Provider: means any hospital, day care centre or other provider that is not part of the network. 45. Notiﬁcation of Claim: means the process of intimating a claim to the insurer 
+- **common** (df=93) — `day care` — page 5
+  - snippet: ction of deformities and defects, diagnosis and cure of diseases, relief from suﬀering and prolongation of life, performed in a hospital or day care centre by a medical practitioner. 58. Surgical Treatment for benign Brain Tumour: a. We will be covering surgical treatment of Benign solid
+- **common** (df=93) — `day care` — page 12
+  - snippet: ut not limited to Vitamins, minerals and organic substances unless prescribed by a medical practitioner as part of hospitalization claim or day care procedure (Code-Excl14) Addictive Condition: When someone becomes dependent on substances or behaviours, leading to uncontrollable and harm
+- **common** (df=93) — `day care` — page 13
+  - snippet: ; viii. Maintaining daily records of the patients and making them accessible to the insurance company's authorized representative. 3. AYUSH Day Care Centre: means and includes Community Health Centre (CHC), Prima/r_y Health Centre (PHC), Dispensa/r_y, Clinic, Polyclinic or any such healt
+- **common** (df=93) — `day care` — page 17
+  - snippet: ction of deformities and defects, diagnosis and cure of diseases, relief from suﬀering and prolongation of life, performed in a hospital or day care centre by a medical practitioner. 58. Surgical Treatment for benign Brain Tumour: a. We will be covering surgical treatment of Benign solid
+- **common** (df=93) — `day care` — page 20
+  - snippet: one such delay on merits where the delay has been proved to be for reasons beyond the claimant’s control. Reimbursement of Hospitalization, Day Care Treatment or Pre Hospitalization Expenses Reimbursement of Post Hospitalization Expenses Within 30 days of date of discharge from Hospital.
+- **common** (df=93) — `day care` — page 21
+  - snippet: ovider of the Company or certiﬁcate from Hospital authorities providing facilities available including number of beds, iv. Discharge Card / Day Care Summa/r_y / Transfer Summa/r_y, v. Final Hospital bill with all original deposit and ﬁnal payment receipt and refund receipt(s), if advance
+- **common** (df=93) — `day care` — page 22
+  - snippet: uments) 4. Copy of the Network Provider’s Registration Certiﬁcate / Copy of Form C in case of Hospitalization. 5. Original Discharge Card / Day Care Summa/r_y / Transfer Summa/r_y 6. Original ﬁnal Hospital Bill with all original Deposit & Final Payment Receipt 7. Original Invoice with Pa
+- **common** (df=93) — `day care` — page 23
+  - snippet: ominee (if Insured Person is not alive). 3. Copy of the claim intimation, if any. 4. Final Hospital bill. 5. Hospital discharge summa/r_y / day care summa/r_y / transfer summa/r_y. 6. Operation theatre notes. 7. Investigation reports (Including CT scan / MRI / USG / Histopathology or Bio
+- **common** (df=93) — `day care` — page 25
+  - snippet: cuments) 4. Copy of the Network Provider’s Registration Certiﬁcate / Copy of Form C in case of Hospitalization 5. Original Discharge Card / Day Care Summa/r_y / Transfer Summa/r_y 6. Original ﬁnal Hospital Bill with all original deposit and ﬁnal payment receipt 7. Original invoice with p
+
+## policy-wording/aditya-birla/Activ_One_NXT.pdf
+
+- **common** (df=93) — `ayush` — page 1
+  - snippet: e same. B.1 – Standard Deﬁnitions 1. Accident: Sudden, unforeseen and involunta/r_y event caused by external, visible and violent means. 2. AYUSH Hospital: Is a healthcare facility wherein medical / surgical / para-surgical treatment procedures and interventions are carried out by AYU
+- **common** (df=93) — `ayush` — page 2
+  - snippet: a. Having qualiﬁed registered AYUSH Medical Practitioner(s) in charge; b. Having dedicated AYUSH therapy sections as required and / or has equipped operation theatre where sur
+- **common** (df=93) — `ayush` — page 13
+  - snippet: e same. B.1 – Standard Deﬁnitions 1. Accident: Sudden, unforeseen and involunta/r_y event caused by external, visible and violent means. 2. AYUSH Hospital: Is a healthcare facility wherein medical / surgical / para-surgical treatment procedures and interventions are carried out by AYU
+- **common** (df=93) — `ayush` — page 29
+  - snippet: er Section C.1 (Hospitalization Treatment) or Section C.4 (Domicilia/r_y Hospitalization) or Section C.5 (Home Health Care) or Section C.6 (AYUSH Treatment) for up to 90 days immediately prior to the date of such Hospitalization. C.3 Post-Hospitalization Expenses The Company shall ind
+- **common** (df=93) — `ayush` — page 32
+  - snippet: ii. For Non-Payable Claims, In case of an In-Patient Hospitalization. iv. Expenses for OPD Treatment up to the value of rewards accrued. v. AYUSH Treatments in excess of the limits as speciﬁed in Policy Schedule / Product Beneﬁt Table of this Policy. vi. For expenses towards buying an
+- **common** (df=93) — `ayush` — page 33
+  - snippet: er Section C.1 (Hospitalization Treatment) or Section C.4 (Domicilia/r_y Hospitalization) or Section C.5 (Home Health Care) or Section C.6 (AYUSH Treatment) or Section C.7 (Organ Donor Expenses) during the Policy Period. Exclusion 11. Excluded Providers: (Code- Excl11) of Section D.1.
+- **common** (df=87) — `co-?pay(?:ment)?` — page 2
+  - snippet: cessible parts of the body. b. External Congenital Anomaly Congenital anomaly which is in the visible and accessible parts of the body. 10. Co-Payment: means a cost sharing requirement under a health insurance policy that provides that the Policyholder / Insured will bear a speciﬁed percen
+- **common** (df=87) — `co-?pay(?:ment)?` — page 17
+  - snippet: ed except in cases of proven fraud or permanent exclusions listed in the policy contract. However, the policy still has limits, sub-limits, co-payments, and deductibles that apply E.1.9. Claim Settlement (Provision for Penal Interest) a). The Company shall settle or reject a claim, as the 
+- **common** (df=87) — `co-?pay(?:ment)?` — page 33
+  - snippet:  under Section C in a Hospital other than those listed as “Preferred Provider Network”, then the Policyholder / Insured Person shall bear a Co-Payment of 10% on each and eve/r_y claim arising in such regard. ii. The updated list of Hospitals listed as “Preferred Provider Network” can be re
+- **common** (df=72) — `consumable` — page 5
+  - snippet: sia, blood, oxygen incurred during Hospitalization of the Insured Person. Associated Medical Expenses does not include cost of pharmacy and consumables, cost of implants and medical devices, and cost of diagnostics. 7. Alzheimer’s Disease: We will be covering the Unequivocal diagnosis of A
+- **common** (df=72) — `consumable` — page 17
+  - snippet: sia, blood, oxygen incurred during Hospitalization of the Insured Person. Associated Medical Expenses does not include cost of pharmacy and consumables, cost of implants and medical devices, and cost of diagnostics. 7. Alzheimer’s Disease: We will be covering the Unequivocal diagnosis of A
+- **common** (df=72) — `consumable` — page 28
+  - snippet:  Medicines and drugs prescribed in writing by Medical Practitioner. f. Intravenous ﬂuids, blood transfusion, surgical appliances, allowable consumables and / or enteral feedings. g. Operation theatre charges. h. The cost of prosthetics and other devices or equipment, if implanted internall
+- **common** (df=93) — `day care` — page 1
+  - snippet: ; viii. Maintaining daily records of the patients and making them accessible to the insurance company's authorized representative. 3. AYUSH Day Care Centre: means and includes Community Health Centre (CHC), Prima/r_y Health Centre (PHC), Dispensa/r_y, Clinic, Polyclinic or any such healt
+- **common** (df=93) — `day care` — page 2
+  - snippet:  The condition has to be conﬁrmed by a specialist medical practitioner. Coma resulting directly from alcohol or drug abuse is excluded. 12. Day Care Centre: means any institution established for day care treatment of illness and / or injuries or a medical set-up with a hospital and which
+- **common** (df=93) — `day care` — page 3
+  - snippet: iod, if the premium is paid in instalments during the Policy Period 24. Hospital: means any institution established for In-patient care and day care treatment of Illness and / or injuries and which has been registered as a hospital with the local authorities under the Clinical Establishm
+- **common** (df=93) — `day care` — page 4
+  - snippet: intly by an Insurer and TPA to provide medical services to an insured by a cashless facility. 44. Non-Network Provider: means any hospital, day care centre or other provider that is not part of the network. 45. Notiﬁcation of Claim: means the process of intimating a claim to the insurer 
+- **common** (df=93) — `day care` — page 5
+  - snippet: ction of deformities and defects, diagnosis and cure of diseases, relief from suﬀering and prolongation of life, performed in a hospital or day care centre by a medical practitioner. 58. Surgical Treatment for benign Brain Tumour: a. We will be covering surgical treatment of Benign solid
+- **common** (df=93) — `day care` — page 12
+  - snippet: ut not limited to Vitamins, minerals and organic substances unless prescribed by a medical practitioner as part of hospitalization claim or day care procedure (Code-Excl14) Addictive Condition: When someone becomes dependent on substances or behaviours, leading to uncontrollable and harm
+- **common** (df=93) — `day care` — page 13
+  - snippet: ; viii. Maintaining daily records of the patients and making them accessible to the insurance company's authorized representative. 3. AYUSH Day Care Centre: means and includes Community Health Centre (CHC), Prima/r_y Health Centre (PHC), Dispensa/r_y, Clinic, Polyclinic or any such healt
+- **common** (df=93) — `day care` — page 17
+  - snippet: ction of deformities and defects, diagnosis and cure of diseases, relief from suﬀering and prolongation of life, performed in a hospital or day care centre by a medical practitioner. 58. Surgical Treatment for benign Brain Tumour: a. We will be covering surgical treatment of Benign solid
+- **common** (df=93) — `day care` — page 20
+  - snippet: one such delay on merits where the delay has been proved to be for reasons beyond the claimant’s control. Reimbursement of Hospitalization, Day Care Treatment or Pre Hospitalization Expenses Reimbursement of Post Hospitalization Expenses Within 30 days of date of discharge from Hospital.
+- **common** (df=93) — `day care` — page 21
+  - snippet: ovider of the Company or certiﬁcate from Hospital authorities providing facilities available including number of beds, iv. Discharge Card / Day Care Summa/r_y / Transfer Summa/r_y, v. Final Hospital bill with all original deposit and ﬁnal payment receipt and refund receipt(s), if advance
+- **common** (df=93) — `day care` — page 22
+  - snippet: uments) 4. Copy of the Network Provider’s Registration Certiﬁcate / Copy of Form C in case of Hospitalization. 5. Original Discharge Card / Day Care Summa/r_y / Transfer Summa/r_y 6. Original ﬁnal Hospital Bill with all original Deposit & Final Payment Receipt 7. Original Invoice with Pa
+- **common** (df=93) — `day care` — page 23
+  - snippet: ominee (if Insured Person is not alive). 3. Copy of the claim intimation, if any. 4. Final Hospital bill. 5. Hospital discharge summa/r_y / day care summa/r_y / transfer summa/r_y. 6. Operation theatre notes. 7. Investigation reports (Including CT scan / MRI / USG / Histopathology or Bio
+- **common** (df=93) — `day care` — page 25
+  - snippet: cuments) 4. Copy of the Network Provider’s Registration Certiﬁcate / Copy of Form C in case of Hospitalization 5. Original Discharge Card / Day Care Summa/r_y / Transfer Summa/r_y 6. Original ﬁnal Hospital Bill with all original deposit and ﬁnal payment receipt 7. Original invoice with p
+
+## policy-wording/aditya-birla/Activ_One_SAVR.pdf
+
+- **common** (df=93) — `ayush` — page 1
+  - snippet: e same. B.1 – Standard Deﬁnitions 1. Accident: Sudden, unforeseen and involunta/r_y event caused by external, visible and violent means. 2. AYUSH Hospital: Is a healthcare facility wherein medical / surgical / para-surgical treatment procedures and interventions are carried out by AYU
+- **common** (df=93) — `ayush` — page 2
+  - snippet: a. Having qualiﬁed registered AYUSH Medical Practitioner(s) in charge; b. Having dedicated AYUSH therapy sections as required and / or has equipped operation theatre where sur
+- **common** (df=93) — `ayush` — page 13
+  - snippet: e same. B.1 – Standard Deﬁnitions 1. Accident: Sudden, unforeseen and involunta/r_y event caused by external, visible and violent means. 2. AYUSH Hospital: Is a healthcare facility wherein medical / surgical / para-surgical treatment procedures and interventions are carried out by AYU
+- **common** (df=93) — `ayush` — page 29
+  - snippet: er Section C.1 (Hospitalization Treatment) or Section C.5 (Domicilia/r_y Hospitalization) or Section C.6 (Home Health Care) or Section C.7 (AYUSH Treatment) for up to 90 days immediately prior to the date of such Hospitalization. C.3 Post-Hospitalization Expenses The Company shall ind
+- **common** (df=93) — `ayush` — page 30
+  - snippet: der Section C.1(Hospitalization Treatment) or Section C.5 (Domicilia/r_y Hospitalization) or Section C.6 (Home Health Care) or Section C.7 (AYUSH Treatment) or Section C.8 (Organ Donor Expenses) arising in that Policy Year for any or all Insured Person(s). b. The Super Reload shall no
+- **common** (df=93) — `ayush` — page 34
+  - snippet: ii. For Non-Payable Claims, In case of an In-Patient Hospitalization. iv. Expenses for OPD Treatment up to the value of rewards accrued. v. AYUSH Treatments in excess of the limits as speciﬁed in Policy Schedule / Product Beneﬁt Table of this Policy. vi. For expenses towards buying an
+- **common** (df=87) — `co-?pay(?:ment)?` — page 2
+  - snippet: cessible parts of the body. b. External Congenital Anomaly Congenital anomaly which is in the visible and accessible parts of the body. 10. Co-Payment: means a cost sharing requirement under a health insurance policy that provides that the Policyholder / Insured will bear a speciﬁed percen
+- **common** (df=87) — `co-?pay(?:ment)?` — page 17
+  - snippet: ed except in cases of proven fraud or permanent exclusions listed in the policy contract. However, the policy still has limits, sub-limits, co-payments, and deductibles that apply E.1.9. Claim Settlement (Provision for Penal Interest) a). The Company shall settle or reject a claim, as the 
+- **common** (df=87) — `co-?pay(?:ment)?` — page 35
+  - snippet:  under Section C in a Hospital other than those listed as “Preferred Provider Network”, then the Policyholder / Insured Person shall bear a Co-Payment of 10% on each and eve/r_y claim arising in such regard. ii. The updated list of Hospitals listed as “Preferred Provider Network” can be re
+- **common** (df=72) — `consumable` — page 5
+  - snippet: sia, blood, oxygen incurred during Hospitalization of the Insured Person. Associated Medical Expenses does not include cost of pharmacy and consumables, cost of implants and medical devices, and cost of diagnostics. 7. Alzheimer’s Disease: We will be covering the Unequivocal diagnosis of A
+- **common** (df=72) — `consumable` — page 17
+  - snippet: sia, blood, oxygen incurred during Hospitalization of the Insured Person. Associated Medical Expenses does not include cost of pharmacy and consumables, cost of implants and medical devices, and cost of diagnostics. 7. Alzheimer’s Disease: We will be covering the Unequivocal diagnosis of A
+- **common** (df=72) — `consumable` — page 28
+  - snippet:  Medicines and drugs prescribed in writing by Medical Practitioner. f. Intravenous ﬂuids, blood transfusion, surgical appliances, allowable consumables and / or enteral feedings. g. Operation theatre charges. h. The cost of prosthetics and other devices or equipment, if implanted internall
+- **common** (df=93) — `day care` — page 1
+  - snippet: ; viii. Maintaining daily records of the patients and making them accessible to the insurance company's authorized representative. 3. AYUSH Day Care Centre: means and includes Community Health Centre (CHC), Prima/r_y Health Centre (PHC), Dispensa/r_y, Clinic, Polyclinic or any such healt
+- **common** (df=93) — `day care` — page 2
+  - snippet:  The condition has to be conﬁrmed by a specialist medical practitioner. Coma resulting directly from alcohol or drug abuse is excluded. 12. Day Care Centre: means any institution established for day care treatment of illness and / or injuries or a medical set-up with a hospital and which
+- **common** (df=93) — `day care` — page 3
+  - snippet: iod, if the premium is paid in instalments during the Policy Period 24. Hospital: means any institution established for In-patient care and day care treatment of Illness and / or injuries and which has been registered as a hospital with the local authorities under the Clinical Establishm
+- **common** (df=93) — `day care` — page 4
+  - snippet: intly by an Insurer and TPA to provide medical services to an insured by a cashless facility. 44. Non-Network Provider: means any hospital, day care centre or other provider that is not part of the network. 45. Notiﬁcation of Claim: means the process of intimating a claim to the insurer 
+- **common** (df=93) — `day care` — page 5
+  - snippet: ction of deformities and defects, diagnosis and cure of diseases, relief from suﬀering and prolongation of life, performed in a hospital or day care centre by a medical practitioner. 58. Surgical Treatment for benign Brain Tumour: a. We will be covering surgical treatment of Benign solid
+- **common** (df=93) — `day care` — page 12
+  - snippet: ut not limited to Vitamins, minerals and organic substances unless prescribed by a medical practitioner as part of hospitalization claim or day care procedure (Code-Excl14) Addictive Condition: When someone becomes dependent on substances or behaviours, leading to uncontrollable and harm
+- **common** (df=93) — `day care` — page 13
+  - snippet: ; viii. Maintaining daily records of the patients and making them accessible to the insurance company's authorized representative. 3. AYUSH Day Care Centre: means and includes Community Health Centre (CHC), Prima/r_y Health Centre (PHC), Dispensa/r_y, Clinic, Polyclinic or any such healt
+- **common** (df=93) — `day care` — page 17
+  - snippet: ction of deformities and defects, diagnosis and cure of diseases, relief from suﬀering and prolongation of life, performed in a hospital or day care centre by a medical practitioner. 58. Surgical Treatment for benign Brain Tumour: a. We will be covering surgical treatment of Benign solid
+- **common** (df=93) — `day care` — page 20
+  - snippet: one such delay on merits where the delay has been proved to be for reasons beyond the claimant’s control. Reimbursement of Hospitalization, Day Care Treatment or Pre Hospitalization Expenses Reimbursement of Post Hospitalization Expenses Within 30 days of date of discharge from Hospital.
+- **common** (df=93) — `day care` — page 21
+  - snippet: ovider of the Company or certiﬁcate from Hospital authorities providing facilities available including number of beds, iv. Discharge Card / Day Care Summa/r_y / Transfer Summa/r_y, v. Final Hospital bill with all original deposit and ﬁnal payment receipt and refund receipt(s), if advance
+- **common** (df=93) — `day care` — page 22
+  - snippet: uments) 4. Copy of the Network Provider’s Registration Certiﬁcate / Copy of Form C in case of Hospitalization. 5. Original Discharge Card / Day Care Summa/r_y / Transfer Summa/r_y 6. Original ﬁnal Hospital Bill with all original Deposit & Final Payment Receipt 7. Original Invoice with Pa
+- **common** (df=93) — `day care` — page 23
+  - snippet: ominee (if Insured Person is not alive). 3. Copy of the claim intimation, if any. 4. Final Hospital bill. 5. Hospital discharge summa/r_y / day care summa/r_y / transfer summa/r_y. 6. Operation theatre notes. 7. Investigation reports (Including CT scan / MRI / USG / Histopathology or Bio
+- **common** (df=93) — `day care` — page 25
+  - snippet: cuments) 4. Copy of the Network Provider’s Registration Certiﬁcate / Copy of Form C in case of Hospitalization 5. Original Discharge Card / Day Care Summa/r_y / Transfer Summa/r_y 6. Original ﬁnal Hospital Bill with all original deposit and ﬁnal payment receipt 7. Original invoice with p
+
+## policy-wording/aditya-birla/Activ_One_VIP.pdf
+
+- **common** (df=23) — `2x|two times|twice|double` — page 35
+  - snippet: e Health Insurance Company’s Product. d. The Maternity Beneﬁt may be claimed under the Policy in respect of eligible Insured Person(s) only twice during the lifetime of the Policy including any Renewal therea/fter for the delive/r_y of a child or Medically Necessa/r_y and lawful termi
+- **common** (df=55) — `air ambulance` — page 30
+  - snippet: eﬁt. INR 15 lacs-25 lacs INR 50 lacs - 6 Crores Emergency Hospitalisation Emergency MedicaI Evacuation Global Compassionate Visit Emergency Air Ambulance Care and / or Transportation of Minor Children Return of Mortal Remains Medical Referral Medical Repatriation OPD Cover Loss of Passport Lo
+- **common** (df=55) — `air ambulance` — page 31
+  - snippet: arrier transportation. The family member is responsible to meet all travel document requirements, as may be applicable. C.11. (d) Emergency Air Ambulance The Company shall indemnify expenses incurred by the Insured Person during the Policy Year towards Ambulance transportation in an airplane 
+- **common** (df=93) — `ayush` — page 1
+  - snippet: e same. B.1 – Standard Deﬁnitions 1. Accident: Sudden, unforeseen and involunta/r_y event caused by external, visible and violent means. 2. AYUSH Hospital: Is a healthcare facility wherein medical / surgical / para-surgical treatment procedures and interventions are carried out by AYU
+- **common** (df=93) — `ayush` — page 2
+  - snippet: a. Having qualiﬁed registered AYUSH Medical Practitioner(s) in charge; b. Having dedicated AYUSH therapy sections as required and / or has equipped operation theatre where sur
+- **common** (df=93) — `ayush` — page 13
+  - snippet: e same. B.1 – Standard Deﬁnitions 1. Accident: Sudden, unforeseen and involunta/r_y event caused by external, visible and violent means. 2. AYUSH Hospital: Is a healthcare facility wherein medical / surgical / para-surgical treatment procedures and interventions are carried out by AYU
+- **common** (df=93) — `ayush` — page 29
+  - snippet: er Section C.1 (Hospitalization Treatment) or Section C.5 (Domicilia/r_y Hospitalization) or Section C.6 (Home Health Care) or Section C.7 (AYUSH Treatment) for up to 90 days immediately prior to the date of such Hospitalization. C.3 Post-Hospitalization Expenses The Company shall ind
+- **common** (df=93) — `ayush` — page 30
+  - snippet: nder Section C.1(Hospitalization Treatment or Section C.5 (Domicilia/r_y Hospitalization) or Section C.6 (Home Health Care) or Section C.7 (AYUSH Treatment) or Section C.8 (Organ Donor Expenses) arising in that Policy Year for any or all Insured Person(s). b. The Super Reload of the S
+- **common** (df=87) — `co-?pay(?:ment)?` — page 2
+  - snippet: cessible parts of the body. b. External Congenital Anomaly Congenital anomaly which is in the visible and accessible parts of the body. 10. Co-Payment: means a cost sharing requirement under a health insurance policy that provides that the Policyholder / Insured will bear a speciﬁed percen
+- **common** (df=87) — `co-?pay(?:ment)?` — page 17
+  - snippet: ed except in cases of proven fraud or permanent exclusions listed in the policy contract. However, the policy still has limits, sub-limits, co-payments, and deductibles that apply E.1.9. Claim Settlement (Provision for Penal Interest) a). The Company shall settle or reject a claim, as the 
+- **common** (df=87) — `co-?pay(?:ment)?` — page 32
+  - snippet: d with an Illness requiring Out-patient Treatment, up to the amount speciﬁed in the Policy Schedule. ii. The Insured Person will bear a 20% Co-Payment and We will indemnify the remaining part of the amount that We assess as admissible in respect of a claim under this Beneﬁt. C.11. (j) Loss
+- **common** (df=72) — `consumable` — page 5
+  - snippet: sia, blood, oxygen incurred during Hospitalization of the Insured Person. Associated Medical Expenses does not include cost of pharmacy and consumables, cost of implants and medical devices, and cost of diagnostics. 7. Alzheimer’s Disease: We will be covering the Unequivocal diagnosis of A
+- **common** (df=72) — `consumable` — page 17
+  - snippet: sia, blood, oxygen incurred during Hospitalization of the Insured Person. Associated Medical Expenses does not include cost of pharmacy and consumables, cost of implants and medical devices, and cost of diagnostics. 7. Alzheimer’s Disease: We will be covering the Unequivocal diagnosis of A
+- **common** (df=72) — `consumable` — page 28
+  - snippet:  Medicines and drugs prescribed in writing by Medical Practitioner. f. Intravenous ﬂuids, blood transfusion, surgical appliances, allowable consumables and / or enteral feedings. g. Operation theatre charges. h. The cost of prosthetics and other devices or equipment, if implanted internall
+- **common** (df=72) — `consumable` — page 31
+  - snippet: Event that led to the current Hospitalization; v. Intravenous ﬂuids, blood transfusion, injection administration charges and / or allowable consumables; vi. Operation theatre charges; vii. The cost of prosthetics and other devices or equipment, if implanted internally during Surge/r_y; vii
+- **common** (df=93) — `day care` — page 1
+  - snippet: ; viii. Maintaining daily records of the patients and making them accessible to the insurance company's authorized representative. 3. AYUSH Day Care Centre: means and includes Community Health Centre (CHC), Prima/r_y Health Centre (PHC), Dispensa/r_y, Clinic, Polyclinic or any such healt
+- **common** (df=93) — `day care` — page 2
+  - snippet:  The condition has to be conﬁrmed by a specialist medical practitioner. Coma resulting directly from alcohol or drug abuse is excluded. 12. Day Care Centre: means any institution established for day care treatment of illness and / or injuries or a medical set-up with a hospital and which
+- **common** (df=93) — `day care` — page 3
+  - snippet: iod, if the premium is paid in instalments during the Policy Period 24. Hospital: means any institution established for In-patient care and day care treatment of Illness and / or injuries and which has been registered as a hospital with the local authorities under the Clinical Establishm
+- **common** (df=93) — `day care` — page 4
+  - snippet: intly by an Insurer and TPA to provide medical services to an insured by a cashless facility. 44. Non-Network Provider: means any hospital, day care centre or other provider that is not part of the network. 45. Notiﬁcation of Claim: means the process of intimating a claim to the insurer 
+- **common** (df=93) — `day care` — page 5
+  - snippet: ction of deformities and defects, diagnosis and cure of diseases, relief from suﬀering and prolongation of life, performed in a hospital or day care centre by a medical practitioner. 58. Surgical Treatment for benign Brain Tumour: a. We will be covering surgical treatment of Benign solid
+- **common** (df=93) — `day care` — page 12
+  - snippet: ut not limited to Vitamins, minerals and organic substances unless prescribed by a medical practitioner as part of hospitalization claim or day care procedure (Code-Excl14) Addictive Condition: When someone becomes dependent on substances or behaviours, leading to uncontrollable and harm
+- **common** (df=93) — `day care` — page 13
+  - snippet: ; viii. Maintaining daily records of the patients and making them accessible to the insurance company's authorized representative. 3. AYUSH Day Care Centre: means and includes Community Health Centre (CHC), Prima/r_y Health Centre (PHC), Dispensa/r_y, Clinic, Polyclinic or any such healt
+- **common** (df=93) — `day care` — page 17
+  - snippet: ction of deformities and defects, diagnosis and cure of diseases, relief from suﬀering and prolongation of life, performed in a hospital or day care centre by a medical practitioner. 58. Surgical Treatment for benign Brain Tumour: a. We will be covering surgical treatment of Benign solid
+- **common** (df=93) — `day care` — page 20
+  - snippet: one such delay on merits where the delay has been proved to be for reasons beyond the claimant’s control. Reimbursement of Hospitalization, Day Care Treatment or Pre Hospitalization Expenses Reimbursement of Post Hospitalization Expenses Within 30 days of date of discharge from Hospital.
+- **common** (df=93) — `day care` — page 21
+  - snippet: ovider of the Company or certiﬁcate from Hospital authorities providing facilities available including number of beds, iv. Discharge Card / Day Care Summa/r_y / Transfer Summa/r_y, v. Final Hospital bill with all original deposit and ﬁnal payment receipt and refund receipt(s), if advance
+
+## policy-wording/aditya-birla/Activ_One_VIP_Plus.pdf
+
+- **common** (df=23) — `2x|two times|twice|double` — page 34
+  - snippet: e Health Insurance Company’s Product. d. The Maternity Beneﬁt may be claimed under the Policy in respect of eligible Insured Person(s) only twice during the lifetime of the Policy including any Renewal therea/fter for the delive/r_y of a child or Medically Necessa/r_y and lawful termi
+- **common** (df=55) — `air ambulance` — page 30
+  - snippet: INR 50 lacs - 6 Crores Emergency Hospitalisation Emergency MedicaI Evacuation Global Compassionate Visit Emergency Air Ambulance Care and / or Transportation of Minor Children Return of Mortal Remains Medical Referral Medical Repatriation Loss of Passport Loss of Chec
+- **common** (df=55) — `air ambulance` — page 31
+  - snippet: arrier transportation. The family member is responsible to meet all travel document requirements, as may be applicable. C.12. (d) Emergency Air Ambulance The Company shall indemnify expenses incurred by the Insured Person during the Policy Year towards Ambulance transportation in an airplane 
+- **common** (df=55) — `air ambulance` — page 34
+  - snippet: Hospitalization Expenses AYUSH Treatment Pre-Hospitalization Cover Post-Hospitalization Cover Organ Donor Expenses Emergency Air Ambulance Claim Protect Super Credit Refer Section C.1 Refer Section C.7 Refer Section C.2 Refer Section C.3 Refer Section C.8 Refer Section C.12.(d)
+- **common** (df=55) — `air ambulance` — page 35
+  - snippet: IX. In Section C.12.(d) (Emergency Air Ambulance) clause v stands modiﬁed as below: “A claim for the same Hospitalization is admissible under Section C.1 (Hospitalization Expenses)”. X. On
+- **common** (df=93) — `ayush` — page 1
+  - snippet: e same. B.1 – Standard Deﬁnitions 1. Accident: Sudden, unforeseen and involunta/r_y event caused by external, visible and violent means. 2. AYUSH Hospital: Is a healthcare facility wherein medical / surgical / para-surgical treatment procedures and interventions are carried out by AYU
+- **common** (df=93) — `ayush` — page 2
+  - snippet: a. Having qualiﬁed registered AYUSH Medical Practitioner(s) in charge; b. Having dedicated AYUSH therapy sections as required and / or has equipped operation theatre where sur
+- **common** (df=93) — `ayush` — page 13
+  - snippet: e same. B.1 – Standard Deﬁnitions 1. Accident: Sudden, unforeseen and involunta/r_y event caused by external, visible and violent means. 2. AYUSH Hospital: Is a healthcare facility wherein medical / surgical / para-surgical treatment procedures and interventions are carried out by AYU
+- **common** (df=93) — `ayush` — page 29
+  - snippet: er Section C.1 (Hospitalization Treatment) or Section C.5 (Domicilia/r_y Hospitalization) or Section C.6 (Home Health Care) or Section C.7 (AYUSH Treatment) for up to 90 days immediately prior to the date of such Hospitalization. C.3 Post-Hospitalization Expenses The Company shall ind
+- **common** (df=93) — `ayush` — page 30
+  - snippet: der Section C.1(Hospitalization Treatment) or Section C.5 (Domicilia/r_y Hospitalization) or Section C.6 (Home Health Care) or Section C.7 (AYUSH Treatment) or Section C.8 (Organ Donor Expenses) arising in that Policy Year for any or all Insured Person(s). b. The Super Reload of the S
+- **common** (df=93) — `ayush` — page 34
+  - snippet: Hospitalization Expenses AYUSH Treatment Pre-Hospitalization Cover Post-Hospitalization Cover Organ Donor Expenses Emergency Air Ambulance Claim Protect Super Credit Refe
+- **common** (df=87) — `co-?pay(?:ment)?` — page 2
+  - snippet: cessible parts of the body. b. External Congenital Anomaly Congenital anomaly which is in the visible and accessible parts of the body. 10. Co-Payment: means a cost sharing requirement under a health insurance policy that provides that the Policyholder / Insured will bear a speciﬁed percen
+- **common** (df=87) — `co-?pay(?:ment)?` — page 17
+  - snippet: ed except in cases of proven fraud or permanent exclusions listed in the policy contract. However, the policy still has limits, sub-limits, co-payments, and deductibles that apply E.1.9. Claim Settlement (Provision for Penal Interest) a). The Company shall settle or reject a claim, as the 
+- **common** (df=72) — `consumable` — page 5
+  - snippet: sia, blood, oxygen incurred during Hospitalization of the Insured Person. Associated Medical Expenses does not include cost of pharmacy and consumables, cost of implants and medical devices, and cost of diagnostics. 7. Alzheimer’s Disease: We will be covering the Unequivocal diagnosis of A
+- **common** (df=72) — `consumable` — page 17
+  - snippet: sia, blood, oxygen incurred during Hospitalization of the Insured Person. Associated Medical Expenses does not include cost of pharmacy and consumables, cost of implants and medical devices, and cost of diagnostics. 7. Alzheimer’s Disease: We will be covering the Unequivocal diagnosis of A
+- **common** (df=72) — `consumable` — page 28
+  - snippet:  Medicines and drugs prescribed in writing by Medical Practitioner. f. Intravenous ﬂuids, blood transfusion, surgical appliances, allowable consumables and / or enteral feedings. g. Operation theatre charges. h. The cost of prosthetics and other devices or equipment, if implanted internall
+- **common** (df=72) — `consumable` — page 31
+  - snippet: Event that led to the current Hospitalization; V. Intravenous ﬂuids, blood transfusion, injection administration charges and / or allowable consumables; VI. Operation theatre charges; VII. The cost of prosthetics and other devices or equipment, if implanted internally during Surge/r_y; VII
+- **common** (df=93) — `day care` — page 1
+  - snippet: ; viii. Maintaining daily records of the patients and making them accessible to the insurance company's authorized representative. 3. AYUSH Day Care Centre: means and includes Community Health Centre (CHC), Prima/r_y Health Centre (PHC), Dispensa/r_y, Clinic, Polyclinic or any such healt
+- **common** (df=93) — `day care` — page 2
+  - snippet:  The condition has to be conﬁrmed by a specialist medical practitioner. Coma resulting directly from alcohol or drug abuse is excluded. 12. Day Care Centre: means any institution established for day care treatment of illness and / or injuries or a medical set-up with a hospital and which
+- **common** (df=93) — `day care` — page 3
+  - snippet: iod, if the premium is paid in instalments during the Policy Period 24. Hospital: means any institution established for In-patient care and day care treatment of Illness and / or injuries and which has been registered as a hospital with the local authorities under the Clinical Establishm
+- **common** (df=93) — `day care` — page 4
+  - snippet: intly by an Insurer and TPA to provide medical services to an insured by a cashless facility. 44. Non-Network Provider: means any hospital, day care centre or other provider that is not part of the network. 45. Notiﬁcation of Claim: means the process of intimating a claim to the insurer 
+- **common** (df=93) — `day care` — page 5
+  - snippet: ction of deformities and defects, diagnosis and cure of diseases, relief from suﬀering and prolongation of life, performed in a hospital or day care centre by a medical practitioner. 58. Surgical Treatment for benign Brain Tumour: a. We will be covering surgical treatment of Benign solid
+- **common** (df=93) — `day care` — page 12
+  - snippet: ut not limited to Vitamins, minerals and organic substances unless prescribed by a medical practitioner as part of hospitalization claim or day care procedure (Code-Excl14) Addictive Condition: When someone becomes dependent on substances or behaviours, leading to uncontrollable and harm
+- **common** (df=93) — `day care` — page 13
+  - snippet: ; viii. Maintaining daily records of the patients and making them accessible to the insurance company's authorized representative. 3. AYUSH Day Care Centre: means and includes Community Health Centre (CHC), Prima/r_y Health Centre (PHC), Dispensa/r_y, Clinic, Polyclinic or any such healt
+- **common** (df=93) — `day care` — page 17
+  - snippet: ction of deformities and defects, diagnosis and cure of diseases, relief from suﬀering and prolongation of life, performed in a hospital or day care centre by a medical practitioner. 58. Surgical Treatment for benign Brain Tumour: a. We will be covering surgical treatment of Benign solid
+
+## policy-wording/aditya-birla/Activ_One_VYTL.pdf
+
+- **common** (df=93) — `ayush` — page 1
+  - snippet: e same. B.1 – Standard Deﬁnitions 1. Accident: Sudden, unforeseen and involunta/r_y event caused by external, visible and violent means. 2. AYUSH Hospital: Is a healthcare facility wherein medical / surgical / para-surgical treatment procedures and interventions are carried out by AYU
+- **common** (df=93) — `ayush` — page 2
+  - snippet: a. Having qualiﬁed registered AYUSH Medical Practitioner(s) in charge; b. Having dedicated AYUSH therapy sections as required and / or has equipped operation theatre where sur
+- **common** (df=93) — `ayush` — page 13
+  - snippet: e same. B.1 – Standard Deﬁnitions 1. Accident: Sudden, unforeseen and involunta/r_y event caused by external, visible and violent means. 2. AYUSH Hospital: Is a healthcare facility wherein medical / surgical / para-surgical treatment procedures and interventions are carried out by AYU
+- **common** (df=93) — `ayush` — page 29
+  - snippet: er Section C.1 (Hospitalization Treatment) or Section C.5 (Domicilia/r_y Hospitalization) or Section C.6 (Home Health Care) or Section C.7 (AYUSH Treatment) for up to 90 days immediately prior to the date of such Hospitalization. C.3 Post-Hospitalization Expenses The Company shall ind
+- **common** (df=93) — `ayush` — page 30
+  - snippet: er Section C.1 (Hospitalization Treatment) or Section C.5 (Domicilia/r_y Hospitalization) or Section C.6 (Home Health Care) or Section C.7 (AYUSH Treatment) or Section C.8 (Organ Donor Expenses) arising in that Policy Year for any or all Insured Person(s). b. The Super Reload shall no
+- **common** (df=93) — `ayush` — page 34
+  - snippet: ii. For Non-Payable Claims, In case of an In-Patient Hospitalization. iv. Expenses for OPD Treatment up to the value of rewards accrued. v. AYUSH Treatments in excess of the limits as speciﬁed in Policy Schedule / Product Beneﬁt Table of this Policy. vi. For expenses towards buying an
+- **common** (df=87) — `co-?pay(?:ment)?` — page 2
+  - snippet: cessible parts of the body. b. External Congenital Anomaly Congenital anomaly which is in the visible and accessible parts of the body. 10. Co-Payment: means a cost sharing requirement under a health insurance policy that provides that the Policyholder / Insured will bear a speciﬁed percen
+- **common** (df=87) — `co-?pay(?:ment)?` — page 17
+  - snippet: ed except in cases of proven fraud or permanent exclusions listed in the policy contract. However, the policy still has limits, sub-limits, co-payments, and deductibles that apply E.1.9. Claim Settlement (Provision for Penal Interest) a). The Company shall settle or reject a claim, as the 
+- **common** (df=72) — `consumable` — page 5
+  - snippet: sia, blood, oxygen incurred during Hospitalization of the Insured Person. Associated Medical Expenses does not include cost of pharmacy and consumables, cost of implants and medical devices, and cost of diagnostics. 7. Alzheimer’s Disease: We will be covering the Unequivocal diagnosis of A
+- **common** (df=72) — `consumable` — page 17
+  - snippet: sia, blood, oxygen incurred during Hospitalization of the Insured Person. Associated Medical Expenses does not include cost of pharmacy and consumables, cost of implants and medical devices, and cost of diagnostics. 7. Alzheimer’s Disease: We will be covering the Unequivocal diagnosis of A
+- **common** (df=72) — `consumable` — page 28
+  - snippet: Medicines and Drugs prescribed in writing by Medical Practitioner. f. Intravenous Fluids, Blood Transfusion, Surgical Appliances, Allowable Consumables and / or Enteral Feedings. g. Operation Theatre charges. h. The cost of Prosthetics and other devices or equipment, if Implanted internall
+- **common** (df=93) — `day care` — page 1
+  - snippet: ; viii. Maintaining daily records of the patients and making them accessible to the insurance company's authorized representative. 3. AYUSH Day Care Centre: means and includes Community Health Centre (CHC), Prima/r_y Health Centre (PHC), Dispensa/r_y, Clinic, Polyclinic or any such healt
+- **common** (df=93) — `day care` — page 2
+  - snippet:  The condition has to be conﬁrmed by a specialist medical practitioner. Coma resulting directly from alcohol or drug abuse is excluded. 12. Day Care Centre: means any institution established for day care treatment of illness and / or injuries or a medical set-up with a hospital and which
+- **common** (df=93) — `day care` — page 3
+  - snippet: iod, if the premium is paid in instalments during the Policy Period 24. Hospital: means any institution established for In-patient care and day care treatment of Illness and / or injuries and which has been registered as a hospital with the local authorities under the Clinical Establishm
+- **common** (df=93) — `day care` — page 4
+  - snippet: intly by an Insurer and TPA to provide medical services to an insured by a cashless facility. 44. Non-Network Provider: means any hospital, day care centre or other provider that is not part of the network. 45. Notiﬁcation of Claim: means the process of intimating a claim to the insurer 
+- **common** (df=93) — `day care` — page 5
+  - snippet: ction of deformities and defects, diagnosis and cure of diseases, relief from suﬀering and prolongation of life, performed in a hospital or day care centre by a medical practitioner. 58. Surgical Treatment for benign Brain Tumour: a. We will be covering surgical treatment of Benign solid
+- **common** (df=93) — `day care` — page 12
+  - snippet: ut not limited to Vitamins, minerals and organic substances unless prescribed by a medical practitioner as part of hospitalization claim or day care procedure (Code-Excl14) Addictive Condition: When someone becomes dependent on substances or behaviours, leading to uncontrollable and harm
+- **common** (df=93) — `day care` — page 13
+  - snippet: ; viii. Maintaining daily records of the patients and making them accessible to the insurance company's authorized representative. 3. AYUSH Day Care Centre: means and includes Community Health Centre (CHC), Prima/r_y Health Centre (PHC), Dispensa/r_y, Clinic, Polyclinic or any such healt
+- **common** (df=93) — `day care` — page 17
+  - snippet: ction of deformities and defects, diagnosis and cure of diseases, relief from suﬀering and prolongation of life, performed in a hospital or day care centre by a medical practitioner. 58. Surgical Treatment for benign Brain Tumour: a. We will be covering surgical treatment of Benign solid
+- **common** (df=93) — `day care` — page 20
+  - snippet: one such delay on merits where the delay has been proved to be for reasons beyond the claimant’s control. Reimbursement of Hospitalization, Day Care Treatment or Pre Hospitalization Expenses Reimbursement of Post Hospitalization Expenses Within 30 days of date of discharge from Hospital.
+- **common** (df=93) — `day care` — page 21
+  - snippet: ovider of the Company or certiﬁcate from Hospital authorities providing facilities available including number of beds, iv. Discharge Card / Day Care Summa/r_y / Transfer Summa/r_y, v. Final Hospital bill with all original deposit and ﬁnal payment receipt and refund receipt(s), if advance
+- **common** (df=93) — `day care` — page 22
+  - snippet: uments) 4. Copy of the Network Provider’s Registration Certiﬁcate / Copy of Form C in case of Hospitalization. 5. Original Discharge Card / Day Care Summa/r_y / Transfer Summa/r_y 6. Original ﬁnal Hospital Bill with all original Deposit & Final Payment Receipt 7. Original Invoice with Pa
+- **common** (df=93) — `day care` — page 23
+  - snippet: ominee (if Insured Person is not alive). 3. Copy of the claim intimation, if any. 4. Final Hospital bill. 5. Hospital discharge summa/r_y / day care summa/r_y / transfer summa/r_y. 6. Operation theatre notes. 7. Investigation reports (Including CT scan / MRI / USG / Histopathology or Bio
+- **common** (df=93) — `day care` — page 25
+  - snippet: cuments) 4. Copy of the Network Provider’s Registration Certiﬁcate / Copy of Form C in case of Hospitalization 5. Original Discharge Card / Day Care Summa/r_y / Transfer Summa/r_y 6. Original ﬁnal Hospital Bill with all original deposit and ﬁnal payment receipt 7. Original invoice with p
+- **common** (df=93) — `day care` — page 28
+  - snippet: der Inpatient Care, medically necessitated due to Illness or Inju/r_y. c. Plastic Surge/r_y, medically necessitated due to Inju/r_y. d. All Day Care Treatments. e. Expenses incurred by towards treatment taken by the Insured Person during In-patient Treatment under Section C.1.1 or Day Ca
+
+## policy-wording/care/Care_Advantage.pdf
+
+- **common** (df=23) — `2x|two times|twice|double` — page 11
+  - snippet: or In-patient Care Hospitalization of the Insured Person only. (iii) In case the Insured Person is admitted in an ICU, the Company will pay twice the fixed amount as specified against this Cover in the Policy Schedule, for each continuous and completed period of 24 hours of Hospitaliz
+- **common** (df=55) — `air ambulance` — page 6
+  - snippet: Hospitalization Medical Expenses, Benefit 3(Ambulance Cover), Benefit 4 (Organ Donor Cover), Benefit 7 (AYUSH Treatment), Optional Cover 2 (Air Ambulance Cover), Optional Cover 10 (Additional Sum Insured for Accidental Hospitalization) and Optional Cover 13 (Pre-Post Hospitalization Expenses 
+- **common** (df=55) — `air ambulance` — page 7
+  - snippet:  Hospitalization Medical Expenses, Benefit 3(Ambulance Cover), Benefit 4 (Organ Donor Cover), Benefit 7 (AYUSH Treatment),Optional Cover 2 (Air Ambulance Cover), Optional Cover 10 (Additional Sum Insured for Accidental Hospitalization) and Optional Cover 13 (Pre-Post Hospitalization Expenses 
+- **common** (df=55) — `air ambulance` — page 10
+  - snippet:  automatically to the subsequent Policy year, even in case of multi-year Policies (with 2 or 3 year policy tenure). 3.2.2 Optional Cover 2: Air Ambulance Cover The Company will indemnify the Insured Person up to the amount specified against this Benefit in the Policy Schedule, for the Reasona
+- **common** (df=93) — `ayush` — page 2
+  - snippet: ons: 2.1.1 Accidental / Accident is a sudden, unforeseen and involuntary event caused by external, v i s i b l e a n d violent means. 2.1.2 AYUSH Hospital is a healthcare facility wherein medical/surgical/para-surgical treatment procedures and interventions are carried out by AYUSH Me
+- **common** (df=93) — `ayush` — page 5
+  - snippet: luding drug experimental therapy which is not based on established medical practice in India, is treatment experimental or unproven. 2.1.46 AYUSH treatment refers to the medical and / or hospitalization treatments given under Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homeopath
+- **common** (df=93) — `ayush` — page 6
+  - snippet: alization Medical Expenses and Post Hospitalization Medical Expenses, Benefit 3(Ambulance Cover), Benefit 4 (Organ Donor Cover), Benefit 7 (AYUSH Treatment), Optional Cover 2 (Air Ambulance Cover), Optional Cover 10 (Additional Sum Insured for Accidental Hospitalization) and Optional 
+- **common** (df=93) — `ayush` — page 7
+  - snippet: alization Medical Expenses and Post Hospitalization Medical Expenses, Benefit 3(Ambulance Cover), Benefit 4 (Organ Donor Cover), Benefit 7 (AYUSH Treatment),Optional Cover 2 (Air Ambulance Cover), Optional Cover 10 (Additional Sum Insured for Accidental Hospitalization) and Optional C
+- **common** (df=93) — `ayush` — page 9
+  - snippet: penses), Benefit 2 (Pre Hospitalization Medical Expenses and Post Hospitalization Medical Expenses), Benefit 3(Ambulance Cover), Benefit 7 (AYUSH Treatment) and Optional Cover 9 (Daily Allowance). (v) In case of a floater policy, all Insured Person will be eligible to utilize the Rech
+- **common** (df=87) — `co-?pay(?:ment)?` — page 3
+  - snippet: parts of the body ii. External Congenital Anomaly – Congenital anomaly which is in the visible and accessible parts of the body 2.1.7 Co-payment is a cost-sharing requirement under a health insurance policy that provides that the policyholder/insured will bear a specified percentage 
+- **common** (df=87) — `co-?pay(?:ment)?` — page 6
+  - snippet: t to the terms, conditions, exclusions, sub-limits and waiting periods of the Policy and subject to availability of the Sum Insured. 3. The Co-payment proportion (if applicable) as specified in the Policy Schedule shall be borne by the Policyholder / Insured Person on each Claim which will
+- **common** (df=87) — `co-?pay(?:ment)?` — page 10
+  - snippet: older/Insured Person shall bear a Co- Payment of 20% on each and every Claim arising in such regard, which will be in addition to any other co-payment (if any) applicable in the Policy. (ii) However, no such additional co-payment shall be applicable if treatment is availed in the hospitals
+- **common** (df=87) — `co-?pay(?:ment)?` — page 11
+  - snippet: elapsed, since the inception of the first Policy with the Company and only for the Sum Insured chosen at that time. 3.2.6 Optional Cover 6: Co-Payment Option If this Optional Cover is opted, then the Insured Person will have an option to bear a Co-payment, as specified in the Policy Schedu
+- **common** (df=87) — `co-?pay(?:ment)?` — page 17
+  - snippet: or proven fraud and permanent exclusions specified in the policy contract. The policies would however be subject to all limits, sub limits, co-payments, deductibles as per the policy contract. 5.1.13 Premium Payment in Installments lf the insured person has opted for Payment of Premium on 
+- **common** (df=87) — `co-?pay(?:ment)?` — page 22
+  - snippet: Company's liability to make payment shall commence only once the aggregate amount of all Claims payable or paid exceed the Deductible. (ii) Co-payment (if applicable) shall be applicable on the admissible claim amount payable by the Company. (iii) If any sub-limits on Room Rent/Category fo
+- **common** (df=93) — `day care` — page 2
+  - snippet:  iv. Maintaining daily records of the patients and making them accessible to the insurance company's authorized representative. 2.1.3 AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, Polyclinic or any such centre whi
+- **common** (df=93) — `day care` — page 3
+  - snippet: lative Bonus shall mean any increase or addition in the Sum Insured granted by the insurer without an associated increase in premium. 2.1.9 Day Care Centre means any institution established for day care treatment of illness and/or injuries or a medical setup within a hospital and which h
+- **common** (df=93) — `day care` — page 4
+  - snippet: orn baby means baby born during the Policy Period and is aged up to 90 days. 2.1.32 Non - Network Provider: Non-Network means any hospital, day care centre or other provider that is not part of the network. 2.1.33 Notification of Claim means the process of intimating a Claim to the Insur
+- **common** (df=93) — `day care` — page 5
+  - snippet: ion of deformities and defects, diagnosis and cure of diseases, relief from suffering or prolongation of life, performed in a Hospital or a Day Care Centre by a Medical Practitioner. 2.1.45 Unproven/Experimental Treatment means a treatment including drug experimental therapy which is not
+- **common** (df=93) — `day care` — page 7
+  - snippet: ting, by a Medical Practitioner, and the Medical Expenses incurred are Reasonable and Customary Charges that were Medically Necessary. (ii) Day Care Treatment: The Company will indemnify the Insured Person for Medical Expenses incurred on Day Care Treatment through Cashless or Reimbursem
+- **common** (df=93) — `day care` — page 14
+  - snippet: ut not limited to Vitamins, minerals and organic substances unless prescribed by a medical practitioner as part of hospitalization claim or day care procedure (Code- Excl14) 12. Refractive Error: (Code- Excl15) Expenses related to the treatment for correction of eye sight due to refracti
+- **common** (df=93) — `day care` — page 15
+  - snippet: utions. 21. Remicade, Avastin or similar injectable treatment which is undergone other than as a part of In-Patient Care Hospitalisation or Day Care Hospitalisation is excluded. 22. Expenses related to any kind of Advance Technology Methods other than mentioned in the Clause 3.1.1(iv). 2
+- **common** (df=93) — `day care` — page 23
+  - snippet: SION 57. INCISION AND DRAINAGE - HAEMATOMA AURICLE 58. TYMPANOPLASTY (TYPE II) 59. REDUCTION OF FRACTURE OF NASAL BONE Annexure I - List of Day Care Surgeries CARE ADV ANTAGE - UIN: CHIHLIP24183V032324 22
+- **common** (df=68) — `deductible` — page 3
+  - snippet: zation of more than 24 hours. iii. Treatment normally taken on an out-patient basis is not included in the scope of this definition. 2.1.11 Deductible is a cost-sharing requirement under a health insurance policy that provides that the Insurer will not be liable for a specified rupee amoun
+- **common** (df=68) — `deductible` — page 7
+  - snippet: 6 4. Deductible (if opted) is applicable on the Benefits namely Benefit 1(Hospitalization Expenses), Benefit 2(Pre Hospitalization Medical Expenses and Pos
+
+## policy-wording/care/Care_Care.pdf
+
+- **common** (df=23) — `2x|two times|twice|double` — page 21
+  - snippet: rred by the Insured Person in a policy year will be payable / reimbursed by the Company. However, claim can be filed with the Company, only twice during that Policy year, as and when that Insured Person may deem fit. 3.2.9. Optional Cover 9: Personal Accident The Insured Persons cover
+- **common** (df=55) — `air ambulance` — page 7
+  - snippet: echarge), Optional Cover 7 (Smart Select), Optional Cover 10 (Additional Sum Insured for Accidental Hospitalization) and Optional Cover 14 (Air Ambulance Cover). The event giving rise to a Claim under Benefit 1 shall be within the Policy Period for the Claim of such Benefit to be accepted. (c
+- **common** (df=55) — `air ambulance` — page 8
+  - snippet: over 1 (Global Coverage – Total), Optional Cover 7 (Smart Select), Optional Cover 13 (Extension of Global Coverage), and Optional Cover 14 (Air Ambulance Cover), shall reduce the Total Sum Insured for the Policy Year and only the balance shall be available for all the future claims for that P
+- **common** (df=55) — `air ambulance` — page 19
+  - snippet: er), for the reasonable cost incurred towards the medical evacuation of the Insured Person in an Emergency, through an Ambulance, including Air Ambulance or any other transportation and evacuation services to the nearest Hospital, (including necessary medical care en-route forming part of the
+- **common** (df=55) — `air ambulance` — page 23
+  - snippet:  of coverage will be extended to 90 continuous days in a single trip and maximum 180 days on a cumulative basis. 3.2.14. Optional Cover 14: Air Ambulance Cover The Company will indemnify the Insured Person up to the amount specified against this Benefit in the Policy Schedule, for the Reasona
+- **common** (df=55) — `air ambulance` — page 24
+  - snippet:  event within 30 days of the event giving rise to the Claim under this Benefit: b) Medical reports and transportation details issued by the air ambulance service provider, prescriptions and medical report by the attending Medical Practitioner furnishing the name of the Insured Person and deta
+- **common** (df=93) — `ayush` — page 2
+  - snippet: Definitions: 2.1.1. Accident/Accidental is a sudden, unforeseen and involuntary event caused by external, visible and violent means. 2.1.2. AYUSH Hospital is a healthcare facility wherein medical/surgical/para-surgical treatment procedures and interventions are carried out by AYUSH Me
+- **common** (df=93) — `ayush` — page 5
+  - snippet: uding drug experimental therapy which is not based on established medical practice in India, is treatment experimental or unproven. 2.1.46. AYUSH treatment refers to the medical and / or hospitalization treatments given under Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homeopath
+- **common** (df=93) — `ayush` — page 6
+  - snippet: newed without any break 2.2. Specific Definitions: 2.2.1. Age means the completed age of the Insured Person as on his last birthday. 2.2.2. AYUSH treatments are forms of treatments other than treatment “Allopathy” or “modern medicine” and include Ayurveda, Unani, Sidha and Homeopathy 
+- **common** (df=93) — `ayush` — page 8
+  - snippet: enefit 3 (Daily Allowance), Benefit 4 (Ambulance Cover), Benefit 5 (Organ Donor Cover), Benefit 6 (Domiciliary Hospitalization), Benefit 9 (AYUSH Treatments), Benefit 11 (Global coverage (excluding U.S.A.), Benefit 13 (Vaccination Cover), Benefit 14 (Care Anywhere), Benefit 15 (Matern
+- **common** (df=93) — `ayush` — page 13
+  - snippet: Major Organ Transplant 11. Paralysis 12. Motor Neuron Disorder 13. Multiple Sclerosis 14. Major Burns 15. Total Blindness 3.1.9. Benefit 9: AYUSH Treatments The Company will indemnify the Insured Person, through Cashless or Reimbursement Facility, up to the Base Sum Insured specified 
+- **common** (df=87) — `co-?pay(?:ment)?` — page 3
+  - snippet: ssible parts of the body ii. External Congenital Anomaly Congenital anomaly which is in the visible and accessible parts of the body 2.1.8. Co-Payment is a cost-sharing requirement under a health insurance policy that provides that the policyholder/insured will bear a specified percentage 
+- **common** (df=87) — `co-?pay(?:ment)?` — page 8
+  - snippet: d to be payable under Reimbursement facility, would follow the procedures and settlement clauses mentioned as per Clause 6.1.2 (b). (g) The Co-payment, if and as specified in the Policy Schedule, shall be borne by the Policyholder / Insured Person on each Claim which will be applicable on 
+- **common** (df=87) — `co-?pay(?:ment)?` — page 14
+  - snippet: America, up to the amount specified against this Benefit in the Policy Schedule, subject to the conditions specified below: (i) A mandatory Co-Payment of 10% per Claim is applicable, which will be in addition to any other co-payment (if any) applicable in the Policy. (ii) The Benefit is av
+- **common** (df=87) — `co-?pay(?:ment)?` — page 21
+  - snippet: Service Provider which is payable up to 1% of Base Sum Insured as specified in the Policy Schedule. For the purpose of this Benefit, a flat Co-payment of 20% per consultation is applicable and no other co-payment mentioned as per Clause 3 (g) or elsewhere in the Policy is applicable. (ii) 
+- **common** (df=87) — `co-?pay(?:ment)?` — page 24
+  - snippet: putes or loss in account of availing the services or arising between the Insured Person and the Fitness center. 3.2.18. Optional Cover 18 : Co-payment Notwithstanding anything to the contrary in the Policy, it is hereby stated that on opting this optional Cover, the Insured Person or eldes
+- **common** (df=87) — `co-?pay(?:ment)?` — page 31
+  - snippet: or proven fraud and permanent exclusions specified in the policy contract. The policies would however be subject to all limits, sub limits, co-payments, deductibles as per the policy contract. 5.1.13. Premium payment Installment lf the insured person has opted for Payment of Premium on an 
+- **common** (df=93) — `day care` — page 2
+  - snippet: iv. Maintaining daily records of the patients and making them accessible to the insurance company's authorized representative. 2.1.3. AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, Polyclinic or any such centre whi
+- **common** (df=93) — `day care` — page 3
+  - snippet: ative Bonus shall mean any increase or addition in the Sum Insured granted by the insurer without an associated increase in premium. 2.1.10.Day Care Centre means any institution established for day care treatment of illness and/or injuries or a medical setup with a hospital and which has
+- **common** (df=93) — `day care` — page 5
+  - snippet:  Facility. 2.1.31. Newborn baby means baby born during the Policy Period and is aged up to 90 days. 2.1.32. Non-Network means any hospital, day care centre or other provider that is not part of the network. 2.1.33. Notification of Claim means the process of intimating a Claim to the Insu
+- **common** (df=93) — `day care` — page 8
+  - snippet: ntial premium will be calculated on a pro rata basis. (k) Coverage amount limits for Optional Cover 2 ‘Travel Plus’, Optional Cover 6 ‘Everyday Care’, Optional Cover 8 ‘OPD Care’, Optional Cover 9 ‘Personal Accident’ and Optional Cover 10 ‘Additional Sum Insured for Accidental Hospitaliz
+- **common** (df=93) — `day care` — page 9
+  - snippet: indemnify the Policy Holder/Insured Person for Medical Expenses incurred on Day Care Treatment which involves a Surgical procedure, through Cashless or Reimbursement Facility, maximum up to the Base Sum Insured specified in 
+- **common** (df=93) — `day care` — page 15
+  - snippet: Benefit 15 (Maternity Cover) and Inpatient Care & Day Care Treatment under Benefit 1 (Hospitalization Expenses) only; 'Pre- Hospitalization' and 'Post-Hospitalization' expenses are not covered under
+- **common** (df=93) — `day care` — page 16
+  - snippet:  Transplant 10. Myocardial Infarction 11. Stroke 12. Total Blindness (ii) The Medical Expenses incurred are only for 'In- patient Care' or 'Day Care Treatment' undertaken in any Hospital; 'Pre-Hospitalization' and 'Post- Hospitalization' expenses is not covered under the purview of this 
+- **common** (df=93) — `day care` — page 17
+  - snippet: en advice of a Medical Practitioner, and the Medical Expenses incurred are Reasonable and Customary Charges that were Medically Necessary; 'Day Care Treatment', 'Pre-Hospitalization' and 'Post- Hospitalization' expenses are not covered under the purview of this cover. (ii) The treatment 
+
+## policy-wording/care/Care_Classic.pdf
+
+- **common** (df=55) — `air ambulance` — page 6
+  - snippet: mbulance Cover, Assisted Reproductive Treatment, Optional Benefit: Additional Sum Insured for Accidental Hospitalization, Optional Benefit: Air Ambulance Cover and Optional Benefit: Maternity & New Born Cover. I. At the time of issue of the first Policy with the Company, if Age of Insured Per
+- **common** (df=55) — `air ambulance` — page 7
+  - snippet: mbulance Cover, Assisted Reproductive Treatment, Optional Benefit: Additional Sum Insured for Accidental Hospitalization, Optional Benefit: Air Ambulance Cover and Optional Benefit: Maternity & New Born Cover. 5. Any Claim paid for Benefits namely In-patient Care, Day Care Treatment, Pre Hosp
+- **common** (df=55) — `air ambulance` — page 14
+  - snippet: for those policies where there is no sub-limit on diseases as specified in clause no. Clause 3.1.1 (viii) & (ix). 3.2.13 Optional Benefit : Air Ambulance Cover The Company will indemnify the Insured Person up to the limit specified against this Optional Benefit in the Policy Schedule, for the
+- **common** (df=55) — `air ambulance` — page 15
+  - snippet: thin 30 days of the event giving rise to the Claim under this Optional Benefit: b) Medical reports and transportation details issued by the air ambulance service provider, prescriptions and medical report by the attending Medical Practitioner furnishing the name of the Insured Person and deta
+- **common** (df=93) — `ayush` — page 2
+  - snippet: s: 2.1.1. Accidental / Accident is a sudden, unforeseen and involuntary event caused by external, v i s i b l e a n d violent means. 2.1.2. AYUSH Hospital is a healthcare facility wherein medical/surgical/para-surgical treatment p r o c e d u r e s and interventions are carried out by
+- **common** (df=93) — `ayush` — page 6
+  - snippet: ble on Benefit namely In- patient Care, Day Care Treatment, Pre Hospitalization Medical Expenses and Post Hospitalization Medical Expenses, AYUSH Treatment, Domiciliary Hospitalization, Organ Donor Cover, Ambulance Cover, Assisted Reproductive Treatment, Optional Benefit: Additional S
+- **common** (df=93) — `ayush` — page 7
+  - snippet: on the Benefits namely In-patient Care, Day Care Treatment, Pre Hospitalization Medical Expenses and Post Hospitalization Medical Expenses, AYUSH Treatment, Domiciliary Hospitalization, Organ Donor Cover, Ambulance Cover, Assisted Reproductive Treatment, Optional Benefit: Additional S
+- **common** (df=93) — `ayush` — page 8
+  - snippet: be the last date of discharge from the Hospital in relation to the Illness deemed or Injury sustained to be Any One Illness. (iv) Benefit : AYUSH Treatment The Company will indemnify the Insured Person, through Cashless or Reimbursement Facility, up to the amount specified in the Poli
+- **common** (df=93) — `ayush` — page 10
+  - snippet: ized for Benefit 'In-patient Care' 'Day Care Treatment' 'Pre-Hospitalization Medical Expenses and Post- Hospitalization Medical Expenses', 'AYUSH Treatment', 'Domiciliary Hospitalization', 'Organ Donor Cover', 'Ambulance Cover', 'Assisted Reproductive Treatment', 'Compassionate Travel
+- **common** (df=87) — `co-?pay(?:ment)?` — page 3
+  - snippet: sible parts of the body b. External Congenital Anomaly – Congenital anomaly which is in the visible and accessible parts of the body 2.1.8. Co-payment is a cost-sharing requirement under a health insurance policy that provides that the policyholder/ insured will bear a specified percentage
+- **common** (df=87) — `co-?pay(?:ment)?` — page 6
+  - snippet: ject to the terms, conditions, exclusions, sub-limits and wait periods of the Policy and subject to availability of the Sum Insured. 3. The Co-payment proportion (if applicable) shall be borne by the Insured Person on each Claim which will be applicable on Benefit namely In- patient Care, 
+- **common** (df=87) — `co-?pay(?:ment)?` — page 7
+  - snippet: 6 Insured Person (in case of Floater) is 61 Years or above, such Insured Person or all Insured Person (in case of Floater) shall bear a Co-payment of 20% per Claim (over & above any other co- payment, if any). 4. Deductible Option (if opted) is applicable on the Benefits namely In-pati
+- **common** (df=87) — `co-?pay(?:ment)?` — page 12
+  - snippet: older/Insured Person shall bear a Co- Payment of 20% on each and every Claim arising in such regard, which will be in addition to any other co-payment (if any) applicable in the Policy. (ii) However, no such additional co-payment shall be applicable if treatment is availed in the hospitals
+- **common** (df=87) — `co-?pay(?:ment)?` — page 13
+  - snippet: Amount in Rupees 3.2.3 Optional Benefit : Copayment Waiver If this Optional Benefit is opted then, the mandatory co- payment of 20% which is applicable to Insured Person whose entry age is 61
+- **common** (df=87) — `co-?pay(?:ment)?` — page 22
+  - snippet: or proven fraud and permanent exclusions specified in the policy contract. The policies would however be subject to all limits, sub limits, co-payments, deductibles as per the policy contract. 5.1.13. Premium payment Installment lf the insured person has opted for Payment of Premium on an 
+- **common** (df=87) — `co-?pay(?:ment)?` — page 26
+  - snippet: ompany's liability to make payment shall commence only once the aggregate amount of all Claims payable or paid exceed the Deductible. (iii) Co-payment (if applicable) shall be applicable on the admissible claim amount payable by the Company. (iv) The balance amount, if any, subject to the 
+- **common** (df=87) — `co-?pay(?:ment)?` — page 33
+  - snippet:  Nagpur – 440012 Max Care Hospital Near Ashoka Hotel, Opp.Kuda Office, Hanamkonda, Warangal – 506001 Annexure III - List of Hospitals where Co-Payment of 20% is not applicable under Optional Cover “Smart Select” Note: The below is a Non-exhaustive list of Network Hospitals under Smart Sele
+- **common** (df=93) — `day care` — page 2
+  - snippet: iv. Maintaining daily records of the patients and making them accessible to the insurance company's authorized representative. 2.1.3. AYUSH Day Care Centre means and includes Community Health Centre (CHC),Primary Health Centre (PHC), Dispensary, Clinic, Polyclinic or any such center whic
+- **common** (df=93) — `day care` — page 3
+  - snippet: Cumulative Bonus mean any increase or addition in the Sum Insured granted by the insurer without an associated increase in premium. 2.1.10. Day Care Centre means any institution established for day care treatment of illness and/or injuries or a medical setup within a hospital and which h
+- **common** (df=93) — `day care` — page 4
+  - snippet: rn baby means baby born during the Policy Period and is aged up to 90 days. 2.1.33. Non - Network Provider: Non-Network means any hospital, day care centre or other provider that is not part of the network. 2.1.34. Notification of Claim means the process of intimating a Claim to the Insu
+- **common** (df=93) — `day care` — page 5
+  - snippet: ion of deformities and defects, diagnosis and cure of diseases, relief from suffering or prolongation of life, performed in a Hospital or a Day Care Centre by a Medical Practitioner. 2.1.46. Unproven/Experimental Treatment means a treatment including drug experimental therapy which is no
+- **common** (df=93) — `day care` — page 6
+  - snippet:  proportion (if applicable) shall be borne by the Insured Person on each Claim which will be applicable on Benefit namely In- patient Care, Day Care Treatment, Pre Hospitalization Medical Expenses and Post Hospitalization Medical Expenses, AYUSH Treatment, Domiciliary Hospitalization, Or
+- **common** (df=93) — `day care` — page 7
+  - snippet: r Claim (over & above any other co- payment, if any). 4. Deductible Option (if opted) is applicable on the Benefits namely In-patient Care, Day Care Treatment, Pre Hospitalization Medical Expenses and Post Hospitalization Medical Expenses, AYUSH Treatment, Domiciliary Hospitalization, Or
+- **common** (df=93) — `day care` — page 9
+  - snippet: Insured Person up to the specified limit, as specified in the Policy Schedule, for expenses incurred under Benefit 'In- patient Care and/or Day Care Treatment' for treatment taken through following advance technology methods: A. Uterine Artery Embolization and HIFU B. Balloon Sinuplasty 
+- **common** (df=93) — `day care` — page 10
+  - snippet:  shall not be considered while calculating 'No Claims Bonus'; (xi) Accrued 'No Claims Bonus' can be utilized for Benefit 'In-patient Care' 'Day Care Treatment' 'Pre-Hospitalization Medical Expenses and Post- Hospitalization Medical Expenses', 'AYUSH Treatment', 'Domiciliary Hospitalizati
+
+## policy-wording/care/Care_Enhance_Top_Up.pdf
+
+- **common** (df=93) — `ayush` — page 2
+  - snippet: Definitions: 2.1.1. Accident/Accidental is a sudden, unforeseen and involuntary event caused by external, visible and violent means. 2.1.2. AYUSH Hospital is a healthcare facility wherein medical/surgical/para-surgical treatment procedures and interventions are carried out by AYUSH Me
+- **common** (df=93) — `ayush` — page 5
+  - snippet:  assume the rights of the Insured Person to recover expenses paid out under the Policy that may be recovered from any other source. 2.1.47. AYUSH treatment refers to the medical and / or hospitalization treatments given under Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homeopath
+- **common** (df=93) — `ayush` — page 8
+  - snippet: ENHANCE - UIN: RHIHLIP21372V022021 3.6. Benefit 6 : AYUSH Treatment (iv) The Company shall be liable to make payment under this Benefit only if prior written notice of at least 7 days is given to t
+- **common** (df=87) — `co-?pay(?:ment)?` — page 3
+  - snippet: ative Bonus shall mean any increase or addition in the Sum Insured granted by the insurer without an associated increase in premium. 2.1.8. Co-Payment is a cost-sharing requirement under a health i n s u r a n c e p o l i c y t h a t p r o v i d e s t h a t t h e policyholder/insured will 
+- **common** (df=87) — `co-?pay(?:ment)?` — page 14
+  - snippet: or proven fraud and permanent exclusions specified in the policy contract. The policies would however be subject to all limits, sub limits, co-payments, deductibles as per the policy contract. 5.1.14. Free Look Period a. A refund of the premium paid less any expenses incurred by the Compan
+- **common** (df=87) — `co-?pay(?:ment)?` — page 16
+  - snippet: red under this Policy and fall within the amount authorized in writing by the Company for availing Cashless Facility. Payment in respect of Co-payments (if applicable) or any other costs and expenses not authorized under the Cashless Facility be made directly by the Policyholder or Insured
+- **common** (df=87) — `co-?pay(?:ment)?` — page 17
+  - snippet: cceptance of such offer by the Policyholder the Company shall make payment within 7 days from the date of receipt of such acceptance. (iii) Co-payment, if any, shall be applicable on the amount payable by the Company after applying Clause 6.1.5(a)(I) and (ii). 6.1.6. Payment Terms (f) The 
+- **common** (df=87) — `co-?pay(?:ment)?` — page 18
+  - snippet: ear is maximum up to the Sum Insured unless any additional Sum Insured available or accrued under any Benefit. 6.2.2. Special Condition 2 : Co-payment (h) For cashless Claims, the payment shall be made to the Network Hospital whose discharge would be complete and final. (i) For the Reimbur
+- **common** (df=93) — `day care` — page 2
+  - snippet: hich is abnormal with reference to form, structure or position. i. Internal Congenital Anomaly ii. External Congenital Anomaly 2.1.3. AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, Polyclinic or any such centre whi
+- **common** (df=93) — `day care` — page 3
+  - snippet: policyholder/insured will bear a specified percentage of the admissible claim amount. A co-payment does not reduce the Sum Insured. 2.1.10. Day Care Centre means any institution established for day care treatment of illness and/or injuries or a medical setup with a hospital and which has
+- **common** (df=93) — `day care` — page 4
+  - snippet: cility like a consultation room for diagnosis and treatment based on the advice of a Medical Practitioner. The Insured is not admitted as a day care or In-patient. a. Is required for the medical management of the Illness or Injury suffered by the Insured Person; 2.1.30. Migration means a
+- **common** (df=93) — `day care` — page 5
+  - snippet: on of deformities and defects, diagnosis and cure of diseases, relief from suffering and prolongation of life, performed in a Hospital or a Day Care Centre by a Medical Practitioner. 2.2.6. Company means Care Health Insurance Limited. 2.2.7. Dependent Child means a child (natural or lega
+- **common** (df=93) — `day care` — page 6
+  - snippet: unotherapy- Monoclonal Antibody to be given as injection G. Robotic surgeries I. Bronchical Thermoplasty (ii) The Insured Person to undergo Day Care Treatment at a Day Care Centre or Hospital, then the Company will indemnify the Medical Expenses incurred on that Day Care Treatment, provi
+- **common** (df=93) — `day care` — page 7
+  - snippet: r Illness specified below only: For the purposes of this Benefit, Hospital shall mean “Any institution established for In- Patient Care and Day Care Treatment of Injury or Illness and which has been registered as a Hospital or a clinic as per law rules and/or regulations applicable for t
+- **common** (df=93) — `day care` — page 10
+  - snippet: ut not limited to Vitamins, minerals and organic substances unless prescribed by a medical practitioner as part of hospitalization claim or day care procedure (Code- Excl14) Expenses related to the treatment for correction of eye sight due to refractive error less than 7.5 dioptres. 14. 
+- **common** (df=93) — `day care` — page 19
+  - snippet: volvulus detorsion 89. Esophageal stent placemenT 90. Ercp + placement of biliary stents 92. Eus + coeliac node biopsy Annexure I - List of Day Care Surgeries 41. NASAL SINUS ASPIRATION 43. OTHER OPERATIONS ON THE TONSILS AND ADENOIDS 31. REVISION OF A TYMPANOPLASTY 37. INCISION (OPENING
+- **common** (df=68) — `deductible` — page 1
+  - snippet: High Deductible Health Insurance plan Know Your Policy Better The Company Was Awarded ‘Best Claim Settlement Company of The Year’ Award At The 9th Annual I
+- **common** (df=68) — `deductible` — page 3
+  - snippet: long term impairment of the insured Person's health. (b) Which would have otherwise required Hospitalization of more than 24 hours. 2.1.12. Deductible is a cost-sharing requirement under a health insurance policy that provides that the insurer will not be liable for a specified rupee amoun
+- **common** (df=68) — `deductible` — page 9
+  - snippet: e), from the time of such renewal. Notes: The Company shall provide an option to the Policyholder to renew the Policy without an applicable Deductible, on the expiry of 4 continuous years of coverage under this Policy, subject to the following: (i) The Policyholder shall pay in full in adv
+- **common** (df=68) — `deductible` — page 14
+  - snippet: ud and permanent exclusions specified in the policy contract. The policies would however be subject to all limits, sub limits, co-payments, deductibles as per the policy contract. 5.1.14. Free Look Period a. A refund of the premium paid less any expenses incurred by the Company on medical 
+- **common** (df=68) — `deductible` — page 17
+  - snippet: d after deducting the extent of premium to be received for the renewal/due date of premium of the policy, if not received earlier. (ii) The Deductible shall be applied to the aggregate of all Claims that are either paid or payable (and not excluded), under this Policy. The Company's liabil
+- **common** (df=74) — `domiciliary` — page 3
+  - snippet: atient basis is not included in the scope of this definition. iii. has qualified Medical Practitioner(s) in charge round the clock; 2.1.15. Domiciliary Hospitalization means medical treatment for an illness/disease/injury which in the normal course would require care and treatment at a Hosp
+- **common** (df=74) — `domiciliary` — page 11
+  - snippet:  or baby care products and bath additive, barber or beauty service, guest service as well as similar incidental services and supplies. (xv) Domiciliary Hospitalization / treatment. (xvi) War (whether declared or not) and war like occurrence or invasion, acts of foreign enemies, hostilities,
+- **common** (df=48) — `non[- ]medical` — page 11
+  - snippet: tion, cost of cochlear implants. Permanent Exclusions 4.2. Specific Exclusions: (i) Any item or condition or treatment specified in List of Non-Medical Items (Annexure – II to Policy Terms & Conditions). (vii) Circumcision unless necessary for treatment of an Illness or as may be necessitat
+- **common** (df=48) — `non[- ]medical` — page 28
+  - snippet: Annexure II - List of Expenses Generally Excluded ("Non-medical") in Hospital Indemnity Policy Sr. No. List - I - Optional Item 7 Carry Bags 9 Food Charges (other Than Patient's Diet Provided By Hospital
+
+## policy-wording/care/Care_Freedom.pdf
+
+- **common** (df=93) — `ayush` — page 2
+  - snippet: ions: 2.1.1 Accident/Accidental is a sudden, u n f o r e s e e n and involuntary event caused by external, visible and violent means. 2.1.2 AYUSH Hospital is a healthcare facility wherein medical/surgical/para-surgical treatment procedures and interventions are carried out by AYUSH Me
+- **common** (df=93) — `ayush` — page 6
+  - snippet: luding drug experimental therapy which is not based on established medical practice in India, is treatment experimental or unproven. 2.1.47 AYUSH treatment refers to the medical and / or hospitalization treatments given under Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homeopath
+- **common** (df=93) — `ayush` — page 11
+  - snippet: ms under this Benefit must be made in accordance with the procedure and other requirements specified in Clause 6.1.2(a). 3.1.10 Benefit 10: AYUSH Treatments The Company will indemnify the Insured Person, through Cashless or Reimbursement Facility, up to the Sum Insured, as specified i
+- **common** (df=87) — `co-?pay(?:ment)?` — page 3
+  - snippet: sible parts of the body. ii. External Congenital Anomaly Congenital Anomaly which is in the visible and accessible parts of the body. 2.1.8 Co-Payment means a cost-sharing requirement under a health insurance p o l i c y t h a t p r o v i d e s t h a t t h e policyholder/insured will bear 
+- **common** (df=87) — `co-?pay(?:ment)?` — page 7
+  - snippet: l Claims shall be payable subject to the terms, conditions and exclusions of the Policy and subject to availability of the Sum Insured. (f) Co-payment is applicable on all the Benefits / Optional Covers except Benefit 2, Benefit 3, Benefit 5, Benefit 7, Benefit 9, Optional Cover 2 & Option
+- **common** (df=87) — `co-?pay(?:ment)?` — page 11
+  - snippet: titled to avail up to 8 consultations with the Network Service Providers, up to the per consultation payable claim limit and the applicable Co-payment specified in the Policy Schedule. (b) The Insured Person shall be able to avail discounts at the pharmacies of the Network Service Provider
+- **common** (df=87) — `co-?pay(?:ment)?` — page 19
+  - snippet: or proven fraud and permanent exclusions specified in the policy contract. The policies would however be subject to all limits, sub limits, co-payments, deductibles as per the policy contract. 5.1.13 Possibility of Revision of Terms of the Policy Including the Premium Rates The Company may
+- **common** (df=87) — `co-?pay(?:ment)?` — page 22
+  - snippet: ompany's liability to make payment shall commence only once the aggregate amount of all Claims payable or paid exceed the Deductible. (iii) Co-payment shall then be applicable on the amount payable by the Company. (iv) The balance amount, if any, subject to the applicability of sub-limits 
+- **common** (df=87) — `co-?pay(?:ment)?` — page 23
+  - snippet: hen it is clarified that the Sum Insured shall be applied separately for each Policy Year in the Policy Period. 6.2.2 Special Condition 2 : Co-payment (a) The Policyholder shall bear a Co-payment per Claim (as specified in the Policy Schedule) of the final amount admitted as payable by the
+- **common** (df=72) — `consumable` — page 9
+  - snippet: r this Benefit must be made in accordance with the procedure and other requirements specified in Clause 6.1.2(a) and (b). 3.1.2 Benefit 2 : Consumable Allowance (a) The Company will pay the amount specified against this Benefit in the Schedule of Benefits for each continuous and completed 
+- **common** (df=93) — `day care` — page 2
+  - snippet:  iv. Maintaining daily records of the patients and making them accessible to the insurance company's authorized representative. 2.1.3 AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, Polyclinic or any such centre whi
+- **common** (df=93) — `day care` — page 3
+  - snippet:  2.1.9 Cumulative Bonus shall mean any increase in the Sum Insured granted by the insurer without an associated increase in premium. 2.1.10 Day Care Centre means any institution established for day care treatment of illness and/or injuries or a medical setup within a Hospital and which h
+- **common** (df=93) — `day care` — page 4
+  - snippet: , if the premium is paid in instalments during the policy period. 2.1.18 Hospital means any institution established for in-patient care and day care treatment of illness and/or injuries and which has been registered as a hospital with the local authorities under the C l i n i c a l Estab
+- **common** (df=93) — `day care` — page 5
+  - snippet: ss Facility. 2.1.32 Newborn baby means baby born during the Policy Period and is aged up to 90 days. 2.1.33 Non-Network means any hospital, day care centre or other provider that is not part of the network. 2.1.34 Notification of Claim means the process of intimating a Claim to the Insur
+- **common** (df=93) — `day care` — page 6
+  - snippet: ction of deformities and defects, diagnosis and cure of diseases, relief of suffering or prolongation of life, performed in a Hospital or a Day Care Centre by a Medical Practitioner. 2.1.46 Unproven/Experimental Treatment means a treatment including drug experimental therapy which is not
+- **common** (df=93) — `day care` — page 8
+  - snippet: dvice of a Medical Practitioner, and the Medical Expenses incurred are Reasonable and Customary Charges that were necessarily incurred. (b) Day Care Treatment: The Company will indemnify the Insured Person(s) for Medical Expenses incurred on Day Care Treatment up to the Sum Insured speci
+- **common** (df=93) — `day care` — page 15
+  - snippet: ut not limited to Vitamins, minerals and organic substances unless prescribed by a medical practitioner as part of hospitalization claim or day care procedure (Code- Excl14) 12. Refractive Error: (Code- Excl15) Expenses related to the treatment for correction of eye sight due to refracti
+- **common** (df=93) — `day care` — page 24
+  - snippet: Annexure 1 - List of Day Care Surgeries 1. Cardiology Related: 1. CORONARY ANGIOGRAPHY 2. Critical Care Related: 2. INSERT NON- TUNNEL CV CATH 3. INSERT PICC CATH (PERIP
+- **common** (df=68) — `deductible` — page 3
+  - snippet:  not included in the scope of this definition. Note: Day Care Treatment is listed as per the Annexure-I to Policy Terms & Conditions 2.1.12 Deductible means a cost-sharing requirement under a health insurance policy that provides that the Company will not be liable for a specified rupee am
+- **common** (df=68) — `deductible` — page 7
+  - snippet: n all the Benefits / Optional Covers except Benefit 2, Benefit 3, Benefit 5, Benefit 7, Benefit 9, Optional Cover 2 & Optional Cover 3. (g) Deductible is applicable on all the Benefits except Benefit 7 & Benefit 9. 3.1 Base Banefits 6 CARE FREEDOM - UIN: RHIHLIP21519V022021
+- **common** (df=68) — `deductible` — page 19
+  - snippet: ud and permanent exclusions specified in the policy contract. The policies would however be subject to all limits, sub limits, co-payments, deductibles as per the policy contract. 5.1.13 Possibility of Revision of Terms of the Policy Including the Premium Rates The Company may revise or mo
+- **common** (df=68) — `deductible` — page 22
+  - snippet: then, the Associate Medical Expenses payable shall be pro-rated as per the applicable limits in accordance with Clause 3.1.1© (i). (ii) The Deductible shall be applied to the aggregate of all Claims that are either paid or payable under this Policy. The Company's liability to make payment 
+- **common** (df=74) — `domiciliary` — page 3
+  - snippet: ereon shall be forfeited to the Company, in the event of misrepresentation, mis- description or non-disclosure of any material fact. 2.1.15 Domiciliary Hospitalization means medical treatment for an illness/ disease/injury which in the normal course would require care and treatment at a Hos
+- **common** (df=74) — `domiciliary` — page 10
+  - snippet: r this Benefit must be made in accordance with the procedure and other requirements specified in Clause 6.1.2(a) and (b). 3.1.6 Benefit 6 : Domiciliary Hospitalization (a) The Company will indemnify for the Medical Expenses incurred for Domiciliary Hospitalization of the Insured Person up t
+- **common** (df=48) — `non[- ]medical` — page 33
+  - snippet: Annexure II - List of Expenses Generally Excluded ("Non-medical") in Hospital Indemnity Policy Sr. No. List - I - Optional Item 1 Baby Food 2 Baby Utilities Charges 3 Beauty Services 4 Belts/ Braces 5 Bu
+
+## policy-wording/care/Care_Heart.pdf
+
+- **common** (df=23) — `2x|two times|twice|double` — page 16
+  - snippet: nsured Person in a policy year will be payable by the Company. However, in case of reimbursement, claim can be filed with the Company, only twice during that Policy year, as and when that Insured Person may deem fit. 3.2.2 Optional Benefit 2: International Second Opinion: In the event
+- **common** (df=93) — `ayush` — page 2
+  - snippet: Definitions: 2.1.1 Accidental / Accident is a sudden, unforeseen and involuntary event caused by external, visible and violent means. 2.1.2 AYUSH Hospital is a healthcare facility wherein medical/surgical/para-surgical treatment procedures and interventions are carried out by AYUSH Me
+- **common** (df=93) — `ayush` — page 7
+  - snippet: renewed without any break. 2.2 Specific Definitions: 2.2.1 Age means the completed age of the Insured Person as on his last birthday. 2.2.2 AYUSH treatments refers to the medical and / or hospitalization treatments given under Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homeopat
+- **common** (df=93) — `ayush` — page 9
+  - snippet:  f i t 1 (Hospitalization Expenses), Benefit 2 (Pre Hospitalization Medical Expenses and Post Hospitalization Medical Expenses), Benefit 3 (AYUSH Treatments), Benefit 4 (Ambulance Cover) and Benefit 5 (Domiciliary Hospitalization). 4. Any Claim paid for Benefits namely H o s p i t a l
+- **common** (df=93) — `ayush` — page 13
+  - snippet: 71V022021 date of discharge from the Hospital in relation to the Illness deemed or Injury sustained to be Any One Illness. 3.1.3 Benefit 3: AYUSH Treatments: The Company will indemnify the Insured Person, through Cashless or Reimbursement Facility, up to theSum Insured specified in th
+- **common** (df=93) — `ayush` — page 14
+  - snippet: enefit 1 (Hospitalization Expenses), Benefit 2 (Pre Hospitalization Medical Expenses and Post Hospitalization Medical Expenses), Benefit 3 (AYUSH Treatments), Benefit 4 (Ambulance Cover), Benefit 5 (Domiciliary Hospitalization) (iv) The Recharge shall be available only for all future 
+- **common** (df=93) — `ayush` — page 22
+  - snippet: exclusion will not be a p p l i c a b l e f o r I n p a t i e n t Hospitalization of the Insured to the extent covered under the Benefit 3: AYUSH Treatments. 14. Expenses incurred for Artificial life maintenance, including life support machine use, post confirmation of vegetative stat
+- **common** (df=87) — `co-?pay(?:ment)?` — page 3
+  - snippet: sible parts of the body ii. External Congenital Anomaly – Congenital anomaly which is in the visible and accessible parts of the body 2.1.8 Co-payment is a cost-sharing requirement under a health insurance policy that provides that the policyholder/insured will bear a specified percentage 
+- **common** (df=87) — `co-?pay(?:ment)?` — page 9
+  - snippet: ed. IV. The Company's liability shall be restricted to the payment of the balance amount subject to the available Total Sum Insured. 2. The Co-payment proportion as specified in the Policy Schedule, shall be borne by the Policyholder / Insured Person on each Claim which will be applicable 
+- **common** (df=87) — `co-?pay(?:ment)?` — page 10
+  - snippet: only if the Specific Condition is specified to be applicable to the Insured Person in the Policy Schedule. 1. The Policyholder shall bear a Co-payment per Claim (as specified in the Policy Schedule) of the final amount admitted as payable by the Company in accordance with Clause 6.1.6 and 
+- **common** (df=87) — `co-?pay(?:ment)?` — page 26
+  - snippet: or proven fraud and permanent exclusions specified in the policy contract. The policies would however be subject to all limits, sub limits, co-payments, deductibles as per the policy contract. 5.1.13 Possibility of Revision of Terms of the Policy Including the Premium Rates The Companymay 
+- **common** (df=87) — `co-?pay(?:ment)?` — page 32
+  - snippet: r claim' is applicable, the Company's liability to make payment shall commence only once the 'Deductible per claim' limit is exceeded. (iv) Co-payment (if applicable) shall be applicable on the admissible claim amount p a y a b l e b y t h e Company (v) The balance amount, if any, subject 
+- **common** (df=93) — `day care` — page 2
+  - snippet:  iv. Maintaining daily records of the patients and making them accessible to the insurance company's authorized representative. 2.1.3 AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, Polyclinic or any such centre whi
+- **common** (df=93) — `day care` — page 3
+  - snippet: ative Bonus shall mean any increase or addition in the Sum Insured granted by the insurer without an associated increase in premium. 2.1.10 Day Care Centre means any institution established for day care treatment of illness and/or injuries or a medical setup within a hospital and which h
+- **common** (df=93) — `day care` — page 4
+  - snippet: the policy period. 2.1.18 Hospital (not applicable for Overseas Travel Insurance) means any institution established for in-patient care and day care treatment of illness and/or injuries and which has been registered as a hospital with the local authorities under the ClinicaL Establishmen
+- **common** (df=93) — `day care` — page 5
+  - snippet: rn baby means baby born during the Policy Period and is aged up to 90 days. 2.1.33 Non - Network Provider: Non- Network means any hospital, day care centre or other provider that is not part of the network. 2.1.34 Notification of Claim means the process of intimating a Claim to the Insur
+- **common** (df=93) — `day care` — page 6
+  - snippet: ion of deformities and defects, diagnosis and cure of diseases, relief from suffering or prolongation of life, performed in a Hospital or a Day Care C e n t r e b y a M e d i c a l Practitioner. 2.1.46 U n p r o v e n / E x p e r i m e n t a l Treatment means a treatment including drug e
+- **common** (df=93) — `day care` — page 10
+  - snippet: ting, by a Medical Practitioner, and the Medical Expenses incurred are Reasonable and Customary Charges that were Medically Necessary. (ii) Day Care Treatment: The Company will indemnify the Insured Person for Medical Expenses incurred on Day Care Treatment through Cashless or Reimbursem
+- **common** (df=93) — `day care` — page 21
+  - snippet: itamins, minerals and o rg a n i c s u b s t a n c e s u n l e s s prescribed by a medical practitioner as part of hospitalization claim or day care procedure (Code- Excl14) 12. Refractive Error: (Code- Excl15) Expenses related to the treatment for correction of eye sight due to refracti
+- **common** (df=93) — `day care` — page 34
+  - snippet: AINAGE - HAEMATOMA AURICLE 58. TYMPANOPLASTY (TYPE II) 59. REDUCTION OF FRACTURE OF NASAL BONE 60. THYROPLASTY TYPE II Annexure I - List of Day Care Surgeries 33
+- **common** (df=68) — `deductible` — page 3
+  - snippet: ation of more than 24 hours. iii. Treatment normally taken on an out- patient basis is not included in the scope of this definition. 2.1.12 Deductible is a cost-sharing requirement under a health insurance policy that provides that the Insurer will not be liable for a specified rupee amoun
+- **common** (df=68) — `deductible` — page 9
+  - snippet: dical E x p e n s e s , B e n e f i t 3 ( AY U S H Treatments), Benefit 4 (Ambulance Cover) and Benefit 5 (Domiciliary Hospitalization). 3. Deductible if opted is applicable on the B e n e f i t s n a m e l y B e n e f i t 1 (Hospitalization Expenses), Benefit 2 (Pre Hospitalization Medica
+- **common** (df=68) — `deductible` — page 26
+  - snippet: ud and permanent exclusions specified in the policy contract. The policies would however be subject to all limits, sub limits, co-payments, deductibles as per the policy contract. 5.1.13 Possibility of Revision of Terms of the Policy Including the Premium Rates The Companymay revise or mod
+- **common** (df=68) — `deductible` — page 32
+  - snippet: ule, the Company's liability to make payment shall be limited to the extent of the applicable sub-limit for that Medical Expense. (iii) The Deductible (if applicable) shall be applied to the aggregate of all Claims that are either paid or payable under this Policy. The Company's liability 
+- **common** (df=74) — `domiciliary` — page 3
+  - snippet: ereon shall be forfeited to the Company, in the event of misrepresentation, mis- description or non-disclosure of any material fact. 2.1.15 Domiciliary Hospitalization means medical treatment for an illness/ disease/injury which in the normal course would require care and treatment at a Hos
+
+## policy-wording/care/Care_Joy_Today.pdf
+
+- **common** (df=93) — `ayush` — page 2
+  - snippet:  Definitions 2.1.1. Accident/Accidental is a sudden, unforeseen and involuntary event caused by external, visible and violent means. 2.1.2. AYUSH Hospital is a healthcare facility wherein medical/surgical/para-surgical treatment procedures and interventions are carried out by AYUSH Me
+- **common** (df=93) — `ayush` — page 5
+  - snippet: uding drug experimental therapy which is not based on established medical practice in India, is treatment experimental or unproven. 2.1.47. AYUSH treatment refers to the medical and / or hospitalization treatments given under Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homeopath
+- **common** (df=93) — `ayush` — page 8
+  - snippet: ral Palsy in case Claim is payable under this Benefit. (c) Any Claim under this Benefit can be made under Clause 6.1.2(b). 3.7. Benefit 7 : AYUSH Treatments The Company will indemnify the Insured Person, through Cashless or Reimbursement Facility, up to the Sum Insured, as specified i
+- **common** (df=87) — `co-?pay(?:ment)?` — page 3
+  - snippet: ssible parts of the body ii. External Congenital Anomaly Congenital anomaly which is in the visible and accessible parts of the body 2.1.8. Co-Payment is a cost-sharing requirement under a health insurance policy that provides that the policyholder/insured will bear a specified percentage 
+- **common** (df=87) — `co-?pay(?:ment)?` — page 14
+  - snippet: cept for proven and permanent exclusions specified in the policy contract. The policies would however be subject to all limits, sub limits, co-payments, deductibles as per the policy contract. 5.1.12 Possibility of Revision of Terms of the Policy Including the Premium Rates The Company may
+- **common** (df=87) — `co-?pay(?:ment)?` — page 17
+  - snippet: total and cumulative liability for all Insured Persons for any and all Claims incurred during the Policy Year. 6.2.2. Special Condition 2 : Co-payment Cover Type Entry Age* of Insured Person or Eldest Insured Person (in case of Floater) Applicable to Individual Floater >=60 years >=60 year
+- **common** (df=87) — `co-?pay(?:ment)?` — page 18
+  - snippet:  balance amount payable : *Entry Age means the age of the Insured Person at the time of issue of the first Policy with the Company. (b) The Co-payment shall be applicable to each and every Claim, for each Insured Person.
+- **common** (df=93) — `day care` — page 2
+  - snippet: iv. Maintaining daily records of the patients and making them accessible to the insurance company's authorized representative. 2.1.3. AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, Polyclinic or any such centre whi
+- **common** (df=93) — `day care` — page 3
+  - snippet: tive Bonus shall mean any increase or addition in the Sum Insured granted by the insurer without an associated increase in premium. 2.1.10. Day Care Centre means any institution established for day care treatment of illness and/or injuries or a medical setup with a hospital and which has
+- **common** (df=93) — `day care` — page 5
+  - snippet:  Facility. 2.1.32. Newborn baby means baby born during the Policy Period and is aged up to 90 days. 2.1.33. Non-Network means any hospital, day care centre or other provider that is not part of the network. 2.1.34. Notification of Claim means the process of intimating a Claim to the Insu
+- **common** (df=93) — `day care` — page 7
+  - snippet: he Medical Expenses incurred on Hospitalization, provided that the Hospitalization was on the written advice of a Medical Practitioner. (b) Day Care Treatment: The Insured Person to undergo Day Care Treatment Company will indemnify the Medical Expenses incurred on that Day Care Treatment
+- **common** (df=93) — `day care` — page 10
+  - snippet: ut not limited to Vitamins, minerals and organic substances unless prescribed by a medical practitioner as part of hospitalization claim or day care procedure (Code- Excl14) 12. Refractive Error: (Code- Excl15) Expenses related to the treatment for correction of eye sight due to refracti
+- **common** (df=93) — `day care` — page 19
+  - snippet: Annexure I : List of Day Care Surgeries 1. CARDIOLOGY RELATED: 1. CORONARY ANGIOGRAPHY 2. CRITICAL CARE RELATED: 2. INSERT NON- TUNNEL CV CATH 3. INSERT PICC CATH ( PERI
+- **common** (df=68) — `deductible` — page 3
+  - snippet: talization of more than 24 hours. Treatment normally taken on an out-patient basis is not included in the scope of this definition. 2.1.12. Deductible is a cost-sharing requirement under a health insurance policy that provides that the insurer will not be liable for a specified rupee amoun
+- **common** (df=68) — `deductible` — page 14
+  - snippet: en and permanent exclusions specified in the policy contract. The policies would however be subject to all limits, sub limits, co-payments, deductibles as per the policy contract. 5.1.12 Possibility of Revision of Terms of the Policy Including the Premium Rates The Company may revise or mo
+- **common** (df=74) — `domiciliary` — page 3
+  - snippet: reon shall be forfeited to the Company, in the event of misrepresentation, mis-description or non- disclosure of any material fact. 2.1.15. Domiciliary Hospitalization means medical treatment for an illness/disease/injury which in the normal course would require care and treatment at a Hosp
+- **common** (df=48) — `non[- ]medical` — page 11
+  - snippet:  expressly stated to the contrary elsewhere in the Policy terms and conditions: (i) Any item or condition or treatment specified in List of Non-Medical Items (Annexure – II to Policy Terms & Conditions). (ii) Any condition caused by or associated with any sexually transmitted disease except
+- **common** (df=48) — `non[- ]medical` — page 29
+  - snippet: Annexure II - List of Expenses Generally Excluded ("Non-medical") in Hospital Indemnity Policy Sr. No. List - I - Optional Item 1 Baby Food 2 Baby Utilities Charges 3 Beauty Services 4 Belts/ Braces 5 Bu
+- **common** (df=93) — `pre[- ]existing` — page 3
+  - snippet: ayment can be made to renew or continue a policy in force without loss of continuity benefits pertaining to waiting periods and coverage of pre-existing diseases. Coverage need not be available during the period for which no premium is received. The grace period for payment of the premium fo
+- **common** (df=93) — `pre[- ]existing` — page 5
+  - snippet: eans a facility provided to policyholders (including all members under family cover and group policies), to transfer the credits gained for pre-existing diseases and specific waiting periods from one health insurance policy to another with the same insurer. 2.1.31. Network Provider (not appl
+- **common** (df=93) — `pre[- ]existing` — page 8
+  - snippet: manent Exclusions, is superseded to the extent covered under this Benefit. 4. EXCLUSIONS 4.1. Standard Exclusions: (a) Waiting Periods: (i) Pre-existing Disease - Code- Excl01 a. Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded 
+- **common** (df=93) — `pre[- ]existing` — page 9
+  - snippet: ng period for the same would be reduced to the extent of prior coverage. d. Coverage under the policy after the expiry of 36 months for any pre-existing disease is subject to the same being declared at the time of application and accepted by Insurer. (ii) Specific Waiting Period - Code- Excl
+- **common** (df=62) — `restore|recharge|reload|refill|reinstat` — page 6
+  - snippet: ured Person who, following a Medical Condition, requires assistance in physical, vocational, independent living and educational pursuits to restore him to the position in which he was in, prior to such medical condition occurring. 2.2.17. Sum Insured means the amount specified in the Po
+- **common** (df=93) — `room rent` — page 5
+  - snippet: ewed on mutual consent with a provision of Grace Period for treating the renewal continuous for the purpose of all waiting periods. 2.1.43. Room Rent means the amount charged by a Hospital towards Room & Boarding expenses and shall include the associated medical expenses. 2.1.44. Subrogat
+- **common** (df=93) — `room rent` — page 7
+  - snippet: e proportion of the total Associate Medical Expenses (including surcharge or taxes thereon) in the proportion of the difference between the Room Rent of Single Private Room with A.C. to the Room Rent actually incurred. For the purpose of this Clause only, Single Private Room with A.C. mea
+
+## policy-wording/care/Care_Joy_Tomorrow.pdf
+
+- **common** (df=93) — `ayush` — page 2
+  - snippet:  Definitions 2.1.1. Accident/Accidental is a sudden, unforeseen and involuntary event caused by external, visible and violent means. 2.1.2. AYUSH Hospital is a healthcare facility wherein medical/surgical/para-surgical treatment procedures and interventions are carried out by AYUSH Me
+- **common** (df=93) — `ayush` — page 5
+  - snippet: uding drug experimental therapy which is not based on established medical practice in India, is treatment experimental or unproven. 2.1.47. AYUSH treatment refers to the medical and / or hospitalization treatments given under Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homeopath
+- **common** (df=93) — `ayush` — page 8
+  - snippet: ral Palsy in case Claim is payable under this Benefit. (c) Any Claim under this Benefit can be made under Clause 6.1.2(b). 3.7. Benefit 7 : AYUSH Treatments The Company will indemnify the Insured Person, through Cashless or Reimbursement Facility, up to the Sum Insured, as specified i
+- **common** (df=87) — `co-?pay(?:ment)?` — page 3
+  - snippet: ssible parts of the body ii. External Congenital Anomaly Congenital anomaly which is in the visible and accessible parts of the body 2.1.8. Co-Payment is a cost-sharing requirement under a health insurance policy that provides that the policyholder/insured will bear a specified percentage 
+- **common** (df=87) — `co-?pay(?:ment)?` — page 14
+  - snippet: cept for proven and permanent exclusions specified in the policy contract. The policies would however be subject to all limits, sub limits, co-payments, deductibles as per the policy contract. 5.1.12 Possibility of Revision of Terms of the Policy Including the Premium Rates The Company may
+- **common** (df=87) — `co-?pay(?:ment)?` — page 17
+  - snippet: total and cumulative liability for all Insured Persons for any and all Claims incurred during the Policy Year. 6.2.2. Special Condition 2 : Co-payment Cover Type Entry Age* of Insured Person or Eldest Insured Person (in case of Floater) Applicable to Individual Floater >=60 years >=60 year
+- **common** (df=87) — `co-?pay(?:ment)?` — page 18
+  - snippet:  balance amount payable : *Entry Age means the age of the Insured Person at the time of issue of the first Policy with the Company. (b) The Co-payment shall be applicable to each and every Claim, for each Insured Person.
+- **common** (df=93) — `day care` — page 2
+  - snippet: iv. Maintaining daily records of the patients and making them accessible to the insurance company's authorized representative. 2.1.3. AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, Polyclinic or any such centre whi
+- **common** (df=93) — `day care` — page 3
+  - snippet: tive Bonus shall mean any increase or addition in the Sum Insured granted by the insurer without an associated increase in premium. 2.1.10. Day Care Centre means any institution established for day care treatment of illness and/or injuries or a medical setup with a hospital and which has
+- **common** (df=93) — `day care` — page 5
+  - snippet:  Facility. 2.1.32. Newborn baby means baby born during the Policy Period and is aged up to 90 days. 2.1.33. Non-Network means any hospital, day care centre or other provider that is not part of the network. 2.1.34. Notification of Claim means the process of intimating a Claim to the Insu
+- **common** (df=93) — `day care` — page 7
+  - snippet: he Medical Expenses incurred on Hospitalization, provided that the Hospitalization was on the written advice of a Medical Practitioner. (b) Day Care Treatment: The Insured Person to undergo Day Care Treatment Company will indemnify the Medical Expenses incurred on that Day Care Treatment
+- **common** (df=93) — `day care` — page 10
+  - snippet: ut not limited to Vitamins, minerals and organic substances unless prescribed by a medical practitioner as part of hospitalization claim or day care procedure (Code- Excl14) 12. Refractive Error: (Code- Excl15) Expenses related to the treatment for correction of eye sight due to refracti
+- **common** (df=93) — `day care` — page 19
+  - snippet: Annexure I : List of Day Care Surgeries 1. CARDIOLOGY RELATED: 1. CORONARY ANGIOGRAPHY 2. CRITICAL CARE RELATED: 2. INSERT NON- TUNNEL CV CATH 3. INSERT PICC CATH ( PERI
+- **common** (df=68) — `deductible` — page 3
+  - snippet: talization of more than 24 hours. Treatment normally taken on an out-patient basis is not included in the scope of this definition. 2.1.12. Deductible is a cost-sharing requirement under a health insurance policy that provides that the insurer will not be liable for a specified rupee amoun
+- **common** (df=68) — `deductible` — page 14
+  - snippet: en and permanent exclusions specified in the policy contract. The policies would however be subject to all limits, sub limits, co-payments, deductibles as per the policy contract. 5.1.12 Possibility of Revision of Terms of the Policy Including the Premium Rates The Company may revise or mo
+- **common** (df=74) — `domiciliary` — page 3
+  - snippet: reon shall be forfeited to the Company, in the event of misrepresentation, mis-description or non- disclosure of any material fact. 2.1.15. Domiciliary Hospitalization means medical treatment for an illness/disease/injury which in the normal course would require care and treatment at a Hosp
+- **common** (df=48) — `non[- ]medical` — page 11
+  - snippet:  expressly stated to the contrary elsewhere in the Policy terms and conditions: (i) Any item or condition or treatment specified in List of Non-Medical Items (Annexure – II to Policy Terms & Conditions). (ii) Any condition caused by or associated with any sexually transmitted disease except
+- **common** (df=48) — `non[- ]medical` — page 29
+  - snippet: Annexure II - List of Expenses Generally Excluded ("Non-medical") in Hospital Indemnity Policy Sr. No. List - I - Optional Item 1 Baby Food 2 Baby Utilities Charges 3 Beauty Services 4 Belts/ Braces 5 Bu
+- **common** (df=93) — `pre[- ]existing` — page 3
+  - snippet: ayment can be made to renew or continue a policy in force without loss of continuity benefits pertaining to waiting periods and coverage of pre-existing diseases. Coverage need not be available during the period for which no premium is received. The grace period for payment of the premium fo
+- **common** (df=93) — `pre[- ]existing` — page 5
+  - snippet: eans a facility provided to policyholders (including all members under family cover and group policies), to transfer the credits gained for pre-existing diseases and specific waiting periods from one health insurance policy to another with the same insurer. 2.1.31. Network Provider (not appl
+- **common** (df=93) — `pre[- ]existing` — page 8
+  - snippet: manent Exclusions, is superseded to the extent covered under this Benefit. 4. EXCLUSIONS 4.1. Standard Exclusions: (a) Waiting Periods: (i) Pre-existing Disease - Code- Excl01 a. Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded 
+- **common** (df=93) — `pre[- ]existing` — page 9
+  - snippet: ng period for the same would be reduced to the extent of prior coverage. d. Coverage under the policy after the expiry of 36 months for any pre-existing disease is subject to the same being declared at the time of application and accepted by Insurer. (ii) Specific Waiting Period - Code- Excl
+- **common** (df=62) — `restore|recharge|reload|refill|reinstat` — page 6
+  - snippet: ured Person who, following a Medical Condition, requires assistance in physical, vocational, independent living and educational pursuits to restore him to the position in which he was in, prior to such medical condition occurring. 2.2.17. Sum Insured means the amount specified in the Po
+- **common** (df=93) — `room rent` — page 5
+  - snippet: ewed on mutual consent with a provision of Grace Period for treating the renewal continuous for the purpose of all waiting periods. 2.1.43. Room Rent means the amount charged by a Hospital towards Room & Boarding expenses and shall include the associated medical expenses. 2.1.44. Subrogat
+- **common** (df=93) — `room rent` — page 7
+  - snippet: e proportion of the total Associate Medical Expenses (including surcharge or taxes thereon) in the proportion of the difference between the Room Rent of Single Private Room with A.C. to the Room Rent actually incurred. For the purpose of this Clause only, Single Private Room with A.C. mea
+
+## policy-wording/care/Care_Plus_Complete.pdf
+
+- **common** (df=23) — `2x|two times|twice|double` — page 16
+  - snippet: or In-patient Care Hospitalization of the Insured Person only. (iii) In case the Insured Person is admitted in an ICU, the Company will pay twice the fixed amount as specified against this Benefit in the Policy Schedule, for each continuous and completed period of 24 hours of Hospital
+- **common** (df=55) — `air ambulance` — page 7
+  - snippet: ical Expenses and Post Hospitalization Medical Expenses, Ambulance Cover, Organ Donor Cover, Domiciliary Hospitalization, AYUSH Treatments, Air Ambulance Cover, OPD Cover, Optional Benefit: Maternity and New Born Cover. 4. Deductible Option (if opted) is applicable on the Benefits namely Hosp
+- **common** (df=55) — `air ambulance` — page 10
+  - snippet: of India; and (iv) Clause 4.2 (b) (12) under Permanent Exclusions, is superseded to the extent covered under this Benefit. 3.1.10 Benefit : Air Ambulance Cover The Company will indemnify the Insured Person up to the amount specified against this Benefit in the Policy Schedule, for the Reasona
+- **common** (df=55) — `air ambulance` — page 11
+  - snippet:  case the Insured Person has a Life ThreateningMedical Condition and the Insured Person (or his representatives) arranges for the emergency Air Ambulance at their own expense, then the Company will reimburse such costs incurred in accordance with the terms of this benefit; (iv) Payment under 
+- **common** (df=93) — `ayush` — page 2
+  - snippet: ons: 2.1.1 Accidental / Accident is a sudden, unforeseen and involuntary event caused by external, v i s i b l e a n d violent means. 2.1.2 AYUSH Hospital is a healthcare facility wherein medical/surgical/para-surgical treatment procedures and interventions are carried out by AYUSH Me
+- **common** (df=93) — `ayush` — page 5
+  - snippet: luding drug experimental therapy which is not based on established medical practice in India, is treatment experimental or unproven. 2.1.47 AYUSH treatment refers to the medical and / or hospitalization treatments given under Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homeopath
+- **common** (df=93) — `ayush` — page 7
+  - snippet: ospitalization Medical Expenses and Post Hospitalization Medical Expenses, Ambulance Cover, Organ Donor Cover, Domiciliary Hospitalization, AYUSH Treatments, Air Ambulance Cover, OPD Cover, Optional Benefit: Maternity and New Born Cover. 4. Deductible Option (if opted) is applicable o
+- **common** (df=93) — `ayush` — page 10
+  - snippet: cy Year. (viii) If the Policy is issued on a Floater basis, then the Recharge will also be available only on Floater basis. 3.1.9 Benefit : AYUSH Treatments The Company will indemnify the Insured Person, through Cashless or Reimbursement Facility, up to sum insured as specified in the
+- **common** (df=93) — `ayush` — page 11
+  - snippet: ation Medical Expenses and Post- Hospitalization Medical Expenses’, ‘Ambulance Cover’, ‘Organ Donor Cover’, ‘Domiciliary Hospitalization’, ‘AYUSH Treatment’ and Optional Benefits ‘Maternity & New Born Cover’ under the Policy. (xii) In case no claim or total claim amount payable does n
+- **common** (df=87) — `co-?pay(?:ment)?` — page 3
+  - snippet: ble parts of the body. ii. External Congenital Anomaly – Congenital anomaly which is in the visible and accessible parts of the body. 2.1.8 Co-payment is a cost-sharing requirement under a health insurance policy that provides that the policyholder/insured will bear a specified percentage 
+- **common** (df=87) — `co-?pay(?:ment)?` — page 7
+  - snippet: ject to the terms, conditions, exclusions, sub-limits and wait periods of the Policy and subject to availability of the Sum Insured. 3. The Co-payment proportion (if applicable) shall be borne by the Insured Person on each Claim which will be applicable on Benefit namely Hospitalization Ex
+- **common** (df=87) — `co-?pay(?:ment)?` — page 15
+  - snippet: % of earned points. ii. Redemption for renewal premium of this Policy, up to 10% of renewal premium. iii. Redemption for Non-covered items, Co-payment, Sub limits & Deductible which are non-payable under this Policy. iv. Redemption for any admissible claim of In- patient Medical Expenses a
+- **common** (df=87) — `co-?pay(?:ment)?` — page 17
+  - snippet: older/Insured Person shall bear a Co- Payment of 20% on each and every Claim arising in such regard, which will be in addition to any other co-payment (if any) applicable in the Policy. (ii) However, no such additional co-payment shall be applicable if treatment is availed in the hospitals
+- **common** (df=87) — `co-?pay(?:ment)?` — page 23
+  - snippet: or proven fraud and permanent exclusions specified in the policy contract. The policies would however be subject to all limits, sub limits, co-payments, deductibles as per the policy contract. 5.1.13 Premium Payment in Installments lf the insured person has opted for Payment of Premium on 
+- **common** (df=87) — `co-?pay(?:ment)?` — page 27
+  - snippet: ompany’s liability to make payment shall commence only once the aggregate amount of all Claims payable or paid exceed the Deductible. (iii) Co-payment (if applicable) shall be applicable on the admissible claim amount payable by the Company. c. The Claim amount assessed in Clause 6.1.6 (b)
+- **common** (df=87) — `co-?pay(?:ment)?` — page 34
+  - snippet:  Nagpur – 440012 Max Care Hospital Near Ashoka Hotel, Opp.Kuda Office, Hanamkonda, Warangal – 506001 Annexure III - List of Hospitals where Co-Payment of 20% is not applicable under Optional Cover “Smart Select” Note: The below is a Non-exhaustive list of Network Hospitals under Smart Sele
+- **common** (df=93) — `day care` — page 2
+  - snippet:  iv. Maintaining daily records of the patients and making them accessible to the insurance company’s authorized representative. 2.1.3 AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, Polyclinic or any such centre whi
+- **common** (df=93) — `day care` — page 3
+  - snippet: ative Bonus shall mean any increase or addition in the Sum Insured granted by the insurer without an associated increase in premium. 2.1.10 Day Care Centre means any institution established for day care treatment of illness and/or injuries or a medical setup within a hospital and which h
+- **common** (df=93) — `day care` — page 4
+  - snippet: orn baby means baby born during the Policy Period and is aged up to 90 days. 2.1.33 Non - Network Provider: Non-Network means any hospital, day care centre or other provider that is not part of the network. 2.1.34 Notification of Claim means the process of intimating a Claim to the Insur
+- **common** (df=93) — `day care` — page 5
+  - snippet: ion of deformities and defects, diagnosis and cure of diseases, relief from suffering or prolongation of life, performed in a Hospital or a Day Care Centre by a Medical Practitioner. 2.1.46 Unproven/Experimental Treatment means a treatment including drug experimental therapy which is not
+- **common** (df=93) — `day care` — page 7
+  - snippet: ting, by a Medical Practitioner, and the Medical Expenses incurred are Reasonable and Customary Charges that were Medically Necessary. (ii) Day Care Treatment: The Company will indemnify the Insured Person for Medical Expenses incurred on all Day Care Treatments through Cashless or Reimb
+- **common** (df=93) — `day care` — page 15
+  - snippet: ub limits & Deductible which are non-payable under this Policy. iv. Redemption for any admissible claim of In- patient Medical Expenses and Day Care Treatment expenses of this Policy provided that the Sum Insured and additional bonus/SI (if applicable) are exhausted during the Policy Yea
+- **common** (df=93) — `day care` — page 19
+  - snippet: ut not limited to Vitamins, minerals and organic substances unless prescribed by a medical practitioner as part of hospitalization claim or day care procedure (Code- Excl14) 12. Refractive Error: (Code- Excl15) Expenses related to the treatment for correction of eye sight due to refracti
+- **common** (df=93) — `day care` — page 20
+  - snippet: utions. 21. Remicade, Avastin or similar injectable treatment which is undergone other than as a part of In-Patient Care Hospitalisation or Day Care Hospitalisation is excluded. 22. Expenses related to any kind of Advance Technology Methods other than mentioned in the Clause 3.1.1(iv). 2
+- **common** (df=68) — `deductible` — page 3
+  - snippet: zation of more than 24 hours. iii. Treatment normally taken on an out-patient basis is not included in the scope of this definition. 2.1.12 Deductible is a cost-sharing requirement under a health insurance policy that provides that the Insurer will not be liable for a specified rupee amoun
+
+## policy-wording/care/Care_Plus_Youth.pdf
+
+- **common** (df=23) — `2x|two times|twice|double` — page 16
+  - snippet: or In-patient Care Hospitalization of the Insured Person only. (iii) In case the Insured Person is admitted in an ICU, the Company will pay twice the fixed amount as specified against this Benefit in the Policy Schedule, for each continuous and completed period of 24 hours of Hospital
+- **common** (df=55) — `air ambulance` — page 7
+  - snippet: ical Expenses and Post Hospitalization Medical Expenses, Ambulance Cover, Organ Donor Cover, Domiciliary Hospitalization, AYUSH Treatments, Air Ambulance Cover, OPD Cover, Optional Benefit: Maternity and New Born Cover. 4. Deductible Option (if opted) is applicable on the Benefits namely Hosp
+- **common** (df=55) — `air ambulance` — page 10
+  - snippet: of India; and (iv) Clause 4.2 (b) (12) under Permanent Exclusions, is superseded to the extent covered under this Benefit. 3.1.10 Benefit : Air Ambulance Cover The Company will indemnify the Insured Person up to the amount specified against this Benefit in the Policy Schedule, for the Reasona
+- **common** (df=55) — `air ambulance` — page 11
+  - snippet:  case the Insured Person has a Life ThreateningMedical Condition and the Insured Person (or his representatives) arranges for the emergency Air Ambulance at their own expense, then the Company will reimburse such costs incurred in accordance with the terms of this benefit; (iv) Payment under 
+- **common** (df=93) — `ayush` — page 2
+  - snippet: ons: 2.1.1 Accidental / Accident is a sudden, unforeseen and involuntary event caused by external, v i s i b l e a n d violent means. 2.1.2 AYUSH Hospital is a healthcare facility wherein medical/surgical/para-surgical treatment procedures and interventions are carried out by AYUSH Me
+- **common** (df=93) — `ayush` — page 5
+  - snippet: luding drug experimental therapy which is not based on established medical practice in India, is treatment experimental or unproven. 2.1.47 AYUSH treatment refers to the medical and / or hospitalization treatments given under Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homeopath
+- **common** (df=93) — `ayush` — page 7
+  - snippet: ospitalization Medical Expenses and Post Hospitalization Medical Expenses, Ambulance Cover, Organ Donor Cover, Domiciliary Hospitalization, AYUSH Treatments, Air Ambulance Cover, OPD Cover, Optional Benefit: Maternity and New Born Cover. 4. Deductible Option (if opted) is applicable o
+- **common** (df=93) — `ayush` — page 10
+  - snippet: cy Year. (viii) If the Policy is issued on a Floater basis, then the Recharge will also be available only on Floater basis. 3.1.9 Benefit : AYUSH Treatments The Company will indemnify the Insured Person, through Cashless or Reimbursement Facility, up to sum insured as specified in the
+- **common** (df=93) — `ayush` — page 11
+  - snippet: ation Medical Expenses and Post- Hospitalization Medical Expenses’, ‘Ambulance Cover’, ‘Organ Donor Cover’, ‘Domiciliary Hospitalization’, ‘AYUSH Treatment’ and Optional Benefits ‘Maternity & New Born Cover’ under the Policy. (xii) In case no claim or total claim amount payable does n
+- **common** (df=87) — `co-?pay(?:ment)?` — page 3
+  - snippet: ble parts of the body. ii. External Congenital Anomaly – Congenital anomaly which is in the visible and accessible parts of the body. 2.1.8 Co-payment is a cost-sharing requirement under a health insurance policy that provides that the policyholder/insured will bear a specified percentage 
+- **common** (df=87) — `co-?pay(?:ment)?` — page 7
+  - snippet: ject to the terms, conditions, exclusions, sub-limits and wait periods of the Policy and subject to availability of the Sum Insured. 3. The Co-payment proportion (if applicable) shall be borne by the Insured Person on each Claim which will be applicable on Benefit namely Hospitalization Ex
+- **common** (df=87) — `co-?pay(?:ment)?` — page 15
+  - snippet: % of earned points. ii. Redemption for renewal premium of this Policy, up to 10% of renewal premium. iii. Redemption for Non-covered items, Co-payment, Sub limits & Deductible which are non-payable under this Policy. iv. Redemption for any admissible claim of In- patient Medical Expenses a
+- **common** (df=87) — `co-?pay(?:ment)?` — page 17
+  - snippet: older/Insured Person shall bear a Co- Payment of 20% on each and every Claim arising in such regard, which will be in addition to any other co-payment (if any) applicable in the Policy. (ii) However, no such additional co-payment shall be applicable if treatment is availed in the hospitals
+- **common** (df=87) — `co-?pay(?:ment)?` — page 23
+  - snippet: or proven fraud and permanent exclusions specified in the policy contract. The policies would however be subject to all limits, sub limits, co-payments, deductibles as per the policy contract. 5.1.13 Premium Payment in Installments lf the insured person has opted for Payment of Premium on 
+- **common** (df=87) — `co-?pay(?:ment)?` — page 27
+  - snippet: ompany’s liability to make payment shall commence only once the aggregate amount of all Claims payable or paid exceed the Deductible. (iii) Co-payment (if applicable) shall be applicable on the admissible claim amount payable by the Company. c. The Claim amount assessed in Clause 6.1.6 (b)
+- **common** (df=87) — `co-?pay(?:ment)?` — page 34
+  - snippet:  Nagpur – 440012 Max Care Hospital Near Ashoka Hotel, Opp.Kuda Office, Hanamkonda, Warangal – 506001 Annexure III - List of Hospitals where Co-Payment of 20% is not applicable under Optional Cover “Smart Select” Note: The below is a Non-exhaustive list of Network Hospitals under Smart Sele
+- **common** (df=93) — `day care` — page 2
+  - snippet:  iv. Maintaining daily records of the patients and making them accessible to the insurance company’s authorized representative. 2.1.3 AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, Polyclinic or any such centre whi
+- **common** (df=93) — `day care` — page 3
+  - snippet: ative Bonus shall mean any increase or addition in the Sum Insured granted by the insurer without an associated increase in premium. 2.1.10 Day Care Centre means any institution established for day care treatment of illness and/or injuries or a medical setup within a hospital and which h
+- **common** (df=93) — `day care` — page 4
+  - snippet: orn baby means baby born during the Policy Period and is aged up to 90 days. 2.1.33 Non - Network Provider: Non-Network means any hospital, day care centre or other provider that is not part of the network. 2.1.34 Notification of Claim means the process of intimating a Claim to the Insur
+- **common** (df=93) — `day care` — page 5
+  - snippet: ion of deformities and defects, diagnosis and cure of diseases, relief from suffering or prolongation of life, performed in a Hospital or a Day Care Centre by a Medical Practitioner. 2.1.46 Unproven/Experimental Treatment means a treatment including drug experimental therapy which is not
+- **common** (df=93) — `day care` — page 7
+  - snippet: ting, by a Medical Practitioner, and the Medical Expenses incurred are Reasonable and Customary Charges that were Medically Necessary. (ii) Day Care Treatment: The Company will indemnify the Insured Person for Medical Expenses incurred on all Day Care Treatments through Cashless or Reimb
+- **common** (df=93) — `day care` — page 15
+  - snippet: ub limits & Deductible which are non-payable under this Policy. iv. Redemption for any admissible claim of In- patient Medical Expenses and Day Care Treatment expenses of this Policy provided that the Sum Insured and additional bonus/SI (if applicable) are exhausted during the Policy Yea
+- **common** (df=93) — `day care` — page 19
+  - snippet: ut not limited to Vitamins, minerals and organic substances unless prescribed by a medical practitioner as part of hospitalization claim or day care procedure (Code- Excl14) 12. Refractive Error: (Code- Excl15) Expenses related to the treatment for correction of eye sight due to refracti
+- **common** (df=93) — `day care` — page 20
+  - snippet: utions. 21. Remicade, Avastin or similar injectable treatment which is undergone other than as a part of In-Patient Care Hospitalisation or Day Care Hospitalisation is excluded. 22. Expenses related to any kind of Advance Technology Methods other than mentioned in the Clause 3.1.1(iv). 2
+- **common** (df=68) — `deductible` — page 3
+  - snippet: zation of more than 24 hours. iii. Treatment normally taken on an out-patient basis is not included in the scope of this definition. 2.1.12 Deductible is a cost-sharing requirement under a health insurance policy that provides that the Insurer will not be liable for a specified rupee amoun
+
+## policy-wording/care/Care_Senior.pdf
+
+- **common** (df=23) — `2x|two times|twice|double` — page 20
+  - snippet: rred by the Insured Person in a policy year will be payable / reimbursed by the Company. However, claim can be filed with the Company, only twice during that Policy year, as and when that Insured Person may deem fit. 3.9 Optional Cover 9: Daily Allowance+ The Company will pay a fixed 
+- **common** (df=55) — `air ambulance` — page 1
+  - snippet: Care Anywhere, Global Coverage (excluding U.S.A.), Vaccination Cover, Global Coverage Total, Extension of Global Coverage, Maternity cover, Air Ambulance Cover and Additional Sum Insured for Accidental Hospitalization. 2. If age of Insured Person or eldest Insured Person (in case of Floater) 
+- **common** (df=55) — `air ambulance` — page 2
+  - snippet: Reduction in PED Wait Period Indemnity 14 Care Anywhere Indemnity 14 Extension of Global Coverage Indemnity 15 Maternity Cover Indemnity 15 Air Ambulance Cover Indemnity Loss Sharing Plan Names Care 1 Care 2 Care 3 Care 4 Care 5 Care 6 Care 7 Care 8 Care 9 Policy Clause Reference In case of a
+- **common** (df=55) — `air ambulance` — page 8
+  - snippet: ect), Optional Cover 9 (Daily Allowance+), Optional Cover 11 (Additional Sum Insured for Accidental Hospitalization) and Optional Cover 15 (Air Ambulance Cover). The event giving rise to a Claim under Benefit 1 shall be within the Policy Period for the Claim of such Benefit to be accepted. (c
+- **common** (df=55) — `air ambulance` — page 9
+  - snippet:  Optional Cover 8 (OPD Care), Optional Cover 9 (Daily Allowance+), Optional Cover 14 (Extension of Global Coverage), and Optional Cover 15 (Air Ambulance Cover), shall reduce the Total Sum Insured for the Policy Year and only the balance shall be available for all the future claims for that P
+- **common** (df=55) — `air ambulance` — page 18
+  - snippet: er), for the reasonable cost incurred towards the medical evacuation of the Insured Person in an Emergency, through an Ambulance, including Air Ambulance or any other transportation and evacuation services to the nearest Hospital, (including necessary medical care en-route forming part of the
+- **common** (df=55) — `air ambulance` — page 22
+  - snippet: ion of coverage will be extended to 90 continuous days in a single trip and maximum 180 days on a cumulative basis. 3.15 Optional Cover 15: Air Ambulance Cover The Company will indemnify the Insured Person up to the amount specified against this Benefit in the Policy Schedule, for the Reasona
+- **common** (df=55) — `air ambulance` — page 28
+  - snippet: d 'Medical Evacuation', have been mentioned under Clauses 3.2.3 (iii), 3.2.4 (vii) and 3.2.6 (v) respectively. 3. Under Optional Cover 15: 'Air Ambulance Cover', additional documents which are required for assessing claims has been mentioned under Clause 3.15(v). (ii) The Company will accept 
+- **common** (df=93) — `ayush` — page 8
+  - snippet:  health insurance policy), to transfer the credit gained for pre-existing conditions and time bound exclusions, with the same insurer. 1.74 AYUSH Hospital is a healthcare facility wherein medical/surgical/para-surgical treatment procedures and interventions are carried out by AYUSH Me
+- **common** (df=87) — `co-?pay(?:ment)?` — page 1
+  - snippet: General Conditions: 1. The Co-payment proportion (if applicable) shall be borne by the Insured Person on each Claim which will be applicable on Benefits namely Hospitalization E
+- **common** (df=87) — `co-?pay(?:ment)?` — page 2
+  - snippet: e 2.1 (iii) (b) CARE - RHIHLIP21017V052021 5. Sub-limits on Treatment of Named Ailments / Procedures û û û û û û û ü ü Clause 2.1 (iii) (c) Co-payment – 20% per claim, where age of insured / eldest member is 61 years or above ü ü ü ü ü ü ü ü ü Clause 2 (g) Renewal Conditions Your policy ha
+- **common** (df=87) — `co-?pay(?:ment)?` — page 4
+  - snippet: essible parts of the body ii.) External Congenital Anomaly Congenital anomaly which is in the visible and accessible parts of the body 1.15 Co-Payment is a cost-sharing requirement under a health insurance policy that provides that the policyholder/insured will bear a specified percentage 
+- **common** (df=87) — `co-?pay(?:ment)?` — page 9
+  - snippet: ied to be payable under Reimbursement facility, would follow the procedures and settlement clauses mentioned as per Clause 6.2 (b). (g) The Co-payment, if and as specified in the Policy Schedule, shall be borne by the Policyholder / Insured Person on each Claim which will be applicable on 
+- **common** (df=87) — `co-?pay(?:ment)?` — page 14
+  - snippet: America, up to the amount specified against this Benefit in the Policy Schedule, subject to the conditions specified below: (i) A mandatory Co-Payment of 10% per Claim is applicable, which will be in addition to any other co- payment (if any) applicable in the Policy. (ii) The Benefit is a
+- **common** (df=87) — `co-?pay(?:ment)?` — page 19
+  - snippet: work Service Provider which is payable up to 1% of Sum Insured as specified in the Policy Schedule. For the purpose of this Benefit, a flat Co-payment of 20% per consultation is applicable and no other co-payment mentioned as per Clause 2 (g) or elsewhere in the Policy is applicable. (ii) 
+- **common** (df=87) — `co-?pay(?:ment)?` — page 20
+  - snippet: older/Insured Person shall bear a Co- Payment of 20% on each and every Claim arising in such regard, which will be in addition to any other co-payment (if any) applicable in the Policy. (ii) However, no such additional co-payment shall be applicable if treatment is availed in the hospitals
+- **common** (df=87) — `co-?pay(?:ment)?` — page 28
+  - snippet: payment shall commence only once the 'Deductible per claim' limit is exceeded and the Company will not apply the Contribution Clause. (iii) Co-payment shall be applicable on the amount payable by the Company as specified in the Policy Schedule. (c) The Claim amount assessed in Clause 6.6 (
+- **common** (df=93) — `day care` — page 1
+  - snippet: – Total, Daily Allowance+, Extension of Global Coverage, Maternity cover, Air Ambulance Cover, Travel Plus, Smart Select, OPD Care and Everyday Care shall reduce the Total Sum Insured for the Policy Year and only the balance shall be available for all the future claims for that Policy Ye
+- **common** (df=93) — `day care` — page 2
+  - snippet:  No Claims Bonus Super Indemnity 5 Organ Donor Cover Indemnity 5 Deductible Option Indemnity 6 Domiciliary Hospitalization Indemnity 6 Everyday Care Indemnity 7 Automatic Recharge Indemnity 7 Smart Select Indemnity 8 Second Opinion Benefit 8 OPD Care Indemnity 9 Alternative Treatments In
+- **common** (df=93) — `day care` — page 4
+  - snippet: mulative Bonus shall mean any increase or addition in the Sum Insured granted by the insurer without an associated increase in premium 1.17 Day Care Centre means any institution established for day care treatment of illness and/or injuries or a medical setup with a hospital and which has
+- **common** (df=93) — `day care` — page 5
+  - snippet:  carried out. iv.) maintains daily records of patients and will make these accessible to the insurance company’s authorized personnel. 1.18 Day Care Treatment refers to medical treatment and/or a surgical procedure which is: I.) undertaken under general or local anesthesia in a Hospital/
+- **common** (df=93) — `day care` — page 6
+  - snippet: Cashless Facility 1.43 Newborn baby means baby born during the Policy Period and is aged up to 90 days 1.44 Non-Network means any hospital, day care centre or other provider that is not part of the network. 1.45 Notification of Claim means the process of intimating a Claim to the Insurer
+- **common** (df=93) — `day care` — page 7
+  - snippet: n of deformities and defects, diagnosis and cure of diseases, relief from suffering and prolongation of life, performed in a Hospital and a Day Care Centre by a Medical Practitioner. 1.69 Third Party Administrator or TPA means any person who is licensed under the IRDA (Third Party Admini
+- **common** (df=93) — `day care` — page 8
+  - snippet:  (iv) Maintaining daily records of the patients and making them accessible to the insurance company's authorized representative. 1.75 AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, Polyclinic or any such centre whi
+- **common** (df=93) — `day care` — page 9
+  - snippet: rnity cover) and Optional Covers namely Optional Cover 1 (Global Coverage – Total), Optional Cover 2 (Travel Plus), Optional Cover 6 ('Everyday Care' except Health Care Services), Optional Cover 7 (Smart Select), Optional Cover 8 (OPD Care), Optional Cover 9 (Daily Allowance+), Optional 
+
+## policy-wording/care/Care_Senior_Health_Advantage.pdf
+
+- **common** (df=55) — `air ambulance` — page 7
+  - snippet: l Sum Insured for Accidental Hospitalization, Optional Benefit: Additional Sum Insured for Defined Critical Illnesses and Optional Benefit: Air Ambulance Cover. 4. Deductible Option (if opted) is applicable on the Benefits namely In-patient Care, Day Care Treatment, Domiciliary Hospitalizatio
+- **common** (df=55) — `air ambulance` — page 15
+  - snippet: or's or other eye defects (IV) Cost of prosthesis for cosmetic correction (V) Visual aids implantable or external 3.2.11 Optional Benefit : Air Ambulance Cover The Company will indemnify the Insured Person up to the limit specified against this Optional Benefit in the Policy Schedule, for the
+- **common** (df=55) — `air ambulance` — page 16
+  - snippet: representatives) arranges for the emergency Air Ambulance at their own expense, then the Company will reimburse such costs incurred in accordance with the terms of this Optional Benefit; (iv) Payme
+- **common** (df=93) — `ayush` — page 2
+  - snippet: finitions: 2.1.1. Accidental / Accident is a sudden, unforeseen and involuntary event caused by external, visible and violent means. 2.1.2. AYUSH Hospital is a healthcare facility wherein medical/surgical/para-surgical treatment procedures and interventions are carried out by AYUSH Me
+- **common** (df=93) — `ayush` — page 5
+  - snippet: uding drug experimental therapy which is not based on established medical practice in India, is treatment experimental or unproven. 2.1.47. AYUSH treatment refers to the medical and / or hospitalization treatments given under Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homeopath
+- **common** (df=93) — `ayush` — page 7
+  - snippet: ach Claim which will be applicable on Benefits namely In -patient Care, Day Care Treatment, Domiciliary Hospitalization, Organ Donor Cover, AYUSH Treatment, Pre Hospitalization Medical Expenses and Post Hospitalization Medical Expenses, Road Ambulance Cover, Optional Benefit: Addition
+- **common** (df=93) — `ayush` — page 8
+  - snippet: he donor consequent to the harvesting. (IV) The provision mentioned under clause no.3.1.1 (viii) holds good for this benefit. (v) Benefit : AYUSH Treatment The Company will indemnify the Insured Person, through Cashless or Reimbursement Facility, up to the Sum Insured, as specified in
+- **common** (df=87) — `co-?pay(?:ment)?` — page 3
+  - snippet: sible parts of the body b. External Congenital Anomaly – Congenital anomaly which is in the visible and accessible parts of the body 2.1.8. Co-payment is a cost-sharing requirement under a health insurance policy that provides that the policyholder/insured will bear a specified percentage 
+- **common** (df=87) — `co-?pay(?:ment)?` — page 7
+  - snippet: ject to the terms, conditions, exclusions, sub-limits and wait periods of the Policy and subject to availability of the Sum Insured. 3. The Co-payment proportion (if applicable) shall be borne by the Insured Person on each Claim which will be applicable on Benefits namely In -patient Care,
+- **common** (df=87) — `co-?pay(?:ment)?` — page 13
+  - snippet:  shall apply to total claim amount payable under all Hospitalization related benefits listed in base Plan 3.2.7 Optional Benefit: Voluntary Co-payment: If this Optional Benefit is opted, then the Insured Person will have an option to bear a Co-payment, as specified in the Policy Schedule, 
+- **common** (df=87) — `co-?pay(?:ment)?` — page 16
+  - snippet: holder/Insured Person shall bear a Co Payment of 20% on each and every Claim arising in such regard, which will be in addition to any other co-payment (if any) applicable in the Policy. (ii) However, no such additional co-payment shall be applicable if treatment is availed in the hospitals
+- **common** (df=87) — `co-?pay(?:ment)?` — page 23
+  - snippet: or proven fraud and permanent exclusions specified in the policy contract. The policies would however be subject to all limits, sub limits, co-payments, deductibles as per the policy contract. 5.13. Premium payment Installment lf the insured person has opted for Payment of Premium on an in
+- **common** (df=87) — `co-?pay(?:ment)?` — page 28
+  - snippet: ompany's liability to make payment shall commence only once the aggregate amount of all Claims payable or paid exceed the Deductible. (iii) Co-payment (if applicable) shall be applicable on the admissible claim amount payable by the Company. (iv) The balance amount, if any, subject to the 
+- **common** (df=87) — `co-?pay(?:ment)?` — page 34
+  - snippet: re Marg, Dhantoli, Nagpur – 440012 Near Ashoka Hotel, Opp.Kuda Office, Hanamkonda, Warangal – 506001 Annexure III - List of Hospitals where Co-Payment of 20% is not applicable under Optional Cover “Smart Select” Fortis Hospital Ltd.-Wockhardt 154,9, Opposite IIM-B, Bannerghatta Road, Banga
+- **common** (df=72) — `consumable` — page 5
+  - snippet: esthetist, Medical Practitioner; Note: 1. The following expenses shall not be part of 'associate medical expenses': a. Cost of pharmacy and consumables; b. Cost of implants and medical devices c. Cost of diagnostics 2. Associate Medical Expenses are not applied in respect of the hospitals 
+- **common** (df=93) — `day care` — page 2
+  - snippet: ords of the patients and making them accessible to the i n s u r a n c e c o m p a n y ' s a u t h o r i z e d representative. 2.1.3. AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, Polyclinic or any such center whi
+- **common** (df=93) — `day care` — page 3
+  - snippet: Cumulative Bonus mean any increase or addition in the Sum Insured granted by the insurer without an associated increase in premium. 2.1.10. Day Care Centre means any institution established for day care treatment of illness and/or injuries or a medical setup within a hospital and which h
+- **common** (df=93) — `day care` — page 4
+  - snippet: rn baby means baby born during the Policy Period and is aged up to 90 days. 2.1.33. Non - Network Provider: Non-Network means any hospital, day care centre or other provider that is not part of the Company's network. 2.1.34. Notification of Claim means the process of intimating a Claim t
+- **common** (df=93) — `day care` — page 5
+  - snippet: ion of deformities and defects, diagnosis and cure of diseases, relief from suffering or prolongation of life, performed in a Hospital or a Day Care Centre by a Medical Practitioner. 2.1.46. Unproven/Experimental Treatment means a treatment including drug experimental therapy which is no
+- **common** (df=93) — `day care` — page 7
+  - snippet: proportion (if applicable) shall be borne by the Insured Person on each Claim which will be applicable on Benefits namely In -patient Care, Day Care Treatment, Domiciliary Hospitalization, Organ Donor Cover, AYUSH Treatment, Pre Hospitalization Medical Expenses and Post Hospitalization M
+- **common** (df=93) — `day care` — page 8
+  - snippet: a Medical Practitioner, and the Medical Expenses incurred are Reasonable and Customary Charges that were Medically Necessary. (ii) Benefit: Day Care Treatment: The Company will indemnify the Insured Person for Medical Expenses incurred on all Day Care Treatments through Cashless or Reimb
+- **common** (df=93) — `day care` — page 9
+  - snippet:  the Insured Person up to the Sum Insured, as specified in the Policy Schedule, for expenses incurred under Benefit 'In-patient Care and/or Day Care Treatment' for treatment taken through following advance technology methods: A. Uterine Artery Embolization and HIFU B. Balloon Sinuplasty 
+- **common** (df=93) — `day care` — page 10
+  - snippet: as well as different Illnesses. (iv) The Sum Insured available under Automatic Recharge can only be utilized for Benefit 'In-patient Care' 'Day Care Treatment', ' D o m i c i l i a r y H o s p i t a l i z a t i o n ' , ' P r e Hospitalization Medical Expenses and Post Hospitalization Med
+- **common** (df=93) — `day care` — page 11
+  - snippet: arkers Hba1c be considered while calculating ‘No Claim Bonus’; (xi) Accrued ‘No Claim Bonus’ can be utilized for Benefit ‘In-patient Care’ ‘Day Care Treatment’, ‘Domiciliary Hospitalization’, ‘Organ Donor C o v e r ’ , ‘ A Y U S H T r e a t m e n t ’ , ‘Pre-Hospitalization Medical Expens
+- **common** (df=93) — `day care` — page 13
+  - snippet: onal Sum Insured for Defined Critical Illnesses In case any Claim is made for any of the specified Critical Illnesses under In-patient Care/Day Care Treatment of Benefit: Hospitalization Expenses during the Policy Year, the Company shall automatically provide an additional Sum Insured up
+
+## policy-wording/care/Care_Supreme.pdf
+
+- **common** (df=55) — `air ambulance` — page 15
+  - snippet: e Option (if opted) is applicable on the Benefits namely under Hospitalization Expenses, Road Ambulance Cover, Claim Shield , Plus Benefit, Air Ambulance Cover, Unlimited Care. 4. The Co-payment proportion ( If opted ) shall be borne by the Insured Person on each Claim which will be applicabl
+- **common** (df=55) — `air ambulance` — page 23
+  - snippet: ation, Named Ailment Wait Period Modification, Instant Cover, Deductible, Co-payment, New Born Cover, Plus Benefit, Cumulative Bonus Super, Air Ambulance cover, Unlimited Care) payable as specified in the Policy Schedule, subject to following conditions: (i) If the Insured Person takes Medica
+- **common** (df=55) — `air ambulance` — page 30
+  - snippet: nd and it is not intended to be, and should not be, used to diagnose or identify treatment for a medical or mental health condition. 3.2.14 Air Ambulance cover The Company will indemnify the Insured Person up to the amount as specified in Policy Schedule , for the Reasonable and Customary Cha
+- **common** (df=55) — `air ambulance` — page 31
+  - snippet:  event within 30 days of the event giving rise to the Claim under this Benefit: b) Medical reports and transportation details issued by the air ambulance service provider, prescriptions and medical report by the attending Medical Practitioner furnishing the name of the Insured Person and deta
+- **common** (df=93) — `ayush` — page 3
+  - snippet: efinitions: 2.1.1. Accidental/ Accident is a sudden, unforeseen and involuntary event caused by external, visible and violent means. 2.1.2. AYUSH Hospital is a healthcare facility wherein medical/ surgical/ para-surgical treatment procedures and interventions are carried out by AYUSH 
+- **common** (df=93) — `ayush` — page 4
+  - snippet: daycare basis without in-patient services and must comply with all the following criterion: I. Having qualified registered AYUSH Medical Practitioner(s) in charge; ii. Having dedicated AYUSH therapy sections as required and/or has equipped operation theatre where surg
+- **common** (df=93) — `ayush` — page 10
+  - snippet: uding drug experimental therapy which is not based on established medical practice in India, is treatment experimental or unproven. 2.1.46. AYUSH treatment refers to the medical and/ or hospitalization treatments given under Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homeopathy
+- **common** (df=93) — `ayush` — page 15
+  - snippet: ay Care Treatment, Advance Technology Methods, Pre- Hospitalization Medical Expenses , Post-Hospitalization Medical Expenses , Organ Donor, Ayush Treatment and Domiciliary Hospitalization ) , Road Ambulance Cover , Claim Shield , Air Ambulance Cover shall reduce the Sum Insured for th
+- **common** (df=93) — `ayush` — page 18
+  - snippet: laim documents to be submitted within 30 days after the completion of 180 days from the date of discharge from the hospital. (vi) Benefit : AYUSH Treatment The Company will indemnify the Insured Person, through Cashless or Reimbursement Facility, up to the Sum Insured, as specified in
+- **common** (df=87) — `co-?pay(?:ment)?` — page 4
+  - snippet: sible parts of the body b. External Congenital Anomaly - Congenital anomaly which is in the visible and accessible parts of the body 2.1.7. Co-payment is a cost-sharing requirement under a health insurance policy that provides that the policyholder/insured will bear a specified percentage 
+- **common** (df=87) — `co-?pay(?:ment)?` — page 15
+  - snippet: efits namely under Hospitalization Expenses, Road Ambulance Cover, Claim Shield , Plus Benefit, Air Ambulance Cover, Unlimited Care. 4. The Co-payment proportion ( If opted ) shall be borne by the Insured Person on each Claim which will be applicable on Benefits namely Hospitalization Expe
+- **common** (df=87) — `co-?pay(?:ment)?` — page 23
+  - snippet: Optional Benefits- Room Rent Modification, PED Wait Period Modification, Named Ailment Wait Period Modification, Instant Cover, Deductible, Co-payment, New Born Cover, Plus Benefit, Cumulative Bonus Super, Air Ambulance cover, Unlimited Care) payable as specified in the Policy Schedule, su
+- **common** (df=87) — `co-?pay(?:ment)?` — page 26
+  - snippet: 3.2.7 Co-payment If this Optional Benefit is opted, then the Insured Person will have an option to bear a Co-payment, as specified in the Policy Schedule, a
+- **common** (df=87) — `co-?pay(?:ment)?` — page 33
+  - snippet: t consulting within the network of independent Medical Practitioners empaneled with the Company then the Insured Person will have to bear a co-payment of 10% on each and every hospitalization claim arising in such regard, which will be in addition to any other co-payment (if any) applicabl
+- **common** (df=72) — `consumable` — page 11
+  - snippet: esthetist, Medical Practitioner; Note: 1. The following expenses shall not be part of 'associate medical expenses': a. Cost of pharmacy and consumables; b. Cost of implants and medical devices c. Cost of diagnostics 2. Associate Medical Expenses are not applied in respect of the hospitals 
+- **common** (df=93) — `day care` — page 3
+  - snippet: iv. Maintaining daily records of the patients and making them accessible to the insurance Company's authorized representative. 2.1.3. AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, Polyclinic or any such center whi
+- **common** (df=93) — `day care` — page 4
+  - snippet:  Cumulative Bonus mean any increase or addition in the Sum Insured granted by the insurer without an associated increase in premium. 2.1.9. Day Care Centre means any institution established for day care treatment of illness and/or injuries or a medical setup within a hospital and which h
+- **common** (df=93) — `day care` — page 5
+  - snippet:  staff under its employment; b. has qualified Medical Practitioner/s in-charge; c. has a fully equipped operation theatre of its own, where Day Care Treatment is carried out. d. maintains daily records of patients and will make these accessible to the insurance Company's authorized perso
+- **common** (df=93) — `day care` — page 6
+  - snippet: he policy period. 2.1.17. Hospital (not applicable for Overseas Travel Insurance) means any institution established for in-patient care and day care treatment of illness and/or injuries and which has been registered as a hospital with the local authorities under the Clinical Establishmen
+- **common** (df=93) — `day care` — page 9
+  - snippet: rn baby means baby born during the Policy Period and is aged up to 90 days. 2.1.32. Non - Network Provider: Non-Network means any hospital, day care centre or other provider that is not part of the Company's network. 2.1.33. Notification of Claim means the process of intimating a Claim t
+- **common** (df=93) — `day care` — page 10
+  - snippet: ion of deformities and defects, diagnosis and cure of diseases, relief from suffering or prolongation of life, performed in a Hospital or a Day Care Centre by a Medical Practitioner. 2.1.45. Unproven/Experimental Treatment means a treatment including drug experimental therapy which is no
+- **common** (df=93) — `day care` — page 15
+  - snippet:  , Plus Benefit, Air Ambulance Cover, Unlimited Care. 5. Any Claim paid for Benefits namely Hospitalization Expenses (i.e. In-Patient Care, Day Care Treatment, Advance Technology Methods, Pre- Hospitalization Medical Expenses , Post-Hospitalization Medical Expenses , Organ Donor, Ayush T
+- **common** (df=93) — `day care` — page 16
+  - snippet: a Medical Practitioner, and the Medical Expenses incurred are Reasonable and Customary Charges that were Medically Necessary. (ii) Benefit: Day Care Treatment: The Company will indemnify the Insured Person for Medical Expenses incurred on all Day Care Treatments through Cashless or Reimb
+- **common** (df=68) — `deductible` — page 5
+  - snippet: talization of more than 24 hours. Treatment normally taken on an out-patient basis is not included in the scope of this definition. 2.1.11. Deductible is a cost-sharing requirement under a health insurance policy that provides that the Insurer will not be liable for a specified rupee amoun
+- **common** (df=68) — `deductible` — page 15
+  - snippet:  subject to the terms, conditions, exclusions, sub-limits and wait periods of the Policy and subject to availability of the Sum Insured. 3. Deductible Option (if opted) is applicable on the Benefits namely under Hospitalization Expenses, Road Ambulance Cover, Claim Shield , Plus Benefit, A
+
+## policy-wording/care/Care_Supreme_Enhance_Super_TopUp.pdf
+
+- **common** (df=23) — `2x|two times|twice|double` — page 13
+  - snippet: for In-patient Care Hospitalization of the Insured Person only. (iv) In case the Insured Person is admitted in an ICU, the Company will pay twice the fixed amount as specified against this Cover in the Policy Schedule, for each continuous and completed period of 24 hours of Hospitaliz
+- **common** (df=55) — `air ambulance` — page 8
+  - snippet: e is applicable for Base Benefits – Hospitalization Expenses, Road Ambulance Cover, Optional Benefits – Global Coverage, Unlimited Care and Air Ambulance Cover . 6. Coverage under 'Global Coverage' Optional Benefit is restricted only to Base Benefits – In-patient Care and Day Care Treatments.
+- **common** (df=55) — `air ambulance` — page 13
+  - snippet: as Hospitalization. Note: Mid-term addition is allowed under this Optional Benefit whereas premium will be charged on pro-rata basis. 3.2.4 Air Ambulance cover The Company will indemnify the Insured Person up to the Sum Insured as specified in Policy Schedule , for the Reasonable and Customar
+- **common** (df=55) — `air ambulance` — page 14
+  - snippet: 13 name of the Insured Person and details of treatment rendered along with the statement confirm the necessity of air ambulance services. c) Documentary proof for expenses incurred towards availing Air Ambulance services. 3.2.5 International Second Opinion: In the ev
+- **common** (df=93) — `ayush` — page 2
+  - snippet: finitions: 2.1.1. Accidental / Accident is a sudden, unforeseen and involuntary event caused by external, visible and violent means. 2.1.2. AYUSH Hospital is a healthcare facility wherein medical/surgical/para-surgical treatment procedures and interventions are carried out by AYUSH Me
+- **common** (df=93) — `ayush` — page 3
+  - snippet: LIP25036V012425 day care basis without in-patient services and must comply with all the following criterion: i. Having qualified registered AYUSH Medical Practitioner(s) in charge; ii. Having dedicated AYUSH therapy sections as required and/or has equipped operation theatre where surg
+- **common** (df=93) — `ayush` — page 10
+  - snippet: enses and Post Hospitalization Medical Expenses' or any other Medical Expenses in respect of the donor consequent to the harvesting. (viii) AYUSH Treatment The Company will indemnify the Insured Person, through Cashless or Reimbursement Facility, up to the Sum Insured, as specified in
+- **common** (df=87) — `co-?pay(?:ment)?` — page 3
+  - snippet: sible parts of the body b. External Congenital Anomaly – Congenital anomaly which is in the visible and accessible parts of the body 2.1.9. Co-payment is a cost-sharing requirement under a health insurance policy that provides that the policyholder/insured will bear a specified percentage 
+- **common** (df=87) — `co-?pay(?:ment)?` — page 23
+  - snippet: 22 contract. The policies would however be subject to all limits, sub limits, co-payments, deductibles as per the policy contract. 5.13. Premium payment Installment lf the Insured Person has opted for Payment of Premium on an in
+- **common** (df=72) — `consumable` — page 6
+  - snippet: esthetist, Medical Practitioner; Note: 1. The following expenses shall not be part of 'associate medical expenses': a. Cost of pharmacy and consumables; b. Cost of implants and medical devices c. Cost of diagnostics 2. Associate Medical Expenses are not applied in respect of the hospitals 
+- **common** (df=93) — `day care` — page 2
+  - snippet: aily records of the patients and making them accessible to the insurance C o m p a n y ' s a u t h o r i z e d representative. 2.1.3. AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, Polyclinic or any such center whi
+- **common** (df=93) — `day care` — page 3
+  - snippet: 2 SUPREME ENHANCE - UIN: CHIHLIP25036V012425 day care basis without in-patient services and must comply with all the following criterion: i. Having qualified registered AYUSH Medical Practition
+- **common** (df=93) — `day care` — page 4
+  - snippet: he policy period. 2.1.19. Hospital (not applicable for Overseas Travel Insurance) means any institution established for in-patient care and day care treatment of illness and/or injuries and which has been registered as a hospital with the local authorities under the Clinical Establishmen
+- **common** (df=93) — `day care` — page 5
+  - snippet: rn baby means baby born during the Policy Period and is aged up to 90 days. 2.1.34. Non - Network Provider: Non-Network means any hospital, day care centre or other provider that is not part of the Company's network. 2.1.35. Notification of Claim means the process of intimating a Claim t
+- **common** (df=93) — `day care` — page 6
+  - snippet: ion of deformities and defects, diagnosis and cure of diseases, relief from suffering or prolongation of life, performed in a Hospital or a Day Care Centre by a Medical Practitioner. 2.1.48. Unproven/Experimental Treatment means a treatment including drug experimental therapy which is no
+- **common** (df=93) — `day care` — page 8
+  - snippet: re and Air Ambulance Cover . 6. Coverage under 'Global Coverage' Optional Benefit is restricted only to Base Benefits – In-patient Care and Day Care Treatments. 7. Any Claim paid for Benefits under Hospitalization Expenses, Road Ambulance Cover, Global Coverage, Air Ambulance Cover the a
+- **common** (df=93) — `day care` — page 9
+  - snippet: ting, by a Medical Practitioner, and the Medical Expenses incurred are Reasonable and Customary Charges that were Medically Necessary. (ii) Day Care Treatment: The Company will indemnify the Insured Person for Medical Expenses incurred on all Day Care Treatments through Cashless or Reimb
+- **common** (df=93) — `day care` — page 12
+  - snippet: ailable only up to the purview of Coverage available under this Policy 3. The Medical expenses payable shall be limited to Inpatient Care & Day Care Treatment under Benefit: Hospitalization Expenses only; 4. The Advance Technology Methods shall be covered under Inpatient Care & Day Care 
+- **common** (df=93) — `day care` — page 18
+  - snippet: ut not limited to Vitamins, minerals and organic substances unless prescribed by a medical practitioner as part of hospitalization claim or day care procedure (Code- Excl14) 12. Refractive Error: (Code- Excl15) Expenses related to the treatment for correction of eye sight due to refracti
+- **common** (df=93) — `day care` — page 20
+  - snippet: 19 Day Care Hospitalisation is excluded. 22. Expenses related to any kind of Advance Technology Methods other than mentioned in the Clause 3.1.1(iii). 
+- **common** (df=68) — `deductible` — page 3
+  - snippet: talization of more than 24 hours. Treatment normally taken on an out-patient basis is not included in the scope of this definition. 2.1.13. Deductible is a cost-sharing requirement under a health insurance policy that provides that the Insurer will not be liable for a specified rupee amoun
+- **common** (df=68) — `deductible` — page 8
+  - snippet: or the above plans would be eligible for claiming Tax Benefits under relevant provisions of Income Tax Act, 1961 and amendments thereof. 2. Deductible will be applicable on the aggregate basis of all admissible claims in a Policy year under Plan A while Deductible will be applicable on per
+- **common** (df=68) — `deductible` — page 15
+  - snippet: ny Option or All of the Benefits / Options from the above table can be opted by the Insured Person. 4. EXCLUSIONS 4.1. Standard Exclusions: Deductible Benefit 1: Proportionate Charges Cover The sub limits applicable on Room Rent/Room Category and Associated Medical Expenses (Definition 2.2
+- **common** (df=68) — `deductible` — page 23
+  - snippet: 22 contract. The policies would however be subject to all limits, sub limits, co-payments, deductibles as per the policy contract. 5.13. Premium payment Installment lf the Insured Person has opted for Payment of Premium on an installment bas
+- **common** (df=68) — `deductible` — page 28
+  - snippet:  then, the Associate Medical Expenses payable shall be pro-rated as per the applicable limits in accordance with Clause 3.1.1(IX). (ii) The Deductible shall be applied to SUPREME ENHANCE - UIN: CHIHLIP25036V012425
+
+## policy-wording/care/Care_Supreme_Senior_Premium.pdf
+
+- **common** (df=55) — `air ambulance` — page 15
+  - snippet: e Option (if opted) is applicable on the Benefits namely under Hospitalization Expenses, Road Ambulance Cover, Claim Shield , Plus Benefit, Air Ambulance Cover, Unlimited Care. 4. The Co-payment proportion ( If opted ) shall be borne by the Insured Person on each Claim which will be applicabl
+- **common** (df=55) — `air ambulance` — page 23
+  - snippet: ation, Named Ailment Wait Period Modification, Instant Cover, Deductible, Co-payment, New Born Cover, Plus Benefit, Cumulative Bonus Super, Air Ambulance cover, Unlimited Care) payable as specified in the Policy Schedule, subject to following conditions: (i) If the Insured Person takes Medica
+- **common** (df=55) — `air ambulance` — page 30
+  - snippet: nd and it is not intended to be, and should not be, used to diagnose or identify treatment for a medical or mental health condition. 3.2.14 Air Ambulance cover The Company will indemnify the Insured Person up to the amount as specified in Policy Schedule , for the Reasonable and Customary Cha
+- **common** (df=55) — `air ambulance` — page 31
+  - snippet:  event within 30 days of the event giving rise to the Claim under this Benefit: b) Medical reports and transportation details issued by the air ambulance service provider, prescriptions and medical report by the attending Medical Practitioner furnishing the name of the Insured Person and deta
+- **common** (df=93) — `ayush` — page 3
+  - snippet: efinitions: 2.1.1. Accidental/ Accident is a sudden, unforeseen and involuntary event caused by external, visible and violent means. 2.1.2. AYUSH Hospital is a healthcare facility wherein medical/ surgical/ para-surgical treatment procedures and interventions are carried out by AYUSH 
+- **common** (df=93) — `ayush` — page 4
+  - snippet: daycare basis without in-patient services and must comply with all the following criterion: I. Having qualified registered AYUSH Medical Practitioner(s) in charge; ii. Having dedicated AYUSH therapy sections as required and/or has equipped operation theatre where surg
+- **common** (df=93) — `ayush` — page 10
+  - snippet: uding drug experimental therapy which is not based on established medical practice in India, is treatment experimental or unproven. 2.1.46. AYUSH treatment refers to the medical and/ or hospitalization treatments given under Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homeopathy
+- **common** (df=93) — `ayush` — page 15
+  - snippet: ay Care Treatment, Advance Technology Methods, Pre- Hospitalization Medical Expenses , Post-Hospitalization Medical Expenses , Organ Donor, Ayush Treatment and Domiciliary Hospitalization ) , Road Ambulance Cover , Claim Shield , Air Ambulance Cover shall reduce the Sum Insured for th
+- **common** (df=93) — `ayush` — page 18
+  - snippet: laim documents to be submitted within 30 days after the completion of 180 days from the date of discharge from the hospital. (vi) Benefit : AYUSH Treatment The Company will indemnify the Insured Person, through Cashless or Reimbursement Facility, up to the Sum Insured, as specified in
+- **common** (df=87) — `co-?pay(?:ment)?` — page 4
+  - snippet: sible parts of the body b. External Congenital Anomaly - Congenital anomaly which is in the visible and accessible parts of the body 2.1.7. Co-payment is a cost-sharing requirement under a health insurance policy that provides that the policyholder/insured will bear a specified percentage 
+- **common** (df=87) — `co-?pay(?:ment)?` — page 15
+  - snippet: efits namely under Hospitalization Expenses, Road Ambulance Cover, Claim Shield , Plus Benefit, Air Ambulance Cover, Unlimited Care. 4. The Co-payment proportion ( If opted ) shall be borne by the Insured Person on each Claim which will be applicable on Benefits namely Hospitalization Expe
+- **common** (df=87) — `co-?pay(?:ment)?` — page 23
+  - snippet: Optional Benefits- Room Rent Modification, PED Wait Period Modification, Named Ailment Wait Period Modification, Instant Cover, Deductible, Co-payment, New Born Cover, Plus Benefit, Cumulative Bonus Super, Air Ambulance cover, Unlimited Care) payable as specified in the Policy Schedule, su
+- **common** (df=87) — `co-?pay(?:ment)?` — page 26
+  - snippet: 3.2.7 Co-payment If this Optional Benefit is opted, then the Insured Person will have an option to bear a Co-payment, as specified in the Policy Schedule, a
+- **common** (df=87) — `co-?pay(?:ment)?` — page 33
+  - snippet: t consulting within the network of independent Medical Practitioners empaneled with the Company then the Insured Person will have to bear a co-payment of 10% on each and every hospitalization claim arising in such regard, which will be in addition to any other co-payment (if any) applicabl
+- **common** (df=72) — `consumable` — page 11
+  - snippet: esthetist, Medical Practitioner; Note: 1. The following expenses shall not be part of 'associate medical expenses': a. Cost of pharmacy and consumables; b. Cost of implants and medical devices c. Cost of diagnostics 2. Associate Medical Expenses are not applied in respect of the hospitals 
+- **common** (df=93) — `day care` — page 3
+  - snippet: iv. Maintaining daily records of the patients and making them accessible to the insurance Company's authorized representative. 2.1.3. AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, Polyclinic or any such center whi
+- **common** (df=93) — `day care` — page 4
+  - snippet:  Cumulative Bonus mean any increase or addition in the Sum Insured granted by the insurer without an associated increase in premium. 2.1.9. Day Care Centre means any institution established for day care treatment of illness and/or injuries or a medical setup within a hospital and which h
+- **common** (df=93) — `day care` — page 5
+  - snippet:  staff under its employment; b. has qualified Medical Practitioner/s in-charge; c. has a fully equipped operation theatre of its own, where Day Care Treatment is carried out. d. maintains daily records of patients and will make these accessible to the insurance Company's authorized perso
+- **common** (df=93) — `day care` — page 6
+  - snippet: he policy period. 2.1.17. Hospital (not applicable for Overseas Travel Insurance) means any institution established for in-patient care and day care treatment of illness and/or injuries and which has been registered as a hospital with the local authorities under the Clinical Establishmen
+- **common** (df=93) — `day care` — page 9
+  - snippet: rn baby means baby born during the Policy Period and is aged up to 90 days. 2.1.32. Non - Network Provider: Non-Network means any hospital, day care centre or other provider that is not part of the Company's network. 2.1.33. Notification of Claim means the process of intimating a Claim t
+- **common** (df=93) — `day care` — page 10
+  - snippet: ion of deformities and defects, diagnosis and cure of diseases, relief from suffering or prolongation of life, performed in a Hospital or a Day Care Centre by a Medical Practitioner. 2.1.45. Unproven/Experimental Treatment means a treatment including drug experimental therapy which is no
+- **common** (df=93) — `day care` — page 15
+  - snippet:  , Plus Benefit, Air Ambulance Cover, Unlimited Care. 5. Any Claim paid for Benefits namely Hospitalization Expenses (i.e. In-Patient Care, Day Care Treatment, Advance Technology Methods, Pre- Hospitalization Medical Expenses , Post-Hospitalization Medical Expenses , Organ Donor, Ayush T
+- **common** (df=93) — `day care` — page 16
+  - snippet: a Medical Practitioner, and the Medical Expenses incurred are Reasonable and Customary Charges that were Medically Necessary. (ii) Benefit: Day Care Treatment: The Company will indemnify the Insured Person for Medical Expenses incurred on all Day Care Treatments through Cashless or Reimb
+- **common** (df=68) — `deductible` — page 5
+  - snippet: talization of more than 24 hours. Treatment normally taken on an out-patient basis is not included in the scope of this definition. 2.1.11. Deductible is a cost-sharing requirement under a health insurance policy that provides that the Insurer will not be liable for a specified rupee amoun
+- **common** (df=68) — `deductible` — page 15
+  - snippet:  subject to the terms, conditions, exclusions, sub-limits and wait periods of the Policy and subject to availability of the Sum Insured. 3. Deductible Option (if opted) is applicable on the Benefits namely under Hospitalization Expenses, Road Ambulance Cover, Claim Shield , Plus Benefit, A
+
+## policy-wording/care/Care_Supreme_Senior_Super.pdf
+
+- **common** (df=55) — `air ambulance` — page 15
+  - snippet: e Option (if opted) is applicable on the Benefits namely under Hospitalization Expenses, Road Ambulance Cover, Claim Shield , Plus Benefit, Air Ambulance Cover, Unlimited Care. 4. The Co-payment proportion ( If opted ) shall be borne by the Insured Person on each Claim which will be applicabl
+- **common** (df=55) — `air ambulance` — page 23
+  - snippet: ation, Named Ailment Wait Period Modification, Instant Cover, Deductible, Co-payment, New Born Cover, Plus Benefit, Cumulative Bonus Super, Air Ambulance cover, Unlimited Care) payable as specified in the Policy Schedule, subject to following conditions: (i) If the Insured Person takes Medica
+- **common** (df=55) — `air ambulance` — page 30
+  - snippet: nd and it is not intended to be, and should not be, used to diagnose or identify treatment for a medical or mental health condition. 3.2.14 Air Ambulance cover The Company will indemnify the Insured Person up to the amount as specified in Policy Schedule , for the Reasonable and Customary Cha
+- **common** (df=55) — `air ambulance` — page 31
+  - snippet:  event within 30 days of the event giving rise to the Claim under this Benefit: b) Medical reports and transportation details issued by the air ambulance service provider, prescriptions and medical report by the attending Medical Practitioner furnishing the name of the Insured Person and deta
+- **common** (df=93) — `ayush` — page 3
+  - snippet: efinitions: 2.1.1. Accidental/ Accident is a sudden, unforeseen and involuntary event caused by external, visible and violent means. 2.1.2. AYUSH Hospital is a healthcare facility wherein medical/ surgical/ para-surgical treatment procedures and interventions are carried out by AYUSH 
+- **common** (df=93) — `ayush` — page 4
+  - snippet: daycare basis without in-patient services and must comply with all the following criterion: I. Having qualified registered AYUSH Medical Practitioner(s) in charge; ii. Having dedicated AYUSH therapy sections as required and/or has equipped operation theatre where surg
+- **common** (df=93) — `ayush` — page 10
+  - snippet: uding drug experimental therapy which is not based on established medical practice in India, is treatment experimental or unproven. 2.1.46. AYUSH treatment refers to the medical and/ or hospitalization treatments given under Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homeopathy
+- **common** (df=93) — `ayush` — page 15
+  - snippet: ay Care Treatment, Advance Technology Methods, Pre- Hospitalization Medical Expenses , Post-Hospitalization Medical Expenses , Organ Donor, Ayush Treatment and Domiciliary Hospitalization ) , Road Ambulance Cover , Claim Shield , Air Ambulance Cover shall reduce the Sum Insured for th
+- **common** (df=93) — `ayush` — page 18
+  - snippet: laim documents to be submitted within 30 days after the completion of 180 days from the date of discharge from the hospital. (vi) Benefit : AYUSH Treatment The Company will indemnify the Insured Person, through Cashless or Reimbursement Facility, up to the Sum Insured, as specified in
+- **common** (df=87) — `co-?pay(?:ment)?` — page 4
+  - snippet: sible parts of the body b. External Congenital Anomaly - Congenital anomaly which is in the visible and accessible parts of the body 2.1.7. Co-payment is a cost-sharing requirement under a health insurance policy that provides that the policyholder/insured will bear a specified percentage 
+- **common** (df=87) — `co-?pay(?:ment)?` — page 15
+  - snippet: efits namely under Hospitalization Expenses, Road Ambulance Cover, Claim Shield , Plus Benefit, Air Ambulance Cover, Unlimited Care. 4. The Co-payment proportion ( If opted ) shall be borne by the Insured Person on each Claim which will be applicable on Benefits namely Hospitalization Expe
+- **common** (df=87) — `co-?pay(?:ment)?` — page 23
+  - snippet: Optional Benefits- Room Rent Modification, PED Wait Period Modification, Named Ailment Wait Period Modification, Instant Cover, Deductible, Co-payment, New Born Cover, Plus Benefit, Cumulative Bonus Super, Air Ambulance cover, Unlimited Care) payable as specified in the Policy Schedule, su
+- **common** (df=87) — `co-?pay(?:ment)?` — page 26
+  - snippet: 3.2.7 Co-payment If this Optional Benefit is opted, then the Insured Person will have an option to bear a Co-payment, as specified in the Policy Schedule, a
+- **common** (df=87) — `co-?pay(?:ment)?` — page 33
+  - snippet: t consulting within the network of independent Medical Practitioners empaneled with the Company then the Insured Person will have to bear a co-payment of 10% on each and every hospitalization claim arising in such regard, which will be in addition to any other co-payment (if any) applicabl
+- **common** (df=72) — `consumable` — page 11
+  - snippet: esthetist, Medical Practitioner; Note: 1. The following expenses shall not be part of 'associate medical expenses': a. Cost of pharmacy and consumables; b. Cost of implants and medical devices c. Cost of diagnostics 2. Associate Medical Expenses are not applied in respect of the hospitals 
+- **common** (df=93) — `day care` — page 3
+  - snippet: iv. Maintaining daily records of the patients and making them accessible to the insurance Company's authorized representative. 2.1.3. AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, Polyclinic or any such center whi
+- **common** (df=93) — `day care` — page 4
+  - snippet:  Cumulative Bonus mean any increase or addition in the Sum Insured granted by the insurer without an associated increase in premium. 2.1.9. Day Care Centre means any institution established for day care treatment of illness and/or injuries or a medical setup within a hospital and which h
+- **common** (df=93) — `day care` — page 5
+  - snippet:  staff under its employment; b. has qualified Medical Practitioner/s in-charge; c. has a fully equipped operation theatre of its own, where Day Care Treatment is carried out. d. maintains daily records of patients and will make these accessible to the insurance Company's authorized perso
+- **common** (df=93) — `day care` — page 6
+  - snippet: he policy period. 2.1.17. Hospital (not applicable for Overseas Travel Insurance) means any institution established for in-patient care and day care treatment of illness and/or injuries and which has been registered as a hospital with the local authorities under the Clinical Establishmen
+- **common** (df=93) — `day care` — page 9
+  - snippet: rn baby means baby born during the Policy Period and is aged up to 90 days. 2.1.32. Non - Network Provider: Non-Network means any hospital, day care centre or other provider that is not part of the Company's network. 2.1.33. Notification of Claim means the process of intimating a Claim t
+- **common** (df=93) — `day care` — page 10
+  - snippet: ion of deformities and defects, diagnosis and cure of diseases, relief from suffering or prolongation of life, performed in a Hospital or a Day Care Centre by a Medical Practitioner. 2.1.45. Unproven/Experimental Treatment means a treatment including drug experimental therapy which is no
+- **common** (df=93) — `day care` — page 15
+  - snippet:  , Plus Benefit, Air Ambulance Cover, Unlimited Care. 5. Any Claim paid for Benefits namely Hospitalization Expenses (i.e. In-Patient Care, Day Care Treatment, Advance Technology Methods, Pre- Hospitalization Medical Expenses , Post-Hospitalization Medical Expenses , Organ Donor, Ayush T
+- **common** (df=93) — `day care` — page 16
+  - snippet: a Medical Practitioner, and the Medical Expenses incurred are Reasonable and Customary Charges that were Medically Necessary. (ii) Benefit: Day Care Treatment: The Company will indemnify the Insured Person for Medical Expenses incurred on all Day Care Treatments through Cashless or Reimb
+- **common** (df=68) — `deductible` — page 5
+  - snippet: talization of more than 24 hours. Treatment normally taken on an out-patient basis is not included in the scope of this definition. 2.1.11. Deductible is a cost-sharing requirement under a health insurance policy that provides that the Insurer will not be liable for a specified rupee amoun
+- **common** (df=68) — `deductible` — page 15
+  - snippet:  subject to the terms, conditions, exclusions, sub-limits and wait periods of the Policy and subject to availability of the Sum Insured. 3. Deductible Option (if opted) is applicable on the Benefits namely under Hospitalization Expenses, Road Ambulance Cover, Claim Shield , Plus Benefit, A
+
+## policy-wording/care/Care_Supreme_Super_Saver.pdf
+
+- **common** (df=55) — `air ambulance` — page 8
+  - snippet: ption (if opted) is applicable on the Benefits namely under Hospitalization Expenses, Road Ambulance Cover, Claim Shield, Plus, Benefit and Air Ambulance Cover. 4. The Co-payment proportion ( If opted ) shall be borne by the Insured Person on each Claim which will be applicable on Benefits na
+- **common** (df=55) — `air ambulance` — page 12
+  - snippet: ation, Named Ailment Wait Period Modification, Instant Cover, Deductible, Co-payment, New Born Cover, Plus Benefit, Cumulative Bonus Super, Air Ambulance cover) payable as specified in the Policy Schedule, subject to following conditions: (i) If the Insured Person takes Medical Treatment in h
+- **common** (df=55) — `air ambulance` — page 16
+  - snippet: nd and it is not intended to be, and should not be, used to diagnose or identify treatment for a medical or mental health condition. 3.2.14 Air Ambulance cover The Company will indemnify the Insured Person up to the amount as specified in Policy Schedule , for the Reasonable and Customary Cha
+- **common** (df=93) — `ayush` — page 2
+  - snippet: finitions: 2.1.1. Accidental / Accident is a sudden, unforeseen and involuntary event caused by external, visible and violent means. 2.1.2. AYUSH Hospital is a healthcare facility wherein medical/surgical/para-surgical treatment procedures and interventions are carried out by AYUSH Me
+- **common** (df=93) — `ayush` — page 3
+  - snippet: ities for carrying out treatment procedures and medical or surgical/para-surgical interventions or both under the supervision of registered AYUSH Medical Practitioner (s) on day care basis without in-patient services and must comply with all the following criterion: i. Having qualifie
+- **common** (df=93) — `ayush` — page 6
+  - snippet: uding drug experimental therapy which is not based on established medical practice in India, is treatment experimental or unproven. 2.1.46. AYUSH treatment refers to the medical and / or hospitalization treatments given under Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homeopath
+- **common** (df=93) — `ayush` — page 8
+  - snippet:  Care Treatment , Advance Technology Methods , Pre –Hospitalization Medical Expenses , Post-Hospitalization Medical Expenses ,Organ Donor , Ayush Treatment and Domiciliary Hospitalization ) , Road Ambulance Cover , Claim Shield, Air Ambulance Cover shall reduce the Sum Insured for the
+- **common** (df=93) — `ayush` — page 10
+  - snippet: laim documents to be submitted within 30 days after the completion of 180 days from the date of discharge from the hospital. (vi) Benefit : AYUSH Treatment The Company will indemnify the Insured P e r s o n , t h r o u g h C a s h l e s s o r Reimbursement Facility, up to the Sum Insu
+- **common** (df=87) — `co-?pay(?:ment)?` — page 3
+  - snippet: sible parts of the body b. External Congenital Anomaly – Congenital anomaly which is in the visible and accessible parts of the body 2.1.7. Co-payment is a cost-sharing requirement under a health insurance policy that provides that the policyholder/insured will bear a specified percentage 
+- **common** (df=87) — `co-?pay(?:ment)?` — page 8
+  - snippet: le on the Benefits namely under Hospitalization Expenses, Road Ambulance Cover, Claim Shield, Plus, Benefit and Air Ambulance Cover. 4. The Co-payment proportion ( If opted ) shall be borne by the Insured Person on each Claim which will be applicable on Benefits namely Hospitalization Expe
+- **common** (df=87) — `co-?pay(?:ment)?` — page 12
+  - snippet: Optional Benefits- Room Rent Modification, PED Wait Period Modification, Named Ailment Wait Period Modification, Instant Cover, Deductible, Co-payment, New Born Cover, Plus Benefit, Cumulative Bonus Super, Air Ambulance cover) payable as specified in the Policy Schedule, subject to followi
+- **common** (df=87) — `co-?pay(?:ment)?` — page 14
+  - snippet: r all Claims made by the Insured Person in a Policy Year. (iii) Illustration for applicability of Deductible in the same Policy Year: 3.2.7 Co-payment If this Optional Benefit is opted, then the Insured Person will have an option to bear a Co-payment, as specified in the Policy Schedule, a
+- **common** (df=87) — `co-?pay(?:ment)?` — page 24
+  - snippet: or proven fraud and permanent exclusions specified in the policy contract. The policies would however be subject to all limits, sub limits, co-payments, deductibles as per the policy contract. 5.13. Premium payment Installment lf the Insured Person has opted for Payment of Premium on an in
+- **common** (df=87) — `co-?pay(?:ment)?` — page 30
+  - snippet: ompany's liability to make payment shall commence only once the aggregate amount of all Claims payable or paid exceed the Deductible. (iii) Co-payment (if applicable) shall be applicable on the admissible claim amount payable by the Company. (iv) The balance amount, if any, subject to the 
+- **common** (df=72) — `consumable` — page 6
+  - snippet: esthetist, Medical Practitioner; Note: 1. The following expenses shall not be part of 'associate medical expenses': a. Cost of pharmacy and consumables; b. Cost of implants and medical devices c. Cost of diagnostics 2. Associate Medical Expenses are not applied in respect of the hospitals 
+- **common** (df=93) — `day care` — page 2
+  - snippet: iv. Maintaining daily records of the patients and making them accessible to the insurance Company's authorized representative. 2.1.3. AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, Polyclinic or any such center whi
+- **common** (df=93) — `day care` — page 3
+  - snippet: rocedures and medical or surgical/para-surgical interventions or both under the supervision of registered AYUSH Medical Practitioner (s) on day care basis without in-patient services and must comply with all the following criterion: i. Having qualified registered AYUSH Medical Practition
+- **common** (df=93) — `day care` — page 4
+  - snippet: he policy period. 2.1.17. Hospital (not applicable for Overseas Travel Insurance) means any institution established for in-patient care and day care treatment of illness and/or injuries and which has been registered as a hospital with the local authorities under the Clinical Establishmen
+- **common** (df=93) — `day care` — page 5
+  - snippet: rn baby means baby born during the Policy Period and is aged up to 90 days. 2.1.32. Non - Network Provider: Non-Network means any hospital, day care centre or other p r o v i d e r that is not part of the Company's network. 2.1.33. Notification of Claim means the process of intimating a 
+- **common** (df=93) — `day care` — page 6
+  - snippet: ion of deformities and defects, diagnosis and cure of diseases, relief from suffering or prolongation of life, performed in a Hospital or a Day Care Centre by a Medical Practitioner. 2.1.45. Unproven/Experimental Treatment means a treatment including drug experimental therapy which is no
+- **common** (df=93) — `day care` — page 8
+  - snippet: - Claim Shield, Plus Benefit and Air Ambulance Cover 5. Any Claim paid for Benefits namely Hospitalization Expenses (i.e. In-Patient Care , Day Care Treatment , Advance Technology Methods , Pre –Hospitalization Medical Expenses , Post-Hospitalization Medical Expenses ,Organ Donor , Ayush
+- **common** (df=93) — `day care` — page 9
+  - snippet: a Medical Practitioner, and the Medical Expenses incurred are Reasonable and Customary Charges that were Medically Necessary. (ii) Benefit: Day Care Treatment: The Company will indemnify the Insured Person for Medical Expenses incurred on all Day Care Treatments through Cashless or Reimb
+- **common** (df=93) — `day care` — page 19
+  - snippet: ut not limited to Vitamins, minerals and organic substances unless prescribed by a medical practitioner as part of hospitalization claim or day care procedure (Code- Excl14) 12. Refractive Error: (Code- Excl15) Expenses related to the treatment for correction of eye sight due to refracti
+- **common** (df=93) — `day care` — page 21
+  - snippet: tions. 21. Remicade, Avastin or similar injectable treatment which is undergone other than as a part of In- Patient Care Hospitalisation or Day Care Hospitalisation is excluded. 22. Expenses related to any kind of Advance Technology Methods other than mentioned in the Clause 3.1.1(iii). 
+- **common** (df=68) — `deductible` — page 3
+  - snippet: talization of more than 24 hours. Treatment normally taken on an out-patient basis is not included in the scope of this definition. 2.1.11. Deductible is a cost-sharing requirement under a health insurance policy that provides that the Insurer will not be liable for a specified rupee amoun
+
+## policy-wording/care/Care_Supreme_VFM.pdf
+
+- **common** (df=55) — `air ambulance` — page 15
+  - snippet: e Option (if opted) is applicable on the Benefits namely under Hospitalization Expenses, Road Ambulance Cover, Claim Shield , Plus Benefit, Air Ambulance Cover, Unlimited Care. 4. The Co-payment proportion ( If opted ) shall be borne by the Insured Person on each Claim which will be applicabl
+- **common** (df=55) — `air ambulance` — page 23
+  - snippet: ation, Named Ailment Wait Period Modification, Instant Cover, Deductible, Co-payment, New Born Cover, Plus Benefit, Cumulative Bonus Super, Air Ambulance cover, Unlimited Care) payable as specified in the Policy Schedule, subject to following conditions: (i) If the Insured Person takes Medica
+- **common** (df=55) — `air ambulance` — page 30
+  - snippet: nd and it is not intended to be, and should not be, used to diagnose or identify treatment for a medical or mental health condition. 3.2.14 Air Ambulance cover The Company will indemnify the Insured Person up to the amount as specified in Policy Schedule , for the Reasonable and Customary Cha
+- **common** (df=55) — `air ambulance` — page 31
+  - snippet:  event within 30 days of the event giving rise to the Claim under this Benefit: b) Medical reports and transportation details issued by the air ambulance service provider, prescriptions and medical report by the attending Medical Practitioner furnishing the name of the Insured Person and deta
+- **common** (df=93) — `ayush` — page 3
+  - snippet: efinitions: 2.1.1. Accidental/ Accident is a sudden, unforeseen and involuntary event caused by external, visible and violent means. 2.1.2. AYUSH Hospital is a healthcare facility wherein medical/ surgical/ para-surgical treatment procedures and interventions are carried out by AYUSH 
+- **common** (df=93) — `ayush` — page 4
+  - snippet: daycare basis without in-patient services and must comply with all the following criterion: I. Having qualified registered AYUSH Medical Practitioner(s) in charge; ii. Having dedicated AYUSH therapy sections as required and/or has equipped operation theatre where surg
+- **common** (df=93) — `ayush` — page 10
+  - snippet: uding drug experimental therapy which is not based on established medical practice in India, is treatment experimental or unproven. 2.1.46. AYUSH treatment refers to the medical and/ or hospitalization treatments given under Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homeopathy
+- **common** (df=93) — `ayush` — page 15
+  - snippet: ay Care Treatment, Advance Technology Methods, Pre- Hospitalization Medical Expenses , Post-Hospitalization Medical Expenses , Organ Donor, Ayush Treatment and Domiciliary Hospitalization ) , Road Ambulance Cover , Claim Shield , Air Ambulance Cover shall reduce the Sum Insured for th
+- **common** (df=93) — `ayush` — page 18
+  - snippet: laim documents to be submitted within 30 days after the completion of 180 days from the date of discharge from the hospital. (vi) Benefit : AYUSH Treatment The Company will indemnify the Insured Person, through Cashless or Reimbursement Facility, up to the Sum Insured, as specified in
+- **common** (df=87) — `co-?pay(?:ment)?` — page 4
+  - snippet: sible parts of the body b. External Congenital Anomaly - Congenital anomaly which is in the visible and accessible parts of the body 2.1.7. Co-payment is a cost-sharing requirement under a health insurance policy that provides that the policyholder/insured will bear a specified percentage 
+- **common** (df=87) — `co-?pay(?:ment)?` — page 15
+  - snippet: efits namely under Hospitalization Expenses, Road Ambulance Cover, Claim Shield , Plus Benefit, Air Ambulance Cover, Unlimited Care. 4. The Co-payment proportion ( If opted ) shall be borne by the Insured Person on each Claim which will be applicable on Benefits namely Hospitalization Expe
+- **common** (df=87) — `co-?pay(?:ment)?` — page 23
+  - snippet: Optional Benefits- Room Rent Modification, PED Wait Period Modification, Named Ailment Wait Period Modification, Instant Cover, Deductible, Co-payment, New Born Cover, Plus Benefit, Cumulative Bonus Super, Air Ambulance cover, Unlimited Care) payable as specified in the Policy Schedule, su
+- **common** (df=87) — `co-?pay(?:ment)?` — page 26
+  - snippet: 3.2.7 Co-payment If this Optional Benefit is opted, then the Insured Person will have an option to bear a Co-payment, as specified in the Policy Schedule, a
+- **common** (df=87) — `co-?pay(?:ment)?` — page 33
+  - snippet: t consulting within the network of independent Medical Practitioners empaneled with the Company then the Insured Person will have to bear a co-payment of 10% on each and every hospitalization claim arising in such regard, which will be in addition to any other co-payment (if any) applicabl
+- **common** (df=72) — `consumable` — page 11
+  - snippet: esthetist, Medical Practitioner; Note: 1. The following expenses shall not be part of 'associate medical expenses': a. Cost of pharmacy and consumables; b. Cost of implants and medical devices c. Cost of diagnostics 2. Associate Medical Expenses are not applied in respect of the hospitals 
+- **common** (df=93) — `day care` — page 3
+  - snippet: iv. Maintaining daily records of the patients and making them accessible to the insurance Company's authorized representative. 2.1.3. AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, Polyclinic or any such center whi
+- **common** (df=93) — `day care` — page 4
+  - snippet:  Cumulative Bonus mean any increase or addition in the Sum Insured granted by the insurer without an associated increase in premium. 2.1.9. Day Care Centre means any institution established for day care treatment of illness and/or injuries or a medical setup within a hospital and which h
+- **common** (df=93) — `day care` — page 5
+  - snippet:  staff under its employment; b. has qualified Medical Practitioner/s in-charge; c. has a fully equipped operation theatre of its own, where Day Care Treatment is carried out. d. maintains daily records of patients and will make these accessible to the insurance Company's authorized perso
+- **common** (df=93) — `day care` — page 6
+  - snippet: he policy period. 2.1.17. Hospital (not applicable for Overseas Travel Insurance) means any institution established for in-patient care and day care treatment of illness and/or injuries and which has been registered as a hospital with the local authorities under the Clinical Establishmen
+- **common** (df=93) — `day care` — page 9
+  - snippet: rn baby means baby born during the Policy Period and is aged up to 90 days. 2.1.32. Non - Network Provider: Non-Network means any hospital, day care centre or other provider that is not part of the Company's network. 2.1.33. Notification of Claim means the process of intimating a Claim t
+- **common** (df=93) — `day care` — page 10
+  - snippet: ion of deformities and defects, diagnosis and cure of diseases, relief from suffering or prolongation of life, performed in a Hospital or a Day Care Centre by a Medical Practitioner. 2.1.45. Unproven/Experimental Treatment means a treatment including drug experimental therapy which is no
+- **common** (df=93) — `day care` — page 15
+  - snippet:  , Plus Benefit, Air Ambulance Cover, Unlimited Care. 5. Any Claim paid for Benefits namely Hospitalization Expenses (i.e. In-Patient Care, Day Care Treatment, Advance Technology Methods, Pre- Hospitalization Medical Expenses , Post-Hospitalization Medical Expenses , Organ Donor, Ayush T
+- **common** (df=93) — `day care` — page 16
+  - snippet: a Medical Practitioner, and the Medical Expenses incurred are Reasonable and Customary Charges that were Medically Necessary. (ii) Benefit: Day Care Treatment: The Company will indemnify the Insured Person for Medical Expenses incurred on all Day Care Treatments through Cashless or Reimb
+- **common** (df=68) — `deductible` — page 5
+  - snippet: talization of more than 24 hours. Treatment normally taken on an out-patient basis is not included in the scope of this definition. 2.1.11. Deductible is a cost-sharing requirement under a health insurance policy that provides that the Insurer will not be liable for a specified rupee amoun
+- **common** (df=68) — `deductible` — page 15
+  - snippet:  subject to the terms, conditions, exclusions, sub-limits and wait periods of the Policy and subject to availability of the Sum Insured. 3. Deductible Option (if opted) is applicable on the Benefits namely under Hospitalization Expenses, Road Ambulance Cover, Claim Shield , Plus Benefit, A
+
+## policy-wording/care/Care_Ultimate.pdf
+
+- **common** (df=93) — `ayush` — page 2
+  - snippet: finitions: 2.1.1. Accidental / Accident is a sudden, unforeseen and involuntary event caused by external, visible and violent means. 2.1.2. AYUSH Hospital is a healthcare facility wherein medical/ surgical/ para-surgical treatment procedures and interventions are carried out by AYUSH 
+- **common** (df=93) — `ayush` — page 3
+  - snippet: are -CHIHLIP25044V012425 registered with the local authorities, wherever applicable, and is under the supervision of a qualified registered AYUSH Medical Practitioner and must comply with all the following criterion: i. Having at least 5 in-patient beds; ii. Having qualified AYUSH Med
+- **common** (df=93) — `ayush` — page 21
+  - snippet: asonable and Customary Charges that were Medically Necessary. Note: Above mentioned minimum period of 2 or more hours is not applicable for AYUSH treatments, any admission for
+- **common** (df=93) — `ayush` — page 23
+  - snippet: pital and claim documents to be submitted within 30 days after the completion of 90 days from the date of discharge from the hospital. (vi) AYUSH Treatment The Company will indemnify the Insured Person, through Cashless or Reimbursement Facility, up to the Sum Insured, as specified in
+- **common** (df=93) — `ayush` — page 24
+  - snippet: d. (ii) Medical Treatment should be rendered from a registered Medical Practitioner who holds a valid practicing license in respect of such AYUSH Treatments; and (iii) Such treatment taken is within the jurisdiction of India; and (iv) Clause 4.2 (12) under Permanent Exclusions, is sup
+- **common** (df=87) — `co-?pay(?:ment)?` — page 4
+  - snippet: sible parts of the body b. External Congenital Anomaly – Congenital anomaly which is in the visible and accessible parts of the body 2.1.9. Co-payment is a cost-sharing requirement under a health insurance policy that provides that the policyholder/insured will bear a specified percentage 
+- **common** (df=87) — `co-?pay(?:ment)?` — page 20
+  - snippet: , Unlimited Automatic Recharge Booster, Unlimited Care, Claim Shield, Inflation Shield, Tenure Multiplier, Plus Benefit, Cancer Care 5. The Co-payment proportion (If opted) shall be borne by the Insured Person on each Claim which will be applicable on Benefits namely Hospitalization Expens
+- **common** (df=87) — `co-?pay(?:ment)?` — page 31
+  - snippet: onal Sum Insured. (v) This Benefit shall be applicable in India only. (vi) This Benefit would however be subject to all limits, sub limits, co-payments, deductibles as per the Policy. 3.2.6 Unlimited E-Consultations The Company shall offer unlimited e-consultations with qualified General a
+- **common** (df=87) — `co-?pay(?:ment)?` — page 32
+  - snippet: e utilized once during entire Policy Period for a single claim. This Benefit would however be subject to all applicable limits, sub limits, co-payments, deductibles as per the Policy. For example: If the Insured Person has 3 year Policy with annual Sum Insured of 5 Lacs, the total coverage
+- **common** (df=72) — `consumable` — page 11
+  - snippet: esthetist, Medical Practitioner; Note: 1. The following expenses shall not be part of ‘associate medical expenses’: a. Cost of pharmacy and consumables; b. Cost of implants and medical devices c. Cost of diagnostics 2. Associate Medical Expenses are not applied in respect of the hospitals 
+- **common** (df=93) — `day care` — page 3
+  - snippet: iv. Maintaining daily records of the patients and making them accessible to the insurance Company’s authorized representative. 2.1.3. AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, Polyclinic or any such center whi
+- **common** (df=93) — `day care` — page 4
+  - snippet: Cumulative Bonus mean any increase or addition in the Sum Insured granted by the insurer without an associated increase in premium. 2.1.11. Day Care Centre means any institution established for day care treatment of illness and/or injuries or a medical setup within a hospital and which h
+- **common** (df=93) — `day care` — page 5
+  - snippet: 4 Ultimate Care -CHIHLIP25044V012425 accessible to the insurance Company’s authorized personnel. 2.1.12. Day Care Treatment means medical treatment, and/ or Surgical Procedure which is: a. undertaken under general or local anesthesia in a Hospital/ Day 
+- **common** (df=93) — `day care` — page 6
+  - snippet: he policy period. 2.1.19. Hospital (not applicable for Overseas Travel Insurance) means any institution established for in-patient care and day care treatment of illness and/or injuries and which has been registered as a hospital with the local authorities under the Clinical Establishmen
+- **common** (df=93) — `day care` — page 9
+  - snippet: born baby means baby born during the Policy Period and is aged up to 90 days. 2.1.34. Non-Network Provider: Non-Network means any hospital, day care centre or other provider that is not part of the Company’s network. 2.1.35. Notification of Claim means the process of intimating a Claim t
+- **common** (df=93) — `day care` — page 11
+  - snippet: ion of deformities and defects, diagnosis and cure of diseases, relief from suffering or prolongation of life, performed in a Hospital or a Day Care Centre by a Medical Practitioner. 2.1.48. Unproven/ Experimental Treatment means a treatment including drug experimental therapy which is n
+- **common** (df=93) — `day care` — page 18
+  - snippet: efinitions mentioned above, for Benefits effective out of India: 2.2.53. Hospital means any institution established for in-patient care and day care treatment of illness and/or injuries and which has been registered as a hospital with the local authorities in that country or complies wit
+- **common** (df=93) — `day care` — page 20
+  - snippet: alance shall be available for all the future claims for that Policy Year. 7. Admissibility of a Claim under Benefit “In-patient Care and/or Day Care Treatment” is a pre-condition to the admission of a Claim under Pre Hospitalization Medical Expenses and Post Hospitalization Medical expen
+- **common** (df=93) — `day care` — page 22
+  - snippet: 21 Ultimate Care -CHIHLIP25044V012425 medical investigation or evaluation or injections, procedures done under OPD services. (ii) Benefit: Day Care Treatment: The Company will indemnify the Insured Person for Medical Expenses incurred on all Day Care Treatments through Cashless or Reimb
+- **common** (df=68) — `deductible` — page 5
+  - snippet: talization of more than 24 hours. Treatment normally taken on an out-patient basis is not included in the scope of this definition. 2.1.13. Deductible is a cost-sharing requirement under a health insurance policy that provides that the Insurer will not be liable for a specified rupee amoun
+- **common** (df=68) — `deductible` — page 19
+  - snippet:  subject to the terms, conditions, exclusions, sub-limits and wait periods of the Policy and subject to availability of the Sum Insured. 4. Deductible Option (if opted) is applicable on the Benefits namely under
+- **common** (df=68) — `deductible` — page 31
+  - snippet: red. (v) This Benefit shall be applicable in India only. (vi) This Benefit would however be subject to all limits, sub limits, co-payments, deductibles as per the Policy. 3.2.6 Unlimited E-Consultations The Company shall offer unlimited e-consultations with qualified General and/ or Specia
+- **common** (df=68) — `deductible` — page 32
+  - snippet: ce during entire Policy Period for a single claim. This Benefit would however be subject to all applicable limits, sub limits, co-payments, deductibles as per the Policy. For example: If the Insured Person has 3 year Policy with annual Sum Insured of 5 Lacs, the total coverage available un
+- **common** (df=74) — `domiciliary` — page 5
+  - snippet: e forfeited to the Company, in the event of misrepresentation, mis-description or non- d i s c l o s u r e o f a n y material fact. 2.1.16. Domiciliary Hospitalization means medical treatment for an illness/disease/injury which in the normal course would require care and treatment at a Hosp
+- **common** (df=74) — `domiciliary` — page 24
+  - snippet: e jurisdiction of India; and (iv) Clause 4.2 (12) under Permanent Exclusions, is superseded to the extent covered under this Benefit. (vii) Domiciliary Hospitalization The Company will indemnify the Insured Person, only through Reimbursement Facility, up to the Sum Insured ,as specified in 
+
+## policy-wording/hdfc-ergo/Easy_Health_Exclusive.pdf
+
+- **common** (df=55) — `air ambulance` — page 14
+  - snippet: an inpatient beyond 10 consecutive and continuous days This benefit is payable only once per Illness/Accident per Policy Year. d. Emergency Air Ambulance Cover We will pay for ambulance transportation in an airplane or helicopter subject to maximum limit prescribed in d(i) , for emergency lif
+- **common** (df=93) — `ayush` — page 1
+  - snippet: cludes relapse within 45 days from the date of last consultation with the Hospital/Nursing Home where treatment may have been taken. Def. 3 AYUSH Hospital is a healthcare facility wherein medical/surgical/para -surgical treat ment procedures and interventions are carried out by AYUSH 
+- **common** (df=93) — `ayush` — page 2
+  - snippet: , Leela Business Park, Andheri -Kurla Road, Andheri (East), Mumbai – 400 059. Easy Health - UIN: HDFHLIP25004V082425 2 ii. Having dedicated AYUSH therapy sections as required and/or has equipped operation theatre where surgical procedures are to be carried out; iii. Maintaining daily 
+- **common** (df=93) — `ayush` — page 9
+  - snippet: treatment "Allopathy" or "modern medicine" and includes Ayurveda, Unani, Sidha, Homeopathy, Yoga & Naturopathy in the Indian context Def. 4 AYUSH Treatment refers to the medical and/or hospitalisation treatments given under Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homeopathy 
+- **common** (df=93) — `ayush` — page 12
+  - snippet: s which have NOT been admitted under 1a) and 1d) 2. Healthcare or ambulance service provider not registered with road traffic authority. h. Ayush Benefit Coverage upto Sum Insured only for Inpatient care expenses incurred on treatment taken under the below systems of medicine in an AY
+- **common** (df=93) — `ayush` — page 24
+  - snippet: ed by Illness or injury and forming part of treatment) 8) Any Non allopathic treatment except to the extent of coverage provided for under ’Ayush benefit’. 9) Conditions for which treatment could have been done on an outpatient basis without any Hospitalization. 10) Preventive care, v
+- **common** (df=87) — `co-?pay(?:ment)?` — page 2
+  - snippet: sible parts of the body (b) External Congenital Anomaly- Congenital Anomaly which is in the visible and accessible parts of the body Def. 8 Co-payment means a cost-sharing requirement under a health insurance policy that provides that the policyholder/insured will bear a specified percenta
+- **common** (df=72) — `consumable` — page 11
+  - snippet: sive Care Unit • Medical Practitioners (Fees) • Anesthesia • Blood • Oxygen • Operation theatre • Surgical appliances; • Medicines, drugs & consumables; • Diagnostic procedures. If as per any or all of the Medical references herein below containing guidelines and protocols for Evidence Bas
+- **common** (df=93) — `day care` — page 1
+  - snippet: iv. Maintaining daily records of the patients and making them accessible to the insurance company’s authorized representative. Def. 4 AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, Polyclinic or any such health cen
+- **common** (df=93) — `day care` — page 4
+  - snippet: mic attacks (TIA) ▪ Traumatic injury of the brain ▪ Vascular diseases affecting only the eye or optic nerve or vestibular functions Def. 11 Day Care centre means any institution established for day care treatment of illness and/or injuries or a medical setup within a hospital and which h
+- **common** (df=93) — `day care` — page 5
+  - snippet: e carried out; - maintains daily records of patients and will make these accessible to the insurance company’s authorized personnel Def. 12 Day Care Procedures means those medical treatment, and/or surgical procedure i. which is undertaken under General or Local Anaesthesia in a Hospital
+- **common** (df=93) — `day care` — page 6
+  - snippet: ast), Mumbai – 400 059. Easy Health - UIN: HDFHLIP25004V082425 6 Def. 19 Hospital means any institution established for in-patient care and day care treatment of illness and/or injuries and which has been registered as a hospital with the local authorities under the Clinical Establishmen
+- **common** (df=93) — `day care` — page 7
+  - snippet: rs to payment of premium for the entire policy period made in advance as a single premium. Def. 33 Non Network Provider means any Hospital, day care centre or other provider that is not part of the Network Def. 34 Notification of Claim means the process of intimating a claim to the insur
+- **common** (df=93) — `day care` — page 8
+  - snippet: rection of deformities and defects, diagnosis and cure of diseases, relief of suffering or prolongation of life, performed in a Hospital or day care centre by a Medical Practitioner.
+- **common** (df=93) — `day care` — page 11
+  - snippet: • An insured suffers an Accident or Illness, which is covered under this Policy • Hospitalisation is necessary & is done for treatment OR • Day care treatment is necessary and is done OR • Domiciliary treatment is necessary and is done a. In-Patient Treatment This includes • Hospital roo
+- **common** (df=93) — `day care` — page 12
+  - snippet: 25 12 Medical treatment or surgical procedure which is undertaken under general or local anaesthesia, which require admission in a Hospital/Day Care Centre for stay less than 24 hours. Treatment normally taken on out -patient basis is not included in the scope of this definition. taken o
+- **common** (df=93) — `day care` — page 14
+  - snippet: talization, whichever is lower; upto basic sum insured limit for a year 1. Claims which have NOT been admitted under Inpatient Treatment or Day Care Procedures. 2. Expenses incurred in return transportation to the insured’s home by air ambulance is excluded. 3. Additional Benefit not rel
+- **common** (df=93) — `day care` — page 23
+  - snippet: ut not limited to Vitamins, minerals and organic substances unless prescribed by a medical practitioner as part of hospitalization claim or day care procedure. Code – Excl14 13) Maternity (except to the extent provided for under Section B.1.3.a)):Code – Excl18 i. Medical treatment expens
+- **common** (df=68) — `deductible` — page 5
+  - snippet: italisation of more than 24 hours. Treatment normally taken on an Out-patient basis is not included in the scope of this definition Def. 13 Deductible means a cost-sharing requirement under a health insurance policy that provides that the insurer will not be liable for a specified rupee am
+- **common** (df=74) — `domiciliary` — page 5
+  - snippet: lated to teeth or structures supporting teeth including examinations, filings (where appropriate), crowns, extractions and surgery. Def. 15 Domiciliary Hospitalisation means medical treatment for an illness/disease/injury which in the normal course would require a care and treatment at a Ho
+- **common** (df=74) — `domiciliary` — page 11
+  - snippet: h is covered under this Policy • Hospitalisation is necessary & is done for treatment OR • Day care treatment is necessary and is done OR • Domiciliary treatment is necessary and is done a. In-Patient Treatment This includes • Hospital room rent or boarding; • Nursing; • Intensive Care Unit
+- **common** (df=74) — `domiciliary` — page 12
+  - snippet: is is not included in the scope of this definition. taken on an Out -Patient basis is not covered 2. Treatment a NOT taken at a Hospital e. Domiciliary Treatment Medical treatment for an Illness/disease/injury which in the normal course would require care and treatment at a Hospital but is 
+- **common** (df=48) — `non[- ]medical` — page 22
+  - snippet:  and accepted by insurer. 2. Standard General exclusions We will not pay for any claim which is caused by, arising from or attributable to: Non-Medical Exclusions 1) Breach of law: Code – Excl10 Expenses for treatment directly arising from or consequent upon any Insured Person committing or
+- **common** (df=48) — `non[- ]medical` — page 24
+  - snippet: tuations or following an accident, expenses up to the stage of stabilization are payable but not the complete claim. 3. Specific Exclusions Non-Medical Exclusions 1) Treatment arising from or consequent upon w ar or any act of war, invasion, act of foreign enemy, (whether war be declared or
+- **common** (df=48) — `non[- ]medical` — page 25
+  - snippet: ) and dislocations of the mandible and extremities. 16) Dental treatment and surgery of any kind, unle ss requiring Hospitalisation 17) Any non medical expenses mentioned in List 1 of Annexure I 18) Treatment rendered by a Medical Practitioner which is outside his discipline or the discipli
+
+## policy-wording/hdfc-ergo/Easy_Health_Premium.pdf
+
+- **common** (df=55) — `air ambulance` — page 15
+  - snippet:  e inpatient beyond 10 consecutive and continuous days This benefit is payable only once per Illness/Accident per Policy Year. d. Emergency Air Ambulance Cover We will pay for ambulance transportation in an airplane or helicopter subject to maximum limit prescribed in d(i) , for emergency lif
+- **common** (df=93) — `ayush` — page 1
+  - snippet: ludes relapse within 45 days from the date of last consultation with the Hospital/Nursing Home where treatment may have been taken. Def. 3. AYUSH HOSPITAL means a n AYUSH Hospital is a healt hcare facility wherein medical/surgical/para-surgical treatment procedures and interventions a
+- **common** (df=93) — `ayush` — page 2
+  - snippet: ties for carrying out treatment procedures and medical or surgical/para -surgical interventions or both under the supervision of registered AYUSH Medical Practitioner(s) on day care basis without in-patient services and must comply with all the following criterion: i. Having qualified
+- **common** (df=93) — `ayush` — page 10
+  - snippet: e, 165-166 Backbay Reclamation, H. T. Parekh Marg, Churchgate, Mumbai – 400 020.. Easy Health UIN: HDFHLIP25004V082425 10 | P a g e Def. 4. AYUSH Treatment refers to the medical and/or hospitalisation treatments given under Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homeopathy 
+- **common** (df=93) — `ayush` — page 13
+  - snippet: s which have NOT been admitted under 1a) and 1d) 2. Healthcare or ambulance service provider not registered with road traffic authority. h. Ayush Benefit Coverage upto Sum Insured only for Inpatient care e xpenses incurred on treatment taken under the below systems of medicine in an A
+- **common** (df=93) — `ayush` — page 25
+  - snippet: ed by Illness or injury and forming part of treatment) 8) Any Non allopathic treatment except to the extent of coverage provided for under ’Ayush benefit’. 9) Conditions for which treatment could have been done on an outpatient basis without any Hospitalization. 10) Preventive care, v
+- **common** (df=87) — `co-?pay(?:ment)?` — page 2
+  - snippet: ble parts of the body (b) External Congenital Anomaly - Congenital Anomaly which is in the visible and accessible parts of the body Def. 8. Co-payment means a cost-sharing requirement under a health insurance policy that provides that the policyholder/insured will bear a specif ied percent
+- **common** (df=72) — `consumable` — page 12
+  - snippet: sive Care Unit • Medical Practitioners (Fees) • Anesthesia • Blood • Oxygen • Operation theatre • Surgical appliances; • Medicines, drugs & consumables; • Diagnostic procedures. If as per any or all of the Medical references herein below containing guidelines and protocols for Evidence Bas
+- **common** (df=93) — `day care` — page 1
+  - snippet: v. Maintaining daily records of the patients and making them accessible to the insurance company’s authorized representative. Def. 4. AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, Polyclinic or any such health cen
+- **common** (df=93) — `day care` — page 2
+  - snippet: rocedures and medical or surgical/para -surgical interventions or both under the supervision of registered AYUSH Medical Practitioner(s) on day care basis without in-patient services and must comply with all the following criterion: i. Having qualified registered AYUSH Medical Practition
+- **common** (df=93) — `day care` — page 5
+  - snippet: e, 165-166 Backbay Reclamation, H. T. Parekh Marg, Churchgate, Mumbai – 400 020.. Easy Health UIN: HDFHLIP25004V082425 5 | P a g e Def. 11. Day Care centre means any institution established for day care treatment of illness and/or injuries or a medical setup within a hospital and which h
+- **common** (df=93) — `day care` — page 6
+  - snippet: e available for the period for which no premium is received). Def. 19. Hospital means any institu tion established for in -patient care and day care treatment of illness and/or injuries and which has been registered as a hospital with the local authorities under the Clinical Establishmen
+- **common** (df=93) — `day care` — page 8
+  - snippet: s to payment of premium for the entire policy period made in advance as a single premium. Def. 33. Non Network Provider means any Hospital, day care centre or other provider that is not part of the Network Def. 34. Notification of Claim means the process of intimating a claim to the insu
+- **common** (df=93) — `day care` — page 9
+  - snippet: rection of deformities and defects, diagnosis and cure of diseases, relief of suffering or prolongation of life, performed in a Hospital or day care centre by a Medical Practitioner. Def. 45. Unproven/Experimental treatment means treatment including drug experimental therapy which is not
+- **common** (df=93) — `day care` — page 11
+  - snippet: • An insured suffers an Accident or Illness, which is covered under this Policy • Hospitalisation is necessary & is done for treatment OR • Day care treatment is necessary and is done OR • Domiciliary treatment is necessary and is done
+- **common** (df=93) — `day care` — page 12
+  - snippet:  E xpenses for consultations, investigations and medicines incurred upto 60 days before the date of admission to the Hospital (Inpatient or Day Care or Domiciliary treatment) c. Post-Hospitalization Medical Expenses for consultations, investigations and medicines incurred upto 90 days af
+- **common** (df=93) — `day care` — page 15
+  - snippet: talization, whichever is lower; upto basic sum insured limit for a year 1. Claims which have NOT been admitted under Inpatient Treatment or Day Care Procedures. 2. Expenses incurred in return transportation to the insured’s home by air ambulance is excluded. 3. Additional Benefit not rel
+- **common** (df=93) — `day care` — page 24
+  - snippet: ut not limited to Vitamins, minerals and organic substances unless prescribed by a medical practitioner as part of hospitalization claim or day care procedure. Code – Excl14 13) Maternity( except to the extent provided for under Section B.1.3.a)):Code – Excl18 i. Medical treatment expens
+- **common** (df=68) — `deductible` — page 5
+  - snippet: talisation of more than 24 hours. Treatment normally taken on an Out-patient basis is not included in the scope of this definition Def. 13. Deductible means a cost-sharing requirement under a health insurance policy that provides that the insurer will not be liable for a specified rupee am
+- **common** (df=74) — `domiciliary` — page 5
+  - snippet: ated to teeth or structures supporting teeth including examinations, filings (where appropriate), crowns, extractions and surgery. Def. 15. Domiciliary Hospitalisation means medical treatment for an illness/disease/injury which in the normal course would require a care and treatment at a Ho
+- **common** (df=74) — `domiciliary` — page 11
+  - snippet: h is covered under this Policy • Hospitalisation is necessary & is done for treatment OR • Day care treatment is necessary and is done OR • Domiciliary treatment is necessary and is done
+- **common** (df=74) — `domiciliary` — page 12
+  - snippet: or consultations, investigations and medicines incurred upto 60 days before the date of admission to the Hospital (Inpatient or Day Care or Domiciliary treatment) c. Post-Hospitalization Medical Expenses for consultations, investigations and medicines incurred upto 90 days after discharge f
+- **common** (df=74) — `domiciliary` — page 13
+  - snippet: ations and medicines incurred upto 60 days before hospitalisation and 90 days after hospitalization respectively will be covered in case of domiciliary treatment. f. Organ Donor: Medical and surgical expenses of the organ donor for harvesting the organ where an Insured Person is the recipie
+- **common** (df=48) — `non[- ]medical` — page 22
+  - snippet:  and accepted by insurer. 2. Standard General exclusions We will not pay for any claim which is caused by, arising from or attributable to: Non Medical Exclusions 1) Breach of law: Code – Excl10 Expenses for treatment directly arising from o r consequent upon any Insured Person committing o
+- **common** (df=48) — `non[- ]medical` — page 24
+  - snippet: tuations or following an accident, expenses up to the stage of stabilization are payable but not the complete claim. 3. Specific Exclusions Non Medical Exclusions 1) Treatment arising from or consequent upon w ar or any act of war, invasion, act of foreign enemy, (whether war be declared or
+
+## policy-wording/hdfc-ergo/Easy_Health_Standard.pdf
+
+- **common** (df=55) — `air ambulance` — page 14
+  - snippet: an inpatient beyond 10 consecutive and continuous days This benefit is payable only once per Illness/Accident per Policy Year. d. Emergency Air Ambulance Cover We will pay for ambulance transportation in an airplane or helicopter subject to maximum limit prescribed in d(i) , for emergency lif
+- **common** (df=93) — `ayush` — page 1
+  - snippet: cludes relapse within 45 days from the date of last consultation with the Hospital/Nursing Home where treatment may have been taken. Def. 3 AYUSH Hospital is a healthcare facility wherein medical/surgical/para -surgical treat ment procedures and interventions are carried out by AYUSH 
+- **common** (df=93) — `ayush` — page 2
+  - snippet: , Leela Business Park, Andheri -Kurla Road, Andheri (East), Mumbai – 400 059. Easy Health - UIN: HDFHLIP25004V082425 2 ii. Having dedicated AYUSH therapy sections as required and/or has equipped operation theatre where surgical procedures are to be carried out; iii. Maintaining daily 
+- **common** (df=93) — `ayush` — page 9
+  - snippet: treatment "Allopathy" or "modern medicine" and includes Ayurveda, Unani, Sidha, Homeopathy, Yoga & Naturopathy in the Indian context Def. 4 AYUSH Treatment refers to the medical and/or hospitalisation treatments given under Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homeopathy 
+- **common** (df=93) — `ayush` — page 12
+  - snippet: s which have NOT been admitted under 1a) and 1d) 2. Healthcare or ambulance service provider not registered with road traffic authority. h. Ayush Benefit Coverage upto Sum Insured only for Inpatient care expenses incurred on treatment taken under the below systems of medicine in an AY
+- **common** (df=93) — `ayush` — page 24
+  - snippet: ed by Illness or injury and forming part of treatment) 8) Any Non allopathic treatment except to the extent of coverage provided for under ’Ayush benefit’. 9) Conditions for which treatment could have been done on an outpatient basis without any Hospitalization. 10) Preventive care, v
+- **common** (df=87) — `co-?pay(?:ment)?` — page 2
+  - snippet: sible parts of the body (b) External Congenital Anomaly- Congenital Anomaly which is in the visible and accessible parts of the body Def. 8 Co-payment means a cost-sharing requirement under a health insurance policy that provides that the policyholder/insured will bear a specified percenta
+- **common** (df=72) — `consumable` — page 11
+  - snippet: sive Care Unit • Medical Practitioners (Fees) • Anesthesia • Blood • Oxygen • Operation theatre • Surgical appliances; • Medicines, drugs & consumables; • Diagnostic procedures. If as per any or all of the Medical references herein below containing guidelines and protocols for Evidence Bas
+- **common** (df=93) — `day care` — page 1
+  - snippet: iv. Maintaining daily records of the patients and making them accessible to the insurance company’s authorized representative. Def. 4 AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, Polyclinic or any such health cen
+- **common** (df=93) — `day care` — page 4
+  - snippet: mic attacks (TIA) ▪ Traumatic injury of the brain ▪ Vascular diseases affecting only the eye or optic nerve or vestibular functions Def. 11 Day Care centre means any institution established for day care treatment of illness and/or injuries or a medical setup within a hospital and which h
+- **common** (df=93) — `day care` — page 5
+  - snippet: e carried out; - maintains daily records of patients and will make these accessible to the insurance company’s authorized personnel Def. 12 Day Care Procedures means those medical treatment, and/or surgical procedure i. which is undertaken under General or Local Anaesthesia in a Hospital
+- **common** (df=93) — `day care` — page 6
+  - snippet: ast), Mumbai – 400 059. Easy Health - UIN: HDFHLIP25004V082425 6 Def. 19 Hospital means any institution established for in-patient care and day care treatment of illness and/or injuries and which has been registered as a hospital with the local authorities under the Clinical Establishmen
+- **common** (df=93) — `day care` — page 7
+  - snippet: rs to payment of premium for the entire policy period made in advance as a single premium. Def. 33 Non Network Provider means any Hospital, day care centre or other provider that is not part of the Network Def. 34 Notification of Claim means the process of intimating a claim to the insur
+- **common** (df=93) — `day care` — page 8
+  - snippet: rection of deformities and defects, diagnosis and cure of diseases, relief of suffering or prolongation of life, performed in a Hospital or day care centre by a Medical Practitioner.
+- **common** (df=93) — `day care` — page 11
+  - snippet: • An insured suffers an Accident or Illness, which is covered under this Policy • Hospitalisation is necessary & is done for treatment OR • Day care treatment is necessary and is done OR • Domiciliary treatment is necessary and is done a. In-Patient Treatment This includes • Hospital roo
+- **common** (df=93) — `day care` — page 12
+  - snippet: 25 12 Medical treatment or surgical procedure which is undertaken under general or local anaesthesia, which require admission in a Hospital/Day Care Centre for stay less than 24 hours. Treatment normally taken on out -patient basis is not included in the scope of this definition. taken o
+- **common** (df=93) — `day care` — page 14
+  - snippet: talization, whichever is lower; upto basic sum insured limit for a year 1. Claims which have NOT been admitted under Inpatient Treatment or Day Care Procedures. 2. Expenses incurred in return transportation to the insured’s home by air ambulance is excluded. 3. Additional Benefit not rel
+- **common** (df=93) — `day care` — page 23
+  - snippet: ut not limited to Vitamins, minerals and organic substances unless prescribed by a medical practitioner as part of hospitalization claim or day care procedure. Code – Excl14 13) Maternity (except to the extent provided for under Section B.1.3.a)):Code – Excl18 i. Medical treatment expens
+- **common** (df=68) — `deductible` — page 5
+  - snippet: italisation of more than 24 hours. Treatment normally taken on an Out-patient basis is not included in the scope of this definition Def. 13 Deductible means a cost-sharing requirement under a health insurance policy that provides that the insurer will not be liable for a specified rupee am
+- **common** (df=74) — `domiciliary` — page 5
+  - snippet: lated to teeth or structures supporting teeth including examinations, filings (where appropriate), crowns, extractions and surgery. Def. 15 Domiciliary Hospitalisation means medical treatment for an illness/disease/injury which in the normal course would require a care and treatment at a Ho
+- **common** (df=74) — `domiciliary` — page 11
+  - snippet: h is covered under this Policy • Hospitalisation is necessary & is done for treatment OR • Day care treatment is necessary and is done OR • Domiciliary treatment is necessary and is done a. In-Patient Treatment This includes • Hospital room rent or boarding; • Nursing; • Intensive Care Unit
+- **common** (df=74) — `domiciliary` — page 12
+  - snippet: is is not included in the scope of this definition. taken on an Out -Patient basis is not covered 2. Treatment a NOT taken at a Hospital e. Domiciliary Treatment Medical treatment for an Illness/disease/injury which in the normal course would require care and treatment at a Hospital but is 
+- **common** (df=48) — `non[- ]medical` — page 22
+  - snippet:  and accepted by insurer. 2. Standard General exclusions We will not pay for any claim which is caused by, arising from or attributable to: Non-Medical Exclusions 1) Breach of law: Code – Excl10 Expenses for treatment directly arising from or consequent upon any Insured Person committing or
+- **common** (df=48) — `non[- ]medical` — page 24
+  - snippet: tuations or following an accident, expenses up to the stage of stabilization are payable but not the complete claim. 3. Specific Exclusions Non-Medical Exclusions 1) Treatment arising from or consequent upon w ar or any act of war, invasion, act of foreign enemy, (whether war be declared or
+- **common** (df=48) — `non[- ]medical` — page 25
+  - snippet: ) and dislocations of the mandible and extremities. 16) Dental treatment and surgery of any kind, unle ss requiring Hospitalisation 17) Any non medical expenses mentioned in List 1 of Annexure I 18) Treatment rendered by a Medical Practitioner which is outside his discipline or the discipli
+
+## policy-wording/hdfc-ergo/Energy_Gold.pdf
+
+- **common** (df=23) — `2x|two times|twice|double` — page 12
+  - snippet: ess Programme for Diabetes and Hypertension Variant1. Silver Plan a) To avail Wellness Benefit You may choose to undergo a medical check-up twice in a Policy Year as per grid below at a diagnostic center which is approved by Us. Please note that the costs incurred for these tests will
+- **common** (df=23) — `2x|two times|twice|double` — page 13
+  - snippet: discount if earned based on the incentive points mentioned in the above table Variant 2: Gold Plan a) We will conduct Your medical check-up twice in a Policy Year as per grid below. Period Diagnostic Tests
+- **common** (df=93) — `ayush` — page 2
+  - snippet: cludes relapse within 45 days from the date of last consultation with the Hospital/Nursing Home where treatment may have been taken. Def. 3 AYUSH Hospital means an AYUSH Hospital is a healthcare facility wherein medical/surgical/para- surgical treatment procedures and interventions ar
+- **common** (df=93) — `ayush` — page 3
+  - snippet: Corporate Office: 6th Floor, Leela Business Park, Andheri-Kurla Road, Andheri (East), Mumbai – 400 059. UIN: Energy - HDFHLIP26048V052526 3 AYUSH Medical Practitioner(s) on day care basis without in-patient services and must comply with all the following criterion: i. Having qualified
+- **common** (df=93) — `ayush` — page 8
+  - snippet: 6048V052526 8 appliances & nursing, and expenses on Anaesthesia, blood, oxygen incurred during Hospitalization of the Insured Person Def. 5 AYUSH Treatment refers to the medical and/or hospitalisation treatments given under Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homeopathy 
+- **common** (df=93) — `ayush` — page 9
+  - snippet: res • Cost of prosthetic and other devices or equipment if implanted internally during a Surgical Procedure Note pertaining specifically to AYUSH Treatments only: Medical expenses pertaining only to In-patient care AYUSH treatment are also covered under 'In-patient treatment' cover if
+- **common** (df=87) — `co-?pay(?:ment)?` — page 3
+  - snippet: Def. 6 Condition Precedent means a policy term or condition upon which the Insurer’s liability under the policy is conditional upon. Def. 7 Co-Payment means a cost-sharing requirement applicable under a health insurance policy that provides that the Policyholder/insured will bear a specifi
+- **common** (df=87) — `co-?pay(?:ment)?` — page 34
+  - snippet: and all disputes or differences under or in relation to this Policy shall be determined by the Indian Courts and subject to Indian law. 15. Co-Payment If opted and mentioned on the Policy Schedule that a Co -payment is effective, and a claim has been admitted under Section 1 then, the insu
+- **common** (df=72) — `consumable` — page 9
+  - snippet: sive Care Unit • Medical Practitioners (Fees) • Anaesthesia • Blood • Oxygen • Operation theatre • Surgical appliances • Medicines, drugs & consumables • Diagnostic procedures • Cost of prosthetic and other devices or equipment if implanted internally during a Surgical Procedure Note perta
+- **common** (df=72) — `consumable` — page 12
+  - snippet:  Unit charges, Medical Practitioner’s charges, anesthesia, blood, oxygen, operation theatre charges, surgical appliances, medicines, drugs, consumables, diagnostic procedures. III. Renewal Benefits 1. Wellness Programme for Diabetes and Hypertension Variant1. Silver Plan a) To avail Wellne
+- **common** (df=93) — `day care` — page 1
+  - snippet: ospitalization Covers 9 1. In-Patient Treatment 9 2. Pre-Hospitalization Medical expenses 10 3. Post-Hospitalization Medical expenses 10 4. Day Care Procedures 10 5. Organ Donor 10 6. Ambulance Cover 10 7. Shared Accommodation Benefit 10 II. Other Benefits 10 1. Restore benefit 10 2. HbA
+- **common** (df=93) — `day care` — page 2
+  - snippet: iv. Maintaining daily records of the patients and making them accessible to the insurance company’s authorized representative. Def. 4 AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, Polyclinic or any such health cen
+- **common** (df=93) — `day care` — page 3
+  - snippet: a Business Park, Andheri-Kurla Road, Andheri (East), Mumbai – 400 059. UIN: Energy - HDFHLIP26048V052526 3 AYUSH Medical Practitioner(s) on day care basis without in-patient services and must comply with all the following criterion: i. Having qualified registered AYUSH Medical Practition
+- **common** (df=93) — `day care` — page 4
+  - snippet: e Office: 6th Floor, Leela Business Park, Andheri-Kurla Road, Andheri (East), Mumbai – 400 059. UIN: Energy - HDFHLIP26048V052526 4 Def. 11 Day Care Treatment means medical treatment, and/or surgical procedure which is: i) Undertaken under General or Local Anesthesia in a hospital/ day c
+- **common** (df=93) — `day care` — page 6
+  - snippet: urer together to provide medical services to an insured on payment by a cashless facility. Def. 32 Non Network Provider means any hospital, day care centre or other provider that is not part of the Network. Def. 33 Notification of Claim means the process of intimating a claim to the insu
+- **common** (df=93) — `day care` — page 7
+  - snippet: rection of deformities and defects, diagnosis and cure of diseases, relief of suffering or prolongation of life, performed in a Hospital or day care centre by a Medical Practitioner. Def. 44 Unproven/Experimental treatment is treatment, including drug Experimental therapy, which is based
+- **common** (df=93) — `day care` — page 9
+  - snippet: ho suffers an Illness or Accident during the Policy Period which requires Hospitalisation on an Inpatient basis or a treatment defined as a Day Care Procedure. I. Hospitalisation Covers We will cover the Medical Expenses for: We will not cover treatment, costs or expenses for*: *The foll
+- **common** (df=93) — `day care` — page 10
+  - snippet: ation was required. 3. Expenses not related to the admission and not incidental to the treatment for which the admission has taken place 4. Day Care Procedures Medical treatment, and/or surgical procedure which is undertaken under General or Local Anaesthesia in a Hospital/day care centr
+- **common** (df=93) — `day care` — page 21
+  - snippet: ut not limited to Vitamins, minerals and organic substances unless prescribed by a Medical Practitioner as part of Hospitalization claim or day care procedure. Code – Excl14 xi) Expenses related to the treatment for correction of eye sight due to refractive error l ess than 7.5 dioptres.
+- **common** (df=48) — `non[- ]medical` — page 1
+  - snippet:  General Terms 24 2. Specific General Terms 29 Section E. Other Terms & Conditions 34 Contact us 34 Ombudsman Details 35 Annexure 1 List of Non-Medical Expenses 41 Schedule of Benefits 43
+- **common** (df=48) — `non[- ]medical` — page 21
+  - snippet: Expenses towards miscarriage (unless due to an accident) and lawful medical termination of pregnancy during the Policy period. II. Standard Non Medical Exclusions i) Breach of law: Code - Excl10: Expenses for treatment directly arising from or consequent upon any Insured Person committing o
+- **common** (df=48) — `non[- ]medical` — page 22
+  - snippet: orporate Office: 6th Floor, Leela Business Park, Andheri-Kurla Road, Andheri (East), Mumbai – 400 059. UIN: Energy - HDFHLIP26048V052526 22 Non Medical Exclusions i) War or similar situations: Treatment arising from or consequent upon war or any act of war, invasion, act of foreign enemy, (
+- **common** (df=48) — `non[- ]medical` — page 23
+  - snippet: ygen concentrator for bronchial asthma/ COPD conditions, cost of cochlear implant(s) unless necessitated by an Accident. Exhaustive list of Non-Medical expenses attached and also available on www.hdfcergo.com xviii) Any Claim arising due to Non-disclosure of Pre-existing Illness or Material
+- **common** (df=71) — `organ donor` — page 1
+  - snippet:  In-Patient Treatment 9 2. Pre-Hospitalization Medical expenses 10 3. Post-Hospitalization Medical expenses 10 4. Day Care Procedures 10 5. Organ Donor 10 6. Ambulance Cover 10 7. Shared Accommodation Benefit 10 II. Other Benefits 10 1. Restore benefit 10 2. HbA1C Checkup Benefit 11 III. Re
+- **common** (df=71) — `organ donor` — page 10
+  - snippet: nistration of any drug/medication/formulation other than cancer chemotherapy. Treatment at a healthcare facility which is NOT a Hospital 5. Organ Donor Medical treatment of the organ donor for harvesting the organ i.e. cost of surgery to remove organs from a donor in the case of transplant 
+
+## policy-wording/hdfc-ergo/Energy_Silver.pdf
+
+- **common** (df=23) — `2x|two times|twice|double` — page 12
+  - snippet: ess Programme for Diabetes and Hypertension Variant1. Silver Plan a) To avail Wellness Benefit You may choose to undergo a medical check-up twice in a Policy Year as per grid below at a diagnostic center which is approved by Us. Please note that the costs incurred for these tests will
+- **common** (df=23) — `2x|two times|twice|double` — page 13
+  - snippet: discount if earned based on the incentive points mentioned in the above table Variant 2: Gold Plan a) We will conduct Your medical check-up twice in a Policy Year as per grid below. Period Diagnostic Tests
+- **common** (df=93) — `ayush` — page 2
+  - snippet: cludes relapse within 45 days from the date of last consultation with the Hospital/Nursing Home where treatment may have been taken. Def. 3 AYUSH Hospital means an AYUSH Hospital is a healthcare facility wherein medical/surgical/para- surgical treatment procedures and interventions ar
+- **common** (df=93) — `ayush` — page 3
+  - snippet: Corporate Office: 6th Floor, Leela Business Park, Andheri-Kurla Road, Andheri (East), Mumbai – 400 059. UIN: Energy - HDFHLIP26048V052526 3 AYUSH Medical Practitioner(s) on day care basis without in-patient services and must comply with all the following criterion: i. Having qualified
+- **common** (df=93) — `ayush` — page 8
+  - snippet: 6048V052526 8 appliances & nursing, and expenses on Anaesthesia, blood, oxygen incurred during Hospitalization of the Insured Person Def. 5 AYUSH Treatment refers to the medical and/or hospitalisation treatments given under Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homeopathy 
+- **common** (df=93) — `ayush` — page 9
+  - snippet: res • Cost of prosthetic and other devices or equipment if implanted internally during a Surgical Procedure Note pertaining specifically to AYUSH Treatments only: Medical expenses pertaining only to In-patient care AYUSH treatment are also covered under 'In-patient treatment' cover if
+- **common** (df=87) — `co-?pay(?:ment)?` — page 3
+  - snippet: Def. 6 Condition Precedent means a policy term or condition upon which the Insurer’s liability under the policy is conditional upon. Def. 7 Co-Payment means a cost-sharing requirement applicable under a health insurance policy that provides that the Policyholder/insured will bear a specifi
+- **common** (df=87) — `co-?pay(?:ment)?` — page 34
+  - snippet: and all disputes or differences under or in relation to this Policy shall be determined by the Indian Courts and subject to Indian law. 15. Co-Payment If opted and mentioned on the Policy Schedule that a Co -payment is effective, and a claim has been admitted under Section 1 then, the insu
+- **common** (df=72) — `consumable` — page 9
+  - snippet: sive Care Unit • Medical Practitioners (Fees) • Anaesthesia • Blood • Oxygen • Operation theatre • Surgical appliances • Medicines, drugs & consumables • Diagnostic procedures • Cost of prosthetic and other devices or equipment if implanted internally during a Surgical Procedure Note perta
+- **common** (df=72) — `consumable` — page 12
+  - snippet:  Unit charges, Medical Practitioner’s charges, anesthesia, blood, oxygen, operation theatre charges, surgical appliances, medicines, drugs, consumables, diagnostic procedures. III. Renewal Benefits 1. Wellness Programme for Diabetes and Hypertension Variant1. Silver Plan a) To avail Wellne
+- **common** (df=93) — `day care` — page 1
+  - snippet: ospitalization Covers 9 1. In-Patient Treatment 9 2. Pre-Hospitalization Medical expenses 10 3. Post-Hospitalization Medical expenses 10 4. Day Care Procedures 10 5. Organ Donor 10 6. Ambulance Cover 10 7. Shared Accommodation Benefit 10 II. Other Benefits 10 1. Restore benefit 10 2. HbA
+- **common** (df=93) — `day care` — page 2
+  - snippet: iv. Maintaining daily records of the patients and making them accessible to the insurance company’s authorized representative. Def. 4 AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, Polyclinic or any such health cen
+- **common** (df=93) — `day care` — page 3
+  - snippet: a Business Park, Andheri-Kurla Road, Andheri (East), Mumbai – 400 059. UIN: Energy - HDFHLIP26048V052526 3 AYUSH Medical Practitioner(s) on day care basis without in-patient services and must comply with all the following criterion: i. Having qualified registered AYUSH Medical Practition
+- **common** (df=93) — `day care` — page 4
+  - snippet: e Office: 6th Floor, Leela Business Park, Andheri-Kurla Road, Andheri (East), Mumbai – 400 059. UIN: Energy - HDFHLIP26048V052526 4 Def. 11 Day Care Treatment means medical treatment, and/or surgical procedure which is: i) Undertaken under General or Local Anesthesia in a hospital/ day c
+- **common** (df=93) — `day care` — page 6
+  - snippet: urer together to provide medical services to an insured on payment by a cashless facility. Def. 32 Non Network Provider means any hospital, day care centre or other provider that is not part of the Network. Def. 33 Notification of Claim means the process of intimating a claim to the insu
+- **common** (df=93) — `day care` — page 7
+  - snippet: rection of deformities and defects, diagnosis and cure of diseases, relief of suffering or prolongation of life, performed in a Hospital or day care centre by a Medical Practitioner. Def. 44 Unproven/Experimental treatment is treatment, including drug Experimental therapy, which is based
+- **common** (df=93) — `day care` — page 9
+  - snippet: ho suffers an Illness or Accident during the Policy Period which requires Hospitalisation on an Inpatient basis or a treatment defined as a Day Care Procedure. I. Hospitalisation Covers We will cover the Medical Expenses for: We will not cover treatment, costs or expenses for*: *The foll
+- **common** (df=93) — `day care` — page 10
+  - snippet: ation was required. 3. Expenses not related to the admission and not incidental to the treatment for which the admission has taken place 4. Day Care Procedures Medical treatment, and/or surgical procedure which is undertaken under General or Local Anaesthesia in a Hospital/day care centr
+- **common** (df=93) — `day care` — page 21
+  - snippet: ut not limited to Vitamins, minerals and organic substances unless prescribed by a Medical Practitioner as part of Hospitalization claim or day care procedure. Code – Excl14 xi) Expenses related to the treatment for correction of eye sight due to refractive error l ess than 7.5 dioptres.
+- **common** (df=48) — `non[- ]medical` — page 1
+  - snippet:  General Terms 24 2. Specific General Terms 29 Section E. Other Terms & Conditions 34 Contact us 34 Ombudsman Details 35 Annexure 1 List of Non-Medical Expenses 41 Schedule of Benefits 43
+- **common** (df=48) — `non[- ]medical` — page 21
+  - snippet: Expenses towards miscarriage (unless due to an accident) and lawful medical termination of pregnancy during the Policy period. II. Standard Non Medical Exclusions i) Breach of law: Code - Excl10: Expenses for treatment directly arising from or consequent upon any Insured Person committing o
+- **common** (df=48) — `non[- ]medical` — page 22
+  - snippet: orporate Office: 6th Floor, Leela Business Park, Andheri-Kurla Road, Andheri (East), Mumbai – 400 059. UIN: Energy - HDFHLIP26048V052526 22 Non Medical Exclusions i) War or similar situations: Treatment arising from or consequent upon war or any act of war, invasion, act of foreign enemy, (
+- **common** (df=48) — `non[- ]medical` — page 23
+  - snippet: ygen concentrator for bronchial asthma/ COPD conditions, cost of cochlear implant(s) unless necessitated by an Accident. Exhaustive list of Non-Medical expenses attached and also available on www.hdfcergo.com xviii) Any Claim arising due to Non-disclosure of Pre-existing Illness or Material
+- **common** (df=71) — `organ donor` — page 1
+  - snippet:  In-Patient Treatment 9 2. Pre-Hospitalization Medical expenses 10 3. Post-Hospitalization Medical expenses 10 4. Day Care Procedures 10 5. Organ Donor 10 6. Ambulance Cover 10 7. Shared Accommodation Benefit 10 II. Other Benefits 10 1. Restore benefit 10 2. HbA1C Checkup Benefit 11 III. Re
+- **common** (df=71) — `organ donor` — page 10
+  - snippet: nistration of any drug/medication/formulation other than cancer chemotherapy. Treatment at a healthcare facility which is NOT a Hospital 5. Organ Donor Medical treatment of the organ donor for harvesting the organ i.e. cost of surgery to remove organs from a donor in the case of transplant 
+
+## policy-wording/hdfc-ergo/Equicover.pdf
+
+- **common** (df=93) — `ayush` — page 2
+  - snippet: s and includes relapse within 45 days from·the date of last consultation with the Hospital / Nursing Home where treatment was taken. Def 3. AYUSH Treatment refers to the medical and/or hospitalisation treatments given under Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homeopathy 
+- **common** (df=93) — `ayush` — page 3
+  - snippet:  Floor, Leela Business Park, Andheri -Kurla Road, Andheri (East), Mumbai – 400 059. UIN: HDFC ERGO EquiCover Health - HDFHLIP23192V012223 3 AYUSH Medical Practitioner(s) on day care basis without in-patient services and must comply with all the following criterion: a. Having qualified
+- **common** (df=93) — `ayush` — page 7
+  - snippet: ill not include: i. Cost of pharmacy and consumables. ii. Cost of implants and medical devices iii. Cost of diagnostics Def 6. Alternative /AYUSH Treatment refers to hospitalization treatments given under Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homeopathy systems. Def 7. Bio
+- **common** (df=93) — `ayush` — page 9
+  - snippet: are Treatment 2. The above-mentioned Medical Expenses shall be payable only after the first commencement of the Policy with the Company 4.2 AYUSH Treatment
+- **common** (df=93) — `ayush` — page 10
+  - snippet: n covered under the Policy during the policy period. Conditions: i. The claim is accepted under Section 4.1 (Inpatient Care) or Section 4.2(AYUSH Treatment) or Section 4.7 (Modern Treatments) in respect of that Insured Person. ii. Pre-hospitalization Medical Expenses can be claimed un
+- **common** (df=93) — `ayush` — page 25
+  - snippet:  of sum insured available for Inpatient Hospitalisation Care Emergency Ground Ambulance Expenses covered up to Rs. 2000 per hospitalisation AYUSH Expenses incurred for Inpatient Care treatment under Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homeopathy systems of medicines shal
+- **common** (df=87) — `co-?pay(?:ment)?` — page 3
+  - snippet: ble parts of the body. ii. External Congenital Anomaly- Congenital Anomaly which is in the visible and accessible parts of the body Def 10. Co-payment means a cost sharing requirement under a health insurance policy that provides that the policyholder/insured will bear a specified percenta
+- **common** (df=87) — `co-?pay(?:ment)?` — page 7
+  - snippet: cessarily and actually incurred for medical treatment on account of Illness or Accident on the advice of a Medical Practitioner. In case of copayment associated with room rent higher than the entitled room rent limit. Associated Medical Expenses will not include: i. Cost of pharmacy and c
+- **common** (df=87) — `co-?pay(?:ment)?` — page 9
+  - snippet: ization of the Insured Person during the Policy Year, up to the Sum insured as specified in the Policy Schedule (other than any sub-limits, co-pay as specified in the policy), for: i. Room Rent, Boarding, Nursing Expenses as provided by the Hospital / Nursing Home up to maximum of 1% o
+- **common** (df=87) — `co-?pay(?:ment)?` — page 24
+  - snippet: the contract. In case if the claim is repudiated Insurer will inform the Insured about the same in writing with reason for repudiation 10.4 Co-payment Each and every claim under the Policy shall be subject to a Co-payment of 20% applicable to claim amount admissible and payable as per the 
+- **common** (df=87) — `co-?pay(?:ment)?` — page 25
+  - snippet: lity Cover For Disability Cover: a. 24 months initial waiting period is applicable for the pre-existing Disability covered under the policy Co-Pay 20% on all claims made under the policy unless waiver for copay is opted and premium is paid for the same. Annexure 1 The contact details o
+- **common** (df=72) — `consumable` — page 7
+  - snippet: t associated with room rent higher than the entitled room rent limit. Associated Medical Expenses will not include: i. Cost of pharmacy and consumables. ii. Cost of implants and medical devices iii. Cost of diagnostics Def 6. Alternative /AYUSH Treatment refers to hospitalization treatment
+- **common** (df=93) — `day care` — page 2
+  - snippet: g Clause If during the Policy Period the Insured Person is required to be Hospitalized for treatment of an Illness or Injury at a Hospital/ Day Care Centre, following Medical Advice of a duly qualified Medical Practitioner, the Company shall indemnify Medical Expenses necessarily incurre
+- **common** (df=93) — `day care` — page 3
+  - snippet: eri -Kurla Road, Andheri (East), Mumbai – 400 059. UIN: HDFC ERGO EquiCover Health - HDFHLIP23192V012223 3 AYUSH Medical Practitioner(s) on day care basis without in-patient services and must comply with all the following criterion: a. Having qualified registered AYUSH Medical Practition
+- **common** (df=93) — `day care` — page 4
+  - snippet:  be available for the period for which no premium is received). Def 17. Hospital means any institution established for in -patient care and day care treatment ofIllness and/or injuries and which has been registered as a hospital with the local authorities under the Clinical Establishment
+- **common** (df=93) — `day care` — page 5
+  - snippet:  Def 31. New born Baby means baby born during the Policy Period and is aged up to 90 days. Def 32. Non-Network Provider means any hospital, day care centre or other provider that is not part of the network. Def 33. Notification of Claim means the process of intimating a claim to the insu
+- **common** (df=93) — `day care` — page 6
+  - snippet: eri -Kurla Road, Andheri (East), Mumbai – 400 059. UIN: HDFC ERGO EquiCover Health - HDFHLIP23192V012223 6 The Insured is not admitted as a day care patient or in-patient. Def 35. Portability means a facility provided to the health insurance policyholders (including all members under fam
+- **common** (df=93) — `day care` — page 9
+  - snippet: atment necessitated due to disease or injury (for inpatient care only). iii. Plastic surgery necessitated due to disease or injury. iv. All day care treatments Note: 1. Expenses of Hospitalization for a minimum period of 24 consec utive hours only shall be admissible. However, the time l
+- **common** (df=93) — `day care` — page 11
+  - snippet: licy year. 4.7 Modern Treatment: The following procedures will be covered (wherever medically indicated) either as In patient or as part of Day Care Treatment in a Hospital up to 50% of Sum Insured, specified in the Policy Schedule, during the Policy Period. a. Uterine Artery Embolizatio
+- **common** (df=93) — `day care` — page 14
+  - snippet: t not limited to Vitamins, minerals and organic substances unless pres cribed by a Medical Practitioner as part of Hospitalization claim or Day Care procedure. Code – Excl14. 12. Refractive Error: Code – Excl15: Expenses related to the treatment for correction of eye sight due to refract
+- **common** (df=93) — `day care` — page 23
+  - snippet: pany within the prescribed time limit as specified hereunder. S.No Type of Claim Prescribed Time limit 1. Reimbursement of hospitalization, day care and prehospitalization expenses Within thirty days of date of discharge from hospital 2. Reimbursement of post hospitalization expenses Wit
+- **common** (df=74) — `domiciliary` — page 15
+  - snippet: ical and surgical procedures or treatments, non -prescribed drugs and medical supplies, hormone replacement therapy and expenses related to Domiciliary hospitalization shall not be covered. 12. Dental treatment o r Surgery of any kind unless requiring Hospitalisation as a result of accident
+- **common** (df=48) — `non[- ]medical` — page 22
+  - snippet: r to the hospital after verification. iv. At the time of discharge, the insured person has to verify and sign the discharge papers, pay for non-medical and inadmissible expenses. v. The Company/ TPA reserves the right to deny pre-authorization in case the insured person is unable to provide
+- **common** (df=48) — `non[- ]medical` — page 28
+  - snippet: o.in Area of Navi Mumbai, Thane District, Raigad District, Palghar District and wards of Mumbai, M/East, M/West, N, S and T." Annexure II : Non-Medical Expenses
+- **common** (df=93) — `pre[- ]existing` — page 4
+  - snippet: ayment can be made to renew or continue a policy in force without loss of continuity benefits pertaining to waiting periods and coverage of pre-existing diseases. Coverage need not be available during the period for which no premium is received . The grace period for payment of the premium f
+
+## policy-wording/hdfc-ergo/Health_Wallet.pdf
+
+- **common** (df=93) — `ayush` — page 1
+  - snippet: ii. Post-Hospitalisation expense 12 iv. Day Care Procedures 12 v. Domiciliary Treatment 12 vi. Organ Donor 12 vii. Ambulance Cover 12 viii. AYUSH Treatment 13 ix. Recovery Benefit 13 x. Worldwide Emergency Care 13 2 Restore Benefit 14 3 Preventive Health Check-up 15 4 Multiplier Benef
+- **common** (df=93) — `ayush` — page 3
+  - snippet: tandard Definitions Def. 1 Accident means a sudde n, unforeseen and involuntary event caused by external, visible and violent means. Def. 2 AYUSH Hospital means an AYUSH Hospital is a healthcare facility wherein medical/surgical/para- surgical treatment procedures and interventions ar
+- **common** (df=93) — `ayush` — page 9
+  - snippet: treatment "Allopathy" or "modern medicine" and includes Ayurveda, Unani, Sidha, Homeopathy, Yoga & Naturopathy in the Indian context Def. 4 AYUSH Treatment refers to the medical and/or hospitalisation treatments gi ven under Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homeopathy
+- **common** (df=93) — `ayush` — page 13
+  - snippet: ase of an Emergency, subject to Rs. 2000 per Hospitalisation 1. Claims which have not been admitted under Section B1.a and Section B1.b. h) AYUSH Treatment Coverage upto Sum Insured only for Inpatient care expenses incurred on treatment taken under the below systems of medicine in an 
+- **common** (df=93) — `ayush` — page 26
+  - snippet: nt at a healthcare facility which is NOT a Hospital. xxi) Any Non allopathic treatment except to the extent of coverage provided for under ’AYUSH Treatment’ benefit. xxii) Dental treatment and surgery of any kind, unless requiring Hospitalisation xxiii) Treatment rendered by a Medical
+- **common** (df=87) — `co-?pay(?:ment)?` — page 4
+  - snippet: he policy terms and conditions, are directly made to the network provider by the insurer to the extent pre - authorization approved. Def. 6 Co-payment means a cost-sharing requirement under a health insurance policy that provides that the policyholder/insured will bear a specified percenta
+- **common** (df=87) — `co-?pay(?:ment)?` — page 18
+  - snippet: l expenses - Special health foods and supplements ) ii. Medical expenses incurred on inpatient and/or outpatient treatment. This includes - Co-payment and / or Deductible for any health insurance claim - Standard non-payable items under any health insurance claim - Other Medical Expenses n
+- **common** (df=72) — `consumable` — page 12
+  - snippet: sive Care Unit • Medical Practitioners (Fees) • Anesthesia • Blood • Oxygen • Operation theatre • Surgical appliances; • Medicines, drugs & consumables; • Diagnostic procedures. b) Pre-Hospitalisation expense for consultations, investigations and medicines incurred upto 60 days before the 
+- **common** (df=93) — `day care` — page 1
+  - snippet: Benefits 10 1 In-patient Benefits 10 i. In-patient Treatment 11 ii. Pre-Hospitalisation expense 12 iii. Post-Hospitalisation expense 12 iv. Day Care Procedures 12 v. Domiciliary Treatment 12 vi. Organ Donor 12 vii. Ambulance Cover 12 viii. AYUSH Treatment 13 ix. Recovery Benefit 13 x. Wo
+- **common** (df=93) — `day care` — page 3
+  - snippet: iv. Maintaining daily records of the patients and making them accessible to the insurance company’s authorized representative. Def. 3 AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, Polyclinic or any such health cen
+- **common** (df=93) — `day care` — page 4
+  - snippet:  Bonus (Multiplier Benefit) means any increase in the Sum Insured granted by the insurer without an associated increase in premium. Def. 10 Day Care centre means any institution established for day care treatment of illness and/or injuries or a medical setup within a hospital and which h
+- **common** (df=93) — `day care` — page 5
+  - snippet:  be ava ilable for the period for which no premium is received). Def. 18 Hospital means any institution established for in-patient care and day care treatment of illness and/or injuries and which has been registered as a hospital with the local authorities under the Clinical Establishmen
+- **common** (df=93) — `day care` — page 7
+  - snippet: PA and insurer together to provide medical services to an insured on payment by a cashless facility Def. 31 Non Network means any Hospital, day care centre or other provider that is not part of the Network Def. 32 Notification of Claim means the process of intimating a claim to the insur
+- **common** (df=93) — `day care` — page 8
+  - snippet: rection of deformities and defects, diagnosis and cure of diseases, relief of suffering or prolongation of life, performed in a Hospital or day care centre by a Medical Practitioner. Def. 43 Unproven/Experimental treatment means treatment including drug experimental therapy which is not 
+- **common** (df=93) — `day care` — page 11
+  - snippet: • An insured suffers an Accident or Illness, which is covered under this Policy • Hospitalisation is necessary & is done for treatment OR • Day care treatment is necessary and is done OR • Domiciliary treatment is necessary and is done IMPORTANT: Claims made under these benefits will imp
+- **common** (df=93) — `day care` — page 12
+  - snippet: on expense for consultations, investigations and medicines incurred upto 60 days before the date of admission to the hospital (In- patient, Day Care or Domiciliary Treatment). i) Claims which have NOT been admitted under 1 a), 1d), and 1e). ii) Expenses not related to the admission and n
+- **common** (df=93) — `day care` — page 14
+  - snippet: se on treatment of illness or conditions first manifested during the Policy Period while travelling overseas, provided • Hospitalisation or Day Care Procedure was necessary and was done. • The expenses were up to limits specified in the Schedule of benefits. • Condition has been certifie
+- **common** (df=93) — `day care` — page 24
+  - snippet: ut not limited to Vitamins, minerals and organic substances unless prescribed by a Medical Practitioner as part of Hospitalization claim or day care procedure.Code – Excl14 ix. Expenses rel ated to the treatment for correction of eye sight due to refractive error less than 7.5 dioptres.C
+- **common** (df=68) — `deductible` — page 1
+  - snippet: nefit 13 x. Worldwide Emergency Care 13 2 Restore Benefit 14 3 Preventive Health Check-up 15 4 Multiplier Benefit 16 5 Reserve Benefit 17 6 Deductible 19 C. Waiting Period and Exclusions 19 1 Standard Waiting Periods 19 i 30-day Waiting Period – Code Excl03 20 ii Specified Disease/Procedur
+- **common** (df=68) — `deductible` — page 5
+  - snippet: lth Wallet – HDHHLIP21337V022021 5 Treatment normally taken on an out-patient basis is not included in the scope of this definition Def. 12 Deductible means a cost-sharing requirement under a health insurance policy that provides that the insurer will not be liable for a specified rupee am
+- **common** (df=68) — `deductible` — page 13
+  - snippet: ayable. IMPORTANT: 1. This benefit is payable only once per Illness/Accident per Policy Year. 2. This benefit is not applicable if optional Deductible is chosen 1. Claims which have NOT been admitted under 1a).
+- **common** (df=68) — `deductible` — page 16
+  - snippet: not be provided if Health Wallet Policy is not renewed further. Reserve Benefit Sum Insured* (Rs) Plan 5000 10000 15000 20000 25000 For Non Deductible plans Individual Not Offered Upto Rs 1500, per individual Upto Rs 2500, per individual Upto Rs 3000, per individual Upto Rs 3500, per indiv
+- **common** (df=68) — `deductible` — page 18
+  - snippet:  health foods and supplements ) ii. Medical expenses incurred on inpatient and/or outpatient treatment. This includes - Co-payment and / or Deductible for any health insurance claim - Standard non-payable items under any health insurance claim - Other Medical Expenses not covered under any
+- **common** (df=68) — `deductible` — page 19
+  - snippet: h renewed policy Bonus on the Reserve Benefit sum insured shall not accrue if the Policy is not renewed with us within the Grace Period. 5. Deductible Where optional Deductible is chosen, then all claims made for benefits listed Section B of the Policy will be payable only if the aggregate
+- **common** (df=68) — `deductible` — page 25
+  - snippet:  weapons, radiation of any kind. ii) Intentional self injury or attempted suicide while sane or insane. ii. Medical Exclusions i) Aggregate Deductible - We are not liable for Claims/Claim amount falling within Aggregate Deductible limit if opted and as mentioned on the Schedule of Coverage
+
+## policy-wording/hdfc-ergo/MyHealth_Koti_Suraksha.pdf
+
+- **common** (df=55) — `air ambulance` — page 24
+  - snippet: Coverage on the Policy Schedule. All other terms and Conditions of the Policy shall remain unaltered. 8. Medical Evacuation We will pay for Air Ambulance transportation in an airplane or helicopter for Emergency Care which requires immediate and rapid ambulance transportation as prescribed by
+- **common** (df=93) — `ayush` — page 3
+  - snippet: ness and includes relapse within 45 days from the date of last consultation with the Hospital/Nursing Home where treatment was taken Def. 3 AYUSH HOSPITAL means an AYUSH Hospital is a healthcare facility wherein medical/surgical/para-surgical treatment procedures and interventions are
+- **common** (df=93) — `ayush` — page 9
+  - snippet: tre, surgical appliances & nursing, and expenses on Anaesthesia, blood, oxygen incurred during Hospitalization of the Insured Person Def. 6 AYUSH Treatment refers to the medical and/or hospitalisation treatments given under Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homeopathy 
+- **common** (df=93) — `ayush` — page 18
+  - snippet: Alternative Treatments We will indemnify the Medical Expenses covered under Section 1.A.I.1 only on In-patient care of Insured Person in an AYUSH Hospital upto the limits specified in the policy schedule only for the below mentioned Alternative Treatments prescribed by Medical Practit
+- **common** (df=87) — `co-?pay(?:ment)?` — page 1
+  - snippet: 6. Waiver of Room Rent Capping 24 7. Waiting period Modification Option 24 8. Medical Evacuation 24 9. Sum Insured Rebound 24 10. Waiver of Co-Payment 25 11. Cumulative Bonus – Booster 25 Section 1.B. Exclusions & Waiting Period 26 I. Standard Waiting Periods 26 II. Specific- Co-payment 28
+- **common** (df=87) — `co-?pay(?:ment)?` — page 4
+  - snippet: sible parts of the body. b) External Congenital Anomaly: Congenital Anomaly which is in the visible and accessible parts of the body Def. 8 Co-Payment means a cost s haring requirement under a health insurance policy that provides that the policyholder/insured will bear a specified percent
+- **common** (df=87) — `co-?pay(?:ment)?` — page 22
+  - snippet: ared and agreed that We will pay/restrict the expenses under below listed Covers subject to waiting periods, limits, Procedure sub -limits, Co-payment Deductible and Aggregate Deductible as specified on the Schedule of Coverage in the Policy Schedule. Subject to otherwise all other terms, 
+- **common** (df=87) — `co-?pay(?:ment)?` — page 25
+  - snippet: 0,000 1,40,000 9 months 3 0 0 2,50,000 =250,000- 60,000+50,000 3,00,000 2,40,000 =240,000 11 months 4 0 0 70,000 0 3,00,000 0 10. Waiver of Co-Payment On availing this option, applicable Co-Payment stands waived under the Policy. 11. Cumulative Bonus – Booster On availing this cover, Cumul
+- **common** (df=87) — `co-?pay(?:ment)?` — page 26
+  - snippet:  following unless expressly stated to the contrary in the Policy I. Standard Waiting Periods Claims under the Policy are covered subject to Co-payment &waiting Period as specified below: i) Pre-existing Diseases: Code – Excl01: a) Expenses related to the treatment of a pre -existing diseas
+- **common** (df=87) — `co-?pay(?:ment)?` — page 29
+  - snippet: erred waiting period is made applicable to the enhanced Sum Insured in the event of granting higher Sum Insured subsequently. II. Specific: Co-payment a) Insured Person shall bear specified percentage of admissible Claim amount under each and every Claim, where Co-payment is applicable and
+- **common** (df=72) — `consumable` — page 16
+  - snippet: Park, Andheri -Kurla Road, Andheri (East), Mumbai – 400 059. UIN: my: health Koti Suraksha - HDFHLIP21131V012021 16 v. Medicines, drugs and consumables vi. Diagnostic procedures conducted with in same hospital where Insured Person is admitted vii. The Cost of prosthetic and other devices o
+- **common** (df=93) — `day care` — page 1
+  - snippet: cal Expenses 16 2. Home Healthcare 17 3. Domiciliary Hospitalization 17 4. Pre-Hospitalization cover 17 5. Post-Hospitalization cover 17 6. Day Care Procedures 17 7. Road Ambulance 17 8. Organ Donor Expenses 18 9. Alternative Treatments 18 II. Value added Services under Section 1– Health
+- **common** (df=93) — `day care` — page 3
+  - snippet: iv. Maintaining daily records of the patients and making them accessible to the insurance company’s authorized representative. Def. 4 AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, Polyclinic or any such health cen
+- **common** (df=93) — `day care` — page 4
+  - snippet: umulative Bonus means any increase or addition in the Sum Insured granted by the Insurer without an associated increase in premium. Def. 10 Day care Centre means any institution established for Day Care Treatment of Illness and / or injuries or a medical set -up with a Hospital and which
+- **common** (df=93) — `day care` — page 5
+  - snippet: t be available for the period for which no premium is received). Def. 18 Hospital means any institution established for In-patient Care and Day Care Treatment of Illness and/or injuries and which has been registered as a Hospital with the local authorities u nder the clinical Establishme
+- **common** (df=93) — `day care` — page 7
+  - snippet:  or jointly by an Insurer and TPA to provide medical services to an insured by a Cashless facility. Def. 32 Non Network means any Hospital, Day Care Centre or other provider that is not part of the Network Def. 33 Notification of Claim means the process of intimating a claim to the insur
+- **common** (df=93) — `day care` — page 8
+  - snippet: tion of deformities and defects, diagnosis and cure of diseases, relief from suffering and prolongation of life, performed in a Hospital or Day Care Centre by a medical practitioner. Def. 44 Unproven/Experimental Treatment is a treatment including drug experimental therapy, which is base
+- **common** (df=93) — `day care` — page 17
+  - snippet: y for which the earlier Hospitalization was required and Claim under Section 1.A.1, 1.A.2, 1.A.3 or 1.A.6 is admissible under the Policy 6. Day Care Procedures We will pay for the Medical Expenses under Section 1.A.I.1 on Hospitalization of Insured Person in Hospital or Day Care Centre f
+- **common** (df=93) — `day care` — page 23
+  - snippet: onal Covers 1 Medical Expenses 1 Non-Medical Expenses cover 4 Pre-Hospitalization cover 8 Medical Evacuation 5 Post-Hospitalization cover 6 Day Care Procedures 7 Road Ambulance 8 Organ Donor Expenses 9 Alternative Treatments 5. Waiver of Disease Capping
+- **common** (df=93) — `day care` — page 30
+  - snippet: ut not limited to Vitamins, minerals and organic substances unless prescribed by a Medical Practitioner as part of Hospitalization claim or day care procedure. Code – Excl14 xii. Expenses related to the treatment for correction of eye sight due to refractive error less than 7.5 dioptres.
+- **common** (df=93) — `day care` — page 34
+  - snippet: DFC ERGO GIC or certificate from hospital authorities providing facilities available including number of beds. v. Original Discharge Card / Day Care Summary / Transfer Summary vi. Original fina l hospital bill with all original deposit and final payment receipt and refund receipt(s), if 
+- **common** (df=68) — `deductible` — page 1
+  - snippet: ewal 19 3. Health Incentives 21 4. Cumulitive Bonus 22 IV. Optional Covers under Section 1 22 1. Non-Medical Expenses cover 23 2. Aggregate deductible 23 3. Emergency Medical Expenses 23 4. Overseas Treatment 23 5. Waiver of Disease Capping: 24 6. Waiver of Room Rent Capping 24 7. Waiting 
+- **common** (df=68) — `deductible` — page 4
+  - snippet: italization of more than 24 hours, Treatment normally taken on an Out-patient basis is not included in the scope of this definition Def. 12 Deductible means a cost sharing requirement under a health insurance policy that provides that the Insurer will not be liable for a specified rupee am
+- **common** (df=68) — `deductible` — page 8
+  - snippet: llopathy” or “modern medicine” and includes Ayurveda, Unani, Siddha, Homeopathy, Yoga & Naturopathy in the Indian context. Def. 4 Aggregate Deductible: Aggregate deductible is a cost -sharing re quirement under a health
+- **common** (df=68) — `deductible` — page 9
+  - snippet:  liable for a specified rupee amount of the covered expenses, which will apply before any benefits are payable by the Company. An Aggregate deductible does not reduce the Sum Insured. The deductible is applicable in aggregate towards hospitalization expenses incurred which are admissible u
+
+## policy-wording/hdfc-ergo/MyHealth_Medisure_Super_TopUp.pdf
+
+- **common** (df=93) — `ayush` — page 3
+  - snippet: . I. Standard Definitions Def 1 Accident is a sudden, unforeseen and involuntary event caused by external, visible and violent means. Def 2 AYUSH Treatment refers to the medical and/or hospitalisation treatments given under Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homeopathy 
+- **common** (df=93) — `ayush` — page 4
+  - snippet: r Top Up Insurance - HDFHLIP22021V042122 4 and medical or surgical/para -surgical interventions or both under the supervision of registered AYUSH Medical Practitioner(s) on day care basis without in-patient services and must comply with all the following criterion: i. Having qualified
+- **common** (df=93) — `ayush` — page 11
+  - snippet: ai – 400 059. UIN: my:health Medisure Super Top Up Insurance - HDFHLIP22021V042122 11 surgical procedure. • Note pertaining specifically to AYUSH Treatments only: Medical expenses pertaining only to In-patient care AYUSH treatment are also covered under 'In-patient Hospitalization exp
+- **common** (df=87) — `co-?pay(?:ment)?` — page 4
+  - snippet: n be termi nated either by the Insurer or the Insured by giving sufficient notice to other which is not lower than period of 15 days. Def 9 Co-payment is a cost sharing requirement under a Health Insurance policy that provides that Policy holder/Insured will bear a specifi ed percentage of
+- **common** (df=87) — `co-?pay(?:ment)?` — page 15
+  - snippet:  UIN: my:health Medisure Super Top Up Insurance - HDFHLIP22021V042122 15 II. Specific Exclusions 1. Domiciliary hospitalization expenses 2. Co-payment: All person(s) named in the Schedule to this Policy above the age of 80 years (age last birthday) shall bear a co-pay of 10% for each and e
+- **common** (df=93) — `day care` — page 1
+  - snippet: ered 10 1. In-patient Hospitalization Expenses 10 2. Pre-Hospitalization Medical Expenses 11 3. Post Hospitalization Medical Expenses 11 4. Day Care treatment 11 D Waiting Period & Exclusions 11 I. Standard General Exclusions & Waiting Period 11 1. Pre-existing Diseases – Code – Excl01 1
+- **common** (df=93) — `day care` — page 3
+  - snippet: iv. Maintaining daily records of the patients and making them acc essible to the insurance company’s authorized representative. Def 4 AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, Polyclinic or any such health cen
+- **common** (df=93) — `day care` — page 4
+  - snippet: V042122 4 and medical or surgical/para -surgical interventions or both under the supervision of registered AYUSH Medical Practitioner(s) on day care basis without in-patient services and must comply with all the following criterion: i. Having qualified registered AYUSH Medical Practition
+- **common** (df=93) — `day care` — page 5
+  - snippet: e for the period for which no premium is received). Def 18 Hospital/Nursing Home means any institution established for In -patient Care and Day Care Treatment of Illness and/or injuries and which has been registered as a Hospital wi th the local authorities under the clinical Establishme
+- **common** (df=93) — `day care` — page 7
+  - snippet: ess of intimating a claim to the insurer or TPA through any of the recognized modes of communication Def 33 Non Network means any Hospital, Day Care Centre or other provider that is not part of the Network. Def 34 OPD Treatment (Outpatient): OPD treatment means the one in which the Insur
+- **common** (df=93) — `day care` — page 8
+  - snippet: tion of deformities and defects, diagnosis and cure of diseases, relief from suffering and prolongation of life, performed in a Hospital or Day Care Centre by a medical practitioner. Def 44 Unproven/Experimental treatment: Treatment including drug experimental therapy which is not based 
+- **common** (df=93) — `day care` — page 11
+  - snippet:  Your Hospitalization was required, and; ii. We have accepted the Claim under Scope of Cover (A). ”In-patient Hospitalization expenses”. 4. Day Care treatment: We will pay for the Medical Expenses under Section C.1 on Hospitalization of Insured Person in Hospital or Day Care Centre for D
+- **common** (df=93) — `day care` — page 14
+  - snippet: ut not limited to Vitamins, minerals and organic substances unless prescribed by a Medical Practitioner as part of Hospitalization claim or day care procedure. Code – Excl14 15. Refractive Error: Code - Excl15: Expenses related to the treatment for correction of eye sight due to refracti
+- **common** (df=93) — `day care` — page 24
+  - snippet: olicy and shall be extended only for Coverage mentioned under Scope of cover(A)”Inpatient Hospitalization expenses” and Scope of cover (B) “Day care Procedures” 3. Claims Processing for Reimbursement i) After intimation as aforesaid, further submi t following documents to the TPA at Your
+- **common** (df=68) — `deductible` — page 3
+  - snippet: , We will reimburse the amount of such Medical Expenses as per the benefits given under Section C – Scope of Covers, in excess of Aggregate Deductible and subject to a maximum of the Sum Insured as stated in the Schedule. The liability of the Company to pay the admissible Claim under that 
+- **common** (df=68) — `deductible` — page 9
+  - snippet:  400 059. UIN: my:health Medisure Super Top Up Insurance - HDFHLIP22021V042122 9 proposed and the appropriate premium paid. Def 3 Aggregate Deductible is a cost -sharing requirement under this Po licy that provides that the Company will not be liable for a specified rupee amount of the cov
+- **common** (df=68) — `deductible` — page 15
+  - snippet: the Schedule to this Policy above the age of 80 years (age last birthday) shall bear a co-pay of 10% for each and every claim. 3. Aggregate Deductible: We are not liable for Claims/Claim amount falling within Aggregate Deductible limit as opted and mentioned on the Schedule 4. War or any a
+- **common** (df=68) — `deductible` — page 24
+  - snippet:  of Hospitalization in case of an emergency Hospitalization. In case where initial covered Medical expenses were not expected to exceed the deductible but subsequently found to be exceeding the opted deductible, notification must be done immediately along with the copy of intimation made t
+- **common** (df=74) — `domiciliary` — page 5
+  - snippet: elated to teeth or structures supporting teeth including examinations, fillings (where appropriate), crowns, extractions and surgery Def 14 Domiciliary hospitalization means medical treatment for an Illness/disease/Injury which in the normal course would require care and treatment at a Hosp
+- **common** (df=74) — `domiciliary` — page 15
+  - snippet:  Road, Andheri (East), Mumbai – 400 059. UIN: my:health Medisure Super Top Up Insurance - HDFHLIP22021V042122 15 II. Specific Exclusions 1. Domiciliary hospitalization expenses 2. Co-payment: All person(s) named in the Schedule to this Policy above the age of 80 years (age last birthday) sh
+- **common** (df=48) — `non[- ]medical` — page 2
+  - snippet: ce 26 8. Claim Settlement (Provision for Penal Interest) 27 II. Contact Us Redressal of Grievance Ombudsman Details 27 Annexure I – List of Non-Medical Expenses 32
+- **common** (df=48) — `non[- ]medical` — page 15
+  - snippet: direct consequence of an otherwise covered claim. 14. Vaccination including inoculation and immunisations (Except post bite treatment), 15. Non-Medical expenses such as Food charges (other than patient’s diet provided by hospital), laundry charges, attendant charges, ambulance collar, ambul
+- **common** (df=48) — `non[- ]medical` — page 16
+  - snippet: ygen concentrator for bronchial asthma/ COPD conditions, cost of cochlear implant(s) unless necessitated by an Accident. Exhaustive list of Non-Medical Expenses is attached and also available on www.hdfcergo.com. 22. Any Claim arising due to Non -disclosure of Pre-existing Illness or Materi
+- **common** (df=48) — `non[- ]medical` — page 32
+  - snippet: ea of Navi Mumbai, Thane District, Raigad District, Palghar District and wards of Mumbai, M/East, M/West, N, S and T." Annexure I – List of Non-Medical Expenses S. NO. ITEM S. NO. ITEM 1 BABY FOOD 35 OXYGEN CYLINDER (FOR USAGE OUTSIDE THE HOSPITAL) 2 BABY UTILITIES CHARGES 36 SPACER 3 BEAUT
+- **common** (df=93) — `pre[- ]existing` — page 1
+  - snippet: ization Medical Expenses 11 4. Day Care treatment 11 D Waiting Period & Exclusions 11 I. Standard General Exclusions & Waiting Period 11 1. Pre-existing Diseases – Code – Excl01 11 2. Specified Disease/Procedure waiting period – Code – Excl02 12 3. 30-day waiting period 12 4. Investigation &
+
+## policy-wording/hdfc-ergo/MyHealth_Suraksha_Gold.pdf
+
+- **common** (df=55) — `air ambulance` — page 1
+  - snippet: vers 13 1. Preventive Health Check-Up - Booster 13 2. Parent and Child care Cover - Basic 14 3. Parent and Child care Cover – Booster 14 4. Air Ambulance Cover 14 5. Recovery Benefit 15 6. Sum Insured Rebound 15 7. Outpatient Dental Treatment 15 8. External Medical Aids 16 9. Major Illness Ho
+- **common** (df=55) — `air ambulance` — page 14
+  - snippet: ility, surrogate or vicarious pregnancy, voluntary termination of pregnancy, procedures to assist birth control, contraceptive supplies. 4. Air Ambulance Cover We will pay for Air Ambulance transportation in an airplane or helicopter for Emergency Care which requires immediate and rapid ambul
+- **common** (df=55) — `air ambulance` — page 15
+  - snippet:  be admissible under Section B-I Hospitalization Cover Exclusion: We will not pay for return transportation to the Insured Person’s home by air ambulance 5. Recovery Benefit We will pay Sum Insured as specified on the Schedule of Coverage in the Policy Schedule upon Medically Necessary Hospit
+- **common** (df=55) — `air ambulance` — page 16
+  - snippet: ed as mentioned in Schedule of Coverage on the Policy Schedule for following Sections; Section B-I – Hospitalization Cover Section B-III4 – Air Ambulance Section B-III5 – Recovery Benefit Section B-III9 – Major Illness Hospitalization Expenses Section B-III17 – Hospital Cash Section B-III18 –
+- **common** (df=55) — `air ambulance` — page 18
+  - snippet: II-1 Preventive Health Check-Up - Booster B-III-2 Parent and Child care Cover - Basic B-III-3 Parent and Child care Cover – Booster B-III-4 Air Ambulance Cover B-III-5 Recovery Benefit B-III-6 Sum Insured Rebound B-III-7 Outpatient Dental Treatment B-III-8 External Medical Aids B-III-9 Major 
+- **common** (df=93) — `ayush` — page 4
+  - snippet: ess and includes relapse within 45 days from the date of last consultation with the Hospital/Nursing Home where treatment was taken Def. 3. AYUSH HOSPITAL means an AYUSH Hospital is a healthcare facility wherein medical/surgical/para-surgical treatment procedures and interventions are
+- **common** (df=93) — `ayush` — page 9
+  - snippet: tre, surgical appliances & nursing, and expenses on Anesthesia, blood, oxygen incurred during Hospitalization of the Insured Person Def. 5. AYUSH Treatment refers to hospitalisation treatments given under Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homeopathy systems Def. 6. Ban
+- **common** (df=93) — `ayush` — page 11
+  - snippet:  Alternative Treatments We will pay Medical Expenses as listed under Section B-I-1 on only Inpatient care treatment of Insured Person in an AYUSH Hospital for the below Alternative Treatments prescribed by the Medical Practitioner • Ayurvedic • Unani • Siddha • Homeopathy • Yoga & Nat
+- **common** (df=87) — `co-?pay(?:ment)?` — page 2
+  - snippet: dical Expenses cover 16 11. Waiting period Modification Option 16 12. Extended Cumulative Bonus 16 13. Room Rent Modification Option 16 14. Co-Payment 17 15. Major Illness – Benefit 17 16. E-Opinion 17 17. Hospital Cash 17 18. Global Health Cover 17 19. Surrogacy & Oocyte Donor Complicatio
+- **common** (df=87) — `co-?pay(?:ment)?` — page 4
+  - snippet: ible parts of the body. b) External Congenital Anomaly: Congenital Anomaly which is in the visible and accessible parts of the body Def. 8. Co-Payment means a cost sharing requirement under a health insurance policy that provides that the policyholder/ insured will bear a specified percent
+- **common** (df=87) — `co-?pay(?:ment)?` — page 10
+  - snippet: rnally during a Surgical Procedure. Insured Person shall bear specified percentage of admissible Claim amount under each and every Claim If Co-payment is applicable a) Mental Healthcare The Coverage for Mental illness is applicable if done in Mental Health Establishment and is subject to t
+- **common** (df=87) — `co-?pay(?:ment)?` — page 11
+  - snippet: y Care CentreforDay Care Treatment. Insured Person shall bear specified percentage of admissible Claim amount under each and every Claim If Co-payment is applicable 7. Road Ambulance We will pay for expenses incurred on Road Ambulance Services if Insured Person is required; i. to be transf
+- **common** (df=87) — `co-?pay(?:ment)?` — page 17
+  - snippet: s not applicable in respect of Hospitals where differential billing for Associated Medical Expenses is not followed based on Room Rent. 14. Co-Payment On availing this option, Co-Payment as mentioned on the Schedule of Coverage in the Policy Schedule will be applied on each and every admis
+- **common** (df=87) — `co-?pay(?:ment)?` — page 22
+  - snippet: or proven fraud and permanent exclusions specified in the policy contract. The policies would however be subject to all limits, sub limits, co-payments, deductibles as per the policy contract. 7. Fraud If any claim made by the Insured Person, is in any respect fraudulent, or if any false s
+- **common** (df=87) — `co-?pay(?:ment)?` — page 27
+  - snippet: t of India- All other cities Conditions: I. On payment of Tier 1 premiums, an Insured Person can avail treatment all over India without any co-payment. II. On payment of Tier 2 premium, an Insured Person can avail treatment at Tier2 cities without any Co-Payment. However if an Insured Pers
+- **common** (df=72) — `consumable` — page 10
+  - snippet: Unit charges iii. Consultation fees i v. Anest hesia, blood, oxygen, operation theatre charges, surgical appliances v. Medicines, drugs and consumables vi. Diagnostic procedures vii. The Cost of prosthetic and other Medical devices or equipment if implanted internally during a Surgical Pro
+- **common** (df=93) — `day care` — page 1
+  - snippet: cal Expenses 10 2. Home Healthcare 10 3. Domiciliary Hospitalization 10 4. Pre-Hospitalization cover 10 5. Post-Hospitalization cover 10 6. Day Care Procedures 10 7. Road Ambulance 11 8. Organ Donor Expenses 11 9. Alternative Treatments 11 II Renewal Benefits 11 1. Preventive Health Chec
+- **common** (df=93) — `day care` — page 4
+  - snippet: v. Maintaining daily records of the patients and making them accessible to the insurance company’s authorized representative. Def. 4. AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, Polyclinic or any such health cen
+- **common** (df=93) — `day care` — page 5
+  - snippet: mulative Bonus means any increase or addition in the Sum Insured granted by the Insurer without an associated increase in premium. Def. 10. Day care Centre means any institution established for Day Care Treatment of Illness and / or injuries or a medical set -up with a Hospital and which
+- **common** (df=93) — `day care` — page 8
+  - snippet: or jointly by an Insurer and TPA to provide medical services to an insured by a Cashless facility. Def. 34. Non Network means any Hospital, Day Care Centre or other provider that is not part of the Network Def. 35. Notification of Claim means the process of intimating a claim to the insu
+- **common** (df=93) — `day care` — page 10
+  - snippet: atment. Insured Person shall bear specified percentage of admissible Claim amount under each and every Claim If Co-payment is applicable 6. Day Care Procedures We will pay for the Medical Expenses under Section B-I-1 HDFC ERGO General Insurance Company Limited. IRDAI Reg. No.146 CIN: U66
+- **common** (df=93) — `day care` — page 11
+  - snippet: 11 on Hospitalisation of Insured Person in Hospital or Day Care CentreforDay Care Treatment. Insured Person shall bear specified percentage of admissible Claim amount under each and every Claim If Co-pay
+- **common** (df=93) — `day care` — page 18
+  - snippet: 18 Section B-I: Hospitalization Cover B1 Medical Expenses B4 Pre-Hospitalization cover B5 Post-Hospitalization cover B6 Day Care Procedures B7 Road Ambulance B8 Organ Donor Expenses B9 Alternative Treatments Section B-III : Optional Covers B-III-1 Preventive Health Ch
+- **common** (df=93) — `day care` — page 21
+  - snippet: ut not limited to Vitamins, minerals and organic substances unless prescribed by a Medical Practitioner as part of Hospitalization claim or day care procedure. Code – Excl14 xii. Refractive Error: Code - Excl15 – Expenses related to the treatment for correction of eye sight due to refrac
+- **common** (df=93) — `day care` — page 30
+  - snippet:  Copy of the Network Provider’s Registration Certificate / Hospital registration no in case of Hospitalization v. Original Discharge Card / Day Care Summary / Transfer Summary vi. Original final Hospital Bill with all original deposit and final payment receipt vii. Original invoice with 
+
+## policy-wording/hdfc-ergo/MyHealth_Suraksha_Platinum.pdf
+
+- **common** (df=55) — `air ambulance` — page 1
+  - snippet: vers 13 1. Preventive Health Check-Up - Booster 13 2. Parent and Child care Cover - Basic 14 3. Parent and Child care Cover – Booster 14 4. Air Ambulance Cover 14 5. Recovery Benefit 15 6. Sum Insured Rebound 15 7. Outpatient Dental Treatment 15 8. External Medical Aids 16 9. Major Illness Ho
+- **common** (df=55) — `air ambulance` — page 14
+  - snippet: ility, surrogate or vicarious pregnancy, voluntary termination of pregnancy, procedures to assist birth control, contraceptive supplies. 4. Air Ambulance Cover We will pay for Air Ambulance transportation in an airplane or helicopter for Emergency Care which requires immediate and rapid ambul
+- **common** (df=55) — `air ambulance` — page 15
+  - snippet:  be admissible under Section B-I Hospitalization Cover Exclusion: We will not pay for return transportation to the Insured Person’s home by air ambulance 5. Recovery Benefit We will pay Sum Insured as specified on the Schedule of Coverage in the Policy Schedule upon Medically Necessary Hospit
+- **common** (df=55) — `air ambulance` — page 16
+  - snippet: ed as mentioned in Schedule of Coverage on the Policy Schedule for following Sections; Section B-I – Hospitalization Cover Section B-III4 – Air Ambulance Section B-III5 – Recovery Benefit Section B-III9 – Major Illness Hospitalization Expenses Section B-III17 – Hospital Cash Section B-III18 –
+- **common** (df=55) — `air ambulance` — page 18
+  - snippet: II-1 Preventive Health Check-Up - Booster B-III-2 Parent and Child care Cover - Basic B-III-3 Parent and Child care Cover – Booster B-III-4 Air Ambulance Cover B-III-5 Recovery Benefit B-III-6 Sum Insured Rebound B-III-7 Outpatient Dental Treatment B-III-8 External Medical Aids B-III-9 Major 
+- **common** (df=93) — `ayush` — page 4
+  - snippet: ess and includes relapse within 45 days from the date of last consultation with the Hospital/Nursing Home where treatment was taken Def. 3. AYUSH HOSPITAL means an AYUSH Hospital is a healthcare facility wherein medical/surgical/para-surgical treatment procedures and interventions are
+- **common** (df=93) — `ayush` — page 9
+  - snippet: tre, surgical appliances & nursing, and expenses on Anesthesia, blood, oxygen incurred during Hospitalization of the Insured Person Def. 5. AYUSH Treatment refers to hospitalisation treatments given under Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homeopathy systems Def. 6. Ban
+- **common** (df=93) — `ayush` — page 11
+  - snippet:  Alternative Treatments We will pay Medical Expenses as listed under Section B-I-1 on only Inpatient care treatment of Insured Person in an AYUSH Hospital for the below Alternative Treatments prescribed by the Medical Practitioner • Ayurvedic • Unani • Siddha • Homeopathy • Yoga & Nat
+- **common** (df=87) — `co-?pay(?:ment)?` — page 2
+  - snippet: dical Expenses cover 16 11. Waiting period Modification Option 16 12. Extended Cumulative Bonus 16 13. Room Rent Modification Option 16 14. Co-Payment 17 15. Major Illness – Benefit 17 16. E-Opinion 17 17. Hospital Cash 17 18. Global Health Cover 17 19. Surrogacy & Oocyte Donor Complicatio
+- **common** (df=87) — `co-?pay(?:ment)?` — page 4
+  - snippet: ible parts of the body. b) External Congenital Anomaly: Congenital Anomaly which is in the visible and accessible parts of the body Def. 8. Co-Payment means a cost sharing requirement under a health insurance policy that provides that the policyholder/ insured will bear a specified percent
+- **common** (df=87) — `co-?pay(?:ment)?` — page 10
+  - snippet: rnally during a Surgical Procedure. Insured Person shall bear specified percentage of admissible Claim amount under each and every Claim If Co-payment is applicable a) Mental Healthcare The Coverage for Mental illness is applicable if done in Mental Health Establishment and is subject to t
+- **common** (df=87) — `co-?pay(?:ment)?` — page 11
+  - snippet: y Care CentreforDay Care Treatment. Insured Person shall bear specified percentage of admissible Claim amount under each and every Claim If Co-payment is applicable 7. Road Ambulance We will pay for expenses incurred on Road Ambulance Services if Insured Person is required; i. to be transf
+- **common** (df=87) — `co-?pay(?:ment)?` — page 17
+  - snippet: s not applicable in respect of Hospitals where differential billing for Associated Medical Expenses is not followed based on Room Rent. 14. Co-Payment On availing this option, Co-Payment as mentioned on the Schedule of Coverage in the Policy Schedule will be applied on each and every admis
+- **common** (df=87) — `co-?pay(?:ment)?` — page 22
+  - snippet: or proven fraud and permanent exclusions specified in the policy contract. The policies would however be subject to all limits, sub limits, co-payments, deductibles as per the policy contract. 7. Fraud If any claim made by the Insured Person, is in any respect fraudulent, or if any false s
+- **common** (df=87) — `co-?pay(?:ment)?` — page 27
+  - snippet: t of India- All other cities Conditions: I. On payment of Tier 1 premiums, an Insured Person can avail treatment all over India without any co-payment. II. On payment of Tier 2 premium, an Insured Person can avail treatment at Tier2 cities without any Co-Payment. However if an Insured Pers
+- **common** (df=72) — `consumable` — page 10
+  - snippet: Unit charges iii. Consultation fees i v. Anest hesia, blood, oxygen, operation theatre charges, surgical appliances v. Medicines, drugs and consumables vi. Diagnostic procedures vii. The Cost of prosthetic and other Medical devices or equipment if implanted internally during a Surgical Pro
+- **common** (df=93) — `day care` — page 1
+  - snippet: cal Expenses 10 2. Home Healthcare 10 3. Domiciliary Hospitalization 10 4. Pre-Hospitalization cover 10 5. Post-Hospitalization cover 10 6. Day Care Procedures 10 7. Road Ambulance 11 8. Organ Donor Expenses 11 9. Alternative Treatments 11 II Renewal Benefits 11 1. Preventive Health Chec
+- **common** (df=93) — `day care` — page 4
+  - snippet: v. Maintaining daily records of the patients and making them accessible to the insurance company’s authorized representative. Def. 4. AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, Polyclinic or any such health cen
+- **common** (df=93) — `day care` — page 5
+  - snippet: mulative Bonus means any increase or addition in the Sum Insured granted by the Insurer without an associated increase in premium. Def. 10. Day care Centre means any institution established for Day Care Treatment of Illness and / or injuries or a medical set -up with a Hospital and which
+- **common** (df=93) — `day care` — page 8
+  - snippet: or jointly by an Insurer and TPA to provide medical services to an insured by a Cashless facility. Def. 34. Non Network means any Hospital, Day Care Centre or other provider that is not part of the Network Def. 35. Notification of Claim means the process of intimating a claim to the insu
+- **common** (df=93) — `day care` — page 10
+  - snippet: atment. Insured Person shall bear specified percentage of admissible Claim amount under each and every Claim If Co-payment is applicable 6. Day Care Procedures We will pay for the Medical Expenses under Section B-I-1 HDFC ERGO General Insurance Company Limited. IRDAI Reg. No.146 CIN: U66
+- **common** (df=93) — `day care` — page 11
+  - snippet: 11 on Hospitalisation of Insured Person in Hospital or Day Care CentreforDay Care Treatment. Insured Person shall bear specified percentage of admissible Claim amount under each and every Claim If Co-pay
+- **common** (df=93) — `day care` — page 18
+  - snippet: 18 Section B-I: Hospitalization Cover B1 Medical Expenses B4 Pre-Hospitalization cover B5 Post-Hospitalization cover B6 Day Care Procedures B7 Road Ambulance B8 Organ Donor Expenses B9 Alternative Treatments Section B-III : Optional Covers B-III-1 Preventive Health Ch
+- **common** (df=93) — `day care` — page 21
+  - snippet: ut not limited to Vitamins, minerals and organic substances unless prescribed by a Medical Practitioner as part of Hospitalization claim or day care procedure. Code – Excl14 xii. Refractive Error: Code - Excl15 – Expenses related to the treatment for correction of eye sight due to refrac
+- **common** (df=93) — `day care` — page 30
+  - snippet:  Copy of the Network Provider’s Registration Certificate / Hospital registration no in case of Hospitalization v. Original Discharge Card / Day Care Summary / Transfer Summary vi. Original final Hospital Bill with all original deposit and final payment receipt vii. Original invoice with 
+
+## policy-wording/hdfc-ergo/MyHealth_Suraksha_Silver.pdf
+
+- **common** (df=55) — `air ambulance` — page 1
+  - snippet: vers 13 1. Preventive Health Check-Up - Booster 13 2. Parent and Child care Cover - Basic 14 3. Parent and Child care Cover – Booster 14 4. Air Ambulance Cover 14 5. Recovery Benefit 15 6. Sum Insured Rebound 15 7. Outpatient Dental Treatment 15 8. External Medical Aids 16 9. Major Illness Ho
+- **common** (df=55) — `air ambulance` — page 14
+  - snippet: ility, surrogate or vicarious pregnancy, voluntary termination of pregnancy, procedures to assist birth control, contraceptive supplies. 4. Air Ambulance Cover We will pay for Air Ambulance transportation in an airplane or helicopter for Emergency Care which requires immediate and rapid ambul
+- **common** (df=55) — `air ambulance` — page 15
+  - snippet:  be admissible under Section B-I Hospitalization Cover Exclusion: We will not pay for return transportation to the Insured Person’s home by air ambulance 5. Recovery Benefit We will pay Sum Insured as specified on the Schedule of Coverage in the Policy Schedule upon Medically Necessary Hospit
+- **common** (df=55) — `air ambulance` — page 16
+  - snippet: ed as mentioned in Schedule of Coverage on the Policy Schedule for following Sections; Section B-I – Hospitalization Cover Section B-III4 – Air Ambulance Section B-III5 – Recovery Benefit Section B-III9 – Major Illness Hospitalization Expenses Section B-III17 – Hospital Cash Section B-III18 –
+- **common** (df=55) — `air ambulance` — page 18
+  - snippet: II-1 Preventive Health Check-Up - Booster B-III-2 Parent and Child care Cover - Basic B-III-3 Parent and Child care Cover – Booster B-III-4 Air Ambulance Cover B-III-5 Recovery Benefit B-III-6 Sum Insured Rebound B-III-7 Outpatient Dental Treatment B-III-8 External Medical Aids B-III-9 Major 
+- **common** (df=93) — `ayush` — page 4
+  - snippet: ess and includes relapse within 45 days from the date of last consultation with the Hospital/Nursing Home where treatment was taken Def. 3. AYUSH HOSPITAL means an AYUSH Hospital is a healthcare facility wherein medical/surgical/para-surgical treatment procedures and interventions are
+- **common** (df=93) — `ayush` — page 9
+  - snippet: tre, surgical appliances & nursing, and expenses on Anesthesia, blood, oxygen incurred during Hospitalization of the Insured Person Def. 5. AYUSH Treatment refers to hospitalisation treatments given under Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homeopathy systems Def. 6. Ban
+- **common** (df=93) — `ayush` — page 11
+  - snippet:  Alternative Treatments We will pay Medical Expenses as listed under Section B-I-1 on only Inpatient care treatment of Insured Person in an AYUSH Hospital for the below Alternative Treatments prescribed by the Medical Practitioner • Ayurvedic • Unani • Siddha • Homeopathy • Yoga & Nat
+- **common** (df=87) — `co-?pay(?:ment)?` — page 2
+  - snippet: dical Expenses cover 16 11. Waiting period Modification Option 16 12. Extended Cumulative Bonus 16 13. Room Rent Modification Option 16 14. Co-Payment 17 15. Major Illness – Benefit 17 16. E-Opinion 17 17. Hospital Cash 17 18. Global Health Cover 17 19. Surrogacy & Oocyte Donor Complicatio
+- **common** (df=87) — `co-?pay(?:ment)?` — page 4
+  - snippet: ible parts of the body. b) External Congenital Anomaly: Congenital Anomaly which is in the visible and accessible parts of the body Def. 8. Co-Payment means a cost sharing requirement under a health insurance policy that provides that the policyholder/ insured will bear a specified percent
+- **common** (df=87) — `co-?pay(?:ment)?` — page 10
+  - snippet: rnally during a Surgical Procedure. Insured Person shall bear specified percentage of admissible Claim amount under each and every Claim If Co-payment is applicable a) Mental Healthcare The Coverage for Mental illness is applicable if done in Mental Health Establishment and is subject to t
+- **common** (df=87) — `co-?pay(?:ment)?` — page 11
+  - snippet: y Care CentreforDay Care Treatment. Insured Person shall bear specified percentage of admissible Claim amount under each and every Claim If Co-payment is applicable 7. Road Ambulance We will pay for expenses incurred on Road Ambulance Services if Insured Person is required; i. to be transf
+- **common** (df=87) — `co-?pay(?:ment)?` — page 17
+  - snippet: s not applicable in respect of Hospitals where differential billing for Associated Medical Expenses is not followed based on Room Rent. 14. Co-Payment On availing this option, Co-Payment as mentioned on the Schedule of Coverage in the Policy Schedule will be applied on each and every admis
+- **common** (df=87) — `co-?pay(?:ment)?` — page 22
+  - snippet: or proven fraud and permanent exclusions specified in the policy contract. The policies would however be subject to all limits, sub limits, co-payments, deductibles as per the policy contract. 7. Fraud If any claim made by the Insured Person, is in any respect fraudulent, or if any false s
+- **common** (df=87) — `co-?pay(?:ment)?` — page 27
+  - snippet: t of India- All other cities Conditions: I. On payment of Tier 1 premiums, an Insured Person can avail treatment all over India without any co-payment. II. On payment of Tier 2 premium, an Insured Person can avail treatment at Tier2 cities without any Co-Payment. However if an Insured Pers
+- **common** (df=72) — `consumable` — page 10
+  - snippet: Unit charges iii. Consultation fees i v. Anest hesia, blood, oxygen, operation theatre charges, surgical appliances v. Medicines, drugs and consumables vi. Diagnostic procedures vii. The Cost of prosthetic and other Medical devices or equipment if implanted internally during a Surgical Pro
+- **common** (df=93) — `day care` — page 1
+  - snippet: cal Expenses 10 2. Home Healthcare 10 3. Domiciliary Hospitalization 10 4. Pre-Hospitalization cover 10 5. Post-Hospitalization cover 10 6. Day Care Procedures 10 7. Road Ambulance 11 8. Organ Donor Expenses 11 9. Alternative Treatments 11 II Renewal Benefits 11 1. Preventive Health Chec
+- **common** (df=93) — `day care` — page 4
+  - snippet: v. Maintaining daily records of the patients and making them accessible to the insurance company’s authorized representative. Def. 4. AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, Polyclinic or any such health cen
+- **common** (df=93) — `day care` — page 5
+  - snippet: mulative Bonus means any increase or addition in the Sum Insured granted by the Insurer without an associated increase in premium. Def. 10. Day care Centre means any institution established for Day Care Treatment of Illness and / or injuries or a medical set -up with a Hospital and which
+- **common** (df=93) — `day care` — page 8
+  - snippet: or jointly by an Insurer and TPA to provide medical services to an insured by a Cashless facility. Def. 34. Non Network means any Hospital, Day Care Centre or other provider that is not part of the Network Def. 35. Notification of Claim means the process of intimating a claim to the insu
+- **common** (df=93) — `day care` — page 10
+  - snippet: atment. Insured Person shall bear specified percentage of admissible Claim amount under each and every Claim If Co-payment is applicable 6. Day Care Procedures We will pay for the Medical Expenses under Section B-I-1 HDFC ERGO General Insurance Company Limited. IRDAI Reg. No.146 CIN: U66
+- **common** (df=93) — `day care` — page 11
+  - snippet: 11 on Hospitalisation of Insured Person in Hospital or Day Care CentreforDay Care Treatment. Insured Person shall bear specified percentage of admissible Claim amount under each and every Claim If Co-pay
+- **common** (df=93) — `day care` — page 18
+  - snippet: 18 Section B-I: Hospitalization Cover B1 Medical Expenses B4 Pre-Hospitalization cover B5 Post-Hospitalization cover B6 Day Care Procedures B7 Road Ambulance B8 Organ Donor Expenses B9 Alternative Treatments Section B-III : Optional Covers B-III-1 Preventive Health Ch
+- **common** (df=93) — `day care` — page 21
+  - snippet: ut not limited to Vitamins, minerals and organic substances unless prescribed by a Medical Practitioner as part of Hospitalization claim or day care procedure. Code – Excl14 xii. Refractive Error: Code - Excl15 – Expenses related to the treatment for correction of eye sight due to refrac
+- **common** (df=93) — `day care` — page 30
+  - snippet:  Copy of the Network Provider’s Registration Certificate / Hospital registration no in case of Hospitalization v. Original Discharge Card / Day Care Summary / Transfer Summary vi. Original final Hospital Bill with all original deposit and final payment receipt vii. Original invoice with 
+
+## policy-wording/hdfc-ergo/Optima_Lite.pdf
+
+- **common** (df=23) — `2x|two times|twice|double` — page 12
+  - snippet:  consultation to an independent Medical Practitioner. Def. 26. Shared Accommodation OR Shared Room category means a room in a Hospital with double occupancy having shared washroom. This room does not include kitchen / dining area. Def. 27. Single Private Room means an air-conditioned r
+- **common** (df=55) — `air ambulance` — page 17
+  - snippet:  Leela Business Park, Andheri -Kurla Road, Andheri (East), Mumbai – 400 059. UIN: my: Optima Secure - HDFHLIP25041V062425 15 2.1. Emergency Air Ambulance The Company shall indemnify expenses incurred by the Insured Person during the Policy Year towards Ambulance transportation in an airplane 
+- **common** (df=55) — `air ambulance` — page 23
+  - snippet:  are diagnosed and incurred outside India : B-1.1 Hospitalization Expenses B-1.4 AYUSH Treatment B-1.7 Organ Donor Expenses B-2.1 Emergency Air Ambulance B-2.3 Protect Benefit B-2.4 Plus Benefit B-2.8 E Opinion for Critical Illness A. Global Health Cover (Emergency Treatments Only) is applica
+- **common** (df=55) — `air ambulance` — page 24
+  - snippet:  Expenses B-1.4 AYUSH Treatment B-1.5 Pre-Hospitalization cover B-1.6 Post-Hospitalization cover B-1.7 Organ Donor Expenses B-2.1 Emergency Air Ambulance B-2.3 Protect Benefit B-2.4 Plus Benefit B-2.8 E Opinion for Critical Illness Global Health Cover (Emergency & Planned Treatments) is appli
+- **common** (df=93) — `ayush` — page 4
+  - snippet: ss and includes relapse within 45 days from the date of last consultation with the Hospital/Nursing Home where treatment was taken. Def. 3. AYUSH Hospital is a healthcare facility wherein medical/surgical/para -surgical treatment procedures and interventions are carried out by AYUSH M
+- **common** (df=93) — `ayush` — page 5
+  - snippet: a Business Park, Andheri -Kurla Road, Andheri (East), Mumbai – 400 059. UIN: my: Optima Secure - HDFHLIP25041V062425 3 ii. Having qualified AYUSH Medical Practitioner in charge round the clock; iii. Having dedicated AYUSH therapy sections as requir ed and/or has equipped operation the
+- **common** (df=93) — `ayush` — page 10
+  - snippet: es, Cost of implants and medical devices and Cost of diagnostics. Proportionate deduction shall not be applicable to ‘ICU charges’. Def. 6. AYUSH Treatment refers to the medical and/or hospitalisation treatments given under Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homeopathy 
+- **common** (df=93) — `ayush` — page 14
+  - snippet: mitted to a Hospital. or, b. the Medically Necessary Treatment is taken at Home on account of non -availability of room in a Hospital. 1.4. AYUSH Treatment The Company shall indemnify the Medical Expenses incurred by the Insured Person only for Inpatient Care under Ayurveda, Yoga and 
+- **common** (df=93) — `ayush` — page 23
+  - snippet: fits shall be extended for Emergency Medical Expenses which are diagnosed and incurred outside India : B-1.1 Hospitalization Expenses B-1.4 AYUSH Treatment B-1.7 Organ Donor Expenses B-2.1 Emergency Air Ambulance B-2.3 Protect Benefit B-2.4 Plus Benefit B-2.8 E Opinion for Critical Il
+- **common** (df=93) — `ayush` — page 24
+  - snippet: ow mentioned benefits shall be extended for both planned and Emergency Medical Expenses outside India: B-1.1 Hospitalization Expenses B-1.4 AYUSH Treatment B-1.5 Pre-Hospitalization cover B-1.6 Post-Hospitalization cover B-1.7 Organ Donor Expenses B-2.1 Emergency Air Ambulance B-2.3 P
+- **common** (df=87) — `co-?pay(?:ment)?` — page 5
+  - snippet: le parts of the body. b) External Congenital Anomal y: Congenital anomaly which is in the visible and accessible parts of the body. Def. 8. Co-Payment means a cost sharing requirement under a health insurance policy that provides that the policyholder/insured will bear a specified percenta
+- **common** (df=72) — `consumable` — page 10
+  - snippet: ssociated Medical Expenses in addition to the difference in room rent. Such associated medical expenses do not include Cost of pharmacy and consumables, Cost of implants and medical devices and Cost of diagnostics. Proportionate deduction shall not be applicable to ‘ICU charges’. Def. 6. A
+- **common** (df=72) — `consumable` — page 13
+  - snippet: edicines and drugs prescribed in writing by Medical Practitioner. f. Intravenous fluids, blood transfusion, s urgical appliances, allowable consumables and/or enteral feedings. Operation theatre charges. g. The cost of prosthetics and other devices or equipment, if implanted internally dur
+- **common** (df=93) — `day care` — page 4
+  - snippet: g Clause If during the Policy Period the Insured Person is required to be Hospitalized for treatment of an Illness or Injury at a Hospital/ Day Care Centre or given treatment at Home, following Medical Advice of a duly qualified Medical Practitioner, the Company shall indemnify Medical E
+- **common** (df=93) — `day care` — page 5
+  - snippet: v. Maintaining daily records of the patients and making them accessible to the insurance company’s authorized representative. Def. 4. AYUSH Day Care Centre means and includes Co mmunity Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, Polyclinic or any such health ce
+- **common** (df=93) — `day care` — page 6
+  - snippet: rried out; iv. maintains daily records of patients and will make these accessible to the insurance company’s authorized personnel. Def. 11. Day Care Treatment means those medical treatment, and/or surgical procedure which is i) undertaken under General or Local Anaesthesia in a hospital/
+- **common** (df=93) — `day care` — page 7
+  - snippet: umbai – 400 059. UIN: my: Optima Secure - HDFHLIP25041V062425 5 Def. 18. Hospital means any institution established for in-patient care and day care treatment of Illness and/or injuries and which has been registered as a hospital with the local aut horities under the Clinical Establishme
+- **common** (df=93) — `day care` — page 8
+  - snippet: y by an Insurer and TPA to provide medical services to an insured by a cashless facility. Def. 31. Non-Network Provider means any hospital, day care centre or other provider that is not part of the network.
+- **common** (df=93) — `day care` — page 9
+  - snippet: cility like a consultation room for diagnosis and treatment based on the advice of a Medical Practitioner. The Insured is not admitted as a day care patient or in-patient. Def. 34. Portability means a facility provided to the health insurance policyholders (including all members under fa
+- **common** (df=93) — `day care` — page 10
+  - snippet: tion of deformities and defects, diagnosis and cure of diseases, relief from suffering and prolongation of life, performed in a hospital or day care centre by a medical practitioner. Def. 43. Unproven/Experimental Treatment means the treatment including drug experimental therapy which is
+- **common** (df=93) — `day care` — page 13
+  - snippet: ation. ii. In patient Care Dental Treatment, necessitated due to disease or Injury iii. Plastic Surgery, necessitated due to Injury iv. All Day Care Treatments. Note i. Expenses of Hospitalization for a minimum period of 24 consecutive hours only shall be admissible. However, the time li
+- **common** (df=93) — `day care` — page 33
+  - snippet: ut not limited to Vitamins, minerals and organic substances unless prescribed by a Medical Practitioner as part of Hospitalization claim or Day Care procedure. Code – Excl14 l. Refractive Error: Code – Excl15: Expenses related to the treatment for correction of eye sight due to refractiv
+- **common** (df=68) — `deductible` — page 4
+  - snippet:  Policy Schedule. Provided further that, any amount payable under the Policy shall be subject to the terms of coverage (including Aggregate Deductible, Sub -limits), exclusions, conditions and definitions contained herein. The maximum, total and cumulative liability of the Company under an
+- **common** (df=68) — `deductible` — page 6
+  - snippet: alization of more than 24 hours, Treatment normally taken on an out-patient basis is not included in the scope of this definition. Def. 12. Deductible means a cost-sharing requirement under a health insurance policy that provides that the insurer will not be liable for a specified rupee am
+- **common** (df=68) — `deductible` — page 10
+  - snippet: rofession whether he / she is trained or not. Def. 2. Age means completed years on last birthday as on Commencement Date. Def. 3. Aggregate Deductible refers to a cost-sharing agreement between the Insurer and the Insured. The Insured agrees to bear a self -opted amount known as ‘Aggregate
+
+## policy-wording/hdfc-ergo/Optima_Restore.pdf
+
+- **common** (df=55) — `air ambulance` — page 13
+  - snippet: ssion or representation or consequences of any action taken in reliance of the E -opinion provided by the Medical Practitioner j. Emergency Air Ambulance Cover We will pay for ambulance transportation in an airplane or helicopter subject to maximum limit prescribed in j (1), for emergency lif
+- **common** (df=93) — `ayush` — page 1
+  - snippet: t includes relapse within 45 days from the date of last consultation with the Hospital/Nursing Home where treatment was been taken. Def. 3. AYUSH Hospital is a healthcare facility wherein medical/surgical/para -surgical treatment procedures and interventions are carried out by AYUSH M
+- **common** (df=93) — `ayush` — page 2
+  - snippet: eela Business Park, Andheri -Kurla Road, Andheri (East), Mumbai – 400 059. UIN: Optima Restore - HDFHLIP25012V082425 2 ii) Having dedicated AYUSH therapy sections as required and/or has equipped ope ration theatre where surgical procedures are to be carried out; iii) Maintaining daily
+- **common** (df=93) — `ayush` — page 9
+  - snippet: ate, and which will apply before any benefits are payable by the Company. The Aggregate Deductible does not reduce the Sum Insured. Def. 4. AYUSH Treatment refers to the medical and/or hospitalisation treatments given under Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homeopathy 
+- **common** (df=93) — `ayush` — page 11
+  - snippet: gen • Operation theatre • Surgical appliances; • Medicines, drugs & consumables; • Diagnostic procedures. • Note pertaining specifically to AYUSH Treatments only: Medical expenses pertaining only to In - patient care AYUSH treatment are also covered under 'In-patient treatment' cover 
+- **common** (df=87) — `co-?pay(?:ment)?` — page 2
+  - snippet: ible parts of the body (b) External Congenital Anomaly- Congenital Anomaly which is in the visible and accessible parts of the body Def. 8. Co-payment means a cost-sharing requirement under a hea lth insurance policy that provides that the policyholder/insured will bear a specified percent
+- **common** (df=87) — `co-?pay(?:ment)?` — page 15
+  - snippet: ate Deductible is not applicabl e to section 3 (Preventive Health checkup) and Section 1.i (E-Opinion in respect of a Critical Illness). d. Co-Payment (Optional benefit) I. If opted and mentioned on the Policy Schedule that a Co -payment is effective,
+- **common** (df=87) — `co-?pay(?:ment)?` — page 16
+  - snippet: ims payable under the Policy and Our liability, if any, shall only be in excess of that amount and would be subject to the Sum Insured. II. Co-payment is not applicable to Section 3 (Preventive Health checkup), Section 1.h (Daily Cash for choosing shared Accommodation) and Section 1.i (E -
+- **common** (df=72) — `consumable` — page 11
+  - snippet: ive Care Unit • Medical Practitioners (Fees) • Anaesthesia • Blood • Oxygen • Operation theatre • Surgical appliances; • Medicines, drugs & consumables; • Diagnostic procedures. • Note pertaining specifically to AYUSH Treatments only: Medical expenses pertaining only to In - patient care A
+- **common** (df=93) — `day care` — page 1
+  - snippet: v. Maintaining daily records of the patients and making them accessible to the insurance company’s authorized representative. Def. 4. AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, Polyclinic or any such health cen
+- **common** (df=93) — `day care` — page 4
+  - snippet: ic attacks (TIA) ▪ Traumatic injury of the brain ▪ Vascular diseases affecting only the eye or optic nerve or vestibular functions Def. 11. Day Care centre means any institution established for day care trea tment of illness and/or injuries or a medical setup within a hospital and which 
+- **common** (df=93) — `day care` — page 5
+  - snippet:  carried out; - maintains daily records of patients and will make these accessible to the insurance company’s authorized personnel Def. 12. Day Care Procedures means those medical treatment, and/or surgical procedure i. which is undertaken under General or Local Anaesthesia in a Hospital
+- **common** (df=93) — `day care` — page 7
+  - snippet: ef. 33. New Born Baby means baby born during the Policy Period and is aged up to 90 days. Def. 34. Non-Network Provider means any Hospital, day care centre or other provider that is not part of the Network Def. 35. Notification of Claim means the process of intimating a claim to the insu
+- **common** (df=93) — `day care` — page 8
+  - snippet: tion of deformities and defec ts, diagnosis and cure of diseases, relief from suffering or prolongation of life, performed in a Hospital or day care centre by a Medical Practitioner. Def. 46. Unproven/Experimental treatment means treatment including drug experimental therapy which is not
+- **common** (df=93) — `day care` — page 10
+  - snippet: ic / hospital or associated fa cility like a consultation room. Important to note that out -patient treatment does not require admission to day care or in-patient sections of hospital. 4. Medical Practitioner means a person who holds a valid registration from the Medical Council of any S
+- **common** (df=93) — `day care` — page 11
+  - snippet: • An insured suffers an Accident or Illness, which is covered under this Policy • Hospitalisation is necessary & is done for treatment OR • Day care treatment is necessary and is done OR • Domiciliary treatment is necessary and is done We will cover the Medical Expenses for: In addition 
+- **common** (df=93) — `day care` — page 12
+  - snippet:  Floor, Leela Business Park, Andheri -Kurla Road, Andheri (East), Mumbai – 400 059. UIN: Optima Restore - HDFHLIP25012V082425 12 patient OR Day Care OR Domiciliary treatment). incidental to the treatment for whic h the admission has taken place. d. Day Care Procedures Medical treatment o
+- **common** (df=93) — `day care` — page 22
+  - snippet: t not limited to Vitam ins, minerals and organic substances unless prescribed by a medical practitioner as part of hospitalization claim or day care procedure. Code – Excl14 13. Maternity: Code – Excl18 i. Medical treatment expenses traceable to childbirth (including complicated deliveri
+- **common** (df=68) — `deductible` — page 5
+  - snippet: talisation of more than 24 hours. Treatment normally taken on an Out-patient basis is not included in the scope of this definition Def. 13. Deductible means a cost -sharing requirement under a health insurance policy that provides that the insurer will not be liable for a specified rupee a
+- **common** (df=68) — `deductible` — page 9
+  - snippet: his Profession whether he / she is trained or not. Def. 2. Age or Aged means completed years as at the Commencement Date. Def. 3. Aggregate Deductible means a cost-sharing requirement that provides that the Company will not be liable for a spec ified amount of the covered expenses in respe
+- **common** (df=68) — `deductible` — page 15
+  - snippet: loor, Leela Business Park, Andheri -Kurla Road, Andheri (East), Mumbai – 400 059. UIN: Optima Restore - HDFHLIP25012V082425 15 c. Aggregate Deductible (Optional benefit) The Insured Person shall bear an amount equal to the Aggregate Deductible specified on Policy Schedule for all admissibl
+- **common** (df=74) — `domiciliary` — page 5
+  - snippet: ated to teeth or structures supporting teeth including examinations, filings (where appropriate), crowns, extractions and surgery. Def. 15. Domiciliary Hospitalisation medical treatment for an illness/disease/injury which in the normal course would require a care and treatment at a Hospital
+- **common** (df=74) — `domiciliary` — page 11
+  - snippet: h is covered under this Policy • Hospitalisation is necessary & is done for treatment OR • Day care treatment is necessary and is done OR • Domiciliary treatment is necessary and is done We will cover the Medical Expenses for: In addition to the waiting periods (Section C.1) and general exc
+- **common** (df=74) — `domiciliary` — page 12
+  - snippet: a Business Park, Andheri -Kurla Road, Andheri (East), Mumbai – 400 059. UIN: Optima Restore - HDFHLIP25012V082425 12 patient OR Day Care OR Domiciliary treatment). incidental to the treatment for whic h the admission has taken place. d. Day Care Procedures Medical treatment or surgical proc
+- **common** (df=48) — `non[- ]medical` — page 20
+  - snippet:  and accepted by insurer. 2. Standard General exclusions We will not pay for any claim which is caused by, arising from or attributable to: Non-Medical Exclusions 1. Breach of law: Code – Excl10 Expenses for treatment directly arising from or consequent upon any Insured Person committing or
+
+## policy-wording/hdfc-ergo/Optima_Secure.pdf
+
+- **common** (df=23) — `2x|two times|twice|double` — page 10
+  - snippet:  consultation to an independent Medical Practitioner. Def. 26. Shared Accommodation OR Shared Room category means a room in a Hospital with double occupancy having shared washroom. This room does not include kitchen / dining area. Def. 27. Single Private Room means an air-conditioned r
+- **common** (df=55) — `air ambulance` — page 15
+  - snippet:  Leela Business Park, Andheri -Kurla Road, Andheri (East), Mumbai – 400 059. UIN: my: Optima Secure - HDFHLIP25041V062425 15 2.1. Emergency Air Ambulance The Company shall indemnify expenses incurred by the Insured Person during the Policy Year towards Ambulance transportation in an airplane 
+- **common** (df=55) — `air ambulance` — page 21
+  - snippet:  are diagnosed and incurred outside India : B-1.1 Hospitalization Expenses B-1.4 AYUSH Treatment B-1.7 Organ Donor Expenses B-2.1 Emergency Air Ambulance B-2.3 Protect Benefit B-2.4 Plus Benefit B-2.8 E Opinion for Critical Illness A. Global Health Cover (Emergency Treatments Only) is applica
+- **common** (df=55) — `air ambulance` — page 22
+  - snippet:  Expenses B-1.4 AYUSH Treatment B-1.5 Pre-Hospitalization cover B-1.6 Post-Hospitalization cover B-1.7 Organ Donor Expenses B-2.1 Emergency Air Ambulance B-2.3 Protect Benefit B-2.4 Plus Benefit B-2.8 E Opinion for Critical Illness Global Health Cover (Emergency & Planned Treatments) is appli
+- **common** (df=93) — `ayush` — page 2
+  - snippet: ss and includes relapse within 45 days from the date of last consultation with the Hospital/Nursing Home where treatment was taken. Def. 3. AYUSH Hospital is a healthcare facility wherein medical/surgical/para -surgical treatment procedures and interventions are carried out by AYUSH M
+- **common** (df=93) — `ayush` — page 3
+  - snippet: a Business Park, Andheri -Kurla Road, Andheri (East), Mumbai – 400 059. UIN: my: Optima Secure - HDFHLIP25041V062425 3 ii. Having qualified AYUSH Medical Practitioner in charge round the clock; iii. Having dedicated AYUSH therapy sections as requir ed and/or has equipped operation the
+- **common** (df=93) — `ayush` — page 8
+  - snippet: es, Cost of implants and medical devices and Cost of diagnostics. Proportionate deduction shall not be applicable to ‘ICU charges’. Def. 6. AYUSH Treatment refers to the medical and/or hospitalisation treatments given under Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homeopathy 
+- **common** (df=93) — `ayush` — page 12
+  - snippet: mitted to a Hospital. or, b. the Medically Necessary Treatment is taken at Home on account of non -availability of room in a Hospital. 1.4. AYUSH Treatment The Company shall indemnify the Medical Expenses incurred by the Insured Person only for Inpatient Care under Ayurveda, Yoga and 
+- **common** (df=93) — `ayush` — page 21
+  - snippet: fits shall be extended for Emergency Medical Expenses which are diagnosed and incurred outside India : B-1.1 Hospitalization Expenses B-1.4 AYUSH Treatment B-1.7 Organ Donor Expenses B-2.1 Emergency Air Ambulance B-2.3 Protect Benefit B-2.4 Plus Benefit B-2.8 E Opinion for Critical Il
+- **common** (df=93) — `ayush` — page 22
+  - snippet: ow mentioned benefits shall be extended for both planned and Emergency Medical Expenses outside India: B-1.1 Hospitalization Expenses B-1.4 AYUSH Treatment B-1.5 Pre-Hospitalization cover B-1.6 Post-Hospitalization cover B-1.7 Organ Donor Expenses B-2.1 Emergency Air Ambulance B-2.3 P
+- **common** (df=87) — `co-?pay(?:ment)?` — page 3
+  - snippet: le parts of the body. b) External Congenital Anomal y: Congenital anomaly which is in the visible and accessible parts of the body. Def. 8. Co-Payment means a cost sharing requirement under a health insurance policy that provides that the policyholder/insured will bear a specified percenta
+- **common** (df=72) — `consumable` — page 8
+  - snippet: ssociated Medical Expenses in addition to the difference in room rent. Such associated medical expenses do not include Cost of pharmacy and consumables, Cost of implants and medical devices and Cost of diagnostics. Proportionate deduction shall not be applicable to ‘ICU charges’. Def. 6. A
+- **common** (df=72) — `consumable` — page 11
+  - snippet: edicines and drugs prescribed in writing by Medical Practitioner. f. Intravenous fluids, blood transfusion, s urgical appliances, allowable consumables and/or enteral feedings. Operation theatre charges. g. The cost of prosthetics and other devices or equipment, if implanted internally dur
+- **common** (df=93) — `day care` — page 2
+  - snippet: g Clause If during the Policy Period the Insured Person is required to be Hospitalized for treatment of an Illness or Injury at a Hospital/ Day Care Centre or given treatment at Home, following Medical Advice of a duly qualified Medical Practitioner, the Company shall indemnify Medical E
+- **common** (df=93) — `day care` — page 3
+  - snippet: v. Maintaining daily records of the patients and making them accessible to the insurance company’s authorized representative. Def. 4. AYUSH Day Care Centre means and includes Co mmunity Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, Polyclinic or any such health ce
+- **common** (df=93) — `day care` — page 4
+  - snippet: rried out; iv. maintains daily records of patients and will make these accessible to the insurance company’s authorized personnel. Def. 11. Day Care Treatment means those medical treatment, and/or surgical procedure which is i) undertaken under General or Local Anaesthesia in a hospital/
+- **common** (df=93) — `day care` — page 5
+  - snippet: umbai – 400 059. UIN: my: Optima Secure - HDFHLIP25041V062425 5 Def. 18. Hospital means any institution established for in-patient care and day care treatment of Illness and/or injuries and which has been registered as a hospital with the local aut horities under the Clinical Establishme
+- **common** (df=93) — `day care` — page 6
+  - snippet: y by an Insurer and TPA to provide medical services to an insured by a cashless facility. Def. 31. Non-Network Provider means any hospital, day care centre or other provider that is not part of the network.
+- **common** (df=93) — `day care` — page 7
+  - snippet: cility like a consultation room for diagnosis and treatment based on the advice of a Medical Practitioner. The Insured is not admitted as a day care patient or in-patient. Def. 34. Portability means a facility provided to the health insurance policyholders (including all members under fa
+- **common** (df=93) — `day care` — page 8
+  - snippet: tion of deformities and defects, diagnosis and cure of diseases, relief from suffering and prolongation of life, performed in a hospital or day care centre by a medical practitioner. Def. 43. Unproven/Experimental Treatment means the treatment including drug experimental therapy which is
+- **common** (df=93) — `day care` — page 11
+  - snippet: ation. ii. In patient Care Dental Treatment, necessitated due to disease or Injury iii. Plastic Surgery, necessitated due to Injury iv. All Day Care Treatments. Note i. Expenses of Hospitalization for a minimum period of 24 consecutive hours only shall be admissible. However, the time li
+- **common** (df=93) — `day care` — page 31
+  - snippet: ut not limited to Vitamins, minerals and organic substances unless prescribed by a Medical Practitioner as part of Hospitalization claim or Day Care procedure. Code – Excl14 l. Refractive Error: Code – Excl15: Expenses related to the treatment for correction of eye sight due to refractiv
+- **common** (df=68) — `deductible` — page 2
+  - snippet:  Policy Schedule. Provided further that, any amount payable under the Policy shall be subject to the terms of coverage (including Aggregate Deductible, Sub -limits), exclusions, conditions and definitions contained herein. The maximum, total and cumulative liability of the Company under an
+- **common** (df=68) — `deductible` — page 4
+  - snippet: alization of more than 24 hours, Treatment normally taken on an out-patient basis is not included in the scope of this definition. Def. 12. Deductible means a cost-sharing requirement under a health insurance policy that provides that the insurer will not be liable for a specified rupee am
+- **common** (df=68) — `deductible` — page 8
+  - snippet: rofession whether he / she is trained or not. Def. 2. Age means completed years on last birthday as on Commencement Date. Def. 3. Aggregate Deductible refers to a cost-sharing agreement between the Insurer and the Insured. The Insured agrees to bear a self -opted amount known as ‘Aggregate
+
+## policy-wording/hdfc-ergo/Optima_Secure_Global.pdf
+
+- **common** (df=23) — `2x|two times|twice|double` — page 10
+  - snippet:  consultation to an independent Medical Practitioner. Def. 26. Shared Accommodation OR Shared Room category means a room in a Hospital with double occupancy having shared washroom. This room does not include kitchen / dining area. Def. 27. Single Private Room means an air-conditioned r
+- **common** (df=55) — `air ambulance` — page 15
+  - snippet:  Leela Business Park, Andheri -Kurla Road, Andheri (East), Mumbai – 400 059. UIN: my: Optima Secure - HDFHLIP25041V062425 15 2.1. Emergency Air Ambulance The Company shall indemnify expenses incurred by the Insured Person during the Policy Year towards Ambulance transportation in an airplane 
+- **common** (df=55) — `air ambulance` — page 21
+  - snippet:  are diagnosed and incurred outside India : B-1.1 Hospitalization Expenses B-1.4 AYUSH Treatment B-1.7 Organ Donor Expenses B-2.1 Emergency Air Ambulance B-2.3 Protect Benefit B-2.4 Plus Benefit B-2.8 E Opinion for Critical Illness A. Global Health Cover (Emergency Treatments Only) is applica
+- **common** (df=55) — `air ambulance` — page 22
+  - snippet:  Expenses B-1.4 AYUSH Treatment B-1.5 Pre-Hospitalization cover B-1.6 Post-Hospitalization cover B-1.7 Organ Donor Expenses B-2.1 Emergency Air Ambulance B-2.3 Protect Benefit B-2.4 Plus Benefit B-2.8 E Opinion for Critical Illness Global Health Cover (Emergency & Planned Treatments) is appli
+- **common** (df=93) — `ayush` — page 2
+  - snippet: ss and includes relapse within 45 days from the date of last consultation with the Hospital/Nursing Home where treatment was taken. Def. 3. AYUSH Hospital is a healthcare facility wherein medical/surgical/para -surgical treatment procedures and interventions are carried out by AYUSH M
+- **common** (df=93) — `ayush` — page 3
+  - snippet: a Business Park, Andheri -Kurla Road, Andheri (East), Mumbai – 400 059. UIN: my: Optima Secure - HDFHLIP25041V062425 3 ii. Having qualified AYUSH Medical Practitioner in charge round the clock; iii. Having dedicated AYUSH therapy sections as requir ed and/or has equipped operation the
+- **common** (df=93) — `ayush` — page 8
+  - snippet: es, Cost of implants and medical devices and Cost of diagnostics. Proportionate deduction shall not be applicable to ‘ICU charges’. Def. 6. AYUSH Treatment refers to the medical and/or hospitalisation treatments given under Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homeopathy 
+- **common** (df=93) — `ayush` — page 12
+  - snippet: mitted to a Hospital. or, b. the Medically Necessary Treatment is taken at Home on account of non -availability of room in a Hospital. 1.4. AYUSH Treatment The Company shall indemnify the Medical Expenses incurred by the Insured Person only for Inpatient Care under Ayurveda, Yoga and 
+- **common** (df=93) — `ayush` — page 21
+  - snippet: fits shall be extended for Emergency Medical Expenses which are diagnosed and incurred outside India : B-1.1 Hospitalization Expenses B-1.4 AYUSH Treatment B-1.7 Organ Donor Expenses B-2.1 Emergency Air Ambulance B-2.3 Protect Benefit B-2.4 Plus Benefit B-2.8 E Opinion for Critical Il
+- **common** (df=93) — `ayush` — page 22
+  - snippet: ow mentioned benefits shall be extended for both planned and Emergency Medical Expenses outside India: B-1.1 Hospitalization Expenses B-1.4 AYUSH Treatment B-1.5 Pre-Hospitalization cover B-1.6 Post-Hospitalization cover B-1.7 Organ Donor Expenses B-2.1 Emergency Air Ambulance B-2.3 P
+- **common** (df=87) — `co-?pay(?:ment)?` — page 3
+  - snippet: le parts of the body. b) External Congenital Anomal y: Congenital anomaly which is in the visible and accessible parts of the body. Def. 8. Co-Payment means a cost sharing requirement under a health insurance policy that provides that the policyholder/insured will bear a specified percenta
+- **common** (df=72) — `consumable` — page 8
+  - snippet: ssociated Medical Expenses in addition to the difference in room rent. Such associated medical expenses do not include Cost of pharmacy and consumables, Cost of implants and medical devices and Cost of diagnostics. Proportionate deduction shall not be applicable to ‘ICU charges’. Def. 6. A
+- **common** (df=72) — `consumable` — page 11
+  - snippet: edicines and drugs prescribed in writing by Medical Practitioner. f. Intravenous fluids, blood transfusion, s urgical appliances, allowable consumables and/or enteral feedings. Operation theatre charges. g. The cost of prosthetics and other devices or equipment, if implanted internally dur
+- **common** (df=93) — `day care` — page 2
+  - snippet: g Clause If during the Policy Period the Insured Person is required to be Hospitalized for treatment of an Illness or Injury at a Hospital/ Day Care Centre or given treatment at Home, following Medical Advice of a duly qualified Medical Practitioner, the Company shall indemnify Medical E
+- **common** (df=93) — `day care` — page 3
+  - snippet: v. Maintaining daily records of the patients and making them accessible to the insurance company’s authorized representative. Def. 4. AYUSH Day Care Centre means and includes Co mmunity Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, Polyclinic or any such health ce
+- **common** (df=93) — `day care` — page 4
+  - snippet: rried out; iv. maintains daily records of patients and will make these accessible to the insurance company’s authorized personnel. Def. 11. Day Care Treatment means those medical treatment, and/or surgical procedure which is i) undertaken under General or Local Anaesthesia in a hospital/
+- **common** (df=93) — `day care` — page 5
+  - snippet: umbai – 400 059. UIN: my: Optima Secure - HDFHLIP25041V062425 5 Def. 18. Hospital means any institution established for in-patient care and day care treatment of Illness and/or injuries and which has been registered as a hospital with the local aut horities under the Clinical Establishme
+- **common** (df=93) — `day care` — page 6
+  - snippet: y by an Insurer and TPA to provide medical services to an insured by a cashless facility. Def. 31. Non-Network Provider means any hospital, day care centre or other provider that is not part of the network.
+- **common** (df=93) — `day care` — page 7
+  - snippet: cility like a consultation room for diagnosis and treatment based on the advice of a Medical Practitioner. The Insured is not admitted as a day care patient or in-patient. Def. 34. Portability means a facility provided to the health insurance policyholders (including all members under fa
+- **common** (df=93) — `day care` — page 8
+  - snippet: tion of deformities and defects, diagnosis and cure of diseases, relief from suffering and prolongation of life, performed in a hospital or day care centre by a medical practitioner. Def. 43. Unproven/Experimental Treatment means the treatment including drug experimental therapy which is
+- **common** (df=93) — `day care` — page 11
+  - snippet: ation. ii. In patient Care Dental Treatment, necessitated due to disease or Injury iii. Plastic Surgery, necessitated due to Injury iv. All Day Care Treatments. Note i. Expenses of Hospitalization for a minimum period of 24 consecutive hours only shall be admissible. However, the time li
+- **common** (df=93) — `day care` — page 31
+  - snippet: ut not limited to Vitamins, minerals and organic substances unless prescribed by a Medical Practitioner as part of Hospitalization claim or Day Care procedure. Code – Excl14 l. Refractive Error: Code – Excl15: Expenses related to the treatment for correction of eye sight due to refractiv
+- **common** (df=68) — `deductible` — page 2
+  - snippet:  Policy Schedule. Provided further that, any amount payable under the Policy shall be subject to the terms of coverage (including Aggregate Deductible, Sub -limits), exclusions, conditions and definitions contained herein. The maximum, total and cumulative liability of the Company under an
+- **common** (df=68) — `deductible` — page 4
+  - snippet: alization of more than 24 hours, Treatment normally taken on an out-patient basis is not included in the scope of this definition. Def. 12. Deductible means a cost-sharing requirement under a health insurance policy that provides that the insurer will not be liable for a specified rupee am
+- **common** (df=68) — `deductible` — page 8
+  - snippet: rofession whether he / she is trained or not. Def. 2. Age means completed years on last birthday as on Commencement Date. Def. 3. Aggregate Deductible refers to a cost-sharing agreement between the Insurer and the Insured. The Insured agrees to bear a self -opted amount known as ‘Aggregate
+
+## policy-wording/hdfc-ergo/Optima_Secure_Global_Plus.pdf
+
+- **common** (df=23) — `2x|two times|twice|double` — page 10
+  - snippet:  consultation to an independent Medical Practitioner. Def. 26. Shared Accommodation OR Shared Room category means a room in a Hospital with double occupancy having shared washroom. This room does not include kitchen / dining area. Def. 27. Single Private Room means an air-conditioned r
+- **common** (df=55) — `air ambulance` — page 15
+  - snippet:  Leela Business Park, Andheri -Kurla Road, Andheri (East), Mumbai – 400 059. UIN: my: Optima Secure - HDFHLIP25041V062425 15 2.1. Emergency Air Ambulance The Company shall indemnify expenses incurred by the Insured Person during the Policy Year towards Ambulance transportation in an airplane 
+- **common** (df=55) — `air ambulance` — page 21
+  - snippet:  are diagnosed and incurred outside India : B-1.1 Hospitalization Expenses B-1.4 AYUSH Treatment B-1.7 Organ Donor Expenses B-2.1 Emergency Air Ambulance B-2.3 Protect Benefit B-2.4 Plus Benefit B-2.8 E Opinion for Critical Illness A. Global Health Cover (Emergency Treatments Only) is applica
+- **common** (df=55) — `air ambulance` — page 22
+  - snippet:  Expenses B-1.4 AYUSH Treatment B-1.5 Pre-Hospitalization cover B-1.6 Post-Hospitalization cover B-1.7 Organ Donor Expenses B-2.1 Emergency Air Ambulance B-2.3 Protect Benefit B-2.4 Plus Benefit B-2.8 E Opinion for Critical Illness Global Health Cover (Emergency & Planned Treatments) is appli
+- **common** (df=93) — `ayush` — page 2
+  - snippet: ss and includes relapse within 45 days from the date of last consultation with the Hospital/Nursing Home where treatment was taken. Def. 3. AYUSH Hospital is a healthcare facility wherein medical/surgical/para -surgical treatment procedures and interventions are carried out by AYUSH M
+- **common** (df=93) — `ayush` — page 3
+  - snippet: a Business Park, Andheri -Kurla Road, Andheri (East), Mumbai – 400 059. UIN: my: Optima Secure - HDFHLIP25041V062425 3 ii. Having qualified AYUSH Medical Practitioner in charge round the clock; iii. Having dedicated AYUSH therapy sections as requir ed and/or has equipped operation the
+- **common** (df=93) — `ayush` — page 8
+  - snippet: es, Cost of implants and medical devices and Cost of diagnostics. Proportionate deduction shall not be applicable to ‘ICU charges’. Def. 6. AYUSH Treatment refers to the medical and/or hospitalisation treatments given under Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homeopathy 
+- **common** (df=93) — `ayush` — page 12
+  - snippet: mitted to a Hospital. or, b. the Medically Necessary Treatment is taken at Home on account of non -availability of room in a Hospital. 1.4. AYUSH Treatment The Company shall indemnify the Medical Expenses incurred by the Insured Person only for Inpatient Care under Ayurveda, Yoga and 
+- **common** (df=93) — `ayush` — page 21
+  - snippet: fits shall be extended for Emergency Medical Expenses which are diagnosed and incurred outside India : B-1.1 Hospitalization Expenses B-1.4 AYUSH Treatment B-1.7 Organ Donor Expenses B-2.1 Emergency Air Ambulance B-2.3 Protect Benefit B-2.4 Plus Benefit B-2.8 E Opinion for Critical Il
+- **common** (df=93) — `ayush` — page 22
+  - snippet: ow mentioned benefits shall be extended for both planned and Emergency Medical Expenses outside India: B-1.1 Hospitalization Expenses B-1.4 AYUSH Treatment B-1.5 Pre-Hospitalization cover B-1.6 Post-Hospitalization cover B-1.7 Organ Donor Expenses B-2.1 Emergency Air Ambulance B-2.3 P
+- **common** (df=87) — `co-?pay(?:ment)?` — page 3
+  - snippet: le parts of the body. b) External Congenital Anomal y: Congenital anomaly which is in the visible and accessible parts of the body. Def. 8. Co-Payment means a cost sharing requirement under a health insurance policy that provides that the policyholder/insured will bear a specified percenta
+- **common** (df=72) — `consumable` — page 8
+  - snippet: ssociated Medical Expenses in addition to the difference in room rent. Such associated medical expenses do not include Cost of pharmacy and consumables, Cost of implants and medical devices and Cost of diagnostics. Proportionate deduction shall not be applicable to ‘ICU charges’. Def. 6. A
+- **common** (df=72) — `consumable` — page 11
+  - snippet: edicines and drugs prescribed in writing by Medical Practitioner. f. Intravenous fluids, blood transfusion, s urgical appliances, allowable consumables and/or enteral feedings. Operation theatre charges. g. The cost of prosthetics and other devices or equipment, if implanted internally dur
+- **common** (df=93) — `day care` — page 2
+  - snippet: g Clause If during the Policy Period the Insured Person is required to be Hospitalized for treatment of an Illness or Injury at a Hospital/ Day Care Centre or given treatment at Home, following Medical Advice of a duly qualified Medical Practitioner, the Company shall indemnify Medical E
+- **common** (df=93) — `day care` — page 3
+  - snippet: v. Maintaining daily records of the patients and making them accessible to the insurance company’s authorized representative. Def. 4. AYUSH Day Care Centre means and includes Co mmunity Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, Polyclinic or any such health ce
+- **common** (df=93) — `day care` — page 4
+  - snippet: rried out; iv. maintains daily records of patients and will make these accessible to the insurance company’s authorized personnel. Def. 11. Day Care Treatment means those medical treatment, and/or surgical procedure which is i) undertaken under General or Local Anaesthesia in a hospital/
+- **common** (df=93) — `day care` — page 5
+  - snippet: umbai – 400 059. UIN: my: Optima Secure - HDFHLIP25041V062425 5 Def. 18. Hospital means any institution established for in-patient care and day care treatment of Illness and/or injuries and which has been registered as a hospital with the local aut horities under the Clinical Establishme
+- **common** (df=93) — `day care` — page 6
+  - snippet: y by an Insurer and TPA to provide medical services to an insured by a cashless facility. Def. 31. Non-Network Provider means any hospital, day care centre or other provider that is not part of the network.
+- **common** (df=93) — `day care` — page 7
+  - snippet: cility like a consultation room for diagnosis and treatment based on the advice of a Medical Practitioner. The Insured is not admitted as a day care patient or in-patient. Def. 34. Portability means a facility provided to the health insurance policyholders (including all members under fa
+- **common** (df=93) — `day care` — page 8
+  - snippet: tion of deformities and defects, diagnosis and cure of diseases, relief from suffering and prolongation of life, performed in a hospital or day care centre by a medical practitioner. Def. 43. Unproven/Experimental Treatment means the treatment including drug experimental therapy which is
+- **common** (df=93) — `day care` — page 11
+  - snippet: ation. ii. In patient Care Dental Treatment, necessitated due to disease or Injury iii. Plastic Surgery, necessitated due to Injury iv. All Day Care Treatments. Note i. Expenses of Hospitalization for a minimum period of 24 consecutive hours only shall be admissible. However, the time li
+- **common** (df=93) — `day care` — page 31
+  - snippet: ut not limited to Vitamins, minerals and organic substances unless prescribed by a Medical Practitioner as part of Hospitalization claim or Day Care procedure. Code – Excl14 l. Refractive Error: Code – Excl15: Expenses related to the treatment for correction of eye sight due to refractiv
+- **common** (df=68) — `deductible` — page 2
+  - snippet:  Policy Schedule. Provided further that, any amount payable under the Policy shall be subject to the terms of coverage (including Aggregate Deductible, Sub -limits), exclusions, conditions and definitions contained herein. The maximum, total and cumulative liability of the Company under an
+- **common** (df=68) — `deductible` — page 4
+  - snippet: alization of more than 24 hours, Treatment normally taken on an out-patient basis is not included in the scope of this definition. Def. 12. Deductible means a cost-sharing requirement under a health insurance policy that provides that the insurer will not be liable for a specified rupee am
+- **common** (df=68) — `deductible` — page 8
+  - snippet: rofession whether he / she is trained or not. Def. 2. Age means completed years on last birthday as on Commencement Date. Def. 3. Aggregate Deductible refers to a cost-sharing agreement between the Insurer and the Insured. The Insured agrees to bear a self -opted amount known as ‘Aggregate
+
+## policy-wording/hdfc-ergo/Optima_Senior.pdf
+
+- **common** (df=93) — `ayush` — page 2
+  - snippet:  involuntary event caused by external and visible means (but does not include any Illness) which results in physical bodily injury. Def. 2. AYUSH Hospital is a healthcare facility wherein medical/surgical/para -surgical treatment procedures and interventions are carried out by AYUSH M
+- **common** (df=93) — `ayush` — page 6
+  - snippet: reatment "Allopathy" or "modern medicine" and includes Ayurveda, Unani, Sidha, Homeopathy, Yoga & Naturopathy in the Indian context Def. 4. AYUSH Treatment refers to the medical and/or hospitalisation treatments given under Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homeopathy 
+- **common** (df=93) — `ayush` — page 7
+  - snippet: ion to the waiting periods and general exclusions specified in section C-I,II,III 1 a. In-Patient Treatment Note pertaining specifically to AYUSH Treatments only: Medical expenses pertaining only to In- patient care AYUSH treatment are also covered under 'In-patient treatment' cover i
+- **common** (df=87) — `co-?pay(?:ment)?` — page 9
+  - snippet: licy after every CLAIM FREE Policy Year, provided that the Policy is renewed with Us and without a break. III. Special terms and conditions Co-Payment ‘Co-Payment’ means a cost-sharing requirement applicable under this Policy in which the Insured Person will bear the percentage of the admi
+- **common** (df=87) — `co-?pay(?:ment)?` — page 10
+  - snippet: fice: 6th Floor, Leela Business Park, Andheri -Kurla Road, Andheri (East), Mumbai – 400 059. UIN: Optima Senior - HDHHLIP21379V022021 10 A. Co-Payment applicable on accommodation Type Accommodation Type Co-Payment (Percentage to be borne by the Insured Person as a percentage of the admissi
+- **common** (df=72) — `consumable` — page 9
+  - snippet: heri (East), Mumbai – 400 059. UIN: Optima Senior - HDHHLIP21379V022021 9 operation theatre charges, surgical appliances, medicines, drugs, consumables, diagnostic procedures. Day Care Procedures means those medical treatment, and/or surgical procedure which is undertaken under General or 
+- **common** (df=93) — `day care` — page 2
+  - snippet: v. Maintaining daily records of the patients and making them accessible to the insurance company’s authorized representative. Def. 3. AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, Polyclinic or any such health cen
+- **common** (df=93) — `day care` — page 3
+  - snippet:  be available for the period for which no premium is received). Def. 6. Hospital means any institution established for in -patient care and day care treatment of illness and/or injuries and which has been registered as a hospital with the local authorities under the Clinical Establishmen
+- **common** (df=93) — `day care` — page 5
+  - snippet:  jointly by an insurer and a TPA to provide medical services to an insured by a cashless facility. Def. 12. Non Network means any Hospital, day care centre or other provider that is not part of the Network Def. 13. Portability means a facility provided to the health insurance policyholde
+- **common** (df=93) — `day care` — page 7
+  - snippet: s who suffer an Illness or Accident during the Policy Period which requires Hospitalisation on an Inpatient basis or treatment defined as a Day Care Procedure. Any claims made under these benefits will impact eligibility for a “No claim discount”. We will cover the Medical Expenses for: 
+- **common** (df=93) — `day care` — page 9
+  - snippet: Optima Senior - HDHHLIP21379V022021 9 operation theatre charges, surgical appliances, medicines, drugs, consumables, diagnostic procedures. Day Care Procedures means those medical treatment, and/or surgical procedure which is undertaken under General or Local Anaesthesia in a Hospital/da
+- **common** (df=93) — `day care` — page 10
+  - snippet: ability of Shared or any lower accommodation then only a 15% Co-Payment would be applicable. A Co-payment of 15% shall be applicable to all Day Care Procedures; no additional copay’s shall apply. B. Co-Payment applicable on specified Illnesses/surgeries If a claim has been admitted under
+- **common** (df=93) — `day care` — page 15
+  - snippet: ut not limited to Vitamins, minerals and organic substances unless prescribed by a Medical Practitioner as part of Hospitalization claim or day care procedure.Code – Excl14 ix) Expenses related to the treatment for correction of eye sight due to refractive error less than 7.5 dioptres.Co
+- **common** (df=74) — `domiciliary` — page 7
+  - snippet: pitalisation of more than 24 hours. 5. Out-Patient Treatment 6. Treatment at a healthcare facility NOT conforming to Hospital definition e. Domiciliary Treatment 1. Treatment of less than 3 days
+- **common** (df=74) — `domiciliary` — page 9
+  - snippet: taken by an Insured Person at an out-patient department of a Hospital, clinic or associated facility, provided that he is not Hospitalised. Domiciliary treatment means medical treatment for a period exceeding 3 days, for an Illness/disease/injury which in the normal course would require car
+- **common** (df=48) — `non[- ]medical` — page 13
+  - snippet: ation and accepted by Insurer. II. Standard General exclusions We will not pay for any claim in respect of any Insured Person arising from: Non-Medical Exclusions i) Breach of law: Code – Excl10 Expenses for treatment directly arising from or consequent upon any Insured Person committing or
+- **common** (df=48) — `non[- ]medical` — page 16
+  - snippet: ards miscarriage (unless due to an accident) and lawful medical termination of pregnancy during the Policy period. III. Specific Exclusions Non-Medical Exclusions i) War or similar situations: War or any act of war, invasion, act of foreign enemy, (whether war be declared or not or caused d
+- **common** (df=48) — `non[- ]medical` — page 31
+  - snippet: riod for the Pre -existing Conditions under Section C -I-iii) stands reduced to 12 months for all the Insured Persons. Annexure I – List of Non-Medical Expenses Sr. No. Item Sr. No. Item 1 BABY FOOD 35 OXYGEN CYLINDER (FOR USAGE OUTSIDE THE HOSPITAL) 2 BABY UTILITIES CHARGES 36 SPACER 3 BEA
+- **common** (df=71) — `organ donor` — page 8
+  - snippet: ffice: 6th Floor, Leela Business Park, Andheri -Kurla Road, Andheri (East), Mumbai – 400 059. UIN: Optima Senior - HDHHLIP21379V022021 8 f. Organ Donor: Medical treatment of the organ donor for harvesting the organ. 1. Claims which have NOT been admitted under 1a). 2. Claims not covered und
+- **common** (df=93) — `pre[- ]existing` — page 3
+  - snippet: ayment can be made to renew or continue a policy in force without loss of continuity benefits pertaining to waiting periods and coverage of pre-existing diseases. Coverage need not be available during the period for which no premium is re ceived. The grace period for payment of the premium f
+- **common** (df=93) — `pre[- ]existing` — page 5
+  - snippet: ver), to transfer the credits gained for, pre -existing diseases and specific waiting periods from one insurer to another insurer. Def. 14. Pre-existing Condition means any condition, ailment, injury, or disease: 1. that is/are diagnosed by a physician not more than 36 months prior to the da
+- **common** (df=93) — `pre[- ]existing` — page 12
+  - snippet: hers • Internal tumors, cysts, nodules, polyps, skin tumors • Surgery of varicose veins and varicose ulcers Important terms You should know Pre-existing Condition means any condition, ailment, injury or disease: 1. That is/are diagnosed by a physician within 36 months prior to the effective 
+- **common** (df=93) — `pre[- ]existing` — page 13
+  - snippet: ce: 6th Floor, Leela Business Park, Andheri -Kurla Road, Andheri (East), Mumbai – 400 059. UIN: Optima Senior - HDHHLIP21379V022021 13 iii) Pre-Existing Diseases: Code – Excl01 a) Expenses related to the treatment of a pre -existing disease (PED) and its direct complications shall be exclude
+- **common** (df=93) — `pre[- ]existing` — page 17
+  - snippet: . Exhaustive list of Non- Medical expenses attached and also available on www.hdfcergo.com xxix) Any Claim arising due to Non-disclosure of Pre-existing Illness or Material fact as sought to be declared on the Proposal form. xxx) Any non-allopathic treatment except to the extent of coverage 
+- **common** (df=93) — `pre[- ]existing` — page 31
+  - snippet: nesses/ Surgeries specified under Section C- I-ii) stands reduced to 12 months for all the Insured Persons. c) 36 months waiting period for Pre-existing Conditions i) The 36 months waiting period for the Pre -existing Conditions under Section C -I-iii) stands deleted for all the Insured Pers
+
+## policy-wording/hdfc-ergo/Optima_Super_Secure.pdf
+
+- **common** (df=23) — `2x|two times|twice|double` — page 10
+  - snippet:  consultation to an independent Medical Practitioner. Def. 26. Shared Accommodation OR Shared Room category means a room in a Hospital with double occupancy having shared washroom. This room does not include kitchen / dining area. Def. 27. Single Private Room means an air-conditioned r
+- **common** (df=55) — `air ambulance` — page 15
+  - snippet:  Leela Business Park, Andheri -Kurla Road, Andheri (East), Mumbai – 400 059. UIN: my: Optima Secure - HDFHLIP25041V062425 15 2.1. Emergency Air Ambulance The Company shall indemnify expenses incurred by the Insured Person during the Policy Year towards Ambulance transportation in an airplane 
+- **common** (df=55) — `air ambulance` — page 21
+  - snippet:  are diagnosed and incurred outside India : B-1.1 Hospitalization Expenses B-1.4 AYUSH Treatment B-1.7 Organ Donor Expenses B-2.1 Emergency Air Ambulance B-2.3 Protect Benefit B-2.4 Plus Benefit B-2.8 E Opinion for Critical Illness A. Global Health Cover (Emergency Treatments Only) is applica
+- **common** (df=55) — `air ambulance` — page 22
+  - snippet:  Expenses B-1.4 AYUSH Treatment B-1.5 Pre-Hospitalization cover B-1.6 Post-Hospitalization cover B-1.7 Organ Donor Expenses B-2.1 Emergency Air Ambulance B-2.3 Protect Benefit B-2.4 Plus Benefit B-2.8 E Opinion for Critical Illness Global Health Cover (Emergency & Planned Treatments) is appli
+- **common** (df=93) — `ayush` — page 2
+  - snippet: ss and includes relapse within 45 days from the date of last consultation with the Hospital/Nursing Home where treatment was taken. Def. 3. AYUSH Hospital is a healthcare facility wherein medical/surgical/para -surgical treatment procedures and interventions are carried out by AYUSH M
+- **common** (df=93) — `ayush` — page 3
+  - snippet: a Business Park, Andheri -Kurla Road, Andheri (East), Mumbai – 400 059. UIN: my: Optima Secure - HDFHLIP25041V062425 3 ii. Having qualified AYUSH Medical Practitioner in charge round the clock; iii. Having dedicated AYUSH therapy sections as requir ed and/or has equipped operation the
+- **common** (df=93) — `ayush` — page 8
+  - snippet: es, Cost of implants and medical devices and Cost of diagnostics. Proportionate deduction shall not be applicable to ‘ICU charges’. Def. 6. AYUSH Treatment refers to the medical and/or hospitalisation treatments given under Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homeopathy 
+- **common** (df=93) — `ayush` — page 12
+  - snippet: mitted to a Hospital. or, b. the Medically Necessary Treatment is taken at Home on account of non -availability of room in a Hospital. 1.4. AYUSH Treatment The Company shall indemnify the Medical Expenses incurred by the Insured Person only for Inpatient Care under Ayurveda, Yoga and 
+- **common** (df=93) — `ayush` — page 21
+  - snippet: fits shall be extended for Emergency Medical Expenses which are diagnosed and incurred outside India : B-1.1 Hospitalization Expenses B-1.4 AYUSH Treatment B-1.7 Organ Donor Expenses B-2.1 Emergency Air Ambulance B-2.3 Protect Benefit B-2.4 Plus Benefit B-2.8 E Opinion for Critical Il
+- **common** (df=93) — `ayush` — page 22
+  - snippet: ow mentioned benefits shall be extended for both planned and Emergency Medical Expenses outside India: B-1.1 Hospitalization Expenses B-1.4 AYUSH Treatment B-1.5 Pre-Hospitalization cover B-1.6 Post-Hospitalization cover B-1.7 Organ Donor Expenses B-2.1 Emergency Air Ambulance B-2.3 P
+- **common** (df=87) — `co-?pay(?:ment)?` — page 3
+  - snippet: le parts of the body. b) External Congenital Anomal y: Congenital anomaly which is in the visible and accessible parts of the body. Def. 8. Co-Payment means a cost sharing requirement under a health insurance policy that provides that the policyholder/insured will bear a specified percenta
+- **common** (df=72) — `consumable` — page 8
+  - snippet: ssociated Medical Expenses in addition to the difference in room rent. Such associated medical expenses do not include Cost of pharmacy and consumables, Cost of implants and medical devices and Cost of diagnostics. Proportionate deduction shall not be applicable to ‘ICU charges’. Def. 6. A
+- **common** (df=72) — `consumable` — page 11
+  - snippet: edicines and drugs prescribed in writing by Medical Practitioner. f. Intravenous fluids, blood transfusion, s urgical appliances, allowable consumables and/or enteral feedings. Operation theatre charges. g. The cost of prosthetics and other devices or equipment, if implanted internally dur
+- **common** (df=93) — `day care` — page 2
+  - snippet: g Clause If during the Policy Period the Insured Person is required to be Hospitalized for treatment of an Illness or Injury at a Hospital/ Day Care Centre or given treatment at Home, following Medical Advice of a duly qualified Medical Practitioner, the Company shall indemnify Medical E
+- **common** (df=93) — `day care` — page 3
+  - snippet: v. Maintaining daily records of the patients and making them accessible to the insurance company’s authorized representative. Def. 4. AYUSH Day Care Centre means and includes Co mmunity Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, Polyclinic or any such health ce
+- **common** (df=93) — `day care` — page 4
+  - snippet: rried out; iv. maintains daily records of patients and will make these accessible to the insurance company’s authorized personnel. Def. 11. Day Care Treatment means those medical treatment, and/or surgical procedure which is i) undertaken under General or Local Anaesthesia in a hospital/
+- **common** (df=93) — `day care` — page 5
+  - snippet: umbai – 400 059. UIN: my: Optima Secure - HDFHLIP25041V062425 5 Def. 18. Hospital means any institution established for in-patient care and day care treatment of Illness and/or injuries and which has been registered as a hospital with the local aut horities under the Clinical Establishme
+- **common** (df=93) — `day care` — page 6
+  - snippet: y by an Insurer and TPA to provide medical services to an insured by a cashless facility. Def. 31. Non-Network Provider means any hospital, day care centre or other provider that is not part of the network.
+- **common** (df=93) — `day care` — page 7
+  - snippet: cility like a consultation room for diagnosis and treatment based on the advice of a Medical Practitioner. The Insured is not admitted as a day care patient or in-patient. Def. 34. Portability means a facility provided to the health insurance policyholders (including all members under fa
+- **common** (df=93) — `day care` — page 8
+  - snippet: tion of deformities and defects, diagnosis and cure of diseases, relief from suffering and prolongation of life, performed in a hospital or day care centre by a medical practitioner. Def. 43. Unproven/Experimental Treatment means the treatment including drug experimental therapy which is
+- **common** (df=93) — `day care` — page 11
+  - snippet: ation. ii. In patient Care Dental Treatment, necessitated due to disease or Injury iii. Plastic Surgery, necessitated due to Injury iv. All Day Care Treatments. Note i. Expenses of Hospitalization for a minimum period of 24 consecutive hours only shall be admissible. However, the time li
+- **common** (df=93) — `day care` — page 31
+  - snippet: ut not limited to Vitamins, minerals and organic substances unless prescribed by a Medical Practitioner as part of Hospitalization claim or Day Care procedure. Code – Excl14 l. Refractive Error: Code – Excl15: Expenses related to the treatment for correction of eye sight due to refractiv
+- **common** (df=68) — `deductible` — page 2
+  - snippet:  Policy Schedule. Provided further that, any amount payable under the Policy shall be subject to the terms of coverage (including Aggregate Deductible, Sub -limits), exclusions, conditions and definitions contained herein. The maximum, total and cumulative liability of the Company under an
+- **common** (df=68) — `deductible` — page 4
+  - snippet: alization of more than 24 hours, Treatment normally taken on an out-patient basis is not included in the scope of this definition. Def. 12. Deductible means a cost-sharing requirement under a health insurance policy that provides that the insurer will not be liable for a specified rupee am
+- **common** (df=68) — `deductible` — page 8
+  - snippet: rofession whether he / she is trained or not. Def. 2. Age means completed years on last birthday as on Commencement Date. Def. 3. Aggregate Deductible refers to a cost-sharing agreement between the Insurer and the Insured. The Insured agrees to bear a self -opted amount known as ‘Aggregate
+
+## policy-wording/icici-lombard/Elevate.pdf
+
+- **common** (df=23) — `2x|two times|twice|double` — page 19
+  - snippet: rred by the Insured Person on Hospitalization of a “New born Baby” during each Policy Year of Policy Period subject to the maximum limit of twice of the maternity sum Insured. This limit is over and above the maternity sum insured. ii. This add on/ Optional Cover will be provided only
+- **common** (df=23) — `2x|two times|twice|double` — page 31
+  - snippet: e 3 Personal specialized geriatric telephonic assistance for clinical and non clinical medical needs Once/ 2 month Once/2 month Once/ month Twice/ month 4 Concierge Service: Access to our empaneled service provider(s)’online helpdesk for support with everyday chores including but not 
+- **common** (df=55) — `air ambulance` — page 23
+  - snippet: ering Consumer Price Index to be 6% ##Insured Person has enhanced his/her Annual Sum Insured from Rs. 10 Lakhs to Rs. 15 Lakhs 12. Domestic Air Ambulance Cover We will cover the expenses incurred on Air Ambulance services up to the Annual Sum Insured which are offered by a healthcare or an ai
+- **common** (df=93) — `ayush` — page 1
+  - snippet: t includes a relapse within 45 days from the date of last consultation with the Hospital/Nursing Home where treatment may have been taken. “Ayush Treatment” refers to the medical and / or hospitalization treatments given under ‘Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homeopa
+- **common** (df=93) — `ayush` — page 2
+  - snippet: ut; v. maintains daily records of patients and makes these accessible to the insurance company’s authorized personnel. Hospital includes an AYUSH Hospital as defined below: “AYUSH Hospital” An AYUSH Hospital is a healthcare facility wherein medical/surgical/para-surgical treatment pro
+- **common** (df=93) — `ayush` — page 7
+  - snippet: s Admission to Hospital provided that: i. We have accepted the claim under “Inpatient Treatment”/ Daycare Procedures/ Treatment/In- Patient AYUSH hospitalisation” in respect of the Insured Person. ii. We shall not be liable to make any payment in respect of any Pre-Hospitalization Med
+- **common** (df=93) — `ayush` — page 9
+  - snippet: enefit will be applied only if the claim is made and admissible under “Inpatient Treatment” or “Daycare Procedure/Treatment” or “In-patient AYUSH Hospitalization” vii. For individual policies, reset amount will be available on individual basis whereas for floater policies, it will be 
+- **common** (df=93) — `ayush` — page 16
+  - snippet: stigations/diagnostic tests/ laboratory tests /health supplements/ /medical equipment/homecare services/ virtual health & wellness sessions/AYUSH products/ Fitness & wellness related activities & products etc. at our empanelled diagnostic centres, drugs/medicines ordered from pharmaci
+- **common** (df=93) — `ayush` — page 19
+  - snippet: ut-patient consultations from a General Medical Practitioner or Specialist Medical Practitioner or Super Specialist Medical Practitioner or AYUSH Medical Practitioner in relation to any Illness contracted or Injury suffered by the Insured Person during the Policy Period subject to the
+- **common** (df=93) — `ayush` — page 21
+  - snippet: not be covered in any case. vii. The expenses covered under this benefit will be limited to In-patient Hospitalization Expenses, In patient AYUSH Hospitalization Daycare Procedures/ Treatment Expenses. viii. Expenses incurred for Pre and Post Hospitalization Medical Expenses, Out- pat
+- **common** (df=93) — `ayush` — page 29
+  - snippet: o Rs. 5 Lakhs. ii. We have accepted the claim under hospitalization expenses (In-patient Treatment/Daycare Procedures/ Treatment/In-patient AYUSH Hospitalization) in respect of Insured Person for the same Accident/ Illness. iii. The need for a Durable Medical Equipment has been prescr
+- **common** (df=93) — `ayush` — page 30
+  - snippet: ubject to the following conditions I. The treatment as applicable under In-patient Treatment or Daycare Procedures/Treatment or in- patient AYUSH Hospitalization is taken in a hospital listed under the “Preferred Provider Network” List available on Our website www.icicilombard.com and
+- **common** (df=93) — `ayush` — page 32
+  - snippet: cover the following Medical Expenses incurred in respect of Hospitalization of the Insured Person for 2 hours or more (minimum 24 hours for AYUSH treatment in a AYUSH Hospital) during the Policy Period, up to the Annual Sum Insured specified in the Policy Schedule: i. Room Rent charge
+- **common** (df=87) — `co-?pay(?:ment)?` — page 1
+  - snippet: al Congenital Anomaly - Congenital Anomaly which is in the visible and accessible parts of the body is called External Congenital Anomaly. “Co-Payment” shall mean a cost sharing requirement under a health Insurance policy that provides that the policy holder/insured will bear a specified p
+- **common** (df=87) — `co-?pay(?:ment)?` — page 16
+  - snippet: ed below shall be available to the Insured Person only if the additional premium has been received by Us (except Optional Cover - Voluntary co-payment, Optional Cover 20. Voluntary Deductible, Optional Cover - Network Advantage, and Optional Cover - NRI Advantage- Cover for NRI) and the Op
+- **common** (df=87) — `co-?pay(?:ment)?` — page 28
+  - snippet:  out by the Company’s Network Hospital that the %age un- der Insured event Sr. No. XI shall not exceed 50% of the Sum Insured 19. Voluntary Co-Payment The Insured Person has the choice to opt for Voluntary Co- payment and avail subsequent discount on premium. In case Voluntary Co-payment i
+- **common** (df=87) — `co-?pay(?:ment)?` — page 30
+  - snippet: pital listed under the “Preferred Provider Network” List available on Our website www.icicilombard.com and on Our Mobile Application. II. A co-payment of 20% will be applicable on each and every claim in case the treatment is taken in a hospital which is not included in the “Preferred Prov
+- **common** (df=72) — `consumable` — page 6
+  - snippet: ii. Qualified Nurse charges; iv. Medical Practitioner’s Fees; v. Anesthesia, blood, oxygen, operation theatre charges, medicines, drugs and consumables (other than those specified in the list of excluded expenses (non-medical) in Annexure II. vi. Surgical appliances and prosthetic devices 
+- **common** (df=72) — `consumable` — page 7
+  - snippet: n/anesthetist/ specialist within the same hospital where the insured person has been admitted and will not include the cost of pharmacy and consumables, cost of implants, medical devices and cost of diagnostics. b. Proportionate deductions are not applicable for ICU charges c. Proportionat
+- **common** (df=72) — `consumable` — page 10
+  - snippet: n/anesthetist/ specialist within the same hospital where the insured person has been admitted and will not include the cost of pharmacy and consumables, cost of implants, medical devices and cost of diagnostics. b. Proportionate deductions are not applicable for ICU charges c. Proportionat
+- **common** (df=72) — `consumable` — page 11
+  - snippet: n/anesthetist/ specialist within the same hospital where the insured person has been admitted and will not include the cost of pharmacy and consumables, cost of implants, medical devices and cost of diagnostics. b. Proportionate deductions are not applicable for ICU charges c. Proportionat
+- **common** (df=72) — `consumable` — page 20
+  - snippet: plication or removal of plaster cast Laryngoscopy Minor wound management #This includes only the cost of administration. The actual cost of consumables shall be covered under the pharmacy cover. However, the said cost will have to be borne by the Insured Person in case the Sum Insured unde
+- **common** (df=72) — `consumable` — page 30
+  - snippet: / anesthetist/ specialist within the same hospital where the insured person has been admitted and will not include the cost of pharmacy and consumables, cost of implants, medical devices and cost of diagnostics. b. Proportionate deductions are not applicable for ICU charges c. Proportionat
+- **common** (df=72) — `consumable` — page 32
+  - snippet: ii. Qualified Nurse charges; iv. Medical Practitioner’s Fees; v. Anesthesia, blood, oxygen, operation theatre charges, medicines, drugs and consumables (other than those specified in the list of excluded expenses (non-medical) in Annexure II. vi. Surgical appliances and prosthetic devices 
+- **common** (df=93) — `day care` — page 1
+  - snippet: t the policy holder/insured will bear a specified percentage of the admissible claims amount. A co-payment does not reduce the Sum Insured “Day care Centre” means any institution established for day care treatment of Illness and / or injuries or a medical setup within a hospital and whic
+
+## policy-wording/niva-bupa/Aspire_Diamond_Plus.pdf
+
+- **common** (df=55) — `air ambulance` — page 6
+  - snippet: l be mentioned in your Policy Schedule. 4.1.1. Expenses in reaching a Hospital a. Road Ambulance: We will pay you up to Base Sum Insured b. Air Ambulance: Only in case of Emergency. We will pay up to Base Sum Insured. Note: This will be paid only if claim for hospitalization is paid by us. Yo
+- **common** (df=93) — `ayush` — page 1
+  - snippet: INGS 1. Preamble You are a global citizen and the world is your playground. This Policy covers Allopathic treatments anywhere in the world. AYUSH treatments are covered in India only. After all, the world comes to us for the best of AYUSH. 2. Definitions It is IMPORTANT You should go 
+- **common** (df=93) — `ayush` — page 6
+  - snippet: ice. Choose the room you like, but choose judiciously to protect your Sum Insured. • Hospitalized for 2 hours or more (minimum 24 hours for AYUSH treatment in a AYUSH Hospital). This means that all Day Care Treatments will also be covered. Note: • We will NOT pay, even if you were Hos
+- **common** (df=87) — `co-?pay(?:ment)?` — page 2
+  - snippet: ible parts of the body. b. External Congenital Anomaly: Congenital Anomaly which is in the visible and accessible parts of the body. 2.1.7. Co-payment means a cost sharing requirement under a health insurance policy that provides that the policyholder/insured will bear a specified percenta
+- **common** (df=87) — `co-?pay(?:ment)?` — page 15
+  - snippet: d amount for each day’s hospitalization for maximum up to 30 days. One day is considered as 24 continuous hours of hospitalization. 4.1.16. Co-Payment: It is the percentage of admissible claim amount You would have to bear for every claim, Rest we will pay. Note: Co-payment will NOT apply 
+- **common** (df=87) — `co-?pay(?:ment)?` — page 16
+  - snippet: ured. Irrespective of the Room type you choose, ICU admission will always be paid up to Sum Insured. Note: You will have to bear additional co-payment IF treatment is taken in a higher room category than the eligible room category Category Available in the Base Plan Category Claimed for Co
+- **common** (df=87) — `co-?pay(?:ment)?` — page 18
+  - snippet: and 5% thereafter on each renewal from 2nd renewal onwards. Accumulate this amount and use the amount for OPD, pay for deductibles, pay for co-payment, Non-payable items and pay premiums. This optional benefit can be accessed through our Mobile App. Note: • Deductibles, Co-Payments can onl
+- **common** (df=87) — `co-?pay(?:ment)?` — page 19
+  - snippet: . Tele/Video Consultation on our network. 4.1.25.2. Physical Consultations with Specialists & General Practitioner on our network. Flat 20% co-payment in case of re-imbursement. 4.1.25.3. Prescribed Diagnostics on our Partner network. Flat 20% co-payment in case of re-imbursement. 4.1.25.4
+- **common** (df=87) — `co-?pay(?:ment)?` — page 26
+  - snippet:  from the date of enhancement of sums insured only on the enhanced limits. The policies would however be subject to all limits, sub limits, co-payments, deductibles as per the Policy contract. Note: the accrued credits gained under the ported and migrated policies shall be counted for the 
+- **common** (df=93) — `day care` — page 2
+  - snippet: Cumulative Bonus means any increase or addition in the Sum Insured granted by the insurer without an associated increase in premium. 2.1.9. Day Care Centre means any institution established for Day Care Treatment of Illness and/or Injuries or a medical set-up with a Hospital and which ha
+- **common** (df=93) — `day care` — page 3
+  - snippet: , if the premium is paid in instalments during the policy period. 2.1.16. Hospital means any institution established for Inpatient Care and Day Care Treatment of Illness and / or Injuries and which has been registered as a Hospital with the local authorities under the Clinical Establishm
+- **common** (df=93) — `day care` — page 4
+  - snippet:  2.1.30. New Born Baby means baby born during the policy period and is aged up to 90 days. 2.1.31. Non-Network Provider means any Hospital, Day Care Centre or other provider that is not part of the network. 2.1.32. Notification of Claim means the process of intimating a claim to the insu
+- **common** (df=93) — `day care` — page 5
+  - snippet: ction of deformities and defects, diagnosis and cure of diseases, relief from suffering or prolongation of life, performed in a Hospital or Day Care Centre by a Medical Practitioner. 2.1.42. Unproven/Experimental treatment means the treatment including drug experimental therapy which is 
+- **common** (df=93) — `day care` — page 6
+  - snippet: rotect your Sum Insured. • Hospitalized for 2 hours or more (minimum 24 hours for AYUSH treatment in a AYUSH Hospital). This means that all Day Care Treatments will also be covered. Note: • We will NOT pay, even if you were Hospitalized, if there was no treatment and only investigations 
+- **common** (df=68) — `deductible` — page 2
+  - snippet: talization of more than 24 hours. Treatment normally taken on an out patient basis is not included in the scope of this definition. 2.1.11. Deductible means a cost sharing requirement under a health insurance policy that provides that the insurer will not be liable for a specified rupee am
+- **common** (df=68) — `deductible` — page 15
+  - snippet: country. 4.1.13. e-consultation You can take unlimited e-consultations from our Partner Network. Optional Benefit: 4.1.14. Annual Aggregate Deductible This is an aggregate amount in a year that is incurred by you on Expenses in reaching a Hospital, Expenses during Hospitalization, Expenses
+- **common** (df=68) — `deductible` — page 18
+  - snippet:  paid on 1st Renewal and 5% thereafter on each renewal from 2nd renewal onwards. Accumulate this amount and use the amount for OPD, pay for deductibles, pay for co-payment, Non-payable items and pay premiums. This optional benefit can be accessed through our Mobile App. Note: • Deductibles
+- **common** (df=68) — `deductible` — page 26
+  - snippet: e of enhancement of sums insured only on the enhanced limits. The policies would however be subject to all limits, sub limits, co-payments, deductibles as per the Policy contract. Note: the accrued credits gained under the ported and migrated policies shall be counted for the purpose of ca
+- **common** (df=68) — `deductible` — page 29
+  - snippet: will condone such delay on merits (i.e. reasons beyond your control). • You MUST submit all claim related documents for expenses within the Deductible amount (if applicable). • We reserve the right to check and investigate the hospital / medical records from any doctor, Hospital, clinic, i
+- **common** (df=74) — `domiciliary` — page 2
+  - snippet: ated to teeth or structures supporting teeth including examinations, fillings (where appropriate), crowns, extractions and Surgery. 2.1.13. Domiciliary Hospitalization means medical treatment for an Illness/disease/Injury which in the normal course would require care and treatment at a Hosp
+- **common** (df=74) — `domiciliary` — page 7
+  - snippet: sion and 180 days after date of discharge IF these are related to the condition for which hospitalization claim is paid. 4.1.4. Home Care / Domiciliary Treatment Home Care Treatment means treatment availed by the insured person at home which in normal course would require care and treatment
+- **common** (df=74) — `domiciliary` — page 8
+  - snippet: der the following: Expenses in reaching a Hospital, Expenses during Hospitalization, Expenses before and after hospitalization, Home Care / Domiciliary Treatment, Organ Donor, Borderless. c. Expenses in reaching a Hospital and Expenses before and after hospitalization for the 1st ever hospi
+- **common** (df=74) — `domiciliary` — page 10
+  - snippet: der the following: Expenses in reaching a Hospital, Expenses during Hospitalization, Expenses before and after hospitalization, Home Care / Domiciliary Treatment, Organ Donor, Borderless, M- iracle. j) Claim paid under the M-iracle benefit will not impact Lock the Clock + 4.1.8. ReAssureX E
+- **common** (df=74) — `domiciliary` — page 15
+  - snippet: incurred by you on Expenses in reaching a Hospital, Expenses during Hospitalization, Expenses before and after hospitalization, Home Care / Domiciliary Treatment, Organ Donor, which we will NOT pay. Once the total expense exceeds this amount, balance we will pay. Note: a. Deductible amount 
+- **common** (df=71) — `organ donor` — page 7
+  - snippet: ike Pulse Oxymeter, BP monitors, Sugar monitors, automation device for peritoneal dialysis, CPAP, BiPAP, Crutches, wheel chair etc.) 4.1.5. Organ donor If you ever undergo an organ transplant, we will pay the hospitalization expenses of the donor for harvesting the organ, ONLY when your Hos
+
+## policy-wording/niva-bupa/Aspire_Gold_Plus.pdf
+
+- **common** (df=55) — `air ambulance` — page 6
+  - snippet: l be mentioned in your Policy Schedule. 4.1.1. Expenses in reaching a Hospital a. Road Ambulance: We will pay you up to Base Sum Insured b. Air Ambulance: Only in case of Emergency. We will pay up to Base Sum Insured. Note: This will be paid only if claim for hospitalization is paid by us. Yo
+- **common** (df=93) — `ayush` — page 1
+  - snippet: INGS 1. Preamble You are a global citizen and the world is your playground. This Policy covers Allopathic treatments anywhere in the world. AYUSH treatments are covered in India only. After all, the world comes to us for the best of AYUSH. 2. Definitions It is IMPORTANT You should go 
+- **common** (df=93) — `ayush` — page 6
+  - snippet: ice. Choose the room you like, but choose judiciously to protect your Sum Insured. • Hospitalized for 2 hours or more (minimum 24 hours for AYUSH treatment in a AYUSH Hospital). This means that all Day Care Treatments will also be covered. Note: • We will NOT pay, even if you were Hos
+- **common** (df=87) — `co-?pay(?:ment)?` — page 2
+  - snippet: ible parts of the body. b. External Congenital Anomaly: Congenital Anomaly which is in the visible and accessible parts of the body. 2.1.7. Co-payment means a cost sharing requirement under a health insurance policy that provides that the policyholder/insured will bear a specified percenta
+- **common** (df=87) — `co-?pay(?:ment)?` — page 15
+  - snippet: d amount for each day’s hospitalization for maximum up to 30 days. One day is considered as 24 continuous hours of hospitalization. 4.1.16. Co-Payment: It is the percentage of admissible claim amount You would have to bear for every claim, Rest we will pay. Note: Co-payment will NOT apply 
+- **common** (df=87) — `co-?pay(?:ment)?` — page 16
+  - snippet: ured. Irrespective of the Room type you choose, ICU admission will always be paid up to Sum Insured. Note: You will have to bear additional co-payment IF treatment is taken in a higher room category than the eligible room category Category Available in the Base Plan Category Claimed for Co
+- **common** (df=87) — `co-?pay(?:ment)?` — page 18
+  - snippet: and 5% thereafter on each renewal from 2nd renewal onwards. Accumulate this amount and use the amount for OPD, pay for deductibles, pay for co-payment, Non-payable items and pay premiums. This optional benefit can be accessed through our Mobile App. Note: • Deductibles, Co-Payments can onl
+- **common** (df=87) — `co-?pay(?:ment)?` — page 19
+  - snippet: . Tele/Video Consultation on our network. 4.1.25.2. Physical Consultations with Specialists & General Practitioner on our network. Flat 20% co-payment in case of re-imbursement. 4.1.25.3. Prescribed Diagnostics on our Partner network. Flat 20% co-payment in case of re-imbursement. 4.1.25.4
+- **common** (df=87) — `co-?pay(?:ment)?` — page 26
+  - snippet:  from the date of enhancement of sums insured only on the enhanced limits. The policies would however be subject to all limits, sub limits, co-payments, deductibles as per the Policy contract. Note: the accrued credits gained under the ported and migrated policies shall be counted for the 
+- **common** (df=93) — `day care` — page 2
+  - snippet: Cumulative Bonus means any increase or addition in the Sum Insured granted by the insurer without an associated increase in premium. 2.1.9. Day Care Centre means any institution established for Day Care Treatment of Illness and/or Injuries or a medical set-up with a Hospital and which ha
+- **common** (df=93) — `day care` — page 3
+  - snippet: , if the premium is paid in instalments during the policy period. 2.1.16. Hospital means any institution established for Inpatient Care and Day Care Treatment of Illness and / or Injuries and which has been registered as a Hospital with the local authorities under the Clinical Establishm
+- **common** (df=93) — `day care` — page 4
+  - snippet:  2.1.30. New Born Baby means baby born during the policy period and is aged up to 90 days. 2.1.31. Non-Network Provider means any Hospital, Day Care Centre or other provider that is not part of the network. 2.1.32. Notification of Claim means the process of intimating a claim to the insu
+- **common** (df=93) — `day care` — page 5
+  - snippet: ction of deformities and defects, diagnosis and cure of diseases, relief from suffering or prolongation of life, performed in a Hospital or Day Care Centre by a Medical Practitioner. 2.1.42. Unproven/Experimental treatment means the treatment including drug experimental therapy which is 
+- **common** (df=93) — `day care` — page 6
+  - snippet: rotect your Sum Insured. • Hospitalized for 2 hours or more (minimum 24 hours for AYUSH treatment in a AYUSH Hospital). This means that all Day Care Treatments will also be covered. Note: • We will NOT pay, even if you were Hospitalized, if there was no treatment and only investigations 
+- **common** (df=68) — `deductible` — page 2
+  - snippet: talization of more than 24 hours. Treatment normally taken on an out patient basis is not included in the scope of this definition. 2.1.11. Deductible means a cost sharing requirement under a health insurance policy that provides that the insurer will not be liable for a specified rupee am
+- **common** (df=68) — `deductible` — page 15
+  - snippet: country. 4.1.13. e-consultation You can take unlimited e-consultations from our Partner Network. Optional Benefit: 4.1.14. Annual Aggregate Deductible This is an aggregate amount in a year that is incurred by you on Expenses in reaching a Hospital, Expenses during Hospitalization, Expenses
+- **common** (df=68) — `deductible` — page 18
+  - snippet:  paid on 1st Renewal and 5% thereafter on each renewal from 2nd renewal onwards. Accumulate this amount and use the amount for OPD, pay for deductibles, pay for co-payment, Non-payable items and pay premiums. This optional benefit can be accessed through our Mobile App. Note: • Deductibles
+- **common** (df=68) — `deductible` — page 26
+  - snippet: e of enhancement of sums insured only on the enhanced limits. The policies would however be subject to all limits, sub limits, co-payments, deductibles as per the Policy contract. Note: the accrued credits gained under the ported and migrated policies shall be counted for the purpose of ca
+- **common** (df=68) — `deductible` — page 29
+  - snippet: will condone such delay on merits (i.e. reasons beyond your control). • You MUST submit all claim related documents for expenses within the Deductible amount (if applicable). • We reserve the right to check and investigate the hospital / medical records from any doctor, Hospital, clinic, i
+- **common** (df=74) — `domiciliary` — page 2
+  - snippet: ated to teeth or structures supporting teeth including examinations, fillings (where appropriate), crowns, extractions and Surgery. 2.1.13. Domiciliary Hospitalization means medical treatment for an Illness/disease/Injury which in the normal course would require care and treatment at a Hosp
+- **common** (df=74) — `domiciliary` — page 7
+  - snippet: sion and 180 days after date of discharge IF these are related to the condition for which hospitalization claim is paid. 4.1.4. Home Care / Domiciliary Treatment Home Care Treatment means treatment availed by the insured person at home which in normal course would require care and treatment
+- **common** (df=74) — `domiciliary` — page 8
+  - snippet: der the following: Expenses in reaching a Hospital, Expenses during Hospitalization, Expenses before and after hospitalization, Home Care / Domiciliary Treatment, Organ Donor, Borderless. c. Expenses in reaching a Hospital and Expenses before and after hospitalization for the 1st ever hospi
+- **common** (df=74) — `domiciliary` — page 10
+  - snippet: der the following: Expenses in reaching a Hospital, Expenses during Hospitalization, Expenses before and after hospitalization, Home Care / Domiciliary Treatment, Organ Donor, Borderless, M- iracle. j) Claim paid under the M-iracle benefit will not impact Lock the Clock + 4.1.8. ReAssureX E
+- **common** (df=74) — `domiciliary` — page 15
+  - snippet: incurred by you on Expenses in reaching a Hospital, Expenses during Hospitalization, Expenses before and after hospitalization, Home Care / Domiciliary Treatment, Organ Donor, which we will NOT pay. Once the total expense exceeds this amount, balance we will pay. Note: a. Deductible amount 
+- **common** (df=71) — `organ donor` — page 7
+  - snippet: ike Pulse Oxymeter, BP monitors, Sugar monitors, automation device for peritoneal dialysis, CPAP, BiPAP, Crutches, wheel chair etc.) 4.1.5. Organ donor If you ever undergo an organ transplant, we will pay the hospitalization expenses of the donor for harvesting the organ, ONLY when your Hos
+
+## policy-wording/niva-bupa/Aspire_Platinum_Plus.pdf
+
+- **common** (df=55) — `air ambulance` — page 6
+  - snippet: l be mentioned in your Policy Schedule. 4.1.1. Expenses in reaching a Hospital a. Road Ambulance: We will pay you up to Base Sum Insured b. Air Ambulance: Only in case of Emergency. We will pay up to Base Sum Insured. Note: This will be paid only if claim for hospitalization is paid by us. Yo
+- **common** (df=93) — `ayush` — page 1
+  - snippet: INGS 1. Preamble You are a global citizen and the world is your playground. This Policy covers Allopathic treatments anywhere in the world. AYUSH treatments are covered in India only. After all, the world comes to us for the best of AYUSH. 2. Definitions It is IMPORTANT You should go 
+- **common** (df=93) — `ayush` — page 6
+  - snippet: ice. Choose the room you like, but choose judiciously to protect your Sum Insured. • Hospitalized for 2 hours or more (minimum 24 hours for AYUSH treatment in a AYUSH Hospital). This means that all Day Care Treatments will also be covered. Note: • We will NOT pay, even if you were Hos
+- **common** (df=87) — `co-?pay(?:ment)?` — page 2
+  - snippet: ible parts of the body. b. External Congenital Anomaly: Congenital Anomaly which is in the visible and accessible parts of the body. 2.1.7. Co-payment means a cost sharing requirement under a health insurance policy that provides that the policyholder/insured will bear a specified percenta
+- **common** (df=87) — `co-?pay(?:ment)?` — page 15
+  - snippet: d amount for each day’s hospitalization for maximum up to 30 days. One day is considered as 24 continuous hours of hospitalization. 4.1.16. Co-Payment: It is the percentage of admissible claim amount You would have to bear for every claim, Rest we will pay. Note: Co-payment will NOT apply 
+- **common** (df=87) — `co-?pay(?:ment)?` — page 16
+  - snippet: ured. Irrespective of the Room type you choose, ICU admission will always be paid up to Sum Insured. Note: You will have to bear additional co-payment IF treatment is taken in a higher room category than the eligible room category Category Available in the Base Plan Category Claimed for Co
+- **common** (df=87) — `co-?pay(?:ment)?` — page 18
+  - snippet: and 5% thereafter on each renewal from 2nd renewal onwards. Accumulate this amount and use the amount for OPD, pay for deductibles, pay for co-payment, Non-payable items and pay premiums. This optional benefit can be accessed through our Mobile App. Note: • Deductibles, Co-Payments can onl
+- **common** (df=87) — `co-?pay(?:ment)?` — page 19
+  - snippet: . Tele/Video Consultation on our network. 4.1.25.2. Physical Consultations with Specialists & General Practitioner on our network. Flat 20% co-payment in case of re-imbursement. 4.1.25.3. Prescribed Diagnostics on our Partner network. Flat 20% co-payment in case of re-imbursement. 4.1.25.4
+- **common** (df=87) — `co-?pay(?:ment)?` — page 26
+  - snippet:  from the date of enhancement of sums insured only on the enhanced limits. The policies would however be subject to all limits, sub limits, co-payments, deductibles as per the Policy contract. Note: the accrued credits gained under the ported and migrated policies shall be counted for the 
+- **common** (df=93) — `day care` — page 2
+  - snippet: Cumulative Bonus means any increase or addition in the Sum Insured granted by the insurer without an associated increase in premium. 2.1.9. Day Care Centre means any institution established for Day Care Treatment of Illness and/or Injuries or a medical set-up with a Hospital and which ha
+- **common** (df=93) — `day care` — page 3
+  - snippet: , if the premium is paid in instalments during the policy period. 2.1.16. Hospital means any institution established for Inpatient Care and Day Care Treatment of Illness and / or Injuries and which has been registered as a Hospital with the local authorities under the Clinical Establishm
+- **common** (df=93) — `day care` — page 4
+  - snippet:  2.1.30. New Born Baby means baby born during the policy period and is aged up to 90 days. 2.1.31. Non-Network Provider means any Hospital, Day Care Centre or other provider that is not part of the network. 2.1.32. Notification of Claim means the process of intimating a claim to the insu
+- **common** (df=93) — `day care` — page 5
+  - snippet: ction of deformities and defects, diagnosis and cure of diseases, relief from suffering or prolongation of life, performed in a Hospital or Day Care Centre by a Medical Practitioner. 2.1.42. Unproven/Experimental treatment means the treatment including drug experimental therapy which is 
+- **common** (df=93) — `day care` — page 6
+  - snippet: rotect your Sum Insured. • Hospitalized for 2 hours or more (minimum 24 hours for AYUSH treatment in a AYUSH Hospital). This means that all Day Care Treatments will also be covered. Note: • We will NOT pay, even if you were Hospitalized, if there was no treatment and only investigations 
+- **common** (df=68) — `deductible` — page 2
+  - snippet: talization of more than 24 hours. Treatment normally taken on an out patient basis is not included in the scope of this definition. 2.1.11. Deductible means a cost sharing requirement under a health insurance policy that provides that the insurer will not be liable for a specified rupee am
+- **common** (df=68) — `deductible` — page 15
+  - snippet: country. 4.1.13. e-consultation You can take unlimited e-consultations from our Partner Network. Optional Benefit: 4.1.14. Annual Aggregate Deductible This is an aggregate amount in a year that is incurred by you on Expenses in reaching a Hospital, Expenses during Hospitalization, Expenses
+- **common** (df=68) — `deductible` — page 18
+  - snippet:  paid on 1st Renewal and 5% thereafter on each renewal from 2nd renewal onwards. Accumulate this amount and use the amount for OPD, pay for deductibles, pay for co-payment, Non-payable items and pay premiums. This optional benefit can be accessed through our Mobile App. Note: • Deductibles
+- **common** (df=68) — `deductible` — page 26
+  - snippet: e of enhancement of sums insured only on the enhanced limits. The policies would however be subject to all limits, sub limits, co-payments, deductibles as per the Policy contract. Note: the accrued credits gained under the ported and migrated policies shall be counted for the purpose of ca
+- **common** (df=68) — `deductible` — page 29
+  - snippet: will condone such delay on merits (i.e. reasons beyond your control). • You MUST submit all claim related documents for expenses within the Deductible amount (if applicable). • We reserve the right to check and investigate the hospital / medical records from any doctor, Hospital, clinic, i
+- **common** (df=74) — `domiciliary` — page 2
+  - snippet: ated to teeth or structures supporting teeth including examinations, fillings (where appropriate), crowns, extractions and Surgery. 2.1.13. Domiciliary Hospitalization means medical treatment for an Illness/disease/Injury which in the normal course would require care and treatment at a Hosp
+- **common** (df=74) — `domiciliary` — page 7
+  - snippet: sion and 180 days after date of discharge IF these are related to the condition for which hospitalization claim is paid. 4.1.4. Home Care / Domiciliary Treatment Home Care Treatment means treatment availed by the insured person at home which in normal course would require care and treatment
+- **common** (df=74) — `domiciliary` — page 8
+  - snippet: der the following: Expenses in reaching a Hospital, Expenses during Hospitalization, Expenses before and after hospitalization, Home Care / Domiciliary Treatment, Organ Donor, Borderless. c. Expenses in reaching a Hospital and Expenses before and after hospitalization for the 1st ever hospi
+- **common** (df=74) — `domiciliary` — page 10
+  - snippet: der the following: Expenses in reaching a Hospital, Expenses during Hospitalization, Expenses before and after hospitalization, Home Care / Domiciliary Treatment, Organ Donor, Borderless, M- iracle. j) Claim paid under the M-iracle benefit will not impact Lock the Clock + 4.1.8. ReAssureX E
+- **common** (df=74) — `domiciliary` — page 15
+  - snippet: incurred by you on Expenses in reaching a Hospital, Expenses during Hospitalization, Expenses before and after hospitalization, Home Care / Domiciliary Treatment, Organ Donor, which we will NOT pay. Once the total expense exceeds this amount, balance we will pay. Note: a. Deductible amount 
+- **common** (df=71) — `organ donor` — page 7
+  - snippet: ike Pulse Oxymeter, BP monitors, Sugar monitors, automation device for peritoneal dialysis, CPAP, BiPAP, Crutches, wheel chair etc.) 4.1.5. Organ donor If you ever undergo an organ transplant, we will pay the hospitalization expenses of the donor for harvesting the organ, ONLY when your Hos
+
+## policy-wording/niva-bupa/Aspire_Titanium_Plus.pdf
+
+- **common** (df=55) — `air ambulance` — page 6
+  - snippet: l be mentioned in your Policy Schedule. 4.1.1. Expenses in reaching a Hospital a. Road Ambulance: We will pay you up to Base Sum Insured b. Air Ambulance: Only in case of Emergency. We will pay up to Base Sum Insured. Note: This will be paid only if claim for hospitalization is paid by us. Yo
+- **common** (df=93) — `ayush` — page 1
+  - snippet: INGS 1. Preamble You are a global citizen and the world is your playground. This Policy covers Allopathic treatments anywhere in the world. AYUSH treatments are covered in India only. After all, the world comes to us for the best of AYUSH. 2. Definitions It is IMPORTANT You should go 
+- **common** (df=93) — `ayush` — page 6
+  - snippet: ice. Choose the room you like, but choose judiciously to protect your Sum Insured. • Hospitalized for 2 hours or more (minimum 24 hours for AYUSH treatment in a AYUSH Hospital). This means that all Day Care Treatments will also be covered. Note: • We will NOT pay, even if you were Hos
+- **common** (df=87) — `co-?pay(?:ment)?` — page 2
+  - snippet: ible parts of the body. b. External Congenital Anomaly: Congenital Anomaly which is in the visible and accessible parts of the body. 2.1.7. Co-payment means a cost sharing requirement under a health insurance policy that provides that the policyholder/insured will bear a specified percenta
+- **common** (df=87) — `co-?pay(?:ment)?` — page 15
+  - snippet: d amount for each day’s hospitalization for maximum up to 30 days. One day is considered as 24 continuous hours of hospitalization. 4.1.16. Co-Payment: It is the percentage of admissible claim amount You would have to bear for every claim, Rest we will pay. Note: Co-payment will NOT apply 
+- **common** (df=87) — `co-?pay(?:ment)?` — page 16
+  - snippet: ured. Irrespective of the Room type you choose, ICU admission will always be paid up to Sum Insured. Note: You will have to bear additional co-payment IF treatment is taken in a higher room category than the eligible room category Category Available in the Base Plan Category Claimed for Co
+- **common** (df=87) — `co-?pay(?:ment)?` — page 18
+  - snippet: and 5% thereafter on each renewal from 2nd renewal onwards. Accumulate this amount and use the amount for OPD, pay for deductibles, pay for co-payment, Non-payable items and pay premiums. This optional benefit can be accessed through our Mobile App. Note: • Deductibles, Co-Payments can onl
+- **common** (df=87) — `co-?pay(?:ment)?` — page 19
+  - snippet: . Tele/Video Consultation on our network. 4.1.25.2. Physical Consultations with Specialists & General Practitioner on our network. Flat 20% co-payment in case of re-imbursement. 4.1.25.3. Prescribed Diagnostics on our Partner network. Flat 20% co-payment in case of re-imbursement. 4.1.25.4
+- **common** (df=87) — `co-?pay(?:ment)?` — page 26
+  - snippet:  from the date of enhancement of sums insured only on the enhanced limits. The policies would however be subject to all limits, sub limits, co-payments, deductibles as per the Policy contract. Note: the accrued credits gained under the ported and migrated policies shall be counted for the 
+- **common** (df=93) — `day care` — page 2
+  - snippet: Cumulative Bonus means any increase or addition in the Sum Insured granted by the insurer without an associated increase in premium. 2.1.9. Day Care Centre means any institution established for Day Care Treatment of Illness and/or Injuries or a medical set-up with a Hospital and which ha
+- **common** (df=93) — `day care` — page 3
+  - snippet: , if the premium is paid in instalments during the policy period. 2.1.16. Hospital means any institution established for Inpatient Care and Day Care Treatment of Illness and / or Injuries and which has been registered as a Hospital with the local authorities under the Clinical Establishm
+- **common** (df=93) — `day care` — page 4
+  - snippet:  2.1.30. New Born Baby means baby born during the policy period and is aged up to 90 days. 2.1.31. Non-Network Provider means any Hospital, Day Care Centre or other provider that is not part of the network. 2.1.32. Notification of Claim means the process of intimating a claim to the insu
+- **common** (df=93) — `day care` — page 5
+  - snippet: ction of deformities and defects, diagnosis and cure of diseases, relief from suffering or prolongation of life, performed in a Hospital or Day Care Centre by a Medical Practitioner. 2.1.42. Unproven/Experimental treatment means the treatment including drug experimental therapy which is 
+- **common** (df=93) — `day care` — page 6
+  - snippet: rotect your Sum Insured. • Hospitalized for 2 hours or more (minimum 24 hours for AYUSH treatment in a AYUSH Hospital). This means that all Day Care Treatments will also be covered. Note: • We will NOT pay, even if you were Hospitalized, if there was no treatment and only investigations 
+- **common** (df=68) — `deductible` — page 2
+  - snippet: talization of more than 24 hours. Treatment normally taken on an out patient basis is not included in the scope of this definition. 2.1.11. Deductible means a cost sharing requirement under a health insurance policy that provides that the insurer will not be liable for a specified rupee am
+- **common** (df=68) — `deductible` — page 15
+  - snippet: country. 4.1.13. e-consultation You can take unlimited e-consultations from our Partner Network. Optional Benefit: 4.1.14. Annual Aggregate Deductible This is an aggregate amount in a year that is incurred by you on Expenses in reaching a Hospital, Expenses during Hospitalization, Expenses
+- **common** (df=68) — `deductible` — page 18
+  - snippet:  paid on 1st Renewal and 5% thereafter on each renewal from 2nd renewal onwards. Accumulate this amount and use the amount for OPD, pay for deductibles, pay for co-payment, Non-payable items and pay premiums. This optional benefit can be accessed through our Mobile App. Note: • Deductibles
+- **common** (df=68) — `deductible` — page 26
+  - snippet: e of enhancement of sums insured only on the enhanced limits. The policies would however be subject to all limits, sub limits, co-payments, deductibles as per the Policy contract. Note: the accrued credits gained under the ported and migrated policies shall be counted for the purpose of ca
+- **common** (df=68) — `deductible` — page 29
+  - snippet: will condone such delay on merits (i.e. reasons beyond your control). • You MUST submit all claim related documents for expenses within the Deductible amount (if applicable). • We reserve the right to check and investigate the hospital / medical records from any doctor, Hospital, clinic, i
+- **common** (df=74) — `domiciliary` — page 2
+  - snippet: ated to teeth or structures supporting teeth including examinations, fillings (where appropriate), crowns, extractions and Surgery. 2.1.13. Domiciliary Hospitalization means medical treatment for an Illness/disease/Injury which in the normal course would require care and treatment at a Hosp
+- **common** (df=74) — `domiciliary` — page 7
+  - snippet: sion and 180 days after date of discharge IF these are related to the condition for which hospitalization claim is paid. 4.1.4. Home Care / Domiciliary Treatment Home Care Treatment means treatment availed by the insured person at home which in normal course would require care and treatment
+- **common** (df=74) — `domiciliary` — page 8
+  - snippet: der the following: Expenses in reaching a Hospital, Expenses during Hospitalization, Expenses before and after hospitalization, Home Care / Domiciliary Treatment, Organ Donor, Borderless. c. Expenses in reaching a Hospital and Expenses before and after hospitalization for the 1st ever hospi
+- **common** (df=74) — `domiciliary` — page 10
+  - snippet: der the following: Expenses in reaching a Hospital, Expenses during Hospitalization, Expenses before and after hospitalization, Home Care / Domiciliary Treatment, Organ Donor, Borderless, M- iracle. j) Claim paid under the M-iracle benefit will not impact Lock the Clock + 4.1.8. ReAssureX E
+- **common** (df=74) — `domiciliary` — page 15
+  - snippet: incurred by you on Expenses in reaching a Hospital, Expenses during Hospitalization, Expenses before and after hospitalization, Home Care / Domiciliary Treatment, Organ Donor, which we will NOT pay. Once the total expense exceeds this amount, balance we will pay. Note: a. Deductible amount 
+- **common** (df=71) — `organ donor` — page 7
+  - snippet: ike Pulse Oxymeter, BP monitors, Sugar monitors, automation device for peritoneal dialysis, CPAP, BiPAP, Crutches, wheel chair etc.) 4.1.5. Organ donor If you ever undergo an organ transplant, we will pay the hospitalization expenses of the donor for harvesting the organ, ONLY when your Hos
+
+## policy-wording/niva-bupa/GoActive.pdf
+
+- **common** (df=93) — `ayush` — page 1
+  - snippet:  Definitions I. Ac cident or Accidental means a sudden, unforeseen and involuntary event caused by external, visible and violent means. II. AYUSH T reatment refers to the medical and / or hospitalization treatments given under Ayurveda, Yoga and Naturopathy, Unani, Sidha and Homeopath
+- **common** (df=93) — `ayush` — page 14
+  - snippet: during the Policy Period on treatment taken under Ayurveda, Unani, Sidha and Homeopathy. Conditions: a. T he treatment should be taken in a AYUSH Hospital: b. Pr e-hospitalization Medical Expenses incurred for up to 90 days prior to the commencement of treatment and Post-hospitalizati
+- **common** (df=93) — `ayush` — page 25
+  - snippet: en t pupillary light reaction; or c. Absen t oculovestibular and corneal reflexes; or d. C omplete apnea. XIV. A YUSH Treatment Any form of AYUSH Treatments, except as mentioned under Section 3.15 XV. P ermanent Exclusion for Personal Accident Cover We shall not be liable to make any 
+- **common** (df=87) — `co-?pay(?:ment)?` — page 2
+  - snippet: er a health insurance policy that provides that the Policyholder/insured will bear a specified percentage of the admissible claim amount. A Co-payment does not reduce the Sum Insured. VIII. Da y Care Center means any institution established for Day Care Treatment of Illness and/or Injuries
+- **common** (df=87) — `co-?pay(?:ment)?` — page 21
+  - snippet: Product Name: GoActive, Product UIN: NBHHLIP26046V032526 It is further agreed that: a. T he provisions in Section 5.2 on Co-payment (if applicable) will apply to any amounts payable by Us in respect of a claim made by the Insured Person after the Deductible has been exha
+- **common** (df=87) — `co-?pay(?:ment)?` — page 28
+  - snippet:  from the date of enhancement of sums insured only on the enhanced limits. The policies would however be subject to all limits, sub limits, co-payments, deductibles as per the Policy contract. Note: the accrued credits gained under the ported and migrated policies shall be counted for the 
+- **common** (df=87) — `co-?pay(?:ment)?` — page 32
+  - snippet: pricing For the purpose of calculating premium, following zones are available: • Z one 1: All India coverage • Z one 2: All India coverage (Co-payment applicable for Mumbai, Delhi NCR, Kolkata & Gujarat State) If You select Zone 2, then 20% Co-payment will apply for Inpatient treatment in 
+- **common** (df=87) — `co-?pay(?:ment)?` — page 33
+  - snippet: st, We will issue the authorization letter specifying the sanctioned amount, any specific limitation on the claim, applicable Deductibles / Co-payment and non- payable items, if applicable, or reject the request for pre-authorisation specifying reasons for the rejection. In case of preauth
+- **common** (df=72) — `consumable` — page 9
+  - snippet: current event that lead to Hospitalization and not otherwise; vi. In travenous fluids, blood transfusion, injection administration charges, consumables and/or enteral feedings; vii. Oper ation theatre charges;
+- **common** (df=93) — `day care` — page 2
+  - snippet:  of the admissible claim amount. A Co-payment does not reduce the Sum Insured. VIII. Da y Care Center means any institution established for Day Care Treatment of Illness and/or Injuries or a medical set-up with a Hospital and which has been registered with the local authorities, wherever
+- **common** (df=93) — `day care` — page 3
+  - snippet: Product Name: GoActive, Product UIN: NBHHLIP26046V032526 XV. Hospital means an y institution established for Inpatient Care and Day Care Treatment of Illness and / or Injuries and which has been registered as a Hospital with the local authorities under the Clinical Establishm
+- **common** (df=93) — `day care` — page 4
+  - snippet: ss of intimating a claim to the insurer or TPA through any of the recognized modes of communication. XXIX. Non-Ne twork means any Hospital, Day Care Center or other provider that is not part of the network. XXX. Pr e-existing Disease means any condition, ailment, injury or disease a. T h
+- **common** (df=93) — `day care` — page 5
+  - snippet: ction of deformities and defects, diagnosis and cure of diseases, relief from suffering or prolongation of life, performed in a Hospital or Day Care Center by a Medical Practitioner. 2.2. Specific Definitions I. A ge means age last birthday. II. B ase Premium means the premium excluding 
+- **common** (df=93) — `day care` — page 10
+  - snippet:  during the Policy Period provided that: a. W e have accepted a claim for Inpatient Care under Section 3.1 (Inpatient Care) or Section 3.4 (Day Care Treatment) or Section 3.16 (Modern Treatments) or Domiciliary Hospitalization covered in Section 3.5 and Pre-hospitalization Medical Expens
+- **common** (df=93) — `day care` — page 11
+  - snippet: GoActive, Product UIN: NBHHLIP26046V032526 3.4. Da y Care Treatment We will indemnify the Medical Expenses incurred on the Insured Person’s Day Care Treatment during the Policy Period following an Illness or Injury provided that: : a. T he Day Care Treatment is Medically Necessary and fo
+- **common** (df=93) — `day care` — page 14
+  - snippet: 3.16. Modern T reatments: What is covered: a. T he following procedures / treatments will be covered either as Inpatient Care or as part of Day Care Treatment as per Section 3.1 and Section 3.4 respectively, in a Hospital : i. Ut erine Artery Embolization and HIFU (High intensity focused
+- **common** (df=93) — `day care` — page 23
+  - snippet: ut not limited to vitamins, minerals and organic substances unless prescribed by a Medical Practitioner as part of Hospitalization claim or Day Care procedure (Code- Excl14) XV. R efractive Error (Code-Excl15) Expenses related to the treatment for correction of eye sight due to refractiv
+- **common** (df=68) — `deductible` — page 2
+  - snippet: d for a specified number of days/hours in case of hospital cash policies which will apply before any benefits are payable by the insurer. A deductible does not reduce the Sum Insured. XI. Den tal Treatment means a treatment related to teeth or structures supporting teeth including examinat
+- **common** (df=68) — `deductible` — page 20
+  - snippet: se claim cost sharing options can be selected only at the time of issuance of the First Policy or at Renewal by You. 5.1. Annual A ggregate Deductible The Insured Person shall bear on his/her own account an amount equal to the Deductible specified in the Policy Schedule for all admissible 
+- **common** (df=68) — `deductible` — page 21
+  - snippet: ection 5.2 on Co-payment (if applicable) will apply to any amounts payable by Us in respect of a claim made by the Insured Person after the Deductible has been exhausted. b. Deduc tible will not apply to any claim under Section 3.8 (Health Checkup / Diagnostic Tests), Section 3.10 (Second 
+- **common** (df=68) — `deductible` — page 28
+  - snippet: e of enhancement of sums insured only on the enhanced limits. The policies would however be subject to all limits, sub limits, co-payments, deductibles as per the Policy contract. Note: the accrued credits gained under the ported and migrated policies shall be counted for the purpose of ca
+- **common** (df=68) — `deductible` — page 33
+  - snippet: sess the request, We will issue the authorization letter specifying the sanctioned amount, any specific limitation on the claim, applicable Deductibles / Co-payment and non- payable items, if applicable, or reject the request for pre-authorisation specifying reasons for the rejection. In c
+- **common** (df=74) — `domiciliary` — page 2
+  - snippet: related to teeth or structures supporting teeth including examinations, fillings (where appropriate), crowns, extractions and Surgery. XII. Domiciliary Hospitaliza tion means medical treatment for an Illness/disease/Injury which in the normal course would require care and treatment at a Hos
+- **common** (df=74) — `domiciliary` — page 10
+  - snippet: ed a claim for Inpatient Care under Section 3.1 (Inpatient Care) or Section 3.4 (Day Care Treatment) or Section 3.16 (Modern Treatments) or Domiciliary Hospitalization covered in Section 3.5 and Pre-hospitalization Medical Expenses are incurred for the same condition for which We have accep
+- **common** (df=74) — `domiciliary` — page 11
+  - snippet: enefit. d. Lis t of Day Care Treatments which are covered under the Policy are provided in Annexure VI. 3.5. Home Health C are Services and Domiciliary Hospitalization We will indemnify on a Reimbursement basis the Medical Expenses incurred for Domiciliary Hospitalization during the Policy 
+
+## policy-wording/niva-bupa/Health_Companion.pdf
+
+- **common** (df=55) — `air ambulance` — page 5
+  - snippet: ximum Rs.2,50,000 per hospitalization. Applies ONLY when Hospital admission claim is paid. IMPORTANT: You MUST use a registered ambulance / air ambulance provider. Air ambulance is available only for Emergency care. 3.2. Expenses during hospitalization (Hospital admission) a. We will pay the 
+- **common** (df=93) — `ayush` — page 1
+  - snippet: oduct UIN: NBHHLIP25040V082425 Health Companion Policy Document Variant 2022 and Variant 2023 1. Preamble This Policy covers Allopathic and AYUSH treatments taken in India ONLY. Expense incurred outside the policy period will NOT be covered. Unutilized Sum Insured will expire at the e
+- **common** (df=93) — `ayush` — page 5
+  - snippet: to treatment like food, beverage, toiletries and cosmetics) if you were: • Admitted for 2 hours or more NOTE: minimum 24 hours admission in AYUSH Hospital MUST for AYUSH treatment • You had Dialysis (Hemo / Peritoneal), Radiotherapy or Chemotherapy for cancer NOTE: - Admission in a ho
+- **common** (df=87) — `co-?pay(?:ment)?` — page 5
+  - snippet: or rooms of various categories, ICUs, CCUs, NICU etc or in Day care. - For Variant 2023 there is a room type capping up to Shared Room. 20% co-payment will apply in case of higher room category IMPORTANT: i. We will NOT pay, even if you were admitted, if there was no treatment and only inv
+- **common** (df=87) — `co-?pay(?:ment)?` — page 17
+  - snippet:  from the date of enhancement of sums insured only on the enhanced limits. The policies would however be subject to all limits, sub limits, co-payments, deductibles as per the Policy contract. Note: the accrued credits gained under the ported and migrated policies shall be counted for the 
+- **common** (df=93) — `day care` — page 2
+  - snippet: Product Name: Health Companion, Product UIN: NBHHLIP25040V082425 2.1.7. Day Care Centre means any institution established for Day Care Treatment of Illness and/or Injuries or a medical set-up with a Hospital and which ha
+- **common** (df=93) — `day care` — page 3
+  - snippet: ly by an insurer and TPA to provide medical services to an insured by a Cashless Facility. 2.1.25. Non-Network Provider means any Hospital, Day Care Centre or other provider that is not part of the network.
+- **common** (df=93) — `day care` — page 4
+  - snippet: cility like a consultation room for diagnosis and treatment based on the advice of a Medical Practitioner. The Insured is not admitted as a day care or In-patient. 2.1.27. Pre-existing Disease means any condition, ailment, injury or disease a. That is/are diagnosed by a physician not mor
+- **common** (df=93) — `day care` — page 5
+  - snippet: erapy for cancer NOTE: - Admission in a hospital happens in what is called wards or rooms of various categories, ICUs, CCUs, NICU etc or in Day care. - For Variant 2023 there is a room type capping up to Shared Room. 20% co-payment will apply in case of higher room category IMPORTANT: i.
+- **common** (df=68) — `deductible` — page 2
+  - snippet: italization of more than 24 hours. Treatment normally taken on an out patient basis is not included in the scope of this definition. 2.1.9. Deductible means a cost-sharing requirement under a health insurance policy that provides that the Insurer will not be liable for a specified rupee am
+- **common** (df=68) — `deductible` — page 9
+  - snippet: ccidental Death Sum Insured opted. Once Total Sum Insured is paid, the policy will lapse. Claim cost sharing option: 3.12. Annual Aggregate Deductible This is an aggregate amount in a year that is incurred by you on Hospital admission, which we will NOT pay. Once the total expense exceeds 
+- **common** (df=68) — `deductible` — page 17
+  - snippet: e of enhancement of sums insured only on the enhanced limits. The policies would however be subject to all limits, sub limits, co-payments, deductibles as per the Policy contract. Note: the accrued credits gained under the ported and migrated policies shall be counted for the purpose of ca
+- **common** (df=68) — `deductible` — page 20
+  - snippet: will condone such delay on merits (i.e. reasons beyond your control). • You MUST submit all claim related documents for expenses within the Deductible amount (if applicable). • We reserve the right to check and investigate the hospital / medical records from any doctor, Hospital, clinic, i
+- **common** (df=74) — `domiciliary` — page 2
+  - snippet: ated to teeth or structures supporting teeth including examinations, fillings (where appropriate), crowns, extractions and Surgery. 2.1.11. Domiciliary Hospitalization means medical treatment for an Illness/disease/Injury which in the normal course would require care and treatment at a Hosp
+- **common** (df=74) — `domiciliary` — page 7
+  - snippet: re done within 7 days 3.8. Vaccination for Animal Bite Vaccination required post an animal bite is covered up to Rs.5,000. 3.9. Home Care / Domiciliary Treatment Home Care Treatment means treatment availed by the insured person at home which in normal course would require care and treatment
+- **common** (df=71) — `organ donor` — page 5
+  - snippet: te of admission and 180 days after date of discharge IF these are related to the condition for which hospital admission claim is paid. 3.4. Organ donor If you ever undergo an organ transplant, we will pay the hospitalization expenses of the donor for harvesting the organ ONLY when your Hosp
+- **common** (df=93) — `pre[- ]existing` — page 2
+  - snippet: ayment can be made to renew or continue a policy in force without loss of continuity benefits pertaining to waiting periods and coverage of pre-existing diseases. Coverage need not be available during the period for which no premium is received. The grace period for payment of the premium fo
+- **common** (df=93) — `pre[- ]existing` — page 3
+  - snippet: means a facility provided to policyholders (including all members under family cover and group policies), to transfer the credit gained for pre-existing conditions and specific waiting periods from one health insurance policy to another with the same insurer. 2.1.24. Network Provider means H
+- **common** (df=93) — `pre[- ]existing` — page 4
+  - snippet: for diagnosis and treatment based on the advice of a Medical Practitioner. The Insured is not admitted as a day care or In-patient. 2.1.27. Pre-existing Disease means any condition, ailment, injury or disease a. That is/are diagnosed by a physician not more than 36 months prior to the date o
+- **common** (df=93) — `pre[- ]existing` — page 9
+  - snippet: le will NOT apply to Health Check-up, Vaccination for Animal Bite and Hospital Cash benefits. 4. Exclusions 4.1. Standard Exclusions 4.1.1. Pre-existing Diseases (Code–Excl01): a. Expenses related to the treatment of a Pre-existing Disease (PED) and its direct complications shall be excluded
+- **common** (df=93) — `pre[- ]existing` — page 17
+  - snippet: ce policies) can transfer the credits gained to the extent of the Sum Insured, No Claim Bonus, Specific Waiting periods, waiting period for pre-existing diseases, Moratorium period etc. in the previous policy to the migrated policy. The insurer may underwrite the proposal in case of migratio
+- **common** (df=93) — `pre[- ]existing` — page 18
+  - snippet: r is entitled to transfer the credits gained to the extent of the Sum Insured, No Claim Bonus, specific waiting periods, waiting period for pre-existing disease, Moratorium period etc. from the Existing Insurer to the Acquiring Insurer in the previous policy. 5.1.14. Disclosure of Informatio
+- **common** (df=93) — `pre[- ]existing` — page 19
+  - snippet: Addition of Insured Persons on Renewal: If a new member is added in the Policy, either by way of endorsement or at the time of Renewal, the Pre-existing Disease clause, exclusions, loading (if any) and Waiting Periods will be applicable afresh for that member. c. Changes to Sum Insured on Re
+- **common** (df=62) — `restore|recharge|reload|refill|reinstat` — page 6
+  - snippet: fter 5 claim free years) 5 Lac 5 Lac g. The sub-limits applicable to any benefit will remain the same and shall NOT increase with NCB. 3.6. Refill We will add an amount equal to the base sum insured, after the first claim is paid. This will be added even at partial utilization of base 
+- **common** (df=62) — `restore|recharge|reload|refill|reinstat` — page 21
+  - snippet: pplicable). Our maximum, total and cumulative liability for all claims during the Policy Year will be Sum Insured and amount provided under Refill benefit. The sequence of utilization of Sum Insured will be as below: i. Base Sum Insured followed by; ii. Accumulated No Claim Bonus (if a
+
+## policy-wording/niva-bupa/Health_Premia_Gold.pdf
+
+- **common** (df=23) — `2x|two times|twice|double` — page 15
+  - snippet: re Reasonable and Customary Charges. f. The Maternity Benefit may be claimed under the Policy in respect of eligible Insured Person(s) only twice during the lifetime of the Policy including any Renewal thereafter for the delivery of a child or Medically Necessary and lawful terminatio
+- **common** (df=93) — `ayush` — page 4
+  - snippet: fe, performed in a Hospital or Day Care Center by a Medical Practitioner. Specific definitions 2.37 Age means age as on last birthday. 2.38 AYUSH Treatment refers to the medical and / or hospitalization treatments given under Ayurveda, Yoga and Naturopathy, Unani, Sidha and Homeopathy
+- **common** (df=93) — `ayush` — page 5
+  - snippet: Product Name: Health Premia, Product UIN: MAXHLIP21176V022021 2.39 AYUSH Hospital: An AYUSH Hospital is a healthcare facility wherein medical/surgical/para surgical treatment procedures and interventions are carr
+- **common** (df=93) — `ayush` — page 13
+  - snippet: ha and Homeopathy. Conditions - The above coverage is subject to fulfilment of following conditions: a. The treatment should be taken in an AYUSH Hospital b. Pre-hospitalization Medical Expenses incurred for upto 90 days immediately preceding the Insured Person’s admission and Post-ho
+- **common** (df=93) — `ayush` — page 25
+  - snippet:  ayurvedic or homeopathic or unani or sidha or allopathic services only. b. For treatment taken under ayurveda, homeopathy, unani or sidha (AYUSH), expenses are covered only if taken in a government Hospital or in any institute recognized by government and/or accredited by Quality Cou
+- **common** (df=87) — `co-?pay(?:ment)?` — page 1
+  - snippet: essible parts of the body. b. External Congenital Anomaly: Congenital Anomaly which is in the visible and accessible parts of the body. 2.4 Co-payment means a cost-sharing requirement under a health insurance policy that provides that the Policyholder/insured will bear a specified percenta
+- **common** (df=87) — `co-?pay(?:ment)?` — page 27
+  - snippet: al Expenses, through Reimbursement basis only, up to the amount as specified in the Policy Schedule. ii. The Insured Person will bear a 20% Co-Payment and We will indemnify the remaining part of the amount that We assess as admissible in respect of a claim under this Benefit. d. Loss of Pa
+- **common** (df=72) — `consumable` — page 11
+  - snippet: nsured Event that led to the current Hospitalization; e. Intravenous fluids, blood transfusion, injection administration charges, allowable consumables and / or enteral feedings. f. Operation theatre charges; g. The cost of prosthetics and other devices or equipment, if implanted internall
+- **common** (df=72) — `consumable` — page 26
+  - snippet: vent that led to the current Hospitalization; (v) Intravenous fluids, blood transfusion, injection administration charges and /or allowable consumables;
+- **common** (df=93) — `day care` — page 1
+  - snippet: .5 Cumulative Bonus means any increase or addition in the Sum Insured granted by the insurer without an associated increase in premium. 2.6 Day Care Center means any institution established for Day Care Treatment of Illness and/or Injuries or a medical set-up with a Hospital and which ha
+- **common** (df=93) — `day care` — page 2
+  - snippet:  are carried out; d. maintains daily records of patients and will make these accessible to the insurance company’s authorized personnel 2.7 Day Care Treatment refers to medical treatment, and/or Surgical Procedure which is: a. undertaken under General or Local Anaesthesia in a Hospital/D
+- **common** (df=93) — `day care` — page 4
+  - snippet: y means baby born during the Policy Period and is aged between 1 day and 90 days, both days inclusive. 2.26 Non-Network means any Hospital, Day Care Center or other provider that is not part of the network. 2.27 Notification of Claim means the process of intimating a claim to the insurer
+- **common** (df=93) — `day care` — page 11
+  - snippet: e coverage is subject to fulfilment of following conditions: a. We have accepted a claim under Section 3.1 (Inpatient Care) or Section 3.4 (Day Care Treatment) or Section 3.5 (Domiciliary Hospitalization) or Section 3.25 (Modern Treatments). b. Pre-hospitalization Medical Expenses are in
+- **common** (df=93) — `day care` — page 12
+  - snippet: e coverage is subject to fulfilment of following conditions: a. We have accepted a claim under Section 3.1 (Inpatient Care) or Section 3.4 (Day Care Treatment) or Section 3.5 (Domiciliary Hospitalization) or Section 3.25 (Modern Treatments). b. Post-hospitalization Medical Expenses are i
+- **common** (df=93) — `day care` — page 17
+  - snippet: ollowing conditions: a. The re-fill amount shall be utilized only for subsequent claims under Section 3.1 (In-patient Care) or Section 3.4 (Day Care Treatment) or Section 3.6 (Alternative Treatments) or Section 3.7 (Living Organ Donor Transplant) or Section 3.25 (Modern Treatments) arisi
+- **common** (df=93) — `day care` — page 19
+  - snippet: P21176V022021 3.17 HIV / AIDS What is covered: We will indemnify the expenses incurred by the Insured Person for Hospitalization (including Day Care Treatment) due to condition caused by or associated with HIV / AIDS up to the limit as specified in Your Policy Schedule. Conditions - The 
+- **common** (df=93) — `day care` — page 25
+  - snippet: y. 3.25 Modern Treatments: What is covered: a. The following procedures / treatments will be covered either as Inpatient Care or as part of Day Care Treatment as per Section 3.1 and Section 3.4 respectively, in a Hospital : i. Uterine Artery Embolization and HIFU (High intensity focused 
+- **common** (df=68) — `deductible` — page 2
+  - snippet: ired a Hospitalization of more than 24 hours. Treatment normally taken on an OPD basis is not included in the scope of this definition. 2.8 Deductible means a cost-sharing requirement under a health insurance policy that provides that the Insurer will not be liable for a specified rupee am
+- **common** (df=74) — `domiciliary` — page 2
+  - snippet: related to teeth or structures supporting teeth including examinations, fillings (where appropriate), crowns, extractions and Surgery. 2.10 Domiciliary Hospitalization means medical treatment for an Illness/disease/Injury which in the normal course would require care and treatment at a Hosp
+- **common** (df=74) — `domiciliary` — page 11
+  - snippet: of following conditions: a. We have accepted a claim under Section 3.1 (Inpatient Care) or Section 3.4 (Day Care Treatment) or Section 3.5 (Domiciliary Hospitalization) or Section 3.25 (Modern Treatments). b. Pre-hospitalization Medical Expenses are incurred for the same condition for which
+- **common** (df=74) — `domiciliary` — page 12
+  - snippet: of following conditions: a. We have accepted a claim under Section 3.1 (Inpatient Care) or Section 3.4 (Day Care Treatment) or Section 3.5 (Domiciliary Hospitalization) or Section 3.25 (Modern Treatments). b. Post-hospitalization Medical Expenses are incurred for the same condition for whic
+- **common** (df=71) — `organ donor` — page 13
+  - snippet: y. c. Section 5.2.13 of the Permanent Exclusions (other than for Yoga) shall not apply to the extent this benefit is applicable. 3.7 Living Organ Donor Transplant What is covered: We will indemnify the Medical Expenses incurred for a living organ donor’s treatment as an Inpatient for the ha
+- **common** (df=71) — `organ donor` — page 17
+  - snippet: aims under Section 3.1 (In-patient Care) or Section 3.4 (Day Care Treatment) or Section 3.6 (Alternative Treatments) or Section 3.7 (Living Organ Donor Transplant) or Section 3.25 (Modern Treatments) arising in that Policy Year for any or all Insured Person(s). b. We will provide a re-fill 
+- **common** (df=71) — `organ donor` — page 24
+  - snippet: nses) and Section 3.3 (Post- hospitalization Medical Expenses) are not payable under this benefit. f. Any costs or expenses incurred by any organ donor in relation to harvesting of organs. g. Any OPD Treatment taken outside India.
+- **common** (df=93) — `pre[- ]existing` — page 2
+  - snippet: ayment can be made to renew or continue a policy in force without loss of continuity benefits pertaining to waiting periods and coverage of pre-existing diseases. Coverage need not be available during the period for which no premium is received. The grace period for payment of the premium fo
+
+## policy-wording/niva-bupa/Health_Premia_Platinum.pdf
+
+- **common** (df=23) — `2x|two times|twice|double` — page 15
+  - snippet: re Reasonable and Customary Charges. f. The Maternity Benefit may be claimed under the Policy in respect of eligible Insured Person(s) only twice during the lifetime of the Policy including any Renewal thereafter for the delivery of a child or Medically Necessary and lawful terminatio
+- **common** (df=93) — `ayush` — page 4
+  - snippet: fe, performed in a Hospital or Day Care Center by a Medical Practitioner. Specific definitions 2.37 Age means age as on last birthday. 2.38 AYUSH Treatment refers to the medical and / or hospitalization treatments given under Ayurveda, Yoga and Naturopathy, Unani, Sidha and Homeopathy
+- **common** (df=93) — `ayush` — page 5
+  - snippet: Product Name: Health Premia, Product UIN: MAXHLIP21176V022021 2.39 AYUSH Hospital: An AYUSH Hospital is a healthcare facility wherein medical/surgical/para surgical treatment procedures and interventions are carr
+- **common** (df=93) — `ayush` — page 13
+  - snippet: ha and Homeopathy. Conditions - The above coverage is subject to fulfilment of following conditions: a. The treatment should be taken in an AYUSH Hospital b. Pre-hospitalization Medical Expenses incurred for upto 90 days immediately preceding the Insured Person’s admission and Post-ho
+- **common** (df=93) — `ayush` — page 25
+  - snippet:  ayurvedic or homeopathic or unani or sidha or allopathic services only. b. For treatment taken under ayurveda, homeopathy, unani or sidha (AYUSH), expenses are covered only if taken in a government Hospital or in any institute recognized by government and/or accredited by Quality Cou
+- **common** (df=87) — `co-?pay(?:ment)?` — page 1
+  - snippet: essible parts of the body. b. External Congenital Anomaly: Congenital Anomaly which is in the visible and accessible parts of the body. 2.4 Co-payment means a cost-sharing requirement under a health insurance policy that provides that the Policyholder/insured will bear a specified percenta
+- **common** (df=87) — `co-?pay(?:ment)?` — page 27
+  - snippet: al Expenses, through Reimbursement basis only, up to the amount as specified in the Policy Schedule. ii. The Insured Person will bear a 20% Co-Payment and We will indemnify the remaining part of the amount that We assess as admissible in respect of a claim under this Benefit. d. Loss of Pa
+- **common** (df=72) — `consumable` — page 11
+  - snippet: nsured Event that led to the current Hospitalization; e. Intravenous fluids, blood transfusion, injection administration charges, allowable consumables and / or enteral feedings. f. Operation theatre charges; g. The cost of prosthetics and other devices or equipment, if implanted internall
+- **common** (df=72) — `consumable` — page 26
+  - snippet: vent that led to the current Hospitalization; (v) Intravenous fluids, blood transfusion, injection administration charges and /or allowable consumables;
+- **common** (df=93) — `day care` — page 1
+  - snippet: .5 Cumulative Bonus means any increase or addition in the Sum Insured granted by the insurer without an associated increase in premium. 2.6 Day Care Center means any institution established for Day Care Treatment of Illness and/or Injuries or a medical set-up with a Hospital and which ha
+- **common** (df=93) — `day care` — page 2
+  - snippet:  are carried out; d. maintains daily records of patients and will make these accessible to the insurance company’s authorized personnel 2.7 Day Care Treatment refers to medical treatment, and/or Surgical Procedure which is: a. undertaken under General or Local Anaesthesia in a Hospital/D
+- **common** (df=93) — `day care` — page 4
+  - snippet: y means baby born during the Policy Period and is aged between 1 day and 90 days, both days inclusive. 2.26 Non-Network means any Hospital, Day Care Center or other provider that is not part of the network. 2.27 Notification of Claim means the process of intimating a claim to the insurer
+- **common** (df=93) — `day care` — page 11
+  - snippet: e coverage is subject to fulfilment of following conditions: a. We have accepted a claim under Section 3.1 (Inpatient Care) or Section 3.4 (Day Care Treatment) or Section 3.5 (Domiciliary Hospitalization) or Section 3.25 (Modern Treatments). b. Pre-hospitalization Medical Expenses are in
+- **common** (df=93) — `day care` — page 12
+  - snippet: e coverage is subject to fulfilment of following conditions: a. We have accepted a claim under Section 3.1 (Inpatient Care) or Section 3.4 (Day Care Treatment) or Section 3.5 (Domiciliary Hospitalization) or Section 3.25 (Modern Treatments). b. Post-hospitalization Medical Expenses are i
+- **common** (df=93) — `day care` — page 17
+  - snippet: ollowing conditions: a. The re-fill amount shall be utilized only for subsequent claims under Section 3.1 (In-patient Care) or Section 3.4 (Day Care Treatment) or Section 3.6 (Alternative Treatments) or Section 3.7 (Living Organ Donor Transplant) or Section 3.25 (Modern Treatments) arisi
+- **common** (df=93) — `day care` — page 19
+  - snippet: P21176V022021 3.17 HIV / AIDS What is covered: We will indemnify the expenses incurred by the Insured Person for Hospitalization (including Day Care Treatment) due to condition caused by or associated with HIV / AIDS up to the limit as specified in Your Policy Schedule. Conditions - The 
+- **common** (df=93) — `day care` — page 25
+  - snippet: y. 3.25 Modern Treatments: What is covered: a. The following procedures / treatments will be covered either as Inpatient Care or as part of Day Care Treatment as per Section 3.1 and Section 3.4 respectively, in a Hospital : i. Uterine Artery Embolization and HIFU (High intensity focused 
+- **common** (df=68) — `deductible` — page 2
+  - snippet: ired a Hospitalization of more than 24 hours. Treatment normally taken on an OPD basis is not included in the scope of this definition. 2.8 Deductible means a cost-sharing requirement under a health insurance policy that provides that the Insurer will not be liable for a specified rupee am
+- **common** (df=74) — `domiciliary` — page 2
+  - snippet: related to teeth or structures supporting teeth including examinations, fillings (where appropriate), crowns, extractions and Surgery. 2.10 Domiciliary Hospitalization means medical treatment for an Illness/disease/Injury which in the normal course would require care and treatment at a Hosp
+- **common** (df=74) — `domiciliary` — page 11
+  - snippet: of following conditions: a. We have accepted a claim under Section 3.1 (Inpatient Care) or Section 3.4 (Day Care Treatment) or Section 3.5 (Domiciliary Hospitalization) or Section 3.25 (Modern Treatments). b. Pre-hospitalization Medical Expenses are incurred for the same condition for which
+- **common** (df=74) — `domiciliary` — page 12
+  - snippet: of following conditions: a. We have accepted a claim under Section 3.1 (Inpatient Care) or Section 3.4 (Day Care Treatment) or Section 3.5 (Domiciliary Hospitalization) or Section 3.25 (Modern Treatments). b. Post-hospitalization Medical Expenses are incurred for the same condition for whic
+- **common** (df=71) — `organ donor` — page 13
+  - snippet: y. c. Section 5.2.13 of the Permanent Exclusions (other than for Yoga) shall not apply to the extent this benefit is applicable. 3.7 Living Organ Donor Transplant What is covered: We will indemnify the Medical Expenses incurred for a living organ donor’s treatment as an Inpatient for the ha
+- **common** (df=71) — `organ donor` — page 17
+  - snippet: aims under Section 3.1 (In-patient Care) or Section 3.4 (Day Care Treatment) or Section 3.6 (Alternative Treatments) or Section 3.7 (Living Organ Donor Transplant) or Section 3.25 (Modern Treatments) arising in that Policy Year for any or all Insured Person(s). b. We will provide a re-fill 
+- **common** (df=71) — `organ donor` — page 24
+  - snippet: nses) and Section 3.3 (Post- hospitalization Medical Expenses) are not payable under this benefit. f. Any costs or expenses incurred by any organ donor in relation to harvesting of organs. g. Any OPD Treatment taken outside India.
+- **common** (df=93) — `pre[- ]existing` — page 2
+  - snippet: ayment can be made to renew or continue a policy in force without loss of continuity benefits pertaining to waiting periods and coverage of pre-existing diseases. Coverage need not be available during the period for which no premium is received. The grace period for payment of the premium fo
+
+## policy-wording/niva-bupa/Health_Premia_Silver.pdf
+
+- **common** (df=23) — `2x|two times|twice|double` — page 15
+  - snippet: re Reasonable and Customary Charges. f. The Maternity Benefit may be claimed under the Policy in respect of eligible Insured Person(s) only twice during the lifetime of the Policy including any Renewal thereafter for the delivery of a child or Medically Necessary and lawful terminatio
+- **common** (df=93) — `ayush` — page 4
+  - snippet: fe, performed in a Hospital or Day Care Center by a Medical Practitioner. Specific definitions 2.37 Age means age as on last birthday. 2.38 AYUSH Treatment refers to the medical and / or hospitalization treatments given under Ayurveda, Yoga and Naturopathy, Unani, Sidha and Homeopathy
+- **common** (df=93) — `ayush` — page 5
+  - snippet: Product Name: Health Premia, Product UIN: MAXHLIP21176V022021 2.39 AYUSH Hospital: An AYUSH Hospital is a healthcare facility wherein medical/surgical/para surgical treatment procedures and interventions are carr
+- **common** (df=93) — `ayush` — page 13
+  - snippet: ha and Homeopathy. Conditions - The above coverage is subject to fulfilment of following conditions: a. The treatment should be taken in an AYUSH Hospital b. Pre-hospitalization Medical Expenses incurred for upto 90 days immediately preceding the Insured Person’s admission and Post-ho
+- **common** (df=93) — `ayush` — page 25
+  - snippet:  ayurvedic or homeopathic or unani or sidha or allopathic services only. b. For treatment taken under ayurveda, homeopathy, unani or sidha (AYUSH), expenses are covered only if taken in a government Hospital or in any institute recognized by government and/or accredited by Quality Cou
+- **common** (df=87) — `co-?pay(?:ment)?` — page 1
+  - snippet: essible parts of the body. b. External Congenital Anomaly: Congenital Anomaly which is in the visible and accessible parts of the body. 2.4 Co-payment means a cost-sharing requirement under a health insurance policy that provides that the Policyholder/insured will bear a specified percenta
+- **common** (df=87) — `co-?pay(?:ment)?` — page 27
+  - snippet: al Expenses, through Reimbursement basis only, up to the amount as specified in the Policy Schedule. ii. The Insured Person will bear a 20% Co-Payment and We will indemnify the remaining part of the amount that We assess as admissible in respect of a claim under this Benefit. d. Loss of Pa
+- **common** (df=72) — `consumable` — page 11
+  - snippet: nsured Event that led to the current Hospitalization; e. Intravenous fluids, blood transfusion, injection administration charges, allowable consumables and / or enteral feedings. f. Operation theatre charges; g. The cost of prosthetics and other devices or equipment, if implanted internall
+- **common** (df=72) — `consumable` — page 26
+  - snippet: vent that led to the current Hospitalization; (v) Intravenous fluids, blood transfusion, injection administration charges and /or allowable consumables;
+- **common** (df=93) — `day care` — page 1
+  - snippet: .5 Cumulative Bonus means any increase or addition in the Sum Insured granted by the insurer without an associated increase in premium. 2.6 Day Care Center means any institution established for Day Care Treatment of Illness and/or Injuries or a medical set-up with a Hospital and which ha
+- **common** (df=93) — `day care` — page 2
+  - snippet:  are carried out; d. maintains daily records of patients and will make these accessible to the insurance company’s authorized personnel 2.7 Day Care Treatment refers to medical treatment, and/or Surgical Procedure which is: a. undertaken under General or Local Anaesthesia in a Hospital/D
+- **common** (df=93) — `day care` — page 4
+  - snippet: y means baby born during the Policy Period and is aged between 1 day and 90 days, both days inclusive. 2.26 Non-Network means any Hospital, Day Care Center or other provider that is not part of the network. 2.27 Notification of Claim means the process of intimating a claim to the insurer
+- **common** (df=93) — `day care` — page 11
+  - snippet: e coverage is subject to fulfilment of following conditions: a. We have accepted a claim under Section 3.1 (Inpatient Care) or Section 3.4 (Day Care Treatment) or Section 3.5 (Domiciliary Hospitalization) or Section 3.25 (Modern Treatments). b. Pre-hospitalization Medical Expenses are in
+- **common** (df=93) — `day care` — page 12
+  - snippet: e coverage is subject to fulfilment of following conditions: a. We have accepted a claim under Section 3.1 (Inpatient Care) or Section 3.4 (Day Care Treatment) or Section 3.5 (Domiciliary Hospitalization) or Section 3.25 (Modern Treatments). b. Post-hospitalization Medical Expenses are i
+- **common** (df=93) — `day care` — page 17
+  - snippet: ollowing conditions: a. The re-fill amount shall be utilized only for subsequent claims under Section 3.1 (In-patient Care) or Section 3.4 (Day Care Treatment) or Section 3.6 (Alternative Treatments) or Section 3.7 (Living Organ Donor Transplant) or Section 3.25 (Modern Treatments) arisi
+- **common** (df=93) — `day care` — page 19
+  - snippet: P21176V022021 3.17 HIV / AIDS What is covered: We will indemnify the expenses incurred by the Insured Person for Hospitalization (including Day Care Treatment) due to condition caused by or associated with HIV / AIDS up to the limit as specified in Your Policy Schedule. Conditions - The 
+- **common** (df=93) — `day care` — page 25
+  - snippet: y. 3.25 Modern Treatments: What is covered: a. The following procedures / treatments will be covered either as Inpatient Care or as part of Day Care Treatment as per Section 3.1 and Section 3.4 respectively, in a Hospital : i. Uterine Artery Embolization and HIFU (High intensity focused 
+- **common** (df=68) — `deductible` — page 2
+  - snippet: ired a Hospitalization of more than 24 hours. Treatment normally taken on an OPD basis is not included in the scope of this definition. 2.8 Deductible means a cost-sharing requirement under a health insurance policy that provides that the Insurer will not be liable for a specified rupee am
+- **common** (df=74) — `domiciliary` — page 2
+  - snippet: related to teeth or structures supporting teeth including examinations, fillings (where appropriate), crowns, extractions and Surgery. 2.10 Domiciliary Hospitalization means medical treatment for an Illness/disease/Injury which in the normal course would require care and treatment at a Hosp
+- **common** (df=74) — `domiciliary` — page 11
+  - snippet: of following conditions: a. We have accepted a claim under Section 3.1 (Inpatient Care) or Section 3.4 (Day Care Treatment) or Section 3.5 (Domiciliary Hospitalization) or Section 3.25 (Modern Treatments). b. Pre-hospitalization Medical Expenses are incurred for the same condition for which
+- **common** (df=74) — `domiciliary` — page 12
+  - snippet: of following conditions: a. We have accepted a claim under Section 3.1 (Inpatient Care) or Section 3.4 (Day Care Treatment) or Section 3.5 (Domiciliary Hospitalization) or Section 3.25 (Modern Treatments). b. Post-hospitalization Medical Expenses are incurred for the same condition for whic
+- **common** (df=71) — `organ donor` — page 13
+  - snippet: y. c. Section 5.2.13 of the Permanent Exclusions (other than for Yoga) shall not apply to the extent this benefit is applicable. 3.7 Living Organ Donor Transplant What is covered: We will indemnify the Medical Expenses incurred for a living organ donor’s treatment as an Inpatient for the ha
+- **common** (df=71) — `organ donor` — page 17
+  - snippet: aims under Section 3.1 (In-patient Care) or Section 3.4 (Day Care Treatment) or Section 3.6 (Alternative Treatments) or Section 3.7 (Living Organ Donor Transplant) or Section 3.25 (Modern Treatments) arising in that Policy Year for any or all Insured Person(s). b. We will provide a re-fill 
+- **common** (df=71) — `organ donor` — page 24
+  - snippet: nses) and Section 3.3 (Post- hospitalization Medical Expenses) are not payable under this benefit. f. Any costs or expenses incurred by any organ donor in relation to harvesting of organs. g. Any OPD Treatment taken outside India.
+- **common** (df=93) — `pre[- ]existing` — page 2
+  - snippet: ayment can be made to renew or continue a policy in force without loss of continuity benefits pertaining to waiting periods and coverage of pre-existing diseases. Coverage need not be available during the period for which no premium is received. The grace period for payment of the premium fo
+
+## policy-wording/niva-bupa/Health_Pulse_Classic.pdf
+
+- **common** (df=93) — `ayush` — page 1
+  - snippet: Definitions: I. Ac cident or Accidental means a sudden, unforeseen and involuntary event caused by external, visible and violent means. II. AYUSH T reatment refers to the medical and / or hospitalization treatments given under Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homeopat
+- **common** (df=93) — `ayush` — page 9
+  - snippet: iddha and Homeopathy. Conditions - The above coverage is subject to fulfilment of following conditions: a. The treatment should be taken in AYUSH Hospital: b. Pre-hospitalization Medical Expenses incurred for up to 30 days immediately preceding the Insured Person’s admission and Post-
+- **common** (df=93) — `ayush` — page 28
+  - snippet:  forms of stimulation; or b. Absent pupillary light reaction; or c. Absent oculovestibular and corneal reflexes; or d. Complete apnea. XIV. AYUSH Treatment Any form of AYUSH Treatments, except as mentioned under Section 3.6 XV. Permanent Exclusions for Personal Accident Cover We shall
+- **common** (df=87) — `co-?pay(?:ment)?` — page 2
+  - snippet: ssible parts of the body. b. External Congenital Anomaly: Congenital Anomaly which is in the visible and accessible parts of the body. VII. Co-payment means a cost-sharing requirement under a health insurance policy that provides that the Policyholder/insured will bear a specified percenta
+- **common** (df=87) — `co-?pay(?:ment)?` — page 24
+  - snippet: fulfilment of following conditions: a. Once opted, this optional benefit cannot be opted out at the time of Renewal. 5. Claim Cost Sharing: Co-payment (if applicable) as specified in the Policy Schedule shall be applied on the amount payable by Us. A 20% Co-payment will apply under Classic
+- **common** (df=87) — `co-?pay(?:ment)?` — page 33
+  - snippet:  from the date of enhancement of sums insured only on the enhanced limits. The policies would however be subject to all limits, sub limits, co-payments, deductibles as per the Policy contract. Note: the accrued credits gained under the ported and migrated policies shall be counted for the 
+- **common** (df=72) — `consumable` — page 7
+  - snippet: nsured Event that led to the current Hospitalization; v. Intravenous fluids, blood transfusion, injection administration charges, allowable consumables and/or enteral feedings; vi. Operation theatre charges; vii. The cost of prosthetics and other devices or equipment, if implanted internal
+- **common** (df=93) — `day care` — page 2
+  - snippet: II. Cumulative Bonus means any increase or addition in the Sum Insured granted by the insurer without an associated increase in premium IX. Day Care Center means any institution established for Day Care Treatment of Illness and/or Injuries or a medical set-up with a Hospital and which ha
+- **common** (df=93) — `day care` — page 3
+  - snippet: Product Name: Health Pulse, Product UIN: NBHHLIP26044V042526 XV. Hospital means any institution established for Inpatient Care and Day Care Treatment of Illness and / or Injuries and which has been registered as a Hospital with the local authorities under the Clinical Establishm
+- **common** (df=93) — `day care` — page 4
+  - snippet: cess of intimating a claim to the insurer or TPA through any of the recognized modes of communication. XXX. Non-Network means any Hospital, Day Care Center or other provider that is not part of the network. XXXI. OPD Treatment means the one in which the Insured visits a clinic / Hospital
+- **common** (df=93) — `day care` — page 5
+  - snippet: ction of deformities and defects, diagnosis and cure of diseases, relief from suffering or prolongation of life, performed in a Hospital or Day Care Center by a Medical Practitioner. 2.2. Specific Definitions: I. Age means age last birthday. II. Base Sum Insured means the amount stated i
+- **common** (df=93) — `day care` — page 8
+  - snippet: e coverage is subject to fulfilment of following conditions: a. We have accepted a claim under Section 3.1 (Inpatient Care) or Section 3.4 (Day Care Treatment) or Section 3.5 (Domiciliary Hospitalization) or Section 3.15 (Modern Treatments) b. Pre-hospitalization Medical Expenses are inc
+- **common** (df=93) — `day care` — page 9
+  - snippet: Product Name: Health Pulse, Product UIN: NBHHLIP26044V042526 3.4. Day Care Treatment What is covered: We will indemnify the Medical Expenses incurred on the Insured Person’s Day Care Treatment during the Policy Per
+- **common** (df=93) — `day care` — page 13
+  - snippet:  Virus and Acquired Immune Deficiency Syndrome (Prevention and Control) Act, 2017 and amendments thereafter, for Hospitalization (including Day Care Treatment) due to condition caused by or associated with HIV / AIDS up to the limit as specified in Your Policy Schedule. Conditions - The 
+- **common** (df=93) — `day care` — page 14
+  - snippet: . 3.15. Modern Treatments: What is covered: a. The following procedures / treatments will be covered either as Inpatient Care or as part of Day Care Treatment as per Section 3.1 and Section 3.4 respectively, in a Hospital : i. Uterine Artery Embolization and HIFU (High intensity focused 
+- **common** (df=93) — `day care` — page 26
+  - snippet: ut not limited to vitamins, minerals and organic substances unless prescribed by a Medical Practitioner as part of Hospitalization claim or Day Care procedure (Code- Excl14) XV. Refractive Error (Code-Excl15) Expenses related to the treatment for correction of eye sight due to refractive
+- **common** (df=68) — `deductible` — page 33
+  - snippet: e of enhancement of sums insured only on the enhanced limits. The policies would however be subject to all limits, sub limits, co-payments, deductibles as per the Policy contract. Note: the accrued credits gained under the ported and migrated policies shall be counted for the purpose of ca
+- **common** (df=74) — `domiciliary` — page 2
+  - snippet: related to teeth or structures supporting teeth including examinations, fillings (where appropriate), crowns, extractions and Surgery. XII. Domiciliary Hospitalization means medical treatment for an Illness/disease/Injury which in the normal course would require care and treatment at a Hosp
+- **common** (df=74) — `domiciliary` — page 8
+  - snippet: of following conditions: a. We have accepted a claim under Section 3.1 (Inpatient Care) or Section 3.4 (Day Care Treatment) or Section 3.5 (Domiciliary Hospitalization) or Section 3.15 (Modern Treatments) b. Pre-hospitalization Medical Expenses are incurred for the same condition for which 
+- **common** (df=74) — `domiciliary` — page 9
+  - snippet:  with Sections 3.2 and 3.3 above. What is not covered: OPD Treatment and Diagnostic Services costs are not covered under this benefit. 3.5. Domiciliary Hospitalization What is Covered: We will indemnify on Reimbursement basis only, the Medical Expenses incurred for the Insured Person’s Domi
+- **common** (df=71) — `organ donor` — page 9
+  - snippet: . Section 6.2 (XIV) of the Permanent Exclusions (other than for Yoga) shall not apply to the extent this benefit is applicable. 3.7. Living Organ Donor Transplant What is covered: We will indemnify the Medical Expenses incurred for a living organ donor’s treatment as an Inpatient for the ha
+- **common** (df=71) — `organ donor` — page 10
+  - snippet: essary Treatment except for Bone Marrow Transplant. b. Pre-hospitalization Medical Expenses or Post-hospitalization Medical Expenses of the organ donor. c. Screening or any other Medical Expenses related to the organ donor, which are not incurred during the duration of Insured Person’s Hosp
+- **common** (df=93) — `pre[- ]existing` — page 2
+  - snippet: ayment can be made to renew or continue a policy in force without loss of continuity benefits pertaining to waiting periods and coverage of pre-existing diseases. Coverage need not be available during the period for which no premium is received. The grace period for payment of the premium fo
+- **common** (df=93) — `pre[- ]existing` — page 4
+  - snippet: means a facility provided to policyholders (including all members under family cover and group policies), to transfer the credit gained for pre-existing conditions and specific waiting periods from one health insurance policy to another with the same insurer. XXVIII. Network Provider means H
+- **common** (df=93) — `pre[- ]existing` — page 5
+  - snippet: can be renewed on mutual consent with a provision of Grace Period for treating the renewal continuous for the purpose of gaining credit for pre-existing diseases, time bound exclusions and for all Waiting Periods. XXXIX. Room Rent means the amount charged by a Hospital towards Room and Board
+
+## policy-wording/niva-bupa/Health_Pulse_Enhanced.pdf
+
+- **common** (df=93) — `ayush` — page 1
+  - snippet: Definitions: I. Ac cident or Accidental means a sudden, unforeseen and involuntary event caused by external, visible and violent means. II. AYUSH T reatment refers to the medical and / or hospitalization treatments given under Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homeopat
+- **common** (df=93) — `ayush` — page 9
+  - snippet: iddha and Homeopathy. Conditions - The above coverage is subject to fulfilment of following conditions: a. The treatment should be taken in AYUSH Hospital: b. Pre-hospitalization Medical Expenses incurred for up to 30 days immediately preceding the Insured Person’s admission and Post-
+- **common** (df=93) — `ayush` — page 28
+  - snippet:  forms of stimulation; or b. Absent pupillary light reaction; or c. Absent oculovestibular and corneal reflexes; or d. Complete apnea. XIV. AYUSH Treatment Any form of AYUSH Treatments, except as mentioned under Section 3.6 XV. Permanent Exclusions for Personal Accident Cover We shall
+- **common** (df=87) — `co-?pay(?:ment)?` — page 2
+  - snippet: ssible parts of the body. b. External Congenital Anomaly: Congenital Anomaly which is in the visible and accessible parts of the body. VII. Co-payment means a cost-sharing requirement under a health insurance policy that provides that the Policyholder/insured will bear a specified percenta
+- **common** (df=87) — `co-?pay(?:ment)?` — page 24
+  - snippet: fulfilment of following conditions: a. Once opted, this optional benefit cannot be opted out at the time of Renewal. 5. Claim Cost Sharing: Co-payment (if applicable) as specified in the Policy Schedule shall be applied on the amount payable by Us. A 20% Co-payment will apply under Classic
+- **common** (df=87) — `co-?pay(?:ment)?` — page 33
+  - snippet:  from the date of enhancement of sums insured only on the enhanced limits. The policies would however be subject to all limits, sub limits, co-payments, deductibles as per the Policy contract. Note: the accrued credits gained under the ported and migrated policies shall be counted for the 
+- **common** (df=72) — `consumable` — page 7
+  - snippet: nsured Event that led to the current Hospitalization; v. Intravenous fluids, blood transfusion, injection administration charges, allowable consumables and/or enteral feedings; vi. Operation theatre charges; vii. The cost of prosthetics and other devices or equipment, if implanted internal
+- **common** (df=93) — `day care` — page 2
+  - snippet: II. Cumulative Bonus means any increase or addition in the Sum Insured granted by the insurer without an associated increase in premium IX. Day Care Center means any institution established for Day Care Treatment of Illness and/or Injuries or a medical set-up with a Hospital and which ha
+- **common** (df=93) — `day care` — page 3
+  - snippet: Product Name: Health Pulse, Product UIN: NBHHLIP26044V042526 XV. Hospital means any institution established for Inpatient Care and Day Care Treatment of Illness and / or Injuries and which has been registered as a Hospital with the local authorities under the Clinical Establishm
+- **common** (df=93) — `day care` — page 4
+  - snippet: cess of intimating a claim to the insurer or TPA through any of the recognized modes of communication. XXX. Non-Network means any Hospital, Day Care Center or other provider that is not part of the network. XXXI. OPD Treatment means the one in which the Insured visits a clinic / Hospital
+- **common** (df=93) — `day care` — page 5
+  - snippet: ction of deformities and defects, diagnosis and cure of diseases, relief from suffering or prolongation of life, performed in a Hospital or Day Care Center by a Medical Practitioner. 2.2. Specific Definitions: I. Age means age last birthday. II. Base Sum Insured means the amount stated i
+- **common** (df=93) — `day care` — page 8
+  - snippet: e coverage is subject to fulfilment of following conditions: a. We have accepted a claim under Section 3.1 (Inpatient Care) or Section 3.4 (Day Care Treatment) or Section 3.5 (Domiciliary Hospitalization) or Section 3.15 (Modern Treatments) b. Pre-hospitalization Medical Expenses are inc
+- **common** (df=93) — `day care` — page 9
+  - snippet: Product Name: Health Pulse, Product UIN: NBHHLIP26044V042526 3.4. Day Care Treatment What is covered: We will indemnify the Medical Expenses incurred on the Insured Person’s Day Care Treatment during the Policy Per
+- **common** (df=93) — `day care` — page 13
+  - snippet:  Virus and Acquired Immune Deficiency Syndrome (Prevention and Control) Act, 2017 and amendments thereafter, for Hospitalization (including Day Care Treatment) due to condition caused by or associated with HIV / AIDS up to the limit as specified in Your Policy Schedule. Conditions - The 
+- **common** (df=93) — `day care` — page 14
+  - snippet: . 3.15. Modern Treatments: What is covered: a. The following procedures / treatments will be covered either as Inpatient Care or as part of Day Care Treatment as per Section 3.1 and Section 3.4 respectively, in a Hospital : i. Uterine Artery Embolization and HIFU (High intensity focused 
+- **common** (df=93) — `day care` — page 26
+  - snippet: ut not limited to vitamins, minerals and organic substances unless prescribed by a Medical Practitioner as part of Hospitalization claim or Day Care procedure (Code- Excl14) XV. Refractive Error (Code-Excl15) Expenses related to the treatment for correction of eye sight due to refractive
+- **common** (df=68) — `deductible` — page 33
+  - snippet: e of enhancement of sums insured only on the enhanced limits. The policies would however be subject to all limits, sub limits, co-payments, deductibles as per the Policy contract. Note: the accrued credits gained under the ported and migrated policies shall be counted for the purpose of ca
+- **common** (df=74) — `domiciliary` — page 2
+  - snippet: related to teeth or structures supporting teeth including examinations, fillings (where appropriate), crowns, extractions and Surgery. XII. Domiciliary Hospitalization means medical treatment for an Illness/disease/Injury which in the normal course would require care and treatment at a Hosp
+- **common** (df=74) — `domiciliary` — page 8
+  - snippet: of following conditions: a. We have accepted a claim under Section 3.1 (Inpatient Care) or Section 3.4 (Day Care Treatment) or Section 3.5 (Domiciliary Hospitalization) or Section 3.15 (Modern Treatments) b. Pre-hospitalization Medical Expenses are incurred for the same condition for which 
+- **common** (df=74) — `domiciliary` — page 9
+  - snippet:  with Sections 3.2 and 3.3 above. What is not covered: OPD Treatment and Diagnostic Services costs are not covered under this benefit. 3.5. Domiciliary Hospitalization What is Covered: We will indemnify on Reimbursement basis only, the Medical Expenses incurred for the Insured Person’s Domi
+- **common** (df=71) — `organ donor` — page 9
+  - snippet: . Section 6.2 (XIV) of the Permanent Exclusions (other than for Yoga) shall not apply to the extent this benefit is applicable. 3.7. Living Organ Donor Transplant What is covered: We will indemnify the Medical Expenses incurred for a living organ donor’s treatment as an Inpatient for the ha
+- **common** (df=71) — `organ donor` — page 10
+  - snippet: essary Treatment except for Bone Marrow Transplant. b. Pre-hospitalization Medical Expenses or Post-hospitalization Medical Expenses of the organ donor. c. Screening or any other Medical Expenses related to the organ donor, which are not incurred during the duration of Insured Person’s Hosp
+- **common** (df=93) — `pre[- ]existing` — page 2
+  - snippet: ayment can be made to renew or continue a policy in force without loss of continuity benefits pertaining to waiting periods and coverage of pre-existing diseases. Coverage need not be available during the period for which no premium is received. The grace period for payment of the premium fo
+- **common** (df=93) — `pre[- ]existing` — page 4
+  - snippet: means a facility provided to policyholders (including all members under family cover and group policies), to transfer the credit gained for pre-existing conditions and specific waiting periods from one health insurance policy to another with the same insurer. XXVIII. Network Provider means H
+- **common** (df=93) — `pre[- ]existing` — page 5
+  - snippet: can be renewed on mutual consent with a provision of Grace Period for treating the renewal continuous for the purpose of gaining credit for pre-existing diseases, time bound exclusions and for all Waiting Periods. XXXIX. Room Rent means the amount charged by a Hospital towards Room and Board
+
+## policy-wording/niva-bupa/Health_Recharge_Super_TopUp.pdf
+
+- **common** (df=93) — `ayush` — page 1
+  - snippet: d Definitions I. Accident or Accidental means a sudden, unforeseen and involuntary event caused by external, visible and violent means. II. AYUSH Treatment refers to the medical and / or hospitalization treatments given under Ayurveda, Yoga and Naturopathy, Unani, Sidha and Homeopathy
+- **common** (df=93) — `ayush` — page 10
+  - snippet: e during the Policy Period on treatment taken under Ayurveda, Unani, Siddha and Homeopathy. Conditions: a. The treatment should be taken in AYUSH Hospital. An AYUSH Hospital is a healthcare facility wherein medical / surgical / para- surgical treatment procedures and interventions are
+- **common** (df=87) — `co-?pay(?:ment)?` — page 2
+  - snippet: sible parts of the body. b. External Congenital Anomaly: Congenital Anomaly which is in the visible and accessible parts of the body. VIII. Co-payment means a cost-sharing requirement under a health insurance policy that provides that the Policyholder/insured will bear a specified percenta
+- **common** (df=87) — `co-?pay(?:ment)?` — page 31
+  - snippet:  from the date of enhancement of sums insured only on the enhanced limits. The policies would however be subject to all limits, sub limits, co-payments, deductibles as per the Policy contract. Note: the accrued credits gained under the ported and migrated policies shall be counted for the 
+- **common** (df=72) — `consumable` — page 8
+  - snippet: vent that led to the current Hospitalization; vi. Intravenous fluids, blood transfusion, injection administration charges and /or allowable consumables; vii. Operation theatre charges; viii. The cost of prosthetics and other devices or equipment, if implanted internally during Surgery; ix.
+- **common** (df=93) — `day care` — page 2
+  - snippet: IX. Cumulative Bonus means any increase or addition in the Sum Insured granted by the insurer without an associated increase in premium. X. Day Care Center means any institution established for Day Care Treatment of Illness and/or Injuries or a medical set-up with a Hospital and which ha
+- **common** (df=93) — `day care` — page 3
+  - snippet: d, if the premium is paid in instalments during the policy period. XVIII. Hospital means any institution established for Inpatient Care and Day Care Treatment of Illness and / or Injuries and which has been registered as a Hospital with the local authorities under the Clinical Establishm
+- **common** (df=93) — `day care` — page 4
+  - snippet: ss of intimating a claim to the insurer or TPA through any of the recognized modes of communication. XXXII. Non-Network means any Hospital, Day Care Center or other provider that is not part of the network. XXXIII. OPD Treatment means the one in which the Insured visits a clinic / Hospit
+- **common** (df=93) — `day care` — page 5
+  - snippet: ction of deformities and defects, diagnosis and cure of diseases, relief from suffering or prolongation of life, performed in a Hospital or Day Care Center by a Medical Practitioner. 2.2. Specific Definitions I. Age means age as on last birthday. II. Base Sum Insured means the amount sta
+- **common** (df=93) — `day care` — page 8
+  - snippet: ses incurred in respect of an Illness or Injury. Conditions: a. We have accepted a claim under Section 3.1 (Inpatient Care) or Section 3.4 (Day Care Treatment) or Section 3.5 (Domiciliary Hospitalization) or Section 3.6 (Alternative Treatments). b. Pre-hospitalization Medical Expenses ar
+- **common** (df=93) — `day care` — page 9
+  - snippet: xpenses incurred following an Illness or Injury. Conditions: a. We have accepted a claim under Section 3.1 (Inpatient Care) or Section 3.4 (Day Care Treatment) or Section 3.5 (Domiciliary Hospitalization) or Section 3.6 (Alternative Treatments). b. Post-hospitalization Medical Expenses a
+- **common** (df=93) — `day care` — page 14
+  - snippet: in point (a). 3.13 HIV / AIDS What is covered: We will indemnify the expenses incurred by the Insured Person for Hospitalization (including Day Care Treatment) due to condition caused by or associated with HIV / AIDS. Conditions: a. The Hospitalization or Day Care Treatment is Medically 
+- **common** (df=93) — `day care` — page 27
+  - snippet: ut not limited to vitamins, minerals and organic substances unless prescribed by a Medical Practitioner as part of Hospitalization claim or Day Care procedure (Code-Excl14) XV. Refractive Error (Code-Excl15) Expenses related to the treatment for correction of eye sight due to refractive 
+- **common** (df=68) — `deductible` — page 2
+  - snippet: red a Hospitalization of more than 24 hours. Treatment normally taken on an OPD basis is not included in the scope of this definition. XII. Deductible means a cost-sharing requirement under a health insurance policy that provides that the Insurer will not be liable for a specified rupee am
+- **common** (df=68) — `deductible` — page 7
+  - snippet: ured and any sub-limits for the benefit as maybe specified in the Policy Schedule. You have to mandatorily choose an annual aggregate claim Deductible amount, options of these Deductible amounts are provided in the section ‘Product Benefit Table’. b. All the benefits (including optional be
+- **common** (df=68) — `deductible` — page 24
+  - snippet: e of issuance of the First Policy and cannot be altered at Renewal by You unless as specified below under Section 5.1. 5.1 Annual Aggregate Deductible The Insured Person shall bear on his/her own account an amount equal to the Deductible specified in the Policy Schedule for all admissible 
+- **common** (df=68) — `deductible` — page 31
+  - snippet: e of enhancement of sums insured only on the enhanced limits. The policies would however be subject to all limits, sub limits, co-payments, deductibles as per the Policy contract. Note: the accrued credits gained under the ported and migrated policies shall be counted for the purpose of ca
+- **common** (df=68) — `deductible` — page 35
+  - snippet: ocedure set out below shall be followed: a. We advise You to submit all claims related documents, including documents for claims within the Deductible amount, once the Deductible limit has been exhausted. b. We/Our Service Provider must be permitted to inspect the medical and Hospitalizati
+- **common** (df=74) — `domiciliary` — page 2
+  - snippet: d thereon shall be forfeited to the Company, in the event of misrepresentation, mis-description or non-disclosure of any material fact. XV. Domiciliary Hospitalization means medical treatment for an Illness/disease/Injury which in the normal course would require care and treatment at a Hosp
+- **common** (df=74) — `domiciliary` — page 8
+  - snippet: s or Injury. Conditions: a. We have accepted a claim under Section 3.1 (Inpatient Care) or Section 3.4 (Day Care Treatment) or Section 3.5 (Domiciliary Hospitalization) or Section 3.6 (Alternative Treatments). b. Pre-hospitalization Medical Expenses are incurred for the same condition for w
+- **common** (df=74) — `domiciliary` — page 9
+  - snippet: s or Injury. Conditions: a. We have accepted a claim under Section 3.1 (Inpatient Care) or Section 3.4 (Day Care Treatment) or Section 3.5 (Domiciliary Hospitalization) or Section 3.6 (Alternative Treatments). b. Post-hospitalization Medical Expenses are incurred for the same condition for 
+- **common** (df=71) — `organ donor` — page 10
+  - snippet: Section 3.13 (HIV / AIDS). What is not covered: a. Medical Expenses incurred on treatment taken under Yoga shall not be covered. 3.7 Living Organ Donor Transplant What is covered: We will indemnify the Medical Expenses incurred for a living organ donor’s treatment as an Inpatient for the ha
+- **common** (df=71) — `organ donor` — page 11
+  - snippet: essary Treatment except for Bone Marrow Transplant. b. Pre-hospitalization Medical Expenses or Post-hospitalization Medical Expenses of the organ donor. c. Screening or any other Medical Expenses related to the organ donor, which are not incurred during the duration of Insured Person’s Hosp
+- **common** (df=93) — `pre[- ]existing` — page 3
+  - snippet: ayment can be made to renew or continue a policy in force without loss of continuity benefits pertaining to waiting periods and coverage of pre-existing diseases. Coverage need not be available during the period for which no premium is received. The grace period for payment of the premium fo
+- **common** (df=93) — `pre[- ]existing` — page 4
+  - snippet: means a facility provided to policyholders (including all members under family cover and group policies), to transfer the credit gained for pre-existing conditions and specific waiting periods from one health insurance policy to another with the same insurer XXX. Network Provider means Hospi
+
+## policy-wording/niva-bupa/HeartBeat_Gold.pdf
+
+- **common** (df=23) — `2x|two times|twice|double` — page 11
+  - snippet: re Reasonable and Customary Charges. f. The Maternity Benefit may be claimed under the Policy in respect of eligible Insured Person(s) only twice during the lifetime of the Policy including any Renewal thereafter for the delivery of a child or Medically Necessary and lawful terminatio
+- **common** (df=93) — `ayush` — page 3
+  - snippet: fe, performed in a Hospital or Day Care Center by a Medical Practitioner. Specific Definitions 2.36 Age means age as on last birthday. 2.37 AYUSH Treatment refers to the medical and / or hospitalization treatments given under Ayurveda, Yoga and Naturopathy, Unani, Sidha and Homeopathy
+- **common** (df=93) — `ayush` — page 10
+  - snippet: , Siddha and Homeopathy. Conditions - The above coverage is subject to fulfilment of following conditions: The treatment should be taken in AYUSH Hospital. a. Pre-hospitalization Medical Expenses incurred for up to 60 days immediately preceding the Insured Person’s admission and Post-
+- **common** (df=93) — `ayush` — page 17
+  - snippet:  ayurvedic or homeopathic or unani or sidha or allopathic services only. b. For treatment taken under ayurveda, homeopathy, unani or sidha (AYUSH), expenses are covered only if taken in a governme nt Hospital or in any institute recognized by government and/or accredited by Quality Co
+- **common** (df=93) — `ayush` — page 31
+  - snippet: orms of stimulation; or b. Absent pupillary light reaction; or c. Absent oculovestibular and corneal reflexes; or d. Complete apnea. 5.2.12 AYUSH Treatment Any form of AYUSH Treatments, except as mentioned under Section 3.6 5.2.13 Permanent Exclusions for Personal Accident Cover We sh
+- **common** (df=87) — `co-?pay(?:ment)?` — page 1
+  - snippet: essible parts of the body. b. External Congenital Anomaly: Congenital Anomaly which is in the visible and accessible parts of the body. 2.4 Co-payment means a cost-sharing requirement under a health insurance policy that provides that the Policyholder/insured will bear a specified percenta
+- **common** (df=87) — `co-?pay(?:ment)?` — page 35
+  - snippet:  from the date of enhancement of sums insured only on the enhanced limits. The policies would however be subject to all limits, sub limits, co-payments, deductibles as per the Policy contract. Note: the accrued credits gained under the ported and migrated policies shall be counted for the 
+- **common** (df=72) — `consumable` — page 8
+  - snippet: nsured Event that led to the current Hospitalization; e. Intravenous fluids, blood transfusion, injection administration charges, allowable consumables, and/or enteral feedings; f. Operation theatre charges; g. The cost of prosthetics and other devices or equipment, if implanted internally
+- **common** (df=72) — `consumable` — page 18
+  - snippet: Event that led to the current Hospitalization; v. Intravenous fluids, blood transfusion, injection administration charges and /or allowable consumables; vi. Operation theatre charges; vii. The cost of prosthetics and other devices or equipment, if implanted internally during Surgery; viii.
+- **common** (df=93) — `day care` — page 1
+  - snippet: 5 Cumulative Bonus means any increase or additi on in the Sum Insured granted by the insurer without an associated increase in premium. 2.6 Day Care Center means any institution established for Day Care Treatment of Illness and/or Injuries or a medical set-up with a Hospital and which ha
+- **common** (df=93) — `day care` — page 2
+  - snippet: t Name: Heart Beat, Product UIN: NBHHLIP26048V092526 2.11 Hospital (within India) means any institutio n established for Inpatient Care and Day Care Treatment of Illness and / or Injuries and which has been registered as a Hospital with the local authorities under the Clinical Establishm
+- **common** (df=93) — `day care` — page 3
+  - snippet: Policy Document Product Name: Heart Beat, Product UIN: NBHHLIP26048V092526 2.25 Non-Network means any Hospital, Day Care Center or other provider that is not part of the network. 2.26 Notification of Claim means the process of intimating a claim to the insurer
+- **common** (df=93) — `day care` — page 8
+  - snippet: e coverage is subject to fulfilment of following conditions: a. We have accepted a claim under Section 3.1 (Inpatient Care) or Section 3.4 (Day Care Treatment) or Section 3.5 (Domiciliary Hospitalization) or Section 3.6 (Alternative Treatments) or Section 3.24 (Modern Treatments) b. Pre-
+- **common** (df=93) — `day care` — page 9
+  - snippet: ospitalization. e. Any claim admitted under this Section 3.2 shall reduce the Sum Insured fo r the Policy Year in which In -patient Care or Day Care Treatment or Domiciliary Hospitalization or Alternative Treatments or Modern Treatments claim has been incurred. Sub-limit: a. We will pay 
+- **common** (df=93) — `day care` — page 12
+  - snippet: lowing conditions: a. The re -fill amount shall be utilized only for subsequent claims under Section 3.1 (In -patient Care) or Section 3.4 (Day Care Treatment) or Section 3.5 (Domiciliary Hospitalization) or Section 3.6 (Alternative Treatments) or Section 3.7 (Living Organ Donor Transpla
+- **common** (df=93) — `day care` — page 13
+  - snippet: ned benefits. 3.15 HIV / AIDS What is covered: We will indemnify the expenses incurred by the Insured Person for Hospitalization (including Day Care Treatment) due to condi tion caused by or associated with HIV / AIDS up to the limit as specified in Your Policy Schedule. Conditions - The
+- **common** (df=93) — `day care` — page 19
+  - snippet: t UIN: NBHHLIP26048V092526 What is covered: a. The following procedures / treatments will be covered either as Inpatient Care or as part of Day Care Treatment as per Section 3.1 and Section 3.4 respectively, in a Hospital : i. Uterine Artery Embolization and HIFU (High intensity focused 
+- **common** (df=93) — `day care` — page 30
+  - snippet: t not limited to vit amins, minerals and organic substances unless prescribed by a Medical Practitioner as part of Hospitalization claim or Day Care procedure (Code- Excl14) 5.1.2.12 Refractive Error (Code-Excl15) Expenses related to the treatment for correction of eye sight due to refra
+- **common** (df=68) — `deductible` — page 1
+  - snippet: ired a Hospitalization of more than 24 hours. Treatment normally taken on an OPD basis is not included in the scope of this definition. 2.8 Deductible means a cost -sharing requirement under a health insurance policy that provides that the Insurer will not be liable for a specified rupee a
+- **common** (df=68) — `deductible` — page 35
+  - snippet: e of enhancement of sums insured only on the enhanced limits. The policies would however be subject to all limits, sub limits, co-payments, deductibles as per the Policy contract. Note: the accrued credits gained under the ported and migrated policies shall be counted for the purpose of ca
+- **common** (df=74) — `domiciliary` — page 1
+  - snippet: related to teeth or structures supporting teeth including examinations, fillings (where appropriate), crowns, extractions and Surgery. 2.10 Domiciliary Hospitalization means medical treatment for an Illness/disease/Injury which in the normal course would require care and treatment at a Hosp
+- **common** (df=74) — `domiciliary` — page 8
+  - snippet: of following conditions: a. We have accepted a claim under Section 3.1 (Inpatient Care) or Section 3.4 (Day Care Treatment) or Section 3.5 (Domiciliary Hospitalization) or Section 3.6 (Alternative Treatments) or Section 3.24 (Modern Treatments) b. Pre-hospitalization Medical Expenses are in
+- **common** (df=74) — `domiciliary` — page 9
+  - snippet:  claim admitted under this Section 3.2 shall reduce the Sum Insured fo r the Policy Year in which In -patient Care or Day Care Treatment or Domiciliary Hospitalization or Alternative Treatments or Modern Treatments claim has been incurred. Sub-limit: a. We will pay above mentioned Pre -hosp
+- **common** (df=74) — `domiciliary` — page 12
+  - snippet: mount shall be utilized only for subsequent claims under Section 3.1 (In -patient Care) or Section 3.4 (Day Care Treatment) or Section 3.5 (Domiciliary Hospitalization) or Section 3.6 (Alternative Treatments) or Section 3.7 (Living Organ Donor Transplant) or Section 3.24 (Modern Treatments)
+- **common** (df=71) — `organ donor` — page 10
+  - snippet: y. b. Section 5.2.12 of the Permanent Exclusions (other than for Yoga) shall not apply to the extent this benefit is applicable. 3.7 Living Organ Donor Transplant What is covered: We will indemnify the Medical Expenses incurred for a living organ donor’s treatment as an Inpat ient for the h
+
+## policy-wording/niva-bupa/HeartBeat_Platinum.pdf
+
+- **common** (df=23) — `2x|two times|twice|double` — page 11
+  - snippet: re Reasonable and Customary Charges. f. The Maternity Benefit may be claimed under the Policy in respect of eligible Insured Person(s) only twice during the lifetime of the Policy including any Renewal thereafter for the delivery of a child or Medically Necessary and lawful terminatio
+- **common** (df=93) — `ayush` — page 3
+  - snippet: fe, performed in a Hospital or Day Care Center by a Medical Practitioner. Specific Definitions 2.36 Age means age as on last birthday. 2.37 AYUSH Treatment refers to the medical and / or hospitalization treatments given under Ayurveda, Yoga and Naturopathy, Unani, Sidha and Homeopathy
+- **common** (df=93) — `ayush` — page 10
+  - snippet: , Siddha and Homeopathy. Conditions - The above coverage is subject to fulfilment of following conditions: The treatment should be taken in AYUSH Hospital. a. Pre-hospitalization Medical Expenses incurred for up to 60 days immediately preceding the Insured Person’s admission and Post-
+- **common** (df=93) — `ayush` — page 17
+  - snippet:  ayurvedic or homeopathic or unani or sidha or allopathic services only. b. For treatment taken under ayurveda, homeopathy, unani or sidha (AYUSH), expenses are covered only if taken in a governme nt Hospital or in any institute recognized by government and/or accredited by Quality Co
+- **common** (df=93) — `ayush` — page 31
+  - snippet: orms of stimulation; or b. Absent pupillary light reaction; or c. Absent oculovestibular and corneal reflexes; or d. Complete apnea. 5.2.12 AYUSH Treatment Any form of AYUSH Treatments, except as mentioned under Section 3.6 5.2.13 Permanent Exclusions for Personal Accident Cover We sh
+- **common** (df=87) — `co-?pay(?:ment)?` — page 1
+  - snippet: essible parts of the body. b. External Congenital Anomaly: Congenital Anomaly which is in the visible and accessible parts of the body. 2.4 Co-payment means a cost-sharing requirement under a health insurance policy that provides that the Policyholder/insured will bear a specified percenta
+- **common** (df=87) — `co-?pay(?:ment)?` — page 35
+  - snippet:  from the date of enhancement of sums insured only on the enhanced limits. The policies would however be subject to all limits, sub limits, co-payments, deductibles as per the Policy contract. Note: the accrued credits gained under the ported and migrated policies shall be counted for the 
+- **common** (df=72) — `consumable` — page 8
+  - snippet: nsured Event that led to the current Hospitalization; e. Intravenous fluids, blood transfusion, injection administration charges, allowable consumables, and/or enteral feedings; f. Operation theatre charges; g. The cost of prosthetics and other devices or equipment, if implanted internally
+- **common** (df=72) — `consumable` — page 18
+  - snippet: Event that led to the current Hospitalization; v. Intravenous fluids, blood transfusion, injection administration charges and /or allowable consumables; vi. Operation theatre charges; vii. The cost of prosthetics and other devices or equipment, if implanted internally during Surgery; viii.
+- **common** (df=93) — `day care` — page 1
+  - snippet: 5 Cumulative Bonus means any increase or additi on in the Sum Insured granted by the insurer without an associated increase in premium. 2.6 Day Care Center means any institution established for Day Care Treatment of Illness and/or Injuries or a medical set-up with a Hospital and which ha
+- **common** (df=93) — `day care` — page 2
+  - snippet: t Name: Heart Beat, Product UIN: NBHHLIP26048V092526 2.11 Hospital (within India) means any institutio n established for Inpatient Care and Day Care Treatment of Illness and / or Injuries and which has been registered as a Hospital with the local authorities under the Clinical Establishm
+- **common** (df=93) — `day care` — page 3
+  - snippet: Policy Document Product Name: Heart Beat, Product UIN: NBHHLIP26048V092526 2.25 Non-Network means any Hospital, Day Care Center or other provider that is not part of the network. 2.26 Notification of Claim means the process of intimating a claim to the insurer
+- **common** (df=93) — `day care` — page 8
+  - snippet: e coverage is subject to fulfilment of following conditions: a. We have accepted a claim under Section 3.1 (Inpatient Care) or Section 3.4 (Day Care Treatment) or Section 3.5 (Domiciliary Hospitalization) or Section 3.6 (Alternative Treatments) or Section 3.24 (Modern Treatments) b. Pre-
+- **common** (df=93) — `day care` — page 9
+  - snippet: ospitalization. e. Any claim admitted under this Section 3.2 shall reduce the Sum Insured fo r the Policy Year in which In -patient Care or Day Care Treatment or Domiciliary Hospitalization or Alternative Treatments or Modern Treatments claim has been incurred. Sub-limit: a. We will pay 
+- **common** (df=93) — `day care` — page 12
+  - snippet: lowing conditions: a. The re -fill amount shall be utilized only for subsequent claims under Section 3.1 (In -patient Care) or Section 3.4 (Day Care Treatment) or Section 3.5 (Domiciliary Hospitalization) or Section 3.6 (Alternative Treatments) or Section 3.7 (Living Organ Donor Transpla
+- **common** (df=93) — `day care` — page 13
+  - snippet: ned benefits. 3.15 HIV / AIDS What is covered: We will indemnify the expenses incurred by the Insured Person for Hospitalization (including Day Care Treatment) due to condi tion caused by or associated with HIV / AIDS up to the limit as specified in Your Policy Schedule. Conditions - The
+- **common** (df=93) — `day care` — page 19
+  - snippet: t UIN: NBHHLIP26048V092526 What is covered: a. The following procedures / treatments will be covered either as Inpatient Care or as part of Day Care Treatment as per Section 3.1 and Section 3.4 respectively, in a Hospital : i. Uterine Artery Embolization and HIFU (High intensity focused 
+- **common** (df=93) — `day care` — page 30
+  - snippet: t not limited to vit amins, minerals and organic substances unless prescribed by a Medical Practitioner as part of Hospitalization claim or Day Care procedure (Code- Excl14) 5.1.2.12 Refractive Error (Code-Excl15) Expenses related to the treatment for correction of eye sight due to refra
+- **common** (df=68) — `deductible` — page 1
+  - snippet: ired a Hospitalization of more than 24 hours. Treatment normally taken on an OPD basis is not included in the scope of this definition. 2.8 Deductible means a cost -sharing requirement under a health insurance policy that provides that the Insurer will not be liable for a specified rupee a
+- **common** (df=68) — `deductible` — page 35
+  - snippet: e of enhancement of sums insured only on the enhanced limits. The policies would however be subject to all limits, sub limits, co-payments, deductibles as per the Policy contract. Note: the accrued credits gained under the ported and migrated policies shall be counted for the purpose of ca
+- **common** (df=74) — `domiciliary` — page 1
+  - snippet: related to teeth or structures supporting teeth including examinations, fillings (where appropriate), crowns, extractions and Surgery. 2.10 Domiciliary Hospitalization means medical treatment for an Illness/disease/Injury which in the normal course would require care and treatment at a Hosp
+- **common** (df=74) — `domiciliary` — page 8
+  - snippet: of following conditions: a. We have accepted a claim under Section 3.1 (Inpatient Care) or Section 3.4 (Day Care Treatment) or Section 3.5 (Domiciliary Hospitalization) or Section 3.6 (Alternative Treatments) or Section 3.24 (Modern Treatments) b. Pre-hospitalization Medical Expenses are in
+- **common** (df=74) — `domiciliary` — page 9
+  - snippet:  claim admitted under this Section 3.2 shall reduce the Sum Insured fo r the Policy Year in which In -patient Care or Day Care Treatment or Domiciliary Hospitalization or Alternative Treatments or Modern Treatments claim has been incurred. Sub-limit: a. We will pay above mentioned Pre -hosp
+- **common** (df=74) — `domiciliary` — page 12
+  - snippet: mount shall be utilized only for subsequent claims under Section 3.1 (In -patient Care) or Section 3.4 (Day Care Treatment) or Section 3.5 (Domiciliary Hospitalization) or Section 3.6 (Alternative Treatments) or Section 3.7 (Living Organ Donor Transplant) or Section 3.24 (Modern Treatments)
+- **common** (df=71) — `organ donor` — page 10
+  - snippet: y. b. Section 5.2.12 of the Permanent Exclusions (other than for Yoga) shall not apply to the extent this benefit is applicable. 3.7 Living Organ Donor Transplant What is covered: We will indemnify the Medical Expenses incurred for a living organ donor’s treatment as an Inpat ient for the h
+
+## policy-wording/niva-bupa/ReAssure.pdf
+
+- **common** (df=55) — `air ambulance` — page 11
+  - snippet: ospitalization. What is not covered: The Insured Person’s transfer to any Hospital or diagnostic centre for evaluation purposes only. 4.10. Air Ambulance What is covered: We will indemnify the costs incurred for ambulance transportation in an airplane or helicopter, for Emergency life threate
+- **common** (df=55) — `air ambulance` — page 12
+  - snippet: cessary. d. The insured person is in India and the treatment is required in India only and not overseas in any condition whatsoever. e. The air ambulance provider is registered in India. f. We will cover expenses up to the amount specified in the Policy Schedule for transportation of the Insu
+- **common** (df=55) — `air ambulance` — page 30
+  - snippet: such delay on merits where the delay has been proved to be for reasons beyond the claimant’s control. 7.6. claims process for Section 4.10 (Air Ambulance), if availed on Cashless Facility: a. In the event of an Emergency, Our Service Provider shall be contacted immediately on the helpline num
+- **common** (df=93) — `ayush` — page 1
+  - snippet: initions 3.1.1 Accident or Accidental means a sudden, unforeseen and involuntary event caused by external, visible and violent means. 3.1.2 AYUSH Hospital is a healthcare facility wherein medical / surgical / para-surgical treatment procedures and interventions are carried out by AYUS
+- **common** (df=93) — `ayush` — page 2
+  - snippet: Product Name: ReAssure, Product UIN: NBHHLIP25037V032425 AYUSH Hospitals referred above shall also obtain either pre-entry level certificate (or higher level of certificate) issued by National Accredita
+- **common** (df=93) — `ayush` — page 8
+  - snippet: iddha and Homeopathy. Conditions - The above coverage is subject to fulfilment of following conditions: a. The treatment should be taken in AYUSH Hospital. b. If We have accepted a claim under this benefit, We will also indemnify the Insured Person’s Pre-hospitalization Medical Expens
+- **common** (df=87) — `co-?pay(?:ment)?` — page 2
+  - snippet: sible parts of the body. b. External Congenital Anomaly: Congenital Anomaly which is in the visible and accessible parts of the body. 3.1.7 Co-payment means a cost-sharing requirement under a health insurance policy that provides that the Policyholder/insured will bear a specified percenta
+- **common** (df=87) — `co-?pay(?:ment)?` — page 28
+  - snippet: st, We will issue the authorization letter specifying the sanctioned amount, any specific limitation on the claim, applicable Deductibles / Co-payment and non-payable items, if applicable, or reject the request for pre-authorisation specifying reasons for the rejection. In case of preautho
+- **common** (df=87) — `co-?pay(?:ment)?` — page 30
+  - snippet: e aggregate amount of all eligible claims as per policy terms and conditions exceeds the Deductible limit within the same Policy Year. iii. Co-payment (if applicable) as specified in the Policy Schedule shall be applicable on the amount payable by Us. e. The claim amount assessed in Sectio
+- **common** (df=87) — `co-?pay(?:ment)?` — page 33
+  - snippet:  from the date of enhancement of sums insured only on the enhanced limits. The policies would however be subject to all limits, sub limits, co-payments, deductibles as per the Policy contract. Note: the accrued credits gained under the ported and migrated policies shall be counted for the 
+- **common** (df=72) — `consumable` — page 8
+  - snippet: nsured Event that led to the current Hospitalization; f. Intravenous fluids, blood transfusion, injection administration charges, allowable consumables and /or enteral feedings; g. Operation theatre charges; h. The cost of prosthetics and other devices or equipment, if implanted internally
+- **common** (df=93) — `day care` — page 2
+  - snippet:  Cumulative Bonus means any increase or addition in the Sum Insured granted by the insurer without an associated increase in premium. 3.1.9 Day Care Center means any institution established for Day Care Treatment of Illness and/or Injuries or a medical set-up with a Hospital and which ha
+- **common** (df=93) — `day care` — page 3
+  - snippet: d, if the premium is paid in instalments during the policy period. 3.1.17 Hospital means any institution established for Inpatient Care and Day Care Treatment of Illness and / or Injuries and which has been registered as a Hospital with the local authorities under the Clinical Establishm
+- **common** (df=93) — `day care` — page 4
+  - snippet: A or jointly by an insurer and TPA to provide medical services to an insured by a Cashless Facility. 3.1.31 Non-Network means any Hospital, Day Care Center or other provider that is not part of the network. 3.1.32 Notification of Claim means the process of intimating a claim to the insur
+- **common** (df=93) — `day care` — page 5
+  - snippet: cility like a consultation room for diagnosis and treatment based on the advice of a Medical Practitioner. The Insured is not admitted as a day care or In-patient. 3.1.34 Pre-existing Disease means any condition, ailment, injury or disease a. That is/are diagnosed by a physician not more
+- **common** (df=93) — `day care` — page 8
+  - snippet: treatment or advice has been specifically sought by the Hospital; and ii. The consultation charges are included in the Hospital’s bill 4.2. Day Care Treatment What is covered: We will indemnify the Medical Expenses incurred on the Insured Person’s under any Day Care Treatment during the 
+- **common** (df=93) — `day care` — page 9
+  - snippet: it. 4.5. Modern Treatments What is covered: a. The following procedures / treatments will be covered either as Inpatient Care or as part of Day Care Treatment as per Section 4.1 and Section 4.2 respectively, in a Hospital : i. Uterine Artery Embolization and HIFU (High intensity focused 
+- **common** (df=93) — `day care` — page 10
+  - snippet: e coverage is subject to fulfilment of following conditions: a. We have accepted a claim under Section 4.1 (Inpatient Care) or Section 4.2 (Day Care Treatment) or Section 4.3 (Alternative Treatments) or Section 4.5 (Modern Treatments). b. Pre-hospitalization Medical Expenses are incurred
+- **common** (df=93) — `day care` — page 11
+  - snippet: ll be offered by a healthcare or ambulance Service Provider. e. We have accepted a claim under Section 4.1 (Inpatient Care) or Section 4.2 (Day Care Treatment). f. We will cover expenses up to Rs. 2,000 per Hospitalization. What is not covered: The Insured Person’s transfer to any Hospit
+- **common** (df=93) — `day care` — page 12
+  - snippet: e coverage is subject to fulfilment of following conditions: a. We have accepted a claim under Section 4.1 (Inpatient Care) or Section 4.2 (Day Care Treatment). b. Medically Necessary treatment is not available at the location where the Insured Person is situated at the time of Emergency
+- **common** (df=93) — `day care` — page 13
+  - snippet: any) followed by; iv. ReAssure benefit c. Claims under this benefit will be payable only under Section 4.1 (Inpatient Care) or Section 4.2 (Day Care Treatment) or Section 4.3 (Alternative Treatments) or Section 4.4 (Domiciliary Hospitalization) or Section 4.5 (Modern Treatments) or Secti
+- **common** (df=93) — `day care` — page 14
+  - snippet:  This benefit can be availed only once during a Policy Year. b. We have accepted a claim under Section 4.1 (Inpatient Care) or Section 4.2 (Day Care Treatment) for which opinion is sought. What is not covered: a. The second medical opinion under this benefit shall not be valid for any me
+- **common** (df=93) — `day care` — page 24
+  - snippet: ut not limited to vitamins, minerals and organic substances unless prescribed by a Medical Practitioner as part of Hospitalization claim or Day Care procedure (Code-Excl14)
+- **common** (df=68) — `deductible` — page 2
+  - snippet: d a Hospitalization of more than 24 hours. Treatment normally taken on an OPD basis is not included in the scope of this definition. 3.1.11 Deductible means a cost-sharing requirement under a health insurance policy that provides that the Insurer will not be liable for a specified rupee am
+- **common** (df=68) — `deductible` — page 27
+  - snippet: ocedure set out below shall be followed: a. We advise You to submit all claims related documents, including documents for claims within the Deductible amount, once the Deductible limit has been exhausted. b. We/Our Service Provider must be permitted to inspect the medical and Hospitalizati
+
+## policy-wording/niva-bupa/ReAssure_2_Bronze_Plus.pdf
+
+- **common** (df=55) — `air ambulance` — page 6
+  - snippet: be mentioned in your Policy Schedule. 4.1. Expenses in reaching a Hospital 4.1.1. Road Ambulance: We will pay you up to Sum Insured. 4.1.2. Air Ambulance: Only in case of Emergency. Maximum INR 2,50,000 per hospitalization. Note: This will be paid only if claim for hospitalization is paid by 
+- **common** (df=93) — `ayush` — page 1
+  - snippet: ReAssure 2.0_Policy Wordings Product Name: ReAssure 2.0, Product UIN: NBHHLIP26042V022526 1. Preamble This Policy covers Allopathic and AYUSH treatments taken in India ONLY. 2. Definitions It is IMPORTANT You should go through the definition of some words used in the policy. Defin
+- **common** (df=93) — `ayush` — page 6
+  - snippet:  choice. Choose the room you like, but choose judiciously to protect your Sum Insured. • Admitted for 2 hours or more (minimum 24 hours for AYUSH treatment in a AYUSH Hospital) Note: • We will NOT pay, even if you were hospitalized, if there was no treatment and only investigations we
+- **common** (df=87) — `co-?pay(?:ment)?` — page 2
+  - snippet: ReAssure 2.0_Policy Wordings Product Name: ReAssure 2.0, Product UIN: NBHHLIP26042V022526 2.1.7. Co-payment means a cost-sharing requirement under a health insurance policy that provides that the Policyholder/insured will bear a specified percenta
+- **common** (df=87) — `co-?pay(?:ment)?` — page 16
+  - snippet: p, Live Healthy, Second Medical Opinion, Shared Accommodation Cash, e -consultation, Personal Accident, Hospital Daily Cash benefits. 4.19. Co-Payment: It is the percentage of admissible claim amount You would have to bear, Rest we will pay. Note: Co -payment will NOT apply to Annual Healt
+- **common** (df=93) — `day care` — page 2
+  - snippet:  Cumulative Bonus means any increase or addition in the Sum Insured granted by the insurer without an associated increase in premium 2.1.9. Day Care Centre means any institution established for Day Care Treatment of Illness and/or Injuries or a medical set-up with a Hospital and which ha
+- **common** (df=93) — `day care` — page 3
+  - snippet: ings Product Name: ReAssure 2.0, Product UIN: NBHHLIP26042V022526 2.1.16. Hospital means any institution established for Inpatient Care and Day Care Treatment of Illness and / or Injuries and which has been registered as a Hospital with the local authorities under the Clinical Establishm
+- **common** (df=93) — `day care` — page 4
+  - snippet: ly by an insurer and TPA to provide medical services to an insured by a Cashless Facility. 2.1.30. Non-Network Provider means any Hospital, Day Care Centre or other provider that is not part of the network. 2.1.31. Notification of Claim means the process of intimating a claim to the insu
+- **common** (df=93) — `day care` — page 5
+  - snippet: ction of deformities and defects, diagnosis and cure of diseases, relief from suffering or prolongation of life, performed in a Hospital or Day Care Centre by a Medical Practitioner. 2.1.41. Specific Waiting period means a period up to 36 months from the commencement of a health insuranc
+- **common** (df=68) — `deductible` — page 2
+  - snippet: ated to teeth or structures supporting teeth including examinations, fillings (where appropriate), crowns, extractions and Surgery. 2.1.12. Deductible means a cost-sharing requirement under a health insurance policy that provides that the Ins urer will not be liable for a specified rupee a
+- **common** (df=68) — `deductible` — page 16
+  - snippet:  of this benefit at any point in time. Note: You can either choose Safeguard or Safeguard+ at a given point in time. 4.18. Annual Aggregate Deductible This is an aggregate amount in a year that is incurred by you on Expenses in reaching a Hospital, Expenses during Hospitalization, Expenses
+- **common** (df=68) — `deductible` — page 24
+  - snippet:  of enhancement of sums insured only on the enhanced limits. The policies would however be subject to all limits, sub limits, co -payments, deductibles as per the Policy contract. Note: the accrued credits gained under the ported and migrated policies shall be counted for the purpose of ca
+- **common** (df=68) — `deductible` — page 26
+  - snippet: will condone such delay on merits (i.e. reasons beyond your control). • You MUST submit all claim related documents for expenses within the Deductible amount (if applicable). Simplified for you You can shift your policy to any other health insurance product / plan offered by us as per migr
+- **common** (df=74) — `domiciliary` — page 2
+  - snippet: spital cash policies which will apply before any benefits are payable by the insurer. A deductible does not reduce the Sum Insured. 2.1.13. Domiciliary Hospitalization means medical treatment for an Illness/disease/Injury which in the normal course would require care and treatment at a Hosp
+- **common** (df=74) — `domiciliary` — page 7
+  - snippet: ission and 180 days after date of discharge IF these are related to the condition for which hospitalization claim is paid. 4.4. Home Care / Domiciliary Treatment Home Care Treatment means treatment availed by the insured person at home which in normal course would require care and treatment
+- **common** (df=74) — `domiciliary` — page 8
+  - snippet: der the following: Expenses in reaching a Hospital, Expenses during Hospitalization, Expenses before and after hospitalization, Home Care / Domiciliary Treatment, Organ Donor. • Expenses in reaching a Hospital and Expenses before and after hospitalization for the 1st ever hospitalization wi
+- **common** (df=74) — `domiciliary` — page 9
+  - snippet: der the following: Expenses in reaching a Hospital, Expenses during Hospitalization, Expenses before and after hospitalization, Home Care / Domiciliary Treatment, Organ Donor 4.8. ReAssureX Enjoy unlimited Sum Insured. The first paid claim in the life of the policy triggers ReAssure “Foreve
+- **common** (df=74) — `domiciliary` — page 10
+  - snippet: der the following: Expenses in reaching a Hospital, Expenses during Hospitalization, Expenses before and after hospitalization, Home Care / Domiciliary Treatment, Organ Donor. • Expenses in reaching a Hospital and Expenses before and after hospitalization for the 1st ever hospitalization wi
+- **common** (df=74) — `domiciliary` — page 16
+  - snippet: incurred by you on Expenses in reaching a Hospital, Expenses during Hospitalization, Expenses before and after hospitalization, Home Care / Domiciliary Treatment, Organ Donor , which we will NOT pay. Once the total expense exceeds this amount, balance we will pay. Note: a. Deductible amount
+- **common** (df=71) — `organ donor` — page 7
+  - snippet: (like Pulse Oxymeter, BP monitors, Sugar monitors, automation device for peritoneal dialysis, CPAP, BiPAP, Crutches, wheel chair etc.) 4.5. Organ donor If you ever undergo an organ transplant, we will pay the hospitalization expenses of the donor for harvesting the organ, ONLY when your Hos
+- **common** (df=71) — `organ donor` — page 8
+  - snippet: nses in reaching a Hospital, Expenses during Hospitalization, Expenses before and after hospitalization, Home Care / Domiciliary Treatment, Organ Donor. • Expenses in reaching a Hospital and Expenses before and after hospitalization for the 1st ever hospitalization will be treated as the 1s
+- **common** (df=71) — `organ donor` — page 9
+  - snippet: nses in reaching a Hospital, Expenses during Hospitalization, Expenses before and after hospitalization, Home Care / Domiciliary Treatment, Organ Donor 4.8. ReAssureX Enjoy unlimited Sum Insured. The first paid claim in the life of the policy triggers ReAssure “Forever”. Once Triggered it s
+- **common** (df=71) — `organ donor` — page 10
+  - snippet: nses in reaching a Hospital, Expenses during Hospitalization, Expenses before and after hospitalization, Home Care / Domiciliary Treatment, Organ Donor. • Expenses in reaching a Hospital and Expenses before and after hospitalization for the 1st ever hospitalization will be treated as the 1s
+- **common** (df=71) — `organ donor` — page 16
+  - snippet: nses in reaching a Hospital, Expenses during Hospitalization, Expenses before and after hospitalization, Home Care / Domiciliary Treatment, Organ Donor , which we will NOT pay. Once the total expense exceeds this amount, balance we will pay. Note: a. Deductible amount borne by you should al
+- **common** (df=93) — `pre[- ]existing` — page 2
+  - snippet: ayment can be made to renew or continue a policy in force without loss of continuity benefits pertaining to waiting periods and coverage of pre-existing diseases. Coverage need not be available during the period for which no premium is received. The grace period for payment of the premium fo
+
+## policy-wording/niva-bupa/ReAssure_2_Platinum_Plus.pdf
+
+- **common** (df=55) — `air ambulance` — page 6
+  - snippet: be mentioned in your Policy Schedule. 4.1. Expenses in reaching a Hospital 4.1.1. Road Ambulance: We will pay you up to Sum Insured. 4.1.2. Air Ambulance: Only in case of Emergency. Maximum INR 2,50,000 per hospitalization. Note: This will be paid only if claim for hospitalization is paid by 
+- **common** (df=93) — `ayush` — page 1
+  - snippet: ReAssure 2.0_Policy Wordings Product Name: ReAssure 2.0, Product UIN: NBHHLIP26042V022526 1. Preamble This Policy covers Allopathic and AYUSH treatments taken in India ONLY. 2. Definitions It is IMPORTANT You should go through the definition of some words used in the policy. Defin
+- **common** (df=93) — `ayush` — page 6
+  - snippet:  choice. Choose the room you like, but choose judiciously to protect your Sum Insured. • Admitted for 2 hours or more (minimum 24 hours for AYUSH treatment in a AYUSH Hospital) Note: • We will NOT pay, even if you were hospitalized, if there was no treatment and only investigations we
+- **common** (df=87) — `co-?pay(?:ment)?` — page 2
+  - snippet: ReAssure 2.0_Policy Wordings Product Name: ReAssure 2.0, Product UIN: NBHHLIP26042V022526 2.1.7. Co-payment means a cost-sharing requirement under a health insurance policy that provides that the Policyholder/insured will bear a specified percenta
+- **common** (df=87) — `co-?pay(?:ment)?` — page 16
+  - snippet: p, Live Healthy, Second Medical Opinion, Shared Accommodation Cash, e -consultation, Personal Accident, Hospital Daily Cash benefits. 4.19. Co-Payment: It is the percentage of admissible claim amount You would have to bear, Rest we will pay. Note: Co -payment will NOT apply to Annual Healt
+- **common** (df=93) — `day care` — page 2
+  - snippet:  Cumulative Bonus means any increase or addition in the Sum Insured granted by the insurer without an associated increase in premium 2.1.9. Day Care Centre means any institution established for Day Care Treatment of Illness and/or Injuries or a medical set-up with a Hospital and which ha
+- **common** (df=93) — `day care` — page 3
+  - snippet: ings Product Name: ReAssure 2.0, Product UIN: NBHHLIP26042V022526 2.1.16. Hospital means any institution established for Inpatient Care and Day Care Treatment of Illness and / or Injuries and which has been registered as a Hospital with the local authorities under the Clinical Establishm
+- **common** (df=93) — `day care` — page 4
+  - snippet: ly by an insurer and TPA to provide medical services to an insured by a Cashless Facility. 2.1.30. Non-Network Provider means any Hospital, Day Care Centre or other provider that is not part of the network. 2.1.31. Notification of Claim means the process of intimating a claim to the insu
+- **common** (df=93) — `day care` — page 5
+  - snippet: ction of deformities and defects, diagnosis and cure of diseases, relief from suffering or prolongation of life, performed in a Hospital or Day Care Centre by a Medical Practitioner. 2.1.41. Specific Waiting period means a period up to 36 months from the commencement of a health insuranc
+- **common** (df=68) — `deductible` — page 2
+  - snippet: ated to teeth or structures supporting teeth including examinations, fillings (where appropriate), crowns, extractions and Surgery. 2.1.12. Deductible means a cost-sharing requirement under a health insurance policy that provides that the Ins urer will not be liable for a specified rupee a
+- **common** (df=68) — `deductible` — page 16
+  - snippet:  of this benefit at any point in time. Note: You can either choose Safeguard or Safeguard+ at a given point in time. 4.18. Annual Aggregate Deductible This is an aggregate amount in a year that is incurred by you on Expenses in reaching a Hospital, Expenses during Hospitalization, Expenses
+- **common** (df=68) — `deductible` — page 24
+  - snippet:  of enhancement of sums insured only on the enhanced limits. The policies would however be subject to all limits, sub limits, co -payments, deductibles as per the Policy contract. Note: the accrued credits gained under the ported and migrated policies shall be counted for the purpose of ca
+- **common** (df=68) — `deductible` — page 26
+  - snippet: will condone such delay on merits (i.e. reasons beyond your control). • You MUST submit all claim related documents for expenses within the Deductible amount (if applicable). Simplified for you You can shift your policy to any other health insurance product / plan offered by us as per migr
+- **common** (df=74) — `domiciliary` — page 2
+  - snippet: spital cash policies which will apply before any benefits are payable by the insurer. A deductible does not reduce the Sum Insured. 2.1.13. Domiciliary Hospitalization means medical treatment for an Illness/disease/Injury which in the normal course would require care and treatment at a Hosp
+- **common** (df=74) — `domiciliary` — page 7
+  - snippet: ission and 180 days after date of discharge IF these are related to the condition for which hospitalization claim is paid. 4.4. Home Care / Domiciliary Treatment Home Care Treatment means treatment availed by the insured person at home which in normal course would require care and treatment
+- **common** (df=74) — `domiciliary` — page 8
+  - snippet: der the following: Expenses in reaching a Hospital, Expenses during Hospitalization, Expenses before and after hospitalization, Home Care / Domiciliary Treatment, Organ Donor. • Expenses in reaching a Hospital and Expenses before and after hospitalization for the 1st ever hospitalization wi
+- **common** (df=74) — `domiciliary` — page 9
+  - snippet: der the following: Expenses in reaching a Hospital, Expenses during Hospitalization, Expenses before and after hospitalization, Home Care / Domiciliary Treatment, Organ Donor 4.8. ReAssureX Enjoy unlimited Sum Insured. The first paid claim in the life of the policy triggers ReAssure “Foreve
+- **common** (df=74) — `domiciliary` — page 10
+  - snippet: der the following: Expenses in reaching a Hospital, Expenses during Hospitalization, Expenses before and after hospitalization, Home Care / Domiciliary Treatment, Organ Donor. • Expenses in reaching a Hospital and Expenses before and after hospitalization for the 1st ever hospitalization wi
+- **common** (df=74) — `domiciliary` — page 16
+  - snippet: incurred by you on Expenses in reaching a Hospital, Expenses during Hospitalization, Expenses before and after hospitalization, Home Care / Domiciliary Treatment, Organ Donor , which we will NOT pay. Once the total expense exceeds this amount, balance we will pay. Note: a. Deductible amount
+- **common** (df=71) — `organ donor` — page 7
+  - snippet: (like Pulse Oxymeter, BP monitors, Sugar monitors, automation device for peritoneal dialysis, CPAP, BiPAP, Crutches, wheel chair etc.) 4.5. Organ donor If you ever undergo an organ transplant, we will pay the hospitalization expenses of the donor for harvesting the organ, ONLY when your Hos
+- **common** (df=71) — `organ donor` — page 8
+  - snippet: nses in reaching a Hospital, Expenses during Hospitalization, Expenses before and after hospitalization, Home Care / Domiciliary Treatment, Organ Donor. • Expenses in reaching a Hospital and Expenses before and after hospitalization for the 1st ever hospitalization will be treated as the 1s
+- **common** (df=71) — `organ donor` — page 9
+  - snippet: nses in reaching a Hospital, Expenses during Hospitalization, Expenses before and after hospitalization, Home Care / Domiciliary Treatment, Organ Donor 4.8. ReAssureX Enjoy unlimited Sum Insured. The first paid claim in the life of the policy triggers ReAssure “Forever”. Once Triggered it s
+- **common** (df=71) — `organ donor` — page 10
+  - snippet: nses in reaching a Hospital, Expenses during Hospitalization, Expenses before and after hospitalization, Home Care / Domiciliary Treatment, Organ Donor. • Expenses in reaching a Hospital and Expenses before and after hospitalization for the 1st ever hospitalization will be treated as the 1s
+- **common** (df=71) — `organ donor` — page 16
+  - snippet: nses in reaching a Hospital, Expenses during Hospitalization, Expenses before and after hospitalization, Home Care / Domiciliary Treatment, Organ Donor , which we will NOT pay. Once the total expense exceeds this amount, balance we will pay. Note: a. Deductible amount borne by you should al
+- **common** (df=93) — `pre[- ]existing` — page 2
+  - snippet: ayment can be made to renew or continue a policy in force without loss of continuity benefits pertaining to waiting periods and coverage of pre-existing diseases. Coverage need not be available during the period for which no premium is received. The grace period for payment of the premium fo
+
+## policy-wording/niva-bupa/ReAssure_2_Titanium_Plus.pdf
+
+- **common** (df=55) — `air ambulance` — page 6
+  - snippet: be mentioned in your Policy Schedule. 4.1. Expenses in reaching a Hospital 4.1.1. Road Ambulance: We will pay you up to Sum Insured. 4.1.2. Air Ambulance: Only in case of Emergency. Maximum INR 2,50,000 per hospitalization. Note: This will be paid only if claim for hospitalization is paid by 
+- **common** (df=93) — `ayush` — page 1
+  - snippet: ReAssure 2.0_Policy Wordings Product Name: ReAssure 2.0, Product UIN: NBHHLIP26042V022526 1. Preamble This Policy covers Allopathic and AYUSH treatments taken in India ONLY. 2. Definitions It is IMPORTANT You should go through the definition of some words used in the policy. Defin
+- **common** (df=93) — `ayush` — page 6
+  - snippet:  choice. Choose the room you like, but choose judiciously to protect your Sum Insured. • Admitted for 2 hours or more (minimum 24 hours for AYUSH treatment in a AYUSH Hospital) Note: • We will NOT pay, even if you were hospitalized, if there was no treatment and only investigations we
+- **common** (df=87) — `co-?pay(?:ment)?` — page 2
+  - snippet: ReAssure 2.0_Policy Wordings Product Name: ReAssure 2.0, Product UIN: NBHHLIP26042V022526 2.1.7. Co-payment means a cost-sharing requirement under a health insurance policy that provides that the Policyholder/insured will bear a specified percenta
+- **common** (df=87) — `co-?pay(?:ment)?` — page 16
+  - snippet: p, Live Healthy, Second Medical Opinion, Shared Accommodation Cash, e -consultation, Personal Accident, Hospital Daily Cash benefits. 4.19. Co-Payment: It is the percentage of admissible claim amount You would have to bear, Rest we will pay. Note: Co -payment will NOT apply to Annual Healt
+- **common** (df=93) — `day care` — page 2
+  - snippet:  Cumulative Bonus means any increase or addition in the Sum Insured granted by the insurer without an associated increase in premium 2.1.9. Day Care Centre means any institution established for Day Care Treatment of Illness and/or Injuries or a medical set-up with a Hospital and which ha
+- **common** (df=93) — `day care` — page 3
+  - snippet: ings Product Name: ReAssure 2.0, Product UIN: NBHHLIP26042V022526 2.1.16. Hospital means any institution established for Inpatient Care and Day Care Treatment of Illness and / or Injuries and which has been registered as a Hospital with the local authorities under the Clinical Establishm
+- **common** (df=93) — `day care` — page 4
+  - snippet: ly by an insurer and TPA to provide medical services to an insured by a Cashless Facility. 2.1.30. Non-Network Provider means any Hospital, Day Care Centre or other provider that is not part of the network. 2.1.31. Notification of Claim means the process of intimating a claim to the insu
+- **common** (df=93) — `day care` — page 5
+  - snippet: ction of deformities and defects, diagnosis and cure of diseases, relief from suffering or prolongation of life, performed in a Hospital or Day Care Centre by a Medical Practitioner. 2.1.41. Specific Waiting period means a period up to 36 months from the commencement of a health insuranc
+- **common** (df=68) — `deductible` — page 2
+  - snippet: ated to teeth or structures supporting teeth including examinations, fillings (where appropriate), crowns, extractions and Surgery. 2.1.12. Deductible means a cost-sharing requirement under a health insurance policy that provides that the Ins urer will not be liable for a specified rupee a
+- **common** (df=68) — `deductible` — page 16
+  - snippet:  of this benefit at any point in time. Note: You can either choose Safeguard or Safeguard+ at a given point in time. 4.18. Annual Aggregate Deductible This is an aggregate amount in a year that is incurred by you on Expenses in reaching a Hospital, Expenses during Hospitalization, Expenses
+- **common** (df=68) — `deductible` — page 24
+  - snippet:  of enhancement of sums insured only on the enhanced limits. The policies would however be subject to all limits, sub limits, co -payments, deductibles as per the Policy contract. Note: the accrued credits gained under the ported and migrated policies shall be counted for the purpose of ca
+- **common** (df=68) — `deductible` — page 26
+  - snippet: will condone such delay on merits (i.e. reasons beyond your control). • You MUST submit all claim related documents for expenses within the Deductible amount (if applicable). Simplified for you You can shift your policy to any other health insurance product / plan offered by us as per migr
+- **common** (df=74) — `domiciliary` — page 2
+  - snippet: spital cash policies which will apply before any benefits are payable by the insurer. A deductible does not reduce the Sum Insured. 2.1.13. Domiciliary Hospitalization means medical treatment for an Illness/disease/Injury which in the normal course would require care and treatment at a Hosp
+- **common** (df=74) — `domiciliary` — page 7
+  - snippet: ission and 180 days after date of discharge IF these are related to the condition for which hospitalization claim is paid. 4.4. Home Care / Domiciliary Treatment Home Care Treatment means treatment availed by the insured person at home which in normal course would require care and treatment
+- **common** (df=74) — `domiciliary` — page 8
+  - snippet: der the following: Expenses in reaching a Hospital, Expenses during Hospitalization, Expenses before and after hospitalization, Home Care / Domiciliary Treatment, Organ Donor. • Expenses in reaching a Hospital and Expenses before and after hospitalization for the 1st ever hospitalization wi
+- **common** (df=74) — `domiciliary` — page 9
+  - snippet: der the following: Expenses in reaching a Hospital, Expenses during Hospitalization, Expenses before and after hospitalization, Home Care / Domiciliary Treatment, Organ Donor 4.8. ReAssureX Enjoy unlimited Sum Insured. The first paid claim in the life of the policy triggers ReAssure “Foreve
+- **common** (df=74) — `domiciliary` — page 10
+  - snippet: der the following: Expenses in reaching a Hospital, Expenses during Hospitalization, Expenses before and after hospitalization, Home Care / Domiciliary Treatment, Organ Donor. • Expenses in reaching a Hospital and Expenses before and after hospitalization for the 1st ever hospitalization wi
+- **common** (df=74) — `domiciliary` — page 16
+  - snippet: incurred by you on Expenses in reaching a Hospital, Expenses during Hospitalization, Expenses before and after hospitalization, Home Care / Domiciliary Treatment, Organ Donor , which we will NOT pay. Once the total expense exceeds this amount, balance we will pay. Note: a. Deductible amount
+- **common** (df=71) — `organ donor` — page 7
+  - snippet: (like Pulse Oxymeter, BP monitors, Sugar monitors, automation device for peritoneal dialysis, CPAP, BiPAP, Crutches, wheel chair etc.) 4.5. Organ donor If you ever undergo an organ transplant, we will pay the hospitalization expenses of the donor for harvesting the organ, ONLY when your Hos
+- **common** (df=71) — `organ donor` — page 8
+  - snippet: nses in reaching a Hospital, Expenses during Hospitalization, Expenses before and after hospitalization, Home Care / Domiciliary Treatment, Organ Donor. • Expenses in reaching a Hospital and Expenses before and after hospitalization for the 1st ever hospitalization will be treated as the 1s
+- **common** (df=71) — `organ donor` — page 9
+  - snippet: nses in reaching a Hospital, Expenses during Hospitalization, Expenses before and after hospitalization, Home Care / Domiciliary Treatment, Organ Donor 4.8. ReAssureX Enjoy unlimited Sum Insured. The first paid claim in the life of the policy triggers ReAssure “Forever”. Once Triggered it s
+- **common** (df=71) — `organ donor` — page 10
+  - snippet: nses in reaching a Hospital, Expenses during Hospitalization, Expenses before and after hospitalization, Home Care / Domiciliary Treatment, Organ Donor. • Expenses in reaching a Hospital and Expenses before and after hospitalization for the 1st ever hospitalization will be treated as the 1s
+- **common** (df=71) — `organ donor` — page 16
+  - snippet: nses in reaching a Hospital, Expenses during Hospitalization, Expenses before and after hospitalization, Home Care / Domiciliary Treatment, Organ Donor , which we will NOT pay. Once the total expense exceeds this amount, balance we will pay. Note: a. Deductible amount borne by you should al
+- **common** (df=93) — `pre[- ]existing` — page 2
+  - snippet: ayment can be made to renew or continue a policy in force without loss of continuity benefits pertaining to waiting periods and coverage of pre-existing diseases. Coverage need not be available during the period for which no premium is received. The grace period for payment of the premium fo
+
+## policy-wording/niva-bupa/Senior_First_Gold.pdf
+
+- **common** (df=55) — `air ambulance` — page 6
+  - snippet: ximum Rs.2,50,000 per hospitalization. Applies ONLY when Hospital admission claim is paid. IMPORTANT: You MUST use a registered ambulance / air ambulance provider. Air ambulance is available only for Emergency care. 3.2. Expenses during hospitalization (Hospital admission) a. We will pay the 
+- **common** (df=93) — `ayush` — page 1
+  - snippet: Product Name: Senior First, Product UIN: MAXHLIP21575V012021 Senior First Policy Document 1. Preamble This Policy covers Allopathic and AYUSH treatments taken in India ONLY. Expense incurred outside the policy period will NOT be covered. Unutilized Sum Insured will expire at the e
+- **common** (df=93) — `ayush` — page 6
+  - snippet: o treatment like food, beverage, toiletries and cosmetics) if you were: i. Admitted for 2 hours or more NOTE: minimum 24 hours admission in AYUSH Hospital MUST for AYUSH treatment coverage ii. You had Angiography, Dialysis (Hemo / Peritoneal), Radiotherapy or Chemotherapy for cancer N
+- **common** (df=87) — `co-?pay(?:ment)?` — page 9
+  - snippet: st, Product UIN: MAXHLIP21575V012021 4. Claim Cost Sharing DESCRIPTION (What we pay and what we DON’T) IMPORTANT TERMS (what it means) 4.1. Co-payment Co-payment once chosen CAN NOT be changed. It’s the percentage of admissible claim amount You would have to bear, Rest we will pay. The def
+- **common** (df=87) — `co-?pay(?:ment)?` — page 17
+  - snippet:  from the date of enhancement of sums insured only on the enhanced limits. The policies would however be subject to all limits, sub limits, co-payments, deductibles as per the Policy contract. Note: the accrued credits gained under the ported and migrated policies shall be counted for the 
+- **common** (df=93) — `day care` — page 1
+  - snippet: V. Cumulative Bonus means any increase or addition in the Sum Insured granted by the insurer without an associated increase in premium. VI. Day Care Centre means any institution established for Day Care Treatment of Illness and/or Injuries or a medical set-up with a Hospital and which ha
+- **common** (df=93) — `day care` — page 2
+  - snippet: eriod, if the premium is paid in instalments during the policy period. X. Hospital means any institution established for Inpatient Care and Day Care Treatment of Illness and / or Injuries and which has been registered as a Hospital with the local authorities under the Clinical Establishm
+- **common** (df=93) — `day care` — page 3
+  - snippet: ntly by an insurer and TPA to provide medical services to an insured by a Cashless Facility. XXII. Non-Network Provider means any Hospital, Day Care Centre or other provider that is not part of the network. XXIII. Notification of Claim means the process of intimating a claim to the insur
+- **common** (df=93) — `day care` — page 4
+  - snippet: ction of deformities and defects, diagnosis and cure of diseases, relief from suffering or prolongation of life, performed in a Hospital or Day Care Centre by a Medical Practitioner. XXXV. Specific Waiting period means a period up to 36 months from the commencement of a health insurance 
+- **common** (df=93) — `day care` — page 6
+  - snippet: therapy for cancer NOTE: Admission in a hospital happens in what is called wards or rooms of various categories, ICUs, CCUs, NICU etc or in Day care. IMPORTANT: i. We will NOT pay, even if you were admitted, if there was no treatment and only investigations were done. Example: Admission 
+- **common** (df=93) — `day care` — page 11
+  - snippet: ut not limited to vitamins, minerals and organic substances unless prescribed by a Medical Practitioner as part of Hospitalization claim or Day Care procedure (Code-Excl14) XV. Refractive Error (Code-Excl15) Expenses related to the treatment for correction of eye sight due to refractive 
+- **common** (df=68) — `deductible` — page 9
+  - snippet: nsured will bear a specified percentage of the admissible claim amount. A Co-payment does not reduce the Sum Insured. 4.2. Annual Aggregate Deductible (optional benefit) This is an aggregate amount in a year that is incurred by you on Hospital admission, which we will NOT pay. Once the tot
+- **common** (df=68) — `deductible` — page 17
+  - snippet: e of enhancement of sums insured only on the enhanced limits. The policies would however be subject to all limits, sub limits, co-payments, deductibles as per the Policy contract. Note: the accrued credits gained under the ported and migrated policies shall be counted for the purpose of ca
+- **common** (df=68) — `deductible` — page 20
+  - snippet: will condone such delay on merits (i.e. reasons beyond your control). • You MUST submit all claim related documents for expenses within the Deductible amount (if applicable). • We reserve the right to check and investigate the hospital / medical records from any doctor, Hospital, clinic, i
+- **common** (df=74) — `domiciliary` — page 2
+  - snippet: elated to teeth or structures supporting teeth including examinations, fillings (where appropriate), crowns, extractions and Surgery. VIII. Domiciliary Hospitalization means medical treatment for an Illness/disease/Injury which in the normal course would require care and treatment at a Hosp
+- **common** (df=74) — `domiciliary` — page 7
+  - snippet: 60 days before date of admission and 180 days after date of discharge IF these are related to the condition for which hospital admission or domiciliary hospitalization claim is paid. 3.4. Treatment at home (Domiciliary Hospitalization) We will pay the expenses incurred by you on treatment a
+- **common** (df=71) — `organ donor` — page 7
+  - snippet: at the insured was not in a position to reach the hospital, and b. minimum 3 consecutive days of treatment was received by the Insured 3.5. Organ donor If you ever undergo an organ transplant, we will pay the hospitalization expenses of the donor for harvesting the organ ONLY when your Hosp
+- **common** (df=93) — `pre[- ]existing` — page 2
+  - snippet: ayment can be made to renew or continue a policy in force without loss of continuity benefits pertaining to waiting periods and coverage of pre-existing diseases. Coverage need not be available during the period for which no premium is received. The grace period for payment of the premium fo
+- **common** (df=93) — `pre[- ]existing` — page 3
+  - snippet: om for diagnosis and treatment based on the advice of a Medical Practitioner. The Insured is not admitted as a day care or In-patient. XXV. Pre-existing Disease means any condition, ailment, injury or disease a. That is/are diagnosed by a physician not more than 36 months prior to the date o
+- **common** (df=93) — `pre[- ]existing` — page 4
+  - snippet: s a facility provided to the health insurance policyholders (including all members under family cover), to transfer the credits gained for, pre-existing disease and specific waiting periods from one insurer to another. XXIX. Qualified Nurse means a person who holds a valid registration from 
+- **common** (df=93) — `pre[- ]existing` — page 7
+  - snippet: means a facility provided to policyholders (including all members under family cover and group policies), to transfer the credit gained for pre-existing conditions and specific waiting periods from one health insurance policy to another with the same insurer.
+- **common** (df=93) — `pre[- ]existing` — page 9
+  - snippet: ply before any benefits are payable by the insurer. A deductible does not reduce the Sum Insured. 5. Exclusions 5.1. Standard Exclusions I. Pre-existing Diseases (Code–Excl01): a. Expenses related to the treatment of a Pre-existing Disease (PED) and its direct complications shall be excluded
+- **common** (df=93) — `pre[- ]existing` — page 17
+  - snippet: ce policies) can transfer the credits gained to the extent of the Sum Insured, No Claim Bonus, Specific Waiting periods, waiting period for pre-existing diseases, Moratorium period etc. in the previous policy to the migrated policy. The insurer may underwrite the proposal in case of migratio
+- **common** (df=93) — `pre[- ]existing` — page 18
+  - snippet: r is entitled to transfer the credits gained to the extent of the Sum Insured, No Claim Bonus, specific waiting periods, waiting period for pre-existing disease , Moratorium period etc. from the Existing Insurer to the Acquiring Insurer in the previous policy. XIV. Disclosure of Information 
+- **common** (df=93) — `pre[- ]existing` — page 19
+  - snippet: Addition of Insured Persons on Renewal: If a new member is added in the Policy, either by way of endorsement or at the time of Renewal, the Pre-existing Disease clause, exclusions, loading (if any) and Waiting Periods will be applicable afresh for that member. c. Changes to Sum Insured on Re
+
+## policy-wording/niva-bupa/Senior_First_Platinum.pdf
+
+- **common** (df=55) — `air ambulance` — page 6
+  - snippet: ximum Rs.2,50,000 per hospitalization. Applies ONLY when Hospital admission claim is paid. IMPORTANT: You MUST use a registered ambulance / air ambulance provider. Air ambulance is available only for Emergency care. 3.2. Expenses during hospitalization (Hospital admission) a. We will pay the 
+- **common** (df=93) — `ayush` — page 1
+  - snippet: Product Name: Senior First, Product UIN: MAXHLIP21575V012021 Senior First Policy Document 1. Preamble This Policy covers Allopathic and AYUSH treatments taken in India ONLY. Expense incurred outside the policy period will NOT be covered. Unutilized Sum Insured will expire at the e
+- **common** (df=93) — `ayush` — page 6
+  - snippet: o treatment like food, beverage, toiletries and cosmetics) if you were: i. Admitted for 2 hours or more NOTE: minimum 24 hours admission in AYUSH Hospital MUST for AYUSH treatment coverage ii. You had Angiography, Dialysis (Hemo / Peritoneal), Radiotherapy or Chemotherapy for cancer N
+- **common** (df=87) — `co-?pay(?:ment)?` — page 9
+  - snippet: st, Product UIN: MAXHLIP21575V012021 4. Claim Cost Sharing DESCRIPTION (What we pay and what we DON’T) IMPORTANT TERMS (what it means) 4.1. Co-payment Co-payment once chosen CAN NOT be changed. It’s the percentage of admissible claim amount You would have to bear, Rest we will pay. The def
+- **common** (df=87) — `co-?pay(?:ment)?` — page 17
+  - snippet:  from the date of enhancement of sums insured only on the enhanced limits. The policies would however be subject to all limits, sub limits, co-payments, deductibles as per the Policy contract. Note: the accrued credits gained under the ported and migrated policies shall be counted for the 
+- **common** (df=93) — `day care` — page 1
+  - snippet: V. Cumulative Bonus means any increase or addition in the Sum Insured granted by the insurer without an associated increase in premium. VI. Day Care Centre means any institution established for Day Care Treatment of Illness and/or Injuries or a medical set-up with a Hospital and which ha
+- **common** (df=93) — `day care` — page 2
+  - snippet: eriod, if the premium is paid in instalments during the policy period. X. Hospital means any institution established for Inpatient Care and Day Care Treatment of Illness and / or Injuries and which has been registered as a Hospital with the local authorities under the Clinical Establishm
+- **common** (df=93) — `day care` — page 3
+  - snippet: ntly by an insurer and TPA to provide medical services to an insured by a Cashless Facility. XXII. Non-Network Provider means any Hospital, Day Care Centre or other provider that is not part of the network. XXIII. Notification of Claim means the process of intimating a claim to the insur
+- **common** (df=93) — `day care` — page 4
+  - snippet: ction of deformities and defects, diagnosis and cure of diseases, relief from suffering or prolongation of life, performed in a Hospital or Day Care Centre by a Medical Practitioner. XXXV. Specific Waiting period means a period up to 36 months from the commencement of a health insurance 
+- **common** (df=93) — `day care` — page 6
+  - snippet: therapy for cancer NOTE: Admission in a hospital happens in what is called wards or rooms of various categories, ICUs, CCUs, NICU etc or in Day care. IMPORTANT: i. We will NOT pay, even if you were admitted, if there was no treatment and only investigations were done. Example: Admission 
+- **common** (df=93) — `day care` — page 11
+  - snippet: ut not limited to vitamins, minerals and organic substances unless prescribed by a Medical Practitioner as part of Hospitalization claim or Day Care procedure (Code-Excl14) XV. Refractive Error (Code-Excl15) Expenses related to the treatment for correction of eye sight due to refractive 
+- **common** (df=68) — `deductible` — page 9
+  - snippet: nsured will bear a specified percentage of the admissible claim amount. A Co-payment does not reduce the Sum Insured. 4.2. Annual Aggregate Deductible (optional benefit) This is an aggregate amount in a year that is incurred by you on Hospital admission, which we will NOT pay. Once the tot
+- **common** (df=68) — `deductible` — page 17
+  - snippet: e of enhancement of sums insured only on the enhanced limits. The policies would however be subject to all limits, sub limits, co-payments, deductibles as per the Policy contract. Note: the accrued credits gained under the ported and migrated policies shall be counted for the purpose of ca
+- **common** (df=68) — `deductible` — page 20
+  - snippet: will condone such delay on merits (i.e. reasons beyond your control). • You MUST submit all claim related documents for expenses within the Deductible amount (if applicable). • We reserve the right to check and investigate the hospital / medical records from any doctor, Hospital, clinic, i
+- **common** (df=74) — `domiciliary` — page 2
+  - snippet: elated to teeth or structures supporting teeth including examinations, fillings (where appropriate), crowns, extractions and Surgery. VIII. Domiciliary Hospitalization means medical treatment for an Illness/disease/Injury which in the normal course would require care and treatment at a Hosp
+- **common** (df=74) — `domiciliary` — page 7
+  - snippet: 60 days before date of admission and 180 days after date of discharge IF these are related to the condition for which hospital admission or domiciliary hospitalization claim is paid. 3.4. Treatment at home (Domiciliary Hospitalization) We will pay the expenses incurred by you on treatment a
+- **common** (df=71) — `organ donor` — page 7
+  - snippet: at the insured was not in a position to reach the hospital, and b. minimum 3 consecutive days of treatment was received by the Insured 3.5. Organ donor If you ever undergo an organ transplant, we will pay the hospitalization expenses of the donor for harvesting the organ ONLY when your Hosp
+- **common** (df=93) — `pre[- ]existing` — page 2
+  - snippet: ayment can be made to renew or continue a policy in force without loss of continuity benefits pertaining to waiting periods and coverage of pre-existing diseases. Coverage need not be available during the period for which no premium is received. The grace period for payment of the premium fo
+- **common** (df=93) — `pre[- ]existing` — page 3
+  - snippet: om for diagnosis and treatment based on the advice of a Medical Practitioner. The Insured is not admitted as a day care or In-patient. XXV. Pre-existing Disease means any condition, ailment, injury or disease a. That is/are diagnosed by a physician not more than 36 months prior to the date o
+- **common** (df=93) — `pre[- ]existing` — page 4
+  - snippet: s a facility provided to the health insurance policyholders (including all members under family cover), to transfer the credits gained for, pre-existing disease and specific waiting periods from one insurer to another. XXIX. Qualified Nurse means a person who holds a valid registration from 
+- **common** (df=93) — `pre[- ]existing` — page 7
+  - snippet: means a facility provided to policyholders (including all members under family cover and group policies), to transfer the credit gained for pre-existing conditions and specific waiting periods from one health insurance policy to another with the same insurer.
+- **common** (df=93) — `pre[- ]existing` — page 9
+  - snippet: ply before any benefits are payable by the insurer. A deductible does not reduce the Sum Insured. 5. Exclusions 5.1. Standard Exclusions I. Pre-existing Diseases (Code–Excl01): a. Expenses related to the treatment of a Pre-existing Disease (PED) and its direct complications shall be excluded
+- **common** (df=93) — `pre[- ]existing` — page 17
+  - snippet: ce policies) can transfer the credits gained to the extent of the Sum Insured, No Claim Bonus, Specific Waiting periods, waiting period for pre-existing diseases, Moratorium period etc. in the previous policy to the migrated policy. The insurer may underwrite the proposal in case of migratio
+- **common** (df=93) — `pre[- ]existing` — page 18
+  - snippet: r is entitled to transfer the credits gained to the extent of the Sum Insured, No Claim Bonus, specific waiting periods, waiting period for pre-existing disease , Moratorium period etc. from the Existing Insurer to the Acquiring Insurer in the previous policy. XIV. Disclosure of Information 
+- **common** (df=93) — `pre[- ]existing` — page 19
+  - snippet: Addition of Insured Persons on Renewal: If a new member is added in the Policy, either by way of endorsement or at the time of Renewal, the Pre-existing Disease clause, exclusions, loading (if any) and Waiting Periods will be applicable afresh for that member. c. Changes to Sum Insured on Re
+
+## policy-wording/star-health-care/Assure.pdf
+
+- **common** (df=55) — `air ambulance` — page 3
+  - snippet:  of residence (if it is in same city) provided the requirement of an ambulance to the residence is certiﬁed by the medical practitioner. 7. Air Ambulance: Air ambulance expenses are payable subject to an admissible hospitalization claim, the Insured Person(s) is/are eligible for reimbursement
+- **common** (df=55) — `air ambulance` — page 8
+  - snippet: Insured 3 Coverage for Non-medical items (Consumables) Forming Part of Sum Insured 4 Emergency Road ambulance Forming Part of Sum Insured 5 Air Ambulance Forming Part of Sum Insured 6 Pre-hospitalization Expenses Forming Part of Sum Insured 7 Post Hospitalization Expenses Forming Part of Sum 
+- **common** (df=55) — `air ambulance` — page 15
+  - snippet: l Actual Actual Actual Actual 3 Road Ambulance Charges (per policy period) Actual Actual Actual Actual Actual Actual Actual Actual Actual 4 Air Ambulance (per policy year) up to 10% of sum insured up to 10% of sum insured up to 10% of sum insured up to 10% of sum insured up to 10% of sum insu
+- **common** (df=93) — `ayush` — page 1
+  - snippet: of illness and includes relapse within 45 days from the date of last consultation with the Hospital/Nursing Home where treatment was taken. AYUSH Day Care Centre: AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, P
+- **common** (df=93) — `ayush` — page 2
+  - snippet: ra-Cytoplasmic Sperm Injection (ICSI), In-Vitro Fertilisation (IVF) and TESA / TESE (Testicular / Epididymal Sperm Aspiration / Extraction) AYUSH Treatment: AYUSH Treatment refers to the medical and / or hospitalization treatments given under 'Ayurveda, Yoga and Naturopathy, Unani, Si
+- **common** (df=93) — `ayush` — page 3
+  - snippet: iately after the insured person is discharged from the hospital. 10. Domiciliary Hospitalization: Coverage for medical treatment (Including AYUSH) for a period exceeding three days, for an illness/disease/injury, which in the normal course, would require care and treatment at a Hospit
+- **common** (df=93) — `ayush` — page 5
+  - snippet: tion is on package rates iii) Insured stay in Intensive Care Unit or High Dependency Units / wards will not be counted for this purpose 23. AYUSH Treatment: Medical expenses for Inpatient Hospitalization incurred on treatment under Ayurveda, Unani, Sidha and Homeopathy systems of medi
+- **common** (df=93) — `ayush` — page 8
+  - snippet: ts which are part of sum insured and in addition to sum insured SI.No. Coverage Forming Part of Sum Insured / In addition to Sum Insured 21 AYUSH Treatment Forming Part of Sum Insured 22 Coverage for Modern Treatment Forming Part of Sum Insured 23 Automatic Restoration of Sum Insured:
+- **common** (df=93) — `ayush` — page 15
+  - snippet: 80 days Up to 180 days Up to 180 days Up to 180 days Up to 180 days 7 Domiciliary Hospitalization Coverage for medical treatment (Including AYUSH) for a period exceeding three days Coverage for medical treatment (Including AYUSH) for a period exceeding three days Coverage for medical 
+- **common** (df=93) — `ayush` — page 16
+  - snippet: day Rs.1,000/- per day Rs.1,000/- per day Rs.1,000/- per day Rs.1,000/- per day Rs.1,000/- per day Rs.1,000/- per day Rs.1,000/- per day 22 AYUSH Treatment Actuals Actuals Actuals Actuals Actuals Actuals Actuals Actuals Actuals 23 Second Medical Opinion Available Available Available A
+- **common** (df=87) — `co-?pay(?:ment)?` — page 1
+  - snippet: nd accessible parts of the body b) External Congenital Anomaly: Congenital anomaly which is in the visible and accessible parts of the body Co-Payment: Co-payment means a cost sharing requirement under a health insurance policy that provides that the policyholder/insured will bear a speciﬁ
+- **common** (df=87) — `co-?pay(?:ment)?` — page 7
+  - snippet:  by way of and / or on account of the Wellness Program. · Services offered are subject to guidelines issued by IRDAI from time to time. 30. Co-payment: This policy is subject to co-payment of 10% of each and every claim amount for fresh as well as renewal policies for insured person whose 
+- **common** (df=87) — `co-?pay(?:ment)?` — page 11
+  - snippet: closure, misrepresentation and exclusions speciﬁed in the policy contract. The policies would however be subject to all limits, sub limits, co-payments, deductibles as per the policy contract. 12. Premium Payment in Instalments: lf the insured person has opted for Payment of Premium on an 
+- **common** (df=87) — `co-?pay(?:ment)?` — page 16
+  - snippet:  insured whichever is less 28 Wellness Program Available Available Available Available Available Available Available Available Available 29 Co-Payment (Applicable only for insured persons aged 61 years and above at the time of entry) subject to co-payment of 10% of each and every claim amo
+- **common** (df=72) — `consumable` — page 2
+  - snippet: ed and hence Proportionate deduction will be applicable on these items. “Associated Medical Expenses” does not include cost of pharmacy and consumables, cost of implants and medical devices and cost of diagnostics, ICU charges and hence Proportionate deduction will not be applicable on the
+- **common** (df=72) — `consumable` — page 3
+  - snippet: CO) / National Pharmaceuticals Pricing Authority (NPPA) Capping. 4. All day care treatments are covered. 5. Coverage for Non-medical Items (Consumables): If there is an admissible claim under inpatient / day care the policy, then Items as per List I will become payable 6. Emergency Road am
+- **common** (df=72) — `consumable` — page 8
+  - snippet: t and similar expenses. Forming Part of Sum Insured 2 All day care treatments Forming Part of Sum Insured 3 Coverage for Non-medical items (Consumables) Forming Part of Sum Insured 4 Emergency Road ambulance Forming Part of Sum Insured 5 Air Ambulance Forming Part of Sum Insured 6 Pre-hosp
+- **common** (df=93) — `day care` — page 1
+  - snippet: ness and includes relapse within 45 days from the date of last consultation with the Hospital/Nursing Home where treatment was taken. AYUSH Day Care Centre: AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, Polyclinic
+- **common** (df=93) — `day care` — page 2
+  - snippet: Baby: Newborn baby means baby born during the Policy Period and is aged upto 90 days. Non-Network Provider: Non-Network means any hospital, day care centre or other provider that is not part of the network. Notiﬁcation of Claim: Notiﬁcation of claim means the process of intimating a clai
+- **common** (df=93) — `day care` — page 3
+  - snippet: mpany will pay cost of stent as per the Drug Price Control Order (DPCO) / National Pharmaceuticals Pricing Authority (NPPA) Capping. 4. All day care treatments are covered. 5. Coverage for Non-medical Items (Consumables): If there is an admissible claim under inpatient / day care the pol
+- **common** (df=93) — `day care` — page 4
+  - snippet: ncement of sum insured is subject to underwriters approval 18. Treatment for Chronic Severe Refractory Asthma: In-patient hospitalization / Day Care treatment / Home Care Treatment/ Out-patient treatment expenses incurred for treatment of Chronic Severe Refractory Asthma by Advanced Medi
+- **common** (df=93) — `day care` — page 5
+  - snippet: 5. Coverage for Modern Treatment: The following procedures will be covered (wherever medically indicated)either as in patient or as part of day care treatment in a hospital upto sum insured (including Pre and Post hospitalization expenses) during the policy period; a) Uterine artery Embo
+- **common** (df=93) — `day care` — page 8
+  - snippet:  imaging modalities, dialysis, chemotherapy, radiotherapy, cost of pacemaker, stent and similar expenses. Forming Part of Sum Insured 2 All day care treatments Forming Part of Sum Insured 3 Coverage for Non-medical items (Consumables) Forming Part of Sum Insured 4 Emergency Road ambulanc
+- **common** (df=93) — `day care` — page 9
+  - snippet: ut not limited to Vitamins, minerals and organic substances unless prescribed by a medical practitioner as part of hospitalization claim or day care procedure - Code Excl 14 15. Refractive Error - Code Excl 15: Expenses related to the treatment for correction of eyesight due to refractiv
+- **common** (df=93) — `day care` — page 10
+  - snippet:  be applicable from date of enhancement of sums insured only Sl.No. Type of Claim Prescribed Time Limit 1 Reimbursement of hospitalization, day care and pre hospitalization expenses Claim must be ﬁled within 15 days from the date of discharge from the Hospital. 2 Reimbursement of Post ho
+
+## policy-wording/star-health-care/Cancer_Care_Platinum.pdf
+
+- **common** (df=93) — `ayush` — page 1
+  - snippet: of illness and includes relapse within 45 days from the date of last consultation with the Hospital/Nursing Home where treatment was taken. AYUSH Day Care Centre: AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, P
+- **common** (df=93) — `ayush` — page 4
+  - snippet: sum insured. *Sublimits all inclusive with or without hospitalization where ever hospitalization includes pre and post hospitalizations. n) AYUSH Treatment: Medical expenses for Inpatient Hospitalization incurred on treatment under Ayurveda, Unani, Sidha and Homeopathy systems of medi
+- **common** (df=93) — `ayush` — page 8
+  - snippet: rt of the sum insured ICU, Doctor Fee, Medicines, Tests Covered Part of the sum insured Day Care Procedures Covered Part of the sum insured AYUSH Treatment Covered Part of the sum insured Cataract Limit (INR) for one eye - 30,000/- per policy year - 40,000/- for one eye - 40,000/- per
+- **common** (df=87) — `co-?pay(?:ment)?` — page 1
+  - snippet:  accessible parts of the body. b) External Congenital Anomaly: Congenital anomaly which is in the visible and accessible parts of the body. Co-payment: Co-payment means a cost-sharing requirement under a health insurance policy that provides that the policyholder/insured will bear a speciﬁ
+- **common** (df=87) — `co-?pay(?:ment)?` — page 4
+  - snippet: etwork providers on indemnity basis, payable once in life time. Available after a waiting period of 12 months from the policy inception. p) Copayment : This policy is subject to co-payment of 10% of each and every claim amount for fresh as well as renewal policies for insured persons whos
+- **common** (df=72) — `consumable` — page 2
+  - snippet: ssociated Medical Expenses in addition to the difference in room rent. Such associated medical expenses do not include Cost of pharmacy and consumables, Cost of implants and medical devices and Cost of diagnostics. Company: Company means Star Health and Allied Insurance Company Limited. Di
+- **common** (df=93) — `day care` — page 1
+  - snippet: ness and includes relapse within 45 days from the date of last consultation with the Hospital/Nursing Home where treatment was taken. AYUSH Day Care Centre: AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, Polyclinic
+- **common** (df=93) — `day care` — page 2
+  - snippet: er and TPA to provide medical services to an insured by a cashless facility. Non-Network Provider: Non-Network Provider means any hospital, day care centre or other provider that is not part of the network. Notiﬁcation of claim: Notiﬁcation of claim means the process of intimating a clai
+- **common** (df=93) — `day care` — page 3
+  - snippet: e insured person is discharged from the hospital. The amount payable shall be up to 2% of the basic sum insured per hospitalization. g) All day care procedures are covered. h) Cataract treatment: The company will pay the expenses incurred for treatment of cataract up to the limits mentio
+- **common** (df=93) — `day care` — page 4
+  - snippet: 2025 m) Coverage for Modern treatment: The following expenses are payable during the policy period for the treatment/procedure (either as a day care or as an in-patient) is limited to the amount mentioned in table below. This beneﬁt forms part of sum insured. *Sublimits all inclusive wit
+- **common** (df=93) — `day care` — page 5
+  - snippet: ut not limited to Vitamins, minerals and organic substances unless prescribed by a medical practitioner as part of hospitalization claim or day care procedure - Code Excl 14 15. Refractive Error - Code Excl 15: Expenses related to the treatment for correction of eye sight due to refracti
+- **common** (df=93) — `day care` — page 8
+  - snippet: In-patient Hospitalization Single Private AC Room Part of the sum insured ICU, Doctor Fee, Medicines, Tests Covered Part of the sum insured Day Care Procedures Covered Part of the sum insured AYUSH Treatment Covered Part of the sum insured Cataract Limit (INR) for one eye - 30,000/- per 
+- **common** (df=93) — `pre[- ]existing` — page 1
+  - snippet: payment can be made to renew or continue a policy in force without loss of continuity beneﬁts pertaining to waiting periods and coverage of pre-existing diseases. Coverage need not be available during the period for which no premium is received. The grace period for payment of the premium fo
+- **common** (df=93) — `pre[- ]existing` — page 2
+  - snippet: m: Notiﬁcation of claim means the process of intimating a claim to the insurer or TPA through any of the recognized modes of communication. Pre Existing Disease: "Pre-existing disease (PED)" means any condition, ailment, injury or disease: a) that is/are diagnosed by a physician not more tha
+- **common** (df=93) — `pre[- ]existing` — page 3
+  - snippet:  this section shall not be construed as a waiver of Company's right to repudiate any claim on grounds of non disclosure of material fact or pre-existing disease, for hospitalization expenses under hospitalization provisions of the policy contract. j) The Insured Person is given the facility 
+- **common** (df=93) — `pre[- ]existing` — page 4
+  - snippet: is policy in respect of any expenses what so ever incurred by the insured person in connection with or in respect of; STANDARD EXCLUSION 1. Pre-Existing Diseases - Code Excl 01 A. B. C. D. 2. Speciﬁed disease / procedure waiting period - Code Excl 02 A. Expenses related to the treatment of t
+- **common** (df=93) — `pre[- ]existing` — page 8
+  - snippet:  period 30 months) 2.5 3.75 5 - Waiting Period Initial waiting period 30 days (except for Accidents) - For speciﬁc diseases 24 months - For Pre-Existing diseases (including Cancer) 30 months - For Hospice Care 12 months -
+- **common** (df=36) — `proportionate deduction` — page 2
+  - snippet: undergoing treatment in some of the hospitals. If Policy Holder chooses a higher room category above the eligibility deﬁned in policy, then proportionate deduction will apply on the Associated Medical Expenses in addition to the difference in room rent. Such associated medical expenses do not include C
+- **common** (df=36) — `proportionate deduction` — page 3
+  - snippet: ied by the insured person will be considered in proportion to the room category stated in the policy schedule or actuals whichever is less. Proportionate deductions are not applied in respect of the hospitals which do not follow differential billing or for those expenses in respect of which differentia
+- **common** (df=62) — `restore|recharge|reload|refill|reinstat` — page 3
+  - snippet: yle through various wellness activities. The Insured Person can avail the following services: (i) Diet and Nutrition Program: To strengthen/restore the immune system. (ii) Weight Management Program – To maintain healthy weight (iii) Specialist Consultation –Available through "Star Healt
+- **common** (df=93) — `room rent` — page 2
+  - snippet: ting the renewal continuous for the purpose of gaining credit for pre-existing diseases, time-bound exclusions and for all waiting periods. Room Rent: Room rent means the amount charged by a Hospital towards Room and Boarding expenses and shall include the associated medical expenses. Sur
+- **common** (df=70) — `sub[- ]limit` — page 3
+  - snippet: to time. l) Rehabilitation and Pain Management : The company will pay the medical expenses for Rehabilitation and Pain Management up to the sub-limit (or) maximum up to 10% of the basic sum insured whichever is less, per policy year. Note: Company's liability under this beneﬁt shall not e
+- **common** (df=70) — `sub[- ]limit` — page 8
+  - snippet: th App - Rehabilitation & Pain management Covered up to 10% of the Sum Insured Part of the sum insured Modern Treatments Covered (up to the sub-limits) Part of the sum insured Hospice Care Up to 20% of the Basic Sum Insured in life time Part of the sum insured Optional Cover Lump-sum bene
+- **common** (df=93) — `waiting period` — page 1
+  - snippet: m due date during which premium payment can be made to renew or continue a policy in force without loss of continuity beneﬁts pertaining to waiting periods and coverage of pre-existing diseases. Coverage need not be available during the period for which no premium is received. The grace period
+- **common** (df=93) — `waiting period` — page 2
+  - snippet: holders (including all membersunder family cover and group policies), to transfer the credits gained for pre- existing diseases and speciﬁc waiting periods from one health insurance policy to another with the same insurer. Network Provider: Network Provider means hospitals or health care provi
+
+## policy-wording/star-health-care/Cardiac_Care_Platinum.pdf
+
+- **common** (df=93) — `ayush` — page 1
+  - snippet: of illness and includes relapse within 45 days from the date of last consultation with the Hospital/Nursing Home where treatment was taken. AYUSH Day Care Centre: AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, P
+- **common** (df=93) — `ayush` — page 3
+  - snippet: sum insured. *Sublimits all inclusive with or without hospitalization where ever hospitalization includes pre and post hospitalizations. K. AYUSH Treatment: Medical expenses for Inpatient Hospitalization incurred on treatment under Ayurveda, Unani, Siddha and Homeopathy systems of med
+- **common** (df=93) — `ayush` — page 9
+  - snippet:  claim free year maximum up to 100% In-addition to the sum insured Modern Treatments Covered (up to the sub-limits) Part of the sum insured AYUSH Treatment Covered Part of the sum insured Cardiac Devices (Like..AICD, CRT-D, Pacemaker) Up to 50% of the Sum Insured Part of the sum insur
+- **common** (df=72) — `consumable` — page 2
+  - snippet: ssociated Medical Expenses in addition to the difference in room rent. Such associated medical expenses do not include Cost of pharmacy and consumables, Cost of implants and medical devices and Cost of diagnostics. Basic Sum Insured: Basic Sum Insured means the Sum Insured Opted for and fo
+- **common** (df=93) — `day care` — page 1
+  - snippet: ness and includes relapse within 45 days from the date of last consultation with the Hospital/Nursing Home where treatment was taken. AYUSH Day Care Centre: AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, Polyclinic
+- **common** (df=93) — `day care` — page 2
+  - snippet: an Insurer and TPA to provide medical services to an insured by a cashless facility. Non- Network Provider: Non-Network means any hospital, day care centre or other provider that is not part of the network. Notification of Claim: Notification of claim means the process of intimating a cl
+- **common** (df=93) — `day care` — page 3
+  - snippet: pitalization Expenses: Medical expenses incurred up to 60 days immediately after the insured person is discharged from the hospital. G. All day care procedures are covered. H. The expenses incurred on treatment of cataract are payable upto the limits mentioned hereunder; I. E-Medical Opi
+- **common** (df=93) — `day care` — page 5
+  - snippet: ut not limited to Vitamins, minerals and organic substances unless prescribed by a medical practitioner as part of hospitalization claim or day care procedure - Code Excl 14 15. Refractive Error - Code Excl 15: Expenses related to the treatment for correction of eye sight due to refracti
+- **common** (df=93) — `day care` — page 6
+  - snippet: ived Exceeding 21 months 100% of the total premium received Sl.No. Type of Claim Prescribed time limit 1. Reimbursement of hospitalization, day care and pre hospitalization expenses Claim must be ﬁled within 15 days from the date of discharge from the Hospital. 2. Reimbursement of Post h
+- **common** (df=93) — `day care` — page 9
+  - snippet: In-patient Hospitalization Single Private AC Room Part of the sum insured ICU, Doctor Fee, Medicines, Tests Covered Part of the sum insured Day Care Procedures Covered Part of the sum insured Cataract Limit (INR) for one eye - 30,000 per policy year - 40,000 for one eye - 40,000/- & per 
+- **common** (df=93) — `pre[- ]existing` — page 1
+  - snippet: payment can be made to renew or continue a policy in force without loss of continuity beneﬁts pertaining to waiting periods and coverage of pre-existing diseases. Coverage need not be available during the period for which nopremium is received. The grace period for payment of the premium for
+- **common** (df=93) — `pre[- ]existing` — page 2
+  - snippet: eans a facility provided to policyholders (including all members under family cover and group policies), to transfer the credits gained for pre-existing diseases and specific waiting periods from one health insurance policy to another with the same insurer. Network Provider: Network Provider
+- **common** (df=93) — `pre[- ]existing` — page 4
+  - snippet:  this section shall not be construed as a waiver of Company's right to repudiate any claim on grounds of non disclosure of material fact or pre-existing disease, for hospitalization expenses under hospitalization provisions of the policy contract. Note: Expenses incurred for treatment of car
+- **common** (df=93) — `pre[- ]existing` — page 5
+  - snippet: pply afresh to the extent of sum insured increase C. If any of the specified disease/procedure falls under the waiting period specified for pre-Existing diseases, then the longer of the two waiting periods shall apply D. The waiting period for listed conditions shall apply even if contracted
+- **common** (df=93) — `pre[- ]existing` — page 8
+  - snippet: 8 of 10Unique Identiﬁcation No.: SHAHLIP22033V022122Star Cardiac Care Insurance Policy-Platinum POL / CAR-P / V.8 / 2025 Pre-Existing diseases as defined, under Exclusion - Code Excl 01 However in respect of Section 2 this exclusion will be 30 days d) 36 months of continuo
+- **common** (df=36) — `proportionate deduction` — page 2
+  - snippet: ndergoing treatment in some of the hospitals. If Policy Holder chooses a higher room category above the eligibility defined in policy, then proportionate deduction will apply on the Associated Medical Expenses in addition to the difference in room rent. Such associated medical expenses do not include C
+- **common** (df=36) — `proportionate deduction` — page 3
+  - snippet: ied by the insured person will be considered in proportion to the room category stated in the policy schedule or actuals whichever is less. Proportionate deductions are not applied in respect of the hospitals which do not follow differential billing or for those expenses in respect of which differentia
+- **common** (df=62) — `restore|recharge|reload|refill|reinstat` — page 4
+  - snippet: oration of the Basic Sum Insured once by 100% upon exhaustion of the limit of coverage during the policy period. It is made clear that such restored Sum Insured can be utilized only for illness / disease unrelated to the illness / diseases for which claim/s was / were made. The unutiliz
+- **common** (df=62) — `restore|recharge|reload|refill|reinstat` — page 7
+  - snippet: ill continue, subject to other terms of the policy ü Upon exhaustion of the Basic Sum Insured Plus Bonus, Basic Sum Insured Plus Bonus Plus Restore 24. Policy disputes: Any dispute concerning the interpretation of the terms, conditions, limitations and/or exclusion contained herein is u
+- **common** (df=93) — `room rent` — page 2
+  - snippet: ting the renewal continuous for the purpose of gaining credit for pre-existing diseases, time-bound exclusions and for all waiting periods. Room Rent: Room Rent means the amount charged by a Hospital towards Room and Boarding expenses and shall include the associated medical expenses. Sur
+- **common** (df=70) — `sub[- ]limit` — page 4
+  - snippet:  testing. e. Rehabilitation and Pain Management: The company will pay the medical expenses for Rehabilitation and Pain Management up to the sub-limit (or) maximum up to 10% of the basic sum insured whichever is less, per policy year. Rehabilitation: The company will pay the expenses for r
+- **common** (df=70) — `sub[- ]limit` — page 9
+  - snippet: insured No Claim Bonus 10% for every claim free year maximum up to 100% In-addition to the sum insured Modern Treatments Covered (up to the sub-limits) Part of the sum insured AYUSH Treatment Covered Part of the sum insured Cardiac Devices (Like..AICD, CRT-D, Pacemaker) Up to 50% of the S
+- **common** (df=44) — `unlimited` — page 4
+  - snippet: yle. The Insured Person can avail the following services : (i) Nutrition & Diet Consultation (ii) Counselling (For Stress Management) (iii) Unlimited Tele-Consultation & E-pharmacy facility Wellness Reward Program: To avail discount on renewal premium, insured should submit the following 
+- **common** (df=93) — `waiting period` — page 1
+  - snippet: m due date during which premium payment can be made to renew or continue a policy in force without loss of continuity beneﬁts pertaining to waiting periods and coverage of pre-existing diseases. Coverage need not be available during the period for which nopremium is received. The grace period 
+- **common** (df=93) — `waiting period` — page 2
+  - snippet: olders (including all members under family cover and group policies), to transfer the credits gained for pre-existing diseases and specific waiting periods from one health insurance policy to another with the same insurer. Network Provider: Network Provider means hospitals or health care provi
+
+## policy-wording/star-health-care/Comprehensive.pdf
+
+- **common** (df=55) — `air ambulance` — page 3
+  - snippet: t is taken to their place of residence provided the requirement of an ambulance to the residence is certiﬁed by the medical practitioner E. Air Ambulance expenses: Subject to an admissible hospitalization claim, the Insured Person(s) is/are eligible for reimbursement of expenses incurred towa
+- **common** (df=93) — `ayush` — page 1
+  - snippet: iod of illness and includes relapsewithin 45 days from the date of last consultation with the Hospital/Nursing Home wheretreatmentwastaken. AYUSH Day Care Centre: AYUSH Day Care Centre means and includes Community Health Centre (CHC) , Primary Health Centre (PHC), Dispensary, Clinic, 
+- **common** (df=93) — `ayush` — page 3
+  - snippet: expenses under hospitalization provisions of the policy contract. I. Domiciliary hospitalization: Coverage for medical treatment (including AYUSH) for a period exceeding three days, for an illness/disease/injury, which in the normal course, would require care and treatment at a Hospit
+- **common** (df=93) — `ayush` — page 4
+  - snippet: by the Medical Practitioner is outside the scope of this policy ● Utilizing this facility alone will not amount to making a claim Section 9 AYUSH Treatment In patient Hospitalizations Expenses incurred on treatment under Ayurveda, Unani, Siddha and Homeopathy systems of medicines in a
+- **common** (df=87) — `co-?pay(?:ment)?` — page 1
+  - snippet: nd accessible parts of the body b) External Congenital Anomaly: Congenital anomaly which is in the visible and accessible parts of the body Co-Payment: Co-payment means a cost sharing requirement under a health insurance policy that provides that the policyholder/insured will bear a speciﬁ
+- **common** (df=87) — `co-?pay(?:ment)?` — page 10
+  - snippet: l be applicable for the person to be chosen by the Proposer at the time of renewal, subject to other terms, conditions contained herein. I. Co-payment: This policy is subject to co-payment of 10% of each and every claim amount for fresh as well as renewal policies for insured persons whose
+- **common** (df=72) — `consumable` — page 2
+  - snippet: ed and hence Proportionate deduction will be applicable on these items. “Associated Medical Expenses” does not include cost of pharmacy and consumables, cost of implants and medical devices and cost of diagnostics, ICU charges and hence proportionate deduction will not be applicable on the
+- **common** (df=93) — `day care` — page 1
+  - snippet:  illness and includes relapsewithin 45 days from the date of last consultation with the Hospital/Nursing Home wheretreatmentwastaken. AYUSH Day Care Centre: AYUSH Day Care Centre means and includes Community Health Centre (CHC) , Primary Health Centre (PHC), Dispensary, Clinic, Polyclini
+- **common** (df=93) — `day care` — page 2
+  - snippet: Baby: Newborn baby means baby born during the Policy Period and is aged upto 90 days. Non-Network Provider: Non-Network means any hospital, day care centre or other provider that is not part of the network. Notification of Claim: Notiﬁcation of claim means the process of intimating a cla
+- **common** (df=93) — `day care` — page 4
+  - snippet: nt Hospitalizations Expenses incurred on treatment under Ayurveda, Unani, Siddha and Homeopathy systems of medicines in a AYUSH Hospital or Day Care Centre as in patient is payable up to the limits given below: Sum Insured (Rs.) Limit per policy period (Rs.) 5,00,000/- to 15,00,000/- 15,
+- **common** (df=93) — `day care` — page 8
+  - snippet:  - Coverage for Modern Treatments The expenses payable during the entire policy period for the following treatment / procedure (either as a day care or as an in-patient exceeding 24hrs of admission in the hospital) is limited to the amount mentioned in table below; Sum Insured Uterine ar
+- **common** (df=93) — `day care` — page 9
+  - snippet: ut not limited to Vitamins, minerals and organic substances unless prescribed by a medical practitioner as part of hospitalization claim or day care procedure - Code Excl 14 15. Refractive Error - Code Excl 15: Expenses related to the treatment for correction of eye sight due to refracti
+- **common** (df=93) — `day care` — page 10
+  - snippet: . C. For Reimbursement claims: Time limit for submission of; Sl.No. Type of Claim Prescribed time limit 1 Reimbursement of hospitalization, day care and pre hospitalization expenses Claim must be ﬁled within 15 days from the date of discharge from the Hospital 2 Reimbursement of Post hos
+- **common** (df=74) — `domiciliary` — page 1
+  - snippet: m paid thereon shall be forfeited to the Company in the event of misrepresentation, mis-description or non-disclosure of any material fact. Domiciliary Hospitalization: Domiciliary hospitalization means medical treatment for an illness/disease/injury which in the normal course would require
+- **common** (df=74) — `domiciliary` — page 3
+  - snippet: sclosure of material fact or pre-existing disease, for hospitalization expenses under hospitalization provisions of the policy contract. I. Domiciliary hospitalization: Coverage for medical treatment (including AYUSH) for a period exceeding three days, for an illness/disease/injury, which i
+- **common** (df=14) — `once per policy year` — page 6
+  - snippet: olicy Unique Identification No.: SHAHLIP25037V082425 POL / COMP / V.23 / 2024 complete the HRAquestionnaire. The Insured can undertake this once per policy year. On Completion of online HRA questionnaire, the Insured earns 50 wellness points. Note: To get the wellness points mentioned under HRA, the
+- **common** (df=71) — `organ donor` — page 4
+  - snippet: rance Company Limited Star Comprehensive Insurance Policy Unique Identification No.: SHAHLIP25037V082425 POL / COMP / V.23 / 2024 Section 4 Organ Donor In patient hospitalization expenses incurred for organ transplantation from the Donor to the Recipient Insured Person are payable provided 
+- **common** (df=93) — `pre[- ]existing` — page 1
+  - snippet: payment can be made to renew or continue a policy in force without loss of continuity beneﬁts pertaining to waiting periods and coverage of pre-existing diseases. Coverage need not be available during the period for which no premium is received. The grace period for payment of the premium fo
+- **common** (df=93) — `pre[- ]existing` — page 2
+  - snippet: eans a facility provided to policyholders (including all members under family cover and group policies), to transfer the credits gained for pre-existing diseases and speciﬁc waiting periods from one health insurance policy to another with the same insurer. Network Provider: Network Provider 
+- **common** (df=93) — `pre[- ]existing` — page 3
+  - snippet:  this section shall not be construed as a waiver of Company’s right to repudiate any claim on grounds of non disclosure of material fact or pre-existing disease, for hospitalization expenses under hospitalization provisions of the policy contract. I. Domiciliary hospitalization: Coverage for
+- **common** (df=93) — `pre[- ]existing` — page 4
+  - snippet: rds cost of health check up will not prejudice the company’s right to deal with a claim in case of non disclosure of material fact and / or Pre-Existing Diseases in terms of the policy. Section 7 Bariatric Surgery Expenses incurred on hospitalization for bariatric surgical procedure and its 
+- **common** (df=93) — `pre[- ]existing` — page 7
+  - snippet: d on the number of Wellness Points earned, Umesh is eligible to get 10% discount on renewal premium. Section 12 Optional Cover (Buy back of Pre existing Disease Waiting Period) On payment of additional premium the Insured Person has the option to opt for reduction of waiting period in respec
+- **common** (df=93) — `pre[- ]existing` — page 8
+  - snippet: y payments under this policy in respect of any expenses what so ever incurred by the insured person in connection with or in respect of; 1. Pre-Existing Diseases - Code Excl 01 A. Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded
+- **common** (df=93) — `pre[- ]existing` — page 9
+  - snippet: before the commencement of the cover or otherwise outside the Period of Insurance - Code Sec10 Excl 01 2. Any injuries/conditions which are Pre-existing conditions - Code Sec10 Excl 02 3. Any claim arising out of Accidents that the Insured Person has caused - Code Sec10 Excl 03 i. intentiona
+- **common** (df=93) — `pre[- ]existing` — page 12
+  - snippet: f diseases / treatments as per exclusion - Code Excl 02 c) 36 months of continuous coverage without break (with grace period) in respect of Pre-Existing diseases as per exclusion - Code Excl 01 d) 36 months of continuous coverage without break (with grace period) for diseases/conditions diag
+
+## policy-wording/star-health-care/Diabetes_Safe.pdf
+
+- **common** (df=93) — `ayush` — page 1
+  - snippet: of illness and includes relapse within 45 days from the date of last consultation with the Hospital/Nursing Home where treatment was taken. AYUSH Day Care Centre: AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, P
+- **common** (df=93) — `ayush` — page 3
+  - snippet: ulation of the 7%, only nursing expenses, surgeon's / consultants fees, diagnostic charges and cost of drugs and medicines will be taken G. AYUSH Treatment: Medical expenses for Inpatient Hospitalization incurred on treatment under Ayurveda, Unani, Sidha and Homeopathy systems of medi
+- **common** (df=72) — `consumable` — page 2
+  - snippet: ssociated Medical Expenses in addition to the difference in room rent. Such associated medical expenses do not include Cost of pharmacy and consumables, Cost of implants and medical devices and Cost of diagnostics. Basic Sum Insured: Basic Sum Insured means the Sum Insured Opted for and fo
+- **common** (df=93) — `day care` — page 1
+  - snippet: ness and includes relapse within 45 days from the date of last consultation with the Hospital/Nursing Home where treatment was taken. AYUSH Day Care Centre: AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, Polyclinic
+- **common** (df=93) — `day care` — page 2
+  - snippet:  an Insurer and TPA to provide medical services to an insured by a cashless facility. Non-Network Provider: Non-Network means any hospital, day care centre or other provider that is not part of the network. Notiﬁcation of Claim: Notiﬁcation of claim means the process of intimating a clai
+- **common** (df=93) — `day care` — page 3
+  - snippet: lan B); 1. Expenses on Hospitalization for a minimum period of 24 hours only are admissible. However this time limit will not apply for the day care treatments / procedures, where treatment is taken in the Hospital / Nursing Home and the Insured is discharged on the same day 2. Expenses 
+- **common** (df=93) — `day care` — page 4
+  - snippet: - Coverage for Modern Treatments: The expenses payable during the entire policy period for the following treatment / procedure (either as a day care or as an in-patient exceeding 24hrs of admission in the hospital) is limited to the amount mentioned in table below; * Sublimit all inclusi
+- **common** (df=93) — `day care` — page 5
+  - snippet: ut not limited to Vitamins, minerals and organic substances unless prescribed by a medical practitioner as part of hospitalization claim or day care procedure - Code Excl 14 15. Refractive Error - Code Excl 15: Expenses related to the treatment for correction of eye sight due to refracti
+- **common** (df=93) — `day care` — page 6
+  - snippet: urer or to induce the insurer to issue an insurance policy: Sl.No. Type of Claim Prescribed time limit 1. Reimbursement of hospitalization, day care and pre hospitalization expenses Claim must be ﬁled within 15 days from the date of discharge from the Hospital. 2 Reimbursement of Post ho
+- **common** (df=93) — `pre[- ]existing` — page 1
+  - snippet: payment can be made to renew or continue a policy in force without loss of continuity beneﬁts pertaining to waiting periods and coverage of pre-existing diseases. Coverage need not be available during the period for which no premium is received. The grace period for payment of the premium fo
+- **common** (df=93) — `pre[- ]existing` — page 2
+  - snippet: eans a facility provided to policyholders (including all members under family cover and group policies), to transfer the credits gained for pre-existing diseases and speciﬁc waiting periods from one health insurance policy to another with the same insurer. Network Provider: Network Provider 
+- **common** (df=93) — `pre[- ]existing` — page 4
+  - snippet:  this section shall not be construed as a waiver of Company's right to repudiate any claim on grounds of non disclosure of material fact or pre-existing disease, for hospitalization expenses under hospitalization provisions of the policy contract. This beneﬁt forms part of Sum Insured. f. Se
+- **common** (df=93) — `pre[- ]existing` — page 8
+  - snippet: s / treatments falling under exclusion - Code Excl 02 iii. 36 months of continuous coverage without break (with grace period) in respect of Pre-Existing diseases as under exclusion - Code Excl 01 iv. 36 months of continuous coverage without break (with grace period) for diseases / conditions
+- **common** (df=36) — `proportionate deduction` — page 2
+  - snippet: undergoing treatment in some of the hospitals. If Policy Holder chooses a higher room category above the eligibility deﬁned in policy, then proportionate deduction will apply on the Associated Medical Expenses in addition to the difference in room rent. Such associated medical expenses do not include C
+- **common** (df=36) — `proportionate deduction` — page 3
+  - snippet: penses will be considered in proportion to the eligible room rent/room category stated in the policy schedule or actuals whichever is less. Proportionate deductions are not applied in respect of the hospitals which do not follow differential billing or for those expenses in respect of which differentia
+- **common** (df=36) — `proportionate deduction` — page 4
+  - snippet: penses will be considered in proportion to the eligible room rent/room category stated in the policy schedule or actuals whichever is less. Proportionate deductions are not applied in respect of the hospitals which do not follow differential billing or for those expenses in respect of which differentia
+- **common** (df=62) — `restore|recharge|reload|refill|reinstat` — page 8
+  - snippet: e Basic Sum Insured by 100% immediately upon exhaustion of the basic sum insured, once during the policy period. It is made clear that such restored Sum Insured can be utilized only for illness /disease/treatment unrelated to the illness /diseases/treatment for which claim/s was /were m
+- **common** (df=93) — `room rent` — page 2
+  - snippet: ailing charges in the geographical area for identical or similar services, taking into account the nature of the illness / injury involved. Room Rent: Room Rent means the amount charged by a Hospital towards Room and Boarding expenses and shall include the associated medical expenses. Sur
+- **common** (df=93) — `room rent` — page 3
+  - snippet: harged on the same day 7. Important Note: Expenses relating to Associated Medical Expenses will be considered in proportion to the eligible room rent/room category stated in the policy schedule or actuals whichever is less. Proportionate deductions are not applied in respect of the hospit
+- **common** (df=93) — `room rent` — page 4
+  - snippet:  treatment of cataract are limited to; 3. Expenses relating to Associated Medical Expenses will be considered in proportion to the eligible room rent/room category stated in the policy schedule or actuals whichever is less. Proportionate deductions are not applied in respect of the hospit
+- **common** (df=93) — `waiting period` — page 1
+  - snippet: m due date during which premium payment can be made to renew or continue a policy in force without loss of continuity beneﬁts pertaining to waiting periods and coverage of pre-existing diseases. Coverage need not be available during the period for which no premium is received. The grace period
+- **common** (df=93) — `waiting period` — page 2
+  - snippet: holders (including all members under family cover and group policies), to transfer the credits gained for pre-existing diseases and speciﬁc waiting periods from one health insurance policy to another with the same insurer. Network Provider: Network Provider means hospitals or health care provi
+- **common** (df=93) — `waiting period` — page 4
+  - snippet: ry of 36 months of continuous coverage after the date of inception of the ﬁrst policy with insurer B. C. D. 2. Speciﬁed disease / procedure waiting period - Code Excl 02 Applicable for Section 1 under Plan B A. Expenses related to the treatment of following listed systems shall be excluded unt
+- **common** (df=93) — `waiting period` — page 5
+  - snippet: Carpel Tunnel Syndrome, Trigger Finger, lipoma, neuroﬁbroma, ganglion and similar pathology g. Any transplant and related surgery 3. 30-day waiting period - Code Excl 03 Applicable for Section 1 under Plan B; 1. Expenses related to the treatment of any illness within 30 days from the ﬁrst poli
+- **common** (df=93) — `waiting period` — page 7
+  - snippet: rance product available with the Company at the time of renewal with all the accrued continuity beneﬁts such as cumulative bonus, waiver of waiting period as per IRDAI guidelines, provided the policy has been maintained without a break 11. Moratorium Period: After completion of sixty continuou
+
+## policy-wording/star-health-care/Family_Health_Optima.pdf
+
+- **common** (df=55) — `air ambulance` — page 8
+  - snippet: s needed for medical reasons to go to hospital for treatment provided there is an admissible claim for hospitalization under the policy. G. Air Ambulance charges up to 10% of the Sum Insured during the entire policy period, provided that; 1. It is for life threatening emergency health conditi
+- **common** (df=93) — `ayush` — page 1
+  - snippet: of illness and includes relapse within 45 days from the date of last consultation with the Hospital/Nursing Home where treatment was taken. AYUSH Day Care Centre: AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, P
+- **common** (df=93) — `ayush` — page 2
+  - snippet:  V.25 / 2025 iv. Maintaining daily records of the patients and making them accessible to the insurance company’s authorized representative. AYUSH Treatment: AYUSH Treatment refers to the medical and / or hospitalization treatments given under ‘Ayurveda, Yoga and Naturopathy, Unani, Si
+- **common** (df=93) — `ayush` — page 9
+  - snippet: urance Plan | UIN : SHAHLIP25039V082425 | POL / FHO / V.25 / 2025 J. Domiciliary Hospitalization: Coverage for medical treatment (Including AYUSH) for a period exceeding three days, for an illness/disease/injury, which in the normal course, would require care and treatment at a Hospit
+- **common** (df=93) — `ayush` — page 11
+  - snippet: or High Dependency Units / wards will not be counted for this purpose v. Payment under this beneﬁt does not form part of the Sum Insured S. AYUSH Treatment: Inpatient Hospitalizations Expenses incurred on treatment under Ayurveda, Unani, Siddha and Homeopathy systems of medicines in a
+- **common** (df=87) — `co-?pay(?:ment)?` — page 2
+  - snippet: nd accessible parts of the body b) External Congenital Anomaly: Congenital anomaly which is in the visible and accessible parts of the body Co-Payment: Co-payment means a cost sharing requirement under a health insurance policy that provides that the policyholder/insured will bear a speciﬁ
+- **common** (df=87) — `co-?pay(?:ment)?` — page 15
+  - snippet: available irrespective of a claim and only upon timely renewal without break or upon renewal within the grace period allowed. AA. Mandatory Co-payment (Applicable for A to K and S): This policy is subject to co- payment of 20% of each and every claim amount for fresh as well as renewal pol
+- **common** (df=87) — `co-?pay(?:ment)?` — page 22
+  - snippet: sured AD. Optional Cover - The following Optional Cover is available on discount as shown in the Policy Schedule Option to choose Voluntary Co-payment: If the insured person chooses voluntary co- payment, the Company will provide a discount on premium as per the table given below; Co-payme
+- **common** (df=72) — `consumable` — page 6
+  - snippet: ated and hence Proportionate deduction will be applicable on these items. Associated Medical Expenses does not include cost of pharmacy and consumables, cost of implants and medical devices and cost of diagnostics, ICU charges and hence proportionate deduction will not be applicable on the
+- **common** (df=93) — `day care` — page 1
+  - snippet: ness and includes relapse within 45 days from the date of last consultation with the Hospital/Nursing Home where treatment was taken. AYUSH Day Care Centre: AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, Polyclinic
+- **common** (df=93) — `day care` — page 2
+  - snippet: that the policyholder/insured will bear a speciﬁed percentage of the admissible claims amount. Aco-payment does not reduce the Sum Insured. Day Care Centre: A day care centre means any institution established for day care treatment of illness and/or injuries or a medical setup with a hos
+- **common** (df=93) — `day care` — page 3
+  - snippet: the premium is paid in instalments during the policy period. Hospital: A hospital means any institution established for in-patient care and day care treatment of illness and/or injuries and which has been registered as a hospital with the local authorities under Clinical Establishments (
+- **common** (df=93) — `day care` — page 5
+  - snippet: ly Health Optima Insurance Plan | UIN : SHAHLIP25039V082425 | POL / FHO / V.25 / 2025 Non-Network Provider: Non-Network means any hospital, day care centre or other provider that is not part of the network. Notification of Claim: Notiﬁcation of claim means the process of intimating a cla
+- **common** (df=93) — `day care` — page 6
+  - snippet: tion of deformities and defects, diagnosis and cure of diseases, relief from suffering and prolongation of life, performed in a hospital or day care centre by a medical practitioner. Unproven/Experimental treatment: Unproven/ Experimental treatment means the treatment including drug expe
+- **common** (df=93) — `day care` — page 8
+  - snippet: mpany will pay cost of stent as per the Drug Price Control Order (DPCO) / National Pharmaceuticals Pricing Authority (NPPA) Capping. D. All day care procedures are covered. Expenses on Hospitalization for a minimum period of 24 hours only are admissible. However. this time limit will not
+- **common** (df=93) — `day care` — page 14
+  - snippet: dent 5. Automatic Restoration of Sum Insured and Recharge Beneﬁt shall not apply for this beneﬁt 6. This beneﬁt shall not be applicable for day care treatment 7. The unutilized balance cannot be carried forward for the remaining policy period or for renewal Y. Coverage for Modern Treatme
+- **common** (df=93) — `day care` — page 24
+  - snippet: ut not limited to Vitamins, minerals and organic substances unless prescribed by a medical practitioner as part of hospitalization claim or day care procedure - Code Excl 14 15. Refractive Error - Code Excl 15: Expenses related to the treatment for correction of eyesight due to refractiv
+- **common** (df=93) — `day care` — page 27
+  - snippet:  C. For Reimbursement claims: Time limit for submission of; Sl. No. Type of Claim Prescribed time limit 1 Reimbursement of hospitalization, day care and pre hospitalization expenses Claim must be ﬁled within 15 days from the date of dis- charge from the Hospital 2 Reimbursement of Post h
+- **common** (df=74) — `domiciliary` — page 3
+  - snippet: INSURANCE COMPANY LIMITED | POLICY WORDINGS 3 / 35Family Health Optima Insurance Plan | UIN : SHAHLIP25039V082425 | POL / FHO / V.25 / 2025 Domiciliary Hospitalization: Domiciliary hospitalization means medical treatment for an illness/disease/injury which in the normal course would require
+- **common** (df=74) — `domiciliary` — page 9
+  - snippet: URANCE COMPANY LIMITED | POLICY WORDINGS 9 / 35Family Health Optima Insurance Plan | UIN : SHAHLIP25039V082425 | POL / FHO / V.25 / 2025 J. Domiciliary Hospitalization: Coverage for medical treatment (Including AYUSH) for a period exceeding three days, for an illness/disease/injury, which i
+- **common** (df=14) — `once per policy year` — page 16
+  - snippet: The Insured can log into his/her account on the website www.starhealth.in and complete the HRAquestionnaire. The Insured can undertake this once per policy year. On Completion of online HRA questionnaire, the Insured earns 150 wellness points. Note: To get the wellness points mentioned under HRA, th
+- **common** (df=71) — `organ donor` — page 9
+  - snippet: ss than 10 days, Tonsillitis and Upper Respiratory Tract infection including Laryngitis and Pharyngitis, Arthritis, Gout and Rheumatism. K. Organ Donor Expenses for organ transplantation where the insured person is the recipient are payable provided the claim for transplantation is payable 
+- **common** (df=93) — `pre[- ]existing` — page 3
+  - snippet: payment can be made to renew or continue a policy in force without loss of continuity beneﬁts pertaining to waiting periods and coverage of pre-existing diseases. Coverage need not be available during the period for which no premium is received. The grace period for payment of the premium fo
+- **common** (df=93) — `pre[- ]existing` — page 4
+  - snippet: eans a facility provided to policyholders (including all members under family cover and group policies), to transfer the credits gained for pre-existing diseases and speciﬁc waiting periods from one health insurance policy to another with the same insurer. Network Provider: Network Provider 
+- **common** (df=93) — `pre[- ]existing` — page 5
+  - snippet: m: Notiﬁcation of claim means the process of intimating a claim to the insurer or TPA through any of the recognized modes of communication. Pre-Existing Disease: Pre-existing disease (PED) means any condition, ailment, injury or disease: a. that is/are diagnosed by a physician not more than 
+
+## policy-wording/star-health-care/Health_Premier.pdf
+
+- **common** (df=55) — `air ambulance` — page 3
+  - snippet:  is taken to their place of residence provided the requirement of an ambulance to the residence is certiﬁed by the medical practitioner. 8. Air Ambulance Subject to an admissible hospitalization claim, the Insured Person(s) is/are eligible for reimbursement of expenses incurred towards the co
+- **common** (df=55) — `air ambulance` — page 6
+  - snippet: ures Forming Part of Sum Insured 3 Non-medical coverage Forming Part of Sum Insured 4 Road ambulance expenses Forming Part of Sum Insured 5 Air Ambulance Forming Part of Sum Insured 6 Pre-hospitalization Expenses Forming Part of Sum Insured 7 Post Hospitalization Expenses Forming Part of Sum 
+- **common** (df=93) — `ayush` — page 1
+  - snippet: of illness and includes relapse within 45 days from the date of last consultation with the Hospital/Nursing Home where treatment was taken. AYUSH Day Care Centre: AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, P
+- **common** (df=93) — `ayush` — page 3
+  - snippet:  above the Limit of Coverage and upto the Sum Insured. This additional Sum Insured can be utilized by the Donor and not by the Insured. 12. AYUSH Treatment: In patient Hospitalizations /day care treatments expenses incurred for treatment of diseases / illness / accidental injuries by 
+- **common** (df=93) — `ayush` — page 7
+  - snippet: ts which are part of sum insured and in addition to sum insured SI.No. Coverage Forming Part of Sum Insured / In addition to Sum Insured 11 AYUSH Treatment Forming Part of Sum Insured 12 Bariatric Surgery Forming Part of Sum Insured 13 Coverage for Modern Treatment Forming Part of Sum
+- **common** (df=87) — `co-?pay(?:ment)?` — page 1
+  - snippet: nd accessible parts of the body b) External Congenital Anomaly: Congenital anomaly which is in the visible and accessible parts of the body Co-Payment: Co-payment means a cost sharing requirement under a health insurance policy that provides that the policyholder/insured will bear a speciﬁ
+- **common** (df=87) — `co-?pay(?:ment)?` — page 6
+  - snippet:  by way of and / or on account of the Wellness Program. · Services offered are subject to guidelines issued by IRDAI from time to time. 24. Co-payment: (Applicable for Insured persons whose age at the time of entry is above 65 years) Each and every claim under the Policy shall be subject t
+- **common** (df=72) — `consumable` — page 2
+  - snippet: ssociated Medical Expenses in addition to the difference in room rent. Such associated medical expenses do not include Cost of pharmacy and consumables, Cost of implants and medical devices and Cost of diagnostics. Company: Company means Star Health and Allied Insurance Company Limited Dia
+- **common** (df=72) — `consumable` — page 3
+  - snippet: me day. 5. Expenses incurred on treatment of Cataract is subject to the limit as per the following table 6. Coverage for Non-medical Items (Consumables) : If there is an admissible claim under the policy, then Items as per List I speciﬁed in this policy will become payable 7. Road ambulanc
+- **common** (df=93) — `day care` — page 1
+  - snippet: ness and includes relapse within 45 days from the date of last consultation with the Hospital/Nursing Home where treatment was taken. AYUSH Day Care Centre: AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, Polyclinic
+- **common** (df=93) — `day care` — page 2
+  - snippet:  an Insurer and TPA to provide medical services to an insured by a cashless facility. Non-Network Provider: Non-Network means any hospital, day care centre or other provider that is not part of the network. Notiﬁcation of Claim: Notiﬁcation of claim means the process of intimating a clai
+- **common** (df=93) — `day care` — page 3
+  - snippet: mpany will pay cost of stent as per the Drug Price Control Order (DPCO) / National Pharmaceuticals Pricing Authority (NPPA) Capping. 4. All day care procedures are covered. Expenses on Hospitalization for a minimum period of 24 hours only are admissible. However this time limit will not 
+- **common** (df=93) — `day care` — page 4
+  - snippet: d. Stroke Pain Management treatment The Company will pay the expenses for the following, if availed at authorized centres as an In-patient/ Day Care treatment 19. Hospice Care : Payable up to 10% of the sum insured subject to a maximum of Rs.5 lakhs, if availed at our Networked facility 
+- **common** (df=93) — `day care` — page 6
+  - snippet: t as per the Drug Price Control Order (DPCO) / National Pharmaceuticals Pricing Authority (NPPA) Capping. Forming Part of Sum Insured 2 All day care procedures Forming Part of Sum Insured 3 Non-medical coverage Forming Part of Sum Insured 4 Road ambulance expenses Forming Part of Sum Ins
+- **common** (df=93) — `day care` — page 7
+  - snippet: ut not limited to Vitamins, minerals and organic substances unless prescribed by a medical practitioner as part of hospitalization claim or day care procedure - Code Excl 14 List of Beneﬁts which are part of sum insured and in addition to sum insured SI.No. Coverage Forming Part of Sum I
+- **common** (df=93) — `day care` — page 8
+  - snippet: epaid by all recipient(s)/policyholder(s), who has made that Sl.No. Type of Claim Prescribed time limit 1 Reimbursement of hospitalization, day care and pre hospitalization expenses Claim must be ﬁled within 15 days from the date of discharge from the Hospital. 2 Reimbursement of Post ho
+- **common** (df=74) — `domiciliary` — page 1
+  - snippet: m paid thereon shall be forfeited to the Company in the event of misrepresentation, mis-description or non-disclosure of any material fact. Domiciliary Hospitalization: Domiciliary hospitalization means medical treatment for an illness/disease/injury which in the normal course would require
+- **common** (df=74) — `domiciliary` — page 3
+  - snippet: tra Operative Neuro Monitoring) l) Stem cell therapy: Hematopoietic stem cells for bone marrow transplant for haematological conditions 15. Domiciliary Hospitalization: Coverage for medical treatment (Including AYUSH) for a period exceeding three days, for an illness/disease/injury, which i
+- **common** (df=74) — `domiciliary` — page 7
+  - snippet: ealth Check Up In addition to Sum Insured 18 Hospice Care Forming Part of Sum Insured 19 Home care treatment Forming Part of Sum Insured 20 Domiciliary Hospitalisation Forming Part of Sum Insured 1. Pre-Existing Diseases - Code Excl 01 A. Expenses related to the treatment of a pre-existing 
+- **common** (df=48) — `non[- ]medical` — page 3
+  - snippet: ischarged on the same day. 5. Expenses incurred on treatment of Cataract is subject to the limit as per the following table 6. Coverage for Non-medical Items (Consumables) : If there is an admissible claim under the policy, then Items as per List I speciﬁed in this policy will become payabl
+- **common** (df=48) — `non[- ]medical` — page 6
+  - snippet: ional Pharmaceuticals Pricing Authority (NPPA) Capping. Forming Part of Sum Insured 2 All day care procedures Forming Part of Sum Insured 3 Non-medical coverage Forming Part of Sum Insured 4 Road ambulance expenses Forming Part of Sum Insured 5 Air Ambulance Forming Part of Sum Insured 6 Pr
+- **common** (df=14) — `once per policy year` — page 5
+  - snippet: he Insured can log into his/her account on the website www.starhealth.in and complete the HRA questionnaire. The Insured can undertake this once per policy year. On Completion of online HRA questionnaire, the Insured earns 50 wellness points. Note: To get the wellness points mentioned under HRA, the
+- **common** (df=71) — `organ donor` — page 3
+  - snippet: Hospitalization Expenses: Medical expenses incurred up to 90 days immediately after the insured person is discharged from the hospital. 11. Organ Donor Expenses: In patient hospitalization expenses incurred for organ transplantation from the Donor to the Recipient Insured Person are payable
+- **common** (df=71) — `organ donor` — page 6
+  - snippet: art of Sum Insured 6 Pre-hospitalization Expenses Forming Part of Sum Insured 7 Post Hospitalization Expenses Forming Part of Sum Insured 8 Organ Donor Expenses Forming Part of Sum Insured 9 Cataract Treatment Forming Part of Sum Insured 10 Complications necessitating Redo surgery or ICU ad
+- **common** (df=93) — `pre[- ]existing` — page 1
+  - snippet: payment can be made to renew or continue a policy in force without loss of continuity beneﬁts pertaining to waiting periods and coverage of pre-existing diseases. Coverage need not be available during the period for which no premium is received. The grace period for payment of the premium fo
+
+## policy-wording/star-health-care/Medi_Classic.pdf
+
+- **common** (df=93) — `ayush` — page 1
+  - snippet: of illness and includes relapse within 45 days from the date of last consultation with the Hospital/Nursing Home where treatment was taken. AYUSH Day Care Centre: AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, P
+- **common** (df=93) — `ayush` — page 3
+  - snippet: . The restored Basic Sum Insured cannot be carried forward. This beneﬁt is not available for Modern Treatment L. Non Allopathic Treatment / AYUSH: In patient Hospitalizations Expenses incurred for treatment of diseases / illness / accidental injuries by system of medicines other than 
+- **common** (df=93) — `ayush` — page 4
+  - snippet: for Modern Treatment M. Domiciliary hospitalization treatments for a period exceeding three days: Coverage for medical treatment (Including AYUSH) for a period exceeding three days, for an illness / disease / injury, which in the normal course, would require care and treatment at a Ho
+- **common** (df=93) — `ayush` — page 5
+  - snippet: ot apply for the New Born Baby — All other terms, conditions and exclusions shall apply for the New Born Baby R. Non Allopathic Treatment / AYUSH: In patient Hospitalizations Expenses incurred for treatment of diseases / illness / accidental injuries by system of medicines other than 
+- **common** (df=87) — `co-?pay(?:ment)?` — page 1
+  - snippet: nd accessible parts of the body b) External Congenital Anomaly: Congenital anomaly which is in the visible and accessible parts of the body Co-Payment: Co-payment means a cost sharing requirement under a health insurance policy that provides that the policyholder/insured will bear a speciﬁ
+- **common** (df=87) — `co-?pay(?:ment)?` — page 5
+  - snippet: or the day care treatments / procedures, where treatment is taken In Hospital/Nursing Home and the Insured is discharged on the same day 6. Co-payment (Not Applicable for Patient Care and Hospital Cash): This policy is subject to co-payment of 10% of each and every claim amount, for fresh 
+- **common** (df=72) — `consumable` — page 2
+  - snippet: ed and hence Proportionate deduction will be applicable on these items. “Associated Medical Expenses” does not include cost of pharmacy and consumables, cost of implants and medical devices and cost of diagnostics, ICU charges and hence proportionate deduction will not be applicable on the
+- **common** (df=93) — `day care` — page 1
+  - snippet: ness and includes relapse within 45 days from the date of last consultation with the Hospital/Nursing Home where treatment was taken. AYUSH Day Care Centre: AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, Polyclinic
+- **common** (df=93) — `day care` — page 2
+  - snippet: Baby: Newborn baby means baby born during the Policy Period and is aged upto 90 days. Non-Network Provider: Non-Network means any hospital, day care centre or other provider that is not part of the network. Notiﬁcation of Claim: Notiﬁcation of claim means the process of intimating a clai
+- **common** (df=93) — `day care` — page 3
+  - snippet:  Coverage for Modern Treatments: The expenses payable during the entire policy period for the following treatment / procedures (either as a day care or as in-patient exceeding 24hrs of admission in the hospital) is limited to the amount mentioned in table below; *Sublimit all inclusive w
+- **common** (df=93) — `day care` — page 4
+  - snippet:  Coverage for Modern Treatments: The expenses payable during the entire policy period for the following treatment / procedures (either as a day care or as in-patient exceeding 24hrs of admission in the hospital) is limited to the amount mentioned in table below; *Sublimit all inclusive w
+- **common** (df=93) — `day care` — page 5
+  - snippet: g to hospitalization will be considered in proportion to the eligible room category stated in the policy or actual whichever is less 4. All day care procedures are covered under this policy 5. Expenses on Hospitalization for a minimum period of 24 hours only are admissible. However this 
+- **common** (df=93) — `day care` — page 6
+  - snippet: ut not limited to Vitamins, minerals and organic substances unless prescribed by a medical practitioner as part of hospitalization claim or day care procedure - Code Excl 14 15. Refractive Error - Code Excl 15: Expenses related to the treatment for correction of eye sight due to refracti
+- **common** (df=74) — `domiciliary` — page 1
+  - snippet:  paid thereon shall be forfeited to the Company in the event of misrepresentation, mis-description or non- disclosure of any material fact. Domiciliary Hospitalization: Domiciliary hospitalization means medical treatment for an illness/disease/injury which in the normal course would require
+- **common** (df=74) — `domiciliary` — page 4
+  - snippet: as / were made. The unutilized additional Basic Sum Insured cannot be carried forward. This beneﬁt is not available for Modern Treatment M. Domiciliary hospitalization treatments for a period exceeding three days: Coverage for medical treatment (Including AYUSH) for a period exceeding three
+- **common** (df=71) — `organ donor` — page 4
+  - snippet: s than 10 days, T onsillitis and Upper Respiratory Tract infection including Laryngitis and Pharyngitis, Arthritis, Gout and Rheumatism. N. Organ Donor Expenses: In patient hospitalization expenses incurred for organ transplantation from the Donor to the recipient insured person are payable
+- **common** (df=93) — `pre[- ]existing` — page 1
+  - snippet: payment can be made to renew or continue a policy in force without loss of continuity beneﬁts pertaining to waiting periods and coverage of pre-existing diseases. Coverage need not be available during the period for which no premium is received. The grace period for payment of the premium fo
+- **common** (df=93) — `pre[- ]existing` — page 2
+  - snippet: eans a facility provided to policyholders (including all members under family cover and group policies), to transfer the credits gained for pre-existing diseases and speciﬁc waiting periods from one health insurance policy to another with the same insurer. Network Provider: Network Provider 
+- **common** (df=93) — `pre[- ]existing` — page 5
+  - snippet: s policy in respect of any expenses what so ever incurred by the insured person in connection with or in respect of; STANDARD EXCLUSIONS 1. Pre-Existing Diseases - Code Excl 01 A. Expenses related to the treatment of a Pre-Existing Disease (PED) and its direct complications shall be excluded
+- **common** (df=36) — `proportionate deduction` — page 2
+  - snippet: er including Surgeon/ anesthetist / Physician / Specialist of the Hospital where the Insured Person has been admitted and treated and hence Proportionate deduction will be applicable on these items. “Associated Medical Expenses” does not include cost of pharmacy and consumables, cost of implants and me
+- **common** (df=36) — `proportionate deduction` — page 3
+  - snippet: penses will be considered in proportion to the eligible room rent/room category stated in the policy schedule or actuals whichever is less. Proportionate deductions are not applied in respect of the hospitals which do not follow differential billing or for those expenses in respect of which differentia
+- **common** (df=62) — `restore|recharge|reload|refill|reinstat` — page 3
+  - snippet: 200%, once during the policy period, immediately upon exhaustion of the limit of coverage which has been deﬁned. It is made clear that such restored Basic Sum Insured can be utilized only for illness / disease unrelated to the illness / diseases for which claim/s was / were made. The re
+- **common** (df=62) — `restore|recharge|reload|refill|reinstat` — page 4
+  - snippet:  200% once during the policy period, immediately upon exhaustion of the limit of coverage which has been deﬁned. It is made clear that such restored Basic Sum Insured can be utilized only for illness / disease unrelated to the illness / diseases for which claim/s was / were made. The re
+- **common** (df=62) — `restore|recharge|reload|refill|reinstat` — page 8
+  - snippet: pire immediately on the earlier of the following events;  Upon the death of the Insured Person  Upon exhaustion of Limit of Coverage Plus Restored Basic Sum Insured wherever applicable Applicable for Gold Plan: The insurance under this policy with respect to each relevant Insured Pers
+- **common** (df=93) — `room rent` — page 2
+  - snippet: ting the renewal continuous for the purpose of gaining credit for pre-existing diseases, time-bound exclusions and for all waiting periods. Room Rent: Room Rent means the amount charged by a Hospital towards Room and Boarding expenses and shall include the associated medical expenses. Sur
+
+## policy-wording/star-health-care/Medi_Classic_Gold.pdf
+
+- **common** (df=93) — `ayush` — page 1
+  - snippet: of illness and includes relapse within 45 days from the date of last consultation with the Hospital/Nursing Home where treatment was taken. AYUSH Day Care Centre: AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, P
+- **common** (df=93) — `ayush` — page 3
+  - snippet: . The restored Basic Sum Insured cannot be carried forward. This beneﬁt is not available for Modern Treatment L. Non Allopathic Treatment / AYUSH: In patient Hospitalizations Expenses incurred for treatment of diseases / illness / accidental injuries by system of medicines other than 
+- **common** (df=93) — `ayush` — page 4
+  - snippet: for Modern Treatment M. Domiciliary hospitalization treatments for a period exceeding three days: Coverage for medical treatment (Including AYUSH) for a period exceeding three days, for an illness / disease / injury, which in the normal course, would require care and treatment at a Ho
+- **common** (df=93) — `ayush` — page 5
+  - snippet: ot apply for the New Born Baby — All other terms, conditions and exclusions shall apply for the New Born Baby R. Non Allopathic Treatment / AYUSH: In patient Hospitalizations Expenses incurred for treatment of diseases / illness / accidental injuries by system of medicines other than 
+- **common** (df=87) — `co-?pay(?:ment)?` — page 1
+  - snippet: nd accessible parts of the body b) External Congenital Anomaly: Congenital anomaly which is in the visible and accessible parts of the body Co-Payment: Co-payment means a cost sharing requirement under a health insurance policy that provides that the policyholder/insured will bear a speciﬁ
+- **common** (df=87) — `co-?pay(?:ment)?` — page 5
+  - snippet: or the day care treatments / procedures, where treatment is taken In Hospital/Nursing Home and the Insured is discharged on the same day 6. Co-payment (Not Applicable for Patient Care and Hospital Cash): This policy is subject to co-payment of 10% of each and every claim amount, for fresh 
+- **common** (df=72) — `consumable` — page 2
+  - snippet: ed and hence Proportionate deduction will be applicable on these items. “Associated Medical Expenses” does not include cost of pharmacy and consumables, cost of implants and medical devices and cost of diagnostics, ICU charges and hence proportionate deduction will not be applicable on the
+- **common** (df=93) — `day care` — page 1
+  - snippet: ness and includes relapse within 45 days from the date of last consultation with the Hospital/Nursing Home where treatment was taken. AYUSH Day Care Centre: AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, Polyclinic
+- **common** (df=93) — `day care` — page 2
+  - snippet: Baby: Newborn baby means baby born during the Policy Period and is aged upto 90 days. Non-Network Provider: Non-Network means any hospital, day care centre or other provider that is not part of the network. Notiﬁcation of Claim: Notiﬁcation of claim means the process of intimating a clai
+- **common** (df=93) — `day care` — page 3
+  - snippet:  Coverage for Modern Treatments: The expenses payable during the entire policy period for the following treatment / procedures (either as a day care or as in-patient exceeding 24hrs of admission in the hospital) is limited to the amount mentioned in table below; *Sublimit all inclusive w
+- **common** (df=93) — `day care` — page 4
+  - snippet:  Coverage for Modern Treatments: The expenses payable during the entire policy period for the following treatment / procedures (either as a day care or as in-patient exceeding 24hrs of admission in the hospital) is limited to the amount mentioned in table below; *Sublimit all inclusive w
+- **common** (df=93) — `day care` — page 5
+  - snippet: g to hospitalization will be considered in proportion to the eligible room category stated in the policy or actual whichever is less 4. All day care procedures are covered under this policy 5. Expenses on Hospitalization for a minimum period of 24 hours only are admissible. However this 
+- **common** (df=93) — `day care` — page 6
+  - snippet: ut not limited to Vitamins, minerals and organic substances unless prescribed by a medical practitioner as part of hospitalization claim or day care procedure - Code Excl 14 15. Refractive Error - Code Excl 15: Expenses related to the treatment for correction of eye sight due to refracti
+- **common** (df=74) — `domiciliary` — page 1
+  - snippet:  paid thereon shall be forfeited to the Company in the event of misrepresentation, mis-description or non- disclosure of any material fact. Domiciliary Hospitalization: Domiciliary hospitalization means medical treatment for an illness/disease/injury which in the normal course would require
+- **common** (df=74) — `domiciliary` — page 4
+  - snippet: as / were made. The unutilized additional Basic Sum Insured cannot be carried forward. This beneﬁt is not available for Modern Treatment M. Domiciliary hospitalization treatments for a period exceeding three days: Coverage for medical treatment (Including AYUSH) for a period exceeding three
+- **common** (df=71) — `organ donor` — page 4
+  - snippet: s than 10 days, T onsillitis and Upper Respiratory Tract infection including Laryngitis and Pharyngitis, Arthritis, Gout and Rheumatism. N. Organ Donor Expenses: In patient hospitalization expenses incurred for organ transplantation from the Donor to the recipient insured person are payable
+- **common** (df=93) — `pre[- ]existing` — page 1
+  - snippet: payment can be made to renew or continue a policy in force without loss of continuity beneﬁts pertaining to waiting periods and coverage of pre-existing diseases. Coverage need not be available during the period for which no premium is received. The grace period for payment of the premium fo
+- **common** (df=93) — `pre[- ]existing` — page 2
+  - snippet: eans a facility provided to policyholders (including all members under family cover and group policies), to transfer the credits gained for pre-existing diseases and speciﬁc waiting periods from one health insurance policy to another with the same insurer. Network Provider: Network Provider 
+- **common** (df=93) — `pre[- ]existing` — page 5
+  - snippet: s policy in respect of any expenses what so ever incurred by the insured person in connection with or in respect of; STANDARD EXCLUSIONS 1. Pre-Existing Diseases - Code Excl 01 A. Expenses related to the treatment of a Pre-Existing Disease (PED) and its direct complications shall be excluded
+- **common** (df=36) — `proportionate deduction` — page 2
+  - snippet: er including Surgeon/ anesthetist / Physician / Specialist of the Hospital where the Insured Person has been admitted and treated and hence Proportionate deduction will be applicable on these items. “Associated Medical Expenses” does not include cost of pharmacy and consumables, cost of implants and me
+- **common** (df=36) — `proportionate deduction` — page 3
+  - snippet: penses will be considered in proportion to the eligible room rent/room category stated in the policy schedule or actuals whichever is less. Proportionate deductions are not applied in respect of the hospitals which do not follow differential billing or for those expenses in respect of which differentia
+- **common** (df=62) — `restore|recharge|reload|refill|reinstat` — page 3
+  - snippet: 200%, once during the policy period, immediately upon exhaustion of the limit of coverage which has been deﬁned. It is made clear that such restored Basic Sum Insured can be utilized only for illness / disease unrelated to the illness / diseases for which claim/s was / were made. The re
+- **common** (df=62) — `restore|recharge|reload|refill|reinstat` — page 4
+  - snippet:  200% once during the policy period, immediately upon exhaustion of the limit of coverage which has been deﬁned. It is made clear that such restored Basic Sum Insured can be utilized only for illness / disease unrelated to the illness / diseases for which claim/s was / were made. The re
+- **common** (df=62) — `restore|recharge|reload|refill|reinstat` — page 8
+  - snippet: pire immediately on the earlier of the following events;  Upon the death of the Insured Person  Upon exhaustion of Limit of Coverage Plus Restored Basic Sum Insured wherever applicable Applicable for Gold Plan: The insurance under this policy with respect to each relevant Insured Pers
+- **common** (df=93) — `room rent` — page 2
+  - snippet: ting the renewal continuous for the purpose of gaining credit for pre-existing diseases, time-bound exclusions and for all waiting periods. Room Rent: Room Rent means the amount charged by a Hospital towards Room and Boarding expenses and shall include the associated medical expenses. Sur
+
+## policy-wording/star-health-care/Red_Carpet_Senior_Citizen.pdf
+
+- **common** (df=93) — `ayush` — page 1
+  - snippet: of illness and includes relapse within 45 days from the date of last consultation with the Hospital/Nursing Home where treatment was taken. AYUSH Day Care Centre: AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, P
+- **common** (df=93) — `ayush` — page 5
+  - snippet: 5 of 10Unique Identiﬁcation No.: SHAHLIP25027V072425 Senior Citizens Red Carpet Health Insurance Policy POL / SCRC / V.20 / 2025 L. AYUSH Treatment: Medical expenses for Inpatient Hospitalization incurred on treatment under Ayurveda, Unani, Sidha and Homeopathy systems of medi
+- **common** (df=87) — `co-?pay(?:ment)?` — page 1
+  - snippet: nd accessible parts of the body b) External Congenital Anomaly: Congenital anomaly which is in the visible and accessible parts of the body Co-Payment: Co-payment means a cost sharing requirement under a health insurance policy that provides that the policyholder/insured will bear a speciﬁ
+- **common** (df=87) — `co-?pay(?:ment)?` — page 5
+  - snippet: he sum insured. Note : Claims under Yoga and Naturopathy system of treatment will be payable subject to prior approval from the company. M. Co-payment: This policy is subject to co-payment of 30% for all claims. N. Compassionate travel: In the event of the insured person being hospitalized
+- **common** (df=72) — `consumable` — page 2
+  - snippet: ssociated Medical Expenses in addition to the difference in room rent. Such associated medical expenses do not include Cost of pharmacy and consumables, Cost of implants and medical devices and Cost of diagnostics. Company: Company means Star Health and Allied Insurance Company Limited. Di
+- **common** (df=93) — `day care` — page 1
+  - snippet: ness and includes relapse within 45 days from the date of last consultation with the Hospital/Nursing Home where treatment was taken. AYUSH Day Care Centre: AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, Polyclinic
+- **common** (df=93) — `day care` — page 2
+  - snippet:  an Insurer and TPA to provide medical services to an insured by a cashless facility. Non-Network Provider: Non-Network means any hospital, day care centre or other provider that is not part of the network. Notiﬁcation of Claim: Notiﬁcation of claim means the process of intimating a clai
+- **common** (df=93) — `day care` — page 3
+  - snippet: K are payable only where the in-patient hospitalization is for a minimum period of 24 hours. However this time limit will not apply for the day care treatments / procedures, where treatment is taken in the Hospital / Nursing Home and the Insured is discharged on the same day. All day car
+- **common** (df=93) — `day care` — page 6
+  - snippet: ut not limited to Vitamins, minerals and organic substances unless prescribed by a medical practitioner as part of hospitalization claim or day care procedure - Code Excl 14 15. Refractive Error - Code Excl 15: Expenses related to the treatment for correction of eye sight due to refracti
+- **common** (df=93) — `pre[- ]existing` — page 1
+  - snippet: payment can be made to renew or continue a policy in force without loss of continuity beneﬁts pertaining to waiting periods and coverage of pre-existing diseases. Coverage need not be available during the period for which no premium is received. The grace period for payment of the premium fo
+- **common** (df=93) — `pre[- ]existing` — page 2
+  - snippet: eans a facility provided to policyholders (including all members under family cover and group policies), to transfer the credits gained for pre-existing diseases and speciﬁc waiting periods from one health insurance policy to another with the same insurer. Network Provider: Network Provider 
+- **common** (df=93) — `pre[- ]existing` — page 3
+  - snippet: Consultations shall not be construed as a waiver of Company's right to repudiate any claim on grounds of non disclosure of material fact or pre-existing disease, for hospitalization expenses under hospitalization provisions of the policy contract. I. Cost of Health Checkup: Expenses incurred
+- **common** (df=93) — `pre[- ]existing` — page 5
+  - snippet: ent directly arising from or consequent upon any Insured Person committing or attempting to commit a breach of law with criminal intent. 1. Pre-Existing Diseases - Code Excl 01 A. Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded
+- **common** (df=93) — `pre[- ]existing` — page 8
+  - snippet: es / treatments falling under Exclusion - Code Excl02 iii) 12 months of continuous coverage without break (with grace period) in respect of Pre-Existing diseases as deﬁned under Exclusion - Code Excl 01 iv) 24 months of continuous coverage without break (with grace period) in respect of Pre-
+- **common** (df=36) — `proportionate deduction` — page 2
+  - snippet: undergoing treatment in some of the hospitals. If Policy Holder chooses a higher room category above the eligibility deﬁned in policy, then proportionate deduction will apply on the Associated Medical Expenses in addition to the difference in room rent. Such associated medical expenses do not include C
+- **common** (df=93) — `room rent` — page 2
+  - snippet: ting the renewal continuous for the purpose of gaining credit for pre-existing diseases, time-bound exclusions and for all waiting periods. Room Rent: Room Rent means the amount charged by a Hospital towards Room and Boarding expenses and shall include the associated medical expenses. Sur
+- **common** (df=93) — `room rent` — page 3
+  - snippet: . All day care procedures are covered under this policy 2. Expenses relating to the hospitalization will be considered in proportion to the room rent limit stated in the policy or actuals whichever is less H. Expenses on Medical Consultations as an Out Patient incurred in a Network Hospit
+- **common** (df=70) — `sub[- ]limit` — page 8
+  - snippet:  will be at the discretion of the Company. Where the sum insured is enhanced, the amount of additional sum insured including the respective sub-limits by way of such enhancement shall be subject to the following terms. Exclusions under shall apply afresh from the date of such enhancement 
+- **common** (df=93) — `waiting period` — page 1
+  - snippet: m due date during which premium payment can be made to renew or continue a policy in force without loss of continuity beneﬁts pertaining to waiting periods and coverage of pre-existing diseases. Coverage need not be available during the period for which no premium is received. The grace period
+- **common** (df=93) — `waiting period` — page 2
+  - snippet: holders (including all members under family cover and group policies), to transfer the credits gained for pre-existing diseases and speciﬁc waiting periods from one health insurance policy to another with the same insurer. Network Provider: Network Provider means hospitals or health care provi
+- **common** (df=93) — `waiting period` — page 5
+  - snippet:  Varicose veins and Varicose ulcers xiii. All types of transplant and related surgeries xiv. Congenital Internal disease / defect 3. 30-day waiting period - Code Excl 03 A. Expenses related to the treatment of any illness within 30 days from the ﬁrst policy commencement date shall be excluded 
+- **common** (df=93) — `waiting period` — page 7
+  - snippet: ut any lapses under any health insurance product/plan offered by the company, the insured person will get the accrued continuity beneﬁts in waiting periods as per IRDAI guidelines on migration. 8. Portability: The insured person will have the option to port the policy to other insurers by appl
+
+## policy-wording/star-health-care/Smart_Health_Pro.pdf
+
+- **common** (df=55) — `air ambulance` — page 3
+  - snippet: of residence (if it is in same city), provided the requirement of an ambulance to the residence is certiﬁed by the medical practitioner. 6. Air Ambulance: Air ambulance expenses are payable subject to an admissible hospitalization claim, the Insured Person(s) is/are eligible for reimbursement
+- **common** (df=55) — `air ambulance` — page 6
+  - snippet: rt of Sum Insured 3 Coverage for Non-medical items (Consumables) Forming Part of Sum Insured 4 Road ambulance Forming Part of Sum Insured 5 Air Ambulance Forming Part of Sum Insured 6 Pre-Hospitalization Expenses Forming Part of Sum Insured 7 Post Hospitalization Expenses Forming Part of Sum 
+- **common** (df=55) — `air ambulance` — page 13
+  - snippet: sum insured Up to sum insured Up to sum insured Up to sum insured Up to sum insured Up to sum insured Up to sum insured Up to sum insured 4 Air Ambulance (per policy year) Up to 10% of sum insured Up to 10% of sum insured Up to 10% of sum insured Up to 10% of sum insured Up to 10% of sum insu
+- **common** (df=93) — `ayush` — page 1
+  - snippet: of illness and includes relapse within 45 days from the date of last consultation with the Hospital/Nursing Home where treatment was taken. AYUSH Day Care Centre: AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, P
+- **common** (df=93) — `ayush` — page 3
+  - snippet: diately after the insured person is discharged from the hospital. 9. Domiciliary Hospitalization: Coverage for medical treatment (Including AYUSH) for a period exceeding three days, for an illness/disease/injury, which in the normal course, would require care and treatment at a Hospit
+- **common** (df=93) — `ayush` — page 6
+  - snippet: 0 Home care treatment Forming Part of Sum Insured 11 Hospitalization expenses for Treatment of New Born Baby Forming Part of Sum Insured 12 AYUSH Treatment Forming Part of Sum Insured 13 Coverage for Modern Treatment Forming Part of Sum Insured
+- **common** (df=93) — `ayush` — page 13
+  - snippet: 80 days Up to 180 days Up to 180 days Up to 180 days Up to 180 days 7 Domiciliary Hospitalization Coverage for medical treatment (Including AYUSH) (for a period exceeding three days) Coverage for medical treatment (Including AYUSH) (for a period exceeding three days) Coverage for medi
+- **common** (df=87) — `co-?pay(?:ment)?` — page 1
+  - snippet: nd accessible parts of the body b) External Congenital Anomaly: Congenital anomaly which is in the visible and accessible parts of the body Co-Payment: Co-payment means a cost sharing requirement under a health insurance policy that provides that the policyholder/insured will bear a speciﬁ
+- **common** (df=87) — `co-?pay(?:ment)?` — page 9
+  - snippet: closure, misrepresentation and exclusions speciﬁed in the policy contract. The policies would however be subject to all limits, sub limits, co-payments, deductibles as per the policy. 12. Possibility of Revision of Terms of the Policy including the Premium Rates: The Company, may revise or
+- **common** (df=72) — `consumable` — page 2
+  - snippet: ed and hence Proportionate deduction will be applicable on these items. “Associated Medical Expenses” does not include cost of pharmacy and consumables, cost of implants and medical devices and cost of diagnostics, ICU charges and hence Proportionate deduction will not be applicable on the
+- **common** (df=72) — `consumable` — page 6
+  - snippet: Code Excl 02), the longer among the Pre-Existing Disease and speciﬁc disease waiting period shall apply. 4. Coverage for Non-medical Items (Consumables): Items as per List I will become payable If there is an admissible claim under the policy for inpatient / day care treatment. (Exclusion 
+- **common** (df=72) — `consumable` — page 12
+  - snippet: 12 of 14Unique Identiﬁcation No.: SHAHLIP23172V012223Smart Health Pro POL / SHPRO / V.3 / 2024 Non-Medical Items (Consumables) List I (68 items) The following List I items are covered if the optional cover “Section III-4” is opted by the Insured SI.NO. ITEM SI.NO.
+- **common** (df=72) — `consumable` — page 13
+  - snippet: Shared Accommodation 3 Reduction of Pre-Existing Diseases waiting period From 36 months to 24 / 12 months 4 Coverage for Non-medical Items (Consumables) Available 5 Unlimited Automatic Restoration of Sum Insured Each time up to 100% of sum insured and Unlimited number of times in a policy 
+- **common** (df=93) — `day care` — page 1
+  - snippet: ness and includes relapse within 45 days from the date of last consultation with the Hospital/Nursing Home where treatment was taken. AYUSH Day Care Centre: AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, Polyclinic
+- **common** (df=93) — `day care` — page 2
+  - snippet: Baby: Newborn baby means baby born during the Policy Period and is aged upto 90 days. Non-Network Provider: Non-Network means any hospital, day care centre or other provider that is not part of the network. Notiﬁcation of Claim: Notiﬁcation of claim means the process of intimating a clai
+- **common** (df=93) — `day care` — page 3
+  - snippet: mpany will pay cost of stent as per the Drug Price Control Order (DPCO) / National Pharmaceuticals Pricing Authority (NPPA) Capping. 4. All day care procedures are covered. 5. Road Ambulance: Subject to an admissible hospitalization claim, road ambulance expenses incurred for the followi
+- **common** (df=93) — `day care` — page 6
+  - snippet: r Non-medical Items (Consumables): Items as per List I will become payable If there is an admissible claim under the policy for inpatient / day care treatment. (Exclusion No. 32 - Code Excl 37) as stated under this policy shall not apply if insured opts this coverage. 5. Unlimited Automa
+- **common** (df=93) — `day care` — page 7
+  - snippet: ut not limited to Vitamins, minerals and organic substances unless prescribed by a medical practitioner as part of hospitalization claim or day care procedure - Code Excl 14. 15. Refractive Error - Code Excl 15: Expenses related to the treatment for correction of eye sight due to refract
+- **common** (df=93) — `day care` — page 8
+  - snippet: the long term discount availed by the insured/ policyholder. Sl.No. Type of Claim Prescribed time limit 1 Reimbursement of hospitalization, day care and pre hospitalization expenses Claim must be ﬁled within 15 days from the date of discharge from the Hospital. 2 Reimbursement of Post ho
+- **common** (df=93) — `day care` — page 13
+  - snippet: e by 100% Once by 100% Once by 100% 16 Wellness Discount Available Available Available Available Available Available Available Available 17 Day Care Treatments Up to sum insured Up to sum insured Up to sum insured Up to sum insured Up to sum insured Up to sum insured Up to sum insured Up
+- **common** (df=68) — `deductible` — page 9
+  - snippet: epresentation and exclusions speciﬁed in the policy contract. The policies would however be subject to all limits, sub limits, co-payments, deductibles as per the policy. 12. Possibility of Revision of Terms of the Policy including the Premium Rates: The Company, may revise or modify the t
+- **common** (df=74) — `domiciliary` — page 1
+  - snippet:  paid thereon shall be forfeited to the Company in the event of misrepresentation, mis-description or non- disclosure of any material fact. Domiciliary Hospitalization: Domiciliary hospitalization means medical treatment for an illness/disease/injury which in the normal course would require
+- **common** (df=74) — `domiciliary` — page 3
+  - snippet: Hospitalization Expenses: Medical expenses incurred up to 180 days immediately after the insured person is discharged from the hospital. 9. Domiciliary Hospitalization: Coverage for medical treatment (Including AYUSH) for a period exceeding three days, for an illness/disease/injury, which i
+- **common** (df=74) — `domiciliary` — page 6
+  - snippet: art of Sum Insured 6 Pre-Hospitalization Expenses Forming Part of Sum Insured 7 Post Hospitalization Expenses Forming Part of Sum Insured 8 Domiciliary Hospitalization Forming Part of Sum Insured 9 Annual Health Check Up In addition to Sum Insured 10 Home care treatment Forming Part of Sum 
+- **common** (df=74) — `domiciliary` — page 13
+  - snippet: Expenses incurred Up to 180 days Up to 180 days Up to 180 days Up to 180 days Up to 180 days Up to 180 days Up to 180 days Up to 180 days 7 Domiciliary Hospitalization Coverage for medical treatment (Including AYUSH) (for a period exceeding three days) Coverage for medical treatment (Includ
+
+## policy-wording/star-health-care/Special_Care.pdf
+
+- **common** (df=93) — `ayush` — page 1
+  - snippet: of illness and includes relapse within 45 days from the date of last consultation with the Hospital/Nursing Home where treatment was taken. AYUSH Day Care Centre: AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, P
+- **common** (df=93) — `ayush` — page 2
+  - snippet:  table below; * Sublimit all inclusive with or without hospitalization where ever hospitalization includes pre and post hospitalization. I. AYUSH Treatment: Medical expenses for Inpatient Hospitalization incurred on treatment under Ayurveda, Unani, Sidha and Homeopathy systems of medi
+- **common** (df=87) — `co-?pay(?:ment)?` — page 1
+  - snippet: nd accessible parts of the body b) External Congenital Anomaly: Congenital anomaly which is in the visible and accessible parts of the body Co-Payment: Co-payment means a cost sharing requirement under a health insurance policy that provides that the policyholder/insured will bear a speciﬁ
+- **common** (df=87) — `co-?pay(?:ment)?` — page 2
+  - snippet: er is less F. Sublimits: The expenses incurred on treatment of the following procedure are payable up-to the limits mentioned hereunder; G. Co-payment: This policy is subject to co-payment of 20% of each and every claim amount for fresh as well as renewal policies H. Coverage for Modern Tr
+- **common** (df=72) — `consumable` — page 2
+  - snippet: ssociated Medical Expenses in addition to the difference in room rent. Such associated medical expenses do not include Cost of pharmacy and consumables, Cost of implants and medical devices and Cost of diagnostics. Autism: Autism means a condition evidenced by functional impairment caused 
+- **common** (df=93) — `day care` — page 1
+  - snippet: ness and includes relapse within 45 days from the date of last consultation with the Hospital/Nursing Home where treatment was taken. AYUSH Day Care Centre: AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, Polyclinic
+- **common** (df=93) — `day care` — page 2
+  - snippet:  an Insurer and TPA to provide medical services to an insured by a cashless facility. Non-Network Provider: Non-Network means any hospital, day care centre or other provider that is not part of the network. Notiﬁcation of Claim: Notiﬁcation of claim means the process of intimating a clai
+- **common** (df=93) — `day care` — page 3
+  - snippet: ut not limited to Vitamins, minerals and organic substances unless prescribed by a medical practitioner as part of hospitalization claim or day care procedure - Code Excl 14 15. Refractive Error - Code Excl 15: Expenses related to the treatment for correction of eye sight due to refracti
+- **common** (df=93) — `day care` — page 4
+  - snippet:  annual premium Exceeding nine months Full annual premium Sl.No. Type of Claim Prescribed time limit 1 Reimbursement of hospitalization and day care expenses Claim must be ﬁled within 15 days from the date of discharge from the Hospital. 2 Reimbursement of Post hospitalization within 15 
+- **common** (df=93) — `pre[- ]existing` — page 1
+  - snippet: payment can be made to renew or continue a policy in force without loss of continuity beneﬁts pertaining to waiting periods and coverage of pre-existing diseases. Coverage need not be available during the period for which no premium is received. The grace period for payment of the premium fo
+- **common** (df=93) — `pre[- ]existing` — page 2
+  - snippet: eans a facility provided to policyholders (including all members under family cover and group policies), to transfer the credits gained for pre-existing diseases and speciﬁc waiting periods from one health insurance policy to another with the same insurer. Network Provider: Network Provider 
+- **common** (df=93) — `pre[- ]existing` — page 3
+  - snippet: pany g. The Company will process the request and call for additional documents/ clariﬁcations if the information furnished is inadequate 1. Pre-Existing Diseases - Code Excl 01 A. Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded
+- **common** (df=36) — `proportionate deduction` — page 2
+  - snippet: undergoing treatment in some of the hospitals. If Policy Holder chooses a higher room category above the eligibility deﬁned in policy, then proportionate deduction will apply on the Associated Medical Expenses in addition to the difference in room rent. Such associated medical expenses do not include C
+- **common** (df=93) — `room rent` — page 2
+  - snippet: ting the renewal continuous for the purpose of gaining credit for pre-existing diseases, time-bound exclusions and for all waiting periods. Room Rent: Room Rent means the amount charged by a Hospital towards Room and Boarding expenses and shall include the associated medical expenses. Sur
+- **common** (df=93) — `waiting period` — page 1
+  - snippet: m due date during which premium payment can be made to renew or continue a policy in force without loss of continuity beneﬁts pertaining to waiting periods and coverage of pre-existing diseases. Coverage need not be available during the period for which no premium is received. The grace period
+- **common** (df=93) — `waiting period` — page 2
+  - snippet: holders (including all members under family cover and group policies), to transfer the credits gained for pre-existing diseases and speciﬁc waiting periods from one health insurance policy to another with the same insurer. Network Provider: Network Provider means hospitals or health care provi
+- **common** (df=93) — `waiting period` — page 3
+  - snippet:  the Insured Person is continuously covered without any break as deﬁned under the applicable norms on portability stipulated by IRDAI, then waiting period for the same would be reduced to the extent of prior coverage D. Coverage under the policy after the expiry of 36 months for any pre-existi
+- **common** (df=93) — `waiting period` — page 4
+  - snippet: ut any lapses under any health insurance product/plan offered by the company, the insured person will get the accrued continuity beneﬁts in waiting periods as per IRDAI guidelines on migration. 8. Portability: The insured person will have the option to port the policy to other insurers by appl
+
+## policy-wording/star-health-care/Special_Care_Gold.pdf
+
+- **common** (df=93) — `ayush` — page 1
+  - snippet: of illness and includes relapse within 45 days from the date of last consultation with the Hospital/Nursing Home where treatment was taken. AYUSH Day Care Centre: AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary , Clinic, 
+- **common** (df=93) — `ayush` — page 3
+  - snippet: tra Operative Neuro Monitoring) L. Stern cell therapy: Hematopoietic stem cells for bone marrow transplant for haematological conditions I. AYUSH Treatment: The Company shall indemnify medical expenses incurred for inpatient care treatment under Ayurveda, Yoga and Naturopathy, Unani, 
+- **common** (df=93) — `ayush` — page 7
+  - snippet: to 2% of the sum insured per day Modern Treatment 100% of sum insured Cataract Treatment Up to Rs. 40,000/- per each eye in one policy year AYUSH Treatment Expenses incurred for inpatient care treatment under Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homeopathy systems of medi
+- **common** (df=87) — `co-?pay(?:ment)?` — page 1
+  - snippet: nd accessible parts of the body b) External Congenital Anomaly: Congenital anomaly which is in the visible and accessible parts of the body Co-Payment: Co-payment means a cost sharing requirement under a health insurance policy that provides that the policyholder/insured will bear a speciﬁ
+- **common** (df=87) — `co-?pay(?:ment)?` — page 3
+  - snippet:  for hospitalization provided however such expenses so incurred are in respect of ailment for which the insured person was hospitalized. L. Co-payment: Each and every claim under the Policy shall be subject to a Copayment of 20% applicable to claim amount admissible and payable as per the 
+- **common** (df=87) — `co-?pay(?:ment)?` — page 7
+  - snippet: ﬁt basis under HIV/AIDS cover c. 24 months (For Pre-existing disability) d. 24 months waiting period for Speciﬁc disease/illness Co Pay 20% co-pay on all claims Waiver of Copay Available on payment of additional premium Kindly refer https://cioins.co.in/Ombudsman for future updates
+- **common** (df=72) — `consumable` — page 2
+  - snippet: ssociated Medical Expenses in addition to the difference in room rent. Such associated medical expenses do not include Cost of pharmacy and consumables, Cost of implants and medical devices and Cost of diagnostics. Antiretroviral therapy: Antiretroviral therapy is a treatment of people inf
+- **common** (df=93) — `day care` — page 1
+  - snippet: ness and includes relapse within 45 days from the date of last consultation with the Hospital/Nursing Home where treatment was taken. AYUSH Day Care Centre: AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary , Clinic, Polyclini
+- **common** (df=93) — `day care` — page 2
+  - snippet: born baby means baby born during the Policy Period and is aged upto 90 days. Non-Network Provider: Non-Network Provider means any hospital, day care centre or other provider that is not part of the network. Notiﬁcation of Claim: Notiﬁcation of claim means the process of intimating a clai
+- **common** (df=93) — `day care` — page 3
+  - snippet: mpany will pay cost of stent as per the Drug Price Control Order (DPCO) / National Pharmaceuticals Pricing Authority (NPPA) Capping. E. All day care procedures are covered F. Expenses incurred on treatment of Cataract is covered up to Rs.40,000/- per each eye in one policy year. G. Emerg
+- **common** (df=93) — `day care` — page 4
+  - snippet: ut not limited to Vitamins, minerals and organic substances unless prescribed by a medical practitioner as part of hospitalization claim or day care procedure – Code Excl 14 15. Refractive Error – Code Excl 15: Expenses related to the treatment for correction of eye sight due to refracti
+- **common** (df=93) — `day care` — page 5
+  - snippet: ring the Free Look Period, the insured shall be entitled to Sl.No. Type of Claim Prescribed time limit 1. Reimbursement of hospitalization, day care and pre hospitalization expenses Claim must be ﬁled within 15 days from the date of discharge from the Hospital. 2. Reimbursement of Post h
+- **common** (df=93) — `day care` — page 7
+  - snippet: a minimum period of 24 consecutive hours only shall be admissible Time limit of 24 hrs shall not apply when the treatment is undergone in a Day Care Centre Pre Hospitalization For 30 days prior to the date of hospitalization Post Hospitalization For 60 days from the date of discharge fro
+- **common** (df=93) — `pre[- ]existing` — page 1
+  - snippet: payment can be made to renew or continue a policy in force without loss of continuity beneﬁts pertaining to waiting periods and coverage of pre-existing diseases. Coverage need not be available during the period for which no premium is received. The grace period for payment of the premium fo
+- **common** (df=93) — `pre[- ]existing` — page 2
+  - snippet: eans a facility provided to policyholders (including all members under family cover and group policies), to transfer the credits gained for pre-existing diseases and speciﬁc waiting periods from one health insurance policy to another with the same insurer. Network Provider: Network Provider 
+- **common** (df=93) — `pre[- ]existing` — page 3
+  - snippet:  policy in respect of any expenses what so ever incurred by the insured person in connection with or in respect of:- Standard Exclusions 1. Pre-Existing Diseases – Code Excl 01 a. 1. Applicable for diseases other than Disability / HIV/AIDS: Expenses related to the treatment of a pre-existing
+- **common** (df=93) — `pre[- ]existing` — page 7
+  - snippet: yurveda, Yoga and Naturopathy, Unani, Siddha and Homeopathy systems of medicines covered up to 100% of sum insured, during each Policy Year Pre Existing Diseases a. 36 months (For Pre-existing diseases other than the Pre-existing disability and HIV/AIDS covered) b. Initial waiting period of 
+- **common** (df=36) — `proportionate deduction` — page 2
+  - snippet: undergoing treatment in some of the hospitals. If Policy Holder chooses a higher room category above the eligibility deﬁned in policy, then proportionate deduction will apply on the Associated Medical Expenses in addition to the difference in room rent. Such associated medical expenses do not include C
+- **common** (df=36) — `proportionate deduction` — page 3
+  - snippet: ted medical expenses will be considered in proportion to the eligible room rent stated in the policy schedule or actuals whichever is less. Proportionate deductions are not applied in respect of the hospitals which do not follow differential billing or for those expenses in respect of which differentia
+- **common** (df=62) — `restore|recharge|reload|refill|reinstat` — page 6
+  - snippet: family will continue, subject to other terms of the policy. ü Upon exhaustion of the Sum Insured, Limit of Coverage, Limit of Coverage plus Restore and / or Recharge Sum Insured. 23. Policy disputes: Any dispute concerning the interpretation of the terms, conditions, limitations and/or 
+- **common** (df=93) — `room rent` — page 2
+  - snippet: ting the renewal continuous for the purpose of gaining credit for pre-existing diseases, time-bound exclusions and for all waiting periods. Room Rent: Room Rent means the amount charged by a Hospital towards Room and Boarding expenses and shall include the associated medical expenses. Sur
+- **common** (df=93) — `room rent` — page 3
+  - snippet: m of 1% of the sum insured per day. Note: Expenses relating to Associated medical expenses will be considered in proportion to the eligible room rent stated in the policy schedule or actuals whichever is less. Proportionate deductions are not applied in respect of the hospitals which do n
+- **common** (df=93) — `room rent` — page 7
+  - snippet: rior to the date of hospitalization Post Hospitalization For 60 days from the date of discharge from the hospital Limit for Room and ICU 1. Room Rent, Boarding, Nursing Expenses all inclusive as provided by the Hospital / Nursing Home up to 1% of the sum insured per day. 2. lntensive Care
+- **common** (df=93) — `waiting period` — page 1
+  - snippet: m due date during which premium payment can be made to renew or continue a policy in force without loss of continuity beneﬁts pertaining to waiting periods and coverage of pre-existing diseases. Coverage need not be available during the period for which no premium is received. The grace period
+- **common** (df=93) — `waiting period` — page 2
+  - snippet: holders (including all members under family cover and group policies), to transfer the credits gained for pre-existing diseases and speciﬁc waiting periods from one health insurance policy to another with the same insurer. Network Provider: Network Provider means hospitals or health care provi
+
+## policy-wording/star-health-care/Star_Health_Gain.pdf
+
+- **common** (df=93) — `ayush` — page 1
+  - snippet: of illness and includes relapse within 45 days from the date of last consultation with the Hospital/Nursing Home where treatment was taken. AYUSH Hospital: An AYUSH Hospital is a healthcare facility wherein medical/surgical/ para-surgical treatment procedures and interventions are car
+- **common** (df=93) — `ayush` — page 3
+  - snippet:  table below; * Sublimit all inclusive with or without hospitalization where ever hospitalization includes pre and post hospitalization. H. AYUSH Treatment: Medical expenses for Inpatient Hospitalization incurred on treatment under Ayurveda, Unani, Sidha and Homeopathy systems of medi
+- **common** (df=87) — `co-?pay(?:ment)?` — page 1
+  - snippet: nd accessible parts of the body b) External Congenital Anomaly: Congenital anomaly which is in the visible and accessible parts of the body Co-Payment: Co-payment means a cost sharing requirement under a health insurance policy that provides that the policyholder/insured will bear a speciﬁ
+- **common** (df=87) — `co-?pay(?:ment)?` — page 3
+  - snippet: e sum insured. Note : Claims under Yoga and Naturopathy system of treatment will be payable subject to prior approval from the company. ii) Co-payment (Applicable for Section I only): This policy is subject to co-payment of 20% of each and every claim amount for fresh as well as renewal po
+- **common** (df=72) — `consumable` — page 2
+  - snippet: ssociated Medical Expenses in addition to the difference in room rent. Such associated medical expenses do not include Cost of pharmacy and consumables, Cost of implants and medical devices and Cost of diagnostics. Company: Company: Company means Star Health and Allied Insurance Company Li
+- **common** (df=93) — `day care` — page 1
+  - snippet: hat the policyholder/insured will bear a speciﬁed percentage of the admissible claims amount. A co-payment does not reduce the Sum Insured. Day Care Centre: A day care centre means any institution established for day care treatment of illness and/or injuries or a medical setup with a hos
+- **common** (df=93) — `day care` — page 2
+  - snippet:  an Insurer and TPA to provide medical services to an insured by a cashless facility. Non-Network Provider: Non-Network means any hospital, day care centre or other provider that is not part of the network. Notiﬁcation of Claim: Notiﬁcation of claim means the process of intimating a clai
+- **common** (df=93) — `day care` — page 3
+  - snippet:  G) Coverage for Modern Treatments: The expenses payable during the entire policy period for the following treatment/procedure (either as a day care or as in-patient exceeding 24hrs of admission in the hospital) is limited to the amount mentioned in table below; * Sublimit all inclusive 
+- **common** (df=93) — `day care` — page 4
+  - snippet: ut not limited to Vitamins, minerals and organic substances unless prescribed by a medical practitioner as part of hospitalization claim or day care procedure - Code Excl 14 15. Refractive Error - Code Excl 15: Expenses related to the treatment for correction of eye sight due to refracti
+- **common** (df=93) — `pre[- ]existing` — page 1
+  - snippet: payment can be made to renew or continue a policy in force without loss of continuity beneﬁts pertaining to waiting periods and coverage of pre-existing diseases. Coverage need not be available during the period for which no premium is received. The grace period for payment of the premium fo
+- **common** (df=93) — `pre[- ]existing` — page 2
+  - snippet: means a facility provided to policyholders (including all membersunder family cover and group policies), to transfer the credits gained for pre-existing diseases and speciﬁc waiting periods from one health insurance policy to another with the same insurer. Network Provider: Network Provider 
+- **common** (df=93) — `pre[- ]existing` — page 3
+  - snippet:  this section shall not be construed as a waiver of Company's right to repudiate any claim on grounds of non disclosure of material fact or pre-existing disease, for hospitalization expenses under hospitalization provisions of the policy contract. III. EXCLUSIONS The Company shall not be lia
+- **common** (df=93) — `pre[- ]existing` — page 6
+  - snippet: es / treatments falling under exclusion - Code Excl02 iii. 36 months of continuous coverage without break (with grace period) in respect of Pre-Existing diseases - Code Excl 01 iv. 36 months of continuous coverage without break (with grace period) for diseases / conditions diagnosed / treate
+- **common** (df=36) — `proportionate deduction` — page 2
+  - snippet: undergoing treatment in some of the hospitals. If Policy Holder chooses a higher room category above the eligibility deﬁned in policy, then proportionate deduction will apply on the Associated Medical Expenses in addition to the difference in room rent. Such associated medical expenses do not include C
+- **common** (df=93) — `room rent` — page 2
+  - snippet: ting the renewal continuous for the purpose of gaining credit for pre-existing diseases, time-bound exclusions and for all waiting periods. Room Rent: Room Rent means the amount charged by a Hospital towards Room and Boarding expenses and shall include the associated medical expenses. Sur
+- **common** (df=93) — `waiting period` — page 1
+  - snippet: m due date during which premium payment can be made to renew or continue a policy in force without loss of continuity beneﬁts pertaining to waiting periods and coverage of pre-existing diseases. Coverage need not be available during the period for which no premium is received. The grace period
+- **common** (df=93) — `waiting period` — page 2
+  - snippet: yholders (including all membersunder family cover and group policies), to transfer the credits gained for pre-existing diseases and speciﬁc waiting periods from one health insurance policy to another with the same insurer. Network Provider: Network Provider means hospitals or health care provi
+- **common** (df=93) — `waiting period` — page 3
+  - snippet:  insured the exclusion shall apply afresh to the extent of sum insured increase C. If any of the speciﬁed disease/procedure falls under the waiting period speciﬁed for pre-existing diseases, then the longer of the two waiting periods shall apply D. The waiting period for listed conditions shal
+- **common** (df=93) — `waiting period` — page 5
+  - snippet: t any lapses under any health insurance product/plan offered by the company, the insured person will get .the accrued continuity beneﬁts in waiting periods as per IRDAI guidelines on migration 8. Portability (Applicable for Section I): The insured person will have the option to port the policy
+- **common** (df=93) — `waiting period` — page 6
+  - snippet: nsured is enhanced, the amount of such additional sum insured including the respective sublimits shall be subject to the following terms. A Waiting period as under shall apply afresh from the date of such enhancement for the increase in the sum insured, that is, the difference between the expi
+
+## policy-wording/star-health-care/Super_Star.pdf
+
+- **common** (df=23) — `2x|two times|twice|double` — page 8
+  - snippet: ce scan facility by using Star health mobile app to know the vital parameters such as heart rate, oxygen saturation, respiration rate up to two times per month per insured in a policy year. Note: The AI-driven face scan facility is a software / AI based assessment and should not be used a
+- **common** (df=55) — `air ambulance` — page 6
+  - snippet: STAR HEALTH AND ALLIED INSURANCE COMPANY LIMITED | POLICY WORDINGS SUPER STAR | UIN : SHAHLIP25036V012425 | POL / SS / V.1 / 2024 6 / 37 8. Air Ambulance: Subject to an admissible hospitalization claim, the Insured Person(s) is / are eligible for reimbursement of expenses incurred towards the
+- **common** (df=93) — `ayush` — page 1
+  - snippet:  illness and includes relapse within 45 days from the date of last consultation with the Hospital / Nursing Home where treatment was taken. AYUSH Day Care Centre: AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, P
+- **common** (df=93) — `ayush` — page 5
+  - snippet: ntra Operative Neuro Monitoring) l) Stem cell therapy: Hematopoietic stem cells for bone marrow transplant for haematological conditions 6. AYUSH Treatment: Medical expenses for Inpatient Hospitalization incurred on treatment under Ayurveda, Yoga and Naturopathy, Unani, Sidha and Home
+- **common** (df=93) — `ayush` — page 6
+  - snippet: ry Cases Post Discharge l) Post CVA Care at Home after Discharge 11. Domiciliary Hospitalization: Coverage for medical treatment (including AYUSH) for a period exceeding three days, for an illness / disease / injury, which in the normal course, would require care and treatment at a Ho
+- **common** (df=93) — `ayush` — page 8
+  - snippet: e policy and are continuously covered under subsequent renewals, till a claim is incurred under In-patient Treatment / Day care treatment / Ayush Treatment under Basic Cover or they attain the age of 56 years whichever is earlier. This benefit will be available only for those insured 
+- **common** (df=93) — `ayush` — page 12
+  - snippet:  first year premium), subject to the following conditions: (a) The treatment as applicable under In-patient Treatment / Daycare Treatment / AYUSH Treatment is to be taken in a hospital listed under the “Smart Network” available on our website www.starhealth.in (b) A co-payment of 15% 
+- **common** (df=93) — `ayush` — page 17
+  - snippet: ospitalization up to the number of days as specified in the Policy Schedule, provided the claim is admissible under In-patient treatment or Ayush treatment. 17. Reduction of Specified disease / procedure Waiting Period: The Insured Person can reduce the Specified disease / procedure w
+- **common** (df=87) — `co-?pay(?:ment)?` — page 2
+  - snippet: STAR HEALTH AND ALLIED INSURANCE COMPANY LIMITED | POLICY WORDINGS SUPER STAR | UIN : SHAHLIP25036V012425 | POL / SS / V.1 / 2024 2 / 37 Co-Payment: Co-payment means a cost sharing requirement under a health insurance policy that provides that the policyholder / insured will bear a spec
+- **common** (df=87) — `co-?pay(?:ment)?` — page 12
+  - snippet:  Treatment / AYUSH Treatment is to be taken in a hospital listed under the “Smart Network” available on our website www.starhealth.in (b) A co-payment of 15% will be applicable (over and above other co-pay, if any) on each and every claim (except in case of accident) in case if the treatme
+- **common** (df=87) — `co-?pay(?:ment)?` — page 16
+  - snippet: AND ALLIED INSURANCE COMPANY LIMITED | POLICY WORDINGS SUPER STAR | UIN : SHAHLIP25036V012425 | POL / SS / V.1 / 2024 16 / 37 10. Voluntary Co-payment: In case Voluntary Co-payment is opted as mentioned in the Policy Schedule, the Insured Person will be liable to bear the specified Co-paym
+- **common** (df=87) — `co-?pay(?:ment)?` — page 17
+  - snippet: der this Optional Cover, the cover will cease to exist and cannot be opted again upon subsequent renewals. (c) Optional Cover 10. Voluntary Co-payment or Optional Cover 11. Voluntary Deductible if opted by the Insured Person shall be applicable under this Optional Cover. (d) Following the 
+- **common** (df=87) — `co-?pay(?:ment)?` — page 22
+  - snippet: losure, misrepresentation and exclusions specified in the policy contract. The policies would however be subject to all limits, sub limits, co-payments, deductibles as per the policy contract. 12. Premium Payment in Instalments: lf the Insured person has opted for Payment of Premium on an 
+- **common** (df=72) — `consumable` — page 4
+  - snippet: ssociated Medical Expenses in addition to the difference in room rent. Such associated medical expenses do not include Cost of pharmacy and consumables, Cost of implants and medical devices and Cost of diagnostics. Assisted Reproduction Treatment: Assisted Reproduction Treatment means Intr
+- **common** (df=72) — `consumable` — page 12
+  - snippet:  is an admissible claim within the five years, we will deduct the balance premium from the claim amount. 3. Coverage for Non-medical Items (Consumables): Items as per List I will become payable If there is an admissible claim under the policy for In-patient / Day Care Treatment. (Exclusion
+- **common** (df=72) — `consumable` — page 26
+  - snippet:  bimalokpal.pune@cioins.co.in For the details of Insurance Ombudsman please visit: https://cioins.co.in/Complaint/Online NON-MEDICAL ITEMS (CONSUMABLES) LIST I (68 ITEMS) The following List I items are covered if the optional cover “Section III-3” is opted by the Insured SI No Item 1 BABY 
+- **common** (df=93) — `day care` — page 1
+  - snippet: ss and includes relapse within 45 days from the date of last consultation with the Hospital / Nursing Home where treatment was taken. AYUSH Day Care Centre: AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, Polyclinic
+- **common** (df=93) — `day care` — page 2
+  - snippet: Bonus: Cumulative Bonus means any increase or addition in the Sum Insured granted by the insurer without an associated increase in premium. Day Care Centre: A day care centre means any institution established for day care treatment of illness and / or injuries or a medical setup with a h
+- **common** (df=93) — `day care` — page 3
+  - snippet: cility like a consultation room for diagnosis and treatment based on the advice of a Medical Practitioner. The Insured is not admitted as a day care or in-patient. Pre-Existing Disease: “Pre-existing disease (PED)” means any condition, ailment, injury or disease: a) that is / are diagnos
+- **common** (df=93) — `day care` — page 4
+  - snippet: tion of deformities and defects, diagnosis and cure of diseases, relief from suffering and prolongation of life, performed in a hospital or day care centre by a medical practitioner. Unproven / Experimental treatment: Unproven / Experimental treatment means the treatment including drug e
+- **common** (df=93) — `day care` — page 5
+  - snippet: materials and X-ray, diagnostic imaging modalities, dialysis, chemotherapy, radiotherapy, cost of pacemaker, stent and similar expenses. 2. Day Care Treatment: We will cover the Medical Expenses incurred in respect of All Day Care Treatments of the Insured Person during the Policy Period
+- **common** (df=93) — `day care` — page 8
+  - snippet: e first time under the policy and are continuously covered under subsequent renewals, till a claim is incurred under In-patient Treatment / Day care treatment / Ayush Treatment under Basic Cover or they attain the age of 56 years whichever is earlier. This benefit will be available only 
+- **common** (df=93) — `day care` — page 12
+  - snippet: e) waiting period shall be waived off and coverage will be available from from 31st day of first purchase of this policy under In-patient / Day Care Treatment. List of diseases / illnesses / conditions covered under this optional cover: (i) Diabetes - Diabetes mellitus is a chronic, prog
+- **common** (df=93) — `day care` — page 17
+  - snippet: apply. 19. Limitless Care: Will cover the Medical Expenses incurred in respect of Hospitalization of the Insured Person under In- Patient / Day Care Treatment of the Insured Person for any one claim during the lifetime of the Policy without any limits on the Sum Insured subject to the fo
+- **common** (df=93) — `day care` — page 19
+  - snippet: ut not limited to Vitamins, minerals and organic substances unless prescribed by a medical practitioner as part of hospitalization claim or day care procedure – Code Excl 14 15. Refractive Error – Code Excl 15: Expenses related to the treatment for correction of eyesight due to refractiv
+
+## policy-wording/star-health-care/Super_Surplus_Gold.pdf
+
+- **common** (df=55) — `air ambulance` — page 3
+  - snippet:  this is needed for medical reasons to go to hospital for treatment provided such hospitalization claim is admissible as per the Policy. D. Air Ambulance expenses Subject to an admissible hospitalization claim, the insured person is eligible for reimbursement, expenses incurred towards cost o
+- **common** (df=93) — `ayush` — page 1
+  - snippet: of illness and includes relapse within 45 days from the date of last consultation with the Hospital/Nursing Home where treatment was taken. AYUSH Day Care Centre : AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, 
+- **common** (df=93) — `ayush` — page 3
+  - snippet: F / V.18 / 2025 *Sublimit all inclusive with or without hospitalization where ever hospitalization includes pre and post hospitalization F) AYUSH Treatment: Medical expenses for Inpatient Hospitalization incurred on treatment under Ayurveda, Unani, Sidha and Homeopathy systems of medi
+- **common** (df=93) — `ayush` — page 4
+  - snippet: F / V.18 / 2025 *Sublimit all inclusive with or without hospitalization where ever hospitalization includes pre and post hospitalization K. AYUSH Treatment: Medical expenses for Inpatient Hospitalization incurred on treatment under Ayurveda, Unani, Sidha and Homeopathy systems of medi
+- **common** (df=72) — `consumable` — page 2
+  - snippet: ssociated Medical Expenses in addition to the difference in room rent. Such associated medical expenses do not include Cost of pharmacy and consumables, Cost of implants and medical devices and Cost of diagnostics Company: Company means Star Health and Allied Insurance Company Limited Defi
+- **common** (df=93) — `day care` — page 1
+  - snippet: ness and includes relapse within 45 days from the date of last consultation with the Hospital/Nursing Home where treatment was taken. AYUSH Day Care Centre : AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, Polyclini
+- **common** (df=93) — `day care` — page 2
+  - snippet:  an Insurer and TPA to provide medical services to an insured by a cashless facility. Non-Network Provider: Non-Network means any hospital, day care centre or other provider that is not part of the network. Notiﬁcation of Claim: Notiﬁcation of claim means the process of intimating a clai
+- **common** (df=93) — `day care` — page 3
+  - snippet: ng the Deductible per hospitalization, pre hospitalization expenses and post hospitalization expenses will not be taken into account 2. All Day care procedures are covered. 3. Expenses on Hospitalization for minimum period of 24 hours only are admissible. However this time limit will not
+- **common** (df=93) — `day care` — page 4
+  - snippet: Recharge amount cannot be carried forward. This benefit is not available for Modern Treatments Note (Applicable for Benefits A to K) 1. All Day care procedures are covered 2. Expenses on Hospitalization for minimum period of 24 hours only are admissible. However this time limit will not 
+- **common** (df=93) — `day care` — page 5
+  - snippet: ut not limited to Vitamins, minerals and organic substances unless prescribed by a medical practitioner as part of hospitalization claim or day care procedure - Code Excl 14 15. Refractive Error - Code Excl 15: Expenses related to the treatment for correction of eye sight due to refracti
+- **common** (df=93) — `day care` — page 6
+  - snippet: disclosure of material facts, fraud by the Insured Person Sl.No. Type of Claim Prescribed time limit 1 Reimbursement of hospitalization and day care expenses Claim must be ﬁled within 15 days from the date of discharge from the Hospital. 2 Reimbursement of Post hospitalization Siler Plan
+- **common** (df=68) — `deductible` — page 1
+  - snippet: uired hospitalization of more than 24 hours Treatment normally taken on an out-patient basis is not included in the scope of this deﬁnition Deductible: Deductible means a cost sharing requirement under a health insurance policy that provides that the insurer will not be liable for a speciﬁ
+- **common** (df=68) — `deductible` — page 2
+  - snippet: rsing Home / Hospital in India as an in- patient, the Company will pay to the Insured Person/s the amount of such expenses in excess of the Deductible per hospitalization indicated in the schedule as are reasonably and necessarily incurred under the following heads but not exceeding the su
+- **common** (df=68) — `deductible` — page 3
+  - snippet:  and Naturopathy system of treatment will be payable subject to prior approval from the company. Note 1. For the purpose of calculating the Deductible per hospitalization, pre hospitalization expenses and post hospitalization expenses will not be taken into account 2. All Day care procedur
+- **common** (df=68) — `deductible` — page 8
+  - snippet:  premium paid by any mode other than cash. 28. Important Note a) Where the policy is issued for more than 1 year, the Sum Insured including Deductibles / Defined limit is for each of the year, without any carry over benefit thereof. The said benefits / covers available for the 2nd year can
+- **common** (df=71) — `organ donor` — page 3
+  - snippet: overing the self and spouse are in force when this benefit becomes payable. 4. Claims under this section will not reduce the Sum Insured I. Organ Donor Expenses for organ transplantation where the insured person is the recipient are payable provided the claim for transplantation is payable 
+- **common** (df=93) — `pre[- ]existing` — page 1
+  - snippet: payment can be made to renew or continue a policy in force without loss of continuity beneﬁts pertaining to waiting periods and coverage of pre-existing diseases. Coverage need not be available during the period for which no premium is received. The grace period for payment of the premium fo
+- **common** (df=93) — `pre[- ]existing` — page 2
+  - snippet: eans a facility provided to policyholders (including all members under family cover and group policies), to transfer the credits gained for pre-existing diseases and speciﬁc waiting periods from one health insurance policy to another with the same insurer. Network Provider: Network Provider 
+- **common** (df=93) — `pre[- ]existing` — page 4
+  - snippet: s policy in respect of any expenses what so ever incurred by the insured person in connection with or in respect of; STANDARD EXCLUSIONS 1. Pre-Existing Diseases - Code Excl 01 A. Applicable for Silver Plan: Expenses related to the treatment of a pre-existing Disease (PED) and its direct com
+- **common** (df=93) — `pre[- ]existing` — page 5
+  - snippet: pply afresh to the extent of sum insured increase C. If any of the specified disease/procedure falls under the waiting period specified for pre-existing diseases, then the longer of the two waiting periods shall apply D. The waiting period for listed conditions shall apply even if contracted
+- **common** (df=36) — `proportionate deduction` — page 2
+  - snippet: ndergoing treatment in some of the hospitals. If Policy Holder chooses a higher room category above the eligibility defined in policy, then proportionate deduction will apply on the Associated Medical Expenses in addition to the difference in room rent. Such associated medical expenses do not include C
+- **common** (df=36) — `proportionate deduction` — page 3
+  - snippet: ent occupied by the insured person will be considered in proportion to the room category stated in the policy or actuals whichever is less. Proportionate deductions are not applied in respect of the hospitals which do not follow differential billing or for those expenses in respect of which differentia
+- **common** (df=62) — `restore|recharge|reload|refill|reinstat` — page 4
+  - snippet: he sum insured. Note : Claims under Yoga and Naturopathy system of treatment will be payable subject to prior approval from the company. L. Recharge Benefit: If the sum insured under the policy is exhausted/ exceeded during the policy period, additional indemnity up to the limits stated 
+- **common** (df=93) — `room rent` — page 2
+  - snippet: ting the renewal continuous for the purpose of gaining credit for pre-existing diseases, time-bound exclusions and for all waiting periods. Room Rent: Room Rent means the amount charged by a Hospital towards Room and Boarding expenses and shall include the associated medical expenses. Sur
+- **common** (df=93) — `room rent` — page 3
+  - snippet: Single Private A/C room), Boarding and Nursing Expenses as provided by the Hospital. Note: Hospitalisation expenses which vary based on the room rent occupied by the insured person will be considered in proportion to the room category stated in the policy or actuals whichever is less. Pro
+
+## policy-wording/star-health-care/Women_Care.pdf
+
+- **common** (df=55) — `air ambulance` — page 3
+  - snippet:  is taken to their place of residence provided the requirement of an ambulance to the residence is certiﬁed by the medical practitioner. 8. Air Ambulance charges up to 10% of the Sum Insured per year is payable, provided that 1. It is for life threatening emergency health condition/s of the i
+- **common** (df=55) — `air ambulance` — page 8
+  - snippet: overage Forming Part of Sum Insured Impact Cumulative Bonus 5 Road ambulance expenses Forming Part of Sum Insured Impact Cumulative Bonus 6 Air Ambulance Forming Part of Sum Insured Impact Cumulative Bonus 7 Pre-hospitalization Expenses Forming Part of Sum Insured Impact Cumulative Bonus 8 Po
+- **common** (df=93) — `ayush` — page 1
+  - snippet: of illness and includes relapse within 45 days from the date of last consultation with the Hospital/Nursing Home where treatment was taken. AYUSH Day Care Centre: AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary , Clinic, 
+- **common** (df=93) — `ayush` — page 3
+  - snippet:  above the Limit of Coverage and upto the Sum Insured. This additional Sum Insured can be utilized by the Donor and not by the Insured. 12. AYUSH Treatment: In patient Hospitalization Expenses incurred for treatment of diseases / illness / accidental injuries by system of medicines ot
+- **common** (df=93) — `ayush` — page 8
+  - snippet: s 9a Complications necessiating Redo surgery or ICU admission for the Organdonor Not Forming Part of Sum Insured Impact Cumulative Bonus 10 AYUSH Treatment Forming Part of Sum Insured Impact Cumulative Bonus 11 Bariatric Surgery Forming Part of Sum Insured Impact Cumulative Bonus 12 C
+- **common** (df=72) — `consumable` — page 2
+  - snippet: ssociated Medical Expenses in addition to the difference in room rent. Such associated medical expenses do not include Cost of pharmacy and consumables, Cost of implants and medical devices and Cost of diagnostics. Assisted Reproduction Treatment: Assisted Reproduction Treatment means Intr
+- **common** (df=93) — `day care` — page 1
+  - snippet: ness and includes relapse within 45 days from the date of last consultation with the Hospital/Nursing Home where treatment was taken. AYUSH Day Care Centre: AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary , Clinic, Polyclini
+- **common** (df=93) — `day care` — page 2
+  - snippet: Baby: Newborn baby means baby born during the Policy Period and is aged upto 90 days. Non-Network Provider: Non-Network means any hospital, day care centre or other provider that is not part of the network. Notiﬁcation of Claim: Notiﬁcation of claim means the process of intimating a clai
+- **common** (df=93) — `day care` — page 3
+  - snippet: mpany will pay cost of stent as per the Drug Price Control Order (DPCO) / National Pharmaceuticals Pricing Authority (NPPA) Capping. 5. All day care procedures are covered. Expenses on Hospitalization for a minimum period of 24 hours only are admissible. However this time limit will not 
+- **common** (df=93) — `day care` — page 4
+  - snippet: . Stroke Pain Management treatment: The Company will pay the expenses for the following, if availed at authorized centres as an In-patient/ Day Care treatment 19. Assisted Reproduction Treatment: The Company will reimburse medical expenses incurred on Assisted Reproduction Treatment as p
+- **common** (df=93) — `day care` — page 5
+  - snippet: No.: SHAHLIP23132V022223Star Women Care Insurance Policy POL / SWC / V.11 / 2025 https://registry.artsurrogacy.gov.in/. iv. Treatment under Day Care and OPD are not covered v. Waiting periods mentioned under section III (1), (2) are not applicable under Surrogacy Cover. vi. For coverage 
+- **common** (df=93) — `day care` — page 8
+  - snippet:  Capping. Forming Part of Sum Insured Impact Cumulative Bonus 2 Star Mother Cover Forming Part of Sum Insured Impact Cumulative Bonus 3 All day care procedures Forming Part of Sum Insured Impact Cumulative Bonus 4 Non-medical coverage Forming Part of Sum Insured Impact Cumulative Bonus 5
+- **common** (df=93) — `day care` — page 10
+  - snippet: ut not limited to Vitamins, minerals and organic substances unless prescribed by a medical practitioner as part of hospitalization claim or day care procedure - Code Excl 14 15. Refractive Error - Code Excl 15: Expenses related to the treatment for correction of eye sight due to refracti
+- **common** (df=48) — `non[- ]medical` — page 3
+  - snippet: tments / procedures, where treatment is taken in the Hospital / Nursing Home and the Insured is discharged on the same day. 6. Coverage for Non-medical Items: If there is an admissible claim under the policy, then Items as per List I will become payable 7. Road ambulance expenses: Subject t
+- **common** (df=48) — `non[- ]medical` — page 8
+  - snippet: r Cover Forming Part of Sum Insured Impact Cumulative Bonus 3 All day care procedures Forming Part of Sum Insured Impact Cumulative Bonus 4 Non-medical coverage Forming Part of Sum Insured Impact Cumulative Bonus 5 Road ambulance expenses Forming Part of Sum Insured Impact Cumulative Bonus 
+- **common** (df=14) — `once per policy year` — page 6
+  - snippet: he Insured can log into his/her account on the website www.starhealth.in and complete the HRA questionnaire. The Insured can undertake this once per policy year. On Completion of online HRA questionnaire, the Insured earns 50 wellness points. Note: To get the wellness points mentioned under HRA, the
+- **common** (df=71) — `organ donor` — page 3
+  - snippet: Hospitalization Expenses: Medical expenses incurred up to 90 days immediately after the insured person is discharged from the hospital. 11. Organ Donor Expenses: In patient hospitalization expenses incurred for organ transplantation from the Donor to the Recipient Insured Person are payable
+- **common** (df=71) — `organ donor` — page 8
+  - snippet: s Forming Part of Sum Insured Impact Cumulative Bonus 8 Post Hospitalization Expenses Forming Part of Sum Insured Impact Cumulative Bonus 9 Organ Donor Expenses Forming Part of Sum Insured Impact Cumulative Bonus 9a Complications necessiating Redo surgery or ICU admission for the Organdonor
+- **common** (df=93) — `pre[- ]existing` — page 1
+  - snippet: payment can be made to renew or continue a policy in force without loss of continuity beneﬁts pertaining to waiting periods and coverage of pre-existing diseases. Coverage need not be available during the period for which no premium is received. The grace period for payment of the premium fo
+- **common** (df=93) — `pre[- ]existing` — page 2
+  - snippet: eans a facility provided to policyholders (including all members under family cover and group policies), to transfer the credits gained for pre-existing diseases and speciﬁc waiting periods from one health insurance policy to another with the same insurer. Network Provider: Network Provider 
+- **common** (df=93) — `pre[- ]existing` — page 6
+  - snippet:  this section shall not be construed as a waiver of Company's right to repudiate any claim on grounds of non disclosure of material fact or pre-existing disease, for hospitalization expenses under hospitalization provisions of the policy contract 27. Preventive Health Check Up: Expenses incu
+- **common** (df=93) — `pre[- ]existing` — page 9
+  - snippet:  Not Impact Cumulative Bonus 26 Optional Cover (Lump sum on diagnosis of Cancer) Not Forming Part of Sum Insured Impact Cumulative Bonus 1. Pre-Existing Diseases - Code Excl 01 A. Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded
+- **common** (df=36) — `proportionate deduction` — page 2
+  - snippet: undergoing treatment in some of the hospitals. If Policy Holder chooses a higher room category above the eligibility deﬁned in policy, then proportionate deduction will apply on the Associated Medical Expenses in addition to the difference in room rent. Such associated medical expenses do not include C
+- **common** (df=36) — `proportionate deduction` — page 3
+  - snippet: penses will be considered in proportion to the eligible room rent/room category stated in the policy schedule or actuals whichever is less. Proportionate deductions are not applied in respect of the hospitals which do not follow differential billing or for those expenses in respect of which differentia
+- **common** (df=62) — `restore|recharge|reload|refill|reinstat` — page 4
+  - snippet: bject to the following; 1. The automatic restoration shall be immediately upon partial / full utilization of the limit of coverage. 2. Such Restored Sum Insured can be utilized for all claims for subsequent hospitalisation during the policy period. 3. The maximum liability of the Compan
+
+## policy-wording/star-health-care/Young_Star.pdf
+
+- **common** (df=93) — `ayush` — page 1
+  - snippet: of illness and includes relapse within 45 days from the date of last consultation with the Hospital/Nursing Home where treatment was taken. AYUSH Day Care Centre: AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, P
+- **common** (df=93) — `ayush` — page 3
+  - snippet: ance cannot be carried forward for the remaining policy period or for renewal · Claim under this beneﬁt will impact the Cumulative bonus M. AYUSH Treatment: Medical expenses for Inpatient Hospitalization incurred on treatment under Ayurveda, Unani, Sidha and Homeopathy systems of medi
+- **common** (df=87) — `co-?pay(?:ment)?` — page 8
+  - snippet: closure, misrepresentation and exclusions speciﬁed in the policy contract. The policies would however be subject to all limits, sub limits, co-payments, deductibles as per the policy contract. 12. Premium Payment in Instalments: lf the insured person has opted for Payment of Premium on an 
+- **common** (df=72) — `consumable` — page 2
+  - snippet: ssociated Medical Expenses in addition to the difference in room rent. Such associated medical expenses do not include Cost of pharmacy and consumables, Cost of implants and medical devices and Cost of diagnostics. Basic Sum Insured: Basic Sum Insured means the sum insured opted for and fo
+- **common** (df=93) — `day care` — page 1
+  - snippet: ness and includes relapse within 45 days from the date of last consultation with the Hospital/Nursing Home where treatment was taken. AYUSH Day Care Centre: AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, Polyclinic
+- **common** (df=93) — `day care` — page 2
+  - snippet: Baby: Newborn baby means baby born during the Policy Period and is aged upto 90 days. Non-Network Provider: Non-Network means any hospital, day care centre or other provider that is not part of the network. Notiﬁcation of Claim: Notiﬁcation of claim means the process of intimating a clai
+- **common** (df=93) — `day care` — page 3
+  - snippet: spitalization Expenses: Medical expenses incurred up to 90 days immediately after the insured person is discharged from the hospital G. All Day care procedures are covered H. E-Medical Opinion: The Insured Person is given the facility of obtaining “E Medical Opinion” from the Company's e
+- **common** (df=93) — `day care` — page 6
+  - snippet: . Coverage for Modern Treatments: The expenses payable during the entire policy period for the following treatment / procedure (either as a day care or as in-patient exceeding 24hrs of admission in the hospital) is limited to the amount mentioned in table below; *Sublimit all inclusive w
+- **common** (df=93) — `day care` — page 7
+  - snippet: ut not limited to Vitamins, minerals and organic substances unless prescribed by a medical practitioner as part of hospitalization claim or day care procedure - Code Excl 14 15. Refractive Error - Code Excl 15: Expenses related to the treatment for correction of eye sight due to refracti
+- **common** (df=93) — `day care` — page 8
+  - snippet: y period, coverage is available during the grace period also Sl.No. Type of Claim Prescribed time limit 1 Reimbursement of hospitalization, day care and pre hospitalization expenses Claim must be ﬁled within 15 days from the date of discharge from the Hospital 2 Reimbursement of Post hos
+- **common** (df=68) — `deductible` — page 1
+  - snippet: uired hospitalization of more than 24 hours Treatment normally taken on an out-patient basis is not included in the scope of this deﬁnition Deductible: Deductible means a cost sharing requirement under a health insurance policy that provides that the insurer will not be liable for a speciﬁ
+- **common** (df=68) — `deductible` — page 6
+  - snippet: d 14 days per policy period, provided, there is a valid claim for hospitalization under this policy Note 1. This beneﬁt is subject to 1 day Deductible 2. Payment under this beneﬁt does not form part of the Basic sum insured 3. Claim under this section will impact the Cumulative bonus IV. E
+- **common** (df=68) — `deductible` — page 8
+  - snippet: epresentation and exclusions speciﬁed in the policy contract. The policies would however be subject to all limits, sub limits, co-payments, deductibles as per the policy contract. 12. Premium Payment in Instalments: lf the insured person has opted for Payment of Premium on an instalment ba
+- **common** (df=14) — `once per policy year` — page 4
+  - snippet: he Insured can log into his/her account on the website www.starhealth.in and complete the HRA questionnaire. The Insured can undertake this once per policy year On Completion of online HRA questionnaire, the Insured earns 50 wellness points. Note: To get the wellness points mentioned under HRA, the 
+- **common** (df=93) — `pre[- ]existing` — page 1
+  - snippet: payment can be made to renew or continue a policy in force without loss of continuity beneﬁts pertaining to waiting periods and coverage of pre-existing diseases. Coverage need not be available during the period for which no premium is received. The grace period for payment of the premium fo
+- **common** (df=93) — `pre[- ]existing` — page 2
+  - snippet: eans a facility provided to policyholders (including all members under family cover and group policies), to transfer the credits gained for pre-existing diseases and speciﬁc waiting periods from one health insurance policy to another with the same insurer. Network Provider: Network Provider 
+- **common** (df=93) — `pre[- ]existing` — page 3
+  - snippet: rds cost of health checkup will not prejudice the Company's right to deal with the claim in case of non-disclosure of material fact and /or pre existing diseases in terms of the policy 5. The unutilized amount under this beneﬁt cannot be carried forward J. Automatic Restoration of Basic Sum 
+- **common** (df=93) — `pre[- ]existing` — page 6
+  - snippet: s policy in respect of any expenses what so ever incurred by the insured person in connection with or in respect of; STANDARD EXCLUSIONS 1. Pre-Existing Diseases - Code Excl 01 A. Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded
+- **common** (df=36) — `proportionate deduction` — page 2
+  - snippet: undergoing treatment in some of the hospitals. If Policy Holder chooses a higher room category above the eligibility deﬁned in policy, then proportionate deduction will apply on the Associated Medical Expenses in addition to the difference in room rent. Such associated medical expenses do not include C
+- **common** (df=62) — `restore|recharge|reload|refill|reinstat` — page 3
+  - snippet:  subject to the following; 1. The automatic restoration shall be immediately upon partial/full utilization of the limit of coverage 2. Such Restored basic sum insured can be utilized for all claims during the policy period 3. The maximum liability of the Company in a Single claim under 
+- **common** (df=62) — `restore|recharge|reload|refill|reinstat` — page 9
+  - snippet: e other surviving members of the family will continue, subject to other terms of the policy ü Upon exhaustion of the Limit of Coverage Plus Restored Basic Sum Insured under the policy 25. Policy disputes: Any dispute concerning the interpretation of the terms, conditions, limitations an
+- **common** (df=93) — `room rent` — page 2
+  - snippet: ting the renewal continuous for the purpose of gaining credit for pre-existing diseases, time-bound exclusions and for all waiting periods. Room Rent: Room Rent means the amount charged by a Hospital towards Room and Boarding expenses and shall include the associated medical expenses. Sur
+- **common** (df=70) — `sub[- ]limit` — page 8
+  - snippet: raud, nondisclosure, misrepresentation and exclusions speciﬁed in the policy contract. The policies would however be subject to all limits, sub limits, co-payments, deductibles as per the policy contract. 12. Premium Payment in Instalments: lf the insured person has opted for Payment of P
+- **common** (df=93) — `waiting period` — page 1
+  - snippet: m due date during which premium payment can be made to renew or continue a policy in force without loss of continuity beneﬁts pertaining to waiting periods and coverage of pre-existing diseases. Coverage need not be available during the period for which no premium is received. The grace period
+- **common** (df=93) — `waiting period` — page 2
+  - snippet: holders (including all members under family cover and group policies), to transfer the credits gained for pre-existing diseases and speciﬁc waiting periods from one health insurance policy to another with the same insurer. Network Provider: Network Provider means hospitals or health care provi
+
