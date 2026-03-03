@@ -1,5 +1,3 @@
-import { requireSupabase } from '@/integrations/supabase/client';
-
 export interface PolicyFeature {
   name: string;
   quote: string;
@@ -29,51 +27,24 @@ export interface AnalysisResult {
 }
 
 export class PolicyAnalysisError extends Error {
-  constructor(
-    message: string, 
-    public statusCode?: number,
-    public errorType?: string
-  ) {
+  constructor(message: string, public statusCode?: number) {
     super(message);
     this.name = 'PolicyAnalysisError';
   }
 }
 
-export class InvalidDocumentError extends PolicyAnalysisError {
-  constructor(message: string, public detectedType?: string) {
-    super(message, 400, 'invalid_document');
-    this.name = 'InvalidDocumentError';
-  }
-}
-
 export async function analyzePolicyWithAI(policyText: string): Promise<AnalysisResult> {
-  console.log(`Sending policy text for analysis (${policyText.length} characters)`);
-
-  const supabase = requireSupabase();
-
-  const { data, error } = await supabase.functions.invoke('analyze-policy', {
-    body: { policyText }
+  const res = await fetch('/api/analyze-policy', {
+    method: 'POST',
+    headers: { 'content-type': 'application/json' },
+    body: JSON.stringify({ policyText }),
   });
 
-  if (error) {
-    console.error('Edge function error:', error);
-    throw new PolicyAnalysisError(error.message || 'Failed to analyze policy');
+  const data = await res.json().catch(() => ({}));
+
+  if (!res.ok) {
+    throw new PolicyAnalysisError(data?.error || 'Failed to analyze policy', res.status);
   }
 
-  if (data?.error) {
-    console.error('Analysis error:', data.error, data.message);
-    
-    // Handle invalid document type
-    if (data.error === 'invalid_document') {
-      throw new InvalidDocumentError(
-        data.message || 'This does not appear to be a health insurance policy.',
-        data.detectedType
-      );
-    }
-    
-    throw new PolicyAnalysisError(data.error);
-  }
-
-  console.log('Analysis received:', data.policyName);
   return data as AnalysisResult;
 }
