@@ -1,4 +1,4 @@
-import { supabase } from '@/integrations/supabase/client';
+import { requireSupabase } from '@/integrations/supabase/client';
 
 export interface PolicyFeature {
   name: string;
@@ -48,6 +48,8 @@ export class InvalidDocumentError extends PolicyAnalysisError {
 
 export async function analyzePolicyWithAI(policyText: string): Promise<AnalysisResult> {
   console.log(`Sending policy text for analysis (${policyText.length} characters)`);
+
+  const supabase = requireSupabase();
 
   const { data, error } = await supabase.functions.invoke('analyze-policy', {
     body: { policyText }
