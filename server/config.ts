@@ -1,9 +1,6 @@
 import dotenv from 'dotenv';
-import fs from 'fs';
-
-// In local dev we use .env.local; in other environments .env may be used.
-const envPath = fs.existsSync('.env.local') ? '.env.local' : '.env';
-dotenv.config({ path: envPath });
+// Load env from .env (single-file approach)
+dotenv.config({ path: '.env' });
 
 type RequiredEnv = {
   MONGODB_URI: string;
