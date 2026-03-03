@@ -1,0 +1,1730 @@
+{
+  "total_pdfs": 93,
+  "pattern_frequency": [
+    [
+      "day care",
+      93
+    ],
+    [
+      "waiting period",
+      93
+    ],
+    [
+      "pre[- ]existing",
+      93
+    ],
+    [
+      "room rent",
+      93
+    ],
+    [
+      "ayush",
+      93
+    ],
+    [
+      "co-?pay(?:ment)?",
+      87
+    ],
+    [
+      "domiciliary",
+      74
+    ],
+    [
+      "consumable",
+      72
+    ],
+    [
+      "organ donor",
+      71
+    ],
+    [
+      "sub[- ]limit",
+      70
+    ],
+    [
+      "deductible",
+      68
+    ],
+    [
+      "restore|recharge|reload|refill|reinstat",
+      62
+    ],
+    [
+      "air ambulance",
+      55
+    ],
+    [
+      "non[- ]medical",
+      48
+    ],
+    [
+      "unlimited",
+      44
+    ],
+    [
+      "proportionate deduction",
+      36
+    ],
+    [
+      "2x|two times|twice|double",
+      23
+    ],
+    [
+      "once per policy year",
+      10
+    ]
+  ],
+  "unique_patterns": [],
+  "per_pdf": {
+    "policy-wording/aditya-birla/Activ_Assured_Diamond.pdf": {
+      "insurer": "aditya-birla",
+      "pattern_hits": [
+        "air ambulance",
+        "ayush",
+        "co-?pay(?:ment)?",
+        "consumable",
+        "day care",
+        "domiciliary",
+        "non[- ]medical",
+        "organ donor",
+        "pre[- ]existing",
+        "proportionate deduction",
+        "restore|recharge|reload|refill|reinstat",
+        "room rent",
+        "sub[- ]limit",
+        "unlimited",
+        "waiting period"
+      ]
+    },
+    "policy-wording/aditya-birla/Activ_Care_Classic.pdf": {
+      "insurer": "aditya-birla",
+      "pattern_hits": [
+        "air ambulance",
+        "ayush",
+        "co-?pay(?:ment)?",
+        "consumable",
+        "day care",
+        "domiciliary",
+        "non[- ]medical",
+        "once per policy year",
+        "organ donor",
+        "pre[- ]existing",
+        "proportionate deduction",
+        "restore|recharge|reload|refill|reinstat",
+        "room rent",
+        "sub[- ]limit",
+        "unlimited",
+        "waiting period"
+      ]
+    },
+    "policy-wording/aditya-birla/Activ_Care_Premier.pdf": {
+      "insurer": "aditya-birla",
+      "pattern_hits": [
+        "air ambulance",
+        "ayush",
+        "co-?pay(?:ment)?",
+        "consumable",
+        "day care",
+        "domiciliary",
+        "non[- ]medical",
+        "once per policy year",
+        "organ donor",
+        "pre[- ]existing",
+        "proportionate deduction",
+        "restore|recharge|reload|refill|reinstat",
+        "room rent",
+        "sub[- ]limit",
+        "unlimited",
+        "waiting period"
+      ]
+    },
+    "policy-wording/aditya-birla/Activ_Care_Standard.pdf": {
+      "insurer": "aditya-birla",
+      "pattern_hits": [
+        "air ambulance",
+        "ayush",
+        "co-?pay(?:ment)?",
+        "consumable",
+        "day care",
+        "domiciliary",
+        "non[- ]medical",
+        "once per policy year",
+        "organ donor",
+        "pre[- ]existing",
+        "proportionate deduction",
+        "restore|recharge|reload|refill|reinstat",
+        "room rent",
+        "sub[- ]limit",
+        "unlimited",
+        "waiting period"
+      ]
+    },
+    "policy-wording/aditya-birla/Activ_Fit_Plus.pdf": {
+      "insurer": "aditya-birla",
+      "pattern_hits": [
+        "2x|two times|twice|double",
+        "air ambulance",
+        "ayush",
+        "consumable",
+        "day care",
+        "domiciliary",
+        "non[- ]medical",
+        "organ donor",
+        "pre[- ]existing",
+        "proportionate deduction",
+        "room rent",
+        "sub[- ]limit",
+        "unlimited",
+        "waiting period"
+      ]
+    },
+    "policy-wording/aditya-birla/Activ_Fit_Preferred.pdf": {
+      "insurer": "aditya-birla",
+      "pattern_hits": [
+        "2x|two times|twice|double",
+        "air ambulance",
+        "ayush",
+        "consumable",
+        "day care",
+        "domiciliary",
+        "non[- ]medical",
+        "organ donor",
+        "pre[- ]existing",
+        "proportionate deduction",
+        "room rent",
+        "sub[- ]limit",
+        "unlimited",
+        "waiting period"
+      ]
+    },
+    "policy-wording/aditya-birla/Activ_Health_Platinum_Enhanced.pdf": {
+      "insurer": "aditya-birla",
+      "pattern_hits": [
+        "air ambulance",
+        "ayush",
+        "co-?pay(?:ment)?",
+        "consumable",
+        "day care",
+        "deductible",
+        "domiciliary",
+        "non[- ]medical",
+        "organ donor",
+        "pre[- ]existing",
+        "proportionate deduction",
+        "restore|recharge|reload|refill|reinstat",
+        "room rent",
+        "sub[- ]limit",
+        "unlimited",
+        "waiting period"
+      ]
+    },
+    "policy-wording/aditya-birla/Activ_Health_Platinum_Essential.pdf": {
+      "insurer": "aditya-birla",
+      "pattern_hits": [
+        "air ambulance",
+        "ayush",
+        "co-?pay(?:ment)?",
+        "consumable",
+        "day care",
+        "deductible",
+        "domiciliary",
+        "non[- ]medical",
+        "organ donor",
+        "pre[- ]existing",
+        "proportionate deduction",
+        "restore|recharge|reload|refill|reinstat",
+        "room rent",
+        "sub[- ]limit",
+        "unlimited",
+        "waiting period"
+      ]
+    },
+    "policy-wording/aditya-birla/Activ_Health_Plus_TopUp.pdf": {
+      "insurer": "aditya-birla",
+      "pattern_hits": [
+        "air ambulance",
+        "ayush",
+        "co-?pay(?:ment)?",
+        "consumable",
+        "day care",
+        "deductible",
+        "domiciliary",
+        "non[- ]medical",
+        "organ donor",
+        "pre[- ]existing",
+        "proportionate deduction",
+        "room rent",
+        "sub[- ]limit",
+        "waiting period"
+      ]
+    },
+    "policy-wording/aditya-birla/Activ_One_MAX.pdf": {
+      "insurer": "aditya-birla",
+      "pattern_hits": [
+        "ayush",
+        "co-?pay(?:ment)?",
+        "consumable",
+        "day care",
+        "deductible",
+        "non[- ]medical",
+        "pre[- ]existing",
+        "restore|recharge|reload|refill|reinstat",
+        "room rent",
+        "sub[- ]limit",
+        "waiting period"
+      ]
+    },
+    "policy-wording/aditya-birla/Activ_One_MAX_Plus.pdf": {
+      "insurer": "aditya-birla",
+      "pattern_hits": [
+        "ayush",
+        "co-?pay(?:ment)?",
+        "consumable",
+        "day care",
+        "deductible",
+        "non[- ]medical",
+        "pre[- ]existing",
+        "restore|recharge|reload|refill|reinstat",
+        "room rent",
+        "sub[- ]limit",
+        "waiting period"
+      ]
+    },
+    "policy-wording/aditya-birla/Activ_One_NXT.pdf": {
+      "insurer": "aditya-birla",
+      "pattern_hits": [
+        "ayush",
+        "co-?pay(?:ment)?",
+        "consumable",
+        "day care",
+        "deductible",
+        "non[- ]medical",
+        "pre[- ]existing",
+        "restore|recharge|reload|refill|reinstat",
+        "room rent",
+        "sub[- ]limit",
+        "waiting period"
+      ]
+    },
+    "policy-wording/aditya-birla/Activ_One_SAVR.pdf": {
+      "insurer": "aditya-birla",
+      "pattern_hits": [
+        "ayush",
+        "co-?pay(?:ment)?",
+        "consumable",
+        "day care",
+        "deductible",
+        "non[- ]medical",
+        "pre[- ]existing",
+        "restore|recharge|reload|refill|reinstat",
+        "room rent",
+        "sub[- ]limit",
+        "waiting period"
+      ]
+    },
+    "policy-wording/aditya-birla/Activ_One_VIP.pdf": {
+      "insurer": "aditya-birla",
+      "pattern_hits": [
+        "ayush",
+        "co-?pay(?:ment)?",
+        "consumable",
+        "day care",
+        "deductible",
+        "non[- ]medical",
+        "pre[- ]existing",
+        "restore|recharge|reload|refill|reinstat",
+        "room rent",
+        "sub[- ]limit",
+        "waiting period"
+      ]
+    },
+    "policy-wording/aditya-birla/Activ_One_VIP_Plus.pdf": {
+      "insurer": "aditya-birla",
+      "pattern_hits": [
+        "ayush",
+        "co-?pay(?:ment)?",
+        "consumable",
+        "day care",
+        "deductible",
+        "non[- ]medical",
+        "pre[- ]existing",
+        "restore|recharge|reload|refill|reinstat",
+        "room rent",
+        "sub[- ]limit",
+        "waiting period"
+      ]
+    },
+    "policy-wording/aditya-birla/Activ_One_VYTL.pdf": {
+      "insurer": "aditya-birla",
+      "pattern_hits": [
+        "ayush",
+        "co-?pay(?:ment)?",
+        "consumable",
+        "day care",
+        "deductible",
+        "non[- ]medical",
+        "pre[- ]existing",
+        "restore|recharge|reload|refill|reinstat",
+        "room rent",
+        "sub[- ]limit",
+        "waiting period"
+      ]
+    },
+    "policy-wording/care/Care_Advantage.pdf": {
+      "insurer": "care",
+      "pattern_hits": [
+        "2x|two times|twice|double",
+        "air ambulance",
+        "ayush",
+        "co-?pay(?:ment)?",
+        "day care",
+        "deductible",
+        "domiciliary",
+        "non[- ]medical",
+        "organ donor",
+        "pre[- ]existing",
+        "restore|recharge|reload|refill|reinstat",
+        "room rent",
+        "sub[- ]limit",
+        "unlimited",
+        "waiting period"
+      ]
+    },
+    "policy-wording/care/Care_Care.pdf": {
+      "insurer": "care",
+      "pattern_hits": [
+        "2x|two times|twice|double",
+        "air ambulance",
+        "ayush",
+        "co-?pay(?:ment)?",
+        "day care",
+        "deductible",
+        "domiciliary",
+        "organ donor",
+        "pre[- ]existing",
+        "restore|recharge|reload|refill|reinstat",
+        "room rent",
+        "sub[- ]limit",
+        "unlimited",
+        "waiting period"
+      ]
+    },
+    "policy-wording/care/Care_Classic.pdf": {
+      "insurer": "care",
+      "pattern_hits": [
+        "air ambulance",
+        "ayush",
+        "co-?pay(?:ment)?",
+        "day care",
+        "deductible",
+        "domiciliary",
+        "non[- ]medical",
+        "organ donor",
+        "pre[- ]existing",
+        "restore|recharge|reload|refill|reinstat",
+        "room rent",
+        "sub[- ]limit",
+        "unlimited",
+        "waiting period"
+      ]
+    },
+    "policy-wording/care/Care_Enhance_Top_Up.pdf": {
+      "insurer": "care",
+      "pattern_hits": [
+        "ayush",
+        "co-?pay(?:ment)?",
+        "day care",
+        "deductible",
+        "domiciliary",
+        "non[- ]medical",
+        "organ donor",
+        "pre[- ]existing",
+        "restore|recharge|reload|refill|reinstat",
+        "room rent",
+        "sub[- ]limit",
+        "waiting period"
+      ]
+    },
+    "policy-wording/care/Care_Freedom.pdf": {
+      "insurer": "care",
+      "pattern_hits": [
+        "ayush",
+        "co-?pay(?:ment)?",
+        "consumable",
+        "day care",
+        "deductible",
+        "domiciliary",
+        "pre[- ]existing",
+        "restore|recharge|reload|refill|reinstat",
+        "room rent",
+        "sub[- ]limit",
+        "waiting period"
+      ]
+    },
+    "policy-wording/care/Care_Heart.pdf": {
+      "insurer": "care",
+      "pattern_hits": [
+        "2x|two times|twice|double",
+        "ayush",
+        "co-?pay(?:ment)?",
+        "day care",
+        "deductible",
+        "domiciliary",
+        "non[- ]medical",
+        "pre[- ]existing",
+        "restore|recharge|reload|refill|reinstat",
+        "room rent",
+        "sub[- ]limit",
+        "waiting period"
+      ]
+    },
+    "policy-wording/care/Care_Joy_Today.pdf": {
+      "insurer": "care",
+      "pattern_hits": [
+        "ayush",
+        "co-?pay(?:ment)?",
+        "day care",
+        "deductible",
+        "domiciliary",
+        "non[- ]medical",
+        "pre[- ]existing",
+        "restore|recharge|reload|refill|reinstat",
+        "room rent",
+        "sub[- ]limit",
+        "waiting period"
+      ]
+    },
+    "policy-wording/care/Care_Joy_Tomorrow.pdf": {
+      "insurer": "care",
+      "pattern_hits": [
+        "ayush",
+        "co-?pay(?:ment)?",
+        "day care",
+        "deductible",
+        "domiciliary",
+        "non[- ]medical",
+        "pre[- ]existing",
+        "restore|recharge|reload|refill|reinstat",
+        "room rent",
+        "sub[- ]limit",
+        "waiting period"
+      ]
+    },
+    "policy-wording/care/Care_Plus_Complete.pdf": {
+      "insurer": "care",
+      "pattern_hits": [
+        "2x|two times|twice|double",
+        "air ambulance",
+        "ayush",
+        "co-?pay(?:ment)?",
+        "day care",
+        "deductible",
+        "domiciliary",
+        "non[- ]medical",
+        "once per policy year",
+        "organ donor",
+        "pre[- ]existing",
+        "restore|recharge|reload|refill|reinstat",
+        "room rent",
+        "sub[- ]limit",
+        "unlimited",
+        "waiting period"
+      ]
+    },
+    "policy-wording/care/Care_Plus_Youth.pdf": {
+      "insurer": "care",
+      "pattern_hits": [
+        "2x|two times|twice|double",
+        "air ambulance",
+        "ayush",
+        "co-?pay(?:ment)?",
+        "day care",
+        "deductible",
+        "domiciliary",
+        "non[- ]medical",
+        "once per policy year",
+        "organ donor",
+        "pre[- ]existing",
+        "restore|recharge|reload|refill|reinstat",
+        "room rent",
+        "sub[- ]limit",
+        "unlimited",
+        "waiting period"
+      ]
+    },
+    "policy-wording/care/Care_Senior.pdf": {
+      "insurer": "care",
+      "pattern_hits": [
+        "2x|two times|twice|double",
+        "air ambulance",
+        "ayush",
+        "co-?pay(?:ment)?",
+        "day care",
+        "deductible",
+        "domiciliary",
+        "non[- ]medical",
+        "organ donor",
+        "pre[- ]existing",
+        "restore|recharge|reload|refill|reinstat",
+        "room rent",
+        "sub[- ]limit",
+        "unlimited",
+        "waiting period"
+      ]
+    },
+    "policy-wording/care/Care_Senior_Health_Advantage.pdf": {
+      "insurer": "care",
+      "pattern_hits": [
+        "air ambulance",
+        "ayush",
+        "co-?pay(?:ment)?",
+        "consumable",
+        "day care",
+        "deductible",
+        "domiciliary",
+        "non[- ]medical",
+        "organ donor",
+        "pre[- ]existing",
+        "restore|recharge|reload|refill|reinstat",
+        "room rent",
+        "sub[- ]limit",
+        "unlimited",
+        "waiting period"
+      ]
+    },
+    "policy-wording/care/Care_Supreme.pdf": {
+      "insurer": "care",
+      "pattern_hits": [
+        "air ambulance",
+        "ayush",
+        "co-?pay(?:ment)?",
+        "consumable",
+        "day care",
+        "deductible",
+        "domiciliary",
+        "organ donor",
+        "pre[- ]existing",
+        "restore|recharge|reload|refill|reinstat",
+        "room rent",
+        "sub[- ]limit",
+        "unlimited",
+        "waiting period"
+      ]
+    },
+    "policy-wording/care/Care_Supreme_Enhance_Super_TopUp.pdf": {
+      "insurer": "care",
+      "pattern_hits": [
+        "2x|two times|twice|double",
+        "air ambulance",
+        "ayush",
+        "co-?pay(?:ment)?",
+        "consumable",
+        "day care",
+        "deductible",
+        "domiciliary",
+        "non[- ]medical",
+        "organ donor",
+        "pre[- ]existing",
+        "restore|recharge|reload|refill|reinstat",
+        "room rent",
+        "sub[- ]limit",
+        "unlimited",
+        "waiting period"
+      ]
+    },
+    "policy-wording/care/Care_Supreme_Senior_Premium.pdf": {
+      "insurer": "care",
+      "pattern_hits": [
+        "air ambulance",
+        "ayush",
+        "co-?pay(?:ment)?",
+        "consumable",
+        "day care",
+        "deductible",
+        "domiciliary",
+        "organ donor",
+        "pre[- ]existing",
+        "restore|recharge|reload|refill|reinstat",
+        "room rent",
+        "sub[- ]limit",
+        "unlimited",
+        "waiting period"
+      ]
+    },
+    "policy-wording/care/Care_Supreme_Senior_Super.pdf": {
+      "insurer": "care",
+      "pattern_hits": [
+        "air ambulance",
+        "ayush",
+        "co-?pay(?:ment)?",
+        "consumable",
+        "day care",
+        "deductible",
+        "domiciliary",
+        "organ donor",
+        "pre[- ]existing",
+        "restore|recharge|reload|refill|reinstat",
+        "room rent",
+        "sub[- ]limit",
+        "unlimited",
+        "waiting period"
+      ]
+    },
+    "policy-wording/care/Care_Supreme_Super_Saver.pdf": {
+      "insurer": "care",
+      "pattern_hits": [
+        "air ambulance",
+        "ayush",
+        "co-?pay(?:ment)?",
+        "consumable",
+        "day care",
+        "deductible",
+        "domiciliary",
+        "non[- ]medical",
+        "organ donor",
+        "pre[- ]existing",
+        "restore|recharge|reload|refill|reinstat",
+        "room rent",
+        "sub[- ]limit",
+        "unlimited",
+        "waiting period"
+      ]
+    },
+    "policy-wording/care/Care_Supreme_VFM.pdf": {
+      "insurer": "care",
+      "pattern_hits": [
+        "air ambulance",
+        "ayush",
+        "co-?pay(?:ment)?",
+        "consumable",
+        "day care",
+        "deductible",
+        "domiciliary",
+        "organ donor",
+        "pre[- ]existing",
+        "restore|recharge|reload|refill|reinstat",
+        "room rent",
+        "sub[- ]limit",
+        "unlimited",
+        "waiting period"
+      ]
+    },
+    "policy-wording/care/Care_Ultimate.pdf": {
+      "insurer": "care",
+      "pattern_hits": [
+        "ayush",
+        "co-?pay(?:ment)?",
+        "consumable",
+        "day care",
+        "deductible",
+        "domiciliary",
+        "organ donor",
+        "pre[- ]existing",
+        "restore|recharge|reload|refill|reinstat",
+        "room rent",
+        "sub[- ]limit",
+        "unlimited",
+        "waiting period"
+      ]
+    },
+    "policy-wording/hdfc-ergo/Easy_Health_Exclusive.pdf": {
+      "insurer": "hdfc-ergo",
+      "pattern_hits": [
+        "air ambulance",
+        "ayush",
+        "co-?pay(?:ment)?",
+        "consumable",
+        "day care",
+        "deductible",
+        "domiciliary",
+        "non[- ]medical",
+        "organ donor",
+        "pre[- ]existing",
+        "room rent",
+        "waiting period"
+      ]
+    },
+    "policy-wording/hdfc-ergo/Easy_Health_Premium.pdf": {
+      "insurer": "hdfc-ergo",
+      "pattern_hits": [
+        "air ambulance",
+        "ayush",
+        "co-?pay(?:ment)?",
+        "consumable",
+        "day care",
+        "deductible",
+        "domiciliary",
+        "non[- ]medical",
+        "organ donor",
+        "pre[- ]existing",
+        "room rent",
+        "waiting period"
+      ]
+    },
+    "policy-wording/hdfc-ergo/Easy_Health_Standard.pdf": {
+      "insurer": "hdfc-ergo",
+      "pattern_hits": [
+        "air ambulance",
+        "ayush",
+        "co-?pay(?:ment)?",
+        "consumable",
+        "day care",
+        "deductible",
+        "domiciliary",
+        "non[- ]medical",
+        "organ donor",
+        "pre[- ]existing",
+        "room rent",
+        "waiting period"
+      ]
+    },
+    "policy-wording/hdfc-ergo/Energy_Gold.pdf": {
+      "insurer": "hdfc-ergo",
+      "pattern_hits": [
+        "2x|two times|twice|double",
+        "ayush",
+        "co-?pay(?:ment)?",
+        "consumable",
+        "day care",
+        "non[- ]medical",
+        "organ donor",
+        "pre[- ]existing",
+        "restore|recharge|reload|refill|reinstat",
+        "room rent",
+        "waiting period"
+      ]
+    },
+    "policy-wording/hdfc-ergo/Energy_Silver.pdf": {
+      "insurer": "hdfc-ergo",
+      "pattern_hits": [
+        "2x|two times|twice|double",
+        "ayush",
+        "co-?pay(?:ment)?",
+        "consumable",
+        "day care",
+        "non[- ]medical",
+        "organ donor",
+        "pre[- ]existing",
+        "restore|recharge|reload|refill|reinstat",
+        "room rent",
+        "waiting period"
+      ]
+    },
+    "policy-wording/hdfc-ergo/Equicover.pdf": {
+      "insurer": "hdfc-ergo",
+      "pattern_hits": [
+        "ayush",
+        "co-?pay(?:ment)?",
+        "consumable",
+        "day care",
+        "domiciliary",
+        "non[- ]medical",
+        "pre[- ]existing",
+        "room rent",
+        "sub[- ]limit",
+        "waiting period"
+      ]
+    },
+    "policy-wording/hdfc-ergo/Health_Wallet.pdf": {
+      "insurer": "hdfc-ergo",
+      "pattern_hits": [
+        "ayush",
+        "co-?pay(?:ment)?",
+        "consumable",
+        "day care",
+        "deductible",
+        "domiciliary",
+        "non[- ]medical",
+        "organ donor",
+        "pre[- ]existing",
+        "restore|recharge|reload|refill|reinstat",
+        "room rent",
+        "waiting period"
+      ]
+    },
+    "policy-wording/hdfc-ergo/MyHealth_Koti_Suraksha.pdf": {
+      "insurer": "hdfc-ergo",
+      "pattern_hits": [
+        "air ambulance",
+        "ayush",
+        "co-?pay(?:ment)?",
+        "consumable",
+        "day care",
+        "deductible",
+        "domiciliary",
+        "non[- ]medical",
+        "organ donor",
+        "pre[- ]existing",
+        "room rent",
+        "sub[- ]limit",
+        "waiting period"
+      ]
+    },
+    "policy-wording/hdfc-ergo/MyHealth_Medisure_Super_TopUp.pdf": {
+      "insurer": "hdfc-ergo",
+      "pattern_hits": [
+        "ayush",
+        "co-?pay(?:ment)?",
+        "day care",
+        "deductible",
+        "domiciliary",
+        "non[- ]medical",
+        "pre[- ]existing",
+        "room rent",
+        "waiting period"
+      ]
+    },
+    "policy-wording/hdfc-ergo/MyHealth_Suraksha_Gold.pdf": {
+      "insurer": "hdfc-ergo",
+      "pattern_hits": [
+        "air ambulance",
+        "ayush",
+        "co-?pay(?:ment)?",
+        "consumable",
+        "day care",
+        "deductible",
+        "domiciliary",
+        "non[- ]medical",
+        "organ donor",
+        "pre[- ]existing",
+        "proportionate deduction",
+        "restore|recharge|reload|refill|reinstat",
+        "room rent",
+        "sub[- ]limit",
+        "waiting period"
+      ]
+    },
+    "policy-wording/hdfc-ergo/MyHealth_Suraksha_Platinum.pdf": {
+      "insurer": "hdfc-ergo",
+      "pattern_hits": [
+        "air ambulance",
+        "ayush",
+        "co-?pay(?:ment)?",
+        "consumable",
+        "day care",
+        "deductible",
+        "domiciliary",
+        "non[- ]medical",
+        "organ donor",
+        "pre[- ]existing",
+        "proportionate deduction",
+        "restore|recharge|reload|refill|reinstat",
+        "room rent",
+        "sub[- ]limit",
+        "waiting period"
+      ]
+    },
+    "policy-wording/hdfc-ergo/MyHealth_Suraksha_Silver.pdf": {
+      "insurer": "hdfc-ergo",
+      "pattern_hits": [
+        "air ambulance",
+        "ayush",
+        "co-?pay(?:ment)?",
+        "consumable",
+        "day care",
+        "deductible",
+        "domiciliary",
+        "non[- ]medical",
+        "organ donor",
+        "pre[- ]existing",
+        "proportionate deduction",
+        "restore|recharge|reload|refill|reinstat",
+        "room rent",
+        "sub[- ]limit",
+        "waiting period"
+      ]
+    },
+    "policy-wording/hdfc-ergo/Optima_Lite.pdf": {
+      "insurer": "hdfc-ergo",
+      "pattern_hits": [
+        "2x|two times|twice|double",
+        "air ambulance",
+        "ayush",
+        "co-?pay(?:ment)?",
+        "consumable",
+        "day care",
+        "deductible",
+        "domiciliary",
+        "organ donor",
+        "pre[- ]existing",
+        "proportionate deduction",
+        "restore|recharge|reload|refill|reinstat",
+        "room rent",
+        "sub[- ]limit",
+        "unlimited",
+        "waiting period"
+      ]
+    },
+    "policy-wording/hdfc-ergo/Optima_Restore.pdf": {
+      "insurer": "hdfc-ergo",
+      "pattern_hits": [
+        "air ambulance",
+        "ayush",
+        "co-?pay(?:ment)?",
+        "consumable",
+        "day care",
+        "deductible",
+        "domiciliary",
+        "non[- ]medical",
+        "organ donor",
+        "pre[- ]existing",
+        "restore|recharge|reload|refill|reinstat",
+        "room rent",
+        "unlimited",
+        "waiting period"
+      ]
+    },
+    "policy-wording/hdfc-ergo/Optima_Secure.pdf": {
+      "insurer": "hdfc-ergo",
+      "pattern_hits": [
+        "2x|two times|twice|double",
+        "air ambulance",
+        "ayush",
+        "co-?pay(?:ment)?",
+        "consumable",
+        "day care",
+        "deductible",
+        "domiciliary",
+        "organ donor",
+        "pre[- ]existing",
+        "proportionate deduction",
+        "restore|recharge|reload|refill|reinstat",
+        "room rent",
+        "sub[- ]limit",
+        "unlimited",
+        "waiting period"
+      ]
+    },
+    "policy-wording/hdfc-ergo/Optima_Secure_Global.pdf": {
+      "insurer": "hdfc-ergo",
+      "pattern_hits": [
+        "2x|two times|twice|double",
+        "air ambulance",
+        "ayush",
+        "co-?pay(?:ment)?",
+        "consumable",
+        "day care",
+        "deductible",
+        "domiciliary",
+        "organ donor",
+        "pre[- ]existing",
+        "proportionate deduction",
+        "restore|recharge|reload|refill|reinstat",
+        "room rent",
+        "sub[- ]limit",
+        "unlimited",
+        "waiting period"
+      ]
+    },
+    "policy-wording/hdfc-ergo/Optima_Secure_Global_Plus.pdf": {
+      "insurer": "hdfc-ergo",
+      "pattern_hits": [
+        "2x|two times|twice|double",
+        "air ambulance",
+        "ayush",
+        "co-?pay(?:ment)?",
+        "consumable",
+        "day care",
+        "deductible",
+        "domiciliary",
+        "organ donor",
+        "pre[- ]existing",
+        "proportionate deduction",
+        "restore|recharge|reload|refill|reinstat",
+        "room rent",
+        "sub[- ]limit",
+        "unlimited",
+        "waiting period"
+      ]
+    },
+    "policy-wording/hdfc-ergo/Optima_Senior.pdf": {
+      "insurer": "hdfc-ergo",
+      "pattern_hits": [
+        "ayush",
+        "co-?pay(?:ment)?",
+        "consumable",
+        "day care",
+        "domiciliary",
+        "non[- ]medical",
+        "organ donor",
+        "pre[- ]existing",
+        "restore|recharge|reload|refill|reinstat",
+        "room rent",
+        "waiting period"
+      ]
+    },
+    "policy-wording/hdfc-ergo/Optima_Super_Secure.pdf": {
+      "insurer": "hdfc-ergo",
+      "pattern_hits": [
+        "2x|two times|twice|double",
+        "air ambulance",
+        "ayush",
+        "co-?pay(?:ment)?",
+        "consumable",
+        "day care",
+        "deductible",
+        "domiciliary",
+        "organ donor",
+        "pre[- ]existing",
+        "proportionate deduction",
+        "restore|recharge|reload|refill|reinstat",
+        "room rent",
+        "sub[- ]limit",
+        "unlimited",
+        "waiting period"
+      ]
+    },
+    "policy-wording/icici-lombard/Elevate.pdf": {
+      "insurer": "icici-lombard",
+      "pattern_hits": [
+        "2x|two times|twice|double",
+        "air ambulance",
+        "ayush",
+        "co-?pay(?:ment)?",
+        "consumable",
+        "day care",
+        "deductible",
+        "domiciliary",
+        "non[- ]medical",
+        "once per policy year",
+        "organ donor",
+        "pre[- ]existing",
+        "proportionate deduction",
+        "room rent",
+        "unlimited",
+        "waiting period"
+      ]
+    },
+    "policy-wording/niva-bupa/Aspire_Diamond_Plus.pdf": {
+      "insurer": "niva-bupa",
+      "pattern_hits": [
+        "air ambulance",
+        "ayush",
+        "co-?pay(?:ment)?",
+        "day care",
+        "deductible",
+        "domiciliary",
+        "organ donor",
+        "pre[- ]existing",
+        "room rent",
+        "unlimited",
+        "waiting period"
+      ]
+    },
+    "policy-wording/niva-bupa/Aspire_Gold_Plus.pdf": {
+      "insurer": "niva-bupa",
+      "pattern_hits": [
+        "air ambulance",
+        "ayush",
+        "co-?pay(?:ment)?",
+        "day care",
+        "deductible",
+        "domiciliary",
+        "organ donor",
+        "pre[- ]existing",
+        "room rent",
+        "unlimited",
+        "waiting period"
+      ]
+    },
+    "policy-wording/niva-bupa/Aspire_Platinum_Plus.pdf": {
+      "insurer": "niva-bupa",
+      "pattern_hits": [
+        "air ambulance",
+        "ayush",
+        "co-?pay(?:ment)?",
+        "day care",
+        "deductible",
+        "domiciliary",
+        "organ donor",
+        "pre[- ]existing",
+        "room rent",
+        "unlimited",
+        "waiting period"
+      ]
+    },
+    "policy-wording/niva-bupa/Aspire_Titanium_Plus.pdf": {
+      "insurer": "niva-bupa",
+      "pattern_hits": [
+        "air ambulance",
+        "ayush",
+        "co-?pay(?:ment)?",
+        "day care",
+        "deductible",
+        "domiciliary",
+        "organ donor",
+        "pre[- ]existing",
+        "room rent",
+        "unlimited",
+        "waiting period"
+      ]
+    },
+    "policy-wording/niva-bupa/GoActive.pdf": {
+      "insurer": "niva-bupa",
+      "pattern_hits": [
+        "ayush",
+        "co-?pay(?:ment)?",
+        "consumable",
+        "day care",
+        "deductible",
+        "domiciliary",
+        "organ donor",
+        "pre[- ]existing",
+        "room rent",
+        "sub[- ]limit",
+        "unlimited",
+        "waiting period"
+      ]
+    },
+    "policy-wording/niva-bupa/Health_Companion.pdf": {
+      "insurer": "niva-bupa",
+      "pattern_hits": [
+        "air ambulance",
+        "ayush",
+        "co-?pay(?:ment)?",
+        "day care",
+        "deductible",
+        "domiciliary",
+        "organ donor",
+        "pre[- ]existing",
+        "restore|recharge|reload|refill|reinstat",
+        "room rent",
+        "sub[- ]limit",
+        "waiting period"
+      ]
+    },
+    "policy-wording/niva-bupa/Health_Premia_Gold.pdf": {
+      "insurer": "niva-bupa",
+      "pattern_hits": [
+        "2x|two times|twice|double",
+        "ayush",
+        "co-?pay(?:ment)?",
+        "consumable",
+        "day care",
+        "deductible",
+        "domiciliary",
+        "organ donor",
+        "pre[- ]existing",
+        "room rent",
+        "sub[- ]limit",
+        "waiting period"
+      ]
+    },
+    "policy-wording/niva-bupa/Health_Premia_Platinum.pdf": {
+      "insurer": "niva-bupa",
+      "pattern_hits": [
+        "2x|two times|twice|double",
+        "ayush",
+        "co-?pay(?:ment)?",
+        "consumable",
+        "day care",
+        "deductible",
+        "domiciliary",
+        "organ donor",
+        "pre[- ]existing",
+        "room rent",
+        "sub[- ]limit",
+        "waiting period"
+      ]
+    },
+    "policy-wording/niva-bupa/Health_Premia_Silver.pdf": {
+      "insurer": "niva-bupa",
+      "pattern_hits": [
+        "2x|two times|twice|double",
+        "ayush",
+        "co-?pay(?:ment)?",
+        "consumable",
+        "day care",
+        "deductible",
+        "domiciliary",
+        "organ donor",
+        "pre[- ]existing",
+        "room rent",
+        "sub[- ]limit",
+        "waiting period"
+      ]
+    },
+    "policy-wording/niva-bupa/Health_Pulse_Classic.pdf": {
+      "insurer": "niva-bupa",
+      "pattern_hits": [
+        "ayush",
+        "co-?pay(?:ment)?",
+        "consumable",
+        "day care",
+        "domiciliary",
+        "organ donor",
+        "pre[- ]existing",
+        "room rent",
+        "sub[- ]limit",
+        "waiting period"
+      ]
+    },
+    "policy-wording/niva-bupa/Health_Pulse_Enhanced.pdf": {
+      "insurer": "niva-bupa",
+      "pattern_hits": [
+        "ayush",
+        "co-?pay(?:ment)?",
+        "consumable",
+        "day care",
+        "domiciliary",
+        "organ donor",
+        "pre[- ]existing",
+        "room rent",
+        "sub[- ]limit",
+        "waiting period"
+      ]
+    },
+    "policy-wording/niva-bupa/Health_Recharge_Super_TopUp.pdf": {
+      "insurer": "niva-bupa",
+      "pattern_hits": [
+        "ayush",
+        "co-?pay(?:ment)?",
+        "consumable",
+        "day care",
+        "deductible",
+        "domiciliary",
+        "organ donor",
+        "pre[- ]existing",
+        "restore|recharge|reload|refill|reinstat",
+        "room rent",
+        "sub[- ]limit",
+        "waiting period"
+      ]
+    },
+    "policy-wording/niva-bupa/HeartBeat_Gold.pdf": {
+      "insurer": "niva-bupa",
+      "pattern_hits": [
+        "2x|two times|twice|double",
+        "ayush",
+        "co-?pay(?:ment)?",
+        "consumable",
+        "day care",
+        "deductible",
+        "domiciliary",
+        "organ donor",
+        "pre[- ]existing",
+        "room rent",
+        "sub[- ]limit",
+        "waiting period"
+      ]
+    },
+    "policy-wording/niva-bupa/HeartBeat_Platinum.pdf": {
+      "insurer": "niva-bupa",
+      "pattern_hits": [
+        "2x|two times|twice|double",
+        "ayush",
+        "co-?pay(?:ment)?",
+        "consumable",
+        "day care",
+        "deductible",
+        "domiciliary",
+        "organ donor",
+        "pre[- ]existing",
+        "room rent",
+        "sub[- ]limit",
+        "waiting period"
+      ]
+    },
+    "policy-wording/niva-bupa/ReAssure.pdf": {
+      "insurer": "niva-bupa",
+      "pattern_hits": [
+        "air ambulance",
+        "ayush",
+        "co-?pay(?:ment)?",
+        "consumable",
+        "day care",
+        "deductible",
+        "domiciliary",
+        "organ donor",
+        "pre[- ]existing",
+        "room rent",
+        "sub[- ]limit",
+        "waiting period"
+      ]
+    },
+    "policy-wording/niva-bupa/ReAssure_2_Bronze_Plus.pdf": {
+      "insurer": "niva-bupa",
+      "pattern_hits": [
+        "air ambulance",
+        "ayush",
+        "co-?pay(?:ment)?",
+        "day care",
+        "deductible",
+        "domiciliary",
+        "organ donor",
+        "pre[- ]existing",
+        "room rent",
+        "sub[- ]limit",
+        "unlimited",
+        "waiting period"
+      ]
+    },
+    "policy-wording/niva-bupa/ReAssure_2_Platinum_Plus.pdf": {
+      "insurer": "niva-bupa",
+      "pattern_hits": [
+        "air ambulance",
+        "ayush",
+        "co-?pay(?:ment)?",
+        "day care",
+        "deductible",
+        "domiciliary",
+        "organ donor",
+        "pre[- ]existing",
+        "room rent",
+        "sub[- ]limit",
+        "unlimited",
+        "waiting period"
+      ]
+    },
+    "policy-wording/niva-bupa/ReAssure_2_Titanium_Plus.pdf": {
+      "insurer": "niva-bupa",
+      "pattern_hits": [
+        "air ambulance",
+        "ayush",
+        "co-?pay(?:ment)?",
+        "day care",
+        "deductible",
+        "domiciliary",
+        "organ donor",
+        "pre[- ]existing",
+        "room rent",
+        "sub[- ]limit",
+        "unlimited",
+        "waiting period"
+      ]
+    },
+    "policy-wording/niva-bupa/Senior_First_Gold.pdf": {
+      "insurer": "niva-bupa",
+      "pattern_hits": [
+        "air ambulance",
+        "ayush",
+        "co-?pay(?:ment)?",
+        "day care",
+        "deductible",
+        "domiciliary",
+        "organ donor",
+        "pre[- ]existing",
+        "room rent",
+        "sub[- ]limit",
+        "unlimited",
+        "waiting period"
+      ]
+    },
+    "policy-wording/niva-bupa/Senior_First_Platinum.pdf": {
+      "insurer": "niva-bupa",
+      "pattern_hits": [
+        "air ambulance",
+        "ayush",
+        "co-?pay(?:ment)?",
+        "day care",
+        "deductible",
+        "domiciliary",
+        "organ donor",
+        "pre[- ]existing",
+        "room rent",
+        "sub[- ]limit",
+        "unlimited",
+        "waiting period"
+      ]
+    },
+    "policy-wording/star-health-care/Assure.pdf": {
+      "insurer": "star-health-care",
+      "pattern_hits": [
+        "air ambulance",
+        "ayush",
+        "co-?pay(?:ment)?",
+        "consumable",
+        "day care",
+        "deductible",
+        "domiciliary",
+        "non[- ]medical",
+        "once per policy year",
+        "organ donor",
+        "pre[- ]existing",
+        "proportionate deduction",
+        "restore|recharge|reload|refill|reinstat",
+        "room rent",
+        "sub[- ]limit",
+        "unlimited",
+        "waiting period"
+      ]
+    },
+    "policy-wording/star-health-care/Cancer_Care_Platinum.pdf": {
+      "insurer": "star-health-care",
+      "pattern_hits": [
+        "ayush",
+        "co-?pay(?:ment)?",
+        "consumable",
+        "day care",
+        "pre[- ]existing",
+        "proportionate deduction",
+        "restore|recharge|reload|refill|reinstat",
+        "room rent",
+        "sub[- ]limit",
+        "waiting period"
+      ]
+    },
+    "policy-wording/star-health-care/Cardiac_Care_Platinum.pdf": {
+      "insurer": "star-health-care",
+      "pattern_hits": [
+        "ayush",
+        "consumable",
+        "day care",
+        "pre[- ]existing",
+        "proportionate deduction",
+        "restore|recharge|reload|refill|reinstat",
+        "room rent",
+        "sub[- ]limit",
+        "unlimited",
+        "waiting period"
+      ]
+    },
+    "policy-wording/star-health-care/Comprehensive.pdf": {
+      "insurer": "star-health-care",
+      "pattern_hits": [
+        "air ambulance",
+        "ayush",
+        "co-?pay(?:ment)?",
+        "consumable",
+        "day care",
+        "domiciliary",
+        "organ donor",
+        "pre[- ]existing",
+        "proportionate deduction",
+        "restore|recharge|reload|refill|reinstat",
+        "room rent",
+        "waiting period"
+      ]
+    },
+    "policy-wording/star-health-care/Diabetes_Safe.pdf": {
+      "insurer": "star-health-care",
+      "pattern_hits": [
+        "ayush",
+        "consumable",
+        "day care",
+        "pre[- ]existing",
+        "proportionate deduction",
+        "restore|recharge|reload|refill|reinstat",
+        "room rent",
+        "waiting period"
+      ]
+    },
+    "policy-wording/star-health-care/Family_Health_Optima.pdf": {
+      "insurer": "star-health-care",
+      "pattern_hits": [
+        "air ambulance",
+        "ayush",
+        "co-?pay(?:ment)?",
+        "consumable",
+        "day care",
+        "domiciliary",
+        "organ donor",
+        "pre[- ]existing",
+        "proportionate deduction",
+        "restore|recharge|reload|refill|reinstat",
+        "room rent",
+        "waiting period"
+      ]
+    },
+    "policy-wording/star-health-care/Health_Premier.pdf": {
+      "insurer": "star-health-care",
+      "pattern_hits": [
+        "air ambulance",
+        "ayush",
+        "co-?pay(?:ment)?",
+        "consumable",
+        "day care",
+        "domiciliary",
+        "non[- ]medical",
+        "once per policy year",
+        "organ donor",
+        "pre[- ]existing",
+        "proportionate deduction",
+        "restore|recharge|reload|refill|reinstat",
+        "room rent",
+        "sub[- ]limit",
+        "waiting period"
+      ]
+    },
+    "policy-wording/star-health-care/Medi_Classic.pdf": {
+      "insurer": "star-health-care",
+      "pattern_hits": [
+        "ayush",
+        "co-?pay(?:ment)?",
+        "consumable",
+        "day care",
+        "domiciliary",
+        "organ donor",
+        "pre[- ]existing",
+        "proportionate deduction",
+        "restore|recharge|reload|refill|reinstat",
+        "room rent",
+        "waiting period"
+      ]
+    },
+    "policy-wording/star-health-care/Medi_Classic_Gold.pdf": {
+      "insurer": "star-health-care",
+      "pattern_hits": [
+        "ayush",
+        "co-?pay(?:ment)?",
+        "consumable",
+        "day care",
+        "domiciliary",
+        "organ donor",
+        "pre[- ]existing",
+        "proportionate deduction",
+        "restore|recharge|reload|refill|reinstat",
+        "room rent",
+        "waiting period"
+      ]
+    },
+    "policy-wording/star-health-care/Red_Carpet_Senior_Citizen.pdf": {
+      "insurer": "star-health-care",
+      "pattern_hits": [
+        "ayush",
+        "co-?pay(?:ment)?",
+        "consumable",
+        "day care",
+        "pre[- ]existing",
+        "proportionate deduction",
+        "room rent",
+        "sub[- ]limit",
+        "waiting period"
+      ]
+    },
+    "policy-wording/star-health-care/Smart_Health_Pro.pdf": {
+      "insurer": "star-health-care",
+      "pattern_hits": [
+        "air ambulance",
+        "ayush",
+        "co-?pay(?:ment)?",
+        "consumable",
+        "day care",
+        "deductible",
+        "domiciliary",
+        "non[- ]medical",
+        "pre[- ]existing",
+        "proportionate deduction",
+        "restore|recharge|reload|refill|reinstat",
+        "room rent",
+        "sub[- ]limit",
+        "unlimited",
+        "waiting period"
+      ]
+    },
+    "policy-wording/star-health-care/Special_Care.pdf": {
+      "insurer": "star-health-care",
+      "pattern_hits": [
+        "ayush",
+        "co-?pay(?:ment)?",
+        "consumable",
+        "day care",
+        "pre[- ]existing",
+        "proportionate deduction",
+        "room rent",
+        "waiting period"
+      ]
+    },
+    "policy-wording/star-health-care/Special_Care_Gold.pdf": {
+      "insurer": "star-health-care",
+      "pattern_hits": [
+        "ayush",
+        "co-?pay(?:ment)?",
+        "consumable",
+        "day care",
+        "pre[- ]existing",
+        "proportionate deduction",
+        "restore|recharge|reload|refill|reinstat",
+        "room rent",
+        "waiting period"
+      ]
+    },
+    "policy-wording/star-health-care/Star_Health_Gain.pdf": {
+      "insurer": "star-health-care",
+      "pattern_hits": [
+        "ayush",
+        "co-?pay(?:ment)?",
+        "consumable",
+        "day care",
+        "pre[- ]existing",
+        "proportionate deduction",
+        "room rent",
+        "waiting period"
+      ]
+    },
+    "policy-wording/star-health-care/Super_Star.pdf": {
+      "insurer": "star-health-care",
+      "pattern_hits": [
+        "2x|two times|twice|double",
+        "air ambulance",
+        "ayush",
+        "co-?pay(?:ment)?",
+        "consumable",
+        "day care",
+        "deductible",
+        "domiciliary",
+        "non[- ]medical",
+        "once per policy year",
+        "organ donor",
+        "pre[- ]existing",
+        "proportionate deduction",
+        "restore|recharge|reload|refill|reinstat",
+        "room rent",
+        "sub[- ]limit",
+        "unlimited",
+        "waiting period"
+      ]
+    },
+    "policy-wording/star-health-care/Super_Surplus_Gold.pdf": {
+      "insurer": "star-health-care",
+      "pattern_hits": [
+        "air ambulance",
+        "ayush",
+        "consumable",
+        "day care",
+        "deductible",
+        "organ donor",
+        "pre[- ]existing",
+        "proportionate deduction",
+        "restore|recharge|reload|refill|reinstat",
+        "room rent",
+        "waiting period"
+      ]
+    },
+    "policy-wording/star-health-care/Women_Care.pdf": {
+      "insurer": "star-health-care",
+      "pattern_hits": [
+        "air ambulance",
+        "ayush",
+        "consumable",
+        "day care",
+        "non[- ]medical",
+        "once per policy year",
+        "organ donor",
+        "pre[- ]existing",
+        "proportionate deduction",
+        "restore|recharge|reload|refill|reinstat",
+        "room rent",
+        "sub[- ]limit",
+        "unlimited",
+        "waiting period"
+      ]
+    },
+    "policy-wording/star-health-care/Young_Star.pdf": {
+      "insurer": "star-health-care",
+      "pattern_hits": [
+        "ayush",
+        "co-?pay(?:ment)?",
+        "consumable",
+        "day care",
+        "deductible",
+        "pre[- ]existing",
+        "proportionate deduction",
+        "restore|recharge|reload|refill|reinstat",
+        "room rent",
+        "sub[- ]limit",
+        "waiting period"
+      ]
+    }
+  }
+}
