@@ -13,20 +13,24 @@ Return ONLY a single JSON object. Do not include markdown.
     "pedWaitingPeriodMonths": "number|null",
     "pedQuote": "string",
     "pedReference": "string",
+    "pedPlainEnglish": "string",
 
     "initialWaitingDays": "number|null",
     "initialWaitingQuote": "string",
     "initialWaitingReference": "string",
+    "initialWaitingPlainEnglish": "string",
 
     "specificIllnessWaitingMonths": "number|null",
     "specificIllnessWaitingQuote": "string",
     "specificIllnessWaitingReference": "string",
+    "specificIllnessWaitingPlainEnglish": "string",
 
     "roomRent": {
       "type": "any_room|single_private_ac|rupee_cap|percent_si|unknown",
       "cap": "string",
       "quote": "string",
-      "reference": "string"
+      "reference": "string",
+      "plainEnglish": "string"
     },
 
     "coPay": {
@@ -34,21 +38,24 @@ Return ONLY a single JSON object. Do not include markdown.
       "percent": "number|null",
       "isOptionalTradeoff": "boolean|null",
       "quote": "string",
-      "reference": "string"
+      "reference": "string",
+      "plainEnglish": "string"
     },
 
     "restore": {
       "present": "boolean|null",
       "rulesSummary": "string",
       "quote": "string",
-      "reference": "string"
+      "reference": "string",
+      "plainEnglish": "string"
     },
 
     "subLimits": {
       "present": "boolean|null",
       "rulesSummary": "string",
       "quote": "string",
-      "reference": "string"
+      "reference": "string",
+      "plainEnglish": "string"
     }
   },
   "summary": { "great": 0, "good": 0, "bad": 0, "unclear": 0 },
