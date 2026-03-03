@@ -1,5 +1,9 @@
 import fs from 'fs';
 import { spawnSync } from 'child_process';
+import dotenv from 'dotenv';
+
+// Load secrets from .env for local runs (file is gitignored)
+dotenv.config({ path: '.env' });
 
 const pdfPath = process.argv[2];
 if (!pdfPath) {
