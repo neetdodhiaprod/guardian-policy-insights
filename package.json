@@ -11,7 +11,8 @@
     "preview": "vite preview",
     "dev:api": "tsx watch server/index.ts",
     "dev:all": "npm-run-all -p dev dev:api",
-    "bakeoff:optima": "node scripts/bakeoff_openai.mjs policy-wording/hdfc-ergo/Optima_Secure.pdf"
+    "bakeoff:optima": "node scripts/bakeoff_openai.mjs policy-wording/hdfc-ergo/Optima_Secure.pdf",
+    "bakeoff:optima:all": "node scripts/bakeoff_openai.mjs policy-wording/hdfc-ergo/Optima_Secure.pdf"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",

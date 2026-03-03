@@ -63,8 +63,8 @@ const policyText = pdfToText(pdfPath);
 console.log(`[bakeoff] extracted text length: ${policyText.length}`);
 
 const prompts = [
-  ['B', 'prompts/prompt_B.txt'],
-  ['C', 'prompts/prompt_C_buckets_plus.txt'],
+  ['STRUCTURED', 'prompts/prompt_FULL_TAXONOMY_STRUCTURED.txt'],
+  ['UNLIMITED', 'prompts/prompt_UNLIMITED_FREEFORM.txt'],
 ];
 
 for (const [label, file] of prompts) {
