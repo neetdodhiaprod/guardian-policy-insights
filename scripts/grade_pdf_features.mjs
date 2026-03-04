@@ -132,6 +132,31 @@ async function main() {
     graded[bucket] = fixed;
   }
 
+  // Enforce: same quote cannot appear in more than one bucket.
+  const buckets = ['BAD', 'GREAT', 'GOOD', 'UNCLEAR'];
+  const seenQuote = new Map(); // quote -> bucket
+
+  for (const b of buckets) {
+    const arr = Array.isArray(graded[b]) ? graded[b] : [];
+    const out = [];
+    for (const it of arr) {
+      const q = String(it.quote ?? '');
+
+      // If the quote is schedule-dependent, prefer UNCLEAR over BAD/GOOD/GREAT.
+      const scheduleDependent = /policy\s+schedule/i.test(q);
+      if (scheduleDependent && b !== 'UNCLEAR') {
+        // Let it be handled (or re-added) in UNCLEAR bucket only.
+        continue;
+      }
+
+      const prior = seenQuote.get(q);
+      if (prior) continue;
+      seenQuote.set(q, b);
+      out.push(it);
+    }
+    graded[b] = out;
+  }
+
   await fsp.writeFile(outPath, JSON.stringify(graded, null, 2), 'utf8');
   console.error(`Wrote ${outPath}`);
 }

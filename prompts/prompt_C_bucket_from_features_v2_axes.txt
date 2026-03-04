@@ -38,6 +38,13 @@ SELECTION / DEDUPE:
 - Output at most 15 items per bucket.
 - Prefer concrete mechanics: room rent / ICU / proportionate deduction, waiting periods, restore/recharge, non-payables/consumables, deductibles/copays, major exclusions, pre/post windows.
 
+DE-DUPE ACROSS BUCKETS (IMPORTANT):
+- Do NOT place the same quote (exact string) in more than one bucket.
+- If a feature is clearly a downside BUT the magnitude/amount depends on Policy Schedule (e.g., deductible amount), keep it in UNCLEAR and state: "Downside exists, but amount/impact is schedule-driven".
+
+SPECIAL RULES:
+- PED waiting period of 36 months should be bucketed as GOOD by default (standard but important). Treat as BAD only if unusually harsh (e.g., >36 months, permanent exclusion mechanics, or additional punitive conditions).
+
 OUTPUT (STRICT JSON):
 Return a single JSON object with exactly these keys: GREAT, GOOD, BAD, UNCLEAR, disclaimer.
 Each bucket value is an array of objects with exactly: name, quote, reference, explanation.
