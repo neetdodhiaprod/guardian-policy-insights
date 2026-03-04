@@ -217,6 +217,33 @@ async function main() {
   moveToGood((q) => /pre\s*-?existing\s+disease/i.test(q) && /\b36\s*months\b/i.test(q));
   moveToGood((q) => /\bwithin\s+30\s+days\b/i.test(q) && /excluded\s+except\s+claims\s+arising\s+due\s+to\s+an\s+accident/i.test(q));
 
+  // Clean up UNCLEAR: keep it for schedule-driven/variant-driven ambiguity, not clear rules.
+  if (Array.isArray(graded.UNCLEAR)) {
+    const keep = [];
+    for (const it of graded.UNCLEAR) {
+      const q = String(it.quote ?? '');
+      const scheduleish = /policy\s+schedule|as\s+specified|optional\s+cover|plan\s+variant|unless\s+otherwise\s+specified/i.test(q);
+      const looksLikeTable = q.split(/\n/).length > 6 || /\b\d{2,}\b.*\b\d{2,}\b/.test(q) && q.includes('/');
+
+      // If it's a clear rule (e.g., dependent child age) and not schedule-driven, move to GOOD.
+      if (!scheduleish && !looksLikeTable) {
+        graded.GOOD = Array.isArray(graded.GOOD) ? graded.GOOD : [];
+        if (!graded.GOOD.some(x => String(x.quote ?? '') === q)) graded.GOOD.push(it);
+        continue;
+      }
+
+      // If it is optional but clearly beneficial (e.g., PED waiting reduction), it belongs in GOOD with conditional language.
+      if (/modification of ped waiting period/i.test(q)) {
+        graded.GOOD = Array.isArray(graded.GOOD) ? graded.GOOD : [];
+        if (!graded.GOOD.some(x => String(x.quote ?? '') === q)) graded.GOOD.push(it);
+        continue;
+      }
+
+      keep.push(it);
+    }
+    graded.UNCLEAR = keep;
+  }
+
   await fsp.writeFile(outPath, JSON.stringify(graded, null, 2), 'utf8');
   console.error(`Wrote ${outPath}`);
 }
