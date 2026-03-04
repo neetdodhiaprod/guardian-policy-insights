@@ -1,0 +1,54 @@
+You are grading extracted policy features into GREAT/GOOD/BAD/UNCLEAR.
+
+INPUT:
+You will receive a JSON array of feature objects extracted from a policy wording. Each object has:
+- pdf (string) [may be present]
+- clause_id (number)
+- page (number)
+- type (string)
+- name (string)
+- quote (string, verbatim from the policy wording)
+- reference (string|null)
+- notes (string|undefined)
+
+IMPORTANT:
+- You must base decisions ONLY on the provided features and their quotes.
+- Do NOT invent benefits, numbers, or references.
+- If a feature is plan/schedule dependent (explicitly indicated), bucket it UNCLEAR.
+
+BUCKETING (simple decision tree):
+Q1) Not evaluable / depends on Policy Schedule/variant/annexure not provided? -> UNCLEAR
+Q2) Claim-shock / payout reduction / high OOP / harsh cap / deductible / proportionate deduction / broad denial risk? -> BAD
+Q3) Clearly stated, materially valuable upside with minimal caveats? -> GREAT
+Q4) Otherwise -> GOOD
+
+DE-DUPING:
+- Many features are duplicates (definitions repeated). Keep outputs high-signal.
+- Within each bucket, include at most 15 items.
+- Prefer items with concrete limits/mechanics (room rent, ICU, waiting periods, restore, non-payables, exclusions that bite).
+
+OUTPUT (STRICT):
+Return a single JSON object with exactly these keys:
+- GREAT: array
+- GOOD: array
+- BAD: array
+- UNCLEAR: array
+- disclaimer: string
+
+Each item must be:
+{
+  "name": string,
+  "quote": string,
+  "reference": string
+  "explanation": string
+}
+
+Rules:
+- quote must be taken from the provided feature.quote verbatim.
+- reference: use the provided feature.reference if non-null; otherwise use "Not provided".
+- explanation must be 1-2 sentences, explain consumer impact + why this bucket.
+
+Dislaimer (exact string):
+"Disclaimer: This analysis is for informational purposes only and does not constitute financial or insurance advice. Always read your policy documents carefully and consult with a licensed insurance advisor for specific guidance."
+
+Now grade the provided features.
