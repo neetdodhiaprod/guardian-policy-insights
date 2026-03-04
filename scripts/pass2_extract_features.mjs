@@ -47,16 +47,24 @@ async function callOpenAI(system, clausesChunk) {
 
   const maxAttempts = Number(process.env.OPENAI_RETRIES ?? 6);
   for (let attempt = 1; attempt <= maxAttempts; attempt++) {
-    const res = await fetch('https://api.openai.com/v1/chat/completions', {
-      method: 'POST',
-      headers: {
-        'content-type': 'application/json',
-        'authorization': `Bearer ${apiKey}`,
-      },
-      body: JSON.stringify(body),
-    });
-
-    const raw = await res.text();
+    let res;
+    let raw;
+    try {
+      res = await fetch('https://api.openai.com/v1/chat/completions', {
+        method: 'POST',
+        headers: {
+          'content-type': 'application/json',
+          'authorization': `Bearer ${apiKey}`,
+        },
+        body: JSON.stringify(body),
+      });
+      raw = await res.text();
+    } catch (err) {
+      if (attempt === maxAttempts) throw err;
+      const backoff = Math.min(30000, 500 * 2 ** (attempt - 1));
+      await sleep(backoff);
+      continue;
+    }
 
     // If the gateway returns HTML or otherwise non-JSON, retry.
     let data;
