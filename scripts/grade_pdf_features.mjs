@@ -60,15 +60,43 @@ async function main() {
 
   await fsp.mkdir(path.dirname(outPath), { recursive: true });
 
-  const raw = readJsonl(inPath).map(r => ({
-    clause_id: r.clause_id,
-    page: r.page,
-    type: r.type,
-    name: r.name,
-    quote: r.quote,
-    reference: r.reference ?? null,
-    notes: r.notes,
-  }));
+  const pdfBase = path.basename(inPath).replace(/\.features\.jsonl$/, '');
+  const clausesPath = path.join('dist/features/clauses', `${pdfBase}.clauses.jsonl`);
+
+  // Load clause texts so we can ground/repair quotes.
+  const clauseTextById = new Map();
+  try {
+    const clauseLines = fs.readFileSync(clausesPath, 'utf8').split(/\n/).filter(Boolean);
+    for (const l of clauseLines) {
+      try {
+        const r = JSON.parse(l);
+        if (r?.clause_id != null && r?.text) clauseTextById.set(Number(r.clause_id), String(r.text));
+      } catch {}
+    }
+  } catch {
+    // ok if missing
+  }
+
+  const raw = readJsonl(inPath).map(r => {
+    const clauseId = Number(r.clause_id);
+    let quote = String(r.quote ?? '');
+    const clauseText = clauseTextById.get(clauseId);
+
+    // If extracted quote is truncated/low-quality, replace with full clause text.
+    if ((quote.includes('...') || quote.length < 40) && clauseText) {
+      quote = clauseText;
+    }
+
+    return {
+      clause_id: clauseId,
+      page: r.page,
+      type: r.type,
+      name: r.name,
+      quote,
+      reference: r.reference ?? null,
+      notes: r.notes,
+    };
+  });
 
   // Keep the payload bounded: de-dup identical extracted items and prioritize high-signal types.
   const seen = new Set();
