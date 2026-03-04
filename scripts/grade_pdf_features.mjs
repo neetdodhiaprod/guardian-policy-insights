@@ -103,6 +103,31 @@ async function main() {
   const system = fs.readFileSync(promptPath, 'utf8');
   const graded = await callOpenAI(system, features);
 
+  // Post-process: ensure quotes come from input verbatim (best-effort).
+  const allowedQuotes = new Set(features.map(f => f.quote));
+  const allAllowed = features.map(f => f.quote);
+
+  function fixItem(it) {
+    if (!it || typeof it !== 'object') return null;
+    const quote = String(it.quote ?? '');
+    if (allowedQuotes.has(quote)) return it;
+
+    // If the model returned a substring/snippet, replace with the full matching allowed quote.
+    const candidate = allAllowed.find(q => q.includes(quote)) || allAllowed.find(q => quote.includes(q));
+    if (candidate) {
+      return { ...it, quote: candidate };
+    }
+
+    // If we can't verify, drop the item rather than outputing a fabricated quote.
+    return null;
+  }
+
+  for (const bucket of ['GREAT', 'GOOD', 'BAD', 'UNCLEAR']) {
+    if (!Array.isArray(graded[bucket])) continue;
+    const fixed = graded[bucket].map(fixItem).filter(Boolean);
+    graded[bucket] = fixed;
+  }
+
   await fsp.writeFile(outPath, JSON.stringify(graded, null, 2), 'utf8');
   console.error(`Wrote ${outPath}`);
 }

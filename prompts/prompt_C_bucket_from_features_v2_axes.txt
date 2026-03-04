@@ -43,7 +43,7 @@ Return a single JSON object with exactly these keys: GREAT, GOOD, BAD, UNCLEAR, 
 Each bucket value is an array of objects with exactly: name, quote, reference, explanation.
 
 Rules:
-- quote MUST be copied verbatim from an input feature.quote.
+- quote MUST be copied EXACTLY from an input feature.quote (character-for-character). Do not shorten, paraphrase, add ellipses, or merge lines. Use the full quote string from the chosen feature object.
 - reference MUST be input feature.reference if present; else "Not provided".
 - explanation must be 1–2 sentences and MUST include:
   (a) Impact sentence (how it affects payout/OOP/usability), and
