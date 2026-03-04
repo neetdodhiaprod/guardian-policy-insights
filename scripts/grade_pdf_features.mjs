@@ -145,7 +145,6 @@ async function main() {
       // If the quote is schedule-dependent, prefer UNCLEAR over BAD/GOOD/GREAT.
       const scheduleDependent = /policy\s+schedule/i.test(q);
       if (scheduleDependent && b !== 'UNCLEAR') {
-        // Let it be handled (or re-added) in UNCLEAR bucket only.
         continue;
       }
 
@@ -156,6 +155,30 @@ async function main() {
     }
     graded[b] = out;
   }
+
+  // Hard post-rules to enforce your preferences.
+  // PED waiting 36 months -> GOOD (standard)
+  // Initial waiting 30 days -> GOOD (standard)
+  const moveToGood = (predicate) => {
+    for (const b of ['GREAT', 'BAD', 'UNCLEAR']) {
+      const arr = Array.isArray(graded[b]) ? graded[b] : [];
+      const keep = [];
+      for (const it of arr) {
+        const q = String(it.quote ?? '');
+        if (predicate(q, it)) {
+          graded.GOOD = Array.isArray(graded.GOOD) ? graded.GOOD : [];
+          // Avoid duplicates in GOOD
+          if (!graded.GOOD.some(x => String(x.quote ?? '') === q)) graded.GOOD.push(it);
+        } else {
+          keep.push(it);
+        }
+      }
+      graded[b] = keep;
+    }
+  };
+
+  moveToGood((q) => /pre\s*-?existing\s+disease/i.test(q) && /\b36\s*months\b/i.test(q));
+  moveToGood((q) => /\bwithin\s+30\s+days\b/i.test(q) && /excluded\s+except\s+claims\s+arising\s+due\s+to\s+an\s+accident/i.test(q));
 
   await fsp.writeFile(outPath, JSON.stringify(graded, null, 2), 'utf8');
   console.error(`Wrote ${outPath}`);
