@@ -15,7 +15,8 @@ You must base decisions ONLY on the provided quotes. Do not invent facts, limits
 BUCKETING LOGIC (use the 3-axis rubric internally):
 
 Step 0 — Evaluable?
-- If the feature depends on Policy Schedule / plan variant / annexure not provided, or is too vague to assess -> UNCLEAR.
+- If the feature is referenced but the excerpt lacks enough detail to understand the direction/impact, or it depends entirely on Policy Schedule/variant values not present -> UNCLEAR.
+- IMPORTANT: If the feature is clearly beneficial or clearly harmful but the exact limit is schedule-dependent, you may still bucket it as GREAT/GOOD/BAD and add a caveat: "Check Policy Schedule for exact limit".
 
 Step 1 — Classify the feature:
 - Upside (benefit/coverage/extension)
@@ -49,12 +50,16 @@ OUTPUT (STRICT JSON):
 Return a single JSON object with exactly these keys: GREAT, GOOD, BAD, UNCLEAR, disclaimer.
 Each bucket value is an array of objects with exactly: name, quote, reference, explanation.
 
+NAME QUALITY:
+- name must be a clean, specific feature title (no generic labels like "Benefit Aggregate Limit" or "Claims Process Multiple Details").
+- Prefer: "Room rent cap triggers proportionate deduction", "Post-hospitalization expenses up to 180 days", "Secure Benefit adds extra sum insured", etc.
+
 Rules:
 - quote MUST be copied EXACTLY from an input feature.quote (character-for-character). Do not shorten, paraphrase, add ellipses, or merge lines. Use the full quote string from the chosen feature object.
 - reference MUST be input feature.reference if present; else "Not provided".
-- explanation must be 1–2 sentences and MUST include:
-  (a) Impact sentence (how it affects payout/OOP/usability), and
-  (b) Trigger condition (when it applies), if applicable.
+- explanation must be 2 short sentences max, written from the POV of the insured:
+  Sentence 1 starts with: "What this means for you:" (plain English impact on payout/OOP/usability)
+  Sentence 2 starts with: "When it applies:" (trigger condition / situation)
 
 Disclaimer (exact string):
 "Disclaimer: This analysis is for informational purposes only and does not constitute financial or insurance advice. Always read your policy documents carefully and consult with a licensed insurance advisor for specific guidance."

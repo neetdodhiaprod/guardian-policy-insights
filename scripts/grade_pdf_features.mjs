@@ -95,7 +95,20 @@ async function main() {
     }
   };
 
-  deduped.sort((a, b) => typeWeight(b.type) - typeWeight(a.type));
+  const quotePenalty = (q) => {
+    const s = String(q ?? '');
+    let p = 0;
+    if (s.includes('...')) p += 50;
+    if (s.length < 40) p += 20;
+    return p;
+  };
+
+  deduped.sort((a, b) => {
+    const tw = typeWeight(b.type) - typeWeight(a.type);
+    if (tw !== 0) return tw;
+    // Prefer higher-quality (non-ellipsis, longer) quotes
+    return quotePenalty(a.quote) - quotePenalty(b.quote);
+  });
 
   const maxItems = Number(process.env.GRADE_MAX_FEATURES ?? 800);
   const features = deduped.slice(0, maxItems);
@@ -142,11 +155,7 @@ async function main() {
     for (const it of arr) {
       const q = String(it.quote ?? '');
 
-      // If the quote is schedule-dependent, prefer UNCLEAR over BAD/GOOD/GREAT.
-      const scheduleDependent = /policy\s+schedule/i.test(q);
-      if (scheduleDependent && b !== 'UNCLEAR') {
-        continue;
-      }
+      // Do not auto-demote schedule-dependent quotes; prompt handles conditionality.
 
       const prior = seenQuote.get(q);
       if (prior) continue;
