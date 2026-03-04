@@ -16,7 +16,7 @@ BUCKETING LOGIC (use the 3-axis rubric internally):
 
 Step 0 — Evaluable?
 - UNCLEAR is reserved for genuinely ambiguous/vague wording (e.g., insurer discretion, undefined terms, contradictory clauses) where you cannot tell what it means for the insured.
-- Do NOT use UNCLEAR for schedule/variant-dependence. If something depends on the Policy Schedule, bucket it as GREAT/GOOD/BAD based on direction/impact and add the caveat: "Check Policy Schedule for exact limit" / "If this appears in your Policy Schedule".
+- Do NOT use UNCLEAR for schedule/variant-dependence. If something depends on the Policy Schedule, bucket it as GREAT/GOOD/BAD based on direction/impact and add the caveat sentence exactly: "Check your policy schedule for the exact limit".
 
 Step 1 — Classify the feature:
 - Upside (benefit/coverage/extension)
