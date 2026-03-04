@@ -60,7 +60,7 @@ async function main() {
 
   await fsp.mkdir(path.dirname(outPath), { recursive: true });
 
-  const features = readJsonl(inPath).map(r => ({
+  const raw = readJsonl(inPath).map(r => ({
     clause_id: r.clause_id,
     page: r.page,
     type: r.type,
@@ -69,6 +69,36 @@ async function main() {
     reference: r.reference ?? null,
     notes: r.notes,
   }));
+
+  // Keep the payload bounded: de-dup identical extracted items and prioritize high-signal types.
+  const seen = new Set();
+  const deduped = [];
+  for (const r of raw) {
+    const k = `${r.type}||${r.name}||${r.quote}`;
+    if (seen.has(k)) continue;
+    seen.add(k);
+    deduped.push(r);
+  }
+
+  const typeWeight = (t) => {
+    switch (t) {
+      case 'deductible_copay': return 100;
+      case 'limit': return 95;
+      case 'exclusion': return 90;
+      case 'waiting_period': return 85;
+      case 'claims_process': return 80;
+      case 'condition': return 75;
+      case 'optional_cover': return 70;
+      case 'benefit': return 65;
+      case 'definition_impact': return 20;
+      default: return 50;
+    }
+  };
+
+  deduped.sort((a, b) => typeWeight(b.type) - typeWeight(a.type));
+
+  const maxItems = Number(process.env.GRADE_MAX_FEATURES ?? 800);
+  const features = deduped.slice(0, maxItems);
 
   const system = fs.readFileSync(promptPath, 'utf8');
   const graded = await callOpenAI(system, features);
