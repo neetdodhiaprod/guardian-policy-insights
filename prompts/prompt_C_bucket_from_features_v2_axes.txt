@@ -15,10 +15,8 @@ You must base decisions ONLY on the provided quotes. Do not invent facts, limits
 BUCKETING LOGIC (use the 3-axis rubric internally):
 
 Step 0 — Evaluable?
-- Put a feature in UNCLEAR only if you cannot determine its direction/impact from the quote OR it is purely schedule-driven with no meaningful rule stated.
-- IMPORTANT: Do NOT dump optional / schedule-dependent-but-clearly-good features into UNCLEAR.
-  Instead bucket them as GREAT or GOOD (based on impact), and add the caveat in explanation: "If this appears in your Policy Schedule" or "Check Policy Schedule for exact limit".
-- Similarly, if a downside is clearly stated but the exact amount is schedule-driven, you may still bucket BAD while noting: "Check Policy Schedule for exact limit".
+- UNCLEAR is reserved for genuinely ambiguous/vague wording (e.g., insurer discretion, undefined terms, contradictory clauses) where you cannot tell what it means for the insured.
+- Do NOT use UNCLEAR for schedule/variant-dependence. If something depends on the Policy Schedule, bucket it as GREAT/GOOD/BAD based on direction/impact and add the caveat: "Check Policy Schedule for exact limit" / "If this appears in your Policy Schedule".
 
 Step 1 — Classify the feature:
 - Upside (benefit/coverage/extension)
