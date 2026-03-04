@@ -109,13 +109,17 @@ async function main() {
 
   function fixItem(it) {
     if (!it || typeof it !== 'object') return null;
+
+    // Normalize reference.
+    const ref = it.reference == null ? 'Not provided' : String(it.reference);
+
     const quote = String(it.quote ?? '');
-    if (allowedQuotes.has(quote)) return it;
+    if (allowedQuotes.has(quote)) return { ...it, reference: ref };
 
     // If the model returned a substring/snippet, replace with the full matching allowed quote.
     const candidate = allAllowed.find(q => q.includes(quote)) || allAllowed.find(q => quote.includes(q));
     if (candidate) {
-      return { ...it, quote: candidate };
+      return { ...it, quote: candidate, reference: ref };
     }
 
     // If we can't verify, drop the item rather than outputing a fabricated quote.
