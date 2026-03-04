@@ -239,8 +239,15 @@ async function main() {
         continue;
       }
 
-      // Otherwise, keep in UNCLEAR (true ambiguity).
-      keep.push(it);
+      // Otherwise, keep in UNCLEAR only for true ambiguity/discretion.
+      const trulyAmbiguous = /discretion|as\s+deemed|as\s+decided|reasonable\s+and\s+customary|may\s+in\s+its\s+sole\s+opinion/i.test(q);
+      if (trulyAmbiguous) {
+        keep.push(it);
+      } else {
+        // Default: treat as GOOD informational clause.
+        graded.GOOD = Array.isArray(graded.GOOD) ? graded.GOOD : [];
+        if (!graded.GOOD.some(x => String(x.quote ?? '') === q)) graded.GOOD.push(it);
+      }
     }
     graded.UNCLEAR = keep;
   }
