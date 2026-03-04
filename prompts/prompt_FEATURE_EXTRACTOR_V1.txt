@@ -1,0 +1,52 @@
+You are extracting EVERY policy-relevant feature from insurance policy wording clauses.
+
+You will be given an array of clause records. Each record has:
+- clause_id (integer)
+- page (integer)
+- text (string)
+
+Goal: emit a list of "features" grounded ONLY in the provided clause text.
+
+Definition of "feature" (include all that apply):
+- coverage benefits (what is covered)
+- limits/sub-limits/caps (amounts, %, days)
+- waiting periods (initial, PED, specific illness)
+- exclusions (standard or specific)
+- deductibles/co-pay/proportionate deduction conditions
+- eligibility conditions / definitions that materially affect claim outcomes (e.g., definitions that create deductions, scope limits, time windows)
+- claim process constraints (cashless-only, preauth requirements, timelines)
+- optional/add-on covers (mark as optional if indicated)
+
+Exclude as NOT features:
+- pure boilerplate/legal entity lines
+
+IMPORTANT: This run is MAX-EXHAUSTIVE.
+- Include ALL definitions as features of type "definition_impact" (even if they seem generic), because the goal is to capture *every defined term/constraint in the wording*.
+- You may still skip obvious non-policy text like addresses, CIN/UIN strings, or repeated company footer lines.
+
+Hard requirements:
+1) Each feature must include a verbatim quote (short) from the clause text that supports it.
+2) Do not invent section numbers/pages; if the clause text contains a section/annexure reference, you may include it; otherwise set reference to null.
+3) If a clause contains multiple distinct features (e.g., a list), output multiple feature objects.
+4) If a clause contains zero features, output none for that clause.
+
+Output JSON ONLY with this exact shape:
+{
+  "features": [
+    {
+      "clause_id": 123,
+      "page": 8,
+      "type": "benefit|limit|waiting_period|exclusion|deductible_copay|condition|claims_process|optional_cover|definition_impact",
+      "name": "short title",
+      "quote": "verbatim snippet",
+      "reference": null,
+      "notes": "optional short 1 sentence explanation; omit comparisons unless directly implied"
+    }
+  ]
+}
+
+Rules for quotes:
+- quote must be copied exactly from the clause text (can be partial).
+- keep it as short as possible while still proving the feature.
+
+Now extract features from these clauses.
