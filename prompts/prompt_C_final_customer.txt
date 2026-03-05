@@ -10,10 +10,10 @@ Bucketing logic (use internally):
    - Magnitude: money/coverage impact
    - Likelihood: how often it affects real users/claims
    - Trap/Friction: denial/reduction/surprise hoops
-3) Map:
-   - BAD: Downside with Trap=2 OR (Magnitude=2 and Likelihood>=1) OR known claim-shock mechanics (e.g., proportionate deduction)
+3) Map (STRICT):
+   - BAD (Red flags): ONLY if it is very likely to cause an unexpectedly low payout or denial in common scenarios (claim-shock). Examples: proportionate deduction mechanics, harsh room-rent-to-proportionate linkage, broad denial mechanics, mandatory/high co-pay or deductibles that apply widely, disease-wise sublimits that materially cap common claims.
    - GREAT: Upside with Magnitude=2, Trap<=1, clear terms
-   - GOOD: helpful/standard or mild downside clearly disclosed
+   - GOOD: helpful/standard or mild downside clearly disclosed (default for most limitations)
    - UNCLEAR: ONLY if wording is genuinely vague/contradictory/discretionary such that you cannot tell what it means.
 
 Schedule/Optional handling (IMPORTANT):
@@ -36,7 +36,8 @@ Rules:
 
 Selection limits:
 - Output up to 5 items per bucket.
-- Prefer: room/ICU caps and proportionate deduction, deductibles/co-pay, restore/secure/plus benefits, pre/post windows, major exclusions, claim process traps.
+- Prefer for BAD: proportionate deduction, room-rent linked payout reduction, harsh/mandatory co-pay or deductible, harsh disease-wise sublimits, broad denial mechanics.
+- Prefer for GREAT/GOOD: restore/secure/plus benefits, pre/post windows, room/ICU caps (if mild), key exclusions, claim-process friction.
 
 Disclaimer (exact):
 "Disclaimer: This analysis is for informational purposes only and does not constitute financial or insurance advice. Always read your policy documents carefully and consult with a licensed insurance advisor for specific guidance."
