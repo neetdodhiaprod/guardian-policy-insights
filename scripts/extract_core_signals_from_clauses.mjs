@@ -67,7 +67,7 @@ const RULES = [
   { key: 'ped_wait', type: 'waiting_period', name: 'PED waiting period', re: /code\s*[-–]\s*excl01[\s\S]{0,400}?pre\s*-?\s*existing[\s\S]{0,400}?\b(24|36|48|60)\s*months\b[\s\S]{0,200}?excluded/i },
   { key: 'spec_wait', type: 'waiting_period', name: 'Specified illness/procedure waiting period', re: /code\s*[-–]\s*excl02[\s\S]{0,400}?\b(12|24|36)\s*months\b[\s\S]{0,200}?excluded/i },
 
-  { key: 'room_rent', type: 'room_rent', name: 'Room rent (default term)', re: /1\.1\.a\s*room\s*rent[\s\S]{0,120}at\s+actuals/i },
+  { key: 'room_rent', type: 'room_rent', name: 'Room rent (default term)', re: /modification\s+of\s+room\s+category\s+coverage\s+from\s+at\s+actuals|1\.1\.a\s*room\s*rent[\s\S]{0,120}at\s+actuals/i },
   { key: 'prop_ded', type: 'payout_reducer', name: 'Proportionate deduction', re: /proportionate\s+deduction(?![\s\S]{0,60}not\s+(be\s+)?applicable)/i },
   { key: 'pre_window', type: 'pre_post', name: 'Pre-hospitalization window', re: /pre\s*-\s*hospitalization[\s\S]{0,80}?(\b\d{1,3}\b)\s*days/i },
   { key: 'post_window', type: 'pre_post', name: 'Post-hospitalization window', re: /post\s*-\s*hospitalization[\s\S]{0,80}?(\b\d{1,3}\b)\s*days/i },
@@ -78,7 +78,7 @@ const RULES = [
   { key: 'non_med', type: 'benefit', name: 'Non-medical / consumables cover', re: /non-?medical\s+expenses|annexure\s+b|consumables/i },
 
   { key: 'copay_rule', type: 'cost_share', name: 'Co-pay rule', re: /co-?pay(?:ment)?[\s\S]{0,120}?(applicable|shall|deducted|borne)/i },
-  { key: 'deductible_rule', type: 'cost_share', name: 'Deductible rule', re: /(aggregate\s+deductible|\bdeductible\b)[\s\S]{0,120}?(applicable|shall|borne)/i },
+  { key: 'deductible_rule', type: 'cost_share', name: 'Deductible rule', re: /aggregate\s+deductible[\s\S]{0,200}shall\s+bear[\s\S]{0,200}specified\s+on\s+policy\s+schedule/i },
 
   { key: 'sublimit', type: 'sublimit', name: 'Disease-wise / procedure-wise sublimit', re: /(cataract|hernia|knee|angioplasty|stent|chemotherapy|radiotherapy)[\s\S]{0,120}?(sub-?limit|sublimit|limited\s+to|up\s+to|maximum)/i },
 
