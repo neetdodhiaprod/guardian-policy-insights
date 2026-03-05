@@ -1,0 +1,68 @@
+You are grading extracted policy features into a customer-friendly summary with (A) a fixed BASICS checklist and (B) GREAT / GOOD / BAD (Red flags) / UNCLEAR buckets.
+
+Input:
+You will receive a JSON array of extracted feature objects. Each has: clause_id, page, type, name, quote (verbatim), reference (string|null), notes.
+You MUST base decisions only on the provided quote. Do not invent facts, limits, or references.
+
+Two goals (do both):
+1) Fixed checklist of BASICS: always cover the same essential topics (even if not found).
+2) Make BAD strict: BAD should contain only true “claim-shock” red flags. Mild/standard limitations should be GOOD.
+
+Bucketing logic (use internally):
+1) Classify each feature: Upside / Downside / Neutral(process/definition)
+2) Score each feature 0–2:
+   - Magnitude: money/coverage impact
+   - Likelihood: how often it affects real users/claims
+   - Trap/Friction: denial/reduction/surprise hoops
+3) Map (STRICT):
+   - BAD (Red flags): ONLY if it is very likely to cause an unexpectedly low payout or denial in common scenarios. Examples: proportionate deduction mechanics, harsh room-rent-to-proportionate linkage, broad denial mechanics, high/mandatory co-pay or deductibles that apply widely, disease-wise sublimits that materially cap common claims.
+   - GREAT: clear, high-value upside (restore/secure benefits, broad cover, long pre/post windows) with no major catch.
+   - GOOD: standard terms, mild limitations, or clearly disclosed downsides that are unlikely to shock most customers.
+   - UNCLEAR: ONLY if wording is genuinely vague/contradictory/discretionary such that you cannot tell what it means.
+
+Schedule/Optional handling (IMPORTANT):
+- Do NOT use UNCLEAR just because something depends on Policy Schedule or plan variant.
+- If schedule-dependent/optional but directionally clear, bucket it as GREAT/GOOD/BAD and include this exact sentence in the explanation (verbatim) when needed:
+"Check your policy schedule for the exact limit"
+
+Output (STRICT JSON):
+Return a single JSON object with exactly these keys: BASICS, GREAT, GOOD, BAD, UNCLEAR, disclaimer.
+
+BASICS must be an array of EXACTLY these category strings (in this order), each represented by one object:
+1) Room rent limit
+2) ICU rent limit
+3) Co-pay
+4) Deductible
+5) Pre-hospitalization coverage window
+6) Post-hospitalization coverage window
+7) PED waiting period
+8) Initial waiting period (first 30 days)
+9) Disease-wise sublimits
+10) Restore / recharge benefit
+11) Cashless / claim process timelines
+12) Major exclusions
+
+Each BASICS object must have exactly: category, verdict, name, quote, reference, explanation.
+- category: must match one of the category strings above exactly.
+- verdict: one of GREAT|GOOD|BAD|UNKNOWN
+- If you can find a relevant input feature: set verdict (usually GOOD unless it is a true red flag), set name as a clean title, and set quote EXACTLY from an input feature.quote.
+- If you cannot find it: verdict=UNKNOWN, name="Not found", quote="", reference="Not provided", explanation="Not found in extracted features."
+
+Each bucket (GREAT/GOOD/BAD/UNCLEAR) is an array of objects with exactly: name, quote, reference, explanation.
+Rules for bucket items:
+- name must be a clean, specific feature title (no generic labels).
+- quote must be copied EXACTLY from an input feature.quote (character-for-character). No paraphrase, no ellipses.
+- reference: if input reference present use it; else "Not provided".
+- explanation: maximum 2 short sentences:
+  1) starts with "What this means for you:"
+  2) starts with "When it applies:"
+  If schedule-dependent, append the caveat sentence exactly: "Check your policy schedule for the exact limit".
+
+Selection limits (buckets):
+- Output up to 5 items per bucket.
+- Prefer for BAD: proportionate deduction, room-rent linked payout reduction, harsh/mandatory co-pay or deductible, harsh disease-wise sublimits, broad denial mechanics.
+
+Disclaimer (exact):
+"Disclaimer: This analysis is for informational purposes only and does not constitute financial or insurance advice. Always read your policy documents carefully and consult with a licensed insurance advisor for specific guidance."
+
+Now grade the provided features.

@@ -167,10 +167,46 @@ async function main() {
     return null;
   }
 
+  // Fix/verify bucket items (quotes must come from inputs).
   for (const bucket of ['GREAT', 'GOOD', 'BAD', 'UNCLEAR']) {
     if (!Array.isArray(graded[bucket])) continue;
     const fixed = graded[bucket].map(fixItem).filter(Boolean);
     graded[bucket] = fixed;
+  }
+
+  // Fix/verify BASICS checklist (allows UNKNOWN entries with empty quotes).
+  if (Array.isArray(graded.BASICS)) {
+    const fixedBasics = [];
+    for (const it of graded.BASICS) {
+      if (!it || typeof it !== 'object') continue;
+      const quote = String(it.quote ?? '');
+
+      // UNKNOWN entries can have blank quote.
+      if (!quote) {
+        fixedBasics.push({
+          category: String(it.category ?? ''),
+          verdict: String(it.verdict ?? 'UNKNOWN'),
+          name: String(it.name ?? 'Not found'),
+          quote: '',
+          reference: it.reference == null ? 'Not provided' : String(it.reference),
+          explanation: String(it.explanation ?? 'Not found in extracted features.'),
+        });
+        continue;
+      }
+
+      const fixed = fixItem(it);
+      if (fixed) {
+        fixedBasics.push({
+          category: String(it.category ?? ''),
+          verdict: String(it.verdict ?? ''),
+          name: String(it.name ?? ''),
+          quote: fixed.quote,
+          reference: fixed.reference,
+          explanation: String(it.explanation ?? ''),
+        });
+      }
+    }
+    graded.BASICS = fixedBasics;
   }
 
   // Enforce: same quote cannot appear in more than one bucket.
@@ -213,6 +249,41 @@ async function main() {
       graded[b] = keep;
     }
   };
+
+  // Keep BAD strict: demote non-claim-shock downsides into GOOD.
+  // (We err on the side of not scaring customers.)
+  const isClaimShockRedFlag = (q) => {
+    const s = String(q ?? '').toLowerCase();
+
+    // Very strong signals.
+    if (s.includes('proportionate deduction')) return true;
+    if (s.includes('proportionate') && s.includes('room')) return true;
+
+    // Broad denial mechanics / severe restrictions.
+    if (/(not payable|shall not be payable|no liability|not covered)/i.test(s) && /(in any case|whatsoever|under any circumstances)/i.test(s)) return true;
+
+    // Disease-wise sublimits and hard caps.
+    if (/(sub-?limit|sublimit|disease[-\s]?wise)/i.test(s) && /(maximum|limited to|up to)/i.test(s)) return true;
+
+    // Co-pay / deductible that is clearly mandatory and material (best-effort heuristic).
+    if (/(co-?pay|copay|deductible)/i.test(s) && /(mandatory|shall|applicable|borne by insured)/i.test(s) && /(\b2\d\b|\b3\d\b|\b4\d\b|\b50\b)\s*%/.test(s)) return true;
+
+    return false;
+  };
+
+  if (Array.isArray(graded.BAD)) {
+    const keepBad = [];
+    for (const it of graded.BAD) {
+      const q = String(it.quote ?? '');
+      if (isClaimShockRedFlag(q)) {
+        keepBad.push(it);
+      } else {
+        graded.GOOD = Array.isArray(graded.GOOD) ? graded.GOOD : [];
+        if (!graded.GOOD.some(x => String(x.quote ?? '') === q)) graded.GOOD.push(it);
+      }
+    }
+    graded.BAD = keepBad;
+  }
 
   moveToGood((q) => /pre\s*-?existing\s+disease/i.test(q) && /\b36\s*months\b/i.test(q));
   moveToGood((q) => /\bwithin\s+30\s+days\b/i.test(q) && /excluded\s+except\s+claims\s+arising\s+due\s+to\s+an\s+accident/i.test(q));
