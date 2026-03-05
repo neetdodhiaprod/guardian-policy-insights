@@ -1,0 +1,138 @@
+{
+  "policyName": "ReAssure 2.0 Platinum+",
+  "insurer": "Niva Bupa Health Insurance Company Limited",
+  "sumInsured": "Base Sum Insured + Booster+ Sum Insured + Safeguard/Safeguard+ Sum Insured (as per plan/Policy Schedule)",
+  "policyType": "Not specified",
+  "documentType": "Policy Wording",
+  "summary": {
+    "great": 5,
+    "good": 7,
+    "bad": 3,
+    "unclear": 4
+  },
+  "features": {
+    "great": [
+      {
+        "name": "Room rent: No limit / any room (default wording)",
+        "quote": "“We don’t limit your choice. Choose the room you like, but choose judiciously to protect your Sum Insured.”",
+        "reference": "Section 4.2.1 (Expenses during Hospitalization)",
+        "explanation": "Default wording indicates no room rent capping (you can choose any room). This helps avoid proportionate deductions due to room category limits."
+      },
+      {
+        "name": "Built-in additional Sum Insured buffer: ReAssure “Forever” (unlimited reinstatement-like cover after first paid claim)",
+        "quote": "“ReAssure “Forever”: Enjoy unlimited Sum Insured. The first paid claim in the life of the policy triggers ReAssure “Forever”. Once Triggered it stays for life, provided that the policy is renewed without break.”",
+        "reference": "Section 4.7.1 (ReAssure+), also mirrored in Section 4.8 (ReAssureX)",
+        "explanation": "This is an additional SI buffer that can fund future claims after the base is exhausted (triggered after the first paid claim), giving very strong long-term protection."
+      },
+      {
+        "name": "Consumables / non-payable items covered (Safeguard / Safeguard+ - Claim Safeguard)",
+        "quote": "“Claim Safeguard: We will cover non-payable items mentioned in ‘List I – Expenses not covered’ of Annexure I’.”",
+        "reference": "Section 4.16.1 (Safeguard); related Section 4.17.1 (Safeguard+)",
+        "explanation": "Consumables/non-payables (e.g., gloves, masks, kits etc. listed in Annexure I) are typically out-of-pocket. Here they are covered if you choose Safeguard/Safeguard+."
+      },
+      {
+        "name": "Post-hospitalization coverage: 180 days",
+        "quote": "“...180 days after date of discharge...”",
+        "reference": "Section 4.3 (Expenses before and after hospitalization)",
+        "explanation": "180 days post-hospitalization is at the upper end of standard coverage and reduces follow-up expense burden."
+      },
+      {
+        "name": "Domiciliary / Home care treatment covered",
+        "quote": "“Home Care Treatment means treatment availed by the insured person at home which in normal course would require care and treatment at a hospital but is actually taken at home...”",
+        "reference": "Section 4.4 (Home Care / Domiciliary Treatment)",
+        "explanation": "Covers eligible treatment taken at home when hospital-like care is required (subject to the stated conditions)."
+      }
+    ],
+    "good": [
+      {
+        "name": "PED waiting period: 36 months",
+        "quote": "“...excluded until the expiry of 36 months of continuous coverage after the date of inception of the first Policy.”",
+        "reference": "Section 5.1.1 (Pre-existing Diseases)",
+        "explanation": "36 months PED waiting is common/acceptable in the market (not a red flag)."
+      },
+      {
+        "name": "Specific illness/procedure waiting period: 24 months",
+        "quote": "“...excluded until the expiry of 24 months of continuous coverage...”",
+        "reference": "Section 5.1.2 (Specified disease/procedure waiting period)",
+        "explanation": "24 months for listed diseases/procedures is standard."
+      },
+      {
+        "name": "Initial waiting period: 30 days (illness)",
+        "quote": "“Expenses related to the treatment of any Illness within 30 days from the first Policy commencement date shall be excluded...”",
+        "reference": "Section 5.1.3 (30-day waiting period)",
+        "explanation": "30-day initial waiting for illnesses is standard; accidents are typically covered from day 1."
+      },
+      {
+        "name": "Pre-hospitalization coverage: 60 days",
+        "quote": "“...for 60 days before the date of admission...”",
+        "reference": "Section 4.3 (Expenses before and after hospitalization)",
+        "explanation": "60 days pre-hospitalization is standard/good."
+      },
+      {
+        "name": "Air ambulance covered (with limit)",
+        "quote": "“Air Ambulance: Only in case of Emergency. Maximum INR 2,50,000 per hospitalization.”",
+        "reference": "Section 4.1.2 (Air Ambulance)",
+        "explanation": "Air ambulance is a valuable add-on-type benefit; limit applies per hospitalization."
+      },
+      {
+        "name": "Modern treatments covered (listed procedures)",
+        "quote": "“We pay for Modern treatments as specified below: 1. Uterine Artery Embolization and HIFU... 7. Robotic surgeries ...”",
+        "reference": "Section 4.2.2 (Modern treatments list)",
+        "explanation": "Modern treatments are covered as per the specified list (coverage is positive, but list-based)."
+      },
+      {
+        "name": "Optional room type modification available (flexibility)",
+        "quote": "“Room Type Modification... You can choose between a Single Private Room and a Sharing Room.”",
+        "reference": "Section 4.21 (Room Type Modification)",
+        "explanation": "Flexibility to select room category for pricing/lifestyle. (Default wording still says no room limit; this is an option mentioned in the product.)"
+      }
+    ],
+    "bad": [
+      {
+        "name": "Restore benefit: Not found (assumed not covered)",
+        "quote": "Not found in provided text.",
+        "reference": "Mandatory feature check (Restore Benefit)",
+        "explanation": "No restore/reinstatement clause explicitly stating replenishment of Sum Insured after a claim was found in the provided wording. If absent, Sum Insured is NOT replenished after a claim (separate from the ReAssure “Forever” buffer, which activates after first paid claim)."
+      },
+      {
+        "name": "NCB / Renewal Bonus: Not found (assumed not covered)",
+        "quote": "Not found in provided text.",
+        "reference": "Mandatory feature check (NCB / Renewal Bonus)",
+        "explanation": "No explicit No Claim Bonus / cumulative bonus increase schedule on renewal was found. If absent, Sum Insured does not grow at renewal via NCB. (Booster+ is a different mechanism; it’s not presented as an NCB in the provided text.)"
+      },
+      {
+        "name": "Cashless network size: Not stated (treated as not meeting minimum disclosure; assume not covered for thresholding)",
+        "quote": "“Cashless claim facility is available at our network hospitals ONLY... for the latest list, refer to our website www.nivabupa.com.”",
+        "reference": "Section 6.2.4(a) (Claims)",
+        "explanation": "Number of network hospitals is not provided in the wording excerpt, so it cannot be confirmed whether it meets >7,000 / >10,000 thresholds. This is a practical gap for comparing network strength."
+      }
+    ],
+    "unclear": [
+      {
+        "name": "Co-payment (percentage/when applicable) not specified",
+        "quote": "“Co-Payment: It is the percentage of admissible claim amount You would have to bear, Rest we will pay.”",
+        "reference": "Section 4.19 (Co-Payment)",
+        "explanation": "Co-pay is defined but the actual co-pay % and whether it applies by default (or only if chosen via an option/plan) is not stated in the excerpt—verify in Policy Schedule."
+      },
+      {
+        "name": "Deductible (Annual Aggregate Deductible amount) not specified",
+        "quote": "“This is an aggregate amount in a year... which we will NOT pay. Once the total expense exceeds this amount, balance we will pay.”",
+        "reference": "Section 4.18 (Annual Aggregate Deductible)",
+        "explanation": "Deductible feature is described but the rupee amount is not provided here; it likely depends on the plan/Policy Schedule."
+      },
+      {
+        "name": "Safeguard / Safeguard+ (consumables coverage) appears as selectable but selection/default not clear",
+        "quote": "“Sum Insured will be utilized as per following sequence... 3. Safeguard/Safeguard+ Sum Insured” and “You can either choose Safeguard or Safeguard+ at a given point in time.”",
+        "reference": "Section 3 (Sum Insured sequence) and Section 4.17 Note",
+        "explanation": "The document indicates Safeguard/Safeguard+ exist and can be chosen, but it is unclear whether they are included by default in all variants or only if opted/paid—confirm in Policy Schedule."
+      },
+      {
+        "name": "Booster+ accumulation cap depends on plan variant (3x/5x/10x) — exact cap unclear",
+        "quote": "“Maximum it will accumulate up to 3/5/10 times (based on the plan you have chosen) of the Base Sum Insured.”",
+        "reference": "Section 4.9 (Booster+)",
+        "explanation": "Booster+ is clearly described, but the exact multiplier applicable to your policy depends on the chosen plan/variant—verify your schedule/variant."
+      }
+    ]
+  },
+  "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
+}

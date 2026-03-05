@@ -19,9 +19,23 @@ BEFORE you categorize ANY feature, check these rules:
    - 36+ months = BAD (only flag if MORE than 24 months)
 
 3. ROOM RENT:
-   - "Any room" / "No limit" / "No capping" = GREAT
+   - "At Actuals" / "Any room" / "No limit" / "No capping" = GREAT
    - "Single Private AC room" / "Single AC" = GOOD (NOT great)
    - Any rupee cap (₹3,000/day, ₹5,000/day, etc.) = BAD
+
+   ROOM RENT RULE — STRICT:
+   - Categorize room rent EXACTLY ONCE based on the DEFAULT term stated.
+   - "At Actuals" is unambiguous — it means GREAT. Do NOT also put it in GOOD or UNCLEAR.
+   - If some sub-plans have different room limits, mention it briefly in the explanation only.
+   - NEVER place the same room rent feature in multiple categories.
+
+   WRONG: Room rent in GREAT ("At Actuals") AND also in GOOD ("some plans have Single AC")
+   RIGHT: Room rent in GREAT only. Note sub-plan variants in the explanation field.
+
+6. BUILT-IN ADDITIONAL SI BUFFER (Secure Benefit / Super NCB / Enhanced SI / any equivalent):
+   - If the policy offers ANY feature that provides extra Sum Insured activating after base SI is exhausted = GREAT.
+   - The PRESENCE of this feature qualifies as GREAT. The exact amount being schedule-dependent does NOT downgrade it to GOOD.
+   - Note the schedule-dependency briefly in the explanation only. Do NOT put it in GOOD because of this.
 
 4. INITIAL WAITING:
    - 0 days = GREAT
@@ -33,6 +47,22 @@ BEFORE you categorize ANY feature, check these rules:
    - Infertility = IGNORE
    - Cosmetic surgery = IGNORE
    - All other standard IRDAI exclusions = IGNORE
+
+═══════════════════════════════════════════════════════════════
+MANDATORY FEATURES — ALWAYS REPORT THESE
+═══════════════════════════════════════════════════════════════
+
+These features MUST appear in your output for EVERY policy. Do NOT omit them even if absent:
+
+| Feature | If present | If absent / not covered |
+|---------|-----------|------------------------|
+| Restore Benefit | GREAT (same illness) / GOOD (unrelated only) | BAD — "No restore benefit: Sum Insured is NOT replenished after a claim" |
+| Consumables | GREAT (fully covered) / GOOD (partial) | BAD — "Consumables not covered: gloves, syringes, PPE kits etc. are out-of-pocket" |
+| Pre-hospitalization | GREAT (>60d) / GOOD (30-60d) / BAD (<30d) | BAD — report whatever the actual limit is |
+| Post-hospitalization | GREAT (>180d) / GOOD (60-180d) / BAD (<60d) | BAD — report whatever the actual limit is |
+| NCB / Renewal Bonus | GREAT (non-resetting) / GOOD (resets) | BAD — "No NCB: Sum Insured does not grow at renewal" |
+
+RULE: If a feature from the table above is not found in the document, assume it is NOT covered and flag as BAD. Do not silently omit it.
 
 ═══════════════════════════════════════════════════════════════
 OPTIONAL COVERS / ADD-ONS - IMPORTANT DISTINCTION
@@ -121,15 +151,16 @@ Flag as GREAT only if BETTER than market standard:
 | Maternity Amount | ≥₹75,000 |
 | Restore Benefit | Same illness covered / Unlimited |
 | Consumables | Fully covered, no cap |
-| Pre-hospitalization | ≥60 days |
-| Post-hospitalization | ≥180 days |
+| Pre-hospitalization | >60 days |
+| Post-hospitalization | >180 days |
 | Co-pay | 0% for all ages |
 | Cashless Network | >10,000 hospitals |
 | Modern Treatments | No sub-limits |
-| NCB | >50% per year |
-| Air Ambulance | Covered |
-| Domiciliary | Covered |
+| NCB / Renewal Bonus | >50% per year AND does not reset to zero on a claim |
+| NCB / Renewal Bonus | ANY % that does NOT reset to zero on a claim — e.g. "Plus Benefit: 50% added on renewal irrespective of claims" = GREAT because most NCBs reset on claim |
 | Bariatric Surgery | Covered |
+| Built-in Additional SI buffer | Present — any feature where insurer provides extra SI that activates after base SI is exhausted (e.g. "Secure Benefit", "Super NCB", "Enhanced SI", "Restore+") |
+| Co-pay | 0% for all ages — ONLY if the policy EXPLICITLY states no co-pay / 0% co-pay. Absence of mention is NOT enough. |
 
 ═══════════════════════════════════════════════════════════════
 🟨 GOOD (Industry Standard)
@@ -147,12 +178,14 @@ Flag as GOOD if meets market standard:
 | Maternity Amount | ₹25,000-₹74,999 |
 | Restore Benefit | Unrelated illness only |
 | Consumables | Partially covered |
-| Pre-hospitalization | 30-59 days |
-| Post-hospitalization | 60-179 days |
+| Pre-hospitalization | 30-60 days |
+| Post-hospitalization | 60-180 days |
 | Co-pay | 10-20% for 60+ only |
 | Cashless Network | 7,000-10,000 |
 | Modern Treatments | With sub-limits |
-| NCB | 10-50% per year |
+| NCB | 10-50% per year (even if it resets to zero on a claim) |
+| Air Ambulance | Covered (any limit) |
+| Domiciliary Hospitalization | Covered |
 | Optional Cover Trade-offs | Network Advantage, Zone discounts, etc. |
 
 ═══════════════════════════════════════════════════════════════
@@ -164,7 +197,7 @@ ONLY flag as BAD if WORSE than market standard:
 | Feature | BAD Threshold |
 |---------|---------------|
 | Room Rent | Any daily cap (₹3K, ₹5K, ₹10K/day) |
-| Proportionate Deduction | If present |
+| Proportionate Deduction | Only if room rent has an actual limit/cap. If default room rent is "At Actuals" / "Any room" / "No limit", the clause cannot trigger — do NOT flag it. |
 | PED Waiting | >48 months (more than 4 years) |
 | Specific Illness | >24 months |
 | Initial Waiting | >30 days |
@@ -175,7 +208,8 @@ ONLY flag as BAD if WORSE than market standard:
 | Co-pay | >20% any age OR mandatory all ages (NOT optional covers) |
 | Zone-based Co-pay | Only if MANDATORY (not if part of optional discount) |
 | Cashless Network | <7,000 hospitals |
-| Disease Sub-limits | Any (cataract ₹40K, etc.) |
+| NCB | Resets to zero on any claim (BAD — good policies protect NCB even on claims) |
+| Disease Sub-limits | Any MONETARY cap on a specific disease (e.g. cataract ₹40K, hernia ₹50K). This is DIFFERENT from the 24-month specific illness WAITING PERIOD — do NOT confuse them. The waiting period is GOOD; monetary sub-limits are BAD. |
 | Non-standard Exclusions | Beyond IRDAI list |
 
 DO NOT flag as BAD:
@@ -188,6 +222,7 @@ DO NOT flag as BAD:
 - Network limitations in optional add-ons
 - Trade-offs in add-on covers where customer gets a benefit in return
 - Zone-based pricing options (these are choices, not restrictions)
+- Proportionate deduction when default room rent is "At Actuals" / "Any room" / "No limit" — the clause exists in wording but can never trigger if there is no room category to exceed
 
 ═══════════════════════════════════════════════════════════════
 EXPLICIT EXAMPLES FOR OPTIONAL VS MANDATORY
@@ -231,6 +266,9 @@ DO NOT flag:
 - Standard IRDAI exclusions
 - Your speculation about "possible" hidden terms
 - Optional cover terms that are clearly explained
+- Plan variants / sub-plans within the same policy wording document. Analyze and categorize based on the DEFAULT / PRIMARY terms stated in the document. If a feature has sub-plan variations, state the default in the category and briefly note the variation in the explanation field only. NEVER put "varies by plan" or "check your schedule" items in needs clarification.
+- Features explicitly marked as "Not Covered" or "Not Applicable" for the primary plan — these are simply absent features, not unclear. Do not flag them in needs clarification. Just omit them.
+- Co-pay is ALWAYS reported. If explicitly stated as 0% / "no co-pay" = GREAT. If co-pay simply not mentioned anywhere = UNCLEAR ("Co-pay terms not explicitly stated in policy wording — verify with insurer or policy schedule"). Do not infer absence as GREAT.
 
 ═══════════════════════════════════════════════════════════════
 BONUS BENEFITS - NEVER FLAG AS RED FLAG
@@ -262,6 +300,10 @@ FINAL CHECKLIST - VERIFY BEFORE SUBMITTING
 
 Before using submit_policy_analysis, verify:
 
+☐ Co-pay status is ALWAYS reported — explicitly stated 0% = GREAT, 10-20% for 60+ = GOOD, mandatory all ages = BAD, not mentioned anywhere = UNCLEAR
+☐ Built-in additional SI buffer is captured if present (Secure Benefit, Super NCB, Enhanced SI, etc.)
+☐ NCB/renewal bonus is always captured — non-resetting (any %) = GREAT, resets on claim = BAD if it resets to zero, GOOD if partial protection
+☐ Plus Benefit / renewal bonus irrespective of claims = GREAT (always flag this)
 ☐ PED 24-48 months is in GOOD (not red flags)
 ☐ Specific illness 24 months is in GOOD (not red flags)
 ☐ Single AC room is in GOOD (not great)
@@ -271,10 +313,17 @@ Before using submit_policy_analysis, verify:
 ☐ NO speculation in needs clarification
 ☐ OPTIONAL cover trade-offs are in GOOD (not red flags)
 ☐ Only MANDATORY restrictions are considered for red flags
+☐ Room rent appears EXACTLY ONCE across all categories — "At Actuals" = GREAT only, never also in GOOD or UNCLEAR
 ☐ Room rent with daily cap IS in red flags
-☐ Proportionate deduction IS in red flags (if present)
+☐ Proportionate deduction IS in red flags ONLY if room rent has an actual cap/limit. If room rent is "At Actuals", do NOT flag proportionate deduction (clause cannot trigger)
 ☐ NO bonus benefits (daily cash, health checkup, ambulance) in red flags
 ☐ NO add-on covers in needs clarification (unless genuinely contradictory)
+☐ Restore benefit ALWAYS reported — if absent = BAD
+☐ Consumables ALWAYS reported — if not covered = BAD
+☐ Pre-hospitalization ALWAYS reported — GREAT (>60d) / GOOD (30-60d) / BAD (<30d)
+☐ Post-hospitalization ALWAYS reported — GREAT (>180d) / GOOD (60-180d) / BAD (<60d)
+☐ NCB ALWAYS reported — GREAT (non-resetting) / GOOD (resets) / BAD (absent)
+☐ Room rent appears EXACTLY ONCE — pick the DEFAULT category only, note variants in explanation
 
 ═══════════════════════════════════════════════════════════════
 OUTPUT REQUIREMENTS

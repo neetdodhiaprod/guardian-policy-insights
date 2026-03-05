@@ -1,0 +1,84 @@
+{
+  "policyName": "Activ One VIP",
+  "insurer": "Aditya Birla Health Insurance Co. Limited",
+  "sumInsured": "Base Sum Insured: 50 Lacs, 75 Lacs, 1 Crore, 2 Crores, 3 Crores, 4 Crores, 5 Crores, 6 Crores (as per Product Benefit Table)",
+  "policyType": "Not specified",
+  "documentType": "Mixed",
+  "summary": {
+    "great": 5,
+    "good": 3,
+    "bad": 1,
+    "unclear": 1
+  },
+  "features": {
+    "great": [
+      {
+        "name": "Room rent (no capping)",
+        "quote": "Room Rent Actuals up to Sum Insured",
+        "reference": "Annexure III - Product Benefit Table (VIP) | Hospitalization Treatment",
+        "explanation": "No room category restriction/cap is mentioned for VIP; eligible room rent is payable at actuals up to Sum Insured."
+      },
+      {
+        "name": "Restore/Reload benefit (unlimited refills)",
+        "quote": "Super Reload (Unlimited Refill) From 2nd claim of Policy Life - Unlimited times",
+        "reference": "Annexure III - Product Benefit Table (VIP) | In-built Benefits",
+        "explanation": "After the first-ever claim in the policy’s lifetime, the plan can reload up to Base Sum Insured unlimited times in a policy year (subject to terms)."
+      },
+      {
+        "name": "Consumables / Non-medical expenses covered (Claim Protect)",
+        "quote": "Non-payable items will be covered (all 4 lists of Annexure I)",
+        "reference": "Annexure III - Product Benefit Table (VIP) | Hospitalization Treatment",
+        "explanation": "Covers otherwise non-payable consumables/non-medical items listed in Annexure I (Lists I-IV), reducing out-of-pocket expenses."
+      },
+      {
+        "name": "Pre-hospitalization (90 days)",
+        "quote": "The Company shall indemnify the Pre-Hospitalization Medical Expenses incurred... for up to 90 days immediately prior to the date of such Hospitalization.",
+        "reference": "Section C.2 Pre-Hospitalization Expenses",
+        "explanation": "Covers diagnostic/medical expenses up to 90 days before admission (linked to an admissible hospitalization)."
+      },
+      {
+        "name": "Built-in additional SI buffer after base exhaustion (Super Reload)",
+        "quote": "If the Base Sum Insured is completely exhausted or is insufficient for covering a claim, then We shall provide for a reload amounting to the Base Sum Insured (“super Reload”), unlimited times during the Policy Year",
+        "reference": "Section C.10 Super Reload",
+        "explanation": "Provides extra coverage that activates after Base SI is exhausted/insufficient (a strong protection feature)."
+      }
+    ],
+    "good": [
+      {
+        "name": "PED waiting period (3 years)",
+        "quote": "Pre Existing Disease (PED) Waiting Period 3 years",
+        "reference": "Annexure III - Product Benefit Table (VIP) | Waiting Period - Inbuilt Cover",
+        "explanation": "Pre-existing diseases are covered after 3 years of continuous coverage (industry-standard; not a red flag)."
+      },
+      {
+        "name": "Initial waiting period (30 days)",
+        "quote": "30-day Waiting Period (Code-Excl03) ... Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident",
+        "reference": "Section D.1.3 30-day Waiting Period (Code-Excl03)",
+        "explanation": "Standard 30-day initial waiting for illness (accidents are covered subject to policy terms)."
+      },
+      {
+        "name": "Post-hospitalization (180 days)",
+        "quote": "The Company shall indemnify the Post-Hospitalization Medical Expenses incurred... for up to 180 days from the date of discharge from the Hospital.",
+        "reference": "Section C.3 Post-Hospitalization Expenses",
+        "explanation": "Covers follow-up expenses up to 180 days after discharge (good, market-standard)."
+      }
+    ],
+    "bad": [
+      {
+        "name": "NCB / Renewal bonus absent",
+        "quote": "Super Reload (Unlimited Refill) ... | HealthReturnsTM ... Applicable up to 100% of the premium",
+        "reference": "Annexure III - Product Benefit Table (VIP) | In-built Benefits",
+        "explanation": "The document describes Super Reload and HealthReturns (a rewards feature), but it does not state any No Claim Bonus / cumulative bonus that increases Sum Insured on renewal. If not present in your schedule, Sum Insured may not grow automatically at renewal."
+      }
+    ],
+    "unclear": [
+      {
+        "name": "Co-pay (domestic cover) not explicitly stated",
+        "quote": "Co-Payment: means a cost sharing requirement under a health insurance policy that provides that the Policyholder / Insured will bear a specified percentage of the admissible claims amount.",
+        "reference": "Section B.1 – Standard Definitions | 10. Co-Payment",
+        "explanation": "Co-pay is defined, but the domestic hospitalization section/product benefit table excerpt provided does not clearly state whether any co-pay applies by default. (Global OPD explicitly says 20% co-pay, but that is specific to that benefit.) Please verify co-pay, if any, in the Policy Schedule."
+      }
+    ]
+  },
+  "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
+}

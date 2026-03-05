@@ -1,0 +1,120 @@
+{
+  "policyName": "Super Star",
+  "insurer": "Star Health and Allied Insurance Company Limited",
+  "sumInsured": "Not specified in provided extract (varies as per Policy Schedule; examples mention 5L, 7.5L, 10L, 15L, 20L, 25L, 50L, 1Cr, Unlimited)",
+  "policyType": "Not specified",
+  "documentType": "Policy Wording",
+  "summary": {
+    "great": 6,
+    "good": 6,
+    "bad": 2,
+    "unclear": 2
+  },
+  "features": {
+    "great": [
+      {
+        "name": "Room rent: Any room (no capping)",
+        "quote": "(i) Room Rent (Any Room), Boarding, Nursing Expenses as provided by the Hospital / Nursing Home",
+        "reference": "Section II - Coverage > BASIC COVER > 1. In-patient Treatment (page 5/37)",
+        "explanation": "Default room eligibility is 'Any Room' (no room rent limit), which helps avoid room-rent linked deductions."
+      },
+      {
+        "name": "Pre-hospitalization: 90 days",
+        "quote": "Pre-hospitalization Expenses: Medical expenses incurred up to 90 days immediately before the insured person is hospitalized.",
+        "reference": "Section II - Coverage > BASIC COVER > 3 (page 5/37)",
+        "explanation": "Covers eligible medical expenses for 90 days before admission (better than standard 30–60 days)."
+      },
+      {
+        "name": "Restore benefit: Unlimited restoration up to 100% each time (same/different illness; subsequent hospitalization)",
+        "quote": "Automatic Restoration of Sum Insured... Sum Insured will be restored unlimited number of times and maximum up to 100% each time... 2nd Claim (For Same / different illness)",
+        "reference": "Section II - Coverage > BASIC COVER > 15 (page 7/37)",
+        "explanation": "Strong restore: can refill the base Sum Insured multiple times for later hospitalizations, including same illness (subject to the 'subsequent hospitalization' condition)."
+      },
+      {
+        "name": "NCB / Cumulative Bonus: 50% per claim-free year up to 100%, and does NOT reduce unless utilized",
+        "quote": "Cumulative Bonus... 50% of sum insured for each claim free year and maximum up to 100%... Cumulative bonus will not be reduced unless the same is utilized in the event of claim... unutilized Cumulative bonus will be carried forward",
+        "reference": "Section II - Coverage > BASIC COVER > 14 (page 7/37)",
+        "explanation": "Bonus is protected: it doesn't reset to zero just because you claim; it reduces only to the extent used."
+      },
+      {
+        "name": "Organ donor expenses: covered and stated as over & above Sum Insured",
+        "quote": "Organ Donor Expenses... Note: The coverage limit under this benefit is upto the sum insured and over and above the sum insured.",
+        "reference": "Section II - Coverage > BASIC COVER > 9 (page 6/37)",
+        "explanation": "Organ donor hospitalization expenses are covered, and the wording indicates an additional benefit over the Sum Insured."
+      },
+      {
+        "name": "Modern treatments covered up to Sum Insured (robotic surgery etc.)",
+        "quote": "Coverage for Modern Treatments: The following procedures will be covered... g) Robotic surgeries ... h) Stereotactic radio surgeries ...",
+        "reference": "Section II - Coverage > BASIC COVER > 5 (page 5/37)",
+        "explanation": "Modern treatment procedures are covered up to the Sum Insured (wording does not show specific sub-limits here)."
+      }
+    ],
+    "good": [
+      {
+        "name": "Initial waiting period: 30 days (not applicable for accidents)",
+        "quote": "30-day waiting period – Code Excl 03 (Not Applicable for Accidents)... within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident",
+        "reference": "Section IV - EXCLUSIONS > STANDARD EXCLUSIONS > 3 (page 18/37)",
+        "explanation": "Standard 30-day initial waiting for illnesses; accidents are exempt."
+      },
+      {
+        "name": "Pre-existing disease (PED) waiting period: 36 months",
+        "quote": "Expenses related to the treatment of a pre-existing Disease (PED)... shall be excluded until the expiry of 36 months of continuous coverage after the date of inception of the first policy with insurer",
+        "reference": "Section IV - EXCLUSIONS > STANDARD EXCLUSIONS > 1 (page 18/37)",
+        "explanation": "PED waiting period is 36 months, which is within the 2–4 year industry-standard range."
+      },
+      {
+        "name": "Specific illness/procedure waiting period: 24 months",
+        "quote": "Specified disease / procedure waiting period... shall be excluded until the expiry of 24 months of continuous coverage",
+        "reference": "Section IV - EXCLUSIONS > STANDARD EXCLUSIONS > 2 (page 18/37)",
+        "explanation": "24 months is standard for listed specific diseases/procedures."
+      },
+      {
+        "name": "Post-hospitalization: 180 days",
+        "quote": "Post Hospitalization Expenses: Medical expenses incurred up to 180 days immediately after the insured person is discharged from the hospital.",
+        "reference": "Section II - Coverage > BASIC COVER > 4 (page 5/37)",
+        "explanation": "180 days is at the upper end of standard post-hospitalization coverage."
+      },
+      {
+        "name": "Air ambulance cover (limit ₹5,00,000 per policy year)",
+        "quote": "Air Ambulance... reimbursement of expenses incurred towards the cost of air ambulance service up to Rs.5,00,000/- in a policy year",
+        "reference": "Section II - Coverage > BASIC COVER > 8 (page 6/37)",
+        "explanation": "Air ambulance is covered with a stated annual cap, which is a useful add-on-like benefit within base cover."
+      },
+      {
+        "name": "Domiciliary hospitalization covered (with listed condition exclusions)",
+        "quote": "Domiciliary Hospitalization: Coverage for medical treatment (including AYUSH) for a period exceeding three days... taken whilst confined at home...",
+        "reference": "Section II - Coverage > BASIC COVER > 11 (page 6/37)",
+        "explanation": "Home-based treatment (domiciliary) is covered subject to conditions and a list of illnesses not covered under this section."
+      }
+    ],
+    "bad": [
+      {
+        "name": "Consumables (non-medical items) not covered by default (only via optional cover)",
+        "quote": "Coverage for Non-medical Items (Consumables): Items as per List I will become payable If there is an admissible claim... If insured opts this coverage",
+        "reference": "Section III - Optional Covers > 3 (page 12/37)",
+        "explanation": "By default, common consumables/non-medical items can be out-of-pocket unless you buy the consumables optional cover."
+      },
+      {
+        "name": "Post-hospitalization is 180 days (not >180 days for GREAT threshold)",
+        "quote": "Post Hospitalization Expenses: Medical expenses incurred up to 180 days immediately after the insured person is discharged from the hospital.",
+        "reference": "Section II - Coverage > BASIC COVER > 4 (page 5/37)",
+        "explanation": "Mandatory reporting: post-hospitalization is 180 days (good), but it does not exceed 180 days for the GREAT bracket."
+      }
+    ],
+    "unclear": [
+      {
+        "name": "Co-pay (base plan): not explicitly stated; optional co-pay covers exist",
+        "quote": "Co-Payment: Co-payment means a cost sharing requirement... provides that the policyholder / insured will bear a specified percentage of the admissible claims amount.",
+        "reference": "Definitions (page 2/37); Optional Covers include Smart Network co-pay and Voluntary Co-payment (pages 12/37, 16/37)",
+        "explanation": "The wording defines co-pay and lists optional co-pay features, but the base policy’s default co-pay (0% vs any mandatory co-pay) is not clearly stated in the provided extract. Verify in your policy schedule."
+      },
+      {
+        "name": "Cashless network size: not mentioned",
+        "quote": "Cashless facility... payments... are directly made to the network provider by the insurer",
+        "reference": "Definitions (page 1/37)",
+        "explanation": "The document explains cashless facility but does not state the number of network hospitals. Verify current network count on insurer website/app."
+      }
+    ]
+  },
+  "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
+}

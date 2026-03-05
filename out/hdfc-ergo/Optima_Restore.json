@@ -1,0 +1,102 @@
+{
+  "policyName": "Optima Restore",
+  "insurer": "HDFC ERGO General Insurance Company Limited",
+  "sumInsured": "Individual/Family: 3L, 5L, 10L, 15L, 20L/25L/50L/100L (as per Schedule of Benefits)",
+  "policyType": "Not specified",
+  "documentType": "Policy Wording",
+  "summary": {
+    "great": 2,
+    "good": 7,
+    "bad": 2,
+    "unclear": 2
+  },
+  "features": {
+    "great": [
+      {
+        "name": "Built-in Additional Sum Insured buffer (Restore Benefit: 100% SI once per year)",
+        "quote": "Restore Benefit Instant addition of 100% Basic Sum Insured on complete or partial utilization of Your existing Policy Sum Insured and Multiplier Benefit (if applicable) during the Policy Year.",
+        "reference": "Section B, In-patient Benefits, 1.a Restore Benefit (page 14)",
+        "explanation": "Provides an extra 100% of your Basic Sum Insured once in the policy year after partial/complete usage—this increases claim-paying capacity beyond the base SI."
+      },
+      {
+        "name": "NCB/Renewal Bonus is non-resetting (Multiplier Benefit irrespective of claims)",
+        "quote": "On Renewal of this Policy with the Company without a break, a sum equal to 50% of the Base Sum Insured of the expiring Policy shall be provided as multiplier benefit irrespective of any claims",
+        "reference": "Section B.3 Multiplier Benefit (page 17-18)",
+        "explanation": "Your bonus sum insured grows on renewal even if you claimed—this is better than standard NCBs that reduce/reset after claims."
+      }
+    ],
+    "good": [
+      {
+        "name": "Initial waiting period: 30 days",
+        "quote": "30-day waiting period... Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident",
+        "reference": "Section C.1.i (page 18)",
+        "explanation": "Standard 30-day initial waiting for illnesses (accidents covered immediately)."
+      },
+      {
+        "name": "Specific disease/procedure waiting period: 24 months",
+        "quote": "Expenses related to the treatment of the listed Conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage",
+        "reference": "Section C.1.ii (page 18-20)",
+        "explanation": "Industry-standard 2-year waiting for listed conditions like cataract, hernia, ENT surgeries, etc."
+      },
+      {
+        "name": "PED waiting period: 36 months",
+        "quote": "Expenses related to the treatment of a pre-existing disease (PED) and its direct complications shall be excluded until the expiry of 36 months of continuous coverage",
+        "reference": "Section C.1.iii (page 20)",
+        "explanation": "3-year PED waiting is within standard market range (not a red flag)."
+      },
+      {
+        "name": "Restore Benefit covers subsequent claims in same policy year (once per year)",
+        "quote": "i. The Sum Insured will be restored only once in a Policy Year. ii. If the Restored Sum Insured is not utilized in a Policy Year, it will expire.",
+        "reference": "Section B, In-patient Benefits, 1.a Restore Benefit conditions (page 14)",
+        "explanation": "Restore is available once per year; still valuable but not unlimited by default (unlimited restore is an optional cover)."
+      },
+      {
+        "name": "Pre-hospitalization cover: 60 days",
+        "quote": "Pre-Hospitalisation expenses... incurred upto 60 days before the date of admission",
+        "reference": "Section B.1.b (page 11) and Schedule of Benefits (page 47-48)",
+        "explanation": "Covers eligible pre-hospitalization expenses up to 60 days (standard/good level)."
+      },
+      {
+        "name": "Post-hospitalization cover: 180 days",
+        "quote": "Post-Hospitalisation expenses... incurred upto 180 days after discharge from the Hospital",
+        "reference": "Section B.1.c (page 11-12) and Schedule of Benefits (page 47-48)",
+        "explanation": "Covers eligible post-hospitalization expenses up to 180 days (good level)."
+      },
+      {
+        "name": "Air ambulance covered for higher sum insured slabs (bonus benefit)",
+        "quote": "J(i) The amount payable in case of Air ambulance facility shall be either the actual expenses or Rs. 2.5 Lacs per hospitalisation, whichever is lower",
+        "reference": "Section B.1.j (page 13) and Schedule of Benefits (page 47-48)",
+        "explanation": "Air ambulance is a valuable extra benefit (note: Schedule shows it is Not Covered for 3L & 5L, covered for 10L+)."
+      }
+    ],
+    "bad": [
+      {
+        "name": "Consumables not covered (Annexure list of non-payable items includes common consumables like gloves, masks, etc.)",
+        "quote": "Annexure I List I - Items for which coverage is not available in the policy... 56 GLOVES... 60 MASK... 55 ECG ELECTRODES... 68 VASOFIX SAFETY",
+        "reference": "Annexure I, List I (page 43-44)",
+        "explanation": "Common consumables can become out-of-pocket during hospitalization, increasing your final bill."
+      },
+      {
+        "name": "No room rent benefit/limit mentioned in this extract (mandatory reporting)",
+        "quote": "Hospital room rent or boarding;",
+        "reference": "Section B.1.a In-patient Treatment inclusions (page 11)",
+        "explanation": "This extract confirms room rent is covered as part of inpatient treatment but does not state the eligible room category/limit (e.g., Any room/Single AC/with cap). If room rent has a cap, it can cause proportionate deductions—verify the room rent limit in the complete policy wording/schedule."
+      }
+    ],
+    "unclear": [
+      {
+        "name": "Co-pay status (default) not explicitly stated; only optional co-pay benefit described",
+        "quote": "Co-Payment (Optional benefit) I. If opted and mentioned on the Policy Schedule that a Co-payment is effective",
+        "reference": "Section B.2.d Co-Payment (Optional benefit) (page 15-16) and Schedule of Benefits (page 47-48)",
+        "explanation": "Co-pay applies only if you opt for it, but the document extract doesn’t clearly confirm the default is 0% co-pay for all ages. Check your policy schedule to confirm whether co-pay is opted (10%/20%)."
+      },
+      {
+        "name": "Cashless network size not mentioned",
+        "quote": "Network Provider means Hospital enlisted by an insurer or a TPA... to provide medical services to an insured by a cashless facility",
+        "reference": "Definitions, Def. 32 Network Provider (page 7)",
+        "explanation": "Cashless facility is described, but the number of network hospitals is not provided here—verify on insurer website or your policy kit."
+      }
+    ]
+  },
+  "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
+}

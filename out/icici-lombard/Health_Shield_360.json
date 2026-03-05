@@ -1,0 +1,113 @@
+{
+  "policyName": "Health Shield 360",
+  "insurer": "ICICI Lombard General Insurance Company Limited",
+  "sumInsured": "Annual Sum Insured as per Policy Schedule / Customer Information Sheet (not provided in excerpt)",
+  "policyType": "Not specified",
+  "documentType": "Policy Wording",
+  "summary": {
+    "great": 0,
+    "good": 7,
+    "bad": 4,
+    "unclear": 4
+  },
+  "features": {
+    "great": [],
+    "good": [
+      {
+        "name": "Restore Benefit (Reset) — available, but only for unrelated illnesses (not same illness)",
+        "quote": "“The reset amount can only be used for all future claims within the same policy year, not related to the illness/ disease/ injury for which a claim has been paid in that policy year for the same person.”",
+        "reference": "Section A.5 Unlimited Reset Benefit",
+        "explanation": "Restore/reset exists (good), but it cannot be used for the same illness for which a claim was already paid for that insured person in the same year."
+      },
+      {
+        "name": "NCB / Renewal Bonus — Loyalty Bonus 10% per year up to 100%",
+        "quote": "“At the time of renewal of this Policy, We will provide a Loyalty Bonus of 10% of annual sum insured of immediately preceding policy year subject to a maximum of 100% of the annual sum insured”",
+        "reference": "Section A.6 Loyalty Bonus",
+        "explanation": "Sum Insured can grow on renewal through Loyalty Bonus (industry-standard accumulation), subject to cap."
+      },
+      {
+        "name": "Domiciliary Hospitalization covered (with 3-day minimum) — base cover",
+        "quote": "“We will cover the Medical Expenses incurred in respect of Your Domiciliary Hospitalization during the Policy Period… The Domiciliary Hospitalization continues for at least 3 consecutive days…”",
+        "reference": "Section A.8 Domiciliary Hospitalization",
+        "explanation": "Home-based treatment is covered when medically necessary, but only if it continues for at least 3 consecutive days (and subject to listed ailment exclusions under this benefit)."
+      },
+      {
+        "name": "Air Ambulance covered (optional add-on)",
+        "quote": "“In consideration of the payment of additional premium to Us, We will cover the expenses incurred on air ambulance services…”",
+        "reference": "Section C.7 Air Ambulance",
+        "explanation": "Air ambulance is available as an optional cover (limit as per Policy Schedule/CIS)."
+      },
+      {
+        "name": "Co-pay (optional) — Zone-wise co-pay available only if opted",
+        "quote": "“If opted customer will pay the co -pay as per Zone explained below… Zone 1 Nil Nil Nil; Zone 2 10% Nil Nil; Zone 3 15% 5% Nil”",
+        "reference": "Section C.25 Zone wise premium",
+        "explanation": "This co-pay is an optional trade-off linked to zone-wise pricing (not a mandatory co-pay for everyone)."
+      },
+      {
+        "name": "Co-pay (optional) — Voluntary co-payment available only if opted",
+        "quote": "“In case You have opted for a voluntary co-payment, you will be liable to pay the % of admissible claim amount for each and every claim as specified in the policy schedule.”",
+        "reference": "Section C.24 Voluntary Co-Payment",
+        "explanation": "You can choose a voluntary co-pay (usually for premium reduction). It applies only if you opt for it and as per the % in your schedule."
+      },
+      {
+        "name": "Outpatient (OPD) cover available as optional add-on",
+        "quote": "“In consideration of the payment of additional premium… We will cover you for the Medical Expenses incurred by You in outpatient.”",
+        "reference": "Section C.14 Out Patient Treatment Cover",
+        "explanation": "OPD consultation/diagnostics/pharmacy can be covered if you opt this add-on; limits and terms are schedule-based."
+      }
+    ],
+    "bad": [
+      {
+        "name": "Room Rent — capped (limit not stated in wording; will be as per schedule)",
+        "quote": "“Room rent capping shall be applicable to room rent of a hospital room, ICU/ICCU and will be specified in policy schedule/Customer Information Sheet against the benefit.”",
+        "reference": "Section A.1 Hospitalization Expenses (Inpatient Treatment)",
+        "explanation": "Default wording indicates a room rent cap will apply (not ‘any room/at actuals’). If the cap is tight, it can increase out-of-pocket costs."
+      },
+      {
+        "name": "Proportionate deduction risk due to room rent eligibility limits",
+        "quote": "“If the insured chooses a higher room category than the category that is eligible as per terms and conditions of the policy then the insured person shall bear the rateable proportion of the total associated medical expenses.”",
+        "reference": "Section A.1 Hospitalization Expenses (Inpatient Treatment) + Definitions (Associated Medical Expenses)",
+        "explanation": "Because room rent is capped/eligibility-based, choosing a higher room can trigger proportionate deductions on associated medical expenses (a major claim reducer)."
+      },
+      {
+        "name": "Consumables not covered by default (non-payables list includes common consumables like gloves, masks, etc.)",
+        "quote": "“Below are the non-payable items applicable in the policy… 56 GLOVES… 60 MASK…”",
+        "reference": "Part III (ii) 10 Non Payables (List of Non Payable Items)",
+        "explanation": "Common consumables (e.g., gloves, masks and similar items listed as non-payable) can become out-of-pocket unless you buy the optional ‘Claim Protector’ add-on."
+      },
+      {
+        "name": "Pre-hospitalization & Post-hospitalization limits are schedule-based (not stated here) — assume not covered unless confirmed",
+        "quote": "“Pre-hospitalisation Medical Expenses… for a period… as specified against this benefit in the policy schedule/Customer Information Sheet… Post-hospitalisation Medical Expenses… as specified against this benefit in the policy schedule/Customer Information Sheet”",
+        "reference": "Section A.3 Pre-Hospitalisation and Post-Hospitalisation Expenses",
+        "explanation": "The exact number of days is not provided in the excerpt. Per the analysis rules, when the limit is not found, it must be treated as not confirmed/assumed not covered and flagged."
+      }
+    ],
+    "unclear": [
+      {
+        "name": "Co-pay (base policy) — not explicitly stated (other than optional covers)",
+        "quote": "“Claims… shall be subject to… Co-payment (if any) for the Benefit claimed as specified in the Policy Schedule/Certificate”",
+        "reference": "Section d) WHAT WE WILL PAY (Scope of Cover)",
+        "explanation": "The policy defines co-payment and mentions it may apply as per schedule, but this excerpt does not clearly state whether a mandatory co-pay applies by default. Confirm from Policy Schedule/CIS."
+      },
+      {
+        "name": "PED waiting period — ‘specified months’ not provided in excerpt",
+        "quote": "“Expenses related to the treatment of a pre-existing Disease (PED)… shall be excluded until the expiry of specified months of continuous coverage after the date of inception of the first policy with insurer.”",
+        "reference": "Exclusions 3.1 Code-Excl01: Pre-Existing Diseases",
+        "explanation": "PED waiting is not stated in the excerpt (it depends on the ‘specified months’ in schedule). Need the Policy Schedule/CIS to classify as 12/24/36/48+ months."
+      },
+      {
+        "name": "Specific illness waiting period — ‘specified months’ not provided in excerpt",
+        "quote": "“Expenses related to the treatment of the listed Conditions, surgeries/treatments shall be excluded until the expiry of specified months of continuous coverage…”",
+        "reference": "Exclusions 3.2 Code-Excl02: Specified disease/procedure waiting period",
+        "explanation": "Specific illness/procedure waiting period is schedule-based in this excerpt. Need the Policy Schedule/CIS to confirm if it is 24 months (good) or more than 24 months (bad)."
+      },
+      {
+        "name": "Initial waiting period — ‘specified days’ not provided in excerpt",
+        "quote": "“Expenses related to the treatment of any illness within specified days from the first policy commencement date shall be excluded except claims arising due to an accident…”",
+        "reference": "Exclusions 3.4 Code-Excl03: Initial waiting period",
+        "explanation": "Initial waiting period duration is not shown here (usually 30 days). Confirm ‘specified days’ from Policy Schedule/CIS."
+      }
+    ]
+  },
+  "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
+}

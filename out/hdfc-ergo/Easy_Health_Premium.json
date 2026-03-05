@@ -1,0 +1,114 @@
+{
+  "policyName": "Easy Health Premium",
+  "insurer": "HDFC ERGO General Insurance Company Limited",
+  "sumInsured": "Individual: 1L to 15L (Standard) and 3L to 50L (Exclusive) | Family Floater: 2L to 15L (Standard) and 3L to 50L (Exclusive) (as per Schedule of Benefits)",
+  "policyType": "Not specified",
+  "documentType": "Policy Wording",
+  "summary": {
+    "great": 1,
+    "good": 6,
+    "bad": 4,
+    "unclear": 4
+  },
+  "features": {
+    "great": [
+      {
+        "name": "NCB / Renewal Bonus is non-claim-linked (does not reduce due to claims)",
+        "quote": "On Renewal of this Policy with the Company without a break, a sum equal to 10% of the Base Sum Insured of the expiring Policy shall be provided as multiplier benefit irrespective of any claims ... The maximum multiplier bonus will not exceed 100% of the Basic Sum Insured in any Policy Year.",
+        "reference": "Section B > 5. Renewal Benefits > 5.1 Cumulative Bonus",
+        "explanation": "You get 10% extra Sum Insured each renewal even if you made claims, up to 100% of base SI—this is better than typical NCBs that reduce/reset after a claim."
+      }
+    ],
+    "good": [
+      {
+        "name": "Initial waiting period (30 days) — standard",
+        "quote": "30-day waiting period – Code – Excl03 ... Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident",
+        "reference": "Section C > 1(i) 30-day waiting period – Excl03",
+        "explanation": "30-day initial waiting is standard in health insurance (accidents covered from day 1)."
+      },
+      {
+        "name": "Specific disease/procedure waiting period (24 months) — standard",
+        "quote": "Specified disease/procedure waiting period – Code – Excl02 ... excluded until the expiry of 24 months of continuous coverage after the date of inception of the first policy with us.",
+        "reference": "Section C > 1(ii) Specified disease/procedure waiting period – Excl02",
+        "explanation": "24 months for listed surgeries/conditions is industry-standard."
+      },
+      {
+        "name": "PED waiting period (36 months) — acceptable/standard",
+        "quote": "Pre-Existing Diseases – Code – Excl01 ... excluded until the expiry of 36 months of continuous coverage after the date of inception of the first policy with insurer.",
+        "reference": "Section C > 1(iii) Pre-Existing Diseases – Excl01",
+        "explanation": "3-year PED waiting period is common; not a red flag under your rules."
+      },
+      {
+        "name": "Pre-hospitalization cover (up to 60 days) — standard",
+        "quote": "Pre-Hospitalization Medical Expenses for consultations, investigations and medicines incurred upto 60 days before the date of admission to the Hospital",
+        "reference": "Section B > 1(b) Pre-Hospitalization Medical Expenses",
+        "explanation": "Covers eligible medical expenses up to 60 days before admission (standard/good)."
+      },
+      {
+        "name": "Post-hospitalization cover (up to 90 days) — standard",
+        "quote": "Post-Hospitalization Medical Expenses for consultations, investigations and medicines incurred upto 90 days after discharge from Hospitalisation",
+        "reference": "Section B > 1(c) Post-Hospitalization Medical Expenses",
+        "explanation": "Covers eligible medical expenses up to 90 days after discharge (standard/good)."
+      },
+      {
+        "name": "Air ambulance covered (plan-variant dependent) — bonus/standard benefit",
+        "quote": "Emergency Air Ambulance Cover ... d(i)The amount payable in case of Air ambulance facility shall be either the actual expenses or Rs. 2.5 Lacs per hospitalization, whichever is lower; upto basic sum insured limit for a year",
+        "reference": "Section B > 2(d) Emergency Air Ambulance Cover",
+        "explanation": "Air ambulance is covered with a limit of up to ₹2.5 lakhs per hospitalization (only where opted/available as per schedule)."
+      }
+    ],
+    "bad": [
+      {
+        "name": "Consumables not covered (explicit non-payable list includes gloves, masks, etc.)",
+        "quote": "Annexure I – List I - Items for which coverage is not available in the policy ... 56 GLOVES ... 60 MASK ... 62 OXYGEN MASK ... 58 ANY KIT WITH NO DETAILS MENTIONED [DELIVERY KIT, ORTHOKIT, RECOVERY KIT, ETC]",
+        "reference": "Annexure I – List I (Items for which coverage is not available)",
+        "explanation": "Common consumables (e.g., gloves, masks, kits) are out-of-pocket, which can materially increase your hospital bill."
+      },
+      {
+        "name": "No restore benefit (sum insured not replenished after a claim)",
+        "quote": "No explicit restore/reinstatement/refill benefit mentioned in provided policy wording text.",
+        "reference": "Document scan (no restore clause found in Benefits/Renewal sections provided)",
+        "explanation": "No restore benefit: Sum Insured is NOT replenished after a claim. Multiple hospitalizations in the same year can exhaust coverage faster."
+      },
+      {
+        "name": "Room rent limit not stated (can cause unexpected out-of-pocket due to room category restrictions)",
+        "quote": "This includes • Hospital room rent or boarding; ... (no room rent eligibility/capping stated in the provided extract).",
+        "reference": "Section B > 1(a) In-Patient Treatment",
+        "explanation": "Room rent eligibility (Any room/Single AC/percentage cap) is not stated in the extract. If the actual policy has a room cap, it can lead to proportionate deductions."
+      },
+      {
+        "name": "Maternity waiting period is very long where maternity is offered (4–6 years depending on variant)",
+        "quote": "Schedule of Benefits – Easy Health Individual ... [Waiting Period of 6 years] ... [Waiting Period of 4 Years] ... Schedule of Benefits – Easy Health Family ... [Waiting Period 4 years] ... [Waiting Period of 3 Years]",
+        "reference": "Schedule of Benefits – Easy Health Individual / Easy Health Family (Maternity Expenses row)",
+        "explanation": "If you buy this policy for maternity planning, the waiting period is long (3–6 years depending on plan), which delays eligibility significantly."
+      }
+    ],
+    "unclear": [
+      {
+        "name": "Co-pay / cost-sharing terms not explicitly stated (beyond definitions)",
+        "quote": "Co-payment means a cost-sharing requirement under a health insurance policy that provides that the policyholder/insured will bear a specified percentage of the admissible claim amount.",
+        "reference": "Section A > Standard Definitions > Def. 8 Co-payment",
+        "explanation": "The document defines co-pay but does not clearly state whether any co-pay applies by default (0%/10%/20% etc.). Confirm from policy schedule or product specifics."
+      },
+      {
+        "name": "Cashless network size not specified",
+        "quote": "Network Provider means Hospital enlisted by an insurer or a TPA ... to provide medical services to an insured by a cashless facility.",
+        "reference": "Section A > Standard Definitions > Def. 30 Network Provider",
+        "explanation": "No number of network hospitals is provided here. Network depth impacts cashless convenience—check HDFC ERGO’s current network list for your city."
+      },
+      {
+        "name": "Modern treatments / robotic / advanced procedures sub-limits not specified",
+        "quote": "This includes ... Diagnostic procedures.",
+        "reference": "Section B > 1(a) In-Patient Treatment",
+        "explanation": "The extract doesn’t specify if modern treatments (e.g., robotic surgery, advanced therapies) have sub-limits. Verify from full policy wording/schedule."
+      },
+      {
+        "name": "Built-in additional Sum Insured buffer (beyond NCB) not mentioned",
+        "quote": "No explicit clause found in provided text for additional SI buffer that activates after base SI is exhausted (e.g., Secure Benefit/Enhanced SI/Super top-up buffer).",
+        "reference": "Document scan (Benefits/Renewal sections provided)",
+        "explanation": "Apart from the renewal Cumulative Bonus, no separate built-in buffer (that kicks in after base SI is exhausted during the same policy year) is visible in the extract."
+      }
+    ]
+  },
+  "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
+}

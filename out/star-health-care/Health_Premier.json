@@ -1,0 +1,102 @@
+{
+  "policyName": "Health Premier",
+  "insurer": "Star Health and Allied Insurance Company Limited",
+  "sumInsured": "10 / 20 / 30 / 50 / 75 Lakhs; 1 Crore (as per tables shown in document)",
+  "policyType": "Not specified",
+  "documentType": "Policy Wording",
+  "summary": {
+    "great": 2,
+    "good": 7,
+    "bad": 3,
+    "unclear": 1
+  },
+  "features": {
+    "great": [
+      {
+        "name": "Bariatric surgery covered (after waiting period)",
+        "quote": "13. Bariatric Surgery: Hospitalisation Expenses incurred for bariatric surgical procedure and its complications thereof are payable... after a waiting period of 24 months.",
+        "reference": "Section II (Coverage), point 13 (Page 3/12)",
+        "explanation": "Bariatric surgery is explicitly covered (many policies exclude it); coverage starts after 24 months as per policy terms."
+      },
+      {
+        "name": "Consumables / non-medical items covered (List I) when claim is admissible",
+        "quote": "6. Coverage for Non-medical Items (Consumables) : If there is an admissible claim under the policy, then Items as per List I speciﬁed in this policy will become payable",
+        "reference": "Section II (Coverage), point 6 (Page 3/12) + List I (Page 12/12)",
+        "explanation": "Non-medical consumables listed in List I become payable when the hospitalization claim is admissible, reducing out-of-pocket expenses."
+      }
+    ],
+    "good": [
+      {
+        "name": "Pre-existing disease (PED) waiting period: 24 months",
+        "quote": "Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the ﬁrst policy with insurer.",
+        "reference": "Section III (Exclusions) > 1. Pre-Existing Diseases - Code Excl 01 (Page 7/12)",
+        "explanation": "PED coverage starts after 24 months of continuous coverage, which is standard/good in the market."
+      },
+      {
+        "name": "Specific disease / procedure waiting period: 24 months",
+        "quote": "Expenses related to the treatment of the listed Conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the ﬁrst policy with us.",
+        "reference": "Section III (Exclusions) > 2. Speciﬁed disease / procedure waiting period - Code Excl 02 (Page 7/12)",
+        "explanation": "Specified illness/procedure waiting is 24 months (standard)."
+      },
+      {
+        "name": "Initial waiting period: 30 days (not for accidents)",
+        "quote": "3. 30-day waiting period - Code Excl 03 (Not Applicable for Accidents)",
+        "reference": "Section III (Exclusions) > Code Excl 03 (Page 7/12)",
+        "explanation": "Illness claims have a 30-day initial waiting period, which is industry standard."
+      },
+      {
+        "name": "Automatic restoration: 100% once; usable for subsequent hospitalizations (including same illness)",
+        "quote": "16. Automatic Restoration of Sum Insured : There shall be automatic restoration of the Sum Insured once by 100%... Such Restored Sum Insured can be utilized for all claims for subsequent hospitalization during the policy period.",
+        "reference": "Section II (Coverage), point 16 (Page 3/12)",
+        "explanation": "Restores 100% once in a policy year after partial/full use. Can help when base SI gets exhausted; applies for subsequent hospitalizations."
+      },
+      {
+        "name": "Pre-hospitalization cover: 60 days",
+        "quote": "9. Pre-hospitalization Expenses: Medical expenses incurred up to 60 days immediately before the insured person is hospitalized.",
+        "reference": "Section II (Coverage), point 9 (Page 3/12)",
+        "explanation": "Covers eligible pre-hospitalization expenses for up to 60 days (standard-good)."
+      },
+      {
+        "name": "Post-hospitalization cover: 90 days",
+        "quote": "10. Post Hospitalization Expenses: Medical expenses incurred up to 90 days immediately after the insured person is discharged from the hospital.",
+        "reference": "Section II (Coverage), point 10 (Page 3/12)",
+        "explanation": "Covers eligible post-hospitalization expenses for up to 90 days (standard)."
+      },
+      {
+        "name": "Air ambulance covered (with limits)",
+        "quote": "8. Air Ambulance... reimbursement... up to  Rs.2,50,000/- per hospitalization and maximum upto Rs.5,00,000/-  per policy year",
+        "reference": "Section II (Coverage), point 8 (Page 3/12)",
+        "explanation": "Air ambulance is covered with defined caps, which is a useful additional benefit."
+      }
+    ],
+    "bad": [
+      {
+        "name": "Room rent has a daily cap (and % of SI cap) + proportionate deductions can apply",
+        "quote": "1. Room, Boarding and Nursing Expenses up to 1% of sum insured or maximum up to Rs.20,000/- per day whichever is less... Note: Expenses relating to Associated Expenses will be considered in proportion to the eligible room rent/room category stated in the policy schedule or actuals whichever is less.",
+        "reference": "Section II (Coverage), point 1 (Page 3/12) + 'Associated medical expenses' definition (Page 2/12)",
+        "explanation": "A capped room rent (1% of SI or ₹20,000/day) can restrict hospital choice and may trigger proportionate deductions for associated expenses if you choose a higher room category than eligible."
+      },
+      {
+        "name": "Disease sub-limit: Cataract has fixed limits",
+        "quote": "5. Expenses incurred on treatment of Cataract is subject to the limit as per the following table",
+        "reference": "Section II (Coverage), point 5 (Page 3/12)",
+        "explanation": "Cataract is covered but with sub-limits per eye/per policy year, which can increase out-of-pocket if the hospital package is higher."
+      },
+      {
+        "name": "Modern treatments capped at 50% of Sum Insured",
+        "quote": "14. Coverage for Modern Treatment... upto 50% of sum insured speciﬁed in the policy schedule (including Pre and Post hospitalization expenses) during the policy period;",
+        "reference": "Section II (Coverage), point 14 (Page 3/12)",
+        "explanation": "Modern treatment coverage is not at full SI; it is capped at 50% of SI, which may be limiting for high-cost advanced procedures."
+      }
+    ],
+    "unclear": [
+      {
+        "name": "Co-pay terms for age 65 and below not explicitly stated (confirm from schedule)",
+        "quote": "24. Co-payment: (Applicable for Insured persons whose age at the time of entry is above 65 years) Each and every claim under the Policy shall be subject to a Copayment of 20%",
+        "reference": "Section II (Coverage), point 24 (Page 6/12)",
+        "explanation": "The document clearly states 20% co-pay if entry age is above 65, but it does not explicitly state whether co-pay is 0% / not applicable for others. Confirm from policy schedule/complete wording if any other co-pay applies."
+      }
+    ]
+  },
+  "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
+}

@@ -1,0 +1,114 @@
+{
+  "policyName": "Smart Health Pro",
+  "insurer": "Star Health and Allied Insurance Company Limited",
+  "sumInsured": "₹5L / ₹10L / ₹15L / ₹20L / ₹25L / ₹50L / ₹75L / ₹1 Crore (as per table)",
+  "policyType": "Not specified",
+  "documentType": "Policy Wording",
+  "summary": {
+    "great": 2,
+    "good": 10,
+    "bad": 2,
+    "unclear": 1
+  },
+  "features": {
+    "great": [
+      {
+        "name": "NCB / Cumulative Bonus (non-resetting; reduces only if utilized)",
+        "quote": "Cumulative Bonus will not be reduced unless the same is utilized in the event of claim. During Renewal, Cumulative Bonus will be reduced only to the extent of utilized portion and the unutilized Cumulative Bonus will be carried forward to the next policy year.",
+        "reference": "Section II – 15. Cumulative Bonus (page 3-4)",
+        "explanation": "Unlike typical NCBs that reset on a claim, this bonus is protected and only reduces if you actually used the bonus portion in a claim."
+      },
+      {
+        "name": "Restore Benefit (same illness allowed; triggers immediately)",
+        "quote": "Automatic Restoration of Sum Insured: There shall be automatic restoration of the Sum Insured once by 100%... The automatic restoration shall be immediately upon partial/full utilization of the limit of coverage... Such Restored Sum Insured can be utilized for all claims for subsequent Hospitalization during the policy period.",
+        "reference": "Section II – 16. Automatic Restoration of Sum Insured (page 4)",
+        "explanation": "Once your base coverage is partly/fully used, 100% Sum Insured is restored and can be used again for subsequent hospitalizations in the same policy year (including for same illness, since wording says 'all claims')."
+      }
+    ],
+    "good": [
+      {
+        "name": "Room rent (default limit: Private Single A/c Room)",
+        "quote": "Room (Private Single A/c Room), Boarding and Nursing Expenses as provided by the Hospital / Nursing Home",
+        "reference": "Section II – Coverage, point 1 (page 3)",
+        "explanation": "Single private AC room is industry-standard; it is not 'any room / no capping'. (Optional cover exists to upgrade to Any Room for eligible SIs, but default is Single AC.)"
+      },
+      {
+        "name": "PED waiting period (36 months)",
+        "quote": "Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 36 months of continuous coverage after the date of inception of the ﬁrst policy with insurer.",
+        "reference": "Section IV – 1. Pre-Existing Diseases (Code Excl 01) (page 7)",
+        "explanation": "3-year PED waiting period is within normal market range (not a red flag). Optional cover allows reduction to 24/12 months for first purchase subject to underwriting."
+      },
+      {
+        "name": "Specific illness/procedure waiting period (24 months)",
+        "quote": "Expenses related to the treatment of the listed Conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the ﬁrst policy with us.",
+        "reference": "Section IV – 2. Speciﬁed disease/procedure waiting period (Code Excl 02) (page 7)",
+        "explanation": "2-year specific disease waiting is standard in India."
+      },
+      {
+        "name": "Initial waiting period (30 days)",
+        "quote": "Expenses related to the treatment of any illness within 30 days from the ﬁrst policy commencement date shall be excluded except claims arising due to an accident",
+        "reference": "Section IV – 3. 30-day waiting period (Code Excl 03) (page 7)",
+        "explanation": "30-day initial wait is standard for illnesses; accidents are typically covered from day 1."
+      },
+      {
+        "name": "Pre-hospitalization cover (60 days)",
+        "quote": "Pre-hospitalization Expenses: Medical expenses incurred up to 60 days immediately before the insured person is hospitalized.",
+        "reference": "Section II – 7 (page 3)",
+        "explanation": "60 days is industry-standard."
+      },
+      {
+        "name": "Post-hospitalization cover (180 days)",
+        "quote": "Post Hospitalization Expenses: Medical expenses incurred up to 180 days immediately after the insured person is discharged from the hospital.",
+        "reference": "Section II – 8 (page 3)",
+        "explanation": "180 days is industry-standard."
+      },
+      {
+        "name": "Domiciliary hospitalization covered (with minimum 3 days; includes AYUSH)",
+        "quote": "Domiciliary Hospitalization: Coverage for medical treatment (Including AYUSH) for a period exceeding three days",
+        "reference": "Section II – 9 (page 3)",
+        "explanation": "Home-based treatment is covered when hospitalisation would otherwise be required, subject to listed condition exclusions."
+      },
+      {
+        "name": "Air ambulance covered (10% of Sum Insured per policy year)",
+        "quote": "Air Ambulance... reimbursement of expenses incurred towards the cost of air ambulance service up to 10% of sum insured per policy year",
+        "reference": "Section II – 6 (page 3)",
+        "explanation": "Air ambulance is a valuable add-on type benefit; here it is included with a percentage limit."
+      },
+      {
+        "name": "Modern treatments covered up to Sum Insured",
+        "quote": "Coverage for Modern Treatment: The following procedures will be covered... upto sum insured...",
+        "reference": "Section II – 14 (page 3-4)",
+        "explanation": "Covers a list of modern procedures (robotic surgery, immunotherapy, etc.) up to Sum Insured as per wording."
+      },
+      {
+        "name": "Optional add-ons / flexibility (room upgrade, PED wait reduction, consumables, unlimited restore, bonus booster)",
+        "quote": "SECTION III - OPTIONAL COVERS... Modiﬁcation of Room Category... Reduction of Pre-Existing Diseases Waiting Period... Coverage for Non-medical Items (Consumables)... Unlimited Automatic Restoration of Sum Insured... Cumulative Bonus Booster",
+        "reference": "Section III – Optional Covers (page 6)",
+        "explanation": "These are optional choices at inception (paid add-ons / pricing trade-offs) that can enhance coverage significantly."
+      }
+    ],
+    "bad": [
+      {
+        "name": "Consumables not covered by default (only via optional cover)",
+        "quote": "Other Excluded Expenses as detailed in List I (68 items)... (except to those who opted for Optional Cover Section III – 4) - Code Excl 37.",
+        "reference": "Section IV – 32 (Code Excl 37) (page 8) + Section III – 4 (page 6)",
+        "explanation": "By default, common non-medical consumables (gloves, masks, kits, etc.) are out-of-pocket unless you buy the optional consumables cover."
+      },
+      {
+        "name": "Disease-wise restrictions inside domiciliary hospitalization (many common conditions not covered at home)",
+        "quote": "However, this beneﬁt shall not cover Asthma, Bronchitis... Diabetes Mellitus and Insipidus... Hypertension... Cough and Cold... Arthritis, Gout and Rheumatism.",
+        "reference": "Section II – 9 Domiciliary Hospitalization (page 3)",
+        "explanation": "Home-treatment cover excludes several common chronic/recurring conditions, limiting usefulness of domiciliary hospitalization."
+      }
+    ],
+    "unclear": [
+      {
+        "name": "Co-pay (not explicitly stated)",
+        "quote": "Co-Payment: Co-payment means a cost sharing requirement... (definition only; no percentage/age-based co-pay terms found in provided pages)",
+        "reference": "Section I – Definitions: Co-Payment (page 1) / No explicit co-pay clause located in provided extract",
+        "explanation": "Policy defines co-payment but the provided wording excerpt does not clearly state whether co-pay applies (0% or any %) by default. Verify from policy schedule/specific co-pay section, if any."
+      }
+    ]
+  },
+  "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
+}

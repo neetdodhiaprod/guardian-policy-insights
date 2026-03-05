@@ -1,0 +1,108 @@
+{
+  "policyName": "Activ One MAX+",
+  "insurer": "Aditya Birla Health Insurance Co. Limited",
+  "sumInsured": "2 Lacs to 6 Crores (Base Sum Insured options listed); Sum Insured may include Base Sum Insured + Super Reload + Super Credit (+ Cancer Booster if opted)",
+  "policyType": "Not specified",
+  "documentType": "Mixed",
+  "summary": {
+    "great": 8,
+    "good": 3,
+    "bad": 2,
+    "unclear": 1
+  },
+  "features": {
+    "great": [
+      {
+        "name": "Room Rent: No limit (At actuals) up to Sum Insured",
+        "quote": "Room Rent: Actuals up to Sum Insured",
+        "reference": "Annexure III - Product Benefit Table (Activ One MAX+)",
+        "explanation": "No room category restriction/capping in the product benefit table, so you can choose any room (subject to Sum Insured). This helps avoid room-rent linked deductions."
+      },
+      {
+        "name": "Pre-hospitalization: 90 days",
+        "quote": "The Company shall indemnify the Pre-Hospitalization Medical Expenses incurred... for up to 90 days immediately prior to the date of such Hospitalization.",
+        "reference": "Section C.2 Pre-Hospitalization Expenses",
+        "explanation": "Covers eligible medical expenses for 90 days before hospitalization (for the same condition and linked to an admissible hospitalization)."
+      },
+      {
+        "name": "Built-in additional Sum Insured buffer: Super Reload (unlimited refills)",
+        "quote": "We shall provide for a reload amounting to the Base Sum Insured (\"super Reload\"), unlimited times during the Policy Year",
+        "reference": "Section C.10 Super Reload",
+        "explanation": "If your Base SI (and accumulated Super Credit, if any) is exhausted/insufficient, the insurer reloads up to Base SI unlimited times in the year (conditions apply, including applicability from the 2nd claim in policy life per benefit table)."
+      },
+      {
+        "name": "NCB / Renewal Bonus (non-resetting): Super Credit increases irrespective of claims",
+        "quote": "Super Credit (Increases Irrespective of Claim): 100% of Base Sum Insured per year, up to 500% of Base Sum Insured (up to Max of 3 Cr under this benefit)",
+        "reference": "Annexure III - Product Benefit Table (Activ One MAX+)",
+        "explanation": "This is a strong renewal bonus because it grows even if you claim (i.e., it is non-resetting as described in the table). Exact caps depend on the schedule/benefit table."
+      },
+      {
+        "name": "Consumables / Non-medical items: Covered if Claim Protect is applicable",
+        "quote": "Non-payable items will be covered (all 4 lists of Annexure I)",
+        "reference": "Annexure III - Product Benefit Table (Activ One MAX+); also Section C.4 Claim Protect (Non-Medical Expense Waiver)",
+        "explanation": "If Claim Protect is applicable/in force for you (as per policy schedule), non-medical consumables listed in Annexure I (all lists) are covered—reducing common out-of-pocket items like gloves, masks, syringes etc."
+      },
+      {
+        "name": "Domiciliary Hospitalization: Covered",
+        "quote": "The Company shall indemnify the Medical Expenses incurred during the Policy Period on Domiciliary Hospitalization of the Insured Person",
+        "reference": "Section C.5 Domiciliary Hospitalization",
+        "explanation": "Home-based treatment is covered when it would normally require hospitalization and meets conditions (including minimum 3 consecutive days)."
+      },
+      {
+        "name": "Bariatric surgery: Covered (subject to conditions)",
+        "quote": "Obesity Treatment: Medical Expenses incurred towards treatment... arising out of Hospitalization for a Bariatric Surgery during the Policy Period subject to the conditions that needs to be fulfilled as per Section D.1.6",
+        "reference": "Section C.1.1.1(h) Obesity Treatment",
+        "explanation": "Bariatric surgery is covered if it meets the specified medical criteria in the obesity exclusion/conditions."
+      },
+      {
+        "name": "Modern treatments/procedures: Covered at actuals up to Sum Insured (listed procedures)",
+        "quote": "Modern Procedures / Treatments: Actuals up to Sum Insured for listed procedures",
+        "reference": "Annexure III - Product Benefit Table (Activ One MAX+)",
+        "explanation": "Modern procedures are covered without a separate rupee sub-limit in the benefit table (for listed procedures), subject to overall Sum Insured."
+      }
+    ],
+    "good": [
+      {
+        "name": "Initial waiting period: 30 days (non-accident)",
+        "quote": "Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident",
+        "reference": "Section D.1.3 30-day Waiting Period (Code-Excl03)",
+        "explanation": "Standard 30-day initial waiting period for illnesses (accidents covered)."
+      },
+      {
+        "name": "Specific illness/procedure waiting period: 24 months",
+        "quote": "Expenses related to the treatment of the listed Conditions, surgeries / treatments shall be excluded until the expiry of 24 months of continuous coverage",
+        "reference": "Section D.1.2 Specified disease / procedure Waiting Period (Code-Excl02)",
+        "explanation": "Standard 2-year waiting for listed specific conditions/procedures (e.g., cataract, hernia, piles, etc.)."
+      },
+      {
+        "name": "Optional cover trade-off: PPN discount with co-pay outside PPN hospitals",
+        "quote": "Preferred Provider Network (PPN) Discount... discount of 10%... If the Insured Person takes treatment... other than those listed as “Preferred Provider Network”, then... shall bear a Co-Payment of 10% on each and every claim",
+        "reference": "Section C.15.5 Preferred Provider Network (PPN) Discount",
+        "explanation": "Not a default restriction—this applies only if you opt for the 10% discount optional cover."
+      }
+    ],
+    "bad": [
+      {
+        "name": "Restore Benefit: Not found (assumed not covered)",
+        "quote": "Not mentioned in the provided text.",
+        "reference": "Document extract provided (no explicit Restore/Restore+ benefit clause found)",
+        "explanation": "No restore benefit identified in this extract. If absent, Sum Insured is NOT replenished after a claim (separately from Super Reload, which is a different refill mechanism). Please confirm from the policy schedule/benefit table for your exact variant."
+      },
+      {
+        "name": "Post-hospitalization: 180 days (not >180 days)",
+        "quote": "for up to 180 days from the date of discharge from the Hospital.",
+        "reference": "Section C.3 Post-Hospitalization Expenses",
+        "explanation": "Coverage is limited to 180 days post-hospitalization; this is good, but not best-in-class (>180 days)."
+      }
+    ],
+    "unclear": [
+      {
+        "name": "Co-pay (default/base plan): Not explicitly stated (except via optional PPN cover)",
+        "quote": "Co-Payment: means a cost sharing requirement... (definition provided).",
+        "reference": "Section B.1.10 Co-Payment (definition); Section C.15.5 shows co-pay only under optional cover",
+        "explanation": "This extract defines co-payment and mentions a 10% co-pay only if you opt for the PPN Discount optional cover. It does not clearly state whether the base policy has any mandatory co-pay (e.g., for certain ages/claims). Verify in your Policy Schedule."
+      }
+    ]
+  },
+  "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
+}

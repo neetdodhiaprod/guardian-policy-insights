@@ -1,0 +1,120 @@
+{
+  "policyName": "Care",
+  "insurer": "Care Health Insurance Limited",
+  "sumInsured": "Not specified in provided extract (Base Sum Insured as per Policy Schedule)",
+  "policyType": "Not specified",
+  "documentType": "Policy Wording",
+  "summary": {
+    "great": 3,
+    "good": 6,
+    "bad": 5,
+    "unclear": 2
+  },
+  "features": {
+    "great": [
+      {
+        "name": "Restore benefit (Automatic Recharge) – covers same & different illnesses",
+        "quote": "The Recharge shall be available for same illness as well different illnesses.",
+        "reference": "Clause 3.1.7 (iv) – Benefit 7: Automatic Recharge",
+        "explanation": "This is a strong restore/recharge: once your eligible sum insured is exhausted, the policy reinstates up to Base Sum Insured and it can be used even for the same illness (not just unrelated illnesses)."
+      },
+      {
+        "name": "Built-in additional Sum Insured buffer – Automatic Recharge up to Base SI (once/year)",
+        "quote": "The Company agrees to automatically make the re-instatement of up to the Base Sum Insured once in a policy year",
+        "reference": "Clause 3.1.7 – Benefit 7: Automatic Recharge",
+        "explanation": "Provides extra usable coverage after the base pool is exhausted (subject to conditions), improving protection in a high-claim year."
+      },
+      {
+        "name": "Modern/advanced treatments covered (as listed) up to Base SI",
+        "quote": "The Company will indemnify the Insured Person up to Base Sum Insured for expenses incurred ... for treatment taken through following advance technology methods: ... Robotic surgeries ... Stereotactic radio surgeries ... Immunotherapy- Monoclonal Antibody ...",
+        "reference": "Clause 3.1.1 (iv) – Advance Technology Methods",
+        "explanation": "Explicit coverage for multiple modern treatment methods under hospitalization, without stating a monetary sub-limit for each listed method (payable up to Base Sum Insured)."
+      }
+    ],
+    "good": [
+      {
+        "name": "Pre-existing disease (PED) waiting period – 36 months",
+        "quote": "Expenses related to the treatment of a pre-existing Disease (PED) ... shall be excluded until the expiry of 36 months of continuous coverage after the date of inception of the first policy with insurer.",
+        "reference": "Clause 4.1(a)(i) – Pre-existing Disease (Code-Excl01)",
+        "explanation": "PED waiting of 3 years is within the acceptable/standard range in India (not a red flag). Optional cover can reduce it to 24 months."
+      },
+      {
+        "name": "Specific illness waiting period – 24 months",
+        "quote": "Expenses related to the treatment of the listed Conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first policy with the Company.",
+        "reference": "Clause 4.1(a)(ii) – Specific Waiting Period (Code-Excl02)",
+        "explanation": "24-month specific illness waiting is market-standard."
+      },
+      {
+        "name": "Initial waiting period – 30 days",
+        "quote": "Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident",
+        "reference": "Clause 4.1(a)(iii) – First 30-Day waiting Period (Code–Excl03)",
+        "explanation": "Standard 30-day initial waiting for illnesses (accidents covered)."
+      },
+      {
+        "name": "Room rent – Single Private Room (default as per wording; final eligibility as per Policy Schedule)",
+        "quote": "If the Policy Schedule states 'Single Private Room' as eligible Room Category, it means the maximum eligible Room Category ... is limited to stay in a Single Private Room.",
+        "reference": "Clause 3.1.1(iii)(a)(2) – Room Rent/Room Category",
+        "explanation": "Single Private AC room is industry-standard. Note: the actual room eligibility depends on what your Policy Schedule shows; the wording also allows variants like 'up to 1% of Base SI per day' or 'no limit' via optional cover."
+      },
+      {
+        "name": "Domiciliary hospitalization covered (home treatment) – if opted/available in schedule",
+        "quote": "Benefit 6 : Domiciliary Hospitalization The Company will indemnify the Insured Person ... for the Medical Expenses incurred towards Domiciliary Hospitalization",
+        "reference": "Clause 3.1.6 – Benefit 6: Domiciliary Hospitalization",
+        "explanation": "Home hospitalization is covered subject to conditions and limits per Policy Schedule."
+      },
+      {
+        "name": "Optional cover trade-off: Smart Select gives premium discount; extra co-pay only if you go outside listed hospitals",
+        "quote": "If this Optional Cover is opted, then Policyholder is entitled for a discount of 15% on the Premium payable... If the Insured Person takes Medical Treatment in hospitals other than those listed in Annexure – IV ... shall bear a Co-Payment of 20% on each and every Claim",
+        "reference": "Clause 3.2.7 – Optional Cover 7: Smart Select",
+        "explanation": "This is an optional plan choice: you can accept network-based restrictions for a discount, or avoid the optional cover to avoid this extra co-pay."
+      }
+    ],
+    "bad": [
+      {
+        "name": "Consumables / non-medical items not covered (customer pays out-of-pocket)",
+        "quote": "Any item or condition or treatment specified in List of Non-Medical Items (Annexure – II to Policy Terms & Conditions).",
+        "reference": "Clause 4.2(1) and Annexure II (List of Expenses Generally Excluded)",
+        "explanation": "Consumables/non-medical items (e.g., gloves, masks, syringes, many kits/bundles) are excluded, which can materially increase hospital bill out-of-pocket."
+      },
+      {
+        "name": "Pre-hospitalization cover limited to 30 days",
+        "quote": "Under Relevant Pre-hospitalization Medical Expenses, for a period of 30 days immediately prior to the Insured Person's date of admission",
+        "reference": "Clause 3.1.2(i) – Benefit 2",
+        "explanation": "30 days is on the lower side vs better plans that offer >60 days."
+      },
+      {
+        "name": "Post-hospitalization cover limited to 60 days",
+        "quote": "Under Relevant Post-hospitalization Medical Expenses, for a period of 60 days immediately after the Insured Person's date of discharge",
+        "reference": "Clause 3.1.2(ii) – Benefit 2",
+        "explanation": "60 days is on the lower side vs better plans that offer >180 days."
+      },
+      {
+        "name": "No Claims Bonus (NCB) reduces after a claim (not protected)",
+        "quote": "In the event of a Claim occurring during any Policy Year, the accrued No Claims Bonus will be reduced by 10% of the Base Sum Insured at the commencement of next Policy Year",
+        "reference": "Clause 3.1.10(ix) – Benefit 10: No Claims Bonus",
+        "explanation": "The renewal bonus is not fully protected; it reduces after a claim, which is weaker than non-reducing/non-resetting bonus structures."
+      },
+      {
+        "name": "Disease-wise monetary sub-limits possible if mentioned in Policy Schedule (can cap payouts for major procedures)",
+        "quote": "The Company will indemnify the Insured Person for Medical Expenses incurred in respect of the below mentioned Ailments / Procedures up to the amount specified against each and every Ailment /Procedure mentioned in the Policy Schedule ... (These conditions will apply only if specifically mentioned in the Policy Schedule)",
+        "reference": "Clause 3.1.1(iii)(c) – Named Ailments / Procedures sub-limits",
+        "explanation": "If your Policy Schedule includes these sub-limits (cataract, hernia, knee replacement, etc.), claims for those treatments can be capped at stated amounts, reducing effective coverage."
+      }
+    ],
+    "unclear": [
+      {
+        "name": "Co-pay (base policy) – only if specified in Policy Schedule (not stated as 0% here)",
+        "quote": "The Co-payment, if and as specified in the Policy Schedule, shall be borne by the Policyholder / Insured Person on each Claim",
+        "reference": "Clause 3(g) – General Conditions Applicable To All Benefits And Optional Covers",
+        "explanation": "The base plan co-pay (0% or any %) is not explicitly stated in the provided extract because it depends on your Policy Schedule. Confirm your schedule to know if co-pay applies."
+      },
+      {
+        "name": "Cashless network size (number of network hospitals) not stated",
+        "quote": "For an updated list of Network Providers ... the Insured Person may refer to the list of Network Providers available on the Company's website or at the call center.",
+        "reference": "Clause 6.1.2(a)(vii) – Network Provider related",
+        "explanation": "The document doesn’t mention how many network hospitals exist (e.g., 7,000/10,000+). You’ll need to verify the current network count from the insurer."
+      }
+    ]
+  },
+  "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
+}

@@ -1,0 +1,90 @@
+{
+  "policyName": "Care Plus Complete",
+  "insurer": "Care Health Insurance Limited",
+  "sumInsured": "Not specified (depends on Policy Schedule)",
+  "policyType": "Not specified",
+  "documentType": "Policy Wording",
+  "summary": {
+    "great": 2,
+    "good": 4,
+    "bad": 1,
+    "unclear": 4
+  },
+  "features": {
+    "great": [
+      {
+        "name": "Restore Benefit: Unlimited Automatic Recharge (works for same illness, with condition)",
+        "quote": "3.1.8 Benefit : Unlimited Automatic Recharge\n... automatically make the re-instatement of up to the base Sum Insured unlimited times in a policy year...\n(iii) Recharge amount can be utilized for same illness except for claim under Any one Illness condition.",
+        "reference": "Clause 3.1.8",
+        "explanation": "This is a strong restore/recharge feature: after you exhaust base SI (+ bonus/inflation, as stated), the insurer can restore up to base SI unlimited times in the same year. It can be used even for the same illness, except where restricted by the 'Any One Illness' condition."
+      },
+      {
+        "name": "Built-in additional Sum Insured buffer: Cumulative Bonus (up to 200%) + Inflation Shield (extra SI)",
+        "quote": "3.1.11 Benefit : No Claim Bonus Protect:\n... enhance the Sum Insured by 50% flat, on a cumulative basis...\n(i) ... shall not exceed 200% of the Sum Insured...\n3.1.14 Benefit: Inflation Shield\nThis benefit is designed to provide additional increase in Sum Insured under this Policy on the basis of inflation rate...",
+        "reference": "Clause 3.1.11 and Clause 3.1.14",
+        "explanation": "You can build extra cover over time: (1) No Claim Bonus Protect adds 50% per year up to 200% (subject to conditions), and (2) Inflation Shield adds SI increase linked to CPI inflation. This is meaningful additional coverage beyond base SI."
+      }
+    ],
+    "good": [
+      {
+        "name": "PED waiting period: 36 months",
+        "quote": "4.1. Standard Exclusions:\n(a) Waiting Periods:\n(i) Pre-Existing Diseases: Code- Excl01\n... excluded until the expiry of 36 months of continuous coverage after the date of inception of the first policy with insurer.",
+        "reference": "Clause 4.1(a)(i)",
+        "explanation": "Pre-existing diseases and their complications are covered after 36 months of continuous coverage (standard/good as per your rules)."
+      },
+      {
+        "name": "Specific illness waiting period: 24 months",
+        "quote": "4.1. Standard Exclusions:\n(a) Waiting Periods:\n(ii) Specific Waiting Period: Code- Excl02\n... excluded until the expiry of 24 months of continuous coverage...",
+        "reference": "Clause 4.1(a)(ii)",
+        "explanation": "Listed diseases/procedures are covered after 24 months (industry-standard)."
+      },
+      {
+        "name": "Initial waiting period: 30 days",
+        "quote": "4.1. Standard Exclusions:\n(a) Waiting Periods:\n(iii) 30-day waiting period- Code- Excl03\n... treatment of any illness within 30 days... shall be excluded except claims arising due to an accident...",
+        "reference": "Clause 4.1(a)(iii)",
+        "explanation": "Standard 30-day initial waiting for illnesses (accidents covered)."
+      },
+      {
+        "name": "Pre-hospitalization: 60 days",
+        "quote": "3.1.2 Benefit : Pre-Hospitalization Medical Expenses and Post-Hospitalization Medical Expenses\n(i) Under Pre-hospitalization Medical Expenses, for a period of 60 days immediately prior to the Insured Person’s date of admission...",
+        "reference": "Clause 3.1.2(i)",
+        "explanation": "Covers eligible pre-hospitalization medical expenses for up to 60 days before admission (good/standard)."
+      }
+    ],
+    "bad": [
+      {
+        "name": "Consumables / non-medical items not covered (out-of-pocket)",
+        "quote": "4.2. Specific Exclusions:\n(b) Permanent Exclusions:\n1. Any item or condition or treatment specified in List of Non-Medical Items (Annexure – I to Policy Terms & Conditions).\n\nAnnexure I - List of Expenses Generally Excluded (\"Non-medical\")...\n... 56 GLOVES ... 60 MASK ...",
+        "reference": "Clause 4.2(b)(1) and Annexure I",
+        "explanation": "Consumables/non-medical items (e.g., gloves, masks, kits, etc.) are generally excluded, so you may have significant out-of-pocket expenses during hospitalization unless they are subsumed/covered per hospital billing practices."
+      }
+    ],
+    "unclear": [
+      {
+        "name": "Room rent limit (depends on Policy Schedule) — may be Single Private AC or 1% of SI/day",
+        "quote": "3.1.1 (iii) (a)\nThe Policy Schedule will specify the eligibility of Room Rent or Room Category applicable...\nii. Single Private AC Room...\niii. If the Policy Schedule states ‘up to 1% of the Sum Insured per day’ as eligible Room Rent...",
+        "reference": "Clause 3.1.1(iii)(a)(ii)-(iii)",
+        "explanation": "The room eligibility is not fixed in this excerpt and depends on what your Policy Schedule says. If it is 'Single Private AC Room' it is fine; if it is '1% of SI/day' it becomes a room-rent cap which can trigger proportionate deductions."
+      },
+      {
+        "name": "Co-pay (base policy): not explicitly stated; only says 'if applicable'",
+        "quote": "3. Benefits Covered Under The Policy:\n3. The Co-payment proportion (if applicable) shall be borne by the Insured Person on each Claim...\n...\n3.2.6 Optional Benefit : Co-Payment Option\n... on opting this optional Benefit... will bear a Co-payment... as specified in the Policy Schedule...",
+        "reference": "General Conditions point 3; Clause 3.2.6",
+        "explanation": "The wording defines co-pay and mentions it 'if applicable', and also has an optional co-pay option for age 61+. But the base plan’s default co-pay (0% or otherwise) is not clearly stated here—please confirm from your Policy Schedule."
+      },
+      {
+        "name": "Post-hospitalization limit: 90 days",
+        "quote": "3.1.2 ...\n(ii) Under Post-hospitalization Medical Expenses, for a period of 90 days immediately after the Insured Person’s date of discharge...",
+        "reference": "Clause 3.1.2(ii)",
+        "explanation": "Post-hospitalization coverage is 90 days, which is within 60–180 days (good/standard)."
+      },
+      {
+        "name": "NCB / Renewal Bonus reduces on higher claims (resets not to zero, but reduced) — not protected as 'non-resetting'",
+        "quote": "3.1.11 Benefit : No Claim Bonus Protect:\n... 50% flat... provided that no Claim has been paid... or total claim amount payable does not exceed the 25% of the base Sum Insured...\n(vii) In the event of total claim amount payable exceeds 25% of the base Sum Insured during any Policy Year, the accrued Cumulative Bonus will be reduced at same rate at which it is accrued...",
+        "reference": "Clause 3.1.11 (main clause) and (vii)",
+        "explanation": "NCB is strong (50% p.a. up to 200%), but it is not fully non-resetting: if claim outgo exceeds 25% of base SI, the accumulated bonus reduces next year. This is not a full 'non-resetting irrespective of claims' bonus."
+      }
+    ]
+  },
+  "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
+}

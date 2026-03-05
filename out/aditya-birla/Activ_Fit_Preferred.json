@@ -1,0 +1,102 @@
+{
+  "policyName": "Activ Fit Preferred",
+  "insurer": "Aditya Birla Health Insurance Co. Limited",
+  "sumInsured": "Not specified (varies as per Policy Schedule / Product Benefit Table)",
+  "policyType": "Not specified",
+  "documentType": "Policy Wording",
+  "summary": {
+    "great": 2,
+    "good": 4,
+    "bad": 3,
+    "unclear": 4
+  },
+  "features": {
+    "great": [
+      {
+        "name": "Restore / Refill Benefit (unlimited, same illness allowed) — “Binge Refill”",
+        "quote": "If the Policy Sum Insured along with accumulated No Claim Bonus (if any), Super No Claim Bonus (if any), is completely exhausted or is insufficient for covering a claim as a result of previous claims, then We shall provide for a refill of the Sum Insured, unlimited times during the Policy Year... The Refill of Sum Insured shall be available for all subsequent claims also and to any Illness / Injury (including its complications) for which a claim has been admitted",
+        "reference": "Section C.I (j) Binge Refill",
+        "explanation": "Once your base SI (and bonuses) is used up, the insurer refills SI unlimited times in the same policy year, and it can be used even for the same illness/complications (subject to conditions and per-claim max = base SI)."
+      },
+      {
+        "name": "Built-in Additional Sum Insured buffer after exhaustion (refill activates after base+bonuses are exhausted) — “Binge Refill”",
+        "quote": "If the Policy Sum Insured along with accumulated No Claim Bonus (if any), Super No Claim Bonus (if any), is completely exhausted... then We shall provide for a refill of the Sum Insured, unlimited times during the Policy Year",
+        "reference": "Section C.I (j) Binge Refill",
+        "explanation": "This is an in-built extra SI layer that activates after your available limit is exhausted, reducing the risk of running out of cover mid-year."
+      }
+    ],
+    "good": [
+      {
+        "name": "Initial Waiting Period: 30 days (standard)",
+        "quote": "Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident",
+        "reference": "Section D.I.3 (Code-Excl03) 30-day waiting period",
+        "explanation": "Non-accident illnesses are not covered in the first 30 days from start. Accidents are covered."
+      },
+      {
+        "name": "Specific Illness / Procedure Waiting Period: 24 months (standard)",
+        "quote": "Expenses related to the treatment of the listed Conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first policy with Us.",
+        "reference": "Section D.I.2 (Code-Excl02) Specified disease / procedure waiting period",
+        "explanation": "Listed illnesses/procedures are covered only after completing 24 months of continuous coverage (unless due to accident)."
+      },
+      {
+        "name": "NCB / Renewal Bonus available (but reduces on claim) — 10% per claim-free year up to 100%",
+        "quote": "We shall apply a cumulative bonus in the form of No Claim Bonus at such 10% of the Sum Insured of the expiring policy year... The accumulated No Claim Bonus shall not exceed 100% of the Sum Insured... In the event of a claim impacting the eligibility of a No Claim Bonus, the accumulated No Claim Bonus shall be reduced by the percentage of Sum Insured as accumulated in the previous Policy Year",
+        "reference": "Section C.II (l) (I).a No Claim Bonus",
+        "explanation": "Sum Insured can increase by 10% each claim-free year (up to 100%). However, a claim reduces the accumulated bonus (i.e., it is a resetting/reducing style bonus)."
+      },
+      {
+        "name": "Domiciliary Hospitalization covered",
+        "quote": "We shall cover the Medical Expenses incurred for the Insured Person’s Domiciliary Hospitalization, up to the Sum Insured as specified in the Policy Schedule / Product Benefit Table of this Policy",
+        "reference": "Section C.I (f) a. Domiciliary Hospitalization",
+        "explanation": "If hospitalization-type treatment is taken at home due to medical necessity or non-availability of hospital bed, expenses can be covered (subject to conditions)."
+      }
+    ],
+    "bad": [
+      {
+        "name": "Room Rent limit exists (not “any room/no limit”) and can cause proportionate deduction (room rent is as per schedule)",
+        "quote": "Reasonable and Customary Charges for Room Rent for accommodation in Hospital room and other boarding charges up to the limits as specified in the Policy Schedule / Product Benefit Table of this Policy;",
+        "reference": "Section C.I (a) In-patient Hospitalization (i)",
+        "explanation": "Room eligibility is capped as per your plan/schedule (not at actuals by default). If you choose a higher room category than eligible, proportional deductions can apply to associated medical expenses."
+      },
+      {
+        "name": "Consumables not explicitly covered as a separate benefit (assume not covered per instruction)",
+        "quote": "Medicines, drugs and other allowable consumables prescribed by the treating Medical Practitioner;",
+        "reference": "Section C.I (a) In-patient Hospitalization (vi)",
+        "explanation": "The wording mentions “allowable consumables” within inpatient expenses, but there is also a policy structure where non-medical items are generally excluded unless an optional waiver is taken. Since the document does not clearly confirm full consumables coverage without exclusions/caps, this is treated as not covered for the mandatory ‘Consumables’ feature and should be verified in the Product Benefit Table/Annexure."
+      },
+      {
+        "name": "NCB reduces after claim (bonus is not protected / non-resetting)",
+        "quote": "In the event of a claim impacting the eligibility of a No Claim Bonus, the accumulated No Claim Bonus shall be reduced by the percentage of Sum Insured as accumulated in the previous Policy Year",
+        "reference": "Section C.II (l) (I).a No Claim Bonus, Condition (xi)",
+        "explanation": "A claim reduces accumulated NCB. Better policies keep the renewal bonus intact even after claims."
+      }
+    ],
+    "unclear": [
+      {
+        "name": "Co-pay (not explicitly stated)",
+        "quote": "The Sum Insured and/or the sub-limit for each Benefit under Section C.I is specified against that Benefit in the Policy Schedule / Product Benefit Table of this Policy.",
+        "reference": "Section C.I Basic Covers (general clause)",
+        "explanation": "The policy wording provided does not clearly state whether any co-payment applies by default (0% / age-based / mandatory). Verify in Policy Schedule/Product Benefit Table."
+      },
+      {
+        "name": "PED waiting period duration (months) is not stated in the excerpt (depends on schedule)",
+        "quote": "Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of months as specified in the Policy Schedule / Product Benefit Table of this Policy of continuous coverage",
+        "reference": "Section D.I.1 (Code-Excl01) Pre-Existing Diseases (PED)",
+        "explanation": "The PED waiting period is not given as a number in the text shared; it is schedule-dependent. Check your Policy Schedule/Product Benefit Table for the exact months."
+      },
+      {
+        "name": "Pre-hospitalization coverage days (limit not stated; depends on schedule)",
+        "quote": "We shall cover... for the number of days in accordance with the limits specified in the Policy Schedule / Product Benefit Table of this Policy",
+        "reference": "Section C.I (d) Pre – hospitalization Medical Expenses",
+        "explanation": "Pre-hospitalization day limit is not specified in the excerpt. Verify the number of days in the Policy Schedule/Product Benefit Table."
+      },
+      {
+        "name": "Post-hospitalization coverage days (limit not stated; depends on schedule)",
+        "quote": "We shall cover... for the number of days specified in the Policy Schedule / Product Benefit Table of this Policy",
+        "reference": "Section C.I (e) Post – hospitalization Medical Expenses",
+        "explanation": "Post-hospitalization day limit is not specified in the excerpt. Verify the number of days in the Policy Schedule/Product Benefit Table."
+      }
+    ]
+  },
+  "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
+}

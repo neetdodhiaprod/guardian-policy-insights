@@ -1,0 +1,144 @@
+{
+  "policyName": "Activ Care Premier",
+  "insurer": "Aditya Birla Health Insurance Co. Limited",
+  "sumInsured": "Not specified (as per Policy Schedule / Product Benefit Table)",
+  "policyType": "Not specified",
+  "documentType": "Policy Wording",
+  "summary": {
+    "great": 3,
+    "good": 8,
+    "bad": 5,
+    "unclear": 4
+  },
+  "features": {
+    "great": [
+      {
+        "name": "Built-in additional Sum Insured buffer (Reload of Sum Insured)",
+        "quote": "Once in the Policy Year, We shall provide for a reload of the Sum Insured up to the limits as speciﬁed in the Policy Schedule / Product Beneﬁt Table of this Policy, in case the available Sum Insured... is insufficient for covering a claim under the Policy as a result of previous claims in that Policy Year.",
+        "reference": "Section C (I)(h) Reload of Sum Insured",
+        "explanation": "Extra sum insured becomes available after you have used up the available Sum Insured during the policy year (once per year, for subsequent claims)."
+      },
+      {
+        "name": "Pre-existing disease (PED) waiting period: 24 months",
+        "quote": "Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the ﬁrst policy with Insurer.",
+        "reference": "Section D.I.1 (Code-Excl01)",
+        "explanation": "PEDs are covered after 24 months of continuous coverage, which is better than many policies that take longer."
+      },
+      {
+        "name": "OPD benefit with no waiting periods (for OPD cover)",
+        "quote": "Waiting periods do not apply in respect of this Beneﬁt.",
+        "reference": "Section C.II (o) OPD Treatment, Condition IV",
+        "explanation": "If OPD cover is part of your plan (as per schedule), OPD claims do not have waiting periods."
+      }
+    ],
+    "good": [
+      {
+        "name": "Initial waiting period: 30 days",
+        "quote": "Expenses related to the treatment of any illness within 30 days from the ﬁrst policy commencement date shall be excluded except claims arising due to an accident",
+        "reference": "Section D.I.3 (Code-Excl03)",
+        "explanation": "Standard 30-day initial waiting for illnesses (accidents covered immediately)."
+      },
+      {
+        "name": "Specific illness/procedure waiting period: 24 months",
+        "quote": "Expenses related to the treatment of the listed Conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the ﬁrst policy with us.",
+        "reference": "Section D.I.2 (Code-Excl02)",
+        "explanation": "Standard 24-month waiting for listed ailments/procedures."
+      },
+      {
+        "name": "Restore/Refill benefit: Reload available but only for unrelated illness (not same illness) and only once per year",
+        "quote": "Such reloading of Sum Insured shall be available only once during a Policy Year... The reload of Sum Insured shall be available only for subsequent claims and not in relation to any Illness/ Injury (including its complications) for which a claim has been admitted for the Insured Person during that Policy Year.",
+        "reference": "Section C (I)(h) Reload of Sum Insured, Conditions (ii) and (iii)",
+        "explanation": "This is a refill-like feature, but it does not help for the same illness/complication within the same policy year, and it is limited to once per year."
+      },
+      {
+        "name": "Domiciliary hospitalization covered",
+        "quote": "We shall cover the Medical Expenses incurred for the Insured Person’s Domiciliary Hospitalization, up to the limits as speciﬁed in the Policy Schedule / Product Beneﬁt Table of this Policy",
+        "reference": "Section C (I)(e) Domiciliary Hospitalization",
+        "explanation": "Home-based treatment (when hospitalization is not possible/bed not available) is covered as per limits."
+      },
+      {
+        "name": "AYUSH inpatient hospitalization covered",
+        "quote": "We shall cover... towards the Medical Expenses for In-patient Hospitalization incurred with respect to the Insured Person’s Ayush Treatment undergone in any AYUSH Hospital or AYUSH Day care Center.",
+        "reference": "Section C (I)(i) Ayush (In-patient Hospitalization)",
+        "explanation": "AYUSH inpatient treatment is covered as per policy limits."
+      },
+      {
+        "name": "Air ambulance / evacuation assistance (as part of emergency assistance services)",
+        "quote": "Domestic Emergency Assistance Services (including Air Ambulance)",
+        "reference": "Section C.II (m)",
+        "explanation": "Emergency evacuation/repatriation assistance is included (subject to conditions such as travel distance and prior coordination with insurer’s provider)."
+      },
+      {
+        "name": "No Claim Bonus present but reduces on claim (does not reset to zero)",
+        "quote": "The accumulated No Claim Bonus shall not exceed 50% of the Sum Insured... In the event of a claim impacting the eligibility of a No Claim Bonus, the accumulated No Claim Bonus shall be reduced by 10% of the Sum Insured at the commencement of subsequent Policy Year.",
+        "reference": "Section C.II (l).a No Claim Bonus",
+        "explanation": "You can build NCB up to 50% of SI; on a claim it reduces by 10% of SI (not a full reset to zero)."
+      },
+      {
+        "name": "Optional cover trade-off: PPN discount with co-pay outside PPN",
+        "quote": "If this option is chosen... discount of 10% on the premium... If the Insured Person takes Inpatient hospitalization treatment... in a Hospital other than those listed as “Preferred Provider Network”, then... shall bear a Co-Payment of 15% on each and every claim",
+        "reference": "Section V (bb) PPN Discount",
+        "explanation": "This is optional: you may choose lower premium, but pay 15% co-pay if you take inpatient treatment outside the preferred network."
+      }
+    ],
+    "bad": [
+      {
+        "name": "Room rent limit not clearly stated in wording (subject to schedule) and can trigger proportionate/rateable deductions",
+        "quote": "Reasonable and Customary Charges for Room Rent... up to the limits as speciﬁed in the Policy Schedule / Product Beneﬁt Table of this Policy;",
+        "reference": "Section C (I)(a) In-patient Hospitalization, What is covered (1)",
+        "explanation": "Room eligibility is not specified here; if your plan has a capped/limited room category, higher room choice can cause major out-of-pocket via proportionate deductions. Check your Policy Schedule for the exact room entitlement."
+      },
+      {
+        "name": "Proportionate (rateable) deduction if room category higher than entitlement (applies when room is limited in schedule)",
+        "quote": "If the Insured Person is admitted in a room category/limit that is higher than the one that is speciﬁed in the Policy Schedule / Product Beneﬁt Table of this Policy, then the Insured Person shall bear a rateable proportion of the total Associated Medical Expenses",
+        "reference": "Section C (I)(a) In-patient Hospitalization, Conditions 2)",
+        "explanation": "If your room rent is not ‘any room/no limit’ as per schedule, choosing a higher room can proportionately reduce admissible doctor/OT/nursing etc. (big payout reduction)."
+      },
+      {
+        "name": "Consumables not covered (listed as non-medical / excluded items)",
+        "quote": "Activ Care Policy Wordings - Annexure - I - List of Non-medical expenses... 56 GLOVES ... 60 MASK ... 58 ANY KIT WITH NO DETAILS MENTIONED [DELIVERY KIT, ORTHOKIT, RECOVERY KIT, ETC]",
+        "reference": "Annexure I – List of Non-medical expenses (List I)",
+        "explanation": "Common consumables and kits are typically excluded as non-medical expenses, leading to out-of-pocket costs during hospitalization."
+      },
+      {
+        "name": "Disease-specific sub-limits present (listed illnesses sublimit)",
+        "quote": "Sublimit for listed illnesses: We will cover the Medical Expenses arising out of an Insured Person’s in-patient Hospitalization for the listed Illness/ conditions and limit as speciﬁed in the Policy Schedule / Product Beneﬁt Table.",
+        "reference": "Section C (I)(j) Sublimit for listed illnesses",
+        "explanation": "Having sub-limits for listed illnesses can reduce payouts versus full Sum Insured coverage. Exact illnesses/amounts depend on schedule."
+      },
+      {
+        "name": "Mandatory co-pay for entry age 61+ (percentage depends on schedule)",
+        "quote": "if the Age (Age at entry) of the Insured Person or eldest Insured Person... is 61 years or above... shall bear a Co-payment per claim... as speciﬁed in Product Beneﬁt Table/Policy Schedule.",
+        "reference": "Section E.II.32 Co-payment",
+        "explanation": "For senior entry (61+), a co-pay applies on each claim (the percentage is as per schedule), reducing effective coverage."
+      }
+    ],
+    "unclear": [
+      {
+        "name": "Pre-hospitalization expenses duration (days) not specified in wording",
+        "quote": "We shall cover... the Insured Person’s Pre-hospitalization Medical Expenses incurred... in accordance with the limits speciﬁed in the Policy Schedule / Product Beneﬁt Table of this Policy",
+        "reference": "Section C (I)(b) Pre – hospitalization Medical Expenses",
+        "explanation": "The number of days covered before admission is not stated here. If not found in your schedule, assume it is not available."
+      },
+      {
+        "name": "Post-hospitalization expenses duration (days) not specified in wording",
+        "quote": "We shall cover... the Insured Person’s Post-hospitalization Medical Expenses incurred... in accordance with the limits speciﬁed in the Policy Schedule / Product Beneﬁt Table of this Policy",
+        "reference": "Section C (I)(c) Post – hospitalization Medical Expenses",
+        "explanation": "The number of days covered after discharge is not stated here. If not found in your schedule, assume it is not available."
+      },
+      {
+        "name": "Default co-pay for ages below 61 not explicitly stated",
+        "quote": "Co-payment means a cost sharing requirement under a health insurance policy that provides that the policyholder/insured will bear a speciﬁed percent age of the admissible claims amount.",
+        "reference": "Section B (Definitions) 7. Co-payment",
+        "explanation": "Policy defines co-pay and separately states mandatory co-pay for 61+ entry, but does not clearly state whether there is any default co-pay for others. Verify in Policy Schedule/Product Benefit Table."
+      },
+      {
+        "name": "Cashless network size (number of hospitals) not specified",
+        "quote": "Cashless Facilities can be availed only at Our Network Providers/ Empanelled Service Providers. The complete list of Network Providers and Empaneled Service Providers is available on Our website",
+        "reference": "Section F.1 Claims Procedure (a)(i)",
+        "explanation": "Network exists, but the count of hospitals is not provided in the wording. Check insurer website or your plan details."
+      }
+    ]
+  },
+  "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
+}

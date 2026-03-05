@@ -1,0 +1,161 @@
+{
+  "GREAT": [
+    {
+      "name": "Pre-hospitalization cover up to 60 days",
+      "quote": "Such expenses shall be indemnified if the same were incurred upto  60 days unless otherwise  specified in the Policy Schedule, immediately prior to the date of admission.",
+      "reference": "Section B.1.5 (page 13)",
+      "explanation": "60 days pre-hospitalization is better than the common 30 days in many plans."
+    },
+    {
+      "name": "Post-hospitalization cover up to 180 days",
+      "quote": "Such expenses shall be indemnified if the same were incurred upto 180 days unless otherwise  specified in the Policy Schedule, immediately post the date of discharge from the Hospital.",
+      "reference": "Section B.1.6 (page 13)",
+      "explanation": "180 days post-hospitalization is strong and higher than many standard plans (often 60–90 days)."
+    },
+    {
+      "name": "Restore can be used for same illness (where Automatic Restore Benefit is in force)",
+      "quote": "The restored Sum Insured can be used even for the same illness for which an admissible claim has been paid during the Policy Year and also for any other Illness covered under the Policy.",
+      "reference": "Section B.2.6, point (vi) (page 18)",
+      "explanation": "Best-in-class restore feature because it can be used even for the same illness in the same policy year (if restore is available in your plan)."
+    }
+  ],
+  "GOOD": [
+    {
+      "name": "Initial waiting period of 30 days",
+      "quote": "Expenses related to the treatment of any illness within 30 days from the first Policy commencement date shall be excluded except claims arising due to an accident",
+      "reference": "Section C.1.c (page 30)",
+      "explanation": "30 days is the standard initial waiting period in health insurance."
+    },
+    {
+      "name": "PED waiting period: 36 months (standard-good)",
+      "quote": "Expenses related to the treatment of a pre -existing disease (PED) and its direct complications shall be excluded until the expiry of 36 months (Unless specified otherwise in the Policy Schedule) of continuous coverage",
+      "reference": "Section C.1.a (page 28)",
+      "explanation": "3-year PED waiting is common and considered acceptable (not a red flag)."
+    },
+    {
+      "name": "Specific disease/procedure waiting period: 24 months (standard-good)",
+      "quote": "Expenses related to the  treatment of the listed Conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage",
+      "reference": "Section C.1.b (page 28)",
+      "explanation": "24 months for listed illnesses/procedures is industry standard."
+    },
+    {
+      "name": "Room rent: At Actuals unless policy schedule says otherwise (plan-dependent)",
+      "quote": "Room rent limit shall be ‘At Actuals’ unless otherwise specified in the Policy Schedule.",
+      "reference": "Section B.1.1(a) (page 11)",
+      "explanation": "If your plan/schedule states 'At Actuals', that is strong (no room rent capping). Some variants (e.g., Select/Lite) have limits as per Annexure C / schedule."
+    },
+    {
+      "name": "ICU charges: At Actuals unless policy schedule says otherwise (plan-dependent)",
+      "quote": "ICU limit (including ICCU) for bed charges shall be ‘At Actuals’ unless otherwise specified in the Policy Schedule.",
+      "reference": "Section B.1.1(b) (page 11)",
+      "explanation": "At actuals ICU is good; some variants may have a cap as per schedule."
+    },
+    {
+      "name": "Domiciliary hospitalization covered",
+      "quote": "The Company shall indemnify the Medical Expenses incurred during the Policy Year on Domiciliary Hospitalization",
+      "reference": "Section B.1.3 (page 12)",
+      "explanation": "Covers eligible hospital-like treatment taken at home under defined conditions."
+    },
+    {
+      "name": "Home Health Care available but cashless-only (not reimbursement)",
+      "quote": "This Cover is not available on reimbursement basis.",
+      "reference": "Section B.1.2 (page 12)",
+      "explanation": "Coverage exists but only through pre-authorized/cashless route, which is a practical constraint to note."
+    },
+    {
+      "name": "Emergency air ambulance available in some plans (with sub-limit in schedule)",
+      "quote": "The Company shall indemnify expenses incurred by the Insured Person during the Policy Year towards Ambulance transportation in an airplane or helicopter for Emergency Care",
+      "reference": "Section B.2.1 (page 15)",
+      "explanation": "A valuable optional/included benefit depending on plan; payable up to limit in the policy schedule."
+    },
+    {
+      "name": "Non-medical expenses cover (Consumables/non-payables) available via Protect Benefit (plan-dependent)",
+      "quote": "The Company shall indemnify the Insured Person for the Non -Medical Expenses listed under Annexure B to this Policy incurred in relation to a claim admissible under Section B -1 (Base Coverage)",
+      "reference": "Section B.2.3 (page 16)",
+      "explanation": "Good feature if included/opted: reduces out-of-pocket for commonly disallowed non-medical items; availability depends on plan/schedule."
+    },
+    {
+      "name": "Secure Benefit (additional sum insured) (plan-dependent)",
+      "quote": "An additional amount as specified in the Policy Schedule will be available to the Insured Person as Sum Insured",
+      "reference": "Section B.2.5 (page 17)",
+      "explanation": "Extra coverage beyond base SI in applicable plans, usable after base SI is exhausted."
+    },
+    {
+      "name": "Plus Benefit (renewal benefit) (plan-dependent/optional in some plans)",
+      "quote": "On Renewal of this Policy with the Company without a break, a sum equal to 50% of the Base Sum Insured under the expiring Policy will be added",
+      "reference": "Section B.2.4 (page 16)",
+      "explanation": "Strong renewal benefit where available; note that in some cases it replaces CB as described in the policy."
+    },
+    {
+      "name": "Cumulative Bonus available in some plans (up to schedule terms)",
+      "quote": "a sum equal to 10% (unless otherwise specified in the policy schedule) of the Base Sum Insured of the expiring Policy shall be provided as CB irrespective of any claims",
+      "reference": "Section B.1.8 (page 13)",
+      "explanation": "Standard NCB structure where applicable as per plan/schedule."
+    },
+    {
+      "name": "Preventive health check-up benefit (inbuilt in many plans; optional in Optima Select)",
+      "quote": "On completion of each Policy Year where-in this benefit was in force, the Company will indemnify the cost of a Preventive Health Check -up",
+      "reference": "Section B.3 (pages 27-28) and Annexure C (page 51-52)",
+      "explanation": "Bonus wellness benefit with defined limits; availability depends on plan/schedule."
+    },
+    {
+      "name": "Optional covers / add-ons available (customer choice)",
+      "quote": "The Covers listed below are optional covers. An optional cover is applicable to an Insured Person only if it is specified in the Policy Schedule",
+      "reference": "Section B.2 (page 14)",
+      "explanation": "Flexibility to customize (e.g., global cover, deductible, restore add-on, OPD add-on) depending on plan."
+    },
+    {
+      "name": "Tier-based pricing without mandatory zone co-pay",
+      "quote": "No co-payment shall apply if Insured Person from Tier 2 avails a treatment in Tier 1.",
+      "reference": "Section D.1.24 (page 41)",
+      "explanation": "Good: pricing varies by city tier, but they explicitly state no co-pay merely for taking treatment in Tier 1."
+    }
+  ],
+  "BAD": [
+    {
+      "name": "Proportionate deduction if room category/limit exceeded (leads to reduced payout)",
+      "quote": "Proportionate deduction on Room Rent: In case the Insured Person is admitted in a room that exceeds the category/limit stipulated in the Policy  Schedule, the reimbursement/payment of Room Rent charges including all Associated Medical Expenses incurred at Hospital shall be effected in the same proportion",
+      "reference": "Section B.1.1 Note (iii) (page 12) and Definition 1.2 Def.5 (page 8)",
+      "explanation": "If you take a higher room than eligible, insurer can apply proportionate deduction on associated medical expenses (a major claim settlement risk)."
+    },
+    {
+      "name": "Room rent daily cap in Optima Lite (1% of Base Sum Insured/day) (plan-specific cap)",
+      "quote": "Upto 1% of base sum insured per day",
+      "reference": "Annexure C, Room Rent for Optima Lite (page 50)",
+      "explanation": "This is a daily cap (not 'any room/no limit'). If actual room tariff is higher, it can trigger room rent shortfall and proportionate deductions."
+    },
+    {
+      "name": "ICU daily cap in Optima Lite (2% of Base Sum Insured/day) (plan-specific cap)",
+      "quote": "Upto 2% of base sum insured per day",
+      "reference": "Annexure C, ICU for Optima Lite (page 50)",
+      "explanation": "ICU cap can cause out-of-pocket if ICU tariffs exceed the capped amount."
+    },
+    {
+      "name": "Global cover (if opted) has a mandatory per-claim deductible of ₹10,000",
+      "quote": "However, a Per Claim Deductible of Rs. 10,000 will apply separately for each and every claim (except Section B-2.8 ‘E Opinion for Critical Illness’) under this cover.",
+      "reference": "Section B.2.9(A)(ii) (page 21) and Section B.2.10(ii) (page 22)",
+      "explanation": "If you opt for Global Health Cover, every overseas claim will have a mandatory ₹10,000 deductible, reducing effective coverage."
+    }
+  ],
+  "UNCLEAR": [
+    {
+      "name": "Actual room rent eligibility depends on the Policy Schedule / chosen plan variant",
+      "quote": "Room rent limit shall be ‘At Actuals’ unless otherwise specified in the Policy Schedule.",
+      "reference": "Section B.1.1(a) (page 11)",
+      "explanation": "Whether you truly have 'At Actuals' (no cap) or a capped room category/daily cap depends on your plan and the Policy Schedule. Need your Policy Schedule to confirm."
+    },
+    {
+      "name": "Sub-limits and deductibles depend on Policy Schedule (including aggregate deductible amount, if chosen)",
+      "quote": "Provided further that, any amount payable under the Policy shall be subject to the terms of coverage (including Aggregate Deductible, Sub -limits), exclusions, conditions and definitions contained herein.",
+      "reference": "Operating Clause (page 2)",
+      "explanation": "The exact deductible (if any) and any sub-limits are schedule-driven; cannot be confirmed from wording alone."
+    },
+    {
+      "name": "Cashless network size not specified in this wording",
+      "quote": "The complete list of Network Providers and empanelled service providers is available on Company’s website and can also be obtained by contacting the Company.",
+      "reference": "Section E.1.5(a) (page 42)",
+      "explanation": "Network hospital count (e.g., 7,000/10,000+) is not stated here; you’d need insurer’s current network list."
+    }
+  ],
+  "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
+}

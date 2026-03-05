@@ -1,0 +1,126 @@
+{
+  "policyName": "Care Ultimate",
+  "insurer": "Care Health Insurance Limited",
+  "sumInsured": "Not specified in provided extract (Sum Insured is as per Policy Schedule; examples show ₹5,00,000 in illustrations)",
+  "policyType": "Not specified",
+  "documentType": "Policy Wording",
+  "summary": {
+    "great": 7,
+    "good": 4,
+    "bad": 5,
+    "unclear": 1
+  },
+  "features": {
+    "great": [
+      {
+        "name": "Room rent: No limit (default)",
+        "quote": "The eligible Room Rent or Room Category applicable for the Insured Person under the Policy is ‘No limit’, which means that there is no separate restriction on Room Charges incurred towards stay during Hospitalization",
+        "reference": "Clause 3.1.1(ix)(i)",
+        "explanation": "No room-rent capping in the base policy, which helps avoid large out-of-pocket costs and proportionate deductions."
+      },
+      {
+        "name": "ICU charges: No limit",
+        "quote": "Intensive Care Unit Charges (ICU Charges): The eligible ICU Charges applicable for the Insured Person under the Policy is ‘No limit’, which means that there is no separate restriction on ICU Charges incurred towards stay in ICU during Hospitalization.",
+        "reference": "Clause 3.1.1(ix)(ii)",
+        "explanation": "No separate ICU capping, which is strong because ICU bills can be high."
+      },
+      {
+        "name": "Restore benefit: Unlimited automatic recharge (same & different illness)",
+        "quote": "automatically make the re-instatement of up to the base Sum Insured unlimited times in a policy year... Recharge amount can be utilized for same illness as well as different Illnesses.",
+        "reference": "Clause 3.1.4(i) and 3.1.4(iv)",
+        "explanation": "Sum Insured replenishment is available unlimited times in a year, and it can be used even for the same illness (stronger than many market plans)."
+      },
+      {
+        "name": "NCB / Renewal bonus: 50% per year and does NOT reduce on claims",
+        "quote": "enhance the Sum Insured by 50% flat... In the event of a Claim there is no impact on the accrual of Cumulative Bonus.",
+        "reference": "Clause 3.1.3 and 3.1.3(vi)",
+        "explanation": "Your renewal bonus grows by 50% each year (up to 100%) and continues even if you claim—this is better than typical NCBs that reduce/reset after claims."
+      },
+      {
+        "name": "Built-in additional Sum Insured buffer: Plus Benefit (activates after base SI exhausts)",
+        "quote": "The Plus Benefit will be applicable only after exhaustion of Base Sum Insured.",
+        "reference": "Clause 3.2.30(iv)",
+        "explanation": "An additional Sum Insured layer is available after base SI is used up (amount as per policy schedule)."
+      },
+      {
+        "name": "Pre-existing disease (PED) waiting period: 36 months (GOOD per rules; but not GREAT)",
+        "quote": "excluded until the expiry of 36 months of continuous coverage after the date of inception of the first policy with insurer.",
+        "reference": "Clause 4.1(a)(i)(a)",
+        "explanation": "PED waiting period is 36 months, which is standard-good in the market (not a red flag)."
+      },
+      {
+        "name": "Consumables cover available via optional 'Claim Shield' (non-payables become payable)",
+        "quote": "If a claim has been accepted under this benefit, then the items which are not payable as per List- I, II, II and IV under Annexure I related to the particular claim, will become payable.",
+        "reference": "Clause 3.2.11",
+        "explanation": "If you opt Claim Shield, many standard non-payable items (often including consumables) can become payable for that claim, reducing out-of-pocket. This is an optional enhancement, not automatic in base."
+      }
+    ],
+    "good": [
+      {
+        "name": "Initial waiting period: 30 days",
+        "quote": "Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident",
+        "reference": "Clause 4.1(a)(iii)(a)",
+        "explanation": "Standard 30-day initial waiting for non-accident illnesses."
+      },
+      {
+        "name": "Specific illness (Named Ailment) waiting period: 24 months",
+        "quote": "shall be excluded until the expiry of 24 months of continuous coverage",
+        "reference": "Clause 4.1(a)(ii)(a)",
+        "explanation": "24-month named-ailment waiting period is standard in the market."
+      },
+      {
+        "name": "Pre-hospitalization coverage: 60 days",
+        "quote": "For a period of 60 days immediately prior to the Insured Person’s date of admission to the Hospital",
+        "reference": "Clause 3.1.1(iv)(i)",
+        "explanation": "Covers eligible medical expenses for 60 days before hospitalization (standard-good)."
+      },
+      {
+        "name": "Post-hospitalization coverage: 90 days",
+        "quote": "For a period of 90 days immediately after the Insured Person’s date of discharge from the hospital",
+        "reference": "Clause 3.1.1(v)(i)",
+        "explanation": "Covers eligible medical expenses for 90 days after discharge (standard-good)."
+      }
+    ],
+    "bad": [
+      {
+        "name": "Consumables not covered in base plan (Annexure I non-medical items)",
+        "quote": "Any item or condition or treatment specified in List of Non-Medical Items (Annexure – I to Policy Terms & Conditions).",
+        "reference": "Clause 4.2(1) + Annexure I",
+        "explanation": "Base plan excludes many common hospital consumables/non-medical items (e.g., gloves, masks, kits), which can create out-of-pocket unless Claim Shield optional benefit is opted."
+      },
+      {
+        "name": "Mandatory claim intimation within 48 hours (condition precedent)",
+        "quote": "the Company or the Assistance Service Provider shall be notified with full particulars within 48 hours from the date of occurrence of event",
+        "reference": "Clause 6.1.4(i)",
+        "explanation": "Strict intimation timeline can be difficult in emergencies; delay may risk claim handling (though insurer may consider delays with valid reasons as noted later)."
+      },
+      {
+        "name": "Mandatory claim filing timeline: within 30 days of discharge (condition precedent)",
+        "quote": "Claim must be filed within 30 days from the date of discharge from the hospital",
+        "reference": "Clause 6.1.4(ii)",
+        "explanation": "Strict filing deadline can be challenging; late filing could complicate settlement (wording later says delayed claims can be considered with valid reasons, but timelines are stated as condition precedent)."
+      },
+      {
+        "name": "Domiciliary hospitalization excludes several common chronic conditions",
+        "quote": "Any Medical Expenses incurred for the treatment in relation to any of the following diseases shall not be payable under this Benefit : ... Diabetes Mellitus... Hypertension... Asthma... All Psychiatric or Psychosomatic Disorders... Arthritis, Gout and Rheumatism.",
+        "reference": "Clause 3.1.1(vii)(v)",
+        "explanation": "Home treatment (domiciliary) is not payable for several common conditions, reducing usefulness of domiciliary cover."
+      },
+      {
+        "name": "Disease-specific sub-limits may apply (not detailed here)",
+        "quote": "All Claims shall be payable subject to the terms, conditions, exclusions, sub-limits and wait periods of the Policy",
+        "reference": "General Conditions under Benefits Covered, point 3(III)",
+        "explanation": "The policy states claims are subject to sub-limits, but the sub-limits are not provided in the extract. If any disease-wise sub-limits exist in schedule/annexures, they can materially cap payouts."
+      }
+    ],
+    "unclear": [
+      {
+        "name": "Co-pay (base plan): not explicitly stated unless optional covers are chosen",
+        "quote": "The Co-payment proportion (If opted) shall be borne by the Insured Person on each Claim",
+        "reference": "General Conditions under Benefits Covered, point 5 and Clause 3.2.29",
+        "explanation": "Co-pay appears as an optional benefit/selection-based feature. The base plan’s default co-pay (whether 0% by default) is not explicitly stated in the provided text—confirm from Policy Schedule."
+      }
+    ]
+  },
+  "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
+}

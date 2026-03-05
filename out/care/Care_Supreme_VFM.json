@@ -1,0 +1,108 @@
+{
+  "policyName": "Care Supreme VFM",
+  "insurer": "Care Health Insurance Limited",
+  "sumInsured": "As per Policy Schedule (not specified in provided extract)",
+  "policyType": "Not specified",
+  "documentType": "Policy Wording",
+  "summary": {
+    "great": 6,
+    "good": 5,
+    "bad": 2,
+    "unclear": 1
+  },
+  "features": {
+    "great": [
+      {
+        "name": "Room rent: No limit (no room category capping)",
+        "quote": "The eligible Room Rent or Room Category applicable for the Insured Person under the Policy is 'No limit', which means that there is no separate restriction on Room Charges incurred towards stay during Hospitalization",
+        "reference": "Clause 3.1.1(ix)(i) (Conditions applicable for Benefit ‘Hospitalization Expenses’)",
+        "explanation": "You can choose any room category without a room-rent cap triggering proportionate deductions."
+      },
+      {
+        "name": "ICU charges: No limit",
+        "quote": "Intensive Care Unit Charges (ICU Charges): The eligible ICU Charges applicable for the Insured Person under the Policy is 'No limit'",
+        "reference": "Clause 3.1.1(ix)(ii)",
+        "explanation": "No separate ICU sub-limit is applied."
+      },
+      {
+        "name": "NCB/Renewal Bonus: Non-resetting Cumulative Bonus 50% per year (up to 100%)",
+        "quote": "At the end of each Policy Year, the Company will enhance the Sum Insured by 50% flat... (i) ...shall not exceed 100% of the Sum Insured... (vi) In the event of a Claim there is no impact on the accrual of Cumulative Bonus.",
+        "reference": "Clause 3.1.3 (Benefit: Cumulative Bonus)",
+        "explanation": "Your bonus continues to accrue even if you make a claim (does not reset due to claims), which is better than typical NCB structures."
+      },
+      {
+        "name": "Restore/Reinstatement: Unlimited Automatic Recharge (same illness allowed)",
+        "quote": "automatically make the re-instatement of up to the base Sum Insured unlimited times in a policy year... (iii) Recharge amount can be utilized for same illness as well as different Illnesses.",
+        "reference": "Clause 3.1.4 (Benefit: Unlimited Automatic Recharge)",
+        "explanation": "After exhausting base SI (and other applicable buffers), the policy restores SI unlimited times in the year, even for the same illness."
+      },
+      {
+        "name": "Built-in additional Sum Insured buffer: Recharge activates after base SI + bonus/buffers are exhausted",
+        "quote": "The Recharge shall be utilized only after the base Sum Insured, applicable Cumulative Bonus , Cumulative Bonus Super (if applicable) and Plus Benefit (if applicable) have been completely exhausted in that Policy Year.",
+        "reference": "Clause 3.1.4(i)",
+        "explanation": "This is an extra protection layer that kicks in once your available SI/bonuses (and optional buffers, if chosen) are used up."
+      },
+      {
+        "name": "Modern/advanced treatments covered (listed) within Sum Insured",
+        "quote": "Advance Technology Methods: The Company will indemnify the Insured Person up to the Sum Insured... for treatment taken through following advance technology methods: ... Robotic surgeries ... Immunotherapy ... Oral chemotherapy ...",
+        "reference": "Clause 3.1.1(iii)",
+        "explanation": "Covers several modern treatment modalities as part of hospitalization expenses (subject to policy terms)."
+      }
+    ],
+    "good": [
+      {
+        "name": "PED waiting period: 36 months",
+        "quote": "Expenses related to the treatment of a pre-existing Disease (PED)... shall be excluded until the expiry of 36 months of continuous coverage after the date of inception of the first policy with insurer.",
+        "reference": "Clause 4.1(a)(i) Pre-Existing Diseases",
+        "explanation": "3-year PED waiting is within the acceptable/standard range per market norms."
+      },
+      {
+        "name": "Specific illness (Named Ailment) waiting period: 24 months",
+        "quote": "Expenses related to the treatment of the listed Conditions, surgeries/ treatments shall be excluded until the expiry of 24 months of continuous coverage...",
+        "reference": "Clause 4.1(a)(ii) Named Ailment Waiting Period",
+        "explanation": "2-year specific disease waiting is standard."
+      },
+      {
+        "name": "Initial waiting period: 30 days",
+        "quote": "Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident",
+        "reference": "Clause 4.1(a)(iii) 30-day waiting period",
+        "explanation": "Standard initial waiting period for non-accident illnesses."
+      },
+      {
+        "name": "Pre-hospitalization: 60 days",
+        "quote": "For a period of 60 days immediately prior to the Insured Person's date of admission to the Hospital",
+        "reference": "Clause 3.1.1(iv)(i)",
+        "explanation": "Covers eligible pre-hospitalization expenses for 60 days linked to an admissible hospitalization claim."
+      },
+      {
+        "name": "Post-hospitalization: 180 days",
+        "quote": "For a period of 180 days immediately after the Insured Person's date of discharge from the hospital",
+        "reference": "Clause 3.1.1(v)(i)",
+        "explanation": "Covers eligible post-hospitalization expenses for 180 days linked to an admissible hospitalization claim."
+      }
+    ],
+    "bad": [
+      {
+        "name": "Consumables / non-medical items not covered by default (unless Claim Shield optional benefit is opted)",
+        "quote": "Any item or condition or treatment specified in List of Non-Medical Items (Annexure – I to Policy Terms & Conditions).",
+        "reference": "Clause 4.2(1) Specific Exclusions + Annexure I (Non-medical items list includes e.g. \"Gloves\", \"Mask\", \"Nebulisation Kit\")",
+        "explanation": "Common hospital consumables/non-medical items are excluded by default, leading to out-of-pocket expenses (unless you opt for Claim Shield which can make List-I items payable)."
+      },
+      {
+        "name": "Disease/condition sub-limits possible (example given: ₹50,000) if specified in schedule",
+        "quote": "For diseases or conditions or procedure that have a specified sub-limit... For example- if the Policy specifies a sub-limit of Rs. 50,000 for a particular disease then all expenses related to the treatment of that disease... will be covered up to Rs. 50,000",
+        "reference": "Clause 6.1.7(h) Payment Terms",
+        "explanation": "The wording allows disease-wise sub-limits if mentioned in your Policy Schedule; such sub-limits materially reduce coverage for that condition."
+      }
+    ],
+    "unclear": [
+      {
+        "name": "Co-pay (base plan): not explicitly stated unless optional benefits like Co-payment/Smart Select/True Connect are chosen",
+        "quote": "The Co-payment proportion ( If opted ) shall be borne by the Insured Person on each Claim...",
+        "reference": "General Conditions Applicable To All The Benefits And Optional Benefits, point 4; also Clause 3.2.7 (Co-payment Optional Benefit)",
+        "explanation": "The document clearly defines co-pay and mentions it applies only if opted, but it does not explicitly state whether the default base plan has 0% co-pay. Confirm from your Policy Schedule whether any co-pay optional benefit (or Smart Select/True Connect co-pay conditions) has been selected."
+      }
+    ]
+  },
+  "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
+}

@@ -1,0 +1,90 @@
+{
+  "policyName": "Energy Gold",
+  "insurer": "HDFC ERGO General Insurance Company Limited",
+  "sumInsured": "₹2L / ₹3L / ₹5L / ₹10L / ₹20L / ₹25L / ₹50L (Silver & Gold plans)",
+  "policyType": "Not specified",
+  "documentType": "Policy Wording",
+  "summary": {
+    "great": 3,
+    "good": 4,
+    "bad": 2,
+    "unclear": 2
+  },
+  "features": {
+    "great": [
+      {
+        "name": "Restore Benefit (replenishes SI; usable for Section I benefits)",
+        "quote": "Instant addition of 100% Basic Sum Insured on complete or partial utilization of Your existing Policy Sum Insured and cumulative Bonus (if applicable) during the Policy Year.",
+        "reference": "Section B > II. Other Benefits > 1. Restore benefit (Page 11)",
+        "explanation": "Adds an extra 100% of base Sum Insured in the same policy year after partial/complete usage of available SI (subject to once per year and single-claim cap mentioned in the policy)."
+      },
+      {
+        "name": "Cumulative Bonus / Renewal Bonus is non-claim based (does not reset on claims)",
+        "quote": "On Renewal of this Policy with the Company without a break, a sum equal to 10% of the Base Sum Insured of the expiring Policy shall be provided as Cumulative Bonus irrespective of any claims",
+        "reference": "Section B > III. Renewal Benefits > 2. Cumulative Bonus (Page 16)",
+        "explanation": "Sum Insured increases by 10% of base SI every renewal even if you make claims—better than typical NCBs that reduce/reset after claims."
+      },
+      {
+        "name": "PED Waiting Period (Pre-existing diseases) = 24 months",
+        "quote": "Expenses related to the treatment of a pre-existing disease (PED) and its direct complications shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first policy with insurer.",
+        "reference": "Section C > 1(ii) Pre-Existing Diseases: Code - Excl01 (Page 19)",
+        "explanation": "Pre-existing diseases are covered after 24 months continuous coverage, which is better than many policies offering 36 months."
+      }
+    ],
+    "good": [
+      {
+        "name": "Specific Illness / Procedure Waiting Period = 24 months",
+        "quote": "Expenses related to the treatment of the listed Conditions, surgeries/treatments... shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first Policy with us.",
+        "reference": "Section C > 1(i) Specified disease/procedure waiting period: Code - Excl02 (Page 16)",
+        "explanation": "24-month waiting for listed surgeries/conditions is standard in health insurance."
+      },
+      {
+        "name": "Pre-hospitalization cover = 30 days",
+        "quote": "Pre-Hospitalization Medical expenses... incurred upto 30 days before Hospitalisation.",
+        "reference": "Section B > I. Hospitalisation Covers > 2. Pre-Hospitalization Medical expenses (Page 10)",
+        "explanation": "Covers eligible medical expenses for 30 days before admission (standard)."
+      },
+      {
+        "name": "Post-hospitalization cover = 60 days",
+        "quote": "Post-Hospitalization Medical expenses... incurred upto 60 days after discharge from Hospitalisation.",
+        "reference": "Section B > I. Hospitalisation Covers > 3. Post-Hospitalization Medical expenses (Page 10)",
+        "explanation": "Covers eligible medical expenses for 60 days after discharge (standard)."
+      },
+      {
+        "name": "Optional co-pay (20%) if chosen in schedule",
+        "quote": "If opted and mentioned on the Policy Schedule that a Co-payment is effective... the insured person shall bear 20% of the eligible claim amount payable under the Policy",
+        "reference": "Section D > 2. Specific General Terms > 15. Co-Payment (Page 34)",
+        "explanation": "Co-pay applies only if you opt for it and it is shown in the policy schedule; otherwise it should not apply."
+      }
+    ],
+    "bad": [
+      {
+        "name": "Consumables / Non-medical expenses not covered (unless waived under Shared Accommodation Benefit in network shared room)",
+        "quote": "Non-Medical expenses such as Food charges (other than patient’s diet provided by hospital), laundry charges, attendant charges, ambulance collar, ambulance equipment, baby food, baby utility charges and other such items. Full list of Non-Medical expenses is attached",
+        "reference": "Section C > 3. Specific Exclusions > xii (Page 22) and Annexure I List of Non-Medical Expenses (Page 41)",
+        "explanation": "Consumables and many non-medical items are generally out-of-pocket. There is a limited waiver only if hospitalized in shared accommodation in a network hospital (as per Shared Accommodation Benefit)."
+      },
+      {
+        "name": "Room rent limit not specified (may lead to unexpected room rent restrictions / proportionate deductions via schedule)",
+        "quote": "In-Patient Treatment... includes: • Hospital room rent or boarding",
+        "reference": "Section B > I. Hospitalisation Covers > 1. In-Patient Treatment (Page 9)",
+        "explanation": "The wording confirms room rent is covered but does not state the eligible room category/limit in the provided text. If room limits exist in the schedule, choosing a higher room could reduce payable expenses."
+      }
+    ],
+    "unclear": [
+      {
+        "name": "Co-pay status by default (whether 0% or not applicable unless opted)",
+        "quote": "If opted and mentioned on the Policy Schedule that a Co-payment is effective...",
+        "reference": "Section D > 2. Specific General Terms > 15. Co-Payment (Page 34)",
+        "explanation": "The policy says co-pay applies only if opted and mentioned in the schedule, but the provided extract does not include an actual schedule showing whether co-pay is opted for your policy—confirm in your policy schedule."
+      },
+      {
+        "name": "Initial waiting period (first 30 days) not found in provided extract",
+        "quote": "All Illnesses and treatments shall be covered subject to the waiting periods specified below:",
+        "reference": "Section C > 1. Standard Waiting Period (Page 16)",
+        "explanation": "This extract shows specific-illness and PED waiting periods, but does not explicitly mention an initial waiting period (e.g., 30 days for non-accident illnesses). Verify in the full policy wording / schedule."
+      }
+    ]
+  },
+  "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
+}

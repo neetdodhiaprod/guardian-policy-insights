@@ -1,0 +1,108 @@
+{
+  "policyName": "Comprehensive",
+  "insurer": "Star Health and Allied Insurance Company Limited",
+  "sumInsured": "5,00,000 to 1,00,00,000 (as per tables in policy wording; exact SI depends on what you choose in schedule)",
+  "policyType": "Not specified",
+  "documentType": "Policy Wording",
+  "summary": {
+    "great": 2,
+    "good": 5,
+    "bad": 6,
+    "unclear": 1
+  },
+  "features": {
+    "great": [
+      {
+        "name": "Restore Benefit (automatic restoration; same illness allowed)",
+        "quote": "There shall be automatic restoration of the Basic Sum Insured by 100% immediately upon exhaustion of the Basic Sum Insured and accrued Cumulative Bonus if any, once during the policy period. It is made clear that such restored Sum Insured can be utilized for the subsequent hospitalization even for the illness /disease for which claim/s was / were already made.",
+        "reference": "Conditions > Special Features > 29(a)",
+        "explanation": "If you exhaust your base SI (and bonus, if any), the policy restores 100% once per policy year, and it can be used even for the same illness again—this is best-in-class among restore benefits."
+      },
+      {
+        "name": "Bariatric Surgery covered",
+        "quote": "Section 7 Bariatric Surgery Expenses incurred on hospitalization for bariatric surgical procedure and its complications thereof are payable subject to limits mentioned in the table given below",
+        "reference": "Coverage > Section 7",
+        "explanation": "Bariatric surgery is covered (subject to waiting period and a per-policy-period limit), which is a strong add-on benefit in many comprehensive plans."
+      }
+    ],
+    "good": [
+      {
+        "name": "Room Rent (default entitlement)",
+        "quote": "Room (Private Single A/C room), Boarding and Nursing Expenses as provided by the Hospital / Nursing Home",
+        "reference": "Coverage > Section 1 Hospitalization > A",
+        "explanation": "Default room category is Single Private AC room, which is industry standard (good), but not 'any room/no limit'."
+      },
+      {
+        "name": "PED waiting period (standard)",
+        "quote": "Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 36 months of continuous coverage after the date of inception of the first policy with insurer",
+        "reference": "Exclusions > Standard Exclusions > 1 (Pre-Existing Diseases - Code Excl 01)",
+        "explanation": "Pre-existing diseases are covered after 36 months continuous coverage, which is within the 2–4 years band and is considered good (not a red flag)."
+      },
+      {
+        "name": "Specific illness/procedure waiting period (standard 24 months)",
+        "quote": "Expenses related to the treatment of the following listed Conditions, surgeries/ treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first policy with us.",
+        "reference": "Exclusions > Standard Exclusions > 2 (Specified disease / procedure waiting period - Code Excl 02)",
+        "explanation": "24-month waiting for listed diseases/procedures is standard across the market."
+      },
+      {
+        "name": "Initial waiting period (30 days)",
+        "quote": "Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident",
+        "reference": "Exclusions > Standard Exclusions > 3 (30-day waiting period - Code Excl 03)",
+        "explanation": "30-day initial waiting is standard in health insurance."
+      },
+      {
+        "name": "Pre-hospitalization expenses (60 days)",
+        "quote": "Relevant Pre-Hospitalization medical expenses incurred for a period not exceeding 60 days prior to the date of hospitalization are payable subject to an admissible hospitalization claim",
+        "reference": "Coverage > Section 1 Hospitalization > F",
+        "explanation": "Covers pre-hospitalization expenses up to 60 days, which is standard/good."
+      }
+    ],
+    "bad": [
+      {
+        "name": "Post-hospitalization expenses only 90 days",
+        "quote": "Post Hospitalization: Medical expenses incurred for a period up to 90 days from the date of discharge from the hospital ... are payable",
+        "reference": "Coverage > Section 1 Hospitalization > G",
+        "explanation": "Post-hospitalization is limited to 90 days (many top plans offer 180+ days)."
+      },
+      {
+        "name": "Disease sub-limits for Modern Treatments (sub-limited amounts)",
+        "quote": "Section 13 - Coverage for Modern Treatments The expenses payable ... is limited to the amount mentioned in table below;",
+        "reference": "Coverage > Section 13",
+        "explanation": "Modern treatments are covered but with sub-limits per procedure, which can create high out-of-pocket costs for expensive advanced procedures."
+      },
+      {
+        "name": "NCB/Cumulative Bonus reduces with claims (can go down to zero)",
+        "quote": "In the event of a claim resulting in ... the cumulative bonus so granted will be reduced ... At any point of time, the cumulative bonus will not be less than “zero”",
+        "reference": "Conditions > Special Features > 29(b) Special Conditions for Cumulative Bonus",
+        "explanation": "Cumulative Bonus is not protected; it reduces on claims and can drop to zero, which is a negative versus non-resetting renewal bonus designs."
+      },
+      {
+        "name": "Consumables not covered (out-of-pocket likely for many items)",
+        "quote": "“Associated Medical Expenses” does not include cost of pharmacy and consumables, cost of implants and medical devices and cost of diagnostics, ICU charges and hence proportionate deduction will not be applicable on these items.",
+        "reference": "Definitions > Specific Definitions > Associated medical expenses",
+        "explanation": "The document does not grant an explicit 'consumables cover'. In absence of an explicit cover, consumables (gloves, syringes, PPE etc.) are typically billed separately and become out-of-pocket."
+      },
+      {
+        "name": "Built-in Additional Sum Insured buffer (after base is exhausted) not found",
+        "quote": "No explicit feature found in the provided pages stating an extra Sum Insured that activates after base SI is exhausted (e.g., Secure Benefit / Super NCB / Enhanced SI buffer).",
+        "reference": "Document review (pages 1-14 provided)",
+        "explanation": "Restore is present, but an additional separate buffer SI (over and above SI, triggered after exhaustion) is not clearly offered in the wording provided."
+      },
+      {
+        "name": "Cashless network size not stated (assumed not meeting mandatory disclosure for this analysis)",
+        "quote": "No explicit number of network hospitals is stated in the provided pages (only: \"Cashless facility can be availed only in networked Hospitals. For details of Networked Hospitals, the insured may visit www.starhealth.in\")",
+        "reference": "Conditions > Claim Settlement > B(i)",
+        "explanation": "The document doesn’t specify the network hospital count here; for this analysis, absence is treated as a negative since you can’t judge network breadth from the wording excerpt."
+      }
+    ],
+    "unclear": [
+      {
+        "name": "Co-pay terms (confirm applicability for your age at entry / whether any other co-pays apply)",
+        "quote": "This policy is subject to co-payment of 10% of each and every claim amount for fresh as well as renewal policies for insured persons whose age at the time of entry is 61 years and above.. This co-payment will not apply for those insured persons who have entered the policy before attaining 61 years of age and renew the policy continuously without any break.",
+        "reference": "Conditions > Claim Settlement > I (Co-payment)",
+        "explanation": "Co-pay is clearly 10% for age-at-entry 61+. To assess your case, you must confirm the insured person’s age-at-entry and whether continuous renewal without break applies (then co-pay may not apply)."
+      }
+    ]
+  },
+  "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
+}

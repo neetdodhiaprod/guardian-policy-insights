@@ -1,0 +1,113 @@
+{
+  "policyName": "Care Joy Today",
+  "insurer": "Care Health Insurance Limited",
+  "sumInsured": "Not specified in extracted text (varies as per Policy Schedule; illustrations show ₹3,00,000)",
+  "policyType": "Not specified",
+  "documentType": "Policy Wording",
+  "summary": {
+    "great": 0,
+    "good": 6,
+    "bad": 6,
+    "unclear": 3
+  },
+  "features": {
+    "great": [],
+    "good": [
+      {
+        "name": "Specific illness / named ailment waiting period: 24 months (standard)",
+        "quote": "Expenses related to the treatment of the listed Conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first policy with the Company.",
+        "reference": "Section 4.1(a)(ii) Specific Waiting Period – Code- Excl02",
+        "explanation": "Coverage for listed specified diseases/surgeries starts after 24 months of continuous coverage (accident claims are excluded from this waiting)."
+      },
+      {
+        "name": "PED waiting period: 36 months (good; not a red flag)",
+        "quote": "Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 36 months of continuous coverage after the date of inception of the first policy with insurer.",
+        "reference": "Section 4.1(a)(i) Pre-existing Disease - Code- Excl01",
+        "explanation": "Pre-existing diseases are covered after 36 months of continuous coverage, subject to declaration and acceptance."
+      },
+      {
+        "name": "Initial waiting period: 30 days (standard)",
+        "quote": "Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident",
+        "reference": "Section 4.1(a)(iii) First 30-Day waiting Period – Code – Excl03",
+        "explanation": "Illness claims in the first 30 days are not covered (accidents are covered)."
+      },
+      {
+        "name": "Room rent / room category: Single Private Room with A.C. (standard) + proportionate deduction if you choose a higher category",
+        "quote": "If the Insured Person is admitted in a room where the Room Category is other than Single Private Room with A.C., then the Policyholder shall bear the ratable proportion of the total Associate Medical Expenses... in the proportion of the difference between the Room Rent of Single Private Room with A.C. to the Room Rent actually incurred.",
+        "reference": "Section 3.1(c)(i) Conditions for Medical Expenses – Room Category",
+        "explanation": "Default eligibility is Single Private AC room. If you take a higher room category, associated expenses can be proportionately reduced (higher out-of-pocket)."
+      },
+      {
+        "name": "Pre-hospitalization cover: 30 days",
+        "quote": "As Pre-hospitalization Medical Expenses' during a period of 30 days immediately prior to the date of the Insured Person's admission to the Hospital;",
+        "reference": "Section 3.2(a)(i) Benefit 2",
+        "explanation": "Covers eligible medical expenses for the same condition up to 30 days before admission."
+      },
+      {
+        "name": "Post-hospitalization cover: 60 days",
+        "quote": "As Post-hospitalization Medical Expenses' during a period of 60 days immediately following the date of the Insured Person's discharge from Hospital,",
+        "reference": "Section 3.2(a)(ii) Benefit 2",
+        "explanation": "Covers eligible medical expenses for the same condition up to 60 days after discharge."
+      }
+    ],
+    "bad": [
+      {
+        "name": "Restore benefit: Not mentioned (assumed not covered)",
+        "quote": "Not found in the provided policy wording extract.",
+        "reference": "Mandatory feature check (Restore Benefit)",
+        "explanation": "No restore benefit: Sum Insured is NOT replenished after a claim (based on this extract)."
+      },
+      {
+        "name": "Consumables / non-medical items: Not covered (out-of-pocket)",
+        "quote": "Any item or condition or treatment specified in List of Non-Medical Items (Annexure – II to Policy Terms & Conditions).",
+        "reference": "Section 4.2(b)(i) + Annexure II (Non-medical items list)",
+        "explanation": "Consumables and many commonly billed hospital items (e.g., gloves, masks, syringes/kits etc. as per Annexure II) are generally not payable, leading to out-of-pocket खर्च."
+      },
+      {
+        "name": "Co-pay: Mandatory 20% for entry age >= 60 years (each and every claim)",
+        "quote": "The Policyholder shall bear 20% of the Final Claim Amount... *Entry Age means the age of the Insured Person at the time of issue of the first Policy... (b) The Co-payment shall be applicable to each and every Claim, for each Insured Person.",
+        "reference": "Section 6.2.2 Special Condition 2: Co-payment",
+        "explanation": "If entry age is 60+ (or eldest member 60+ in floater), you pay 20% of every admissible claim amount."
+      },
+      {
+        "name": "NCB / Renewal bonus: Optional cover forfeits on claim (resets to zero in effect)",
+        "quote": "Optional Cover – 1 : No Claim Bonanza... If the Policy is renewed... for three consecutive claim free Policy Years... provide 100%... (f) In the event of a Claim occurring during any Policy Period, the accrued No Claim Bonanza will not be available in subsequent renewal, but in no case shall the Sum Insured be reduced.",
+        "reference": "Optional Cover – 1: No Claim Bonanza, Clause 3.1 and 3.3(f)",
+        "explanation": "The bonus is not protected: a claim causes accrued bonanza to not be available at renewal (i.e., effectively resets to zero). Also it is an optional cover, not built-in."
+      },
+      {
+        "name": "Disease / procedure sub-limits: Present (policy allows sub-limits)",
+        "quote": "For diseases or conditions or procedure that have a specified sub-limit then all related expenses shall be covered up to the sub-limit specified for that disease or condition or procedure.",
+        "reference": "Section 6.1.6(I) Payment Terms",
+        "explanation": "The policy permits condition-wise sub-limits wherever specified (typically in the Policy Schedule/plan), which can restrict payouts even if overall Sum Insured is higher."
+      },
+      {
+        "name": "Modern / advanced treatments: Only listed methods covered (others excluded)",
+        "quote": "Expenses related to any kind of Advance Technology Methods other than mentioned in the Clause 3.1(d).",
+        "reference": "Section 4.2(b)(xxiv) Specific Exclusions",
+        "explanation": "Advanced technology methods are limited to the specific list in the policy. Treatments not in that list are excluded."
+      }
+    ],
+    "unclear": [
+      {
+        "name": "Co-pay applicability for entry age < 60 years: Not explicitly stated as 0% / no co-pay",
+        "quote": "Special Condition 2 : Co-payment... *Entry Age means the age of the Insured Person at the time of issue of the first Policy with the Company.",
+        "reference": "Section 6.2.2 Special Condition 2: Co-payment",
+        "explanation": "The extract clearly states 20% co-pay for entry age >=60, but does not explicitly state 'no co-pay/0%' for entry age below 60. Confirm from Policy Schedule whether any other co-pay applies."
+      },
+      {
+        "name": "Cashless network size: Not specified",
+        "quote": "Network Provider... For an updated list of Network Provider... can refer to the list of Network Provider available on the Company's website or at the call centre.",
+        "reference": "Section 6.1.2(a)(iv) Cashless",
+        "explanation": "Network hospital count is not provided in this wording extract; verify current network size on insurer website/app."
+      },
+      {
+        "name": "Exact Sum Insured and benefit limits (maternity, newborn, ambulance etc.): Not available without Policy Schedule",
+        "quote": "Any Benefit shall be available only if the same is specifically mentioned in the Policy Schedule... up to the amount specified against this Benefit in the Policy Schedule",
+        "reference": "Section 3 (General Conditions) + Benefits 3.3/3.4/3.5/3.6",
+        "explanation": "Key payout caps depend on the Policy Schedule (e.g., maternity amount, newborn cover amount, ambulance limit). You must check your schedule for exact limits."
+      }
+    ]
+  },
+  "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
+}

@@ -1,0 +1,126 @@
+{
+  "policyName": "Care Supreme",
+  "insurer": "Care Health Insurance Limited",
+  "sumInsured": "As per Policy Schedule (not specified in provided extract)",
+  "policyType": "Not specified",
+  "documentType": "Policy Wording",
+  "summary": {
+    "great": 7,
+    "good": 6,
+    "bad": 3,
+    "unclear": 1
+  },
+  "features": {
+    "great": [
+      {
+        "name": "Room rent: No limit (default base policy)",
+        "quote": "The eligible Room Rent or Room Category applicable for the Insured Person under the Policy is 'No limit', which means that there is no separate restriction on Room Charges incurred towards stay during Hospitalization",
+        "reference": "Clause 3.1.1(ix)(i), page 18",
+        "explanation": "No room category/cost capping in the base policy, so you can choose any room without triggering room-rent based deductions."
+      },
+      {
+        "name": "ICU charges: No limit",
+        "quote": "Intensive Care Unit Charges (ICU Charges): The eligible ICU Charges applicable for the Insured Person under the Policy is 'No limit'",
+        "reference": "Clause 3.1.1(ix)(ii), page 18",
+        "explanation": "ICU room/bed charges are not separately capped."
+      },
+      {
+        "name": "Restore benefit: Unlimited Automatic Recharge (unlimited times; same illness allowed; after base+bonuses exhausted)",
+        "quote": "automatically make the re-instatement of up to the base Sum Insured unlimited times in a policy year... Recharge amount can be utilized for same illness as well as different Illnesses.",
+        "reference": "Clause 3.1.4, page 20",
+        "explanation": "A strong restore: once your base SI (and specified bonuses) is fully used, the policy restores up to base SI unlimited times in the same year, usable even for the same illness."
+      },
+      {
+        "name": "NCB/Renewal bonus: 50% per year and does NOT reduce on claims",
+        "quote": "enhance the Sum Insured by 50% flat, on a cumulative basis... (vi) In the event of a Claim there is no impact on the accrual of Cumulative Bonus.",
+        "reference": "Clause 3.1.3, page 19",
+        "explanation": "Your Sum Insured grows by 50% each claim-free year (up to 100% cap) and continues accruing even if you claim—this is better than typical NCBs that reduce/reset after claims."
+      },
+      {
+        "name": "Built-in additional Sum Insured buffer: Cumulative Bonus is payable over base SI (increases available cover)",
+        "quote": "For any single Claim during a Policy Year, the maximum Claim amount payable shall be sum total of Sum Insured, Cumulative Bonus , Cumulative Bonus Super (if applicable), Plus Benefit (if applicable), Unlimited Care (if applicable).",
+        "reference": "General Conditions, Clause 3(II), page 14",
+        "explanation": "The policy can pay beyond base Sum Insured using accrued/additional benefits. This provides extra protection above the base SI (amount depends on what you accrue/opt)."
+      },
+      {
+        "name": "Domiciliary hospitalization covered",
+        "quote": "The Company will indemnify the Insured Person... for the Medical Expenses incurred towards Domiciliary Hospitalization",
+        "reference": "Clause 3.1.1(vii), page 17",
+        "explanation": "Home treatment can be covered when it meets policy conditions (e.g., >3 consecutive days), which is a useful broader coverage feature."
+      },
+      {
+        "name": "Cashless + reimbursement available for hospitalization (base benefit)",
+        "quote": "The Company will indemnify the Insured Person for Medical Expenses incurred towards Hospitalization through Cashless or Reimbursement Facility",
+        "reference": "Clause 3.1.1(i), page 15",
+        "explanation": "You can use cashless at network hospitals or claim reimbursement, as per admissibility."
+      }
+    ],
+    "good": [
+      {
+        "name": "PED waiting period: 36 months",
+        "quote": "excluded until the expiry of 36 months of continuous coverage after the date of inception of the first policy with insurer.",
+        "reference": "Clause 4.1(a)(i)(a), page 32",
+        "explanation": "3-year PED waiting is within normal market range (not a red flag)."
+      },
+      {
+        "name": "Specific illness (Named Ailment) waiting period: 24 months",
+        "quote": "excluded until the expiry of 24 months of continuous coverage",
+        "reference": "Clause 4.1(a)(ii)(a), page 32-33",
+        "explanation": "2-year waiting for listed ailments/procedures is standard."
+      },
+      {
+        "name": "Initial waiting period: 30 days",
+        "quote": "Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident",
+        "reference": "Clause 4.1(a)(iii)(a), page 34",
+        "explanation": "Standard 30-day initial waiting (accidents covered)."
+      },
+      {
+        "name": "Pre-hospitalization cover: 60 days",
+        "quote": "For a period of 60 days immediately prior to the Insured Person's date of admission to the Hospital",
+        "reference": "Clause 3.1.1(iv)(i), page 16",
+        "explanation": "Covers eligible pre-hospitalization expenses for 60 days (standard range)."
+      },
+      {
+        "name": "Post-hospitalization cover: 180 days",
+        "quote": "For a period of 180 days immediately after the Insured Person's date of discharge from the hospital",
+        "reference": "Clause 3.1.1(v)(i), page 17",
+        "explanation": "Covers eligible post-hospitalization expenses for 180 days (standard upper end; GREAT requires >180 days)."
+      },
+      {
+        "name": "Air ambulance available (optional benefit)",
+        "quote": "The Company will indemnify the Insured Person up to the amount as specified in Policy Schedule , for the Reasonable and Customary Charges necessarily incurred on availing Air Ambulance services",
+        "reference": "Clause 3.2.14, page 29-30",
+        "explanation": "Air ambulance is available if you opt it and within the limit shown in your schedule."
+      }
+    ],
+    "bad": [
+      {
+        "name": "Consumables not covered by default (unless Claim Shield optional benefit is taken)",
+        "quote": "Any item or condition or treatment specified in List of Non-Medical Items (Annexure – I to Policy Terms & Conditions).",
+        "reference": "Clause 4.2(1), page 37 and Annexure I (List I – Optional Items) pages 58-59",
+        "explanation": "Items like gloves, masks, nebulisation kits, etc. are listed as non-medical/excluded, meaning they are typically out-of-pocket unless covered via an optional benefit like 'Claim Shield'."
+      },
+      {
+        "name": "Disease/procedure sub-limits are allowed if specified in the schedule (potential cap)",
+        "quote": "For diseases or conditions or procedure that have a specified sub-limit then all related expenses shall be covered up to the sub-limit specified for that disease or condition or procedure.",
+        "reference": "Clause 6.1.7(h), page 57-58",
+        "explanation": "The wording allows condition-wise sub-limits (if any are chosen/mentioned in your schedule). Sub-limits reduce effective coverage for that condition."
+      },
+      {
+        "name": "Domiciliary hospitalization: major common chronic conditions excluded",
+        "quote": "Any Medical Expenses incurred for the treatment in relation to any of the following diseases shall not be payable under this Benefit : 1. Asthma; ... 5. Diabetes Mellitus and Diabetes Insipidus; ... 7. Hypertension; ...",
+        "reference": "Clause 3.1.1(vii)(v), page 17-18",
+        "explanation": "Even though domiciliary hospitalization is covered, many common conditions (diabetes, hypertension, asthma, etc.) are not payable under the domiciliary benefit."
+      }
+    ],
+    "unclear": [
+      {
+        "name": "Co-pay (base policy): not explicitly stated unless an optional benefit/discount cover is chosen",
+        "quote": "The Co-payment proportion ( If opted ) shall be borne by the Insured Person on each Claim...",
+        "reference": "General Conditions, Clause 4, page 14 and Optional Benefit 3.2.7, page 24-25",
+        "explanation": "The document defines co-pay and mentions it applies if opted, but does not clearly state whether the default/base plan has 0% co-pay. Confirm from your Policy Schedule whether any co-pay is selected (and the percentage)."
+      }
+    ]
+  },
+  "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
+}

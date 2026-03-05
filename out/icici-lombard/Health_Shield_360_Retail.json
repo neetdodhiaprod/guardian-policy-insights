@@ -1,0 +1,138 @@
+{
+  "policyName": "Health Shield 360 Retail",
+  "insurer": "ICICI Lombard General Insurance Company Limited",
+  "sumInsured": "Annual Sum Insured as per Policy Schedule (not provided in extract)",
+  "policyType": "Not specified",
+  "documentType": "Policy Wording",
+  "summary": {
+    "great": 4,
+    "good": 8,
+    "bad": 5,
+    "unclear": 2
+  },
+  "features": {
+    "great": [
+      {
+        "name": "Restore / Reset Benefit (covers same illness + unlimited for different illnesses)",
+        "quote": "We will reset up to 100% of the Annual Sum Insured, Once for same illness/disease/injury and Unlimited times for different illness/disease/injury for the same Insured Person in a Policy Year",
+        "reference": "Section d.A.7 (Page 15)",
+        "explanation": "If your base sum insured is exhausted, the policy refills up to 100% once for the same illness and unlimited times for different illnesses in the same year (subject to conditions). This is stronger than standard restores that work only for unrelated illnesses."
+      },
+      {
+        "name": "Built-in additional Sum Insured buffer via Loyalty Bonus (over and above base SI; does not reduce on claim)",
+        "quote": "We will provide a Loyalty Bonus of 20% of expiring or renewed Annual Sum Insured (whichever is lower) at the end of each Policy Year... If the Insured Persons in the expiring Policy are covered on an individual basis... In the event of Claim... the credited Loyalty Bonus will not be reduced.",
+        "reference": "Section d.A.14 (Pages 25-26)",
+        "explanation": "Your available coverage can increase at renewal without extra premium, and the credited bonus is not reduced even if you claim later (as per the clause). This acts like an additional buffer over time."
+      },
+      {
+        "name": "Modern treatments / technological advancements covered",
+        "quote": "We will cover the Medical Expenses... for the below mentioned Technological advancements and Treatments... Robotic surgeries, Stem cell therapy: Hematopoietic stem cells for bone marrow transplant..., Deep Brain stimulation... Bronchical Thermoplasty, IONM",
+        "reference": "Section d.A.3 (Page 14)",
+        "explanation": "Coverage explicitly includes several modern procedures/advanced treatments, which are often restricted or absent in weaker plans."
+      },
+      {
+        "name": "Cashless claim processing timelines committed",
+        "quote": "We will respond within 1 hours of the actual receipt of such pre authorization request... grant final authorization within three hours of the receipt of discharge authorization request from the hospital.",
+        "reference": "Section g.I.1(A) (Page 52)",
+        "explanation": "The insurer commits to fast turnaround for cashless approvals/discharge authorization (as per this clause)."
+      }
+    ],
+    "good": [
+      {
+        "name": "Pre-existing disease (PED) waiting period: 12/24 months (plan dependent)",
+        "quote": "Expenses related to the treatment of a pre-existing Disease (PED)... shall be excluded until the expiry of 12/24 months (as per the plan opted) of continuous coverage",
+        "reference": "Exclusions e.i.1 (Page 37)",
+        "explanation": "PED waiting is 12 months (great) or 24 months (good) depending on the plan chosen—both are within acceptable market standards."
+      },
+      {
+        "name": "Specific disease/procedure waiting period: 24 months",
+        "quote": "Expenses related to the treatment of the listed Conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage",
+        "reference": "Exclusions e.i.2 (Pages 37-38)",
+        "explanation": "A 24-month specific-illness waiting period is standard in retail health insurance."
+      },
+      {
+        "name": "Initial waiting period: 30 days",
+        "quote": "Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident",
+        "reference": "Exclusions e.i.4 (Page 38)",
+        "explanation": "30-day initial waiting is standard."
+      },
+      {
+        "name": "Post-hospitalization covered (limit as per schedule)",
+        "quote": "We will cover the Post-hospitalization Medical Expenses... up to the limits as specified in the Policy Schedule",
+        "reference": "Section d.A.5 (Page 15)",
+        "explanation": "Post-hospital medical expenses are covered, but the number of days/limit depends on your policy schedule."
+      },
+      {
+        "name": "Pre-hospitalization covered (limit as per schedule)",
+        "quote": "We will cover the Pre-hospitalization Medical Expenses... up to the limits as specified in the Policy Schedule",
+        "reference": "Section d.A.4 (Page 14-15)",
+        "explanation": "Pre-hospital medical expenses are covered, but the number of days/limit depends on your policy schedule."
+      },
+      {
+        "name": "Domiciliary hospitalization covered (with minimum 3 days condition)",
+        "quote": "We will cover the Medical Expenses incurred in respect of the Domiciliary Hospitalization... provided that: i. The Domiciliary Hospitalization continues for at least 3 consecutive days",
+        "reference": "Section d.A.11 (Page 17)",
+        "explanation": "Home-based treatment qualifying as domiciliary hospitalization is covered if it continues for at least 3 consecutive days (subject to listed disease exclusions)."
+      },
+      {
+        "name": "Air ambulance covered (up to Annual Sum Insured; emergency-only conditions)",
+        "quote": "We will cover the expenses incurred on Air Ambulance services up to the Annual Sum Insured... It is for a life threatening emergency health conditions... Domestic Road Ambulance services cannot be provided.",
+        "reference": "Section d.A.9 (Page 16)",
+        "explanation": "Air ambulance is covered for life-threatening emergencies (subject to conditions and acceptance of inpatient claim)."
+      },
+      {
+        "name": "Optional covers/add-ons available (e.g., Maternity, Worldwide cover, Claim Protector, Sum Insured Protector, Super Loyalty Bonus)",
+        "quote": "Optional Covers available under the Policy: ... Maternity Cover & New Born Baby Cover ... Super Loyalty Bonus ... Sum Insured Protector ... Claim Protector ... Worldwide Cover",
+        "reference": "Policy Schedule section a.IX (Page 4) and Section d.B (Pages 27-37)",
+        "explanation": "The policy offers multiple optional covers that you can add by paying extra premium; restrictions inside these optional covers are a customer choice rather than a base-plan limitation."
+      }
+    ],
+    "bad": [
+      {
+        "name": "Consumables not fully covered (non-medical items excluded unless Claim Protector optional cover is opted)",
+        "quote": "medicines, drugs and consumables (other than those specified in the list of excluded expenses (non-medical) in Annexure I)",
+        "reference": "Section d.A.1(v) (Page 13) and Non Payables List (Pages 47-51)",
+        "explanation": "Many common hospital ‘consumables/non-medical’ items are excluded by default (Annexure/Non-payables). You may face out-of-pocket unless you opt for the optional 'Claim Protector' cover that pays non-payables for an admitted claim."
+      },
+      {
+        "name": "Room rent limit not stated in wording (only says room rent charges covered, but no category/limit mentioned here)",
+        "quote": "We will cover... i. Room Rent charges",
+        "reference": "Section d.A.1 (Page 13)",
+        "explanation": "The extract does not specify whether room rent is 'any room/no cap' or 'single private room' or has a rupee cap. Without the schedule/plan details, room-rent entitlement cannot be confirmed from this text."
+      },
+      {
+        "name": "No NCB / renewal bonus growth feature stated as 'NCB' (Loyalty Bonus exists but classical NCB not specified in mandatory format)",
+        "quote": "Loyalty Bonus means any increase or addition in the Sum Insured granted by the insurer without an associated increase in premium.",
+        "reference": "Definitions (Page 7) and Section d.A.14 (Page 25)",
+        "explanation": "The document describes 'Loyalty Bonus' (a renewal increase) rather than a standard 'NCB' structure. If your expectation is a classic NCB per year, it’s not described as such here (though Loyalty Bonus serves a similar purpose)."
+      },
+      {
+        "name": "Claim intimation delay can make claim inadmissible (reimbursement path)",
+        "quote": "The above information needs to be provided... within 10 days of Hospitalisation, failing which We will have the right to treat the Claim as inadmissible, as We may deem fit at Our sole discretion.",
+        "reference": "Section g.I.1(B)(i) (Page 53)",
+        "explanation": "If you miss the 10-day intimation timeline for reimbursement, the insurer reserves the right to reject the claim at its discretion."
+      },
+      {
+        "name": "Home Care Treatment requires prior approval; breach leads to no payout",
+        "quote": "Prior approval from Us has been taken... In case the Insured Person breaches the conditions of approval or fails to take the prior written approval from Company, we are not liable to settle any claim under this section.",
+        "reference": "Section d.A.12 (Page 18)",
+        "explanation": "Home care treatment is conditional on prior approval and (typically) cashless through empanelled providers; missing approval can result in complete denial under this section."
+      }
+    ],
+    "unclear": [
+      {
+        "name": "Co-pay (base plan) not explicitly stated",
+        "quote": "Co-Payment means a cost sharing requirement... the policyholder/insured will bear a specified percentage of the admissible claims amount.",
+        "reference": "Definitions (Page 7) and Exclusions intro (Page 37): \"...or Co-payment amount, if applicable and as specifically defined in the Policy Schedule\"",
+        "explanation": "The wording defines co-pay and says it may apply as per the Policy Schedule, but the base-plan co-pay percentage (if any) is not stated in the extract. Verify in your policy schedule/plan."
+      },
+      {
+        "name": "Pre- and post-hospitalization day limits not stated (schedule dependent)",
+        "quote": "up to the limits as specified in the Policy Schedule",
+        "reference": "Section d.A.4 and d.A.5 (Pages 14-15)",
+        "explanation": "The benefit exists, but the exact number of covered days/amount is not visible in the provided pages—check the policy schedule or key information sheet."
+      }
+    ]
+  },
+  "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
+}

@@ -1,0 +1,101 @@
+{
+  "policyName": "Star Assure",
+  "insurer": "Star Health and Allied Insurance Company Limited",
+  "sumInsured": "₹5 Lakhs to ₹2 Crore (as per Schedule of Benefits)",
+  "policyType": "Not specified",
+  "documentType": "Policy Wording",
+  "summary": {
+    "great": 2,
+    "good": 9,
+    "bad": 2,
+    "unclear": 0
+  },
+  "features": {
+    "great": [
+      {
+        "name": "Restore Benefit (Unlimited; can be used for same/different illness for subsequent hospitalization)",
+        "quote": "Automatic Restoration of Sum Insured: The policy provides automatic restoration of sum insured... Sum Insured will be restored unlimited number of times and maximum up to 100% each time... The restoration will trigger immediately upon partial/ full utilization of the sum insured... The Restored Sum Insured can be used for all claims including for modern treatment, but for a subsequent hospitalization.",
+        "reference": "Coverage, Clause 27 (Automatic Restoration of Sum Insured) (pages 5-6)",
+        "explanation": "Best-in-class restore: your Sum Insured gets replenished unlimited times (up to 100% each trigger) after it’s used, for subsequent hospitalizations (including same illness) within the policy year."
+      },
+      {
+        "name": "Consumables covered (Non-medical items list payable)",
+        "quote": "Coverage for Non-medical Items (Consumables): If there is an admissible claim under inpatient / day care the policy, then Items as per List I will become payable",
+        "reference": "Coverage, Clause 5 (page 3) + LIST I — ITEMS FOR WHICH COVERAGE IS AVAILABLE IN THE POLICY (pages 13-14)",
+        "explanation": "Consumables (commonly out-of-pocket) are covered as per the policy’s List I when your inpatient/day care claim is admissible."
+      }
+    ],
+    "good": [
+      {
+        "name": "Room Rent (Default): Any room (except suite/above) / 1% per day at ₹5L SI",
+        "quote": "Room, Boarding and Nursing charges: Up to 1% of Sum Insured per day (5 lacs)... Any Room (Except suite or above category) (10/15/20/25 lacs)... Any room (50/75/1 Crore/2 Crore)",
+        "reference": "Schedule of Benefits, S.No. 1 Room, Boarding and Nursing charges (page 15)",
+        "explanation": "Default room entitlement is largely ‘Any room’ (best practical flexibility). Note: at ₹5L SI it is capped at 1% of SI per day; for higher SIs it is Any Room (except suite/above)."
+      },
+      {
+        "name": "PED Waiting Period (36 months for 1 & 2 year term; 30 months for 3 year term)",
+        "quote": "Applicable for 1 year and 2 year policy term: ... excluded until the expiry of 36 months of continuous coverage... Applicable for 3 year policy term: ... excluded until the expiry of 30 months of continuous coverage",
+        "reference": "Exclusions > Pre-Existing Diseases (Code Excl 01) (page 8)",
+        "explanation": "Pre-existing diseases are covered after 36 months (or 30 months if 3-year policy term), which is within the acceptable 2–4 year range."
+      },
+      {
+        "name": "Specific Illness Waiting Period (24 months)",
+        "quote": "Expenses related to the treatment of the listed Conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the ﬁrst policy with us.",
+        "reference": "Exclusions > Specified disease/procedure waiting period (Code Excl 02) (page 8)",
+        "explanation": "Standard 24-month waiting for listed specific illnesses/procedures."
+      },
+      {
+        "name": "Initial Waiting Period (30 days)",
+        "quote": "Expenses related to the treatment of any illness within 30 days from the ﬁrst policy commencement date shall be excluded except claims arising due to an accident",
+        "reference": "Exclusions > 30-day waiting period (Code Excl 03) (page 9)",
+        "explanation": "Standard initial waiting period of 30 days for illnesses (accidents covered from day 1)."
+      },
+      {
+        "name": "Pre-hospitalization cover (60 days)",
+        "quote": "Pre-hospitalization Expenses: Medical expenses incurred up to 60 days immediately before the insured person is hospitalized.",
+        "reference": "Coverage, Clause 8 (page 3) / Schedule of Benefits S.No.5 (page 15)",
+        "explanation": "Covers eligible medical expenses for 60 days before hospitalization (industry standard)."
+      },
+      {
+        "name": "Post-hospitalization cover (180 days)",
+        "quote": "Post Hospitalization Expenses: Medical expenses incurred up to 180 days immediately after the insured person is discharged from the hospital.",
+        "reference": "Coverage, Clause 9 (page 3) / Schedule of Benefits S.No.6 (page 15)",
+        "explanation": "Covers eligible medical expenses for 180 days after discharge (industry standard)."
+      },
+      {
+        "name": "NCB / Cumulative Bonus (25% per claim-free year up to 100%; can reduce to nil if fully used)",
+        "quote": "Cumulative Bonus: ... calculated at 25% of sum insured for each claim free year and maximum up to 100%... In the event of a claim resulting in... Full utilization of Sum Insured and full utilization of cumulative bonus accrued, the cumulative bonus on renewal will be “nil”",
+        "reference": "Coverage, Clause 26 (Cumulative Bonus) (page 5)",
+        "explanation": "Good bonus build-up (25% up to 100%), but it can reduce and can become nil if fully utilized—so it’s not a protected/non-resetting bonus."
+      },
+      {
+        "name": "Co-pay (10% for age at entry 61+ only)",
+        "quote": "This policy is subject to co-payment of 10% of each and every claim amount for fresh as well as renewal policies for insured person whose age at the time of entry is 61 years and above.",
+        "reference": "Coverage, Clause 30 (Co-payment) (page 7) / Schedule of Benefits S.No.29 (page 16)",
+        "explanation": "Standard senior-citizen co-pay: if your entry age is 61+, you pay 10% of each admissible claim."
+      },
+      {
+        "name": "Air Ambulance covered (up to 10% of Sum Insured per year)",
+        "quote": "Air Ambulance: Air ambulance expenses are payable... up to10% of sum insured per policy year",
+        "reference": "Coverage, Clause 7 (page 3) / Schedule of Benefits S.No.4 (page 15)",
+        "explanation": "Air ambulance is covered with a limit of 10% of Sum Insured per policy year (helpful add-on benefit within base plan)."
+      }
+    ],
+    "bad": [
+      {
+        "name": "Room rent cap at ₹5 Lakhs Sum Insured (1% of SI per day) may trigger proportionate deductions",
+        "quote": "Room, Boarding and Nursing charges: Up to 1% of Sum Insured per day... Note: Associated Medical expenses which vary based on the room occupied by the insured person will be considered in proportion to the room rent stated in the policy schedule or actuals whichever is less.",
+        "reference": "Schedule of Benefits S.No.1 (page 15) + Coverage Note under Clause 1 (page 3)",
+        "explanation": "At ₹5L SI, room rent is capped (1% of SI/day). If you take a higher room, proportionate deductions can apply to associated medical expenses (doctor fees, etc.). (For higher SIs with 'Any room', this issue reduces significantly.)"
+      },
+      {
+        "name": "Disease-specific sub-limit: Assisted Reproduction Treatment has fixed monetary caps",
+        "quote": "Assisted Reproduction Treatment (per policy year) 1,00,000/- (5 lacs) ... 2,00,000/- (10-25 lacs) ... 4,00,000/- (50 lacs and above)",
+        "reference": "Schedule of Benefits, S.No.15 (page 15)",
+        "explanation": "This is a specific treatment sub-limit (ART), meaning expenses beyond the cap are out-of-pocket even if Sum Insured is higher."
+      }
+    ],
+    "unclear": []
+  },
+  "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
+}

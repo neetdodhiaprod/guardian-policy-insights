@@ -1,0 +1,96 @@
+{
+  "policyName": "MyHealth Suraksha Platinum",
+  "insurer": "HDFC ERGO General Insurance Company Limited",
+  "sumInsured": "Not specified (as per Policy Schedule / Schedule of Coverage)",
+  "policyType": "Not specified",
+  "documentType": "Policy Wording",
+  "summary": {
+    "great": 1,
+    "good": 6,
+    "bad": 2,
+    "unclear": 3
+  },
+  "features": {
+    "great": [
+      {
+        "name": "Built-in Additional Sum Insured buffer for Major Illness (extra SI after base SI is exhausted) — Optional Cover",
+        "quote": "We will pay for Medical Expenses incurred and admissible under Section B-I-1,up to additional Sum Insured equivalent to Basic Sum Insured... Claim under this Cover is admissible only when total of Basic Sum Insuredis completely utilized.",
+        "reference": "Section B, III Optional Covers, 9. Major Illness Hospitalization Expenses (around page 16)",
+        "explanation": "If you opt this cover, you get an extra buffer equal to your Basic Sum Insured for listed major illnesses, usable only after your base SI is fully used up in the policy year."
+      }
+    ],
+    "good": [
+      {
+        "name": "PED waiting period: 48 months",
+        "quote": "Expenses related to the treatment of a pre-existing disease (PED) and its direct complications shall be excluded until the expiry of 48 months of continuous coverage after the date of inception of the first policy with insurer.",
+        "reference": "Section C, 1.I Waiting Periods, i) Pre-existing Diseases – Code – Excl01 (around page 19)",
+        "explanation": "Pre-existing diseases are covered after 4 years of continuous coverage (standard-to-good for many retail policies)."
+      },
+      {
+        "name": "Specified disease/procedure waiting period: 24 months",
+        "quote": "Expenses related to the treatment of the listed Conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first Policy with us.",
+        "reference": "Section C, 1.I Waiting Periods, ii) Specified Disease/Procedure waiting period – Code – Excl02 (around page 19)",
+        "explanation": "Listed conditions (e.g., cataract, hernia, tonsillectomy, etc.) are covered after 24 months—this is industry standard."
+      },
+      {
+        "name": "Initial waiting period: 30 days",
+        "quote": "Expenses related to the treatment of any illness within 30 days from the first Policy commencement date shall be excluded except claims arising due to an Accident",
+        "reference": "Section C, 1.I Waiting Periods, iii) 30-day waiting period – Code – Excl03 (around page 20)",
+        "explanation": "Non-accident illnesses in the first 30 days are not covered (standard in health insurance)."
+      },
+      {
+        "name": "Pre-hospitalization cover: 60 days",
+        "quote": "We will pay for the Pre-hospitalization Medical Expenses incurred during the 60 days immediately before Hospitalization",
+        "reference": "Section B, I Hospitalization Cover, 4. Pre-hospitalization cover (around page 10)",
+        "explanation": "Covers eligible medical expenses for up to 60 days before admission (standard)."
+      },
+      {
+        "name": "Post-hospitalization cover: 180 days",
+        "quote": "We will pay for the Post-HospitalizationMedical Expenses incurred upto180 days from the date Insured Person is discharged from Hospital",
+        "reference": "Section B, I Hospitalization Cover, 5. Post-Hospitalization cover (around page 10)",
+        "explanation": "Covers eligible medical expenses up to 180 days after discharge (standard)."
+      },
+      {
+        "name": "NCB / Cumulative Bonus: 5% per claim-free year up to 50% (reduces on claim)",
+        "quote": "On each Renewal of the Policy with Us, We will apply 5% of Basic Sum Insured... Cumulative Bonus will be reduced at the same rate as accrued in the event of admissible Claim... Cumulative Bonus can be accumulated upto 50% of Basic Sum Insured.",
+        "reference": "Section B, II Renewal Benefits, 2. Cumulative Bonus (around page 11)",
+        "explanation": "Your Sum Insured can grow by 5% each claim-free renewal up to 50%, but it reduces when you claim."
+      }
+    ],
+    "bad": [
+      {
+        "name": "Restore Benefit: Not found in document (assumed not covered)",
+        "quote": "Not found in provided policy wording excerpt.",
+        "reference": "Document review: Section B Benefits & Optional Covers (no restore/reinstatement/restoration clause found).",
+        "explanation": "No restore benefit: Sum Insured is NOT replenished after a claim (unless you buy a separate optional benefit like 'Sum Insured Rebound', which is not the same as standard restore)."
+      },
+      {
+        "name": "Consumables: Not covered by default (Non-medical items excluded unless optional 'Non-Medical Expenses cover' is opted)",
+        "quote": "Non-Medical expenses such as Food charges... laundry charges, attendant charges... Full list of Non-Medical expenses is attached... Annexure I - List of Non-Medical Expenses ... (includes) GLOVES ... NEBULISATION KIT ... ANY KIT WITH NO DETAILS MENTIONED...",
+        "reference": "Section C, 2.II Specific Permanent Exclusions, xii) Non-Medical expenses (around page 21) and Annexure I lists (around pages 32-34)",
+        "explanation": "Consumables/non-medical items (gloves, PPE-type disposables, kits, etc.) are typically out-of-pocket unless you opt the 'Non-Medical Expenses cover' add-on."
+      }
+    ],
+    "unclear": [
+      {
+        "name": "Room Rent limit (default): Not specified in the provided excerpt",
+        "quote": "Room rent, boarding and Nursing charges",
+        "reference": "Section B, I Hospitalization Cover, 1. Medical Expenses (around page 10)",
+        "explanation": "The base plan’s default room category/cap is not stated in the excerpt. The document only clearly lists a 'Room Rent Modification Option' (which caps room rent to 1% of SI, max ₹5,000/day) if you choose that option—verify the default room rent entitlement in your Policy Schedule/Schedule of Coverage."
+      },
+      {
+        "name": "Co-pay (base plan): Co-pay terms not explicitly stated; only definition + optional co-pay features and tier-based co-pay are described",
+        "quote": "Insured Person shall bear specified percentage of admissible Claim amount under each and every Claim If Co-payment is applicable",
+        "reference": "Section B, I Hospitalization Cover (appears repeatedly, around pages 10-11)",
+        "explanation": "The policy says co-pay applies 'if applicable' but does not state the default percentage for the base plan in the excerpt. Co-pay can also arise via (a) optional 'Co-Payment' cover and (b) Tier 2 premium with treatment in Tier 1 cities (20%). Confirm your co-pay from the Policy Schedule and premium tier selected."
+      },
+      {
+        "name": "Cashless hospital network size: Not specified",
+        "quote": "Cashless facility can be availed only at Our Network Provider. The complete list of Network Providers... is available on Our website",
+        "reference": "Section E, Claim Procedure, 'Conditions for obtaining Cashless facility' (around page 30)",
+        "explanation": "Network hospital count is not mentioned, only that the list is on the website. If network size is important, verify the current number of cashless hospitals for your city."
+      }
+    ]
+  },
+  "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
+}

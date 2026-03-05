@@ -1,0 +1,90 @@
+{
+  "policyName": "MyHealth Suraksha Gold",
+  "insurer": "HDFC ERGO General Insurance Company Limited",
+  "sumInsured": "Not specified (as per Policy Schedule / Schedule of Coverage)",
+  "policyType": "Not specified",
+  "documentType": "Policy Wording",
+  "summary": {
+    "great": 1,
+    "good": 4,
+    "bad": 3,
+    "unclear": 3
+  },
+  "features": {
+    "great": [
+      {
+        "name": "Built-in Additional Sum Insured buffer (Optional): Sum Insured Rebound",
+        "quote": "6. Sum Insured Rebound\nWe will add to the Sum Insured, an amount equivalent to the Claim amount paid under Basic Sum Insured,subject to maximum of Basic Sum Insured on subsequent Hospitalization of the Insured Person during Policy Year",
+        "reference": "Section B > III Optional Covers > 6. Sum Insured Rebound (page 15)",
+        "explanation": "If you opt this cover, the insurer adds extra Sum Insured after you use the base Sum Insured (acts like an additional buffer for subsequent hospitalizations in the same policy year), up to 100% of Basic Sum Insured."
+      }
+    ],
+    "good": [
+      {
+        "name": "Pre-hospitalization expenses",
+        "quote": "We will pay for the Pre-hospitalization Medical Expenses incurred during the 60 days immediately before Hospitalization of an Insured Person",
+        "reference": "Section B > I Hospitalization Cover > 4. Pre-hospitalization cover (page 10)",
+        "explanation": "Covers eligible medical expenses for 60 days before admission (standard/good in the market)."
+      },
+      {
+        "name": "Post-hospitalization expenses",
+        "quote": "We will pay for the Post-HospitalizationMedical Expenses incurred upto180 days from the date Insured Person is discharged from Hospital",
+        "reference": "Section B > I Hospitalization Cover > 5. Post-Hospitalization cover (page 10)",
+        "explanation": "Covers eligible medical expenses up to 180 days after discharge (good/standard)."
+      },
+      {
+        "name": "PED (Pre-existing disease) waiting period: 48 months",
+        "quote": "Expenses related to the treatment of a pre-existing disease (PED) and its direct complications shall be excluded until the expiry of 48 months of continuous coverage after the date of inception of the first policy with insurer.",
+        "reference": "Section C > 1.I Waiting Periods > i) Pre-existing Diseases – Code – Excl01 (page 19)",
+        "explanation": "PEDs are covered after 48 months of continuous coverage (this is still considered standard/good as per your rules; only >48 months is a red flag)."
+      },
+      {
+        "name": "Specific disease/procedure waiting period: 24 months",
+        "quote": "Expenses related to the treatment of the listed Conditions, surgeries/treatmentsshall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first Policy with us.",
+        "reference": "Section C > 1.I Waiting Periods > ii) Specified Disease/Procedure waiting period – Code – Excl02 (page 19)",
+        "explanation": "Listed specified illnesses/procedures are covered after 24 months (industry standard)."
+      }
+    ],
+    "bad": [
+      {
+        "name": "Restore benefit: Not mentioned (assumed not covered)",
+        "quote": "Restore benefit not found in the provided policy wording extract.",
+        "reference": "Not found in provided document text",
+        "explanation": "No restore benefit: Sum Insured is NOT replenished after a claim (unless you opt for separate features like Sum Insured Rebound, which is an optional cover and not the default restore)."
+      },
+      {
+        "name": "Consumables: Not mentioned as covered (assumed not covered as a separate benefit)",
+        "quote": "Consumables benefit / consumables cover not found as a separate explicit coverage (only listed under medical expenses generally).",
+        "reference": "Not found as a specific consumables cover in provided text",
+        "explanation": "Consumables not covered: gloves, syringes, PPE kits etc. are out-of-pocket unless the insurer specifically covers them via an add-on/benefit. This wording does not explicitly confirm consumables are covered without exclusion impact."
+      },
+      {
+        "name": "NCB / Renewal Bonus reduces on claim (Cumulative Bonus reduces at same rate as accrued)",
+        "quote": "Cumulative Bonuswill be reduced at the same rate as accrued in the event of admissible Claim under Section B-I of the Policy.",
+        "reference": "Section B > II Renewal Benefits > 2. Cumulative Bonus (page 11)",
+        "explanation": "The renewal bonus (cumulative bonus) is not protected on claims; it reduces when you claim (many better policies protect the bonus from reducing to encourage claims)."
+      }
+    ],
+    "unclear": [
+      {
+        "name": "Room rent limit (default plan)",
+        "quote": "Room rent, boarding and Nursing charges",
+        "reference": "Section B > I Hospitalization Cover > 1. Medical Expenses (page 10)",
+        "explanation": "The default room rent eligibility/capping is not stated in the provided extract. There is a separate optional 'Room Rent Modification Option' that introduces a cap, but the base plan room rent limit needs verification from the Policy Schedule/Schedule of Coverage."
+      },
+      {
+        "name": "Co-pay (default plan) not explicitly stated",
+        "quote": "Insured Person shall bear specified percentage of admissible Claim amount under each and every Claim If Co-payment is applicable",
+        "reference": "Section B > I Hospitalization Cover (repeated across benefits, pages 10-11)",
+        "explanation": "Co-pay terms not explicitly stated in policy wording for the base plan—verify if co-pay applies by default and the exact percentage in the Policy Schedule/Schedule of Coverage. (There is an optional 'Co-Payment' cover, but base applicability is unclear.)"
+      },
+      {
+        "name": "Initial waiting period (30 days) - applicability may vary by continuous coverage exception",
+        "quote": "30-day waiting period – Code – Excl03\nExpenses related to the treatment of any illness within 30 days from the first Policy commencement date shall be excluded except claims arising due to an Accident... This exclusion shall not, however, apply if the Insured Person has continuous coverage for more than twelve months.",
+        "reference": "Section C > 1.I Waiting Periods > iii) 30-day waiting period – Code – Excl03 (page 20)",
+        "explanation": "The standard initial waiting is 30 days, but the clause also says it won't apply if the insured has continuous coverage for more than 12 months—confirm how the insurer operationalizes this (especially for renewals/port-ins)."
+      }
+    ]
+  },
+  "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
+}

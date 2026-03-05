@@ -1,0 +1,126 @@
+{
+  "policyName": "Optima Super Secure",
+  "insurer": "HDFC ERGO General Insurance Company Limited",
+  "sumInsured": "Plan-dependent. Annexure C shows Base Sum Insured options (e.g., Optima Secure: 5/10/15/20/25/50/100/200 Lakhs). Final Sum Insured as per Policy Schedule.",
+  "policyType": "Not specified",
+  "documentType": "Policy Wording",
+  "summary": {
+    "great": 7,
+    "good": 8,
+    "bad": 1,
+    "unclear": 1
+  },
+  "features": {
+    "great": [
+      {
+        "name": "Room rent (default): No capping (At Actuals)",
+        "quote": "Room rent limit shall be ‘At Actuals’ unless otherwise specified in the Policy Schedule.",
+        "reference": "Section B.1.1(a), Page 11",
+        "explanation": "By default, the policy pays room rent at actuals (no room-rent cap). Some plan variants in Annexure C may have different room limits, but the default wording is ‘At Actuals’."
+      },
+      {
+        "name": "ICU/ICCU charges: No capping (At Actuals)",
+        "quote": "ICU limit (including ICCU) for bed charges shall be ‘At Actuals’ unless otherwise specified in the Policy Schedule.",
+        "reference": "Section B.1.1(b), Page 11",
+        "explanation": "ICU/ICCU bed charges are covered at actuals by default, unless your schedule states otherwise."
+      },
+      {
+        "name": "Restore benefit: Covers same illness (Automatic Restore Benefit)",
+        "quote": "The restored Sum Insured can be used even for the same illness for which an admissible claim has been paid during the Policy Year and also for any other Illness covered under the Policy.",
+        "reference": "Section B.2.6 (vi), Page 18",
+        "explanation": "Restore can be used for the same illness in the same policy year (better than many policies that restrict restore to unrelated illnesses only)."
+      },
+      {
+        "name": "Built-in additional Sum Insured buffer: Secure Benefit (kicks in after base SI is exhausted)",
+        "quote": "The Secure Benefit will be applicable only after exhaustion of Base Sum Insured.",
+        "reference": "Section B.2.5(c), Page 17",
+        "explanation": "An extra buffer becomes available after you exhaust Base Sum Insured, improving protection for large claims (amount depends on plan/policy schedule)."
+      },
+      {
+        "name": "Renewal bonus that does NOT reset on claims: Plus Benefit (50% per year, irrespective of claims) (if in force)",
+        "quote": "On Renewal... a sum equal to 50% of the Base Sum Insured... will be added... This Cover will be applied irrespective of number of claims made under the expiring Policy.",
+        "reference": "Section B.2.4, Page 16-17",
+        "explanation": "If Plus Benefit is in force for your plan, your Sum Insured grows on renewal even if you claimed in the previous year (non-resetting style benefit)."
+      },
+      {
+        "name": "Emergency air ambulance covered (if opted / as per plan)",
+        "quote": "The Company shall indemnify expenses incurred... towards Ambulance transportation in an airplane or helicopter for Emergency Care...",
+        "reference": "Section B.2.1, Page 15",
+        "explanation": "Air ambulance is available (limit as per policy schedule/plan chart), which is a valuable benefit for critical emergencies."
+      },
+      {
+        "name": "Bariatric surgery covered (subject to IRDAI-standard conditions)",
+        "quote": "Expenses related to the surgical treatment of obesity that does not fulfil all the below conditions:",
+        "reference": "Section C.2(c) Obesity/Weight control, Page 30-31",
+        "explanation": "This implies bariatric/obesity surgery is covered when the specified medical criteria are met (many policies exclude it completely)."
+      }
+    ],
+    "good": [
+      {
+        "name": "PED waiting period: 36 months (standard-good)",
+        "quote": "Expenses related to the treatment of a pre-existing disease (PED)... shall be excluded until the expiry of 36 months (Unless specified otherwise in the Policy Schedule) of continuous coverage...",
+        "reference": "Section C.1(a)(i), Page 28",
+        "explanation": "Pre-existing diseases are covered after 36 months of continuous coverage (this is within the acceptable 2–4 year band)."
+      },
+      {
+        "name": "Specific disease/procedure waiting period: 24 months",
+        "quote": "Expenses related to the treatment of the listed Conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage...",
+        "reference": "Section C.1(b)(i), Page 28",
+        "explanation": "Listed illnesses/procedures (like cataract, hernia, piles etc.) are covered after 24 months, which is standard."
+      },
+      {
+        "name": "Initial waiting period: 30 days (standard)",
+        "quote": "Expenses related to the treatment of any illness within 30 days from the first Policy commencement date shall be excluded except claims arising due to an accident...",
+        "reference": "Section C.1(c)(i), Page 29",
+        "explanation": "A standard 30-day initial waiting applies for illnesses (accidents covered immediately)."
+      },
+      {
+        "name": "Pre-hospitalization: 60 days",
+        "quote": "Such expenses shall be indemnified if the same were incurred upto 60 days unless otherwise specified in the Policy Schedule, immediately prior to the date of admission.",
+        "reference": "Section B.1.5, Page 12-13",
+        "explanation": "Pre-hospitalization is covered up to 60 days (standard-good). (Note: Optima Lite variant shows 30 days in Annexure C.)"
+      },
+      {
+        "name": "Post-hospitalization: 180 days",
+        "quote": "Such expenses shall be indemnified if the same were incurred upto 180 days unless otherwise specified in the Policy Schedule, immediately post the date of discharge from the Hospital.",
+        "reference": "Section B.1.6, Page 13",
+        "explanation": "Post-hospitalization is covered up to 180 days (standard-good). (Note: Optima Lite variant shows 60 days in Annexure C.)"
+      },
+      {
+        "name": "Domiciliary hospitalization covered",
+        "quote": "The Company shall indemnify the Medical Expenses incurred during the Policy Year on Domiciliary Hospitalization...",
+        "reference": "Section B.1.3, Page 12",
+        "explanation": "Home-based treatment that would otherwise require hospitalization is covered under domiciliary hospitalization, subject to conditions."
+      },
+      {
+        "name": "AYUSH inpatient treatment covered (subject to sub-limit in schedule)",
+        "quote": "The Company shall indemnify the Medical Expenses incurred... for Inpatient Care under Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homeopathy... up to the Sub-limit specified...",
+        "reference": "Section B.1.4, Page 12",
+        "explanation": "AYUSH inpatient treatment is covered, subject to the plan’s sub-limit in your policy schedule."
+      },
+      {
+        "name": "Consumables: allowable consumables included (base hospitalization)",
+        "quote": "Intravenous fluids, blood transfusion, surgical appliances, allowable consumables and/or enteral feedings.",
+        "reference": "Section B.1.1(f), Page 11",
+        "explanation": "The policy includes ‘allowable consumables’ within hospitalization expenses; however, many non-medical items remain excluded unless Protect Benefit is in force."
+      }
+    ],
+    "bad": [
+      {
+        "name": "No NCB / Renewal Bonus in base plan (depends on plan; assume not covered if not in schedule)",
+        "quote": "Cumulative Bonus shall be available only if the Cover is specified to be applicable in the Policy Schedule.",
+        "reference": "Section B.1 Base Coverage intro, Page 11",
+        "explanation": "A standard NCB is not guaranteed unless your Policy Schedule/plan includes it. If your plan doesn’t include CB/Plus Benefit, your Sum Insured may not grow automatically at renewal."
+      }
+    ],
+    "unclear": [
+      {
+        "name": "Co-pay (co-payment) terms not explicitly stated",
+        "quote": "Def. 8. Co-Payment means a cost sharing requirement under a health insurance policy...",
+        "reference": "Definitions, Def. 8, Page 3",
+        "explanation": "The wording defines co-pay but does not clearly state whether any co-pay applies by default (or only via optional covers/schedule). Confirm co-pay (if any) from the Policy Schedule."
+      }
+    ]
+  },
+  "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
+}

@@ -1,0 +1,120 @@
+{
+  "policyName": "Senior First Gold",
+  "insurer": "Niva Bupa Health Insurance Company Limited",
+  "sumInsured": "Not specified (as per Policy Schedule)",
+  "policyType": "Senior",
+  "documentType": "Policy Wording",
+  "summary": {
+    "great": 2,
+    "good": 6,
+    "bad": 5,
+    "unclear": 3
+  },
+  "features": {
+    "great": [
+      {
+        "name": "Restore/Additional SI buffer: ReAssure (unlimited, after 1st paid claim)",
+        "quote": "The first paid claim triggers ReAssure, a benefit with unlimited sum insured.",
+        "reference": "Section 3.7 ReAssure",
+        "explanation": "Acts like an additional sum insured once your first claim is paid, helping cover future claims even after base SI is used (note: per-claim payout from ReAssure is capped at up to Base Sum Insured)."
+      },
+      {
+        "name": "Restore benefit covers subsequent claims including same illness (because ReAssure is not limited to unrelated illnesses in wording)",
+        "quote": "The first paid claim triggers ReAssure, a benefit with unlimited sum insured.",
+        "reference": "Section 3.7 ReAssure",
+        "explanation": "This is stronger than standard ‘restore’ because it provides an additional pool after the first paid claim, without restricting it only to unrelated illnesses in the provided text."
+      }
+    ],
+    "good": [
+      {
+        "name": "PED waiting period: 24 months",
+        "quote": "Expenses related to the treatment of a Pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first Policy.",
+        "reference": "Section 5.1(I) Pre-existing Diseases (Code–Excl01)",
+        "explanation": "Pre-existing diseases are covered after 2 years of continuous coverage, which is standard."
+      },
+      {
+        "name": "Specific illness/procedure waiting period: 24 months",
+        "quote": "Expenses related to the treatment of the listed conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first Policy.",
+        "reference": "Section 5.1(II) Specified disease/procedure waiting period (Code- Excl02)",
+        "explanation": "The listed specific diseases are covered after 24 months; this is standard in the market."
+      },
+      {
+        "name": "Initial waiting period: 30 days",
+        "quote": "Expenses related to the treatment of any Illness within 30 days from the first Policy commencement date shall be excluded except claims arising due to an Accident",
+        "reference": "Section 5.1(III) 30-day waiting period (Code- Excl03)",
+        "explanation": "30-day initial waiting is standard (accidents covered immediately)."
+      },
+      {
+        "name": "Pre-hospitalization: 60 days",
+        "quote": "We will pay expenses incurred on consultations, medicines, diagnostic tests 60 days before date of admission",
+        "reference": "Section 3.3 Expenses before and after hospitalization (Pre & Post hospitalization)",
+        "explanation": "Covers eligible medical expenses for 60 days before admission (standard/good)."
+      },
+      {
+        "name": "Post-hospitalization: 180 days",
+        "quote": "and 180 days after date of discharge",
+        "reference": "Section 3.3 Expenses before and after hospitalization (Pre & Post hospitalization)",
+        "explanation": "Covers eligible medical expenses up to 180 days after discharge (upper end of standard)."
+      },
+      {
+        "name": "NCB/Renewal bonus: 10% per claim-free year up to 100% (but claim impact not specified here)",
+        "quote": "For every claim free year, we will add 10% of expiring policy base sum insured as NCB, maximum up to 100%.",
+        "reference": "Section 3.6 No Claim Bonus (NCB)",
+        "explanation": "Sum Insured can increase with claim-free renewals (10% per year up to 100%). Whether it reduces/resets on a claim is not stated in the excerpt."
+      }
+    ],
+    "bad": [
+      {
+        "name": "Room rent: Not stated in provided text (assumed not covered/available from document) — verify Policy Schedule",
+        "quote": "All applicable benefits and details are mentioned in your Policy Schedule.",
+        "reference": "Preamble",
+        "explanation": "Room rent eligibility (e.g., Any Room / Single AC / capping) is not provided here. Since it’s a core cost driver, treat as a gap and confirm from Policy Schedule."
+      },
+      {
+        "name": "Mandatory co-pay is very high by default (50% on admissible claim amount)",
+        "quote": "The default co-payment in the product is 50% which You can modify to 40% or 30% or 20% at inception of the first policy.",
+        "reference": "Section 4.1 Co-payment",
+        "explanation": "A 50% co-pay means you pay half of every admissible claim by default. Even if you can choose a lower co-pay at inception, this is still a major reduction in effective coverage."
+      },
+      {
+        "name": "Extra 10% co-pay if hospitalized in higher room category than eligible",
+        "quote": "You will have to bear additional 10% co-payment IF treatment is taken in higher room category than the eligible room category as specified in Your Policy Schedule",
+        "reference": "Section 4.1 Co-payment (Note b)",
+        "explanation": "If you choose a room above eligibility, you bear an additional 10% co-pay, increasing out-of-pocket."
+      },
+      {
+        "name": "Consumables not covered (out-of-pocket for items like gloves, masks, kits, etc.)",
+        "quote": "Annexure I – The expenses that are not covered or subsumed into room charges / procedure charges / costs of treatment\nList  I – Expenses not covered ... 56 GLOVES ... 60 MASK ... 57 NEBULISATION KIT ... 58 ANY KIT WITH NO DETAILS MENTIONED",
+        "reference": "Annexure I – List I (Expenses not covered)",
+        "explanation": "Many common consumables and hospital items are listed as not covered, which can materially increase hospital bills paid by you."
+      },
+      {
+        "name": "Modern treatment sub-limit: Robotic surgeries capped at ₹1,00,000 per claim (with exceptions)",
+        "quote": "NOTE: A limit of maximum Rs. 1,00,000 per claim will apply to all robotic surgeries, except for total radical prostatectomy, cardiac surgeries, partial nephrectomy and surgeries for malignancies.",
+        "reference": "Section 3.2(b) Modern treatments",
+        "explanation": "A sub-limit on robotic surgeries can be restrictive because robotic procedures often cost significantly more than ₹1,00,000."
+      }
+    ],
+    "unclear": [
+      {
+        "name": "Co-pay terms after inception (whether 20/30/40/50% selected; and whether any 0% option exists)",
+        "quote": "The default co-payment in the product is 50% which You can modify to 40% or 30% or 20% at inception of the first policy.",
+        "reference": "Section 4.1 Co-payment",
+        "explanation": "The actual co-pay applicable to you depends on what was chosen at inception (and it cannot be changed later). Confirm your selected co-pay in the Policy Schedule."
+      },
+      {
+        "name": "NCB behavior on claim (reset/reduction) not stated in provided text",
+        "quote": "For every claim free year, we will add 10% of expiring policy base sum insured as NCB, maximum up to 100%.",
+        "reference": "Section 3.6 No Claim Bonus (NCB)",
+        "explanation": "It states how NCB accrues, but does not specify what happens to accumulated NCB after a claim (reduce/reset/fully protected). Confirm from full wording/schedule."
+      },
+      {
+        "name": "Cashless network size not specified",
+        "quote": "Cashless claim facility is available at our network hospitals ONLY. As list of network hospitals is dynamic, for the latest list, refer to our website www.nivabupa.com.",
+        "reference": "Section 6.2(X)(a) Claims",
+        "explanation": "The number of network hospitals is not mentioned here; network size impacts ease of cashless hospitalization."
+      }
+    ]
+  },
+  "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
+}

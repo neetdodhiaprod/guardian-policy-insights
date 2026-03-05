@@ -1,0 +1,120 @@
+{
+  "policyName": "Optima Secure Global Plus",
+  "insurer": "HDFC ERGO General Insurance Company Limited",
+  "sumInsured": "Base Sum Insured options (vary by plan): 5/7.5/10/15/20/25/50/75/100/200 Lakhs (as per Annexure C plan chart)",
+  "policyType": "Not specified",
+  "documentType": "Policy Wording",
+  "summary": {
+    "great": 8,
+    "good": 5,
+    "bad": 2,
+    "unclear": 1
+  },
+  "features": {
+    "great": [
+      {
+        "name": "Room rent: No limit (At Actuals) by default",
+        "quote": "Room rent limit shall be ‘At Actuals’ unless otherwise specified in the Policy Schedule.",
+        "reference": "Section B.1.1(a), Page 11",
+        "explanation": "Default room rent is paid at actuals (no category cap), which is best-in-class. Some sub-plans (e.g., Optima Select/Lite) may have different room limits as per Annexure C / Policy Schedule."
+      },
+      {
+        "name": "Built-in additional Sum Insured buffer: Secure Benefit (activates after Base SI exhausts)",
+        "quote": "The Secure Benefit will be applicable only after exhaustion of Base Sum Insured.",
+        "reference": "Section B.2.5(c), Page 17",
+        "explanation": "This is an extra pool of coverage available after you finish your Base Sum Insured—strong protection in large claims (amount as per Policy Schedule/plan)."
+      },
+      {
+        "name": "Restore Benefit: Automatic Restore covers same illness",
+        "quote": "The restored Sum Insured can be used even for the same illness for which an admissible claim has been paid during the Policy Year and also for any other Illness covered under the Policy.",
+        "reference": "Section B.2.6(vi), Page 18",
+        "explanation": "Restore is usable even for the same illness, which is superior to many policies that restrict restore to unrelated illnesses."
+      },
+      {
+        "name": "Pre-hospitalization expenses: 60 days",
+        "quote": "Such expenses shall be indemnified if the same were incurred upto 60 days unless otherwise specified in the Policy Schedule, immediately prior to the date of admission.",
+        "reference": "Section B.1.5, Page 13",
+        "explanation": "60 days of pre-hospitalization cover is at the high end of standard coverage."
+      },
+      {
+        "name": "Post-hospitalization expenses: 180 days",
+        "quote": "Such expenses shall be indemnified if the same were incurred upto 180 days unless otherwise specified in the Policy Schedule, immediately post the date of discharge from the Hospital.",
+        "reference": "Section B.1.6, Page 13",
+        "explanation": "180 days of post-hospitalization cover is strong and helps with longer recoveries/medicines/follow-ups."
+      },
+      {
+        "name": "NCB/Renewal Bonus: Plus Benefit (50% each year) does not reset on claims",
+        "quote": "This Cover will be applied irrespective of number of claims made under the expiring Policy.",
+        "reference": "Section B.2.4(c), Page 16",
+        "explanation": "Non-resetting renewal bonus is best-in-class because your accrued increase is not lost due to claims (availability depends on plan/Policy Schedule; Annexure C shows Plus Benefit for Optima Secure and some plans)."
+      },
+      {
+        "name": "Specific illness waiting period: 24 months (standard)",
+        "quote": "Expenses related to the treatment of the listed Conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first Policy with us.",
+        "reference": "Section C.1(b)(i), Page 28",
+        "explanation": "A 24-month specific disease/procedure waiting period is standard and acceptable."
+      },
+      {
+        "name": "Air ambulance covered (optional cover; plan-based)",
+        "quote": "The Company shall indemnify expenses incurred by the Insured Person during the Policy Year towards Ambulance transportation in an airplane or helicopter for Emergency Care...",
+        "reference": "Section B.2.1, Page 15",
+        "explanation": "Air ambulance is covered if this optional benefit is in force as per your Policy Schedule/plan (Annexure C shows coverage up to ₹5,00,000 for several plans)."
+      }
+    ],
+    "good": [
+      {
+        "name": "Initial waiting period: 30 days",
+        "quote": "Expenses related to the treatment of any illness within 30 days from the first Policy commencement date shall be excluded except claims arising due to an accident, provided the same are covered.",
+        "reference": "Section C.1(c)(i), Page 29",
+        "explanation": "30-day initial waiting is standard across health insurance."
+      },
+      {
+        "name": "PED waiting period: 36 months",
+        "quote": "Expenses related to the treatment of a pre-existing disease (PED) and its direct complications shall be excluded until the expiry of 36 months (Unless specified otherwise in the Policy Schedule) of continuous coverage...",
+        "reference": "Section C.1(a)(i), Page 28",
+        "explanation": "36 months PED waiting is within normal industry range (not a red flag). There is also an optional PED waiting period modification (to 24/12 months) as per Policy Schedule/channel."
+      },
+      {
+        "name": "Domiciliary hospitalization covered",
+        "quote": "The Company shall indemnify the Medical Expenses incurred during the Policy Year on Domiciliary Hospitalization...",
+        "reference": "Section B.1.3, Page 12",
+        "explanation": "Coverage for eligible treatment taken at home when hospitalization isn’t feasible is a useful standard feature."
+      },
+      {
+        "name": "AYUSH inpatient treatment covered (up to sub-limit as per schedule)",
+        "quote": "The Company shall indemnify the Medical Expenses incurred by the Insured Person only for Inpatient Care under Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homeopathy systems of medicines... up to the Sub-limit specified against this Cover in the Policy Schedule",
+        "reference": "Section B.1.4, Page 12",
+        "explanation": "AYUSH inpatient cover is provided, but is subject to the sub-limit in the Policy Schedule."
+      },
+      {
+        "name": "Optional add-ons available (flexibility)",
+        "quote": "‘my: Optima Secure’ offers following Add on Covers: 1. my: health Critical Illness Add On... 2. my: health Hospital Cash Benefit Add On... 4. Unlimited Restore (Add on)... 5. Optima Wellbeing (Add on)...",
+        "reference": "Annexure C (Add on – Covers), Pages 52-53",
+        "explanation": "Add-ons allow customization (critical illness lump sum, hospital cash, unlimited restore, OPD package etc.) if you choose to buy them."
+      }
+    ],
+    "bad": [
+      {
+        "name": "Consumables not covered by default (unless Protect Benefit is opted/included)",
+        "quote": "Annexure B- Items for which Coverage is not available in the Policy (Non-Medical Expenses)... 56 GLOVES ... 60 MASK ...",
+        "reference": "Annexure B, Pages 49-50; Section B.2.3 Protect Benefit, Page 15-16",
+        "explanation": "Many common hospital consumables/non-medical items are excluded, leading to out-of-pocket costs. Protect Benefit can cover non-medical expenses only if it is in force as per your plan/Policy Schedule."
+      },
+      {
+        "name": "NCB/Cumulative Bonus not available in Optima Secure plan chart (plan-dependent)",
+        "quote": "1.8 Cumulative Bonus ... Optima Secure: Not Covered",
+        "reference": "Annexure C - Plan Chart, Page 51",
+        "explanation": "The plan chart shows Cumulative Bonus (CB) is not covered under the Optima Secure plan (it exists in some other plans like Optima Suraksha/Select/Lite). This reduces renewal-based SI growth unless you rely on Plus Benefit (if in force)."
+      }
+    ],
+    "unclear": [
+      {
+        "name": "Co-pay status (default) not explicitly stated",
+        "quote": "Co-Payment means a cost sharing requirement under a health insurance policy that provides that the policyholder/insured will bear a specified percentage of the admissible claims amount.",
+        "reference": "Definition Def. 8, Page 3",
+        "explanation": "The document defines co-payment but does not clearly state whether any co-pay applies by default (percentage/age/conditions). Verify from the Policy Schedule or insurer whether co-pay is 0% or applicable."
+      }
+    ]
+  },
+  "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
+}

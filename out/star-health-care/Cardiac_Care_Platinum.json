@@ -1,0 +1,95 @@
+{
+  "policyName": "Cardiac Care Platinum",
+  "insurer": "Star Health and Allied Insurance Company Limited",
+  "sumInsured": "₹5,00,000 / ₹7,50,000 / ₹10,00,000 / ₹15,00,000 (as per Schedule of Benefits)",
+  "policyType": "Not specified",
+  "documentType": "Policy Wording",
+  "summary": {
+    "great": 0,
+    "good": 6,
+    "bad": 5,
+    "unclear": 1
+  },
+  "features": {
+    "great": [],
+    "good": [
+      {
+        "name": "Room rent: Single Private AC Room",
+        "quote": "Room (Single Private A/c Room), Boarding and Nursing Expenses as provided by the Hospital / Nursing Home.",
+        "reference": "Section 2 (Coverage) - Section 1(A) and Section 2(A); Schedule of Benefits (Page 9/10) 'In-patient Hospitalization Single Private AC Room'",
+        "explanation": "Single Private AC is industry-standard. Note: choosing a higher room category than eligible can trigger proportionate deductions on associated medical expenses."
+      },
+      {
+        "name": "Initial waiting period: 30 days (Section 1 and Section 2)",
+        "quote": "30-day waiting period - Code Excl 03 (Applicable for Section 1) ... Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident",
+        "reference": "Exclusions - 3. 30-day waiting period - Code Excl 03",
+        "explanation": "A 30-day initial waiting period is standard in health insurance (accidents are typically covered from day 1). Section 2 also states a 30-day waiting period."
+      },
+      {
+        "name": "PED waiting period: 36 months for Section 1 (non-cardiac)",
+        "quote": "Applicable for Section 1: Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 36 months of continuous coverage after the date of inception of the first policy with insurer",
+        "reference": "Exclusions - 1. Pre-Existing Diseases - Code Excl 01",
+        "explanation": "36 months (3 years) PED waiting is considered standard/acceptable as per typical market terms."
+      },
+      {
+        "name": "Specific illness/procedure waiting period: 24 months (Section 1)",
+        "quote": "Specified disease / procedure waiting period - Code Excl 02 (Applicable for Section 1) ... shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first policy",
+        "reference": "Exclusions - 2. Specified disease / procedure waiting period - Code Excl 02",
+        "explanation": "24 months for listed conditions is industry standard."
+      },
+      {
+        "name": "Restore benefit: available (unrelated illnesses only; once; 100%)",
+        "quote": "There shall be automatic restoration of the Basic Sum Insured once by 100% upon exhaustion of the limit of coverage during the policy period. It is made clear that such restored Sum Insured can be utilized only for illness / disease unrelated to the illness / diseases for which claim/s was / were made.",
+        "reference": "Special Features - 3(a) Automatic Restoration of Basic Sum Insured",
+        "explanation": "Restore is available but only for unrelated illnesses (not same illness), and only once in a policy year. Also not available for modern treatment and cardiac ailments as per wording."
+      },
+      {
+        "name": "NCB (Cumulative Bonus): 10% per claim-free year up to 100% (reduces on claims)",
+        "quote": "The insured person will be eligible for Cumulative bonus calculated at 10% of basic sum insured for each claim free year subject to a maximum of 100% of the basic sum insured.",
+        "reference": "Special Features - 3(b) Cumulative Bonus; Schedule of Benefits (Page 9/10) 'No Claim Bonus 10% for every claim free year maximum up to 100%'",
+        "explanation": "Standard NCB accrual. It is not protected—on claims, it reduces as per the reduction rules given in the policy."
+      }
+    ],
+    "bad": [
+      {
+        "name": "Consumables not covered (not explicitly covered; policy lists items to be subsumed but does not state 'consumables covered')",
+        "quote": "Such associated medical expenses do not include Cost of pharmacy and consumables, Cost of implants and medical devices and Cost of diagnostics.",
+        "reference": "Definitions - Specific Definition - 'Associated medical expenses'",
+        "explanation": "The wording does not provide a clear 'consumables covered' benefit. In absence of an explicit consumables cover, treat consumables as not covered (often out-of-pocket items like gloves, syringes, PPE kits etc.)."
+      },
+      {
+        "name": "Pre-hospitalization limit: 30 days",
+        "quote": "Pre-hospitalization Expenses: Medical expenses incurred up to 30 days immediately before the insured person is hospitalized.",
+        "reference": "Coverage - Section 1(E) and Section 2(E); Schedule of Benefits 'Pre & Post Hospitalization Expenses 30 days & 60 days'",
+        "explanation": "30 days is on the lower end (not better than market). If you expect longer diagnostic/work-up periods, this can increase out-of-pocket costs."
+      },
+      {
+        "name": "Post-hospitalization limit: 60 days",
+        "quote": "Post Hospitalization Expenses: Medical expenses incurred up to 60 days immediately after the insured person is discharged from the hospital.",
+        "reference": "Coverage - Section 1(F) and Section 2(F); Schedule of Benefits 'Pre & Post Hospitalization Expenses 30 days & 60 days'",
+        "explanation": "60 days is on the lower side compared to plans offering 90/180 days, which can matter for follow-up medicines/tests/consultations."
+      },
+      {
+        "name": "Disease-wise sub-limit: Cataract cap",
+        "quote": "Basic Sum Insured (Rs.) Limit for Cataract Surgery (Rs.) 5,00,000/- 30,000/- per eye and not exceeding 40,000/- per policy period ... 7,50,000/-, 10,00,000/- and 15,00,000/- 40,000/- per eye and not exceeding 60,000/- per policy period",
+        "reference": "Coverage - Section 1(H); Schedule of Benefits (Page 9/10) 'Cataract Limit...'",
+        "explanation": "A specific cataract sub-limit can cause out-of-pocket costs if hospital packages exceed these caps."
+      },
+      {
+        "name": "Modern treatments covered with sub-limits (not at actuals)",
+        "quote": "Coverage for Modern Treatments ... is limited to the amount mentioned in table below. This benefit forms part of sum insured. *Sublimits all inclusive with or without hospitalization...",
+        "reference": "Coverage - Section 1(J) / Section 2(J) reference (Modern Treatments section appears under Section 1 with applicability to both Section 1 and 2); Schedule of Benefits 'Modern Treatments Covered (up to the sub-limits)'",
+        "explanation": "Modern treatments are covered but capped via procedure-wise sub-limits, which can reduce effective coverage for high-cost advanced procedures."
+      }
+    ],
+    "unclear": [
+      {
+        "name": "Co-pay clause not explicitly stated (0% not confirmed)",
+        "quote": "No explicit co-payment clause found in the provided pages for hospitalization claims.",
+        "reference": "Policy Wording pages provided (1/10 to 10/10) - Co-pay not stated",
+        "explanation": "Co-pay materially affects claim payouts. Since the document excerpt does not clearly state whether co-pay is 0% or applicable in any situations, confirm from the full policy wording/schedule."
+      }
+    ]
+  },
+  "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
+}

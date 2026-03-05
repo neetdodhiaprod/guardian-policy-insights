@@ -1,0 +1,114 @@
+{
+  "policyName": "Activ One SAVR",
+  "insurer": "Aditya Birla Health Insurance Co. Limited",
+  "sumInsured": "Base Sum Insured options: 2L, 3L, 4L, 5L, 7L, 10L, 15L, 20L, 25L, 50L, 75L, 1Cr, 2Cr, 3Cr, 4Cr, 5Cr, 6Cr (plus Super Reload, Super Credit, optional Cancer Booster etc. as applicable)",
+  "policyType": "Not specified",
+  "documentType": "Policy Wording | Mixed",
+  "summary": {
+    "great": 8,
+    "good": 4,
+    "bad": 2,
+    "unclear": 1
+  },
+  "features": {
+    "great": [
+      {
+        "name": "Room rent: No capping (Actuals up to Sum Insured)",
+        "quote": "Room Rent: Actuals up to Sum Insured",
+        "reference": "Annexure III - Product Benefit Table (SAVR)",
+        "explanation": "No room-category cap is mentioned for this variant, so you can choose any room type without a fixed daily limit (covered at actuals up to the Sum Insured)."
+      },
+      {
+        "name": "Pre-hospitalization cover: 90 days",
+        "quote": "The Company shall indemnify the Pre-Hospitalization Medical Expenses incurred... for up to 90 days immediately prior to the date of such Hospitalization.",
+        "reference": "Section C.2 Pre-Hospitalization Expenses",
+        "explanation": "Covers eligible medical expenses for the same condition up to 90 days before admission (better than standard 60 days)."
+      },
+      {
+        "name": "Consumables / non-medical items covered (Claim Protect)",
+        "quote": "Non-payable items will be covered (all 4 lists of Annexure I)",
+        "reference": "Annexure III - Product Benefit Table (SAVR) / Section C.4 Claim Protect (Non-Medical Expense Waiver)",
+        "explanation": "This can significantly reduce out-of-pocket costs for items like gloves, masks, kits etc. (as per Annexure I lists) when the cover is applicable/in-force."
+      },
+      {
+        "name": "Restore/Refill benefit: Super Reload unlimited times",
+        "quote": "We shall provide for a reload amounting to the Base Sum Insured (“Super Reload”), unlimited times during the Policy Year",
+        "reference": "Section C.10 Super Reload",
+        "explanation": "If your Base SI (and Super Credit, if any) is exhausted/insufficient, the policy reloads up to Base SI repeatedly in the same policy year (subject to conditions such as availability from 2nd claim of policy life as per the benefit table)."
+      },
+      {
+        "name": "Built-in Additional Sum Insured buffer: Super Credit (irrespective of claims)",
+        "quote": "Super Credit (Increases Irrespective of Claim) ... An additional limit under the current Policy Year (“Super Credit”) will be applied / increased by a fixed percentage of the Base Sum Insured of immediately preceding Policy Year irrespective of any claims in previous Policy Year",
+        "reference": "Section C.11 Super Credit / Annexure III - Product Benefit Table (SAVR)",
+        "explanation": "Your available cover can increase at renewal even if you made claims (this is better than typical NCB that resets on claim). Exact % and cap are as per the Policy Schedule."
+      },
+      {
+        "name": "Modern treatments covered (listed procedures at actuals)",
+        "quote": "Expenses incurred... arising out of any of the below mentioned Indicative list of Modern Procedures / Treatments... Robotic Surgeries... Stereotactic Radio Surgeries... Stem Cell Therapy: Hematopoietic Stem Cells for Bone Marrow Transplant...",
+        "reference": "Section C.1.1.1(e) Other Expenses Covered",
+        "explanation": "The policy explicitly covers multiple modern procedures/treatments as part of admissible hospitalization (subject to Sum Insured and policy terms)."
+      },
+      {
+        "name": "Bariatric surgery covered (subject to conditions)",
+        "quote": "Obesity Treatment: Medical Expenses... arising out of Hospitalization for a Bariatric Surgery during the Policy Period subject to the conditions... Section D.1.6",
+        "reference": "Section C.1.1.1(h) and Section D.1.6",
+        "explanation": "Bariatric surgery is covered when medical criteria are met (BMI and comorbidity conditions as specified)."
+      },
+      {
+        "name": "Domiciliary hospitalization covered",
+        "quote": "The Company shall indemnify the Medical Expenses incurred during the Policy Period on Domiciliary Hospitalization...",
+        "reference": "Section C.5 Domiciliary Hospitalization",
+        "explanation": "Covers eligible treatment at home when hospitalization would normally be required, subject to conditions (e.g., minimum 3 consecutive days)."
+      }
+    ],
+    "good": [
+      {
+        "name": "PED waiting period: 3 years (36 months)",
+        "quote": "Pre Existing Disease (PED) Waiting Period: 3 years",
+        "reference": "Annexure III - Product Benefit Table (SAVR) - Waiting Period (Inbuilt Cover)",
+        "explanation": "A 36-month pre-existing disease waiting period is within standard market range."
+      },
+      {
+        "name": "Specific illness/procedure waiting period: 24 months",
+        "quote": "Expenses related to the treatment of the listed Conditions, surgeries / treatments shall be excluded until the expiry of 24 months of continuous coverage...",
+        "reference": "Section D.1.2 Specified disease / procedure Waiting Period (Code-Excl02)",
+        "explanation": "A 24-month specific disease waiting period is standard."
+      },
+      {
+        "name": "Initial waiting period: 30 days (non-accident)",
+        "quote": "30-day Waiting Period (Code-Excl03)... Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident",
+        "reference": "Section D.1.3 30-day Waiting Period",
+        "explanation": "Standard 30-day initial waiting period for illnesses (accidents covered from day 1)."
+      },
+      {
+        "name": "Post-hospitalization cover: 180 days",
+        "quote": "The Company shall indemnify the Post-Hospitalization Medical Expenses incurred... for up to 180 days from the date of discharge from the Hospital.",
+        "reference": "Section C.3 Post-Hospitalization Expenses",
+        "explanation": "Covers eligible medical expenses for the same condition up to 180 days after discharge (industry standard upper range)."
+      }
+    ],
+    "bad": [
+      {
+        "name": "No-claim bonus (NCB) missing as a separate benefit (policy instead uses Super Credit)",
+        "quote": "If the feature from the table above is not found in the document, assume it is NOT covered and flag as BAD.",
+        "reference": "NCB not expressly defined as NCB/Cumulative Bonus in the provided policy wording excerpts; Super Credit is a separate mechanism",
+        "explanation": "The document does not clearly state a standard NCB/Cumulative Bonus schedule. While 'Super Credit' increases irrespective of claims (which is excellent), a classic NCB feature is not explicitly described as such—confirm your Policy Schedule if any separate NCB exists."
+      },
+      {
+        "name": "Home Health Care is cashless-only (no reimbursement)",
+        "quote": "This Benefit requires pre-authorisation and is not available on reimbursement basis.",
+        "reference": "Section C.6 Home Health Care",
+        "explanation": "If you take eligible home care outside the insurer’s pre-authorised/cashless process, reimbursement is not available under this benefit."
+      }
+    ],
+    "unclear": [
+      {
+        "name": "Co-payment (base plan) not explicitly stated; only mentioned for optional PPN discount",
+        "quote": "Preferred Provider Network (PPN) Discount... If the Insured Person takes treatment... other than those listed as “Preferred Provider Network”, then... shall bear a Co-Payment of 10% on each and every claim",
+        "reference": "Section C.15.5 Preferred Provider Network (PPN) Discount",
+        "explanation": "Co-pay terms for the base policy are not clearly stated in the provided text. Only an optional cover mentions a 10% co-pay outside PPN. Verify from the Policy Schedule whether any mandatory co-pay applies by default (especially for certain ages/claims)."
+      }
+    ]
+  },
+  "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
+}

@@ -1,0 +1,108 @@
+{
+  "policyName": "Young Star",
+  "insurer": "Star Health and Allied Insurance Company Limited",
+  "sumInsured": "Not specified in provided pages (examples shown: ₹3L, ₹5L, ₹10L, ₹15L+; also illustrations up to ₹1 Cr/₹50L/₹25L)",
+  "policyType": "Not specified",
+  "documentType": "Policy Wording",
+  "summary": {
+    "great": 3,
+    "good": 6,
+    "bad": 4,
+    "unclear": 1
+  },
+  "features": {
+    "great": [
+      {
+        "name": "Pre-existing disease (PED) waiting period: 12 months",
+        "quote": "Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 12 months of continuous coverage after the date of inception of the ﬁrst policy with insurer",
+        "reference": "IV. EXCLUSIONS > 1. Pre-Existing Diseases - Code Excl 01 (Page 6)",
+        "explanation": "PED coverage starts after 12 months of continuous cover, which is better than the common 24-48 months."
+      },
+      {
+        "name": "Specified disease/procedure waiting period: 12 months",
+        "quote": "Expenses related to the treatment of the following listed Conditions, surgeries/ treatments shall be excluded until the expiry of 12 months of continuous coverage after the date of inception of the ﬁrst policy with us.",
+        "reference": "IV. EXCLUSIONS > 2. Speciﬁed disease / procedure waiting period - Code Excl 02 (Page 6)",
+        "explanation": "Listed specific diseases/procedures are covered after 12 months, which is better than the standard 24 months."
+      },
+      {
+        "name": "Built-in Additional Sum Insured buffer for Road Traffic Accident (after base is exhausted)",
+        "quote": "Additional Basic Sum Insured for Road Trafﬁc Accident (RTA)... The additional Basic Sum Insured shall be available after exhaustion of the limit of coverage",
+        "reference": "II. COVERAGE (Applicable for both Silver and Gold Plan) > L. Additional Basic Sum Insured for Road Trafﬁc Accident (RTA) (Page 3)",
+        "explanation": "Provides extra Sum Insured that activates after the base limit is exhausted (for eligible RTA hospitalization)."
+      }
+    ],
+    "good": [
+      {
+        "name": "Room rent limit: Single Private A/C Room",
+        "quote": "A. Room (Single Private A/C room), Boarding and Nursing Expenses as provided by the Hospital",
+        "reference": "II. COVERAGE - (Applicable for both Silver and Gold Plan) (Page 2)",
+        "explanation": "Single Private AC room is industry-standard. Note: if you choose a higher category than eligible, proportionate deductions can apply."
+      },
+      {
+        "name": "Initial waiting period: 30 days (illness)",
+        "quote": "Expenses related to the treatment of any illness within 30 days from the ﬁrst policy commencement date shall be excluded except claims arising due to an accident",
+        "reference": "IV. EXCLUSIONS > 3. 30-day waiting period - Code Excl 03 (Page 6)",
+        "explanation": "Standard 30-day initial waiting for illness; accidents are covered from day 1 as per policy terms."
+      },
+      {
+        "name": "Restore benefit: 100% restoration once; usable for all claims (but not for Modern Treatment)",
+        "quote": "Automatic Restoration of Basic Sum Insured: There shall be automatic restoration of the Basic Sum Insured once by 100%... Such Restored basic sum insured can be utilized for all claims during the policy period... This Beneﬁt is not available for Modern Treatment",
+        "reference": "II. COVERAGE > J. Automatic Restoration of Basic Sum Insured (Page 3)",
+        "explanation": "Restores 100% of base sum insured once after partial/full utilization and can be used for all claims in the year, but it is not available for Modern Treatments."
+      },
+      {
+        "name": "Pre-hospitalization cover: 60 days",
+        "quote": "Pre-hospitalization Expenses: Medical expenses incurred up to 60 days immediately before the insured person is hospitalized",
+        "reference": "II. COVERAGE > E. Pre-hospitalization Expenses (Page 3)",
+        "explanation": "Covers eligible medical expenses for 60 days before hospitalization (standard-good range)."
+      },
+      {
+        "name": "Post-hospitalization cover: 90 days",
+        "quote": "Post Hospitalization Expenses: Medical expenses incurred up to 90 days immediately after the insured person is discharged from the hospital",
+        "reference": "II. COVERAGE > F. Post Hospitalization Expenses (Page 3)",
+        "explanation": "Covers eligible medical expenses for 90 days after discharge (standard-good range)."
+      },
+      {
+        "name": "NCB (Cumulative Bonus): 20% per claim-free year up to 100% (reduces on claim)",
+        "quote": "Cumulative Bonus: The insured person will be eligible for Cumulative bonus calculated at 20% of basic sum insured for each claim free year subject to a maximum of 100% of the basic sum insured",
+        "reference": "II. COVERAGE > K. Cumulative Bonus (Page 3)",
+        "explanation": "Standard NCB growth. It is not fully protected: the bonus reduces based on claim utilization (as per the special conditions)."
+      }
+    ],
+    "bad": [
+      {
+        "name": "Consumables not covered (significant out-of-pocket list includes gloves, masks, kits, etc.)",
+        "quote": "Other Excluded Expenses\nItems for which coverage is not available in the policy\n... 56 GLOVES ... 60 MASK ... 58 ANY KIT WITH NO DETAILS MENTIONED [DELIVERY KIT, ORTHOKIT, RECOVERY KIT, ETC] ... 62 OXYGEN MASK ...",
+        "reference": "Other Excluded Expenses (Page 11)",
+        "explanation": "Consumables are largely excluded, which can materially increase out-of-pocket costs during hospitalization."
+      },
+      {
+        "name": "Modern Treatments have sub-limits (not covered at full Sum Insured)",
+        "quote": "Coverage for Modern Treatments: The expenses payable during the entire policy period for the following treatment / procedure ... is limited to the amount mentioned in table below;",
+        "reference": "II. COVERAGE > O. Coverage for Modern Treatments (Page 6)",
+        "explanation": "Modern treatments (e.g., robotic surgeries, stem cell therapy, etc.) are capped by sub-limits, which is a coverage restriction vs policies with no sub-limits."
+      },
+      {
+        "name": "Room category mismatch can trigger proportionate deduction on associated medical expenses",
+        "quote": "Hospitalisation expenses which vary based on the room rent occupied by the insured person will be considered in proportion to the room rent limit / room category stated in the policy or actuals whichever is less.",
+        "reference": "II. COVERAGE > Note under A. Room... (Page 2)",
+        "explanation": "Because room rent is capped to Single Private AC, choosing a higher room category can reduce payable amounts for linked hospital charges (proportionate deductions)."
+      },
+      {
+        "name": "NCB reduces on claim and can become nil on full utilization",
+        "quote": "In the event of a claim resulting in; ... d. Full utilization of Basic Sum Insured and full utilization of cumulative bonus accrued, the cumulative bonus on renewal will be “nil”",
+        "reference": "II. COVERAGE > K. Cumulative Bonus > Special Conditions (Page 3)",
+        "explanation": "On claims, the cumulative bonus is reduced and can drop to nil, unlike non-resetting renewal bonuses."
+      }
+    ],
+    "unclear": [
+      {
+        "name": "Co-pay (copayment) terms not explicitly stated",
+        "quote": "The moratorium would however be subject to all limits, sub limits, co-payments, deductibles as per the policy contract.",
+        "reference": "V. CONDITIONS > 11. Moratorium Period (Page 8)",
+        "explanation": "The wording references co-payments generally, but no explicit co-pay %/age/network condition is provided in the shared pages. Verify from full policy wording/schedule whether any co-pay applies."
+      }
+    ]
+  },
+  "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
+}

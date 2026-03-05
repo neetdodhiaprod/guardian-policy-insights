@@ -1,0 +1,126 @@
+{
+  "policyName": "MaxProtect Classic",
+  "insurer": "ICICI Lombard General Insurance Company Limited",
+  "sumInsured": "As per Policy Schedule (Annual Sum Insured)",
+  "policyType": "Not specified",
+  "documentType": "Policy Wording",
+  "summary": {
+    "great": 3,
+    "good": 9,
+    "bad": 3,
+    "unclear": 2
+  },
+  "features": {
+    "great": [
+      {
+        "name": "Restore Benefit (Reset) - unlimited times",
+        "quote": "Reset Benefit Unlimited (Not applicable for unlimited SI)\n\nWe will reset up to 100% of the Annual Sum Insured, unlimited times in a Policy Year",
+        "reference": "Policy Schedule (Benefits table): Sr. no. 7; Section IV(A)(7) Reset Benefit",
+        "explanation": "If your base Sum Insured gets exhausted, the insurer can refill up to 100% of SI multiple times in the same policy year (subject to conditions). This improves claim-paying capacity."
+      },
+      {
+        "name": "Pre-hospitalization expenses - 60 days",
+        "quote": "Pre-Hospitalization 60 days",
+        "reference": "Policy Schedule (Benefits table): Sr. no. 4",
+        "explanation": "Covers eligible medical expenses for 60 days before hospitalization (linked to an admissible inpatient claim). This is better than many plans that offer only 30 days."
+      },
+      {
+        "name": "Post-hospitalization expenses - 180 days",
+        "quote": "Post-Hospitalization 180 days",
+        "reference": "Policy Schedule (Benefits table): Sr. no. 5",
+        "explanation": "Covers eligible medical expenses for 180 days after discharge (linked to an admissible inpatient claim). This is at the higher end of standard coverage."
+      }
+    ],
+    "good": [
+      {
+        "name": "Room rent / Room eligibility (default)",
+        "quote": "Room category All except suite",
+        "reference": "Policy Schedule (Benefits table): Sr. no. 1 In Patient Care",
+        "explanation": "Room rent is covered up to the allowed room category (any room except suite). This is generally good (broad eligibility), but it is not an explicit 'any room / no limit' clause; choosing a higher-than-eligible room can trigger proportionate deductions."
+      },
+      {
+        "name": "Pre-existing disease (PED) waiting period - 36 months",
+        "quote": "Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 36 months of continuous coverage after the date of inception of the first policy with insurer.",
+        "reference": "Section V(A) Pre-existing diseases Code - Excl01",
+        "explanation": "PEDs are covered after 36 months of continuous coverage. This is within the acceptable market range (2–4 years)."
+      },
+      {
+        "name": "Specific illness/procedure waiting period - 24 months",
+        "quote": "Expenses related to the treatment of the listed Conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first policy with us.",
+        "reference": "Section V(B) Specified disease/procedure waiting period Code- Excl02",
+        "explanation": "Specified diseases/procedures are covered after 24 months (unless they also qualify as PED where longer waiting can apply). This is standard."
+      },
+      {
+        "name": "Initial waiting period - 30 days",
+        "quote": "Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident",
+        "reference": "Section V(C) 30-day waiting period Code - Excl03",
+        "explanation": "30-day initial waiting is standard in health insurance (accidents covered immediately)."
+      },
+      {
+        "name": "Built-in additional Sum Insured buffer (Loyalty Bonus) - up to 100% of SI",
+        "quote": "Loyalty bonus 20% of SI up to 100% of SI (Not applicable for unlimited SI)\n\nWe will provide 20% Loyalty Bonus ... at the end of each Policy Year if policy is continuously renewed",
+        "reference": "Policy Schedule (Benefits table): Sr. no. 12; Section IV(A)(12) Loyalty Bonus",
+        "explanation": "This is an extra Sum Insured that adds to your coverage over renewals (up to 100% of SI). It can be used after the Annual Sum Insured is exhausted (as per the policy terms), increasing your overall protection."
+      },
+      {
+        "name": "Air Ambulance (Premium plan only)",
+        "quote": "Additional Base covers in Premium plan\n1 Air Ambulance Cover Up to SI",
+        "reference": "Policy Schedule (Benefits table): Additional Base covers in Premium plan",
+        "explanation": "Air ambulance is available in the Premium plan, up to Sum Insured, subject to conditions (life-threatening emergency, certified in writing, etc.)."
+      },
+      {
+        "name": "Domiciliary Hospitalization covered",
+        "quote": "Domiciliary hospitalization Up to SI",
+        "reference": "Policy Schedule (Benefits table): Sr. no. 9",
+        "explanation": "Home-based hospitalization (when meeting policy conditions) is covered up to Sum Insured."
+      },
+      {
+        "name": "Bariatric surgery covered (with waiting period)",
+        "quote": "Bariatric Surgery Up to SI\n\nBariatic surgery will have 36 months of waiting period",
+        "reference": "Policy Schedule (Benefits table): Sr. no. 14; Section IV(A)(14) Bariatric Surgery",
+        "explanation": "Bariatric surgery is covered up to SI, but only if eligibility criteria are met and after a 36-month waiting period for this benefit."
+      },
+      {
+        "name": "Optional cover: PED waiting period reduction to 24 months",
+        "quote": "On payment of additional premium, waiting period for Medical Expenses related to the treatment of a pre-existing Disease (PED) ... shall be reduced to 24 months",
+        "reference": "Section IV(C)(1) Pre-exiting disease (PED) waiting period reduction",
+        "explanation": "You can pay extra to reduce PED waiting to 24 months for declared & accepted PEDs (helps if you have existing conditions). This is an optional enhancement, not a default restriction."
+      }
+    ],
+    "bad": [
+      {
+        "name": "No consumables cover (consumables excluded as non-payables unless Premium plan 'Claim Protector' is opted)",
+        "quote": "We will cover ... medicines, drugs and consumables (other than those specified in the list of excluded expenses (non -medical) in Annexure I;\n\nList of Non Payable Items ... 56 GLOVES ... 60 MASK ...",
+        "reference": "Section IV(A)(1) Inpatient Care; Section VI(B)(12) Non Payables List I",
+        "explanation": "Common hospital consumables (e.g., gloves, masks, kits) appear in the non-payables list, which can create out-of-pocket expenses. (Premium plan has 'Claim Protector' that can make excluded items payable, but by default these remain non-payable.)"
+      },
+      {
+        "name": "Restore Benefit (Reset) not available for same illness within 45 days (same policy year)",
+        "quote": "The Reset Benefit will not be available for an Illness / Injury or related complications including but not limited to any relapse within 45 days in respect of which a claim has been paid in that Policy Year for the same Insured Person.",
+        "reference": "Section IV(A)(7) Reset Benefit",
+        "explanation": "Reset cannot be used for the same illness/relapse within 45 days in the same policy year, which limits usefulness for repeat admissions of the same condition."
+      },
+      {
+        "name": "Mandatory zone-based co-payment if treated in higher zone than premium zone",
+        "quote": "Additional zone based Co-Payment ... would be levied on each and every claim in case medically necessary treatment has been taken in a zone higher ... than the zone for which premium has been paid",
+        "reference": "Section VI(B)(1) Zone based premium (Zone based co-payment table)",
+        "explanation": "If you buy the policy for a lower-cost zone and take treatment in a higher zone, an extra co-pay (e.g., 8%/16% as per table) applies on every claim. This can materially increase your out-of-pocket."
+      }
+    ],
+    "unclear": [
+      {
+        "name": "Co-pay (base policy) not explicitly stated (other than zone-based co-pay scenario)",
+        "quote": "Co-Payment means a cost sharing requirement under a health insurance policy that provides that the policyholder/insured will bear a specified percentage of the admissible claims amount.",
+        "reference": "Definitions: Co-Payment; Section VI(B)(1) mentions zone-based co-payment only",
+        "explanation": "The document defines co-payment and specifies zone-based co-pay, but it does not clearly state whether there is any standard/age-based co-pay applicable to all claims. Confirm from the policy schedule or insurer whether base co-pay is 0% (when treated within zone) or if any other co-pay applies."
+      },
+      {
+        "name": "NCB / Renewal Bonus behavior on claims (resets or not) not clearly an NCB (only 'Loyalty Bonus' described)",
+        "quote": "We will provide 20% Loyalty Bonus ... at the end of each Policy Year if policy is continuously renewed...\n\nIn the event of Claim, under the Policy during any subsequent Policy Year, the accrued Loyalty Bonus will not be reduced.",
+        "reference": "Section IV(A)(12) Loyalty Bonus",
+        "explanation": "This policy offers a 'Loyalty Bonus' structure (an additional SI). It states accrued LB won't be reduced after a claim in a subsequent year, but it also says LB accrues only if no claim in the expiring period (especially for floater). Confirm how LB behaves in the exact scenario applicable to you (individual vs floater) and whether any other NCB/renewal bonus exists in your schedule."
+      }
+    ]
+  },
+  "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
+}

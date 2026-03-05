@@ -1,0 +1,107 @@
+{
+  "policyName": "Special Care Gold",
+  "insurer": "Star Health and Allied Insurance Company Limited",
+  "sumInsured": "Not specified (document mentions: \"Sum Insured Opted for and for which the premium is paid\")",
+  "policyType": "Individual",
+  "documentType": "Policy Wording | Mixed",
+  "summary": {
+    "great": 0,
+    "good": 4,
+    "bad": 7,
+    "unclear": 3
+  },
+  "features": {
+    "great": [],
+    "good": [
+      {
+        "name": "PED waiting period (standard illnesses) — 36 months",
+        "quote": "Applicable for diseases other than Disability / HIV/AIDS: Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 36 months of continuous coverage after the date of inception of the ﬁrst policy with insurer.",
+        "reference": "Exclusions > Standard Exclusions > 1. Pre-Existing Diseases – Code Excl 01",
+        "explanation": "For non-disability and non-HIV conditions, pre-existing diseases are covered after 36 months of continuous coverage (this is within the 2–4 year market standard range)."
+      },
+      {
+        "name": "Specific illness / procedure waiting period — 24 months",
+        "quote": "Expenses related to the treatment of the listed Conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the ﬁrst policy with us.",
+        "reference": "Exclusions > Standard Exclusions > 2. Speciﬁed disease/procedure waiting period – Code Excl 02",
+        "explanation": "A standard 24-month waiting period applies to listed specified diseases/procedures (common across insurers)."
+      },
+      {
+        "name": "Initial waiting period — 30 days (non-accident)",
+        "quote": "Expenses related to the treatment of any illness within 30 days from the ﬁrst policy commencement date shall be excluded except claims arising due to an accident, provided the same are covered.",
+        "reference": "Exclusions > Standard Exclusions > 3. 30-day waiting period – Code Excl 03",
+        "explanation": "30-day initial waiting period is industry standard; accidents are typically exempt."
+      },
+      {
+        "name": "Post-hospitalization — 60 days",
+        "quote": "Post Hospitalization medical expenses incurred for a period of 60 days from the date of discharge from the hospital...",
+        "reference": "Coverage > Hospitalisation Care > K",
+        "explanation": "Covers eligible medical expenses for 60 days after discharge (meets the standard threshold)."
+      }
+    ],
+    "bad": [
+      {
+        "name": "Room rent limit — capped at 1% of Sum Insured per day (can trigger proportionate deductions)",
+        "quote": "Room, Boarding, Nursing Expenses all inclusive as provided by the Hospital / Nursing Home up to maximum of 1% of the sum insured per day.",
+        "reference": "Coverage > Hospitalisation Care > A",
+        "explanation": "Room rent is capped (not ‘any room / no limit’). If you choose a higher room category than eligible, overall payable amounts can reduce due to room-linked billing."
+      },
+      {
+        "name": "Disease-specific sub-limit — cataract capped at ₹40,000 per eye per policy year",
+        "quote": "Expenses incurred on treatment of Cataract is covered up to Rs.40,000/- per each eye in one policy year.",
+        "reference": "Coverage > Hospitalisation Care > F",
+        "explanation": "A fixed sub-limit for cataract can cause out-of-pocket costs if the hospital package is higher."
+      },
+      {
+        "name": "Modern treatments sub-limit — up to 50% of Sum Insured",
+        "quote": "Coverage for Modern treatment... will be covered... up to 50% of Sum Insured, speciﬁed in the policy schedule, during the policy period:",
+        "reference": "Coverage > Hospitalisation Care > H",
+        "explanation": "Modern treatment coverage is not at full Sum Insured; it is capped at 50% SI, which may be insufficient for high-cost procedures."
+      },
+      {
+        "name": "Mandatory co-payment — 20% on each and every claim",
+        "quote": "Each and every claim under the Policy shall be subject to a Co-payment of 20% applicable to claim amount admissible and payable as per the terms and conditions of the Policy.",
+        "reference": "Coverage > Hospitalisation Care > L",
+        "explanation": "A mandatory 20% co-pay means you pay 20% of every admissible claim amount from your pocket (unless you buy the waiver add-on)."
+      },
+      {
+        "name": "Pre-hospitalization — only 30 days",
+        "quote": "Pre-Hospitalization medical expenses incurred for a period not exceeding 30 days prior to the date of hospitalization...",
+        "reference": "Coverage > Hospitalisation Care > J",
+        "explanation": "30 days is on the lower side; expenses before admission beyond 30 days will not be covered."
+      },
+      {
+        "name": "Restore benefit — not mentioned (assumed not covered)",
+        "quote": "If during the period stated in the Policy Schedule... the Company will indemnify... but not exceeding sum insured stated in the Policy schedule.",
+        "reference": "Coverage > 2. COVERAGE (no restore/recharge wording found in provided pages)",
+        "explanation": "No restore/recharge is stated in the provided wording. Assume the Sum Insured is not replenished after a claim within the same policy year."
+      },
+      {
+        "name": "Consumables — not mentioned as covered (assumed not covered)",
+        "quote": "Such associated medical expenses do not include Cost of pharmacy and consumables, Cost of implants and medical devices and Cost of diagnostics.",
+        "reference": "Definitions > Specific Definitions > Associated Medical Expenses",
+        "explanation": "The policy does not explicitly state that consumables (gloves, syringes, PPE kits, etc.) are covered as a separate benefit; assume consumables are not covered unless confirmed via policy schedule/endorsement."
+      }
+    ],
+    "unclear": [
+      {
+        "name": "NCB / Renewal Bonus — not mentioned",
+        "quote": "Renewal of policy: The policy shall ordinarily be renewable except on grounds of fraud, misrepresentation by the Insured Person.",
+        "reference": "Conditions > 8. Renewal of policy",
+        "explanation": "No No-Claim Bonus / renewal bonus language is shown in the provided pages. Verify whether any renewal bonus is offered and whether it resets on a claim."
+      },
+      {
+        "name": "Co-pay waiver add-on details (terms/extent) — not specified",
+        "quote": "Waiver of Co-payment : Is available on payment of additional premium as per terms & conditions.",
+        "reference": "Coverage > Hospitalisation Care > M",
+        "explanation": "Add-on exists but the exact conditions (eligibility, whether it waives co-pay fully, waiting periods, etc.) are not detailed in the provided extract—confirm in add-on wording/schedule."
+      },
+      {
+        "name": "Cashless network size — not specified",
+        "quote": "Cashless facility can be availed only in networked Hospitals. For details of Networked Hospitals, the insured may visit www.starhealth.in...",
+        "reference": "Conditions > Claim Settlement > B (Documents for Cashless Treatment)",
+        "explanation": "The number of network hospitals is not stated here. Verify network size in your city and whether your preferred hospitals are included."
+      }
+    ]
+  },
+  "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
+}

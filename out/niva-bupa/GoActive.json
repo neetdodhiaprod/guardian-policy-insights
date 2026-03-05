@@ -1,0 +1,96 @@
+{
+  "policyName": "GoActive",
+  "insurer": "Niva Bupa Health Insurance Company Limited",
+  "sumInsured": "Base Sum Insured options: ₹1L / ₹2L / ₹3L / ₹4L / ₹5L / ₹7.5L / ₹10L / ₹15L / ₹25L (Policy Schedule will show chosen SI). Re-fill up to 100% of Base SI. Optional I-Protect increases SI by 10% of Base SI each renewal if opted.",
+  "policyType": "Not specified",
+  "documentType": "Policy Wording",
+  "summary": {
+    "great": 2,
+    "good": 5,
+    "bad": 4,
+    "unclear": 1
+  },
+  "features": {
+    "great": [
+      {
+        "name": "Pre-hospitalization cover: 90 days",
+        "quote": "We will not be liable to pay Pre-hospitalization Medical Expenses for more than 90 days immediately preceding the Insured Person’s admission",
+        "reference": "Section 3.2(b)",
+        "explanation": "Covers medical expenses for 90 days before hospitalization (subject to an admissible inpatient/day care/modern treatment/domiciliary claim). This is better than the common 30-60 day limit."
+      },
+      {
+        "name": "Built-in additional Sum Insured buffer: Re-fill up to 100% of Base SI (after exhaustion)",
+        "quote": "We will provide a Re-fill amount of maximum up to 100% of the Base Sum Insured",
+        "reference": "Section 3.9 (Re-fill Benefit)",
+        "explanation": "After Base SI (and I-Protect increased SI, if any) is exhausted, an extra buffer up to 100% of Base SI becomes available for subsequent claims in the same policy year (with conditions)."
+      }
+    ],
+    "good": [
+      {
+        "name": "PED waiting period: 36 months",
+        "quote": "Expenses related to the treatment of a Pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 36 months of continuous coverage after the date of inception of the first Policy.",
+        "reference": "Section 6.1(I)(a) (Code–Excl01)",
+        "explanation": "Pre-existing diseases are covered after 36 months of continuous coverage (standard-good in the market)."
+      },
+      {
+        "name": "Specific disease/procedure waiting period: 24 months",
+        "quote": "Expenses related to the treatment of the listed conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first Policy.",
+        "reference": "Section 6.1(II)(a) (Code–Excl02)",
+        "explanation": "Listed specific illnesses/procedures are covered after 24 months (industry standard)."
+      },
+      {
+        "name": "Initial waiting period: 30 days (non-accident)",
+        "quote": "Expenses related to the treatment of any Illness within 30 days from the first Policy commencement date shall be excluded except claims arising due to an Accident",
+        "reference": "Section 6.1(III)(a) (Code–Excl03)",
+        "explanation": "Standard 30-day initial waiting period for illnesses; accidents covered from day 1."
+      },
+      {
+        "name": "Post-hospitalization cover: 180 days",
+        "quote": "We will not be liable to pay Post-hospitalization Medical Expenses for more than 180 days immediately following the Insured Person’s discharge from Hospital",
+        "reference": "Section 3.3(b)",
+        "explanation": "Covers follow-up expenses for 180 days after discharge (good, upper end of common market limits)."
+      },
+      {
+        "name": "Domiciliary hospitalization covered (and Home Health Care services covered with conditions)",
+        "quote": "We will indemnify on a Reimbursement basis the Medical Expenses incurred for Domiciliary Hospitalization... The Home Health Care Services are covered only if We have accepted a claim under Section 3.1 (Inpatient Care) above and Home Health Care Services are availed immediately after that Hospitalization.",
+        "reference": "Section 3.5",
+        "explanation": "Provides home-based treatment coverage when hospitalisation isn’t possible/bed unavailable (domiciliary). Also offers home health care after an accepted inpatient claim, via empanelled providers in selected cities."
+      }
+    ],
+    "bad": [
+      {
+        "name": "Room rent limit for ₹1L/₹2L plans: 1% of Base SI per day (daily cap)",
+        "quote": "Room Rent (per day) Up to 1% of Base Sum Insured",
+        "reference": "Annexure IV (Product Benefit Table) – Room Rent (per day) for 1 lac / 2 lacs",
+        "explanation": "A daily room rent cap can reduce claim payouts and can trigger proportionate deductions on the entire bill if you choose a higher category room."
+      },
+      {
+        "name": "Proportionate deduction applies if room category higher than eligibility (impacts total associated medical expenses)",
+        "quote": "We shall be liable to pay only a pro-rated portion of the total Associated Medical Expenses... in the proportion of the difference between the Room Rent actually incurred and the Room Rent specified in the Policy Schedule",
+        "reference": "Section 3.1(c)",
+        "explanation": "If you take a room above your eligible limit (relevant especially where room rent is capped like 1% of SI/day), the insurer can reduce payment across associated medical expenses proportionately."
+      },
+      {
+        "name": "Restore/Refill not available for same illness in the same policy year",
+        "quote": "The re-fill amount may be used for only subsequent claims... and shall not be for any Illness / Injury (including its complications or follow up) for which a claim has been paid or accepted as payable in the current Policy Year for the same Insured Person.",
+        "reference": "Section 3.9(a) (Re-fill Benefit)",
+        "explanation": "Refill works only for subsequent claims of a different illness/condition for the same insured in the same year; it cannot be used for a repeat/same illness claim."
+      },
+      {
+        "name": "Consumables not covered (large list of non-payable items incl. gloves, masks, kits etc.)",
+        "quote": "ANNEXURE II – List I – Expenses not covered... 56 GLOVES ... 60 MASK ... 58 ANY KIT WITH NO DETAILS MENTIONED [DELIVERY KIT, ORTHOKIT, RECOVERY KIT, ETC]",
+        "reference": "Annexure II (List I – Expenses not covered)",
+        "explanation": "Many common hospital consumables are excluded, which can create significant out-of-pocket costs during hospitalization."
+      }
+    ],
+    "unclear": [
+      {
+        "name": "Co-pay terms (base plan) depend on Policy Schedule; not explicitly stated as 0% by default",
+        "quote": "Co-payment (if applicable) as specified in the Policy Schedule shall be applicable on the amount payable by Us.",
+        "reference": "Section 5.2 (Co-payment)",
+        "explanation": "The policy wording defines co-pay as schedule-driven. Verify your Policy Schedule to confirm whether any co-pay applies (and if Zone 2 is chosen, 20% co-pay applies for treatment in Mumbai/Delhi NCR/Kolkata/Gujarat)."
+      }
+    ]
+  },
+  "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
+}

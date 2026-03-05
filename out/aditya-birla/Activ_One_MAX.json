@@ -1,0 +1,90 @@
+{
+  "policyName": "Activ One MAX",
+  "insurer": "Aditya Birla Health Insurance Co. Limited",
+  "sumInsured": "Base Sum Insured options: INR 2 Lacs to INR 6 Crores (Sum Insured = Base Sum Insured + Super Reload + Super Credit (if applicable) + Cancer Booster (if applicable) etc.)",
+  "policyType": "Individual | Family Floater",
+  "documentType": "Policy Wording | Mixed",
+  "summary": {
+    "great": 7,
+    "good": 2,
+    "bad": 1,
+    "unclear": 1
+  },
+  "features": {
+    "great": [
+      {
+        "name": "Room rent: No limit (At actuals) up to Sum Insured",
+        "quote": "Room Rent\nActuals up to Sum Insured",
+        "reference": "Annexure III - Product Benefit Table (Activ One MAX)",
+        "explanation": "No room category cap like “single room only” or ₹X/day; claims are paid at actuals up to the Sum Insured, which avoids proportionate deductions due to room upgrade."
+      },
+      {
+        "name": "Pre-hospitalization: 90 days",
+        "quote": "The Company shall indemnify the Pre-Hospitalization Medical Expenses incurred... for up to 90 days immediately prior to the date of such Hospitalization.",
+        "reference": "Section C.2 Pre-Hospitalization Expenses",
+        "explanation": "Covers eligible medical expenses for 90 days before hospitalization—better than the usual 30–60 days."
+      },
+      {
+        "name": "Consumables / Non-medical items: Covered (all 4 lists) via Claim Protect",
+        "quote": "Non-payable items will be covered (all 4 lists of Annexure I)",
+        "reference": "Annexure III - Product Benefit Table (Claim Protect)",
+        "explanation": "Covers many common out-of-pocket hospital items (gloves, masks, kits, etc.) when Claim Protect applies as per schedule—reduces surprise expenses."
+      },
+      {
+        "name": "Restore/Refill: Super Reload (unlimited) after base+super credit exhaustion",
+        "quote": "We shall provide for a reload amounting to the Base Sum Insured (“Super Reload”), unlimited times during the Policy Year",
+        "reference": "Section C.10 Super Reload",
+        "explanation": "Provides an extra buffer once your Base Sum Insured (and Super Credit, if any) is exhausted, allowing multiple large claims in the same year."
+      },
+      {
+        "name": "Built-in Additional Sum Insured buffer: Super Credit (renewal bonus) irrespective of claims (non-resetting)",
+        "quote": "Super Credit (Increases Irrespective of Claim)\nUnder this Benefit... (“Super Credit”) will be applied/increased... irrespective of any claims in previous Policy Year",
+        "reference": "Annexure III - Product Benefit Table + Section C.11 Super Credit",
+        "explanation": "Your available Sum Insured can increase on renewal even if you claimed, which is superior to standard NCB that often resets on a claim."
+      },
+      {
+        "name": "Domiciliary hospitalization: Covered",
+        "quote": "The Company shall indemnify the Medical Expenses incurred during the Policy Period on Domiciliary Hospitalization...",
+        "reference": "Section C.5 Domiciliary Hospitalization",
+        "explanation": "Covers eligible treatment taken at home when hospitalization would otherwise be required (subject to conditions)."
+      },
+      {
+        "name": "Bariatric surgery / Obesity treatment: Covered (subject to conditions)",
+        "quote": "Obesity Treatment: Medical Expenses incurred... arising out of Hospitalization for a Bariatric Surgery... subject to the conditions... as per Section D.1.6",
+        "reference": "Section C.1.1.1(h) + Section D.1.6",
+        "explanation": "Bariatric surgery is covered if medical criteria (BMI/co-morbidities etc.) are met."
+      }
+    ],
+    "good": [
+      {
+        "name": "Specific illness waiting period: 24 months",
+        "quote": "Expenses related to the treatment of the listed Conditions, surgeries / treatments shall be excluded until the expiry of 24 months of continuous coverage...",
+        "reference": "Section D.1.2 Specified disease / procedure Waiting Period (Code-Excl02)",
+        "explanation": "24 months is standard in the market for listed specific diseases/procedures."
+      },
+      {
+        "name": "Initial waiting period: 30 days (except accident)",
+        "quote": "Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident",
+        "reference": "Section D.1.3 30-day Waiting Period (Code-Excl03)",
+        "explanation": "30-day initial waiting is standard for illnesses (accidents covered from day 1)."
+      }
+    ],
+    "bad": [
+      {
+        "name": "Post-hospitalization: 180 days (not >180)",
+        "quote": "for up to 180 days from the date of discharge from the Hospital.",
+        "reference": "Section C.3 Post-Hospitalization Expenses",
+        "explanation": "Post-hospitalization is capped at 180 days; as per the benchmark used here, GREAT is >180 days. (Still a common industry limit.)"
+      }
+    ],
+    "unclear": [
+      {
+        "name": "Co-pay (default/base plan) not explicitly stated; only optional PPN co-pay described",
+        "quote": "Preferred Provider Network (PPN) Discount... If the Insured Person takes treatment... other than those listed as “Preferred Provider Network”, then... shall bear a Co-Payment of 10% on each and every claim...",
+        "reference": "Section C.13.5 Preferred Provider Network (PPN) Discount",
+        "explanation": "A 10% co-pay applies only if you opt into the PPN discount and use a non-PPN hospital. The document excerpt does not clearly state the default/base co-pay (e.g., 'no co-pay') for the standard plan—confirm from Policy Schedule."
+      }
+    ]
+  },
+  "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
+}

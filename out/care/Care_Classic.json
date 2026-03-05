@@ -1,0 +1,96 @@
+{
+  "policyName": "Care Classic",
+  "insurer": "Care Health Insurance Limited",
+  "sumInsured": "Not specified (as per Policy Schedule)",
+  "policyType": "Not specified",
+  "documentType": "Policy Wording",
+  "summary": {
+    "great": 2,
+    "good": 5,
+    "bad": 3,
+    "unclear": 2
+  },
+  "features": {
+    "great": [
+      {
+        "name": "Restore benefit (same illness) — Unlimited Automatic Recharge (unlimited times)",
+        "quote": "“the Company agrees to automatically make the re-instatement of up to the base Sum Insured unlimited times in a policy year… (iii) Recharge amount can be utilized for same illness as well as different Illnesses…”",
+        "reference": "Clause 3.1.5 Benefit: Unlimited Automatic Recharge",
+        "explanation": "Strong restore/recharge: once your base SI + NCB (and accidental additional SI, if any) are exhausted, the policy recharges up to base SI unlimited times in the same year. It can be used for same illness too (with stated conditions)."
+      },
+      {
+        "name": "Built-in additional Sum Insured buffer — Recharge activates after base SI exhaustion",
+        "quote": "“The Recharge shall be utilized only after the base Sum Insured, 'No Claims Bonus' and 'Additional Sum Insured for Accidental Hospitalization' has been completely exhausted in that Policy Year.”",
+        "reference": "Clause 3.1.5 (i)",
+        "explanation": "This is an inbuilt extra coverage layer that kicks in after you use up base SI (and NCB/other buffers as per wording), improving protection against multiple/higher claims in a year."
+      }
+    ],
+    "good": [
+      {
+        "name": "PED waiting period — 48 months (base policy)",
+        "quote": "“Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 48 months of continuous coverage…”",
+        "reference": "Clause 4.1 (i) Pre-Existing Diseases: Code-Excl01",
+        "explanation": "Pre-existing diseases are covered after 4 years of continuous coverage (standard-good as per your rules). Optional cover can reduce this (see optional cover clause)."
+      },
+      {
+        "name": "Specific illness/procedure waiting period — 24 months",
+        "quote": "“Expenses related to the treatment of the listed Conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage…”",
+        "reference": "Clause 4.1 (ii) Specific Waiting Period: Code-Excl02",
+        "explanation": "Standard 2-year waiting for listed procedures/conditions (unless accident)."
+      },
+      {
+        "name": "Initial waiting period — 30 days",
+        "quote": "“Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident…”",
+        "reference": "Clause 4.1 (iii) 30-day waiting period: Code-Excl03",
+        "explanation": "30-day initial waiting is standard. Accidents are typically covered from day 1 (subject to policy terms)."
+      },
+      {
+        "name": "Pre-hospitalization cover — 60 days",
+        "quote": "“for a period of 60 days immediately prior to the Insured Person's date of admission to the Hospital”",
+        "reference": "Clause 3.1.1 (iii) 1. Pre-Hospitalization Medical Expenses",
+        "explanation": "Covers eligible medical expenses for 60 days before admission (good/standard)."
+      },
+      {
+        "name": "Post-hospitalization cover — 90 days",
+        "quote": "“for a period of 90 days immediately after the Insured Person's date of discharge from the Hospital”",
+        "reference": "Clause 3.1.1 (iii) 2. Post Hospitalization Medical Expenses",
+        "explanation": "Covers eligible medical expenses for 90 days after discharge (good/standard)."
+      }
+    ],
+    "bad": [
+      {
+        "name": "Room rent limit can exist (depends on Policy Schedule) + proportionate deductions apply if exceeded",
+        "quote": "“If the Policy Schedule states 'up to 1% of the Sum Insured per day' as eligible Room Rent, it means the maximum eligible Room Rent… is limited to 1% of the Sum Insured per day… If the Insured Person is admitted… higher… then… shall bear the ratable proportion of the total Associate Medical Expenses…”",
+        "reference": "Clause 3.1.1 (vii) (a) Room Rent / Room Category",
+        "explanation": "If your schedule is the 1% of SI/day room-rent version, you can face proportionate deductions on many linked hospital charges when you take a higher category room. (If your schedule instead says Single Private AC Room, the risk reduces; verify your schedule.)"
+      },
+      {
+        "name": "Consumables / non-medical items not covered (out-of-pocket)",
+        "quote": "“Any item or condition or treatment specified in List of Non-Medical Items (Annexure – I to Policy Terms & Conditions).”",
+        "reference": "Clause 4.2 Specific Exclusions (Permanent Exclusions) point 1 + Annexure I",
+        "explanation": "Common consumables/non-medical items (e.g., gloves, masks, nebulisation kit, etc. listed in Annexure I) are excluded, meaning additional out-of-pocket during hospitalization."
+      },
+      {
+        "name": "NCB reduces on claim (resets downward at same accrual rate)",
+        "quote": "“In the event of a Claim occurring during any Policy Year, the accrued No Claims Bonus will be reduced at same rate at which it is accrued at the commencement of next Policy Year;”",
+        "reference": "Clause 3.1.3 (vii)",
+        "explanation": "Your accumulated NCB can reduce after a claim, so SI growth is not protected across claims (not a non-resetting bonus)."
+      }
+    ],
+    "unclear": [
+      {
+        "name": "Co-pay status for ages below 61 (not explicitly stated as 0% / no co-pay)",
+        "quote": "“The Co-payment proportion (if applicable)… (if Age… is 61 Years or above… shall bear a Co-payment of 20% per Claim…)”",
+        "reference": "Clause 3 (General Conditions) point 3 and 3(I)",
+        "explanation": "Document clearly states mandatory 20% co-pay if entry age is 61+. It does not clearly state whether co-pay is 0% for others or if any other co-pay can apply via schedule/product variants—confirm in your Policy Schedule."
+      },
+      {
+        "name": "Cashless network size (number of network hospitals) not stated",
+        "quote": "“For an updated list of Network Providers… the Insured Person may refer to the list of Network Providers available on the Company's website or at the call center.”",
+        "reference": "Clause 6.1.2 (a) (vii)",
+        "explanation": "The wording confirms cashless facility at network providers, but does not provide network hospital count. Verify current network strength for your city."
+      }
+    ]
+  },
+  "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
+}

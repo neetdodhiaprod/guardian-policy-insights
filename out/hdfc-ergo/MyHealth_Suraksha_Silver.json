@@ -1,0 +1,90 @@
+{
+  "policyName": "MyHealth Suraksha Silver",
+  "insurer": "HDFC ERGO General Insurance Company Limited",
+  "sumInsured": "As per Policy Schedule (not provided in excerpt)",
+  "policyType": "Not specified",
+  "documentType": "Policy Wording",
+  "summary": {
+    "great": 1,
+    "good": 7,
+    "bad": 1,
+    "unclear": 2
+  },
+  "features": {
+    "great": [
+      {
+        "name": "Built-in Additional Sum Insured buffer (optional): Sum Insured Rebound",
+        "quote": "Sum Insured Rebound\nWe will add to the Sum Insured, an amount equivalent to the Claim amount paid under Basic Sum Insured, subject to maximum of Basic Sum Insured on subsequent Hospitalization of the Insured Person during Policy Year",
+        "reference": "Section B, III. Optional Covers, 6. Sum Insured Rebound (Page 15)",
+        "explanation": "If you opt for this add-on, it can restore/add extra usable cover in the same policy year after you use your base sum insured (up to 100% of Basic SI), improving claim-paying capacity."
+      }
+    ],
+    "good": [
+      {
+        "name": "PED waiting period",
+        "quote": "Expenses related to the treatment of a pre-existing disease (PED) and its direct complications shall be excluded until the expiry of 48 months of continuous coverage after the date of inception of the first policy with insurer.",
+        "reference": "Section C, 1.I.i) Pre-existing Diseases – Code – Excl01 (Page 19)",
+        "explanation": "Pre-existing diseases are covered after 48 months (4 years) of continuous coverage, which is within standard ranges."
+      },
+      {
+        "name": "Specific illness/procedure waiting period",
+        "quote": "Expenses related to the treatment of the listed Conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first Policy with us.",
+        "reference": "Section C, 1.I.ii) Specified Disease/Procedure waiting period – Code – Excl02 (Page 19)",
+        "explanation": "Listed specific conditions/surgeries have a 24-month waiting period, which is standard."
+      },
+      {
+        "name": "Initial waiting period",
+        "quote": "Expenses related to the treatment of any illness within 30 days from the first Policy commencement date shall be excluded except claims arising due to an Accident",
+        "reference": "Section C, 1.I.iii) 30-day waiting period – Code – Excl03 (Page 20)",
+        "explanation": "30-day initial waiting is standard (accidents covered immediately as per terms)."
+      },
+      {
+        "name": "Pre-hospitalization cover",
+        "quote": "We will pay for the Pre-hospitalization Medical Expenses incurred during the 60 days immediately before Hospitalization",
+        "reference": "Section B, I. Hospitalization Cover, 4. Pre-hospitalization cover (Page 10)",
+        "explanation": "Covers diagnostic/consultation/medicine expenses for 60 days before admission (subject to admissible hospitalization claim)."
+      },
+      {
+        "name": "Post-hospitalization cover",
+        "quote": "We will pay for the Post-Hospitalization Medical Expenses incurred upto 180 days from the date Insured Person is discharged from Hospital",
+        "reference": "Section B, I. Hospitalization Cover, 5. Post-Hospitalization cover (Page 10)",
+        "explanation": "Covers follow-up expenses up to 180 days after discharge (subject to admissible hospitalization claim)."
+      },
+      {
+        "name": "NCB / Renewal bonus (Cumulative Bonus) – grows SI but reduces on claim",
+        "quote": "On each Renewal of the Policy with Us, We will apply 5% of Basic Sum Insured under expiring Policy as Cumulative Bonus... Cumulative Bonus will be reduced at the same rate as accrued in the event of admissible Claim under Section B-I of the Policy... accumulated upto 50% of Basic Sum Insured.",
+        "reference": "Section B, II. Renewal Benefits, 2. Cumulative Bonus (Page 11)",
+        "explanation": "Sum insured increases by 5% each claim-free renewal up to 50%, but it reduces when you make a claim (so the bonus is not protected)."
+      },
+      {
+        "name": "Optional add-on: Air Ambulance cover available",
+        "quote": "4. Air Ambulance Cover\nWe will pay for Air Ambulance transportation... Claim would be reimbursed up to the actual expenses subject to a maximum of Sum Insured as specified on the Schedule of Coverage in the Policy Schedule.",
+        "reference": "Section B, III. Optional Covers, 4. Air Ambulance Cover (Page 14)",
+        "explanation": "Air ambulance is available as an optional paid cover (limit depends on your schedule)."
+      }
+    ],
+    "bad": [
+      {
+        "name": "Restore Benefit (Base plan) not mentioned → treated as not covered",
+        "quote": "We will pay under below listed Covers on Medically Necessary Hospitalization... subject to Sum Insured and limits including Cumulative Bonus if applicable...",
+        "reference": "Section B: BENEFITS (Pages 10-11) — no restore/reinstatement benefit described in base benefits",
+        "explanation": "No restore benefit: Sum Insured is NOT replenished after a claim (unless you opt for the separate 'Sum Insured Rebound' optional cover)."
+      }
+    ],
+    "unclear": [
+      {
+        "name": "Co-pay (base policy) not explicitly stated; multiple optional/conditional co-pay references exist",
+        "quote": "Insured Person shall bear specified percentage of admissible Claim amount under each and every Claim If Co-payment is applicable",
+        "reference": "Section B, I. Hospitalization Cover (Page 10)",
+        "explanation": "The wording indicates co-pay may apply, but the base policy co-pay percentage (if any) is not stated here. Verify in the Policy Schedule/Schedule of Coverage whether co-pay is 0% or any percentage."
+      },
+      {
+        "name": "Room rent limit (default/base plan) not specified in provided excerpt",
+        "quote": "Room rent, boarding and Nursing charges",
+        "reference": "Section B, I. Hospitalization Cover, 1. Medical Expenses (Page 10)",
+        "explanation": "The base plan room category/capping is not shown in the excerpt. (A separate optional 'Room Rent Modification Option' clearly introduces a ₹5,000/day cap if chosen, but the default base room rent limit must be checked in the Policy Schedule/Schedule of Coverage.)"
+      }
+    ]
+  },
+  "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
+}

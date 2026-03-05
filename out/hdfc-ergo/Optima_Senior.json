@@ -1,0 +1,96 @@
+{
+  "policyName": "Optima Senior",
+  "insurer": "HDFC ERGO General Insurance Company Limited",
+  "sumInsured": "Not specified (Sum Insured is as per Schedule)",
+  "policyType": "Senior",
+  "documentType": "Policy Wording",
+  "summary": {
+    "great": 1,
+    "good": 4,
+    "bad": 5,
+    "unclear": 2
+  },
+  "features": {
+    "great": [
+      {
+        "name": "PED waiting period: 36 months (good as per rules)",
+        "quote": "Expenses related to the treatment of a pre -existing disease (PED) and its direct complications shall be excluded until the expiry of 36 months of continuous coverage after the date of inception of the first policy with insurer.",
+        "reference": "Section C.I.iii) Pre-Existing Diseases (Code – Excl01), Page 13",
+        "explanation": "Pre-existing diseases are covered after 36 months of continuous coverage, which is acceptable/standard for senior-focused plans and is NOT a red flag per your rules."
+      }
+    ],
+    "good": [
+      {
+        "name": "Initial waiting period: 30 days (standard)",
+        "quote": "Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident",
+        "reference": "Section C.I.i) 30-day Waiting period (Code – Excl03), Page 11",
+        "explanation": "Illness claims in the first 30 days are not covered (accidents covered). This is the industry-standard initial waiting period."
+      },
+      {
+        "name": "Specific illness/procedure waiting period: 24 months (standard)",
+        "quote": "Expenses related to the treatment of the listed Conditions, surgeries/treatments as mentioned in the table below shall be excluded until the expiry of 24 months of continuous coverage",
+        "reference": "Section C.I.ii) Specified disease/procedure waiting period (Code – Excl02), Page 11",
+        "explanation": "Listed specific illnesses/surgeries have a 24-month waiting period, which is standard (good) as per your rules."
+      },
+      {
+        "name": "Domiciliary hospitalization covered (with condition)",
+        "quote": "e. Domiciliary Treatment",
+        "reference": "Section B.I (Coverages), Page 7-8",
+        "explanation": "Home treatment (domiciliary) is covered under the policy terms (subject to conditions like minimum duration etc.). This is a useful standard feature."
+      },
+      {
+        "name": "Emergency ambulance covered (capped)",
+        "quote": "Emergency Ambulance: Expenses incurred on an ambulance in an emergency, subject to Rs. 2000 per Hospitalisation.",
+        "reference": "Section B.I.g, Page 8",
+        "explanation": "Ambulance cover is available but limited to ₹2,000 per hospitalization; this is a bonus/standard benefit."
+      }
+    ],
+    "bad": [
+      {
+        "name": "No restore benefit (mandatory feature missing)",
+        "quote": "No restore/reinstatement benefit wording found in the provided document.",
+        "reference": "Not mentioned in provided Policy Wording extract",
+        "explanation": "No restore benefit: Sum Insured is NOT replenished after a claim (based on the provided wording)."
+      },
+      {
+        "name": "Consumables not covered (non-medical items list suggests out-of-pocket)",
+        "quote": "Annexure I – List of Non-Medical Expenses ... 56 GLOVES ... 60 MASK ... 68 VASOFIX SAFETY",
+        "reference": "Annexure I – List of Non-Medical Expenses, Page 31-32",
+        "explanation": "Consumables not covered: gloves, syringes/IV cannula items, masks/PPE etc. are out-of-pocket as listed under non-medical expenses."
+      },
+      {
+        "name": "Pre-hospitalization: 30 days only (not great)",
+        "quote": "Pre-Hospitalization Medical expenses for consultations, investigations and medicines incurred upto 30 days before Hospitalisation.",
+        "reference": "Section B.I.1(b), Page 7",
+        "explanation": "Pre-hospitalization cover is limited to 30 days (minimum acceptable, but not strong)."
+      },
+      {
+        "name": "Post-hospitalization: 60 days only (minimum standard)",
+        "quote": "Post-Hospitalization Medical expenses for consultations, investigations and medicines incurred upto 60 days after discharge from Hospitalisation.",
+        "reference": "Section B.I.1(c), Page 7",
+        "explanation": "Post-hospitalization cover is limited to 60 days (minimum standard; many better plans offer 90/180 days+)."
+      },
+      {
+        "name": "NCB/renewal bonus absent (only renewal premium discount is offered)",
+        "quote": "No Claim Discount - A 5% non-cumulative discount will be offered on the renewal premium payable under the Policy after every CLAIM FREE Policy Year",
+        "reference": "Section B.II Renewal Benefits, Page 9",
+        "explanation": "No NCB: Sum Insured does not grow at renewal. The policy offers only a 5% renewal premium discount, not an increase in Sum Insured."
+      }
+    ],
+    "unclear": [
+      {
+        "name": "Room rent limit/capping not specified",
+        "quote": "In-patient Treatment means ... includes Hospital room rent or boarding expenses...",
+        "reference": "Important terms You should know, Page 8-9",
+        "explanation": "Room rent is mentioned as covered, but the document extract does not specify whether it is 'any room/no limit' or 'single room' or has a rupee cap. Check the schedule/plan details for the exact room category eligibility."
+      },
+      {
+        "name": "Co-pay is explicitly present (high and accommodation-linked) but overall applicability details should be checked against schedule/endorsement",
+        "quote": "Shared Accommodation... 15% ... Single occupancy or any higher accommodation type 30% ... If a claim has been admitted... then, the insured person shall bear 30% ... A Co-payment of 15% shall be applicable to all Day Care Procedures",
+        "reference": "Section B.III (Special terms and conditions) Co-Payment, Page 9-10",
+        "explanation": "Co-pay terms are clearly stated in the wording, but actual applicability can vary if any endorsements/plan options apply (the document shows endorsements that can modify waiting periods; co-pay modifications are not shown here). Verify the policy schedule/endorsement pages (if any) to confirm if any co-pay waiver/variation applies."
+      }
+    ]
+  },
+  "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
+}

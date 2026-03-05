@@ -1,0 +1,114 @@
+{
+  "policyName": "Health Pulse Enhanced",
+  "insurer": "Niva Bupa Health Insurance Company Limited",
+  "sumInsured": "Base Sum Insured options shown: 3L/4L/5L/7.5L/10L/15L/20L/25L (Classic & Enhanced plans) + No Claim Bonus as per Section 3.10/4.5",
+  "policyType": "Not specified",
+  "documentType": "Policy Wording",
+  "summary": {
+    "great": 1,
+    "good": 7,
+    "bad": 6,
+    "unclear": 1
+  },
+  "features": {
+    "great": [
+      {
+        "name": "NCB / Renewal Bonus (non-reducing on claim)",
+        "quote": "If a claim has been made in the immediately preceding Policy Year, We will not increase or decrease the Sum Insured due to this benefit for the Policy Year.",
+        "reference": "Section 3.10(b) No Claim Bonus",
+        "explanation": "Unlike many NCBs that drop to zero after a claim, this NCB does not get reduced if you claim; it just doesn’t increase for that year."
+      }
+    ],
+    "good": [
+      {
+        "name": "PED waiting period (Pre-existing Diseases)",
+        "quote": "Expenses related to the treatment of a Pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 36 months of continuous coverage after the date of inception of the first Policy.",
+        "reference": "Section 6.1(I)(a) Standard Exclusions",
+        "explanation": "Pre-existing diseases are covered after 36 months of continuous coverage, which is within the acceptable (good) range."
+      },
+      {
+        "name": "Specific illness/procedure waiting period",
+        "quote": "Expenses related to the treatment of the listed conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first Policy.",
+        "reference": "Section 6.1(II)(a) Specified disease/procedure Waiting Period",
+        "explanation": "24-month waiting for listed specific diseases/procedures is standard in health insurance."
+      },
+      {
+        "name": "Room rent (default: Single Private Room)",
+        "quote": "Room Rent (per day) ... Single Private Room",
+        "reference": "Annexure III – Product Benefit Table",
+        "explanation": "Default eligibility is Single Private Room (industry standard). Note: Classic plan table also shows an additional per-day cap structure (\"Up to 1% of Base Sum Insured per day or Single Private Room, whichever is lower\")."
+      },
+      {
+        "name": "Restore / Refill benefit (unrelated illness only)",
+        "quote": "The Re-fill amount may be used for only subsequent claims ... and shall not be for any Illness / Injury (including its complications or follow up) for which a claim has been paid or accepted as payable in the current Policy Year for the same Insured Person.",
+        "reference": "Section 3.11(a) Re-fill Benefit",
+        "explanation": "Refill is available up to 100% of Base SI after exhaustion, but it cannot be used for the same illness/related complications for the same insured in the same policy year."
+      },
+      {
+        "name": "Pre-hospitalization expenses (30 days)",
+        "quote": "We will pay above mentioned Pre-hospitalization Medical Expenses only for period up to 30 days immediately preceding the Insured Person’s admission",
+        "reference": "Section 3.2 Sub-limit (a)",
+        "explanation": "Covers diagnostics/consultations/medicines for 30 days before hospitalization (standard)."
+      },
+      {
+        "name": "Post-hospitalization expenses (60 days)",
+        "quote": "We will pay Post-hospitalization Medical Expenses only for period up to 60 days immediately following the Insured Person’s discharge",
+        "reference": "Section 3.3 Sub-limit (a)",
+        "explanation": "Covers follow-up expenses for 60 days after discharge (standard)."
+      },
+      {
+        "name": "Domiciliary hospitalization covered",
+        "quote": "We will indemnify on Reimbursement basis only, the Medical Expenses incurred for the Insured Person’s Domiciliary Hospitalization",
+        "reference": "Section 3.5 Domiciliary Hospitalization",
+        "explanation": "Home treatment is covered when hospitalisation would normally be required but isn’t possible (subject to conditions)."
+      }
+    ],
+    "bad": [
+      {
+        "name": "Initial waiting period is 30 days (not 0 days)",
+        "quote": "Expenses related to the treatment of any Illness within 30 days from the first Policy commencement date shall be excluded except claims arising due to an Accident",
+        "reference": "Section 6.1(III)(a) 30-day waiting period (Code–Excl03)",
+        "explanation": "Illnesses in the first 30 days are not covered (accidents are covered), which is standard but not best-in-class (0-day)."
+      },
+      {
+        "name": "Consumables not covered (patient-level items like gloves, masks, syringes etc.)",
+        "quote": "Annexure II - List  I – Expenses not covered ... 56 GLOVES ... 60 MASK ... 62 OXYGEN MASK ... 57 NEBULISATION KIT ...",
+        "reference": "Annexure II – The expenses that are not covered or subsumed into room charges / procedure charges / costs of treatment",
+        "explanation": "Many common consumables are listed as non-payable, which can create significant out-of-pocket costs during hospitalisation."
+      },
+      {
+        "name": "Room-rent linked proportionate deduction applies if you choose a higher room than eligible",
+        "quote": "If the Insured Person is admitted in a Hospital room where the room category opted or Room Rent incurred is higher than the eligibility as specified in the Policy Schedule, then We shall be liable to pay only a pro-rated portion of the total Associated Medical Expenses",
+        "reference": "Section 3.1 Conditions (b)",
+        "explanation": "If you take a room above your eligible category, insurer can proportionately reduce not just room rent but also associated expenses (doctor fees, OT etc.), increasing out-of-pocket."
+      },
+      {
+        "name": "Co-pay (Classic plan) mandatory 20% for specific geographies",
+        "quote": "A 20% Co-payment will apply under Classic plan available under the product for treatment in Delhi NCR, Mumbai (including Navi Mumbai and Thane), Kolkata & Gujarat State.",
+        "reference": "Section 5 Claim Cost Sharing; also echoed in Annexure III (Co-Payment)",
+        "explanation": "For Classic plan, you may pay 20% of admissible claim amount in the listed locations, which materially reduces effective cover."
+      },
+      {
+        "name": "Disease / treatment sub-limit: Robotic surgeries capped (except certain procedures)",
+        "quote": "A limit of maximum INR 1 Lac will apply to all robotic surgeries, except the following: i. Robotic total radical prostatectomy ii. Robotic cardiac surgeries iii. Robotic partial nephrectomy iv. Robotic surgeries for malignancies",
+        "reference": "Section 3.15 Modern Treatments – Special condition applicable for robotic surgeries",
+        "explanation": "If your surgery is done robotically, payout can be capped at ₹1 lakh for many robotic procedures (unless in the exception list)."
+      },
+      {
+        "name": "Disease / treatment sub-limit: Mental health disorders capped for listed conditions",
+        "quote": "The following disorders / conditions shall be covered only up to 10% of Base Sum Insured or Rs. 50,000, whichever is lower.",
+        "reference": "Section 3.13 Sub-limit (a) Mental Disorders Treatment",
+        "explanation": "For the listed mental health conditions, coverage is limited to 10% of Base SI or ₹50,000 (lower), which can be restrictive."
+      }
+    ],
+    "unclear": [
+      {
+        "name": "Co-pay terms overall depend on Policy Schedule / plan selection (beyond Classic geo co-pay statement)",
+        "quote": "Co-payment (if applicable) as specified in the Policy Schedule shall be applied on the amount payable by Us.",
+        "reference": "Section 5 Claim Cost Sharing",
+        "explanation": "The document confirms co-pay can apply but the exact co-pay for your specific policy depends on what is mentioned in your Policy Schedule (and whether you are on Classic vs Enhanced plan). Verify your schedule."
+      }
+    ]
+  },
+  "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
+}

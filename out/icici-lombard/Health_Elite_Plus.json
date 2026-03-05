@@ -1,0 +1,114 @@
+{
+  "policyName": "Health Elite Plus",
+  "insurer": "ICICI Lombard General Insurance Company Limited",
+  "sumInsured": "₹ XXXX (Individual Sum Insured or Floater Sum Insured as per policy)",
+  "policyType": "Not specified",
+  "documentType": "Mixed",
+  "summary": {
+    "great": 4,
+    "good": 7,
+    "bad": 2,
+    "unclear": 2
+  },
+  "features": {
+    "great": [
+      {
+        "name": "Restore/Reset benefit (same illness covered) + unlimited for unrelated illnesses",
+        "quote": "Reset Benefit – The Sum Insured will be reset up to 100% once a policy year for same illness and Unlimited times for different illness",
+        "reference": "Section d.A.7",
+        "explanation": "If your Sum Insured is exhausted due to earlier claims, it can be replenished: once per policy year even for the same illness, and unlimited times for different illnesses (subject to the stated condition that base SI + bonuses are insufficient)."
+      },
+      {
+        "name": "NCB / Renewal Bonus (non-resetting) - Loyalty Bonus",
+        "quote": "Loyalty Bonus- A Get a 20% loyalty bonusof the Annual Sum Insured, up to a max of 100%... No reduction to the cumulative bonus even in case of a claim.",
+        "reference": "Section d.A.14",
+        "explanation": "Your accumulated bonus does not reduce even if you make a claim (better than most NCBs that drop on claim)."
+      },
+      {
+        "name": "Built-in additional Sum Insured buffer (optional) - Sum Insured Protector (inflation-linked)",
+        "quote": "Sum Insured Protector – Protects the sum insured against the rising inflation by linking the Sum insured under the base plan to the consumer price index (CPI).",
+        "reference": "Optional Covers, Section d.B.14",
+        "explanation": "If opted, it can increase protection over time by linking Sum Insured to CPI, helping your coverage keep pace with inflation."
+      },
+      {
+        "name": "Consumables cover via optional Claim Protector (turns excluded items payable)",
+        "quote": "Claim Protector - If claim has been accepted under “Inpatient treatment” or “Daycare procedure”, then items which are included in the list of excluded items not payable in that particular claim will become payable up to the Annual Sum Insured under the policy.",
+        "reference": "Optional Covers, Section d.B.15",
+        "explanation": "If you opt this cover, many non-payable/excluded items (often including consumables) can become payable up to Sum Insured for accepted inpatient/daycare claims."
+      }
+    ],
+    "good": [
+      {
+        "name": "Room rent (default limit)",
+        "quote": "Room Rent charges “Single Private Room”",
+        "reference": "Policy Coverage i.Basic Covers: 1; also repeated under Financial limits of coverage",
+        "explanation": "Single private room is standard but not best-in-class (which would be 'any room/no limit')."
+      },
+      {
+        "name": "Pre-hospitalization cover",
+        "quote": "Pre Hospitalization Medical expenses  - 60 days before hospitalization",
+        "reference": "Section d.A.4",
+        "explanation": "Covers eligible medical expenses for 60 days before admission (standard)."
+      },
+      {
+        "name": "Post-hospitalization cover",
+        "quote": "Post Hospitalization Expenses –180 days after discharge",
+        "reference": "Section d.A.5",
+        "explanation": "Covers eligible medical expenses for 180 days after discharge (standard)."
+      },
+      {
+        "name": "PED waiting period",
+        "quote": "Expenses related to the treatment of a pre -existing Disease (PED) and its direct complications shall be excluded until the expiry of 24 months of continuous coverage",
+        "reference": "Exclusions i. Standard Exclusion 1. Code- Excl01- Pre-Existing Diseases",
+        "explanation": "Pre-existing diseases are covered after 24 months of continuous coverage (industry standard)."
+      },
+      {
+        "name": "Specific disease/procedure waiting period",
+        "quote": "Expenses for listed conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage post first policy inception.",
+        "reference": "Exclusions i. Standard Exclusion 2. Code- Excl02",
+        "explanation": "Listed specific illnesses/procedures have a 24-month waiting period (standard)."
+      },
+      {
+        "name": "Initial waiting period",
+        "quote": "Initial waiting period: 30 days for all illnesses (except hospitalization due to injury)",
+        "reference": "Waiting period section; also Excl03-30-day waiting period",
+        "explanation": "Illness claims are not covered in the first 30 days (accidents covered). This is standard."
+      },
+      {
+        "name": "Air ambulance cover",
+        "quote": "Domestic Air Ambulance Cover  - Covers expenses during emergencies up to the annual Sum Insured.",
+        "reference": "Section d.A.9",
+        "explanation": "Air ambulance is covered for emergencies (a valuable add-on style benefit; limit is up to Annual Sum Insured as stated)."
+      }
+    ],
+    "bad": [
+      {
+        "name": "Disease sub-limit: Cataract capped",
+        "quote": "* 2 years after policy inception, the maximum liability arising out of any Claim from a cataract treatment claim shall be restricted to up to 10% of the Annual Sum Insured subject to a maximum of ₹1 Lakh per eye.",
+        "reference": "List of specific diseases/procedure (Cataract note); also repeated under Financial limits of coverage",
+        "explanation": "Cataract has a sub-limit (10% of SI, max ₹1 lakh per eye), which can increase out-of-pocket costs if hospital charges exceed the cap."
+      },
+      {
+        "name": "Consumables not covered by default (unless optional Claim Protector is opted)",
+        "quote": "Non-medical and non-payable expenses are your responsibility.",
+        "reference": "Claims Procedure (Other terms and conditions)",
+        "explanation": "This sheet does not confirm default consumables/non-payables coverage; it explicitly says non-medical/non-payable expenses are yours. Unless you opt 'Claim Protector', you should expect consumables (gloves, syringes, PPE kits etc.) to be out-of-pocket."
+      }
+    ],
+    "unclear": [
+      {
+        "name": "Co-pay (base plan) not explicitly stated; zone-based and voluntary co-pay mentioned",
+        "quote": "Voluntary co-payment opted- XX% will be applicable for each and every claim\n\nZone Based Pricing – Premium depends on your chosen zone. If treatment is conducted in a higher zone, co-payment applies.",
+        "reference": "Financial limits of coverage (Co-payment; Zone Based Pricing); also Optional Covers: Voluntary Co-payment",
+        "explanation": "This document mentions (a) voluntary co-pay if opted and (b) zone-based co-pay when treated in a higher zone, but it does not clearly state whether any mandatory co-pay applies by default if you do not opt voluntary co-pay and you take treatment within your zone. Confirm co-pay terms in your schedule."
+      },
+      {
+        "name": "Cashless hospital network size not stated",
+        "quote": "Find our extensive list of hospitals providing cashless services on our website https://www.icicilombard.com/health-insurance/health-claim/partner-hospital or on the IL TakeCare App.",
+        "reference": "Claims Procedure",
+        "explanation": "The number of network hospitals is not provided here; verify current network size and availability for your city/hospitals."
+      }
+    ]
+  },
+  "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
+}

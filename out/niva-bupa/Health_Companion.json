@@ -1,0 +1,108 @@
+{
+  "policyName": "Health Companion",
+  "insurer": "Niva Bupa Health Insurance Company Limited",
+  "sumInsured": "Not specified (Base Sum Insured + NCB; plus Refill benefit as applicable)",
+  "policyType": "Not specified",
+  "documentType": "Policy Wording",
+  "summary": {
+    "great": 1,
+    "good": 7,
+    "bad": 4,
+    "unclear": 2
+  },
+  "features": {
+    "great": [
+      {
+        "name": "Restore/Refill benefit (works for same illness too)",
+        "quote": "3.6. Refill We will add an amount equal to the base sum insured, after the first claim is paid... b. Benefit applies for any illness (same or different).",
+        "reference": "Section 3.6 (Refill)",
+        "explanation": "After your first paid claim in a policy year, an extra amount equal to your Base Sum Insured gets added (once per year). It can be used even for the same illness, which is stronger than standard restores."
+      }
+    ],
+    "good": [
+      {
+        "name": "PED waiting period (36 months)",
+        "quote": "4.1.1. Pre-existing Diseases (Code–Excl01): a. Expenses related to the treatment of a Pre-existing Disease (PED)... shall be excluded until the expiry of 36 months of continuous coverage",
+        "reference": "Section 4.1.1",
+        "explanation": "Pre-existing diseases are covered after 36 months of continuous coverage, which is within the acceptable 2–4 year market range."
+      },
+      {
+        "name": "Specific disease/procedure waiting period (24 months)",
+        "quote": "4.1.2. Specified disease/procedure waiting period (Code- Excl02) a. Expenses related to the treatment of the listed conditions... shall be excluded until the expiry of 24 months of continuous coverage",
+        "reference": "Section 4.1.2",
+        "explanation": "Listed specific illnesses/procedures have a 24-month waiting period, which is standard in the market."
+      },
+      {
+        "name": "Initial waiting period (30 days) with accident exception",
+        "quote": "4.1.3. 30-day waiting period (Code- Excl03): a. Expenses related to the treatment of any Illness within 30 days... shall be excluded except claims arising due to an Accident",
+        "reference": "Section 4.1.3",
+        "explanation": "Illness claims start after 30 days (standard). Accident claims are covered from day 1."
+      },
+      {
+        "name": "Pre-hospitalization cover (60 days)",
+        "quote": "3.3. ... 60 days before date of admission and 180 days after date of discharge IF these are related to the condition for which hospital admission claim is paid.",
+        "reference": "Section 3.3",
+        "explanation": "Covers eligible medical expenses for 60 days before hospitalization for the same condition (standard-good)."
+      },
+      {
+        "name": "Post-hospitalization cover (180 days)",
+        "quote": "3.3. ... 60 days before date of admission and 180 days after date of discharge IF these are related to the condition for which hospital admission claim is paid.",
+        "reference": "Section 3.3",
+        "explanation": "Covers eligible medical expenses for 180 days after discharge for the same condition (standard-good)."
+      },
+      {
+        "name": "No Claim Bonus (NCB) up to 100% (but claim impact not described here)",
+        "quote": "3.5. No Claim Bonus (NCB) For every claim free year, we will add 20% of expiring policy base sum insured as NCB, maximum up to 100%.",
+        "reference": "Section 3.5",
+        "explanation": "NCB accrues at 20% per claim-free year up to 100%. This is good growth, but this excerpt does not clearly state whether NCB reduces/resets on a claim (see 'Unclear')."
+      },
+      {
+        "name": "Domiciliary/Home care treatment covered",
+        "quote": "3.9. Home Care / Domiciliary Treatment... We will pay for Pre & Post hospitalization benefit as per section 3.3 for Home Care / Domiciliary Treatment.",
+        "reference": "Section 3.9",
+        "explanation": "Provides cover for treatment taken at home when hospital care is otherwise required (subject to conditions), which is a useful standard feature."
+      }
+    ],
+    "bad": [
+      {
+        "name": "Room rent limit / room type capping (Variant 2023) with co-payment for upgrade",
+        "quote": "For Variant 2023 there is a room type capping up to Shared Room. 20% co-payment will apply in case of higher room category",
+        "reference": "Section 3.2 (Expenses during hospitalization)",
+        "explanation": "A room rent/category cap (up to Shared Room) is restrictive versus market standards (many good plans offer at least Single Private AC). Upgrading room category triggers extra out-of-pocket co-pay."
+      },
+      {
+        "name": "Proportionate deduction due to room upgrade (can reduce many associated bills)",
+        "quote": "If you opt for a Hospital room which is higher than the eligible room category as specified in your Policy Schedule, then We will pay only a pro-rated portion of the total Associated Medical Expenses... (Eligible Room Rent limit / Room Rent actually incurred) * total Associated Medical Expenses",
+        "reference": "Section 5.2.4(d)",
+        "explanation": "If you choose a higher room category than eligible, the insurer can proportionately reduce not just room rent but also doctor fees/OT/nursing (associated medical expenses), which can significantly increase your payout gap."
+      },
+      {
+        "name": "Consumables not covered (major out-of-pocket list includes gloves, masks, etc.)",
+        "quote": "Annexure I - List I – Expenses not covered... 56 GLOVES ... 60 MASK ... 68 VASOFIX SAFETY",
+        "reference": "Annexure I (List I – Expenses not covered)",
+        "explanation": "Consumables like gloves, masks, cannulas (vasofix) etc. are explicitly not covered, which can add material out-of-pocket costs during hospitalizations."
+      },
+      {
+        "name": "No built-in additional Sum Insured buffer beyond base/NCB/refill (not a separate buffer feature)",
+        "quote": "5.2.10. Sum Insured... Our maximum, total and cumulative liability for all claims during the Policy Year will be Sum Insured and amount provided under Refill benefit.",
+        "reference": "Section 5.2.10",
+        "explanation": "Apart from NCB and the Refill (restore) feature, this wording does not describe any separate built-in additional SI buffer (like Secure Benefit/Enhanced SI) that activates after base SI is exhausted."
+      }
+    ],
+    "unclear": [
+      {
+        "name": "Co-pay terms for the base policy (other than Variant 2023 room upgrade) not explicitly stated",
+        "quote": "For Variant 2023... 20% co-payment will apply in case of higher room category",
+        "reference": "Section 3.2",
+        "explanation": "The document mentions a 20% co-pay only linked to choosing a higher room category in Variant 2023. It does not clearly state whether any other co-pay applies by default (age-wise/zone-wise/mandatory). Verify co-pay (if any) in the Policy Schedule for your variant."
+      },
+      {
+        "name": "NCB reduction/reset on claim not stated",
+        "quote": "3.5. No Claim Bonus (NCB) For every claim free year, we will add 20%... maximum up to 100%.",
+        "reference": "Section 3.5",
+        "explanation": "This excerpt explains accrual of NCB but does not clearly state what happens to accumulated NCB after a claim (whether it reduces, resets to zero, or is protected). Confirm NCB reduction rules in the policy schedule/complete NCB clause (if present elsewhere)."
+      }
+    ]
+  },
+  "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
+}

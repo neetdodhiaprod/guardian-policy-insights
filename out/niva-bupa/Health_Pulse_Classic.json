@@ -1,0 +1,96 @@
+{
+  "policyName": "Health Pulse Classic",
+  "insurer": "Niva Bupa Health Insurance Company Limited",
+  "sumInsured": "Base Sum Insured options: 3L/4L/5L/7.5L/10L/15L/20L/25L (plus No Claim Bonus as applicable)",
+  "policyType": "Not specified",
+  "documentType": "Policy Wording",
+  "summary": {
+    "great": 1,
+    "good": 5,
+    "bad": 5,
+    "unclear": 1
+  },
+  "features": {
+    "great": [
+      {
+        "name": "No Claim Bonus (NCB) does not reduce on claim (non-resetting)",
+        "quote": "If a claim has been made in the immediately preceding Policy Year, We will not increase or decrease the Sum Insured due to this benefit for the Policy Year.",
+        "reference": "Section 3.10(b) No Claim Bonus",
+        "explanation": "Unlike many NCBs that reduce/reset after a claim, this NCB is protected (it simply doesn’t increase for that year). This helps your accumulated Sum Insured stay intact."
+      }
+    ],
+    "good": [
+      {
+        "name": "PED waiting period: 36 months",
+        "quote": "Expenses related to the treatment of a Pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 36 months of continuous coverage after the date of inception of the first Policy.",
+        "reference": "Section 6.1(I)(a) Standard Exclusions – Pre-existing Diseases",
+        "explanation": "Pre-existing diseases are covered after 36 months of continuous coverage, which is within normal market range (2–4 years)."
+      },
+      {
+        "name": "Specific illness/procedure waiting period: 24 months",
+        "quote": "Expenses related to the treatment of the listed conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first Policy.",
+        "reference": "Section 6.1(II)(a) Specified disease/procedure Waiting Period",
+        "explanation": "A 24-month waiting period for listed conditions is industry standard."
+      },
+      {
+        "name": "Initial waiting period: 30 days",
+        "quote": "Expenses related to the treatment of any Illness within 30 days from the first Policy commencement date shall be excluded except claims arising due to an Accident, provided the same are covered.",
+        "reference": "Section 6.1(III)(a) 30-day waiting period",
+        "explanation": "A 30-day initial waiting period is standard for illnesses (accidents are covered from day 1)."
+      },
+      {
+        "name": "Restore/Refill benefit (unrelated illness only)",
+        "quote": "We will provide a Re-fill amount of maximum up to 100% of the Base Sum Insured... The Re-fill amount may be used... shall not be for any Illness / Injury (including its complications or follow up) for which a claim has been paid or accepted as payable in the current Policy Year for the same Insured Person.",
+        "reference": "Section 3.11 Re-fill Benefit (and Conditions a)",
+        "explanation": "Sum Insured can be refilled up to 100% for subsequent claims in the same year, but not for the same illness/related condition—this is the standard (unrelated-only) type of restore."
+      },
+      {
+        "name": "Post-hospitalization cover: 60 days",
+        "quote": "We will pay Post-hospitalization Medical Expenses only for period up to 60 days immediately following the Insured Person’s discharge...",
+        "reference": "Section 3.3 (Sub-limit a) Post-hospitalization Medical Expenses",
+        "explanation": "60 days is the minimum end of the standard range for post-hospitalization coverage."
+      }
+    ],
+    "bad": [
+      {
+        "name": "Room rent has a % cap (Classic Plan) and can trigger proportionate deduction",
+        "quote": "Room Rent (per day) Up to 1% of Base Sum Insured per day or Single Private Room, whichever is lower",
+        "reference": "Annexure III – Product Benefit Table (Room Rent)",
+        "explanation": "A % of SI per-day cap can effectively act like a daily room rent limit, especially at lower SIs. This can restrict choice of room and lead to higher out-of-pocket costs."
+      },
+      {
+        "name": "Proportionate deduction applies if room category exceeds eligibility",
+        "quote": "If the Insured Person is admitted in a Hospital room where the room category opted or Room Rent incurred is higher than the eligibility as specified in the Policy Schedule, then We shall be liable to pay only a pro-rated portion of the total Associated Medical Expenses... (eligible Room Rent limit / Room Rent actually incurred) * total Associated Medical Expenses",
+        "reference": "Section 3.1 (Conditions b) Inpatient Care",
+        "explanation": "If you take a higher room than eligible, the insurer can reduce not just room rent but related costs (doctor/OT/nursing) proportionately—this can create a large payout reduction."
+      },
+      {
+        "name": "Consumables not covered (non-payable items list includes common consumables like gloves, masks, kits)",
+        "quote": "Annexure II - List  I – Expenses not covered... 56 GLOVES... 60 MASK... 58 ANY KIT WITH NO DETAILS MENTIONED [DELIVERY KIT, ORTHOKIT, RECOVERY KIT, ETC]",
+        "reference": "Annexure II – The expenses that are not covered or subsumed...",
+        "explanation": "Many common consumables are listed as not covered, which can increase out-of-pocket spend during hospitalization."
+      },
+      {
+        "name": "Pre-hospitalization cover limited to 30 days",
+        "quote": "We will pay above mentioned Pre-hospitalization Medical Expenses only for period up to 30 days immediately preceding the Insured Person’s admission...",
+        "reference": "Section 3.2 (Sub-limit a) Pre-hospitalization Medical Expenses",
+        "explanation": "30 days is on the lower side (some policies offer 60–90+ days), so diagnostic/consultation expenses beyond 30 days before admission may be out-of-pocket."
+      },
+      {
+        "name": "Modern treatments: sub-limit on some robotic surgeries",
+        "quote": "A limit of maximum INR 1 Lac will apply to all robotic surgeries, except the following: i. Robotic total radical prostatectomy ii. Robotic cardiac surgeries iii. Robotic partial nephrectomy iv. Robotic surgeries for malignancies",
+        "reference": "Section 3.15 Modern Treatments – Special condition applicable for robotic surgeries",
+        "explanation": "Robotic surgery costs can be significantly higher than ₹1 lakh; this sub-limit can lead to substantial out-of-pocket expenses for many robotic procedures."
+      }
+    ],
+    "unclear": [
+      {
+        "name": "Co-payment terms depend on plan/schedule (overall co-pay not uniformly stated in wording)",
+        "quote": "Co-payment (if applicable) as specified in the Policy Schedule shall be applied... A 20% Co-payment will apply under Classic plan... for treatment in Delhi NCR, Mumbai (including Navi Mumbai and Thane), Kolkata & Gujarat State.",
+        "reference": "Section 5 Claim Cost Sharing",
+        "explanation": "The wording indicates co-pay is schedule-dependent and also mentions a Classic-plan metro/Gujarat 20% co-pay, but your actual co-pay for your policy depends on what’s in your Policy Schedule/plan variant (Classic vs Enhanced). Verify your schedule to confirm whether any co-pay applies to you."
+      }
+    ]
+  },
+  "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
+}

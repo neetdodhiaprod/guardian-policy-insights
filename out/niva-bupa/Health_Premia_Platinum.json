@@ -1,0 +1,114 @@
+{
+  "policyName": "Health Premia Platinum",
+  "insurer": "Niva Bupa Health Insurance Company Limited",
+  "sumInsured": "Individual/Family Floater: 5L to 3Cr (by plan). Family First: Base Individual SI 1L to 15L + Floater SI as per formula (by plan).",
+  "policyType": "Not specified",
+  "documentType": "Policy Wording",
+  "summary": {
+    "great": 6,
+    "good": 5,
+    "bad": 3,
+    "unclear": 1
+  },
+  "features": {
+    "great": [
+      {
+        "name": "Restore Benefit (Refill) – up to 100% of Base Sum Insured (same & different illness)",
+        "quote": "We will provide an additional re-fill amount of maximum up to 100% of the Base Sum Insured.",
+        "reference": "Section 3.13 Re-fill Benefit",
+        "explanation": "After your Base SI (and Loyalty additions, if any) is used up, the policy can refill up to 100% of Base SI for further eligible hospital claims in the same policy year."
+      },
+      {
+        "name": "Built-in additional Sum Insured buffer – Re-fill amount activates after base is exhausted",
+        "quote": "If the Base Sum Insured and increased Sum Insured under Loyalty Additions... has been partially or completely exhausted due to claims... then We will provide an additional re-fill amount of maximum up to 100% of the Base Sum Insured.",
+        "reference": "Section 3.13 Re-fill Benefit",
+        "explanation": "This is an in-built extra cover that becomes available once the main cover (and loyalty additions) gets exhausted, improving protection against multiple hospitalizations."
+      },
+      {
+        "name": "Pre-existing disease (PED) waiting period – 24 months",
+        "quote": "Expenses related to the treatment of a Pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first Policy.",
+        "reference": "Section 5.1.1.1 Pre-existing Diseases (Code–Excl01)",
+        "explanation": "PED coverage starts after 24 months of continuous coverage (subject to declaration and acceptance), which is better than many 36-month policies."
+      },
+      {
+        "name": "Specified disease/procedure waiting period – 12 months",
+        "quote": "Expenses related to the treatment of the listed conditions, surgeries/treatments shall be excluded until the expiry of 12 months of continuous coverage after the date of inception of the first Policy.",
+        "reference": "Section 5.1.1.2 Specified disease/procedure waiting period- Code- Excl02",
+        "explanation": "Common listed surgeries/conditions (cataract, hernia, piles, etc.) are covered after 12 months, which is better than the common 24-month waiting period."
+      },
+      {
+        "name": "Pre-hospitalization cover – 90 days",
+        "quote": "We will pay above mentioned Pre-hospitalization Medical Expenses only for period up to 90 days immediately preceding the Insured Person’s admission",
+        "reference": "Section 3.2 (Sub-limit a.)",
+        "explanation": "Covers eligible medical expenses up to 90 days before hospitalization (when related to the same hospitalization)."
+      },
+      {
+        "name": "Post-hospitalization cover – 180 days",
+        "quote": "We will pay Post-hospitalization Medical Expenses only for up to 180 days immediately following the Insured Person’s discharge",
+        "reference": "Section 3.3 (Sub-limit a.)",
+        "explanation": "Covers eligible medical expenses up to 180 days after discharge for the same condition."
+      }
+    ],
+    "good": [
+      {
+        "name": "Initial waiting period – 30 days (illness)",
+        "quote": "Expenses related to the treatment of any Illness within 30 days from the first Policy commencement date shall be excluded except claims arising due to an Accident",
+        "reference": "Section 5.1.1.3 30-day waiting period (Code- Excl03)",
+        "explanation": "Standard industry practice: illnesses are covered after 30 days; accidents are covered from day 1."
+      },
+      {
+        "name": "Room rent – Covered up to Sum Insured (except suite or above) (Individual & Family Floater variant)",
+        "quote": "Room rent Covered up to Sum Insured (except for Suite or above room category)",
+        "reference": "Annexure II – Product Benefit Table (Individual & Family Floater variant)",
+        "explanation": "Effectively ‘no fixed daily room rent cap’ for standard rooms (suite/above excluded). Note: Family First variant has rupee caps/options for room rent."
+      },
+      {
+        "name": "Domiciliary hospitalization covered (with minimum 3 days condition)",
+        "quote": "We will indemnify on Reimbursement basis only, the Medical Expenses incurred for the Insured Person’s Domiciliary Hospitalization... The Domiciliary Hospitalization continues for at least 3 consecutive days",
+        "reference": "Section 3.5 Domiciliary Hospitalization",
+        "explanation": "Home hospitalization is covered, but only if it continues for at least 3 consecutive days."
+      },
+      {
+        "name": "Modern treatments covered but with robotic surgery sub-limit",
+        "quote": "Modern Treatments Covered up to Sum Insured with sub-limit of Rs. 1Lac on few robotic surgeries",
+        "reference": "Annexure II – Product Benefit Table; also Section 3.25 (robotic special condition)",
+        "explanation": "Modern treatments are included, but robotic surgeries have a limit (₹1 lakh) except certain listed robotic surgeries."
+      },
+      {
+        "name": "Renewal bonus (Loyalty Additions / Cumulative Bonus) – 10% per year up to 100% of Base SI (resets not stated as zero)",
+        "quote": "We will provide Loyalty Additions... by increasing the Sum Insured... by 10% of the Base Sum Insured... subject to a maximum of 100% of the Base Sum Insured.",
+        "reference": "Section 3.16 Loyalty Additions",
+        "explanation": "Sum Insured increases by 10% of Base SI at renewal/continuation, up to 100% of Base SI. The document does not state a typical NCB ‘reset to zero on claim’ rule."
+      }
+    ],
+    "bad": [
+      {
+        "name": "Consumables not covered (many standard consumables are excluded/out-of-pocket)",
+        "quote": "Annexure VII - The expenses that are not covered... List  I – Expenses not covered... 56 GLOVES... 60 MASK... 57 NEBULISATION KIT... 58 ANY KIT WITH NO DETAILS MENTIONED [DELIVERY KIT, ORTHOKIT, RECOVERY KIT, ETC]",
+        "reference": "Annexure VII - The expenses that are not covered or subsumed...",
+        "explanation": "Many consumables (e.g., gloves, masks, kits) are not payable, increasing out-of-pocket during hospitalization."
+      },
+      {
+        "name": "Disease/condition sub-limits – HIV/AIDS capped at ₹50,000",
+        "quote": "This benefit is covered up to a limit of Rs. 50,000.",
+        "reference": "Section 3.17 HIV / AIDS (Sub-limit a.)",
+        "explanation": "A hard cap for HIV/AIDS-related hospitalization reduces protection for this condition."
+      },
+      {
+        "name": "Mandatory zone-based co-pay option (if Zone 2 selected) – 20% co-pay in specified locations",
+        "quote": "If You select Zone 2, then 20% Co-payment will apply for treatment in Mumbai (including Navi Mumbai & Thane), Delhi NCR, Kolkata & Gujarat State.",
+        "reference": "Section 6.2.11 Zonal pricing",
+        "explanation": "If you choose Zone 2 premium, you bear 20% of admissible claims in listed high-cost locations. This is a meaningful reduction in effective coverage (choice depends on zone selected)."
+      }
+    ],
+    "unclear": [
+      {
+        "name": "Co-pay (base policy, generally) – not explicitly stated as 0%; depends on Policy Schedule/zone",
+        "quote": "Co-payment (if applicable) shall be applied on the amount payable by Us.",
+        "reference": "Section 6.2.14 Claim Cost Sharing Option / Conditions; also Section 6.2.11 Zonal pricing",
+        "explanation": "The wording indicates co-pay can apply but does not state a universal 0% co-pay. Co-pay appears to depend on selections like Zone 2 and/or what is shown in the Policy Schedule—verify your schedule."
+      }
+    ]
+  },
+  "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
+}

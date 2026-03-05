@@ -1,0 +1,144 @@
+{
+  "policyName": "Super Surplus Gold",
+  "insurer": "Star Health and Allied Insurance Company Limited",
+  "sumInsured": "Not specified (document mentions SI slabs incl. ₹5L, ₹10L, ₹15L, ₹20L, ₹25L, ₹50L, ₹75L, ₹1Cr; Defined Limit/Deductible as per schedule)",
+  "policyType": "Family Floater",
+  "documentType": "Policy Wording",
+  "summary": {
+    "great": 4,
+    "good": 8,
+    "bad": 6,
+    "unclear": 2
+  },
+  "features": {
+    "great": [
+      {
+        "name": "Restore/Recharge benefit (works even for same illness; can be used in same hospitalization) — Gold Plan",
+        "quote": "Recharge Benefit: If the sum insured under the policy is exhausted/ exceeded during the policy period, additional indemnity up to the limits stated in the table given below would be provided once for the remaining policy period. Such additional indemnity can be utilized even for the same hospitalization or for the treatment of diseases / illness / injury / for which claim was paid / payable under the policy.",
+        "reference": "Section III (Coverage - Gold Plan), clause L",
+        "explanation": "This is a strong restore/recharge feature because it triggers after Sum Insured is exhausted and is allowed even for the same illness/same hospitalization (once per policy year; not for Modern Treatments)."
+      },
+      {
+        "name": "Pre-existing disease (PED) waiting period — 12 months (Gold Plan)",
+        "quote": "Applicable for Gold Plan: Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 12 months of continuous coverage after the date of inception of the first policy with insurer",
+        "reference": "Section IV (Exclusions), Standard Exclusions, 1(A) Pre-Existing Diseases (PED)",
+        "explanation": "PED cover starts after 12 months on the Gold Plan, which is better than standard market waiting periods."
+      },
+      {
+        "name": "Specific disease/procedure waiting period — 12 months (Gold Plan)",
+        "quote": "Applicable for Gold Plan: Expenses related to the treatment of the following listed Conditions, surgeries/treatments shall be excluded until the expiry of 12 months of continuous coverage after the date of inception of the first policy with us.",
+        "reference": "Section IV (Exclusions), Standard Exclusions, 2(A) Specified disease / procedure waiting period",
+        "explanation": "Gold Plan covers listed specific illnesses after 12 months (better than the usual 24 months)."
+      },
+      {
+        "name": "Pre-hospitalization cover — 60 days (Gold Plan)",
+        "quote": "Pre-hospitalization Expenses: Medical expenses incurred up to 60 days immediately before the insured person is hospitalized.",
+        "reference": "Section III (Coverage - Gold Plan), clause F",
+        "explanation": "Covers pre-hospitalization medical expenses for 60 days (upper end of standard; not >60, but still a strong provision)."
+      }
+    ],
+    "good": [
+      {
+        "name": "PED waiting period — 36 months (Silver Plan)",
+        "quote": "Applicable for Silver Plan: Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 36 months of continuous coverage after the date of inception of the first policy with insurer",
+        "reference": "Section IV (Exclusions), Standard Exclusions, 1(A) Pre-Existing Diseases (PED)",
+        "explanation": "36 months PED waiting on Silver Plan is within normal market range (not a red flag)."
+      },
+      {
+        "name": "Specific disease/procedure waiting period — 24 months (Silver Plan)",
+        "quote": "Applicable for Silver Plan: Expenses related to the treatment of the following listed Conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first policy with us.",
+        "reference": "Section IV (Exclusions), Standard Exclusions, 2(A) Specified disease / procedure waiting period",
+        "explanation": "24 months for listed illnesses/procedures is standard."
+      },
+      {
+        "name": "Initial waiting period — 30 days (both plans)",
+        "quote": "Expenses related to the treatment of any illness within 30 days from the ﬁrst policy commencement date shall be excluded except claims arising due to an accident",
+        "reference": "Section IV (Exclusions), Standard Exclusions, 3(A) 30-day waiting period",
+        "explanation": "Standard 30-day initial waiting period for non-accidental illnesses."
+      },
+      {
+        "name": "Room rent limit — Single Private A/C room (Gold Plan)",
+        "quote": "Room ( Single Private A/C room), Boarding and Nursing Expenses as provided by the Hospital.",
+        "reference": "Section III (Coverage - Gold Plan), clause A",
+        "explanation": "Gold Plan allows Single Private AC room (standard good room category; not ‘any room’)."
+      },
+      {
+        "name": "Post-hospitalization cover — 60 days (Silver Plan)",
+        "quote": "Post Hospitalization Expenses: Medical expenses incurred up to 60 days immediately after the insured person is discharged from the hospital",
+        "reference": "Section II (Coverage - Silver Plan), clause D",
+        "explanation": "60 days post-hospitalization is the lower end of standard, but acceptable."
+      },
+      {
+        "name": "Post-hospitalization cover — 90 days (Gold Plan)",
+        "quote": "Post Hospitalization Expenses: Medical expenses incurred up to 90 days immediately after the insured person is discharged from the hospital",
+        "reference": "Section III (Coverage - Gold Plan), clause G",
+        "explanation": "90 days post-hospitalization is within standard industry range."
+      },
+      {
+        "name": "Air ambulance cover (with limit) — Gold Plan",
+        "quote": "Air Ambulance expenses... reimbursement, expenses incurred towards cost of air ambulance up-to 10% of the sum insured... This is applicable for sum insured of Rs.10 lacs and above.",
+        "reference": "Section III (Coverage - Gold Plan), clause D",
+        "explanation": "Air ambulance is a valuable extra feature (limited to 10% of SI; available only for SI ≥ ₹10L)."
+      },
+      {
+        "name": "AYUSH inpatient hospitalization covered up to Sum Insured (both plans; Yoga/Naturopathy needs prior approval)",
+        "quote": "AYUSH Treatment: Medical expenses for Inpatient Hospitalization incurred on treatment under Ayurveda, Unani, Sidha and Homeopathy systems of medicines in a AYUSH Hospital is payable up to the sum insured. Note : Claims under Yoga and Naturopathy system of treatment will be payable subject to prior approval from the company.",
+        "reference": "Section II (Silver) clause F and Section III (Gold) clause K",
+        "explanation": "AYUSH inpatient treatment is covered up to SI (Yoga/Naturopathy requires prior approval)."
+      }
+    ],
+    "bad": [
+      {
+        "name": "Room rent has a daily cap — ₹4,000/day (Silver Plan)",
+        "quote": "Room, Boarding, Nursing Expenses as provided by the Hospital / Nursing Home subject to a maximum of Rs.4,000/- per day.",
+        "reference": "Section II (Coverage - Silver Plan), clause A",
+        "explanation": "A fixed daily room rent cap can cause significant out-of-pocket costs, and can also trigger proportionate deductions."
+      },
+      {
+        "name": "Proportionate deduction applies due to room rent cap (Silver Plan)",
+        "quote": "Hospitalisation expenses which vary based on the room rent occupied by the insured person will be considered in proportion to the room rent limit stated in the policy or actuals whichever is less.",
+        "reference": "Section II (Coverage - Silver Plan), Note under clause A",
+        "explanation": "Because Silver Plan has a ₹4,000/day room cap, choosing a higher room category can lead to proportionate deductions on other hospital bills."
+      },
+      {
+        "name": "Modern Treatments covered with sub-limits (both plans) — not at actuals",
+        "quote": "Coverage for Modern Treatments: The expenses payable during the entire policy period for the following treatment / procedure... is limited to the amount mentioned in table below",
+        "reference": "Section II (Silver) clause E; Section III (Gold) clause J",
+        "explanation": "Modern treatments have defined sub-limits per procedure/policy period, which can restrict claim payout for advanced procedures."
+      },
+      {
+        "name": "Consumables not covered (assumed not covered as not mentioned as a payable benefit)",
+        "quote": "Associated medical expenses... do not include Cost of pharmacy and consumables, Cost of implants and medical devices and Cost of diagnostics",
+        "reference": "Section I (Specific Definitions), 'Associated Medical Expenses'",
+        "explanation": "The document does not give an explicit consumables coverage benefit; and it specifically separates consumables from ‘associated medical expenses’. Treat as not covered unless your schedule/add-on states otherwise—consumables like gloves, syringes, PPE kits etc. may become out-of-pocket."
+      },
+      {
+        "name": "NCB / Renewal bonus not mentioned (assumed absent)",
+        "quote": "Renewal of policy: The policy shall ordinarily be renewable except on grounds of fraud, misrepresentation by the Insured Person.",
+        "reference": "Section V (Conditions), clause 9 Renewal of policy",
+        "explanation": "No No-Claim Bonus / renewal bonus feature is described in the provided pages. Treat as absent: Sum Insured does not grow at renewal via NCB unless the schedule/product add-on says otherwise."
+      },
+      {
+        "name": "Restore benefit absent for Silver Plan (assumed absent as not mentioned)",
+        "quote": "II. COVERAGE - SILVER PLAN ... the Company will pay... not exceeding the sum insured in aggregate...",
+        "reference": "Section II (Coverage - Silver Plan)",
+        "explanation": "Silver Plan section does not mention any restore/recharge feature. Treat as no restore benefit: Sum Insured is NOT replenished after a claim (unless your schedule/endorsement states otherwise)."
+      }
+    ],
+    "unclear": [
+      {
+        "name": "Co-pay terms not explicitly stated (verify from schedule/plan terms)",
+        "quote": "the Company will pay... the amount of such expenses in excess of the Deductible per hospitalization indicated in the schedule",
+        "reference": "Section II (Silver) and Section III (Gold), insuring clause",
+        "explanation": "The provided wording explains deductible/defined limit, but does not clearly state any co-payment percentage (0%, 10%, etc.). Verify co-pay (if any) in the policy schedule."
+      },
+      {
+        "name": "Cashless network size not stated",
+        "quote": "Cashless facility can be availed only in networked Hospitals. For details of Networked Hospitals, the insured may visit www.starhealth.in or contact the nearest branch",
+        "reference": "Section V (Conditions), Claim Settlement, 2(B)(i)",
+        "explanation": "Network hospital count is not provided here, so the breadth of cashless access cannot be assessed from the excerpt."
+      }
+    ]
+  },
+  "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
+}

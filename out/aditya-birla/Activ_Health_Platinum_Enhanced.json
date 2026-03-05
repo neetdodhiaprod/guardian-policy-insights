@@ -1,0 +1,120 @@
+{
+  "policyName": "Activ Health Platinum Enhanced",
+  "insurer": "Aditya Birla Health Insurance Co. Limited",
+  "sumInsured": "Not specified (varies by Policy Schedule / Product Benefit Table)",
+  "policyType": "Not specified",
+  "documentType": "Policy Wording",
+  "summary": {
+    "great": 4,
+    "good": 4,
+    "bad": 4,
+    "unclear": 4
+  },
+  "features": {
+    "great": [
+      {
+        "name": "Built-in additional Sum Insured buffer (Super Reload) — unlimited times, same illness allowed",
+        "quote": "(9) Super Reload: What is covered We shall provide for a Reload of the Sum Insured, unlimited times during the Policy Year... (iii) The Super Reload of Sum Insured shall be available for all subsequent claims also and to any Illness / Injury (including its complications) for which a claim has been admitted for the Insured Person during that Policy Year.",
+        "reference": "Section C.I.(9) Super Reload",
+        "explanation": "This is a strong safety net: after your base SI (and CB if any) is used, the insurer can reload SI multiple times in the same year, and it can be used even for the same illness/complications."
+      },
+      {
+        "name": "Bariatric surgery (obesity treatment) covered when medically necessary",
+        "quote": "(12) Obesity Treatment: What is Covered We shall cover the related Medical Expenses... if the Insured Person is hospitalized for a Bariatric Surgery which is medically necessary...",
+        "reference": "Section C.I.(12) Obesity Treatment",
+        "explanation": "Bariatric surgery is explicitly covered subject to BMI/medical-necessity conditions, which is better than many plans that exclude it."
+      },
+      {
+        "name": "Pre-hospitalization expenses — duration >60 days (threshold depends on schedule, but benefit exists and can be >60)",
+        "quote": "(2) Pre – hospitalization Medical Expenses: ... for the number of days in accordance with the limits specified in the Policy Schedule / Product Benefit Table of this Policy",
+        "reference": "Section C.I.(2) Pre-hospitalization Medical Expenses",
+        "explanation": "The policy provides pre-hospitalization cover, with the exact day-limit defined in the schedule/benefit table. If your plan variant offers >60 days, it qualifies as best-in-class; confirm the number of days in your schedule."
+      },
+      {
+        "name": "Post-hospitalization expenses — duration can be >180 days (threshold depends on schedule, but benefit exists and can be >180)",
+        "quote": "(3) Post – hospitalisation Medical Expenses: ... for the number of days in accordance with the limits specified in the Policy Schedule / Product Benefit Table of this Policy",
+        "reference": "Section C.I.(3) Post-hospitalization Medical Expenses",
+        "explanation": "The policy provides post-hospitalization cover, with the exact day-limit defined in the schedule/benefit table. If your plan variant offers >180 days, it is best-in-class; confirm the number of days in your schedule."
+      }
+    ],
+    "good": [
+      {
+        "name": "Specific illness/procedure waiting period: 24 months",
+        "quote": "2. Specified disease / procedure waiting period: ... excluded until the expiry of 24 months of continuous coverage after the date of inception of the first policy with Us.",
+        "reference": "Section D.I.2 (Standard Exclusions)",
+        "explanation": "24 months for listed specific diseases/procedures is industry standard."
+      },
+      {
+        "name": "Initial waiting period: 30 days (standard)",
+        "quote": "3. 30-day waiting period ... Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident",
+        "reference": "Section D.I.3 (Standard Exclusions)",
+        "explanation": "30-day initial waiting period is standard across most indemnity health plans."
+      },
+      {
+        "name": "Restore/Recharge benefit present (Reload of Sum Insured — unrelated illness only; once in a year)",
+        "quote": "(8) Reload of Sum Insured: ... Reload of Sum Insured shall be available only once during a Policy Year... (iii) ... not in relation to any Illness / Injury ... for which a claim has been admitted ... during that Policy Year.",
+        "reference": "Section C.I.(8) Reload of Sum Insured",
+        "explanation": "A standard restore/reload exists, but it cannot be used for the same illness in the same policy year and is only once per year (unrelated-only restore)."
+      },
+      {
+        "name": "Optional cover trade-off: Preferred Provider Network (PPN) discount with co-pay outside PPN",
+        "quote": "(37) Preferred Provider Network (PPN) Discount: ... discount of 10% on the premium payable... If ... treatment ... in a Hospital other than those listed as “Preferred Provider Network”, then ... shall bear a Co-Payment of 10% on each and every claim",
+        "reference": "Section V Optional Covers, (37) PPN Discount",
+        "explanation": "This is an optional, customer-chosen trade-off: you can take a premium discount, but then pay extra co-pay if you go outside the PPN list."
+      }
+    ],
+    "bad": [
+      {
+        "name": "Disease-wise / treatment-wise sub-limits (Platinum Essential plan) — includes cataract, angioplasty, joint replacements etc.",
+        "quote": "For Platinum - Essential Plan, treatment-wise sub-limits will apply as below... Cataract... Angioplasty... Knee replacement... Hip replacement... Cholecystectomy... hysterectomy...",
+        "reference": "Section C.I.(1) In-patient Hospitalization — Sub-limits table",
+        "explanation": "Treatment-wise caps can cause significant out-of-pocket costs even when you have adequate sum insured. This is a major limitation for the specified plan variant."
+      },
+      {
+        "name": "Room rent is capped/limited by schedule (not ‘Any room/No limit’) + proportionate deduction applies if you take higher room",
+        "quote": "Reasonable and Customary Charges for Room Rent... up to the limits as specified in the Policy Schedule / Product Benefit Table... If the Insured Person is admitted in a room category / limit that is higher... then the Insured Person shall bear a rateable proportion of the Room Rent (and the total Associated Medical Expenses...)",
+        "reference": "Section C.I.(1) In-patient Hospitalization (What is covered + Conditions)",
+        "explanation": "Room eligibility is not ‘any room’. If you choose a higher category than allowed in your schedule, proportionate deductions can reduce claim payouts for associated medical expenses."
+      },
+      {
+        "name": "Zone-based co-pay for treatment in higher zone (mandatory when applicable)",
+        "quote": "In case of treatment taken in a city, in a Zone higher than the eligible Zone for the Insured Person, the Co-payment percentages as below shall apply: ... Zone I ... 10% ... 15% ... 25%",
+        "reference": "Section C.I.(20) Co-payment for treatment in a Higher Zone + Zone Classification (Section E.II.22)",
+        "explanation": "If you take treatment in a higher zone city than your eligible zone, you pay a mandatory share (10%/15%/25%), reducing effective coverage."
+      },
+      {
+        "name": "Mandatory co-pay exists by default (unless you buy waiver add-on)",
+        "quote": "(21) Mandatory Co-payment: A mandatory Co-payment as specified in the Policy Schedule shall apply to all payable claims amount in respect of an Insured Person. Conditions i. For persons who have opted for a ‘Waiver of Mandatory Co-payment’ this Co-payment will not apply.",
+        "reference": "Section C.I.(21) Mandatory Co-payment + Section V (38) Waiver of Mandatory Co-payment",
+        "explanation": "The base policy can have a mandatory co-pay (percentage is in your schedule). You may remove it by opting the waiver add-on, but otherwise it reduces claim payouts."
+      }
+    ],
+    "unclear": [
+      {
+        "name": "PED waiting period (months not specified in the provided extract; depends on schedule)",
+        "quote": "Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of the number of months of continuous coverage ... as specified in the Policy Schedule / Certificate of Insurance / Product Benefit Table",
+        "reference": "Section D.I.1 (Pre-Existing Diseases)",
+        "explanation": "The policy wording defers the PED waiting period to the Policy Schedule/Benefit Table. Please confirm whether it is 24/36/48 months for your plan and members."
+      },
+      {
+        "name": "Co-pay percentage for 'Mandatory Co-payment' not specified in the wording (depends on schedule)",
+        "quote": "A mandatory Co-payment as specified in the Policy Schedule shall apply to all payable claims amount in respect of an Insured Person.",
+        "reference": "Section C.I.(21) Mandatory Co-payment",
+        "explanation": "The existence of mandatory co-pay is clear, but the exact percentage is not stated here. Check your Policy Schedule for the exact co-pay rate."
+      },
+      {
+        "name": "Consumables coverage (fully vs partial) is not clearly defined; non-medical expenses list indicates many items are not payable",
+        "quote": "Medicines, drugs and other allowable consumables prescribed by the treating Medical Practitioner; ... Annexure I – Non Medical Expenses",
+        "reference": "Section C.I.(1)(vi) + Annexure I (Non-Medical Expenses list)",
+        "explanation": "The policy covers 'allowable consumables' but also lists many items under non-medical expenses that are not payable. Confirm whether a separate consumables rider/waiver exists and whether consumables are fully covered or only standard admissible items."
+      },
+      {
+        "name": "NCB / Cumulative Bonus reset behavior on claim (reduction % mentioned, but exact annual accrual rate and reduction mechanics depend on schedule)",
+        "quote": "We shall apply a Cumulative Bonus in the form of No Claim Bonus at such rates as specified in the Policy Schedule... In the event of a claim impacting the eligibility of a Cumulative Bonus, the accumulated Cumulative Bonus shall be reduced by the percentage of Sum Insured as accumulated in the previous Policy Year and as mentioned in Policy Schedule / Product Benefit Table",
+        "reference": "Cumulative Bonus section (under Benefits/Additional Benefits)",
+        "explanation": "NCB exists, but the exact accrual rate (10%-50% etc.) and the reduction approach on claim depends on your plan schedule. Confirm whether it resets to zero or reduces partially, and the per-year %."
+      }
+    ]
+  },
+  "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
+}

@@ -1,0 +1,108 @@
+{
+  "policyName": "Care Senior",
+  "insurer": "Care Health Insurance Limited",
+  "sumInsured": "Not specified (varies by plan/policy schedule)",
+  "policyType": "Not specified",
+  "documentType": "Mixed",
+  "summary": {
+    "great": 1,
+    "good": 6,
+    "bad": 6,
+    "unclear": 1
+  },
+  "features": {
+    "great": [
+      {
+        "name": "Built-in Additional Sum Insured buffer (after base SI exhausted) — Accidental Hospitalization (optional cover)",
+        "quote": "“Additional Sum Insured for Accidental Hospitalization' shall be utilized only after the Sum Insured has been completely exhausted;”",
+        "reference": "Optional Cover 11: Additional Sum Insured for Accidental Hospitalization (Clause 3.11)",
+        "explanation": "This creates an extra Sum Insured layer that activates after your base Sum Insured is exhausted (for accidental hospitalization, if you opt for this cover)."
+      }
+    ],
+    "good": [
+      {
+        "name": "Initial waiting period",
+        "quote": "“First 30-Day waiting Period… Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident”",
+        "reference": "Waiting Periods (Clause 4.1(i))",
+        "explanation": "30-day initial waiting is standard in health insurance; accidents are covered immediately."
+      },
+      {
+        "name": "Specific illness waiting period",
+        "quote": "“Specific Waiting Period… excluded until the expiry of 24 months of continuous coverage”",
+        "reference": "Waiting Periods (Clause 4.1(ii))",
+        "explanation": "24 months for listed diseases/procedures is industry standard."
+      },
+      {
+        "name": "Pre-existing disease (PED) waiting period",
+        "quote": "“Pre-existing Disease… shall be excluded until the expiry of 48 months of continuous coverage”",
+        "reference": "Waiting Periods (Clause 4.1(iii))",
+        "explanation": "48 months (4 years) for PED is within standard range (not a red flag)."
+      },
+      {
+        "name": "Restore/Recharge benefit (unrelated illness only)",
+        "quote": "“Automatic Recharge… re-instatement of up to the Sum Insured once in a policy year… The Recharge shall be available only for all future Claims which are not in relation to any Illness or Injury for which a Claim has already been admitted”",
+        "reference": "Benefit 7: Automatic Recharge (Clause 2.7(iv))",
+        "explanation": "Restores up to 100% once in a policy year, but only for unrelated conditions (not the same illness)."
+      },
+      {
+        "name": "Pre-hospitalization cover",
+        "quote": "“Relevant Pre-hospitalization Medical Expenses, for a period of 30 days immediately prior”",
+        "reference": "Benefit 2: Pre & Post Hospitalization (Clause 2.2(i))",
+        "explanation": "30 days pre-hospitalization is standard."
+      },
+      {
+        "name": "Post-hospitalization cover",
+        "quote": "“Relevant Post-hospitalization Medical Expenses, for a period of 60 days immediately after”",
+        "reference": "Benefit 2: Pre & Post Hospitalization (Clause 2.2(ii))",
+        "explanation": "60 days post-hospitalization is standard (entry-level adequate)."
+      }
+    ],
+    "bad": [
+      {
+        "name": "Room rent / room category limit (default) + proportionate deduction applies",
+        "quote": "“If the Policy Schedule states ‘Single Private Room’ as eligible Room Category… payable by the Company is limited to stay in a Single Private Room.”",
+        "reference": "Benefit 1: Hospitalization Expenses → Conditions (Clause 2.1(iii)(a)(2))",
+        "explanation": "Default room eligibility is capped to Single Private Room. If you take a higher room category, proportionate (ratable) deductions can apply on multiple hospital expenses."
+      },
+      {
+        "name": "Mandatory co-pay for age 61+ (20% per claim) shown as applicable across plans",
+        "quote": "“Co-payment – 20% per claim, where age of insured / eldest member is 61 years or above”",
+        "reference": "Customer Information Sheet / KFD table (Clause 2(g) referenced)",
+        "explanation": "A mandatory 20% co-pay for seniors (61+) increases out-of-pocket on every claim, if this is applied by default as indicated in the plan table."
+      },
+      {
+        "name": "Disease / procedure sub-limits (if enabled in policy schedule — shown for some plans)",
+        "quote": "“Expenses incurred on treatment for Named Ailments / Procedures… up to the amount specified against each… in the Policy Schedule… (These conditions will apply only if specifically mentioned in the Policy Schedule)”",
+        "reference": "Benefit 1: Hospitalization Expenses (Clause 2.1(iii)(c))",
+        "explanation": "If your plan/policy schedule has these sub-limits turned on (e.g., cataract, knee replacement, hernia etc.), payouts can be capped per procedure, which can cause significant out-of-pocket."
+      },
+      {
+        "name": "Consumables / non-medical items not covered",
+        "quote": "“Any item or condition or treatment specified in List of Non-Medical Items (Annexure – II to Policy Terms & Conditions).”",
+        "reference": "Permanent Exclusions (Clause 4.2(1))",
+        "explanation": "Consumables and many common hospital items (e.g., gloves, masks, syringes, kits etc. listed in Annexure II) are excluded, increasing out-of-pocket costs."
+      },
+      {
+        "name": "NCB reduces on claim (resets downward)",
+        "quote": "“In the event of a Claim occurring during any Policy Year, the accrued No Claims Bonus will be reduced by 10% of the Sum Insured at the commencement of next Policy Year”",
+        "reference": "Benefit 10: No Claims Bonus (Clause 2.10(ix))",
+        "explanation": "NCB is not protected; it reduces after a claim (many better policies protect bonus fully)."
+      },
+      {
+        "name": "Global Coverage (excluding USA) has mandatory 10% co-pay",
+        "quote": "“A mandatory Co-Payment of 10% per Claim is applicable, which will be in addition to any other co-payment (if any) applicable in the Policy.”",
+        "reference": "Benefit 11: Global Coverage (excluding U.S.A.) (Clause 2.11(i))",
+        "explanation": "If you use this benefit, you must pay 10% of each claim amount (over and above any other co-pay), reducing effective coverage."
+      }
+    ],
+    "unclear": [
+      {
+        "name": "Co-pay applicability: optional vs mandatory for age 61+ (conflicting signals between clauses/table)",
+        "quote": "“If age of Insured Person or eldest Insured Person (in case of Floater) is 61 years or more, the Company provides an option… to choose for co-payment option of 20% per claim… and thereby get a discount of 20% in Premium” AND “Co-payment – 20% per claim, where age of insured / eldest member is 61 years or above”",
+        "reference": "General Conditions 2 / Clause 2(g)(I) AND KFD loss sharing table (Clause 2(g))",
+        "explanation": "One place says 20% co-pay for 61+ is optional (with premium discount), while the plan table suggests it applies for 61+ by default. Confirm in your policy schedule whether senior co-pay is mandatory or only if you opt for the discount."
+      }
+    ]
+  },
+  "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
+}

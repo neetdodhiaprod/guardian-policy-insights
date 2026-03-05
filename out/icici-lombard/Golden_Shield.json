@@ -1,0 +1,120 @@
+{
+  "policyName": "Golden Shield",
+  "insurer": "ICICI Lombard General Insurance Company Limited",
+  "sumInsured": "₹3L to ₹50L (as per grids shown in document; exact SI as per Policy Schedule)",
+  "policyType": "Not specified",
+  "documentType": "Policy Wording",
+  "summary": {
+    "great": 2,
+    "good": 7,
+    "bad": 6,
+    "unclear": 1
+  },
+  "features": {
+    "great": [
+      {
+        "name": "Built-in Additional Sum Insured buffer (Enhanced/doubled SI for Road Traffic Accident after base SI exhausted)",
+        "quote": "“Enhanced Annual Sum insured for Road Traffic Accidents... the Annual Sum Insured shall be doubled... The enhanced (double) Sum Insured shall be available only after exhaustion of the annual sum insured”",
+        "reference": "Base Cover, Clause 16. Enhanced Annual Sum insured for Road Traffic Accidents",
+        "explanation": "This is an extra Sum Insured that activates after your base SI is exhausted (for eligible road traffic accident hospitalization), improving protection for large RTA claims."
+      },
+      {
+        "name": "Loyalty Bonus does NOT reduce on claim (non-resetting bonus)",
+        "quote": "“In the event of a Claim under the Policy during any subsequent Policy Year, the accrued loyalty bonus shall not be reduced”",
+        "reference": "Base Cover, Clause 13. Loyalty Bonus (point ix)",
+        "explanation": "Your accumulated bonus is protected even if you make a claim, unlike typical NCBs that drop/reset after claims."
+      }
+    ],
+    "good": [
+      {
+        "name": "PED waiting period (Pre-existing diseases) – 24 months",
+        "quote": "“Expenses related to the treatment of a pre-existing Disease (PED)... shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first policy”",
+        "reference": "Exclusions, 1. Standard exclusions Code-Excl01: Pre-Existing Diseases",
+        "explanation": "Pre-existing conditions are covered after 24 months of continuous coverage (standard/good in the market)."
+      },
+      {
+        "name": "Specific illness/procedure waiting period – 24 months",
+        "quote": "“specified diseases/treatments... excluded until the expiry of 24 months of continuous coverage after the date of inception of the first policy with us.”",
+        "reference": "Exclusions, 2. Code-Excl02: Specified disease/procedure waiting period",
+        "explanation": "Listed specific conditions/surgeries are covered after 24 months (standard)."
+      },
+      {
+        "name": "Initial waiting period – 30 days",
+        "quote": "“Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident”",
+        "reference": "Exclusions, 4. Code- Excl03: 30-day waiting period",
+        "explanation": "Standard 30-day initial waiting for illnesses (accidents covered from day 1)."
+      },
+      {
+        "name": "Pre-hospitalization – up to 60 days (variant exists)",
+        "quote": "“We will cover the Pre-hospitalization Medical Expenses... for up to 60days immediately before the Insured Person’s Admission”",
+        "reference": "Base Cover, 4.A Pre Hospitalisation expenses",
+        "explanation": "Covers eligible medical expenses up to 60 days before hospitalization (good). Note: the document also shows a 30-day version under 4.B."
+      },
+      {
+        "name": "Post-hospitalization – up to 180 days (variant exists)",
+        "quote": "“We will cover the Post-hospitalization Medical Expenses... for up to 180 days immediately following the Insured Person’s discharge”",
+        "reference": "Base Cover, 5.A Post Hospitalisation expenses",
+        "explanation": "Covers eligible expenses up to 180 days after discharge (good). Note: the document also shows a capped version under 5.B."
+      },
+      {
+        "name": "Restore/Reset benefit – only for unrelated illness (unlimited resets, but unrelated only; first claim not eligible)",
+        "quote": "“We will reset the Annual Sum insured up to 100%... unlimited times, for all future claims within the same policy not related to the illness/disease/injury for which a claim has been paid”",
+        "reference": "Base Cover, Clause 14. Reset Benefit",
+        "explanation": "This replenishes SI for future unrelated claims in the same year (good; not for same illness/related complications, and not for the first claim of the year)."
+      },
+      {
+        "name": "Air ambulance covered (limit up to Sum Insured, conditions apply)",
+        "quote": "“We will cover the expenses up to the Annual sum insured incurred on air ambulance services...”",
+        "reference": "Base Cover, Clause 11. Air Ambulance",
+        "explanation": "Air ambulance is covered for life-threatening emergencies subject to conditions (a positive add-on in base coverage)."
+      }
+    ],
+    "bad": [
+      {
+        "name": "Room rent limit/capping (default): Twin sharing up to <₹10L; Single private AC for ₹10L+ (not 'any room')",
+        "quote": "“Room Rent up to Twin sharing room (for Annual Sum Insured below Rs. 10 Lacs and Single private AC room for annual sum insured Rs. 10L and above)”",
+        "reference": "Base Cover, 1.A In patient Treatment (i)",
+        "explanation": "Room category is capped (twin sharing/single AC) and not ‘any room/no limit’. This can restrict choice of hospitals/rooms in metros."
+      },
+      {
+        "name": "Proportionate (rateable) deduction applies if you take higher room category than eligibility",
+        "quote": "“If the Insured Person is admitted in a room category/limit that is higher... then the Insured Person shall bear a rateable proportion of the total Associated medical expenses...”",
+        "reference": "Base Cover, 1.A and 1.B (claim conditions v)",
+        "explanation": "If you choose a higher room than allowed, many associated costs (doctor/OT/nursing etc. as defined) can be reduced proportionately, increasing out-of-pocket."
+      },
+      {
+        "name": "Mandatory base co-payment: 50% on each and every claim (unless voluntary deductible opted / reduced via add-on)",
+        "quote": "“This policy will be subject to 50% base co-payment and He/She shall be liable to pay 50% of admissible claim amount of each and every claim.”",
+        "reference": "Base Cover, Clause 12. Base Co-payment",
+        "explanation": "A 50% mandatory co-pay is extremely high and halves the effective cover. (They allow reducing co-pay via optional cover, but the base term is a major negative.)"
+      },
+      {
+        "name": "Consumables not fully covered (non-payables list includes many common consumables like gloves, masks, etc.)",
+        "quote": "“Below are the non-payable items applicable in the policy... 56 GLOVES... 60 MASK... 57 NEBULISATION KIT...”",
+        "reference": "General Terms and Clauses, Clause 29. Non Payables (List of Non Payable Items)",
+        "explanation": "Many routine consumables are excluded, which can lead to add-on out-of-pocket expenses during hospitalization."
+      },
+      {
+        "name": "Disease-wise sub-limits apply (cataract/cardiovascular/cancer/renal/major surgeries etc.)",
+        "quote": "“The expenses payable... for treatment of the following diseases/ conditions... shall be maximum up to the amount mentioned in the table below;”",
+        "reference": "Base Cover, Clause 15. Sub-limits applicable (A and B tables)",
+        "explanation": "Sub-limits can significantly reduce payout for common high-cost treatments (e.g., cataract, cardiac, cancer, renal, major surgeries), irrespective of Sum Insured."
+      },
+      {
+        "name": "Domiciliary hospitalization excludes many common diseases",
+        "quote": "“We shall not be liable to pay... under this Benefit... Asthma... Arthritis... Diabetes... Hypertension... Pyrexia...”",
+        "reference": "Base Cover, Clause 7. Domiciliary Hospitalization (exclusions a-k)",
+        "explanation": "Although domiciliary is covered, many frequent chronic/common conditions are specifically excluded from domiciliary claims."
+      }
+    ],
+    "unclear": [
+      {
+        "name": "Co-pay terms unclear whether 50% base co-pay is always applicable or only if chosen (wording suggests mandatory but also says 'once chosen')",
+        "quote": "“This policy will be subject to 50% base co-payment... Base Co-payment once chosen cannot be changed mid-term.”",
+        "reference": "Base Cover, Clause 12. Base Co-payment",
+        "explanation": "The clause states the policy is subject to 50% co-pay, but also uses 'once chosen'. Confirm from your Policy Schedule whether 50% is default for your issued policy and what co-pay percentage is shown."
+      }
+    ]
+  },
+  "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
+}

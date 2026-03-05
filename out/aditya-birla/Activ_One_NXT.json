@@ -1,0 +1,102 @@
+{
+  "policyName": "Activ One NXT",
+  "insurer": "Aditya Birla Health Insurance Co. Limited",
+  "sumInsured": "Base Sum Insured options: 2 Lacs, 3 Lacs, 4 Lacs, 5 Lacs, 7 Lacs, 10 Lacs, 15 Lacs, 20 Lacs, 25 Lacs, 50 Lacs, 75 Lacs, 1 Crore, 2 Crores, 3 Crores, 4 Crores, 5 Crores, 6 Crores",
+  "policyType": "Individual | Family Floater",
+  "documentType": "Mixed",
+  "summary": {
+    "great": 5,
+    "good": 3,
+    "bad": 3,
+    "unclear": 2
+  },
+  "features": {
+    "great": [
+      {
+        "name": "Room rent (no capping)",
+        "quote": "Room Rent: Actuals up to Sum Insured",
+        "reference": "Annexure III - Product Benefit Table (Activ One NXT)",
+        "explanation": "No room-category restriction/daily cap in the product benefit table—eligible room charges are paid at actuals up to Sum Insured, helping avoid proportionate deductions due to room rent limits."
+      },
+      {
+        "name": "Restore/Reload benefit (Super Reload) – unlimited times (built-in additional SI buffer)",
+        "quote": "Super Reload: 2X - Day 1; 2nd Claim Onwards - Unlimited Times (upto Base Sum Insured)",
+        "reference": "Annexure III - Product Benefit Table (Activ One NXT); Section C.8 Super Reload",
+        "explanation": "Provides extra coverage after base/super credit is exhausted by reloading up to the Base Sum Insured, usable multiple times in a policy year (subject to terms). This is a strong protection against multiple hospitalizations."
+      },
+      {
+        "name": "Pre-hospitalization expenses – 90 days",
+        "quote": "The Company shall indemnify the Pre-Hospitalization Medical Expenses... for up to 90 days immediately prior to the date of such Hospitalization.",
+        "reference": "Section C.2 Pre-Hospitalization Expenses",
+        "explanation": "Covers eligible medical expenses incurred up to 90 days before hospitalization (linked to an admissible hospitalization). This is better than the usual 30/60 days."
+      },
+      {
+        "name": "Modern treatments/procedures covered up to Sum Insured",
+        "quote": "Modern Procedures / Treatments: Actuals up to Sum Insured for listed procedures",
+        "reference": "Annexure III - Product Benefit Table; Section C.1.1.1(e) indicative list",
+        "explanation": "Covers listed modern procedures at actuals up to Sum Insured (as per the benefit table), which is typically superior to plans that impose strict sub-limits."
+      },
+      {
+        "name": "Renewal bonus (Super Credit) – added irrespective of claims (non-resetting)",
+        "quote": "Super Credit (increases irrespective of claim): 100% of Base Sum Insured per year, up to 500% of Base Sum Insured (up to Max of 3 Cr under this benefit)",
+        "reference": "Annexure III - Product Benefit Table; Section C.10.8 Super Credit",
+        "explanation": "Your Sum Insured can increase on renewal even if you claimed in the previous year (subject to caps). This is stronger than typical NCBs that reduce/reset after claims."
+      }
+    ],
+    "good": [
+      {
+        "name": "Initial waiting period – 30 days",
+        "quote": "D.1.3 30-day Waiting Period (Code-Excl03) ... Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident",
+        "reference": "Section D.1.3",
+        "explanation": "Standard 30-day initial waiting period for illnesses (accidents are covered immediately if otherwise covered)."
+      },
+      {
+        "name": "Specific illness waiting period – 24 months (standard)",
+        "quote": "Expenses related to the treatment of the listed Conditions, surgeries / treatments shall be excluded until the expiry of 24 months of continuous coverage",
+        "reference": "Section D.1.2 Specified disease / procedure Waiting Period (Code-Excl02)",
+        "explanation": "A 24-month waiting period for listed specified diseases/procedures is industry standard."
+      },
+      {
+        "name": "Domiciliary hospitalization covered",
+        "quote": "The Company shall indemnify the Medical Expenses incurred during the Policy Period on Domiciliary Hospitalization...",
+        "reference": "Section C.4 Domiciliary Hospitalization",
+        "explanation": "Covers eligible home-based treatment that would otherwise require hospital care, subject to conditions (e.g., minimum duration and medical necessity)."
+      }
+    ],
+    "bad": [
+      {
+        "name": "Consumables / non-medical items not covered by default (unless optional cover is taken)",
+        "quote": "items in List I, II, III & IV will be excluded unless forms a part of In-patient hospitalization.",
+        "reference": "Section D.2.5 Non-Medical Expenses; Annexure I",
+        "explanation": "By default, many consumables/non-medical items are excluded and can lead to out-of-pocket costs. (They are covered only if you opt for 'Claim Protect (Non-Medical Expense Waiver)' as per the policy wording/product table.)"
+      },
+      {
+        "name": "Post-hospitalization expenses limited to 180 days (not >180)",
+        "quote": "for up to 180 days from the date of discharge from the Hospital.",
+        "reference": "Section C.3 Post-Hospitalization Expenses",
+        "explanation": "Covers post-hospitalization for up to 180 days. This is good/standard, but not in the 'best-in-class' bucket (>180 days)."
+      },
+      {
+        "name": "Restore benefit (traditional restore) not stated; policy uses Super Reload but 'restore' itself not explicitly present",
+        "quote": "Super Reload ... We shall provide for a reload amounting to the Base Sum Insured (“Super Reload”), unlimited times during the Policy Year",
+        "reference": "Section C.8 Super Reload",
+        "explanation": "The policy provides reload, but it does not explicitly describe a classic 'restore benefit' definition (often worded as restore/reinstatement with same/unrelated illness rules). If you specifically want a 'restore' clause, this is not explicitly stated as such."
+      }
+    ],
+    "unclear": [
+      {
+        "name": "Co-pay (default/base policy) not explicitly stated (PPN optional cover has co-pay outside PPN)",
+        "quote": "Preferred Provider Network (PPN) Discount... then the Policyholder / Insured Person shall bear a Co-Payment of 10% on each and every claim arising in such regard.",
+        "reference": "Section C.10.5 Preferred Provider Network (PPN) Discount",
+        "explanation": "A 10% co-pay applies only if you opt for the PPN discount and take treatment outside PPN hospitals. The base plan’s default co-pay (if any) is not explicitly stated in the provided excerpt—confirm in your Policy Schedule."
+      },
+      {
+        "name": "PED waiting period depends on Policy Schedule/Product Benefit Table for your variant (but product table shows 3 years)",
+        "quote": "Expenses related to the treatment of a pre-existing Disease (PED)... shall be excluded until the expiry of years / months as specified in the Policy Schedule / Product Benefit Table",
+        "reference": "Section D.1.1 Pre-Existing Diseases (Code-Excl01); Annexure III (shows 'Pre-Existing Diseases Waiting Period: 3 Years')",
+        "explanation": "The wording says it depends on your Policy Schedule/benefit table. The Product Benefit Table shown indicates 3 years (which is acceptable/standard), but you should confirm the exact PED waiting in your specific Policy Schedule."
+      }
+    ]
+  },
+  "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
+}

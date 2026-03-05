@@ -1,0 +1,102 @@
+{
+  "policyName": "Easy Health Standard",
+  "insurer": "HDFC ERGO General Insurance Company Limited",
+  "sumInsured": "Individual: ₹1L to ₹50L (plan/variant-dependent). Family Floater: ₹2L to ₹50L (plan/variant-dependent).",
+  "policyType": "Not specified",
+  "documentType": "Policy Wording",
+  "summary": {
+    "great": 1,
+    "good": 5,
+    "bad": 5,
+    "unclear": 2
+  },
+  "features": {
+    "great": [
+      {
+        "name": "NCB / Renewal Bonus (non-resetting): 10% every renewal irrespective of claims (up to 100%)",
+        "quote": "“On Renewal of this Policy with the Company without a break, a sum equal to 10% of the Base Sum Insured of the expiring Policy shall be provided as multiplier benefit irrespective of any claims... The maximum multiplier bonus will not exceed 100% of the Basic Sum Insured in any Policy Year.”",
+        "reference": "Section B, 5.1 Cumulative Bonus (page 16)",
+        "explanation": "Your Sum Insured can increase by 10% each year even if you make a claim, up to a maximum of 100% of base SI—this is better than typical NCBs that reduce/reset after claims."
+      }
+    ],
+    "good": [
+      {
+        "name": "Initial waiting period: 30 days (standard)",
+        "quote": "“30-day waiting period... Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident”",
+        "reference": "Section C.1.i (page 19)",
+        "explanation": "Illness claims are not covered in the first 30 days (accidents covered). This is standard in health insurance."
+      },
+      {
+        "name": "Specific illness/procedure waiting period: 24 months (standard)",
+        "quote": "“Expenses related to the treatment of the listed Conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first policy with us.”",
+        "reference": "Section C.1.ii (page 19)",
+        "explanation": "Certain listed conditions/surgeries have a 2-year waiting period, which is industry standard."
+      },
+      {
+        "name": "PED waiting period: 36 months (good as per rules)",
+        "quote": "“Expenses related to the treatment of a pre-existing disease (PED) and its direct complications shall be excluded until the expiry of 36 months of continuous coverage after the date of inception of the first policy with insurer.”",
+        "reference": "Section C.1.iii (page 22)",
+        "explanation": "Pre-existing diseases are covered after 3 continuous years. As per your rules, 36 months is still acceptable (not a red flag)."
+      },
+      {
+        "name": "Pre-hospitalization cover: up to 60 days",
+        "quote": "“Pre-Hospitalization Medical Expenses... incurred upto 60 days before the date of admission to the Hospital”",
+        "reference": "Section B.1.b (page 11)",
+        "explanation": "Covers eligible medical expenses for up to 60 days before hospitalization—standard."
+      },
+      {
+        "name": "Post-hospitalization cover: up to 90 days",
+        "quote": "“Post-Hospitalization Medical Expenses... incurred upto 90 days after discharge from Hospitalisation”",
+        "reference": "Section B.1.c (page 11)",
+        "explanation": "Covers eligible medical expenses for up to 90 days after discharge—standard."
+      }
+    ],
+    "bad": [
+      {
+        "name": "Restore benefit: Not available",
+        "quote": "No restore/reinstatement benefit wording found in the provided document text.",
+        "reference": "Not mentioned in provided pages (Policy Wording extract)",
+        "explanation": "No restore benefit: Sum Insured is NOT replenished after a claim."
+      },
+      {
+        "name": "Consumables: Not covered (explicit non-payable items list includes common consumables)",
+        "quote": "“Annexure I - List I - Items for which coverage is not available in the policy... GLOVES... MASK... NEBULISATION KIT... ANY KIT WITH NO DETAILS MENTIONED [DELIVERY KIT, ORTHOKIT, RECOVERY KIT, ETC]”",
+        "reference": "Annexure I, List I (page 44-45)",
+        "explanation": "Consumables not covered: gloves, syringes/PPE-like items and many kits are out-of-pocket as per the non-payable items list."
+      },
+      {
+        "name": "Room rent limit: Not specified/clearly stated (treated as absent in this extract)",
+        "quote": "No explicit room rent entitlement/capping (e.g., “single private AC”, “any room”, or ₹/day cap) found in the provided document text.",
+        "reference": "Not mentioned in provided pages (Policy Wording extract)",
+        "explanation": "Room rent is a key driver of claim deductions. This extract does not state any default room eligibility; treat as missing in this extract and verify from schedule/plan wording section that specifies room category."
+      },
+      {
+        "name": "Cashless network size: Not specified (assume not covered for reporting)",
+        "quote": "No number of network hospitals/cashless network size found in the provided document text.",
+        "reference": "Not mentioned in provided pages (Policy Wording extract)",
+        "explanation": "Cashless facility is described, but network hospital count is not provided here. If the network is small, it can affect cashless availability; verify insurer’s current network list/size."
+      },
+      {
+        "name": "Disease-wise sub-limit: Ambulance capped at ₹2,000 per hospitalization",
+        "quote": "“Ambulance: ... subject to Rs. 2000 per Hospitalisation.”",
+        "reference": "Section B.1.g (page 12); Schedule of Benefits (page 40-43)",
+        "explanation": "₹2,000 can be insufficient in many cities; ambulance costs above this will be out-of-pocket."
+      }
+    ],
+    "unclear": [
+      {
+        "name": "Co-payment: Not explicitly stated",
+        "quote": "“Co-payment means a cost-sharing requirement...” (definition present, but no co-pay percentage/trigger stated in benefits/conditions in provided extract).",
+        "reference": "Definitions, Def. 8 Co-payment (page 2)",
+        "explanation": "Co-pay terms not explicitly stated in policy wording extract—verify in policy schedule/endorsement if any mandatory co-pay applies (age-based/zone-based/plan-based)."
+      },
+      {
+        "name": "Built-in additional Sum Insured buffer (separate from NCB): Not mentioned",
+        "quote": "No wording found for restore/booster/secure benefit/super top-up-like additional SI that activates after base SI is exhausted (other than the renewal-based Cumulative Bonus multiplier).",
+        "reference": "Not mentioned in provided pages (Policy Wording extract)",
+        "explanation": "Apart from the renewal-based Cumulative Bonus, this extract does not show a separate built-in additional SI buffer that kicks in after base SI exhaustion. Verify if any variant has such a feature."
+      }
+    ]
+  },
+  "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
+}

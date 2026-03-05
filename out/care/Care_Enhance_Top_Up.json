@@ -1,0 +1,102 @@
+{
+  "policyName": "Care Enhance Top-Up",
+  "insurer": "Care Health Insurance Limited",
+  "sumInsured": "Not specified in the provided extract (examples show ₹3,00,000 with deductible ₹50,000 in Annexure V illustration)",
+  "policyType": "Not specified",
+  "documentType": "Policy Wording",
+  "summary": {
+    "great": 1,
+    "good": 5,
+    "bad": 3,
+    "unclear": 4
+  },
+  "features": {
+    "great": [
+      {
+        "name": "Modern/advanced treatments explicitly covered (list given; no sub-limits mentioned in extract)",
+        "quote": "(d) Advance Technology Methods: ... The Company will indemnify the Insured Person for the Hospitalization Expenses incurred for treatment taken through following advance technology methods: A. Uterine Artery Embolization and HIFU ... G. Robotic surgeries ... H. Stereotactic radio surgeries ... L. Stem cell therapy: Hematopoietic stem cells for bone marrow transplant for haematological conditions to be covered",
+        "reference": "Section 3.1 Benefit 1: Hospitalization Expenses, clause (d) Advance Technology Methods",
+        "explanation": "Policy wording explicitly includes several modern treatment methods (including robotic surgeries and specific stem-cell therapy) under hospitalization, which is better than many base plans that restrict modern treatments."
+      }
+    ],
+    "good": [
+      {
+        "name": "Room rent (default entitlement) = Single Private AC room",
+        "quote": "Room Category : If the Insured Person is admitted ... (i) Room Category = Single Private Room with A.C.",
+        "reference": "Section 3 Scope of Cover (Room Category clause under General Conditions/Benefit 1 context)",
+        "explanation": "Default room eligibility is Single Private AC room, which is industry standard (good), but not best-in-class (any room/no cap)."
+      },
+      {
+        "name": "Initial waiting period = 30 days",
+        "quote": "iii. First 30-Day waiting Period – Code – Excl03 ... Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident",
+        "reference": "Section 4 Exclusions, 4.1(a)(iii) First 30-Day waiting period (Excl03)",
+        "explanation": "30-day initial waiting is standard for health insurance (accidents covered immediately)."
+      },
+      {
+        "name": "Pre-existing disease (PED) waiting period = 36 months",
+        "quote": "a. Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 36 months of continuous coverage after the date of inception of the first policy with insurer.",
+        "reference": "Section 4 Exclusions, 4.1 Standard Exclusions, (i) Pre-existing Disease - Code- Excl01",
+        "explanation": "36 months PED waiting is acceptable/industry standard range (not a red flag per your rules)."
+      },
+      {
+        "name": "Specific illness (named ailment) waiting period = 24 months",
+        "quote": "ii. Specific Waiting Period - Code- Excl 02 ... Expenses related to the treatment of the listed Conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage",
+        "reference": "Section 4 Exclusions, 4.1(a)(ii) Specific Waiting Period (Excl02)",
+        "explanation": "24 months for listed diseases/procedures is standard."
+      },
+      {
+        "name": "Pre-hospitalization cover = 30 days; Post-hospitalization cover = 60 days",
+        "quote": "(i) As Pre-Hospitalization Medical Expenses during a period of 30 days immediately prior to the date of the Insured Person's admission to the Hospital; and (ii) As Post-Hospitalization Medical Expenses during a period of 60 days immediately following the date of the Insured Person's discharge from Hospital,",
+        "reference": "Section 3.2 Benefit 2: Pre-Hospitalization & Post-Hospitalization Medical Expenses",
+        "explanation": "30-day pre and 60-day post are standard minimum ranges (good)."
+      }
+    ],
+    "bad": [
+      {
+        "name": "No restore/recharge benefit mentioned (assumed not covered)",
+        "quote": "Any Claim paid except for Benefit 4 shall reduce the Sum Insured for the Policy Year and only the balance shall be available for all future Claims for that Policy Year.",
+        "reference": "Section 3 Scope of Cover (General Conditions) / Sum Insured reduction clause",
+        "explanation": "No restore benefit is stated; claims reduce the available Sum Insured for the year. This means coverage is not replenished after a claim (red flag vs many modern plans that restore SI)."
+      },
+      {
+        "name": "Consumables / non-medical items not covered (Annexure II list)",
+        "quote": "Any item or condition or treatment specified in List of Non-Medical Items (Annexure – II to Policy Terms & Conditions).",
+        "reference": "Section 4.2 Specific Exclusions, clause (i) + Annexure II",
+        "explanation": "Consumables and many non-medical hospital items (e.g., gloves, masks, kits etc. listed in Annexure II) are excluded and become out-of-pocket, which is a major cost gap."
+      },
+      {
+        "name": "Mandatory co-payment: 20% for 61+ (individual / floater based on entry age table)",
+        "quote": "6.2.2. Special Condition 2 : Co-payment ... (a) The Policyholder shall bear 20% of the Final Claim Amount ... (b) The Co-payment shall be applicable to each and every Claim, for each Insured Person.",
+        "reference": "Section 6.2.2 Special Condition 2: Co-payment (applicable only if mentioned in Policy Schedule)",
+        "explanation": "If this special condition is opted/mentioned in the policy schedule, it results in a significant 20% share on every claim for senior entry ages—this reduces effective coverage."
+      }
+    ],
+    "unclear": [
+      {
+        "name": "Co-payment applicability depends on Policy Schedule (may or may not apply)",
+        "quote": "Special Conditions shall be applicable only if the same is specifically mentioned in the Policy Schedule.",
+        "reference": "Section 6.2 Special Conditions",
+        "explanation": "The wording provides a co-pay special condition, but whether it applies to your policy depends on your Policy Schedule. Confirm if co-pay is mentioned for your specific cover."
+      },
+      {
+        "name": "NCB / Cumulative Bonus terms not provided (only definition present)",
+        "quote": "2.1.9. Cumulative Bonus shall mean any increase or addition in the Sum Insured granted by the insurer without an associated increase in premium.",
+        "reference": "Definitions 2.1.9",
+        "explanation": "The document defines Cumulative Bonus but does not state whether it is offered, the % per year, maximum, or whether it resets on claim. Treat as not confirmed—verify in policy schedule/benefit table."
+      },
+      {
+        "name": "Cashless network size not mentioned",
+        "quote": "Cashless Facility is available only at Network Hospitals.",
+        "reference": "Section 6.1.2(a) Claims Procedure (Cashless Facility)",
+        "explanation": "Cashless is available at network hospitals, but the number of network hospitals is not provided in the extract—verify current network size/location availability on insurer website."
+      },
+      {
+        "name": "Restore benefit not found as an explicit feature (confirm if any additional SI/restore exists in schedule/annexure)",
+        "quote": "The Company shall have no liability to make payment of a Claim under the Policy in respect of an Insured Person, once the Sum Insured for that Insured Person is exhausted.",
+        "reference": "Section 6.1.6 Payment Terms, clause (f)",
+        "explanation": "This indicates no payment beyond exhausted SI unless any additional SI is 'available or accrued under any Benefit' (wording exists elsewhere). No clear restore/recharge clause is shown in the extract—confirm if any restore/additional SI is provided in your Policy Schedule."
+      }
+    ]
+  },
+  "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
+}

@@ -1,0 +1,96 @@
+{
+  "policyName": "HeartBeat Platinum",
+  "insurer": "Niva Bupa Health Insurance Company Limited",
+  "sumInsured": "Varies by plan (Silver/Gold/Platinum; Individual/Family Floater/Family First). Examples: Individual & Family Floater: Silver 2L/3L; Gold 5L-50L; Platinum 15L-1Cr. Family First: Base SI per person + Floater SI (as per Annexure II).",
+  "policyType": "Not specified",
+  "documentType": "Policy Wording",
+  "summary": {
+    "great": 2,
+    "good": 5,
+    "bad": 4,
+    "unclear": 1
+  },
+  "features": {
+    "great": [
+      {
+        "name": "Restore/Re-fill benefit (works for same & different illness)",
+        "quote": "Re-fill benefit Reinstate up to base Sum Insured. Applicable for same & different illness as well",
+        "reference": "Annexure II – Product Benefit Table (Silver/Gold/Platinum tables)",
+        "explanation": "After the base Sum Insured (and Loyalty Additions, if any) is exhausted in a policy year, the policy provides up to 100% of Base SI as an extra buffer for subsequent hospital claims, usable even for the same illness (as per benefit table)."
+      },
+      {
+        "name": "Built-in additional Sum Insured buffer (Re-fill up to 100% of Base SI once per year)",
+        "quote": "We will provide an additional re-fill amount of maximum up to 100% of the Base Sum Insured.",
+        "reference": "Section 3.12 Re-fill Benefit",
+        "explanation": "This is an additional coverage layer that activates after base SI is used up (subject to conditions like once per policy year and eligible sections)."
+      }
+    ],
+    "good": [
+      {
+        "name": "Pre-existing disease (PED) waiting period (24/36 months by plan)",
+        "quote": "Expenses related to the treatment of a Pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 24 months (under gold & platinum Plans)/ 36 months (under Silver Plans) of continuous coverage after the date of inception of the first Policy.",
+        "reference": "Section 5.1.1.1 Pre-existing Diseases",
+        "explanation": "PED coverage starts after 2 years in Gold/Platinum and 3 years in Silver (both are within acceptable market norms)."
+      },
+      {
+        "name": "Initial waiting period (30 days)",
+        "quote": "Expenses related to the treatment of any Illness within 30 days from the first Policy commencement date shall be excluded except claims arising due to an Accident",
+        "reference": "Section 5.1.1.2 30-day Waiting Period",
+        "explanation": "Standard 30-day initial waiting for illnesses; accidents are covered from day 1."
+      },
+      {
+        "name": "Specific illness/procedure waiting period (24 months; only for age >45)",
+        "quote": "For all Insured Persons who are above 45 years of Age as on the date of inception of the First Policy with Us... excluded until the expiry of 24 months of continuous coverage",
+        "reference": "Section 5.1.1.3 Specified disease/procedure waiting period",
+        "explanation": "Standard 24-month waiting for listed conditions for insured persons above 45 at first inception."
+      },
+      {
+        "name": "Pre-hospitalization cover (60 days)",
+        "quote": "We will pay above mentioned Pre-hospitalization Medical Expenses only for period up to 60 days immediately preceding the Insured Person’s admission",
+        "reference": "Section 3.2 (Sub-limit)",
+        "explanation": "Covers eligible medical expenses up to 60 days before hospitalization (industry standard)."
+      },
+      {
+        "name": "Post-hospitalization cover (90 days)",
+        "quote": "We will pay Post-hospitalization Medical Expenses only for up to 90 days immediately following the Insured Person’s discharge",
+        "reference": "Section 3.3 (Sub-limit)",
+        "explanation": "Covers eligible medical expenses up to 90 days after discharge (industry standard)."
+      }
+    ],
+    "bad": [
+      {
+        "name": "Room rent capping in some variants (daily cap/shared room) leading to proportionate deductions",
+        "quote": "Room rent Shared Room or 1% of the Base Sum Insured per day",
+        "reference": "Annexure II – Product Benefit Table: Individual & Family Floater Silver Plan (Renewal only)",
+        "explanation": "A capped/shared-room eligibility can significantly increase out-of-pocket due to proportionate deduction if you take a higher category room."
+      },
+      {
+        "name": "Room rent capping in some variants (₹3,000/day or shared room) leading to proportionate deductions",
+        "quote": "Room rent Rs 3,000 per day or Shared Room",
+        "reference": "Annexure II – Product Benefit Table: Family First - Silver Plan",
+        "explanation": "A rupee cap/shared room is restrictive and can trigger proportionate deductions on associated medical expenses if you choose a higher room."
+      },
+      {
+        "name": "Proportionate deduction clause applies when room category exceeds eligibility",
+        "quote": "If the Insured Person is admitted in a Hospital room where the room category opted or Room Rent incurred is higher than the eligibility as specified in the Policy Schedule, then We shall be liable to pay only a pro-rated portion of the total Associated Medical Expenses... (Eligible Room Rent limit / Room Rent actually incurred) * total Associated Medical Expenses",
+        "reference": "Section 3.1 Inpatient Care – Conditions (b)",
+        "explanation": "If your plan has a room rent limit and you opt for a higher room, the insurer can reduce payout not just for room rent but for associated costs like doctor fees/OT, increasing out-of-pocket."
+      },
+      {
+        "name": "NCB/Loyalty Additions reset/reduction possible on Base Sum Insured reduction or split; not protected as 'non-resetting'",
+        "quote": "If the Insured Persons covered on a Family Floater Policy... Renew... by splitting... then We will provide the credit of the accumulated Cumulative Bonus to the split Policy reduced proportionately... In case the Base Sum Insured under the Policy is reduced at the time of Renewal, the applicable accumulated Cumulative Bonus shall also be reduced in proportion to the Base Sum Insured.",
+        "reference": "Section 3.14 Loyalty Additions – Conditions (e), (f), (g)",
+        "explanation": "The accumulated bonus is not fully protected in scenarios like SI reduction/splitting; this is weaker than top policies where bonus is strongly protected from reductions/claim impacts."
+      }
+    ],
+    "unclear": [
+      {
+        "name": "Co-payment (base policy may have 0% OR may have optional co-pay; verify your Policy Schedule/selected option)",
+        "quote": "Co-payment means a cost-sharing requirement... 6.2.14 Co-payment The Insured Person will bear a predetermined percentage of the admissible claim amounts subject to the Co-payment option chosen by You in the Proposal Form and / or Information Summary Sheet",
+        "reference": "Definition 2.4 and Section 6.2.14 Co-payment",
+        "explanation": "The document says co-pay depends on the option you choose (10%/20% options also shown in the benefit table), but it does not confirm whether your issued policy has 0% or a chosen co-pay. Check your Policy Schedule."
+      }
+    ]
+  },
+  "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
+}

@@ -1,0 +1,101 @@
+{
+  "policyName": "iHealth",
+  "insurer": "ICICI Lombard General Insurance Company Limited",
+  "sumInsured": "₹2L / ₹3L / ₹4L / ₹5L / ₹7L / ₹10L / ₹15L / ₹20L / ₹30L / ₹50L",
+  "policyType": "Not specified",
+  "documentType": "Mixed",
+  "summary": {
+    "great": 0,
+    "good": 6,
+    "bad": 5,
+    "unclear": 2
+  },
+  "features": {
+    "great": [],
+    "good": [
+      {
+        "name": "Pre-existing disease (PED) waiting period: 24 months (48 months for ₹2L plan)",
+        "quote": "Pre-existing diseases: Covered after 24 months (48 months, for plans with Sum Insured up to 2Lacs) of continuous coverage.",
+        "reference": "Key Information Sheet, S.No 6(a); Policy Wording Part II, Clause 3.1",
+        "explanation": "PED coverage starts after 24 months for most sum insured options; the ₹2L plan has a longer 48-month PED wait (still acceptable as per market norms)."
+      },
+      {
+        "name": "Specific disease/procedure waiting period: 24 months",
+        "quote": "Expenses related to the treatment of the listed Conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage",
+        "reference": "Policy Wording Part II, Clause 3.2",
+        "explanation": "Standard 2-year waiting period for listed specific illnesses/procedures."
+      },
+      {
+        "name": "Initial waiting period: 30 days",
+        "quote": "Initial waiting period: 30 days for all illnesses (except Hospitalisation due to injury).",
+        "reference": "Key Information Sheet, S.No 6(d); Policy Wording Part II, Clause 3.4",
+        "explanation": "Standard 30-day initial waiting period for illnesses (accidents are typically covered immediately)."
+      },
+      {
+        "name": "Restore/Reset benefit (unrelated illness only): 100% once per policy year (SI ₹3L and above)",
+        "quote": "For plans with Sum Insured ` 3lacs and above, We will reset up to 100% of the Sum insured once in a policy year... The reset amount can only be used for all future claims within the same policy year, not related to the illness/ disease/ injury for which a claim has been paid in that policy year for the same person",
+        "reference": "Policy Wording Part II, Section 2 (Scope of Cover), E) Reset Benefit",
+        "explanation": "This replenishes sum insured once in a year but only for unrelated conditions for the same person, and only for SI ₹3L+. It will not help if you need a second hospitalization for the same illness in the same year."
+      },
+      {
+        "name": "Pre-hospitalization cover: 30 days",
+        "quote": "Pre-hospitalisation Medical Expenses incurred by You for a 30-day period immediately prior to Your Hospitalisation",
+        "reference": "Policy Wording Part II, Section 2(C)(i)",
+        "explanation": "Covers eligible medical expenses for 30 days before hospitalization (standard)."
+      },
+      {
+        "name": "Post-hospitalization cover: 60 days",
+        "quote": "Post-hospitalisation Medical Expenses incurred by You for a 60-day period immediately post Hospitalisation",
+        "reference": "Policy Wording Part II, Section 2(C)(ii)",
+        "explanation": "Covers eligible medical expenses for 60 days after discharge (standard minimum band)."
+      }
+    ],
+    "bad": [
+      {
+        "name": "Room rent limit not stated (assumed not covered/unknown in provided extract)",
+        "quote": "Room Rent means the amount charged by a hospital for the occupancy of a bed on per day (24 hours) basis and shall include associated medical expenses.",
+        "reference": "Policy Wording Part II, Definitions (Room Rent)",
+        "explanation": "The provided pages define room rent but do not state the eligible room category/limit (e.g., Single AC / Any room). If there is a room rent cap in the schedule, it can cause proportionate deductions. Since the limit is not found here, treat as not confirmed in this extract."
+      },
+      {
+        "name": "Consumables / Non-payable items not covered (out-of-pocket)",
+        "quote": "Below are the non payable items applicable in the policy... GLOVES... SYRINGES / PPE-type items etc. (listed as non payable items)",
+        "reference": "Policy document section: \"Non Payables\" / \"List of Non Payable Items as per IRDAI\"",
+        "explanation": "Consumables and many day-to-day hospital items are not payable, which can materially increase out-of-pocket costs during hospitalization."
+      },
+      {
+        "name": "Cashless network size below 7,000 (as per KIS)",
+        "quote": "Cashless Facility available at over 4000+ network hospitals.",
+        "reference": "Key Information Sheet, S.No 7",
+        "explanation": "A smaller network can reduce cashless convenience, especially outside major cities."
+      },
+      {
+        "name": "Disease sub-limits: Cataract has fixed caps (plan-dependent)",
+        "quote": "Cataract, where sub-limit of ` 20,000/- is applicable per eye per Policy year for Plans with Sum Insured up to 5 Lacs. Sub limit of ` 1,00,000 per eye per Policy year will be applicable for cataract treatment for plans with Sum Insured above ` 5Lacs",
+        "reference": "Key Information Sheet, S.No 8(a); Policy Wording Part II, Clause 3.2 (Cataract*)",
+        "explanation": "Cataract has explicit monetary caps per eye; this is a hard sub-limit and can be restrictive for low SI variants."
+      },
+      {
+        "name": "Optional/plan sub-limit extension exists (can be restrictive if selected)",
+        "quote": "Extension 15: Sub Limits on Medical Expenses/ Illness/ Surgeries/ Procedures... Our maximum liability... shall be limited as per the table below",
+        "reference": "Policy Wordings, Extensions/Endorsements, Extension 15",
+        "explanation": "This extension introduces multiple procedure-wise caps (e.g., appendicectomy, hernia, ENT, etc.). If your purchased plan/schedule includes this sub-limit structure, payouts can be significantly restricted for common surgeries."
+      }
+    ],
+    "unclear": [
+      {
+        "name": "Co-pay status not explicitly stated",
+        "quote": "Co-payment means a cost sharing requirement under a health insurance policy that provides that the policyholder/ insured/ proposer will bear a specified percentage of the admissible claims amount.",
+        "reference": "Policy Wording Part II, Definitions (Co-payment)",
+        "explanation": "The document defines co-payment but does not clearly state whether any co-pay applies (and if yes, when/for whom). Confirm from the policy schedule/special conditions."
+      },
+      {
+        "name": "NCB / Renewal bonus impact on claim (whether it resets to zero is not stated; reduction model given)",
+        "quote": "An Additional Sum Insured of 10% of Annual Sum Insured provided on each renewal for every claim-free year up to a maximum of 50%. In case of a claim under the policy, the accumulated Additional Sum Insured will be reduced by 10% of the Annual Sum Insured in the following year.",
+        "reference": "Key Information Sheet, S.No 10(a); Policy Wording Part II, Section 2(G) Additional Sum Insured (Cumulative Bonus)",
+        "explanation": "NCB exists and appears to reduce by 10% on a claim (rather than resetting to zero), but the document does not explicitly confirm if it can ever drop to zero or the minimum floor. Verify the exact reduction mechanics in the schedule/illustrations."
+      }
+    ]
+  },
+  "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
+}

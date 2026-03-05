@@ -1,0 +1,108 @@
+{
+  "policyName": "Senior First Platinum",
+  "insurer": "Niva Bupa Health Insurance Company Limited",
+  "sumInsured": "Not specified (Base Sum Insured and limits as per Policy Schedule; NCB up to 100%; ReAssure unlimited with per-claim cap up to Base Sum Insured)",
+  "policyType": "Senior",
+  "documentType": "Policy Wording",
+  "summary": {
+    "great": 2,
+    "good": 4,
+    "bad": 6,
+    "unclear": 2
+  },
+  "features": {
+    "great": [
+      {
+        "name": "Restore / additional SI buffer (ReAssure) — unlimited, triggered after 1st paid claim",
+        "quote": "“The first paid claim triggers ReAssure, a benefit with unlimited sum insured. NOTE: Maximum amount ReAssure benefit pays for any single claim is up to base sum insured.”",
+        "reference": "Section 3.7 ReAssure",
+        "explanation": "After your first paid claim, you get an additional pool (ReAssure) that can pay further claims in the same policy year, effectively giving extra cover once the base SI is used."
+      },
+      {
+        "name": "Modern treatments covered (list provided) with defined robotic surgery cap",
+        "quote": "“We pay for Modern treatments as specified below: ... Robotic surgeries ... NOTE: A limit of maximum Rs. 1,00,000 per claim will apply to all robotic surgeries, except for total radical prostatectomy, cardiac surgeries, partial nephrectomy and surgeries for malignancies.”",
+        "reference": "Section 3.2(b) Expenses during hospitalization (Hospital admission)",
+        "explanation": "Modern treatments are explicitly covered (with a stated cap for most robotic surgeries), which is better than many senior-focused plans that restrict these benefits."
+      }
+    ],
+    "good": [
+      {
+        "name": "PED waiting period: 24 months",
+        "quote": "“Expenses related to the treatment of a Pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first Policy.”",
+        "reference": "Section 5.1(I) Pre-existing Diseases (Code–Excl01)",
+        "explanation": "Pre-existing diseases are covered after 2 years of continuous coverage (standard in the market)."
+      },
+      {
+        "name": "Specific illness/procedure waiting period: 24 months",
+        "quote": "“Expenses related to the treatment of the listed conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first Policy.”",
+        "reference": "Section 5.1(II) Specified disease/procedure waiting period (Code- Excl02)",
+        "explanation": "Specified diseases/procedures are covered after 2 years (standard)."
+      },
+      {
+        "name": "Initial waiting period: 30 days (illness); accident covered from day 1",
+        "quote": "“Expenses related to the treatment of any Illness within 30 days from the first Policy commencement date shall be excluded except claims arising due to an Accident”",
+        "reference": "Section 5.1(III) 30-day waiting period (Code- Excl03)",
+        "explanation": "Standard 30-day initial waiting for illnesses; accidents are typically covered from day 1."
+      },
+      {
+        "name": "No Claim Bonus (NCB): 10% per claim-free year up to 100% (resets not stated here)",
+        "quote": "“For every claim free year, we will add 10% of expiring policy base sum insured as NCB, maximum up to 100%.”",
+        "reference": "Section 3.6 No Claim Bonus (NCB)",
+        "explanation": "Your Sum Insured can grow by 10% each claim-free year up to 100%. The document does not clearly state whether it reduces/resets on claim (see ‘Unclear’)."
+      }
+    ],
+    "bad": [
+      {
+        "name": "Co-pay (mandatory default): 50% (very high)",
+        "quote": "“The default co-payment in the product is 50% which You can modify to 40% or 30% or 20% at inception of the first policy.”",
+        "reference": "Section 4.1 Co-payment",
+        "explanation": "By default you pay 50% of every admissible claim (unless you choose a lower co-pay at inception). Even the lowest available (20%) is still meaningful out-of-pocket."
+      },
+      {
+        "name": "Additional co-pay for taking higher room category than eligibility: extra 10%",
+        "quote": "“You will have to bear additional 10% co-payment IF treatment is taken in higher room category than the eligible room category as specified in Your Policy Schedule”",
+        "reference": "Section 4.1 Co-payment (Note b)",
+        "explanation": "If you take a higher room category than your eligibility, you pay an extra 10% co-pay on admissible expenses—this can materially increase your share of the bill."
+      },
+      {
+        "name": "Room rent / eligible room category: not stated in this excerpt (as per Policy Schedule) — treat as not available in document",
+        "quote": "“All applicable benefits and details are mentioned in your Policy Schedule.”",
+        "reference": "Section 1 Preamble",
+        "explanation": "This provided text does not specify the eligible room category/room rent limit. Without it, you cannot assess room eligibility and related cost-sharing risk."
+      },
+      {
+        "name": "Consumables not covered (explicit list includes gloves, masks, nebulisation kit, etc.)",
+        "quote": "“Annexure I – The expenses that are not covered ... List I – Expenses not covered ... 56 GLOVES ... 60 MASK ... 57 NEBULISATION KIT ... 68 VASOFIX SAFETY”",
+        "reference": "Annexure I – List I (Expenses not covered)",
+        "explanation": "Common consumables are excluded, leading to routine out-of-pocket during hospitalizations."
+      },
+      {
+        "name": "Pre-hospitalization cover: 60 days (not >60 days)",
+        "quote": "“60 days before date of admission”",
+        "reference": "Section 3.3 Expenses before and after hospitalization (Pre & Post hospitalization)",
+        "explanation": "Pre-hospitalization expenses are covered for 60 days (industry standard, but not better-than-standard). As per the mandatory grading rules, this is not ‘great’."
+      },
+      {
+        "name": "Post-hospitalization cover: 180 days (not >180 days)",
+        "quote": "“180 days after date of discharge”",
+        "reference": "Section 3.3 Expenses before and after hospitalization (Pre & Post hospitalization)",
+        "explanation": "Post-hospitalization expenses are covered for 180 days (good/standard, but not above 180 days). As per the mandatory grading rules, this is not ‘great’."
+      }
+    ],
+    "unclear": [
+      {
+        "name": "NCB behavior on claim (whether it resets/reduces) not specified in provided text",
+        "quote": "“For every claim free year, we will add 10% ... maximum up to 100%.”",
+        "reference": "Section 3.6 No Claim Bonus (NCB)",
+        "explanation": "The accrual is clear, but the document excerpt does not state what happens to accumulated NCB after a claim (reduce, reset to zero, or protected). Confirm in full wording/policy schedule."
+      },
+      {
+        "name": "Deductible option amount and structure depends on choice/policy schedule",
+        "quote": "“Annual Aggregate Deductible (optional benefit) ... This is an aggregate amount in a year ... which we will NOT pay.”",
+        "reference": "Section 4.2 Annual Aggregate Deductible (optional benefit)",
+        "explanation": "Deductible is optional but the deductible amount/options are not provided in this excerpt. If opted, it materially changes claim out-of-pocket; verify exact deductible choices in the policy schedule/proposal."
+      }
+    ]
+  },
+  "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
+}
