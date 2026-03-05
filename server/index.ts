@@ -5,6 +5,7 @@ import { adminRouter } from './routes/admin';
 import { analyzeRouter } from './routes/analyze';
 import { featuresRouter } from './routes/features';
 import { gradedRouter } from './routes/graded';
+import { outRouter } from './routes/out';
 import { requireAdmin } from './middleware/adminAuth';
 
 const { API_PORT } = getEnv();
@@ -19,6 +20,7 @@ app.use('/api/admin', requireAdmin, adminRouter);
 app.use('/api', analyzeRouter);
 app.use('/api', featuresRouter);
 app.use('/api', gradedRouter);
+app.use('/api', outRouter);
 
 app.listen(API_PORT, () => {
   console.log(`[api] listening on http://localhost:${API_PORT}`);
