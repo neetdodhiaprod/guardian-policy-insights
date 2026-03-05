@@ -81,11 +81,9 @@ Users can browse the library or upload their own PDF — the app identifies whic
 │       └── utils.ts                   # Tailwind merge utility
 │
 ├── scripts/
-│   ├── regrade_all.mjs                # Re-grade all policies via OpenAI gpt-4.1-mini (offline)
-│   ├── fix_copay.mjs                  # Post-processor: enforce co-pay → Red Flag rule
+│   ├── regrade_all.mjs                # Re-grade all policies via OpenAI gpt-5.2 (offline); includes co-pay enforcement pass
 │   ├── clean_feature_names.mjs        # Algorithmic feature name cleanup
-│   ├── verify_outputs.mjs             # Validate all out/ JSONs for schema correctness
-│   ├── spot_check.mjs                 # Manually verify a single policy's grading
+│   ├── verify_outputs.mjs             # QA: validate all out/ JSONs for rule violations + feature completeness
 │   ├── qa_identify.mjs                # 70-test suite for policy identification accuracy
 │   └── archive/                       # One-time data processing scripts (historical)
 │
@@ -101,7 +99,7 @@ Users can browse the library or upload their own PDF — the app identifies whic
 | Analysis approach | Pre-baked JSONs in `out/` | Instant results (< 100ms); no per-request AI cost; consistent quality |
 | PDF identification | Server-side text matching | Insurer pattern + policy name scoring; works for all 103 known policies |
 | PDF parsing | Client-side (`pdfjs-dist`) | No server load for extraction; instant client-side feedback on bad files |
-| AI grading pipeline | OpenAI `gpt-4.1-mini` (offline) | Best cost/accuracy for structured JSON; run once, not at request time |
+| AI grading pipeline | OpenAI `gpt-5.2` (offline) | Best accuracy for structured JSON; run once, not at request time |
 | Backend | Express.js + `tsx watch` | Simple, no framework overhead; all routes serve static JSON from `out/` |
 | State management | Local React state (`useState`) | Single-page flow, no cross-route state needed |
 | Styling | Tailwind CSS + shadcn/ui + semantic tokens | Consistent design system, easy theming |
@@ -116,12 +114,12 @@ The rubric lives in `scripts/regrade_all.mjs` and encodes **domain expertise** f
 |---------|--------------|------|----------|
 | **Room Rent** | At Actuals / No limit | Single Private AC room | Any rupee cap or % cap |
 | **PED Waiting** | < 24 months | 24–48 months | > 48 months |
-| **Co-pay** | Zero mention in document | — | ANY mention (optional, age-based, PPN, etc.) |
+| **Co-pay** | No applied co-pay clause (IRDAI glossary definition alone doesn't count) | — | Any applied co-pay clause (optional, age-based, PPN, discounted plan, etc.) |
 | **Post-hospitalisation** | > 180 days | 60–180 days | < 60 days |
 | **Restore Benefit** | Covers same illness | Different illness only | No restore |
 | **Consumables** | Fully covered | — | Excluded |
 
-> ⚠️ **For production:** The co-pay rule is an absolute override — even "optional" co-pay is flagged Red. After every regrade run, also run `scripts/fix_copay.mjs` to enforce this deterministically (the AI occasionally misclassifies it).
+> ⚠️ **For production:** The co-pay rule is an absolute override — even "optional" co-pay is flagged Red. The co-pay enforcement pass runs automatically at the end of `regrade_all.mjs` (no separate script needed). The key distinction: every IRDAI policy must include a glossary definition of "Co-Payment means…" — this alone is **not** a co-pay clause and is classified as GREAT. Only clauses that actually charge the insured (e.g. "10% co-pay applies for age 60+") are flagged BAD.
 
 ---
 
@@ -255,6 +253,6 @@ npm run dev:api  # Express backend only
 1. **The data IS the product** — The 103 pre-analysed policies in `out/` are the core value. The UI is a thin layer on top. Protect and extend this dataset.
 2. **The rubric IS the IP** — The grading logic in `scripts/regrade_all.mjs` encodes domain expertise. It should be version-controlled and refined based on user feedback. Every rule change requires a full re-grade run.
 3. **Types are the contract** — `PolicyFeature` and `PolicyAnalysis` in `src/lib/mockData.ts` are the shared types between frontend and backend. Any schema change must be reflected in both the JSON files and the TypeScript types.
-4. **Adding a new policy** — Drop the PDF in `policy-wording/<insurer>/`, run `node scripts/regrade_all.mjs <insurer>/<Policy>`, then `node scripts/fix_copay.mjs`. No server restart needed — the API reads files at request time.
+4. **Adding a new policy** — Drop the PDF in `policy-wording/<insurer>/`, run `node scripts/regrade_all.mjs <insurer>/<Policy>`. The co-pay enforcement pass runs automatically at the end. No server restart needed — the API reads files at request time.
 5. **Design tokens** — All semantic colors (`great`, `good`, `bad`, `unclear`) are HSL tokens defined in `src/index.css`. Don't hardcode colors anywhere.
 6. **See `HANDOVER.md`** — Full architecture walkthrough, production gaps, and explanation of every key decision.
