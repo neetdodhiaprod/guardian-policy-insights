@@ -134,11 +134,11 @@ function build(features) {
 
   // Room rent & payout mechanics
   const roomActuals = pickBest(
-    items.filter(r => /room\s*rent/i.test(r.quote) && /at\s+actuals/i.test(r.quote) && /annexure\s*c/i.test(`${r.reference ?? ''} ${r.quote}`)),
-    [/annexure\s*c/i, /room\s*rent/i, /at\s+actuals/i]
+    items.filter(r => /room\s*rent/i.test(r.quote) && /at\s+actuals/i.test(r.quote)),
+    [/1\.1\.a/i, /room\s*rent/i, /at\s+actuals/i]
   );
   if (roomActuals) {
-    add(GREAT, roomActuals, expl('Room rent is covered at actuals as per the plan chart clause we found.', 'For hospitalization room charges as per the policy.'));
+    add(GREAT, roomActuals, expl('Room rent is covered at actuals (no daily cap stated in the default term we found).', 'For hospitalization room charges as per the policy.'));
   }
 
   // Proportionate deduction is claim-shock only if room rent is actually capped/eligibility-limited.
