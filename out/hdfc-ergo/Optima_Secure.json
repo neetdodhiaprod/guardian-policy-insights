@@ -5,7 +5,7 @@
   "policyType": "Individual | Family Floater",
   "documentType": "Policy Wording",
   "summary": {
-    "great": 6,
+    "great": 4,
     "good": 6,
     "bad": 2,
     "unclear": 0
@@ -16,89 +16,77 @@
         "name": "Room Rent",
         "quote": "Room rent limit shall be \u0002At Actuals\u0002 unless otherwise specified in the Policy Schedule.",
         "reference": "Section B.1.1(a), Page 11",
-        "explanation": "Room rent is covered at actual cost unless your policy schedule states otherwise. This means you can choose any room without worrying about a daily rent cap."
+        "explanation": "Room rent is payable at actuals unless a different limit is shown in the Policy Schedule. This reduces the risk of room-category restrictions cutting down your claim payout."
       },
       {
         "name": "Built-in SI Buffer",
         "quote": "The Secure Benefit will be applicable only after exhaustion of Base Sum Insured.",
         "reference": "Section B.2.5(c), Page 17",
-        "explanation": "You get extra insurer-funded coverage once your Base Sum Insured is fully used. This provides additional financial protection beyond your base limit."
+        "explanation": "Secure Benefit becomes available only after the Base Sum Insured is fully exhausted. This provides extra insurer-funded cover in high-cost or multiple-claim years."
       },
       {
         "name": "Restore Benefit",
         "quote": "The restored Sum Insured can be used even for the same illness for which an admissible claim has been paid during the Policy Year and also for any other Illness covered under the Policy.",
         "reference": "Section B.2.6(vi), Page 18",
-        "explanation": "If your Sum Insured is exhausted or partly used after a claim, the policy restores 100% of it. You can use this restored amount even for the same illness within the same policy year."
+        "explanation": "Restored Sum Insured can be used even for the same illness in the same Policy Year, and also for other covered illnesses. This helps if the same condition needs repeat hospitalization within the year."
       },
       {
         "name": "No Claim Bonus",
         "quote": "This Cover will be applied irrespective of number of claims made under the expiring Policy.",
         "reference": "Section B.2.4(c), Page 16",
-        "explanation": "The renewal bonus is credited even if you made claims in the previous year. This means your bonus does not reset to zero after a claim."
-      },
-      {
-        "name": "Consumables",
-        "quote": "The Company shall indemnify the Insured Person for the Non-Medical Expenses listed under Annexure B to this Policy incurred in relation to a claim admissible under Section B-1 (Base Coverage) during the Policy Year.",
-        "reference": "Section B.2.3, Page 15-16",
-        "explanation": "If Protect Benefit is active, many common non-medical hospital items are covered. This reduces your out-of-pocket expenses for consumables."
-      },
-      {
-        "name": "PED Waiting Period",
-        "quote": "Modification of PED waiting period from 36 months (as specified under Section C.1.a \u0002 Pre-Existing Diseases) to 24 months (2 years)... to 12 months (1 year)",
-        "reference": "Section B.2.12, Page 25",
-        "explanation": "If this option applies, the waiting period for pre-existing diseases can reduce to 24 or even 12 months. This means you can claim for pre-existing conditions sooner."
+        "explanation": "The renewal bonus applies irrespective of the number of claims in the expiring policy. This means the benefit is not lost just because you made a claim."
       }
     ],
     "good": [
       {
-        "name": "Initial Waiting",
-        "quote": "Expenses related to the treatment of any illness within 30 days from the first Policy commencement date shall be excluded except claims arising due to an accident",
-        "reference": "Section C.1(c)(i), Page 30",
-        "explanation": "Illnesses are not covered in the first 30 days except accidents. This is standard and protects against immediate claims."
-      },
-      {
         "name": "PED Waiting Period",
         "quote": "Expenses related to the treatment of a pre-existing disease (PED) and its direct complications shall be excluded until the expiry of 36 months (Unless specified otherwise in the Policy Schedule) of continuous coverage",
         "reference": "Section C.1(a)(i), Page 28",
-        "explanation": "Pre-existing diseases are covered only after 36 months of continuous coverage. This is a common waiting period in Indian health insurance."
+        "explanation": "Pre-existing diseases are covered after 36 months of continuous coverage unless the Policy Schedule specifies otherwise. This is a common waiting period, so early-year PED claims will not be payable."
       },
       {
         "name": "Specific Illness Waiting",
         "quote": "Expenses related to the treatment of the listed Conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage",
         "reference": "Section C.1(b)(i), Page 28",
-        "explanation": "Certain listed illnesses and procedures have a 24-month waiting period. Accidents are exempt from this waiting."
+        "explanation": "Listed conditions/surgeries are covered only after 24 months of continuous coverage. This can delay payouts for certain planned treatments in the first two years."
+      },
+      {
+        "name": "Initial Waiting Period",
+        "quote": "Expenses related to the treatment of any illness within 30 days from the first Policy commencement date shall be excluded except claims arising due to an accident",
+        "reference": "Section C.1(c)(i), Page 30",
+        "explanation": "Illnesses are not covered for the first 30 days from the policy start date, except accidents. This is standard, so non-accident claims in the first month are typically rejected."
       },
       {
         "name": "Pre-hospitalization Cover",
         "quote": "Such expenses shall be indemnified if the same were incurred upto 60 days unless otherwise specified in the Policy Schedule, immediately prior to the date of admission.",
         "reference": "Section B.1.5, Page 12-13",
-        "explanation": "Medical expenses up to 60 days before hospital admission are covered. This helps with costs related to your hospitalization."
+        "explanation": "Medical expenses incurred up to 60 days before hospitalization are covered unless the Policy Schedule states otherwise. This helps pay for tests, consultations, and medicines leading up to admission."
       },
       {
         "name": "Post-hospitalization Cover",
         "quote": "Such expenses shall be indemnified if the same were incurred upto 180 days unless otherwise specified in the Policy Schedule, immediately post the date of discharge from the Hospital.",
         "reference": "Section B.1.6, Page 13",
-        "explanation": "Medical expenses up to 180 days after discharge are covered. This supports recovery costs after hospitalization."
+        "explanation": "Medical expenses incurred up to 180 days after discharge are covered unless the Policy Schedule states otherwise. This supports follow-up treatment and medicines during recovery."
       },
       {
         "name": "Air Ambulance",
         "quote": "The Company shall indemnify expenses incurred by the Insured Person during the Policy Year towards Ambulance transportation in an airplane or helicopter for Emergency Care... subject to a maximum of Sum Insured as specified in the Policy Schedule against this Cover",
         "reference": "Section B.2.1, Page 15",
-        "explanation": "Air ambulance expenses are covered if this optional benefit is active, subject to limits. This helps in emergency transport by air."
+        "explanation": "Air ambulance (airplane/helicopter) for emergency care is covered up to the limit shown in the Policy Schedule. This can be valuable for critical transfers, but payouts are capped."
       }
     ],
     "bad": [
       {
-        "name": "Consumables Exclusion",
+        "name": "Consumables",
         "quote": "Any Kit with no details mentioned [DELIVERY KIT, ORTHO KIT, RECOVERY KIT, ETC.] ... GLOVES ... MASK ... VASOFIX SAFETY",
         "reference": "Annexure B - Items for which Coverage is not available in the Policy (Non-Medical Expenses), Pages 49-50",
-        "explanation": "Many common consumables are excluded from coverage under the base policy. This can lead to significant out-of-pocket expenses unless you have additional benefits."
+        "explanation": "Many non-medical/consumable items (such as kits, gloves, masks, etc.) are listed as not covered. This can materially increase out-of-pocket costs during hospitalization."
       },
       {
         "name": "Co-pay",
         "quote": "Co-Payment means a cost sharing requirement under a health insurance policy that provides that the policyholder/insured will bear a specified percentage of the admissible claims amount.",
         "reference": "Definition 8, Page 3",
-        "explanation": "The policy defines co-pay but does not clearly state if or when it applies by default. You need to check your policy schedule to know if any co-pay applies."
+        "explanation": "A co-payment clause exists in the document, meaning you may have to bear a specified percentage of the admissible claim amount. This directly reduces the insurer payout and increases your share of every claim where co-pay applies."
       }
     ],
     "unclear": []
