@@ -26,6 +26,9 @@ const Header = () => {
             <a href="#" className="font-body text-sm text-muted-foreground hover:text-foreground transition-colors">
               Calculator
             </a>
+            <a href="/out" className="font-body text-sm text-muted-foreground hover:text-foreground transition-colors">
+              Policy Outputs
+            </a>
             <a href="/features" className="font-body text-sm text-muted-foreground hover:text-foreground transition-colors">
               Features Explorer
             </a>
