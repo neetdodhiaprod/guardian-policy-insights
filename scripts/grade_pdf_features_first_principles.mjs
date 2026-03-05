@@ -132,9 +132,18 @@ function build(features) {
     add(GOOD, specificIllness, expl('Certain listed illnesses/procedures are covered only after the specific waiting period.', 'For those listed conditions/procedures until the waiting period completes.'));
   }
 
-  // Room rent & payout mechanics (claim-shock)
+  // Room rent & payout mechanics
+  const roomActuals = pickBest(
+    items.filter(r => /room\s*rent/i.test(r.quote) && /at\s+actuals/i.test(r.quote) && /annexure\s*c/i.test(`${r.reference ?? ''} ${r.quote}`)),
+    [/annexure\s*c/i, /room\s*rent/i, /at\s+actuals/i]
+  );
+  if (roomActuals) {
+    add(GREAT, roomActuals, expl('Room rent is covered at actuals as per the plan chart clause we found.', 'For hospitalization room charges as per the policy.'));
+  }
+
+  // Proportionate deduction is claim-shock only if room rent is actually capped/eligibility-limited.
   const propDed = pickBest(items.filter(r => /proportionate\s+deduction/.test(lc(r.quote)) && !/not\s+(be\s+)?applicable/.test(lc(r.quote))), [/proportionate\s+deduction/i, /room/i]);
-  if (propDed) {
+  if (propDed && !roomActuals) {
     add(BAD, propDed, expl('Choosing a higher room category can reduce payouts across associated medical expenses (not just room rent).', 'If you choose a room category above your eligibility.'));
   }
 
@@ -174,7 +183,30 @@ function build(features) {
 
   // Co-pay (only if a real rule exists; ignore pure definition)
   const copayRule = pickBest(items.filter(r => /co-?pay/.test(lc(r.quote)) && /(applicable|shall|deducted|borne)/.test(lc(r.quote)) && !/means/.test(lc(r.quote))), [/co-?pay/i]);
-  if (copayRule) add(GOOD, copayRule, expl('A co-pay may apply as per the clause.', 'When the co-pay condition is triggered.'));
+  if (copayRule) {
+    add(GOOD, copayRule, expl('A co-pay may apply as per the clause.', 'When the co-pay condition is triggered.'));
+  } else {
+    // Per your rule: co-pay impacts out-of-pocket; if we cannot confirm it, mark as UNCLEAR.
+    UNCLEAR.push({
+      name: 'Co-pay not clearly found in extracted wording',
+      quote: '',
+      reference: 'Not provided',
+      explanation: expl('We could not confidently find a mandatory co-pay clause in the extracted text we’re using.', 'If a co-pay exists, it can increase your out-of-pocket cost on every claim.'),
+    });
+  }
+
+  // Deductible (same logic: if missing, mark UNCLEAR)
+  const deductibleRule = pickBest(items.filter(r => /deductible/.test(lc(r.quote)) && /(applicable|shall|borne)/.test(lc(r.quote)) && !/means/.test(lc(r.quote))), [/aggregate\s+deductible/i, /deductible/i]);
+  if (deductibleRule) {
+    add(GOOD, deductibleRule, expl('A deductible may apply as per the clause.', 'When the deductible condition is triggered.'));
+  } else {
+    UNCLEAR.push({
+      name: 'Deductible not clearly found in extracted wording',
+      quote: '',
+      reference: 'Not provided',
+      explanation: expl('We could not confidently find a deductible clause in the extracted text we’re using.', 'If a deductible exists, you may need to pay part of the claim before the policy pays.'),
+    });
+  }
 
   // Disease sublimits (BAD if a real cap is present)
   const diseaseSublimit = pickBest(
