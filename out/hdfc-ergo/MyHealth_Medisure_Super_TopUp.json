@@ -2,92 +2,92 @@
   "policyName": "MyHealth Medisure Super Top-Up",
   "insurer": "HDFC ERGO General Insurance Company Limited",
   "sumInsured": "Not specified in provided extract (refer Policy Schedule)",
-  "policyType": "Not specified",
+  "policyType": "Top-up",
   "documentType": "Policy Wording",
   "summary": {
     "great": 0,
-    "good": 5,
-    "bad": 5,
+    "good": 4,
+    "bad": 6,
     "unclear": 2
   },
   "features": {
     "great": [],
     "good": [
       {
-        "name": "Pre-existing disease (PED) waiting period: 36 months",
+        "name": "PED Waiting Period",
         "quote": "Expenses related to the treatment of a pre-existing disease (PED) and its direct complications shall be excluded until the expiry of 36 months of continuous coverage after the date of inception of the first policy with insurer.",
         "reference": "Section D (Waiting Period & Exclusions) > Standard General Exclusions & Waiting Period > 1. Pre-existing Diseases (Excl01), Page 11-12",
-        "explanation": "PEDs are covered after 3 years of continuous coverage (standard/good as per market norms)."
+        "explanation": "Pre-existing diseases are excluded for 36 months from the start of coverage. You must have continuous coverage for 3 years before PED treatments are payable."
       },
       {
-        "name": "Specific disease/procedure waiting period: 24 months",
+        "name": "Specific Illness Waiting",
         "quote": "Expenses related to the treatment of the listed Conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first Policy with us.",
         "reference": "Section D > 2. Specified Disease/Procedure waiting period (Excl02), Page 12",
-        "explanation": "Listed specific conditions (e.g., cataract, hernia, knee replacement not due to accident, etc.) are covered after 2 years (industry standard)."
+        "explanation": "Certain listed diseases and procedures are excluded for 24 months from policy start. You need 2 years of coverage before these specific treatments are covered."
       },
       {
-        "name": "Initial waiting period: 30 days (illnesses)",
+        "name": "Initial Waiting Period",
         "quote": "Expenses related to the treatment of any illness within 30 days from the first Policy commencement date shall be excluded except claims arising due to an Accident",
         "reference": "Section D > 3. 30-day waiting period (Excl03), Page 12",
-        "explanation": "Standard 30-day initial waiting for non-accident illnesses."
+        "explanation": "Illnesses are not covered during the first 30 days except accidents. This standard waiting protects against immediate claims on new policies."
       },
       {
-        "name": "Pre-hospitalization cover: 30 days",
+        "name": "Pre-hospitalization Cover",
         "quote": "The Pre-Hospitalization Medical Expenses incurred in the 30 days immediately before You were Hospitalized",
         "reference": "Section C > 2. Pre-Hospitalization Medical Expenses, Page 11",
-        "explanation": "Covers eligible medical expenses for the same condition for 30 days before admission (standard)."
-      },
-      {
-        "name": "Co-pay: 10% for age above 80 years",
-        "quote": "All person(s) named in the Schedule to this Policy above the age of 80 years (age last birthday) shall bear a co-pay of 10% for each and every claim.",
-        "reference": "Section D (Waiting Period & Exclusions) > II. Specific Exclusions > 2. Co-payment, Page 15",
-        "explanation": "If the insured person is above 80, 10% of each admissible claim amount is payable by the insured (senior-age co-pay is common)."
+        "explanation": "Medical expenses up to 30 days before hospital admission are covered. This helps cover diagnostic and treatment costs leading to hospitalization."
       }
     ],
     "bad": [
       {
-        "name": "No restore benefit",
+        "name": "Co-pay",
+        "quote": "All person(s) named in the Schedule to this Policy above the age of 80 years (age last birthday) shall bear a co-pay of 10% for each and every claim.",
+        "reference": "Section D (Waiting Period & Exclusions) > II. Specific Exclusions > 2. Co-payment, Page 15",
+        "explanation": "Insured persons over 80 years must pay 10% of each claim amount. This senior-age co-pay reduces insurer risk but increases your out-of-pocket costs."
+      },
+      {
+        "name": "Restore Benefit",
         "quote": "In the event of a claim being admitted under this Policy, the Sum Insured for the remaining Policy Period shall stand correspondingly reduced by the amount of claim paid (including ‘taxes’) or admitted and shall be reckoned accordingly.",
         "reference": "Section B > Specific Definitions > Def 6 Sum Insured, Page 9",
-        "explanation": "No restore/reinstatement mentioned. After a claim, available Sum Insured reduces for the remaining policy year."
+        "explanation": "Sum Insured reduces by the claim amount during the policy year with no restore benefit. This limits coverage after a claim until renewal."
       },
       {
-        "name": "Consumables / non-medical items not covered (out-of-pocket)",
+        "name": "Consumables",
         "quote": "Non-Medical expenses such as Food charges (other than patient’s diet provided by hospital), laundry charges, attendant charges, ambulance collar, ambulance equipment, baby food, baby utility charges etc. Full list of Non -Medical expenses is attached",
         "reference": "Section D > II. Specific Exclusions > 15, Page 15 and Annexure I (List of Non-Medical Expenses), Page 32 onwards",
-        "explanation": "Common consumables/non-medical items (e.g., gloves, masks, kits, etc. as per annexure) are not payable, increasing out-of-pocket costs."
+        "explanation": "Common consumables and non-medical items are excluded from coverage. This increases your out-of-pocket expenses during hospitalization."
       },
       {
-        "name": "Post-hospitalization cover: 60 days only",
+        "name": "Post-hospitalization Cover",
         "quote": "The Post Hospitalization Medical Expenses incurred in the 60 days immediately after You were discharged",
         "reference": "Section C > 3. Post Hospitalization Medical Expenses, Page 11",
-        "explanation": "Only 60 days post-hospitalization cover; many strong plans offer longer."
+        "explanation": "Only 60 days of post-hospitalization expenses are covered. Many plans offer longer periods for follow-up care."
       },
       {
-        "name": "No NCB / renewal bonus mentioned",
+        "name": "No NCB",
         "quote": "This policy wording (including endorsements, if any), and the Schedule",
         "reference": "Section B > Specific Definitions > Def 17 Policy, Page 10",
-        "explanation": "No No-Claim Bonus / cumulative bonus benefit is described in the provided wording extract. If absent, Sum Insured does not grow at renewal."
+        "explanation": "No No-Claim Bonus or renewal benefit is mentioned. This means your Sum Insured does not increase for claim-free years."
       },
       {
-        "name": "Domiciliary hospitalization not covered",
+        "name": "Domiciliary Hospitalization",
         "quote": "Domiciliary hospitalization expenses",
         "reference": "Section D > II. Specific Exclusions > 1, Page 15",
-        "explanation": "Home treatment (domiciliary hospitalization) is explicitly excluded."
+        "explanation": "Home-based treatment expenses are excluded. You must be hospitalized in a recognized facility for coverage."
       }
     ],
     "unclear": [
       {
-        "name": "Room rent limit / room category capping not specified",
+        "name": "Room Rent",
         "quote": "Room Rent means the amount charged by a Hospital towards Room and Boarding expenses and shall include the Associated Medical Expenses",
         "reference": "Section B > Standard Definitions > Def 42 Room Rent, Page 8",
-        "explanation": "The definition is provided but no explicit room rent eligibility (e.g., any room / single AC / capped amount) is stated in the provided extract. Verify the room category limit in the Policy Schedule/benefit table."
+        "explanation": "Room rent is defined but no specific room category or limit is stated. Check the Policy Schedule for applicable room rent limits."
       },
       {
-        "name": "Cashless network size not specified",
+        "name": "Cashless Network",
         "quote": "We may provide Cashless facility for Hospitalization expenses either directly or through the Third Party Administrator (TPA) if treatment is undergone at a  Network Hospital",
         "reference": "Section F > I. Claims Procedure > 2. Cashless Facility for Hospitalization, Page 24",
-        "explanation": "Cashless is available at network hospitals, but the number of network hospitals is not mentioned here. Verify current network size from insurer/website."
+        "explanation": "Cashless treatment is available at network hospitals, but the number of such hospitals is not specified. Confirm network size with the insurer."
       }
     ]
   },

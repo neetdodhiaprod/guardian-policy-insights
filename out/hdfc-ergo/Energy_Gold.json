@@ -2,87 +2,87 @@
   "policyName": "Energy Gold",
   "insurer": "HDFC ERGO General Insurance Company Limited",
   "sumInsured": "₹2L / ₹3L / ₹5L / ₹10L / ₹20L / ₹25L / ₹50L (Silver & Gold plans)",
-  "policyType": "Not specified",
+  "policyType": "Individual | Family Floater",
   "documentType": "Policy Wording",
   "summary": {
     "great": 3,
-    "good": 4,
-    "bad": 2,
-    "unclear": 2
+    "good": 3,
+    "bad": 4,
+    "unclear": 1
   },
   "features": {
     "great": [
       {
-        "name": "Restore Benefit (replenishes SI; usable for Section I benefits)",
+        "name": "Restore Benefit",
         "quote": "Instant addition of 100% Basic Sum Insured on complete or partial utilization of Your existing Policy Sum Insured and cumulative Bonus (if applicable) during the Policy Year.",
         "reference": "Section B > II. Other Benefits > 1. Restore benefit (Page 11)",
-        "explanation": "Adds an extra 100% of base Sum Insured in the same policy year after partial/complete usage of available SI (subject to once per year and single-claim cap mentioned in the policy)."
+        "explanation": "The policy replenishes your base Sum Insured by 100% once you use it up within the same policy year. This means you get full extra coverage during the year, improving your financial protection."
       },
       {
-        "name": "Cumulative Bonus / Renewal Bonus is non-claim based (does not reset on claims)",
+        "name": "NCB",
         "quote": "On Renewal of this Policy with the Company without a break, a sum equal to 10% of the Base Sum Insured of the expiring Policy shall be provided as Cumulative Bonus irrespective of any claims",
         "reference": "Section B > III. Renewal Benefits > 2. Cumulative Bonus (Page 16)",
-        "explanation": "Sum Insured increases by 10% of base SI every renewal even if you make claims—better than typical NCBs that reduce/reset after claims."
+        "explanation": "Your Sum Insured increases by 10% at each renewal even if you make claims, so your coverage grows without resetting. This means you keep gaining benefits despite claims."
       },
       {
-        "name": "PED Waiting Period (Pre-existing diseases) = 24 months",
+        "name": "PED Waiting Period",
         "quote": "Expenses related to the treatment of a pre-existing disease (PED) and its direct complications shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first policy with insurer.",
         "reference": "Section C > 1(ii) Pre-Existing Diseases: Code - Excl01 (Page 19)",
-        "explanation": "Pre-existing diseases are covered after 24 months continuous coverage, which is better than many policies offering 36 months."
+        "explanation": "Pre-existing diseases are excluded for 24 months from the start of coverage. This means you get earlier coverage for existing conditions compared to longer waiting periods."
       }
     ],
     "good": [
       {
-        "name": "Specific Illness / Procedure Waiting Period = 24 months",
+        "name": "Specific Illness",
         "quote": "Expenses related to the treatment of the listed Conditions, surgeries/treatments... shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first Policy with us.",
         "reference": "Section C > 1(i) Specified disease/procedure waiting period: Code - Excl02 (Page 16)",
-        "explanation": "24-month waiting for listed surgeries/conditions is standard in health insurance."
+        "explanation": "Listed surgeries and conditions are excluded for 24 months from policy start. After this period, these treatments are covered as normal."
       },
       {
-        "name": "Pre-hospitalization cover = 30 days",
+        "name": "Pre-hospitalization Cover",
         "quote": "Pre-Hospitalization Medical expenses... incurred upto 30 days before Hospitalisation.",
         "reference": "Section B > I. Hospitalisation Covers > 2. Pre-Hospitalization Medical expenses (Page 10)",
-        "explanation": "Covers eligible medical expenses for 30 days before admission (standard)."
+        "explanation": "Medical expenses up to 30 days before hospital admission are covered. This helps pay for tests and treatments before you are hospitalized."
       },
       {
-        "name": "Post-hospitalization cover = 60 days",
+        "name": "Post-hospitalization Cover",
         "quote": "Post-Hospitalization Medical expenses... incurred upto 60 days after discharge from Hospitalisation.",
         "reference": "Section B > I. Hospitalisation Covers > 3. Post-Hospitalization Medical expenses (Page 10)",
-        "explanation": "Covers eligible medical expenses for 60 days after discharge (standard)."
-      },
-      {
-        "name": "Optional co-pay (20%) if chosen in schedule",
-        "quote": "If opted and mentioned on the Policy Schedule that a Co-payment is effective... the insured person shall bear 20% of the eligible claim amount payable under the Policy",
-        "reference": "Section D > 2. Specific General Terms > 15. Co-Payment (Page 34)",
-        "explanation": "Co-pay applies only if you opt for it and it is shown in the policy schedule; otherwise it should not apply."
+        "explanation": "Medical expenses up to 60 days after hospital discharge are covered. This helps cover follow-up care and medicines after your hospital stay."
       }
     ],
     "bad": [
       {
-        "name": "Consumables / Non-medical expenses not covered (unless waived under Shared Accommodation Benefit in network shared room)",
-        "quote": "Non-Medical expenses such as Food charges (other than patient’s diet provided by hospital), laundry charges, attendant charges, ambulance collar, ambulance equipment, baby food, baby utility charges and other such items. Full list of Non-Medical expenses is attached",
-        "reference": "Section C > 3. Specific Exclusions > xii (Page 22) and Annexure I List of Non-Medical Expenses (Page 41)",
-        "explanation": "Consumables and many non-medical items are generally out-of-pocket. There is a limited waiver only if hospitalized in shared accommodation in a network hospital (as per Shared Accommodation Benefit)."
+        "name": "Co-pay",
+        "quote": "If opted and mentioned on the Policy Schedule that a Co-payment is effective... the insured person shall bear 20% of the eligible claim amount payable under the Policy",
+        "reference": "Section D > 2. Specific General Terms > 15. Co-Payment (Page 34)",
+        "explanation": "A 20% co-pay applies only if you choose it and it is shown in your policy schedule. Otherwise, you pay no co-pay, giving you flexibility."
       },
       {
-        "name": "Room rent limit not specified (may lead to unexpected room rent restrictions / proportionate deductions via schedule)",
+        "name": "Consumables",
+        "quote": "Non-Medical expenses such as Food charges (other than patient’s diet provided by hospital), laundry charges, attendant charges, ambulance collar, ambulance equipment, baby food, baby utility charges and other such items. Full list of Non-Medical expenses is attached",
+        "reference": "Section C > 3. Specific Exclusions > xii (Page 22) and Annexure I List of Non-Medical Expenses (Page 41)",
+        "explanation": "Many consumables and non-medical items are excluded except in limited cases. This means you may have to pay these costs yourself."
+      },
+      {
+        "name": "Room Rent",
         "quote": "In-Patient Treatment... includes: • Hospital room rent or boarding",
         "reference": "Section B > I. Hospitalisation Covers > 1. In-Patient Treatment (Page 9)",
-        "explanation": "The wording confirms room rent is covered but does not state the eligible room category/limit in the provided text. If room limits exist in the schedule, choosing a higher room could reduce payable expenses."
+        "explanation": "Room rent is covered but no specific room type or limit is stated, so claims may be reduced if you choose a higher room category. This can cause unexpected deductions."
+      },
+      {
+        "name": "Co-pay",
+        "quote": "If opted and mentioned on the Policy Schedule that a Co-payment is effective...",
+        "reference": "Section D > 2. Specific General Terms > 15. Co-Payment (Page 34)",
+        "explanation": "The policy includes a co-pay clause that applies if chosen and shown in the schedule. The presence of any co-pay clause is considered a negative factor as it means you may have to pay part of your claim."
       }
     ],
     "unclear": [
       {
-        "name": "Co-pay status by default (whether 0% or not applicable unless opted)",
-        "quote": "If opted and mentioned on the Policy Schedule that a Co-payment is effective...",
-        "reference": "Section D > 2. Specific General Terms > 15. Co-Payment (Page 34)",
-        "explanation": "The policy says co-pay applies only if opted and mentioned in the schedule, but the provided extract does not include an actual schedule showing whether co-pay is opted for your policy—confirm in your policy schedule."
-      },
-      {
-        "name": "Initial waiting period (first 30 days) not found in provided extract",
+        "name": "Initial Waiting Period",
         "quote": "All Illnesses and treatments shall be covered subject to the waiting periods specified below:",
         "reference": "Section C > 1. Standard Waiting Period (Page 16)",
-        "explanation": "This extract shows specific-illness and PED waiting periods, but does not explicitly mention an initial waiting period (e.g., 30 days for non-accident illnesses). Verify in the full policy wording / schedule."
+        "explanation": "The extract does not explicitly mention an initial waiting period like 30 days. You should verify the full policy wording or schedule for this important detail."
       }
     ]
   },

@@ -2,81 +2,81 @@
   "policyName": "ReAssure",
   "insurer": "Niva Bupa Health Insurance Company Limited",
   "sumInsured": "Base Sum Insured options: 3L, 4L, 5L, 7.5L, 10L, 12.5L, 15L, 20L, 25L, 50L, 75L, 100L (Individual/Family Floater); Total SI may include Booster Benefit and optional Safeguard/Safeguard+; plus ReAssure benefit",
-  "policyType": "Not specified",
+  "policyType": "Individual | Family Floater",
   "documentType": "Policy Wording",
   "summary": {
     "great": 2,
     "good": 5,
-    "bad": 1,
-    "unclear": 2
+    "bad": 2,
+    "unclear": 1
   },
   "features": {
     "great": [
       {
-        "name": "Restore Benefit (ReAssure) — unlimited reinstatement incl. same illness",
+        "name": "Restore Benefit",
         "quote": "ReAssure Unlimited reinstatement up to base Sum Insured. (Applicable for both same & different illness)",
         "reference": "Annexure I (Product Benefit Table) + Section 4.13 (ReAssure)",
-        "explanation": "After a claim, your Sum Insured can be replenished and used again in the same policy year, including for the same illness—this is best-in-class. (Wording also states per-claim under this benefit capped at Base Sum Insured.)"
+        "explanation": "You get unlimited reinstatements of your base Sum Insured for the same or different illnesses within the policy year. This means your coverage can be fully replenished multiple times, providing excellent protection for multiple claims."
       },
       {
-        "name": "Built-in Additional Sum Insured buffer (ReAssure) after base is exhausted",
+        "name": "Built-in SI Buffer",
         "quote": "The sequence of utilization of Sum Insured will be as below: i. Base Sum Insured ... iii. Accumulated Cumulative Bonus under Booster benefit (if any) followed by; iv. ReAssure benefit",
         "reference": "Section 4.13 (ReAssure)",
-        "explanation": "The policy provides an extra coverage layer (ReAssure) that becomes available after using Base SI (and other applicable layers), improving protection in multiple-claim years."
+        "explanation": "An additional Sum Insured layer called ReAssure activates after your base Sum Insured and bonuses are used up. This gives you extra financial protection during the policy year for multiple claims."
       }
     ],
     "good": [
       {
-        "name": "PED waiting period: 36 months",
+        "name": "PED Waiting Period",
         "quote": "Expenses related to the treatment of a Pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 36 months of continuous coverage after the date of inception of the first Policy .",
         "reference": "Section 6.1 (Pre-existing Diseases)",
-        "explanation": "Pre-existing diseases are covered after 3 years of continuous coverage, which is an industry-standard waiting period."
+        "explanation": "Pre-existing diseases are covered after 36 months of continuous coverage. This waiting period is standard in the market."
       },
       {
-        "name": "Specific illness/procedure waiting period: 24 months",
+        "name": "Specific Illness Waiting",
         "quote": "Expenses related to the treatment of the listed conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first Policy.",
         "reference": "Section 6.2 (Specified disease/procedure waiting period)",
-        "explanation": "2-year waiting period for listed diseases/procedures is standard."
+        "explanation": "Listed diseases and procedures are covered after 24 months of continuous coverage. This waiting period aligns with typical market standards."
       },
       {
-        "name": "Initial waiting period: 30 days (illness); accidents covered from day 1",
+        "name": "Initial Waiting Period",
         "quote": "Expenses related to the treatment of any Illness within 30 days from the first Policy commencement date shall be excluded except claims arising due to an Accident",
         "reference": "Section 6.3 (30-day waiting period)",
-        "explanation": "30-day initial waiting is standard across health insurance (accidents are covered immediately)."
+        "explanation": "Illnesses are not covered for the first 30 days except accidents, which are covered immediately. This is a common industry practice."
       },
       {
-        "name": "Pre-hospitalization cover: 60 days",
+        "name": "Pre-hospitalization Cover",
         "quote": "We will pay above mentioned Pre-hospitalization Medical Expenses only for period up to 60 days immediately preceding the Insured Person’s admission",
         "reference": "Section 4.6 (Pre-hospitalization Medical Expenses) - Sub-limit",
-        "explanation": "Covers eligible medical expenses for up to 60 days before hospitalization (standard-good)."
+        "explanation": "Medical expenses incurred up to 60 days before hospitalization are covered. This duration is considered good and standard."
       },
       {
-        "name": "Post-hospitalization cover: 180 days",
+        "name": "Post-hospitalization Cover",
         "quote": "We will pay Post-hospitalization Medical Expenses only for up to 180 days immediately following the Insured Person’s discharge",
         "reference": "Section 4.7 (Post-hospitalization Medical Expenses) - Sub-limit",
-        "explanation": "Covers eligible medical expenses for up to 180 days after discharge (upper end of standard coverage)."
+        "explanation": "Medical expenses up to 180 days after discharge are covered, which is at the higher end of standard coverage periods."
       }
     ],
     "bad": [
       {
-        "name": "Consumables not covered (explicit non-payables list includes key consumables like gloves, mask, nebulisation kit etc.)",
+        "name": "Consumables",
         "quote": "Annexure II - The expenses that are not covered or subsumed into room charges / procedure charges / costs of treatment\nList  I – Expenses not covered ... 56 GLOVES ... 60 MASK ... 57 NEBULISATION KIT ...",
         "reference": "Annexure II (List I – Expenses not covered)",
-        "explanation": "Common consumables (e.g., gloves, masks, kits) can become out-of-pocket, which increases your hospital bill beyond what the policy reimburses."
+        "explanation": "Common consumables like gloves, masks, and nebulisation kits are excluded from coverage. This means you may have to pay for these items out-of-pocket during hospitalization."
+      },
+      {
+        "name": "Co-pay",
+        "quote": "Co-payment (if applicable) as specified in the Policy Schedule shall be applicable on the amount payable by Us.",
+        "reference": "Section 7.4(d)(iii) (Claims Assessment)",
+        "explanation": "Co-pay may apply as per the Policy Schedule, but the exact percentage or conditions are not stated here. Verify your Policy Schedule to know if and when co-pay applies."
       }
     ],
     "unclear": [
       {
-        "name": "Room rent limit (eligible room category) not stated in the provided text",
+        "name": "Room Rent",
         "quote": "Room Rent means the amount charged by a Hospital towards Room and Boarding expenses and shall include the associated medical expenses.",
         "reference": "Section 3.1.41 (Room Rent) + Annexure I (Inpatient Care: 'Covered up to Sum Insured')",
-        "explanation": "The document excerpt does not specify the default eligible room category/limit (e.g., 'Any room' vs 'Single Private AC'). Since proportionate deductions depend on the room eligibility stated in the Policy Schedule, confirm your room entitlement in the Policy Schedule."
-      },
-      {
-        "name": "Co-pay terms not explicitly stated (schedule-driven)",
-        "quote": "Co-payment (if applicable) as specified in the Policy Schedule shall be applicable on the amount payable by Us.",
-        "reference": "Section 7.4(d)(iii) (Claims Assessment)",
-        "explanation": "The wording indicates co-pay may apply based on the Policy Schedule, but the actual percentage/trigger isn’t in the provided text. Verify in your Policy Schedule whether co-pay is 0% or applicable (and when)."
+        "explanation": "The policy does not specify the eligible room category or any limit on room rent. You should check your Policy Schedule to confirm your room entitlement and avoid unexpected deductions."
       }
     ]
   },

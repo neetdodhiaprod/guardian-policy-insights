@@ -11,6 +11,7 @@ import AdminVariantEditor from "./pages/admin/AdminVariantEditor";
 import FeaturesExplorer from "./pages/FeaturesExplorer";
 import GradedExplorer from "./pages/GradedExplorer";
 import OutBrowser from "./pages/OutBrowser";
+import PoliciesBrowser from "./pages/PoliciesBrowser";
 
 const queryClient = new QueryClient();
 
@@ -25,6 +26,7 @@ const App = () => (
           <Route path="/features" element={<FeaturesExplorer />} />
           <Route path="/graded" element={<GradedExplorer />} />
           <Route path="/out" element={<OutBrowser />} />
+          <Route path="/policies" element={<PoliciesBrowser />} />
           <Route path="/admin/login" element={<AdminLogin />} />
           <Route path="/admin" element={<AdminDashboard />} />
           <Route path="/admin/variants/:planVariantId" element={<AdminVariantEditor />} />

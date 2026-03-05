@@ -13,82 +13,82 @@
   "features": {
     "great": [
       {
-        "name": "PED waiting period (12 months)",
+        "name": "PED Waiting",
         "quote": "Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 12 months of continuous coverage after the date of inception of the ﬁrst policy with insurer",
         "reference": "Section 3 EXCLUSIONS > 1. Pre-Existing Diseases - Code Excl 01",
-        "explanation": "Pre-existing diseases are covered after 12 months of continuous coverage, which is better than many policies."
+        "explanation": "Pre-existing diseases are excluded only for the first 12 months of coverage. After that, treatment for these conditions is covered, which is better than many policies with longer waiting periods."
       },
       {
-        "name": "AYUSH inpatient hospitalization covered up to Sum Insured",
+        "name": "AYUSH Treatment",
         "quote": "AYUSH Treatment: Medical expenses for Inpatient Hospitalization incurred on treatment under Ayurveda, Unani, Sidha and Homeopathy systems of medicines in a AYUSH Hospital is payable up to the sum insured.",
         "reference": "Section 2 COVERAGE, item L",
-        "explanation": "Covers AYUSH inpatient hospitalization expenses up to the base Sum Insured (Yoga/Naturopathy needs prior approval as per note)."
+        "explanation": "Inpatient hospitalization under AYUSH systems is covered up to the full Sum Insured. This means you can claim AYUSH treatment costs without a separate limit."
       }
     ],
     "good": [
       {
-        "name": "Initial waiting period (30 days; accidents covered immediately)",
+        "name": "Initial Waiting",
         "quote": "Expenses related to the treatment of any illness within 30 days from the ﬁrst policy commencement date shall be excluded except claims arising due to an accident",
         "reference": "Section 3 EXCLUSIONS > 3. 30-day waiting period - Code Excl 03",
-        "explanation": "Standard 30-day initial waiting for illnesses; accident claims are not subject to this waiting."
+        "explanation": "Illnesses are excluded for the first 30 days except accidents, which are covered immediately. This is a standard waiting period in the market."
       },
       {
-        "name": "Specified disease/procedure waiting period (24 months)",
+        "name": "Specific Illness Waiting",
         "quote": "Expenses related to the treatment of following listed Conditions, surgeries/ treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the ﬁrst policy with us.",
         "reference": "Section 3 EXCLUSIONS > 2. Speciﬁed disease / procedure waiting period - Code Excl 02",
-        "explanation": "Standard 24-month waiting for listed specific diseases/procedures."
+        "explanation": "Certain listed diseases and procedures are excluded for 24 months from policy start. This is a common waiting period for specified conditions."
       },
       {
-        "name": "Pre-hospitalization cover (30 days)",
+        "name": "Pre-hospitalization Cover",
         "quote": "Pre-hospitalisation medical expenses incurred for a period not exceeding 30 days prior to the date of hospitalisation",
         "reference": "Section 2 COVERAGE, item F",
-        "explanation": "Covers eligible medical expenses for 30 days before hospitalization for the same condition."
+        "explanation": "Medical expenses up to 30 days before hospitalization are covered for the same condition. This helps cover diagnostic and treatment costs leading to admission."
       },
       {
-        "name": "Day care procedures covered",
+        "name": "Day Care Cover",
         "quote": "All day care procedures are covered under this policy",
         "reference": "Section 2 COVERAGE > Important Note (1)",
-        "explanation": "Day care treatments are covered even without 24-hour hospitalization."
+        "explanation": "Treatments that do not require 24-hour hospitalization are covered. This allows claims for many minor procedures without full admission."
       }
     ],
     "bad": [
       {
-        "name": "Room rent limit / capping (daily caps by Sum Insured)",
+        "name": "Room Rent",
         "quote": "Sum Insured Room Rent Limit (per day)\nRs.1,00,000/- to Rs.5,00,000/- Up to 1% of the sum insured.\nRs.7,50,000/- and Rs.10,00,000/- Up to Rs.6,000/-\nRs.15,00,000/- Up to Rs.7,000/-\nRs.20,00,000/- Up to Rs.8,500/-\nRs.25,00,000/- Up to Rs.10,000/-",
         "reference": "Section 2 COVERAGE, item A",
-        "explanation": "Room rent is capped (percentage or fixed ₹ limit). This can restrict hospital choice and can trigger proportionate deductions."
+        "explanation": "Room rent is capped either as a percentage of Sum Insured or fixed daily limits. This restricts hospital room choices and can reduce claim amounts."
       },
       {
-        "name": "Proportionate deduction linked to room rent eligibility",
+        "name": "Proportionate Deduction",
         "quote": "If Policy Holder chooses a higher room category above the eligibility deﬁned in policy, then proportionate deduction will apply on the Associated Medical Expenses in addition to the difference in room rent.",
         "reference": "Section 1 DEFINITIONS > SPECIFIC DEFINITIONS > Associated medical expenses",
-        "explanation": "If you take a room above eligibility, the insurer can proportionately reduce associated medical expenses (not just charge room rent difference)."
+        "explanation": "Choosing a room above the allowed category causes proportional reduction in related medical expenses claims. This reduces your effective coverage."
       },
       {
-        "name": "Mandatory co-payment (30% on all claims)",
+        "name": "Co-pay",
         "quote": "Co-payment: This policy is subject to co-payment of 30% for all claims.",
         "reference": "Section 2 COVERAGE, item M",
-        "explanation": "You must pay 30% of every admissible claim amount, which significantly reduces effective coverage."
+        "explanation": "You must pay 30% of every claim amount yourself, which significantly lowers the insurer’s payout and your net coverage."
       },
       {
-        "name": "Disease-wise / condition-wise sub-limits (major conditions) per policy period",
+        "name": "Disease Sub-limits",
         "quote": "The expenses payable during the entire policy period for treatment of the following diseases / conditions ... is limited to the amount mentioned in table below;",
         "reference": "Section 2 COVERAGE, item J",
-        "explanation": "Imposes sub-limits for specific diseases/conditions (e.g., cataract, cardio/cerebrovascular, cancer, renal diseases, fractures, major surgeries), which can be much lower than the Sum Insured."
+        "explanation": "Specific diseases have capped claim limits that are often much lower than the Sum Insured. This restricts coverage for costly illnesses."
       },
       {
-        "name": "Modern treatments covered but with low sub-limits",
+        "name": "Modern Treatments",
         "quote": "Coverage for Modern Treatments: The expenses payable during the entire policy period for the following treatment / procedure ... is limited to the amount mentioned in table below;",
         "reference": "Section 2 COVERAGE, item K",
-        "explanation": "Modern treatments are not covered at actuals; they are restricted to sub-limits, which may be insufficient for high-cost procedures."
+        "explanation": "Modern treatments are covered but only up to sub-limits, which may be insufficient for expensive procedures."
       }
     ],
     "unclear": [
       {
-        "name": "No Claim Bonus / renewal bonus (not found in provided pages)",
+        "name": "No Claim Bonus",
         "quote": "Not mentioned in the provided extract/pages.",
         "reference": "Provided pages 1-10 (extract shared)",
-        "explanation": "NCB/renewal bonus terms are not visible in the shared pages. Verify if any cumulative bonus/additional sum insured is offered and whether it resets on a claim."
+        "explanation": "No information on No Claim Bonus or renewal benefits is available in the shared pages. Check full policy for details on bonus or sum insured increases."
       }
     ]
   },

@@ -2,81 +2,81 @@
   "policyName": "Easy Health Exclusive",
   "insurer": "HDFC ERGO General Insurance Company Limited",
   "sumInsured": "Individual: 1L to 50L (by variant). Family Floater: 2L to 50L (by variant).",
-  "policyType": "Not specified",
+  "policyType": "Individual | Family Floater",
   "documentType": "Policy Wording",
   "summary": {
     "great": 1,
     "good": 5,
-    "bad": 2,
-    "unclear": 2
+    "bad": 3,
+    "unclear": 1
   },
   "features": {
     "great": [
       {
-        "name": "NCB / Renewal Bonus (non-resetting): 10% each year irrespective of claims (up to 100%)",
+        "name": "NCB",
         "quote": "“On Renewal of this Policy with the Company without a break, a sum equal to 10% of the Base Sum Insured of the expiring Policy shall be provided as multiplier benefit irrespective of any claims... The maximum multiplier bonus will not exceed 100% of the Basic Sum Insured in any Policy Year.”",
         "reference": "Section B, 5.1 Cumulative Bonus (pages 16, 43)",
-        "explanation": "This is strong because the bonus accrues even if you make claims (unlike typical NCB that reduces/resets after claims)."
+        "explanation": "You receive a 10% sum insured bonus on each renewal even if you make claims, up to a maximum of 100%. This means your sum insured can double over time without resetting due to claims."
       }
     ],
     "good": [
       {
-        "name": "Initial waiting period: 30 days",
+        "name": "Initial Waiting",
         "quote": "“30-day waiting period... Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident”",
         "reference": "Section C.1.i (page 19)",
-        "explanation": "Standard industry waiting period for non-accidental illnesses in the first 30 days."
+        "explanation": "Illnesses are not covered for the first 30 days except accidents. This is the standard waiting period in the industry."
       },
       {
-        "name": "Specific illness / procedure waiting period: 24 months",
+        "name": "Specific Illness Waiting",
         "quote": "“Specified disease/procedure waiting period... excluded until the expiry of 24 months of continuous coverage after the date of inception of the first policy with us.”",
         "reference": "Section C.1.ii (page 19)",
-        "explanation": "Standard 2-year waiting for listed conditions/procedures."
+        "explanation": "Certain diseases and procedures are excluded for 24 months from policy start. This is a typical 2-year waiting for specific conditions."
       },
       {
-        "name": "PED waiting period: 36 months",
+        "name": "PED Waiting",
         "quote": "“Expenses related to the treatment of a pre-existing disease (PED) and its direct complications shall be excluded until the expiry of 36 months of continuous coverage after the date of inception of the first policy with insurer.”",
         "reference": "Section C.1.iii (page 22)",
-        "explanation": "3 years is within normal market range for many policies (not a red flag)."
+        "explanation": "Pre-existing diseases are excluded for 36 months from the first policy start. This 3-year waiting is common and not a red flag."
       },
       {
-        "name": "Pre-hospitalization cover: up to 60 days",
+        "name": "Pre-hospitalization",
         "quote": "“Pre-Hospitalization Medical Expenses... incurred upto 60 days before the date of admission to the Hospital”",
         "reference": "Section B, 1(b) (page 11)",
-        "explanation": "Covers diagnostic/consultation/medicines related to the same hospitalization up to 60 days prior."
+        "explanation": "Medical expenses up to 60 days before hospital admission are covered if related to the hospitalization. This provides good pre-admission support."
       },
       {
-        "name": "Post-hospitalization cover: up to 90 days",
+        "name": "Post-hospitalization",
         "quote": "“Post-Hospitalization Medical Expenses... incurred upto 90 days after discharge from Hospitalisation”",
         "reference": "Section B, 1(c) (page 11)",
-        "explanation": "Covers follow-up expenses for 90 days post discharge (within standard range)."
+        "explanation": "Follow-up medical expenses up to 90 days after discharge are covered. This is within the standard range for post-hospital care."
       }
     ],
     "bad": [
       {
-        "name": "No restore benefit (sum insured is NOT replenished after a claim)",
+        "name": "Restore Benefit",
         "quote": "No clause found in provided wording for restoration/reinstatement/reload of Sum Insured after a claim.",
         "reference": "Not mentioned in the provided sections",
-        "explanation": "If you exhaust the base sum insured in a year, the policy (as per this wording extract) does not state any automatic refill for subsequent claims in the same year."
+        "explanation": "The policy does not replenish your sum insured after a claim, so once your limit is used up, further claims in the same year are not covered."
       },
       {
-        "name": "Consumables not covered (listed non-payables like gloves, masks, kits etc.)",
+        "name": "Consumables",
         "quote": "“Annexure I - List I - Items for which coverage is not available in the policy” (includes) “GLOVES”, “MASK”, “NEBULISATION KIT”, “ANY KIT WITH NO DETAILS MENTIONED [DELIVERY KIT, ORTHOKIT, RECOVERY KIT, ETC]”",
         "reference": "Annexure I, List I (pages 44-45)",
-        "explanation": "Many common hospital consumables are payable by you, increasing out-of-pocket costs even for cashless claims."
+        "explanation": "Common hospital consumables like gloves and masks are excluded, meaning you must pay for these out-of-pocket even during hospitalization."
+      },
+      {
+        "name": "Co-pay",
+        "quote": "“Co-payment means a cost-sharing requirement... the policyholder/insured will bear a specified percentage of the admissible claim amount.”",
+        "reference": "Definitions, Def. 8 Co-payment (page 2)",
+        "explanation": "Co-pay is mentioned but the policy does not state if or when it applies or the percentage. You need to verify the exact co-pay details in your policy schedule."
       }
     ],
     "unclear": [
       {
-        "name": "Room rent limit / room category eligibility",
+        "name": "Room Rent",
         "quote": "“Room Rent means the amount charged by a hospital towards room and boarding expenses and shall include associated medical expenses.”",
         "reference": "Definitions, Def. 42 Room Rent (page 8)",
-        "explanation": "The extract does not specify the allowed room type/limit (Any room / Single AC / shared / etc.). Check your policy schedule/plan variant terms for room eligibility because it can affect claim deductions."
-      },
-      {
-        "name": "Co-pay (co-payment) applicability",
-        "quote": "“Co-payment means a cost-sharing requirement... the policyholder/insured will bear a specified percentage of the admissible claim amount.”",
-        "reference": "Definitions, Def. 8 Co-payment (page 2)",
-        "explanation": "Co-pay is defined but the extract does not confirm whether it applies, and if yes, the percentage/age triggers. Verify in schedule/endorsements."
+        "explanation": "The policy defines room rent but does not specify allowed room types or limits. Check your policy schedule to know if any room rent caps or restrictions apply."
       }
     ]
   },

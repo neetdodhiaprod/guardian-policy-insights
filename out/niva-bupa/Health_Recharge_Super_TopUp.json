@@ -2,122 +2,128 @@
   "policyName": "Health Recharge Super Top-Up",
   "insurer": "Niva Bupa Health Insurance Company Limited",
   "sumInsured": "Base Sum Insured options mentioned: 2L; 3L/4L; 5L/7.5L/10L/15L/25L/40L/45L/65L/70L/90L/95L (Policy Schedule will specify actual SI). Deductible is mandatory as per Policy Schedule.",
-  "policyType": "Not specified",
+  "policyType": "Top-up",
   "documentType": "Policy Wording",
   "summary": {
     "great": 0,
     "good": 7,
-    "bad": 8,
-    "unclear": 2
+    "bad": 10,
+    "unclear": 1
   },
   "features": {
     "great": [],
     "good": [
       {
-        "name": "Initial waiting period: 30 days (standard)",
+        "name": "Initial Waiting",
         "quote": "30-day waiting period (Code- Excl03): a. Expenses related to the treatment of any Illness within 30 days from the first Policy commencement date shall be excluded except claims arising due to an Accident, provided the same are covered.",
         "reference": "Section 6.1 III",
-        "explanation": "Non-accident illnesses are not covered in the first 30 days; accidents are covered from day 1."
+        "explanation": "Illnesses are excluded for the first 30 days except accidents, which are covered immediately. This means you can claim for accidents from day one but must wait 30 days for illness coverage."
       },
       {
-        "name": "PED waiting period: 36 months (good as per rules)",
+        "name": "PED Waiting",
         "quote": "Expenses related to the treatment of a Pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 36 months of continuous coverage after the date of inception of the first Policy.",
         "reference": "Section 6.1 I (a)",
-        "explanation": "Pre-existing diseases are covered after 36 months of continuous coverage (3 years is acceptable as per your benchmarks)."
+        "explanation": "Pre-existing diseases are excluded for 36 months from policy start. You must maintain continuous coverage for 3 years before these conditions are covered."
       },
       {
-        "name": "Specific disease/procedure waiting period: 24 months (standard)",
+        "name": "Specific Illness Waiting",
         "quote": "Expenses related to the treatment of the listed conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first Policy with us.",
         "reference": "Section 6.1 II (a)",
-        "explanation": "Listed specific conditions (e.g., cataract, hernia, etc.) are covered after 24 months."
+        "explanation": "Certain listed illnesses and procedures are excluded for 24 months from policy start. After 2 years of continuous coverage, these conditions become eligible for claims."
       },
       {
-        "name": "Pre-hospitalization cover: 60 days",
+        "name": "Pre-hospitalization Cover",
         "quote": "We will pay above mentioned Pre-hospitalization Medical Expenses only for period up to 60 days immediately preceding the Insured Person’s admission",
         "reference": "Section 3.2, Sub-limit (a)",
-        "explanation": "Covers eligible medical expenses incurred up to 60 days before hospitalization (reimbursement basis)."
+        "explanation": "Medical expenses incurred up to 60 days before hospitalization are covered. This helps cover diagnostic tests and treatments leading to hospital admission."
       },
       {
-        "name": "Post-hospitalization cover: 90 days",
+        "name": "Post-hospitalization Cover",
         "quote": "We will pay Post-hospitalization Medical Expenses only for up to 90 days immediately following the Insured Person’s discharge",
         "reference": "Section 3.3, Sub-limit (a)",
-        "explanation": "Covers eligible medical expenses up to 90 days after discharge (reimbursement basis)."
+        "explanation": "Medical expenses up to 90 days after discharge are covered. This supports recovery costs after hospital treatment."
       },
       {
-        "name": "Domiciliary hospitalization covered",
+        "name": "Domiciliary Hospitalization",
         "quote": "We will indemnify on Reimbursement basis only, the Medical Expenses incurred for the Insured Person’s Domiciliary Hospitalization during the Policy Period",
         "reference": "Section 3.5",
-        "explanation": "Home treatment can be covered when medically necessary and meets conditions (e.g., at least 3 consecutive days and inability to move/bed unavailability)."
+        "explanation": "Home-based treatment is covered if medically necessary and meets criteria like minimum 3 days and inability to move. This provides flexibility for non-hospital care."
       },
       {
-        "name": "NCB/Renewal bonus (Cumulative Bonus) available: 5% per year up to 50% (resets not mentioned in the provided text)",
+        "name": "No Claim Bonus",
         "quote": "We will provide Loyalty Additions in the form of Cumulative Bonus by increasing the Sum Insured applicable under the Policy by 5% of the Base Sum Insured of the immediately preceding Policy Year subject to a maximum of 50% of the Base Sum Insured.",
         "reference": "Section 3.11 (Loyalty Additions)",
-        "explanation": "Sum Insured can grow on renewal (5% per year up to 50%) subject to conditions (e.g., applicable only for Base SI up to ₹25 lakh). The wording shared does not explicitly state whether it resets on claim—confirm from schedule/insurer."
+        "explanation": "Sum Insured increases by 5% each claim-free year up to 50%. This rewards claim-free renewals with higher coverage."
       }
     ],
     "bad": [
       {
-        "name": "Room rent has a % cap (can trigger proportionate deductions)",
+        "name": "Room Rent",
         "quote": "Room Rent (per day) Up to 1% of Base Sum Insured per day",
         "reference": "Annexure I (Product Benefit Table) – Room Rent (per day)",
-        "explanation": "A room rent cap can restrict room choice and may lead to reduced claim settlement if a higher room is chosen."
+        "explanation": "Room rent is capped at 1% of Base Sum Insured per day, limiting room choice and possibly causing out-of-pocket expenses if a higher category is chosen."
       },
       {
-        "name": "Proportionate deduction applicable if higher room category is used",
+        "name": "Proportionate Deduction",
         "quote": "If the Insured Person is admitted in a Hospital room where the room category opted or Room Rent incurred is higher than the eligibility as specified in the Policy Schedule, then We shall be liable to pay only a pro-rated portion of the total Associated Medical Expenses... (Eligible Room Rent limit / Room Rent actually incurred) * total Associated Medical Expenses",
         "reference": "Section 3.1 (Inpatient Care), Condition (b)",
-        "explanation": "If you choose a room above eligibility, the insurer can proportionately reduce associated expenses (doctor fees, OT, nursing etc.), increasing out-of-pocket cost."
+        "explanation": "Choosing a room above the eligible category causes proportional reduction in claim payments for related expenses, increasing your out-of-pocket costs."
       },
       {
-        "name": "No restore benefit: Sum Insured is NOT replenished after a claim",
+        "name": "Restore Benefit",
         "quote": "Thereafter only the balance Sum Insured after payment of claim amounts admitted shall be available for future claims arising in that Policy Year.",
         "reference": "Section 3 (Benefits covered), clause (d)",
-        "explanation": "This wording indicates the Sum Insured reduces with claims and only the remaining balance is available; no restore/recharge of SI is described in the provided text."
+        "explanation": "Sum Insured reduces after each claim with no restore or recharge, limiting coverage for multiple claims in the same policy year."
       },
       {
-        "name": "Consumables not covered (Annexure III lists many common consumables as not payable/subsumed)",
+        "name": "Consumables",
         "quote": "ANNEXURE III  The expenses that are not covered or subsumed into room charges / procedure charges / costs of treatment\nList  I – Expenses not covered\n... 56 GLOVES ... 60 MASK ... 57 NEBULISATION KIT ... 58 ANY KIT WITH NO DETAILS MENTIONED [DELIVERY KIT, ORTHOKIT, RECOVERY KIT, ETC]",
         "reference": "Annexure III (List I – Expenses not covered; also Lists II–IV)",
-        "explanation": "Many common hospital consumables/items may be non-payable or forced to be included under package heads; this can increase out-of-pocket expenses depending on hospital billing."
+        "explanation": "Many common hospital consumables like gloves and masks are excluded or subsumed, potentially increasing your out-of-pocket expenses."
       },
       {
-        "name": "Modern treatments have sub-limits (not at actuals up to SI)",
+        "name": "Modern Treatments",
         "quote": "The following procedures / treatments shall be covered only up to the sub-limit as specified for each procedure / treatment in the below table: ... Robotic surgeries 2.5 Lac ... Stereotactic radio surgeries 3.5 Lac ...",
         "reference": "Section 3.15 (Modern Treatments), Sub-limit (a)",
-        "explanation": "Even if your Sum Insured is high, payouts for listed modern procedures are capped at defined amounts."
+        "explanation": "Coverage for advanced treatments like robotic surgery is capped at specified amounts, which may be insufficient for actual costs."
       },
       {
-        "name": "Mandatory annual aggregate deductible (super top-up style structure)",
+        "name": "Deductible",
         "quote": "You have to mandatorily choose an annual aggregate claim Deductible amount, options of these Deductible amounts are provided in the section ‘Product Benefit Table’.",
         "reference": "Section 3 (Benefits covered), clause (a)",
-        "explanation": "This is a deductible-based plan: the insurer starts paying only after you first pay claims up to the chosen deductible in a policy year. This can significantly increase out-of-pocket for smaller/medium claims."
+        "explanation": "You must pay initial claims up to the chosen deductible each year before insurer pays, increasing your out-of-pocket expenses especially for smaller claims."
       },
       {
-        "name": "Ambulance benefit has a low cap",
+        "name": "Ambulance",
         "quote": "Emergency Ambulance Up to Rs.1,500 per hospitalization",
         "reference": "Annexure I (Product Benefit Table) – Emergency Ambulance",
-        "explanation": "₹1,500 per hospitalization is typically insufficient in many cities, leading to extra out-of-pocket."
+        "explanation": "Ambulance coverage is limited to ₹1,500 per hospitalization, which may not cover actual ambulance costs in many locations."
       },
       {
-        "name": "Mental illness sub-limit for some conditions (disease sub-limit)",
+        "name": "Mental Health Coverage",
         "quote": "The following disorders / conditions shall be covered only up to 10% of Base Sum Insured or Rs. 50,000, whichever is lower.",
         "reference": "Section 3.12 (Mental Disorders Treatment), Sub-limit (a)",
-        "explanation": "For listed mental health conditions (e.g., severe depression, schizophrenia, bipolar disorder), payouts are capped, which can restrict coverage if treatment costs are higher."
+        "explanation": "Certain mental health conditions have coverage capped at 10% of Sum Insured or ₹50,000, limiting financial support for treatment."
+      },
+      {
+        "name": "Co-pay",
+        "quote": "The following claim cost sharing options shall apply under the Policy if specified in the Policy Schedule and shall apply to all Insured Persons.",
+        "reference": "Section 5 (Claim Cost Sharing)",
+        "explanation": "The policy mentions co-payment options that may apply depending on the Policy Schedule. Any co-pay increases your out-of-pocket costs and is considered a negative feature."
+      },
+      {
+        "name": "Co-pay",
+        "quote": "The following claim cost sharing options shall apply under the Policy if specified in the Policy Schedule and shall apply to all Insured Persons.",
+        "reference": "Section 5 (Claim Cost Sharing)",
+        "explanation": "Co-payment terms are not clearly stated in the document and depend on the Policy Schedule. Confirm from your schedule if any co-pay applies."
       }
     ],
     "unclear": [
       {
-        "name": "Co-pay terms not explicitly stated (verify policy schedule / product benefit table for any co-payment option)",
-        "quote": "The following claim cost sharing options shall apply under the Policy if specified in the Policy Schedule and shall apply to all Insured Persons.",
-        "reference": "Section 5 (Claim Cost Sharing)",
-        "explanation": "The document defines co-payment but does not clearly state a default co-pay % (if any). Confirm from Policy Schedule whether any co-payment applies."
-      },
-      {
-        "name": "NCB/Loyalty Additions: whether it resets on claim is not stated in the shared wording",
+        "name": "NCB Reset",
         "quote": "We will provide Loyalty Additions in the form of Cumulative Bonus by increasing the Sum Insured... by 5%... subject to a maximum of 50%...",
         "reference": "Section 3.11 (Loyalty Additions)",
-        "explanation": "The bonus accrual is clear, but the text provided does not specify what happens to accumulated bonus after a claim (whether it reduces/resets). Confirm from schedule/insurer."
+        "explanation": "The policy mentions cumulative bonus but does not clarify if it resets or reduces after a claim. Check your policy schedule for details."
       }
     ]
   },

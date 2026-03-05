@@ -2,107 +2,106 @@
   "policyName": "Young Star",
   "insurer": "Star Health and Allied Insurance Company Limited",
   "sumInsured": "Not specified in provided pages (examples shown: ₹3L, ₹5L, ₹10L, ₹15L+; also illustrations up to ₹1 Cr/₹50L/₹25L)",
-  "policyType": "Not specified",
+  "policyType": "Individual | Family Floater",
   "documentType": "Policy Wording",
   "summary": {
     "great": 3,
     "good": 6,
-    "bad": 4,
-    "unclear": 1
+    "bad": 5,
+    "unclear": 0
   },
   "features": {
     "great": [
       {
-        "name": "Pre-existing disease (PED) waiting period: 12 months",
+        "name": "PED Waiting Period",
         "quote": "Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 12 months of continuous coverage after the date of inception of the ﬁrst policy with insurer",
         "reference": "IV. EXCLUSIONS > 1. Pre-Existing Diseases - Code Excl 01 (Page 6)",
-        "explanation": "PED coverage starts after 12 months of continuous cover, which is better than the common 24-48 months."
+        "explanation": "Pre-existing diseases are excluded only for the first 12 months of continuous coverage. This means you get coverage for pre-existing conditions after just one year, which is better than the usual 2-4 years."
       },
       {
-        "name": "Specified disease/procedure waiting period: 12 months",
+        "name": "Specific Illness Waiting",
         "quote": "Expenses related to the treatment of the following listed Conditions, surgeries/ treatments shall be excluded until the expiry of 12 months of continuous coverage after the date of inception of the ﬁrst policy with us.",
         "reference": "IV. EXCLUSIONS > 2. Speciﬁed disease / procedure waiting period - Code Excl 02 (Page 6)",
-        "explanation": "Listed specific diseases/procedures are covered after 12 months, which is better than the standard 24 months."
+        "explanation": "Specified illnesses and procedures are excluded only for 12 months from policy start. This shorter waiting period means you can claim for these conditions sooner than the standard 24 months."
       },
       {
-        "name": "Built-in Additional Sum Insured buffer for Road Traffic Accident (after base is exhausted)",
+        "name": "Built-in SI Buffer",
         "quote": "Additional Basic Sum Insured for Road Trafﬁc Accident (RTA)... The additional Basic Sum Insured shall be available after exhaustion of the limit of coverage",
         "reference": "II. COVERAGE (Applicable for both Silver and Gold Plan) > L. Additional Basic Sum Insured for Road Trafﬁc Accident (RTA) (Page 3)",
-        "explanation": "Provides extra Sum Insured that activates after the base limit is exhausted (for eligible RTA hospitalization)."
+        "explanation": "An extra sum insured is provided specifically for road traffic accidents after your base sum insured is used up. This gives you additional financial protection for accident-related hospitalizations."
       }
     ],
     "good": [
       {
-        "name": "Room rent limit: Single Private A/C Room",
+        "name": "Room Rent",
         "quote": "A. Room (Single Private A/C room), Boarding and Nursing Expenses as provided by the Hospital",
         "reference": "II. COVERAGE - (Applicable for both Silver and Gold Plan) (Page 2)",
-        "explanation": "Single Private AC room is industry-standard. Note: if you choose a higher category than eligible, proportionate deductions can apply."
+        "explanation": "Room rent is limited to a Single Private AC room, which is the industry standard for good coverage. This means you can stay in a private AC room without extra capping."
       },
       {
-        "name": "Initial waiting period: 30 days (illness)",
+        "name": "Initial Waiting Period",
         "quote": "Expenses related to the treatment of any illness within 30 days from the ﬁrst policy commencement date shall be excluded except claims arising due to an accident",
         "reference": "IV. EXCLUSIONS > 3. 30-day waiting period - Code Excl 03 (Page 6)",
-        "explanation": "Standard 30-day initial waiting for illness; accidents are covered from day 1 as per policy terms."
+        "explanation": "Illnesses are excluded for the first 30 days except for accidents which are covered immediately. This is a standard waiting period in the market."
       },
       {
-        "name": "Restore benefit: 100% restoration once; usable for all claims (but not for Modern Treatment)",
+        "name": "Restore Benefit",
         "quote": "Automatic Restoration of Basic Sum Insured: There shall be automatic restoration of the Basic Sum Insured once by 100%... Such Restored basic sum insured can be utilized for all claims during the policy period... This Beneﬁt is not available for Modern Treatment",
         "reference": "II. COVERAGE > J. Automatic Restoration of Basic Sum Insured (Page 3)",
-        "explanation": "Restores 100% of base sum insured once after partial/full utilization and can be used for all claims in the year, but it is not available for Modern Treatments."
+        "explanation": "The base sum insured is restored 100% once during the policy year for all claims except modern treatments. This helps you get extra coverage if you make a claim."
       },
       {
-        "name": "Pre-hospitalization cover: 60 days",
+        "name": "Pre-hospitalization Cover",
         "quote": "Pre-hospitalization Expenses: Medical expenses incurred up to 60 days immediately before the insured person is hospitalized",
         "reference": "II. COVERAGE > E. Pre-hospitalization Expenses (Page 3)",
-        "explanation": "Covers eligible medical expenses for 60 days before hospitalization (standard-good range)."
+        "explanation": "Medical expenses up to 60 days before hospitalization are covered. This is within the good market standard and helps cover related costs before admission."
       },
       {
-        "name": "Post-hospitalization cover: 90 days",
+        "name": "Post-hospitalization Cover",
         "quote": "Post Hospitalization Expenses: Medical expenses incurred up to 90 days immediately after the insured person is discharged from the hospital",
         "reference": "II. COVERAGE > F. Post Hospitalization Expenses (Page 3)",
-        "explanation": "Covers eligible medical expenses for 90 days after discharge (standard-good range)."
+        "explanation": "Medical expenses up to 90 days after discharge are covered, which is better than the minimum standard. This helps with recovery-related costs."
       },
       {
-        "name": "NCB (Cumulative Bonus): 20% per claim-free year up to 100% (reduces on claim)",
+        "name": "No Claim Bonus",
         "quote": "Cumulative Bonus: The insured person will be eligible for Cumulative bonus calculated at 20% of basic sum insured for each claim free year subject to a maximum of 100% of the basic sum insured",
         "reference": "II. COVERAGE > K. Cumulative Bonus (Page 3)",
-        "explanation": "Standard NCB growth. It is not fully protected: the bonus reduces based on claim utilization (as per the special conditions)."
+        "explanation": "You earn a 20% cumulative bonus on the basic sum insured for each claim-free year up to 100%. This rewards you for not making claims by increasing your sum insured."
       }
     ],
     "bad": [
       {
-        "name": "Consumables not covered (significant out-of-pocket list includes gloves, masks, kits, etc.)",
+        "name": "Consumables",
         "quote": "Other Excluded Expenses\nItems for which coverage is not available in the policy\n... 56 GLOVES ... 60 MASK ... 58 ANY KIT WITH NO DETAILS MENTIONED [DELIVERY KIT, ORTHOKIT, RECOVERY KIT, ETC] ... 62 OXYGEN MASK ...",
         "reference": "Other Excluded Expenses (Page 11)",
-        "explanation": "Consumables are largely excluded, which can materially increase out-of-pocket costs during hospitalization."
+        "explanation": "Consumables like gloves, masks, and medical kits are excluded from coverage. This means you will have to pay out-of-pocket for these common hospital items."
       },
       {
-        "name": "Modern Treatments have sub-limits (not covered at full Sum Insured)",
+        "name": "Modern Treatments",
         "quote": "Coverage for Modern Treatments: The expenses payable during the entire policy period for the following treatment / procedure ... is limited to the amount mentioned in table below;",
         "reference": "II. COVERAGE > O. Coverage for Modern Treatments (Page 6)",
-        "explanation": "Modern treatments (e.g., robotic surgeries, stem cell therapy, etc.) are capped by sub-limits, which is a coverage restriction vs policies with no sub-limits."
+        "explanation": "Modern treatments such as robotic surgeries and stem cell therapy have specific sub-limits. This restricts the amount payable and may limit your coverage for advanced procedures."
       },
       {
-        "name": "Room category mismatch can trigger proportionate deduction on associated medical expenses",
+        "name": "Proportionate Deduction",
         "quote": "Hospitalisation expenses which vary based on the room rent occupied by the insured person will be considered in proportion to the room rent limit / room category stated in the policy or actuals whichever is less.",
         "reference": "II. COVERAGE > Note under A. Room... (Page 2)",
-        "explanation": "Because room rent is capped to Single Private AC, choosing a higher room category can reduce payable amounts for linked hospital charges (proportionate deductions)."
+        "explanation": "If you choose a room category higher than Single Private AC, the insurer will reduce payable amounts proportionally. This can increase your out-of-pocket expenses."
       },
       {
-        "name": "NCB reduces on claim and can become nil on full utilization",
+        "name": "NCB Reset",
         "quote": "In the event of a claim resulting in; ... d. Full utilization of Basic Sum Insured and full utilization of cumulative bonus accrued, the cumulative bonus on renewal will be “nil”",
         "reference": "II. COVERAGE > K. Cumulative Bonus > Special Conditions (Page 3)",
-        "explanation": "On claims, the cumulative bonus is reduced and can drop to nil, unlike non-resetting renewal bonuses."
-      }
-    ],
-    "unclear": [
+        "explanation": "The cumulative bonus resets to zero if fully used after claims, meaning you lose your bonus protection on renewal. This reduces the benefit of claim-free years."
+      },
       {
-        "name": "Co-pay (copayment) terms not explicitly stated",
+        "name": "Co-pay",
         "quote": "The moratorium would however be subject to all limits, sub limits, co-payments, deductibles as per the policy contract.",
         "reference": "V. CONDITIONS > 11. Moratorium Period (Page 8)",
-        "explanation": "The wording references co-payments generally, but no explicit co-pay %/age/network condition is provided in the shared pages. Verify from full policy wording/schedule whether any co-pay applies."
+        "explanation": "Co-payment is mentioned generally but no explicit percentage or conditions are stated. It is unclear if or when you have to pay a co-pay."
       }
-    ]
+    ],
+    "unclear": []
   },
   "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
 }

@@ -2,125 +2,124 @@
   "policyName": "Activ One VYTL",
   "insurer": "Aditya Birla Health Insurance Co. Limited",
   "sumInsured": "Base Sum Insured options: INR 2 Lacs, 3 Lacs, 4 Lacs, 5 Lacs, 7 Lacs, 10 Lacs, 15 Lacs, 20 Lacs, 25 Lacs, 50 Lacs, 75 Lacs, 1 Crore, 2 Crores, 3 Crores, 4 Crores, 5 Crores, 6 Crores (overall Sum Insured may include Super Reload, Super Credit, Cancer Booster etc. as applicable)",
-  "policyType": "Not specified",
+  "policyType": "Individual | Family Floater",
   "documentType": "Policy Wording",
   "summary": {
     "great": 7,
     "good": 4,
-    "bad": 5,
-    "unclear": 1
+    "bad": 6,
+    "unclear": 0
   },
   "features": {
     "great": [
       {
-        "name": "Room rent: No limit (at actuals) up to Sum Insured",
+        "name": "Room Rent",
         "quote": "Room Rent\nActuals up to Sum Insured",
         "reference": "Annexure III - Product Benefit Table (Activ One VYTL)",
-        "explanation": "No room category/cost capping mentioned in the benefit table; hospital room charges are payable at actuals up to the Sum Insured."
+        "explanation": "Hospital room charges are paid at actual cost up to the sum insured without any capping. This means you can choose any room without worrying about daily limits."
       },
       {
-        "name": "Restore/Reload benefit: Unlimited reload of Base Sum Insured (from 2nd claim onwards)",
+        "name": "Restore Benefit",
         "quote": "C.10 Super Reload\n... provide for a reload amounting to the Base Sum Insured (“Super Reload”), unlimited times during the Policy Year... \nFrom 2nd claim of Policy Life - Unlimited times",
         "reference": "Section C.10 Super Reload; Annexure III - Product Benefit Table",
-        "explanation": "If your Base SI (and Super Credit, if applicable) gets exhausted/insufficient, the insurer reloads up to Base SI unlimited times in the year (with the stated condition of applicability from the 2nd claim)."
+        "explanation": "If your sum insured is exhausted, the insurer reloads the base sum insured unlimited times from the second claim onwards. This ensures you have extra coverage for multiple claims in a year."
       },
       {
-        "name": "Consumables / non-medical expenses covered via Claim Protect (all 4 lists) (in-built as per benefit table)",
+        "name": "Consumables",
         "quote": "Non-payable items will be covered (all 4 lists of Annexure I)",
         "reference": "Annexure III - Product Benefit Table (Activ One VYTL); Section C.4 Claim Protect",
-        "explanation": "Covers otherwise non-payable hospital items (gloves, masks, syringes, etc.) as per Annexure I lists, reducing out-of-pocket expenses."
+        "explanation": "Non-payable hospital items like gloves and syringes are covered as per the specified lists. This reduces your out-of-pocket expenses during hospitalization."
       },
       {
-        "name": "Pre-hospitalization expenses: 90 days",
+        "name": "Pre-hospitalization Cover",
         "quote": "The Company shall indemnify the Pre-Hospitalization Medical Expenses incurred... for up to 90 days immediately prior to the date of such Hospitalization.",
         "reference": "Section C.2 Pre-Hospitalization Expenses",
-        "explanation": "Pays eligible medical costs for the same condition up to 90 days before admission (better than the common 30/60 days)."
+        "explanation": "Medical expenses for the same illness are covered up to 90 days before hospital admission. This longer period helps cover diagnostic and treatment costs before hospitalization."
       },
       {
-        "name": "Built-in additional Sum Insured buffer: Super Credit (renewal increase irrespective of claims)",
+        "name": "Built-in SI Buffer",
         "quote": "C.11 Super Credit\n... will be applied / increased by a fixed percentage of the Base Sum Insured of immediately preceding Policy Year irrespective of any claims in previous Policy Year...",
         "reference": "Section C.11 Super Credit",
-        "explanation": "Your available limit can increase on renewal even if you made claims, subject to cap mentioned in the Policy Schedule."
+        "explanation": "Your sum insured can increase on renewal regardless of claims made, subject to policy caps. This gives you extra coverage over time even if you claim."
       },
       {
-        "name": "NCB / Renewal Bonus: Non-claim-linked bonus (does not reset on claim) via Super Credit",
+        "name": "NCB",
         "quote": "Super Credit (increases irrespective of claim)",
         "reference": "Annexure III - Product Benefit Table (Activ One VYTL); Section C.11 Super Credit",
-        "explanation": "This functions as a renewal bonus that is not dependent on no-claim status, so it typically does not reset to zero due to claims (cap as per schedule)."
+        "explanation": "The renewal bonus increases your sum insured even if you have made claims, so it does not reset to zero. This rewards policyholders continuously."
       },
       {
-        "name": "Post-hospitalization expenses: 180 days",
+        "name": "Post-hospitalization Cover",
         "quote": "The Company shall indemnify the Post-Hospitalization Medical Expenses incurred... for up to 180 days from the date of discharge from the Hospital.",
         "reference": "Section C.3 Post-Hospitalization Expenses",
-        "explanation": "Covers follow-up expenses up to 180 days after discharge (market-standard upper end)."
+        "explanation": "Expenses for follow-up treatment after discharge are covered up to 180 days. This helps with recovery costs over a longer period."
       }
     ],
     "good": [
       {
-        "name": "PED waiting period: 3 years (36 months)",
+        "name": "PED Waiting Period",
         "quote": "Pre-Existing Diseases Waiting Period\n3 Years",
         "reference": "Annexure III - Product Benefit Table (Waiting Period - Inbuilt Cover)",
-        "explanation": "Pre-existing diseases are covered after 3 years of continuous coverage (this is still within the 2–4 year standard range)."
+        "explanation": "Pre-existing diseases are covered after 3 years of continuous coverage. This is within the standard 2 to 4 years waiting period."
       },
       {
-        "name": "Specific disease/procedure waiting period: 24 months",
+        "name": "Specific Illness Waiting",
         "quote": "Expenses related to the treatment of the listed Conditions, surgeries / treatments shall be excluded until the expiry of 24 months of continuous coverage...",
         "reference": "Section D.1.2 Specified disease / procedure Waiting Period (Code-Excl02)",
-        "explanation": "A 2-year waiting period for listed specific illnesses/procedures is standard in the market."
+        "explanation": "A 24-month waiting period applies for specified illnesses and procedures. This is a common market standard."
       },
       {
-        "name": "Initial waiting period: 30 days (non-accident)",
+        "name": "Initial Waiting Period",
         "quote": "D.1.3 30-day Waiting Period (Code-Excl03)\nExpenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident",
         "reference": "Section D.1.3 (Code-Excl03)",
-        "explanation": "Standard 30-day initial waiting for illnesses; accidents are typically exempted."
+        "explanation": "Illnesses are excluded for the first 30 days except accidents. This is a typical initial waiting period."
       },
       {
-        "name": "Domiciliary hospitalization covered (in-built)",
+        "name": "Domiciliary Hospitalization",
         "quote": "C.5 Domiciliary Hospitalization\nThe Company shall indemnify the Medical Expenses incurred during the Policy Period on Domiciliary Hospitalization...",
         "reference": "Section C.5 Domiciliary Hospitalization",
-        "explanation": "Covers eligible treatment taken at home when hospital admission isn’t possible (subject to conditions like minimum 3 consecutive days)."
+        "explanation": "Treatment at home when hospital admission is not possible is covered, subject to conditions like minimum 3 days. This provides flexibility for home care."
       }
     ],
     "bad": [
       {
-        "name": "Disease-wise sub-limits: Chronic Management Program OPD benefits are fixed-number-of-visits/tests (not unlimited OPD cover)",
+        "name": "Disease Sub-limits",
         "quote": "C.13 Chronic Management Program (OPD)\n... entitled to avail access to a fixed number of (i) Medical Practitioner’s consultations and (ii) diagnostic tests... as specified in the Policy Schedule. For details... refer Annexure IV",
         "reference": "Section C.13 Chronic Management Program (OPD); Annexure IV",
-        "explanation": "This is not a broad OPD cover; it is limited to specific chronic conditions and capped by number of consultations/tests."
+        "explanation": "Coverage for chronic conditions is limited to a fixed number of consultations and tests. This restricts access to ongoing care."
       },
       {
-        "name": "Non-medical expenses excluded unless Claim Protect applies / is in force in your schedule",
+        "name": "Non-medical Expenses",
         "quote": "D.2.5 Non-Medical Expenses\nAs mentioned under Annexure (I), items in List I, II, III & IV will be excluded unless forms a part of In-patient hospitalization.",
         "reference": "Section D.2.5 Non-Medical Expenses",
-        "explanation": "Non-medical items are generally excluded in base exclusions; you rely on Claim Protect applicability (as per schedule/benefit table) to avoid these out-of-pocket costs."
+        "explanation": "Non-medical items are generally excluded unless Claim Protect is active. This may lead to out-of-pocket costs if you lack that cover."
       },
       {
-        "name": "Home Health Care not available on reimbursement basis (cashless + pre-authorisation required)",
+        "name": "Home Health Care",
         "quote": "C.6 Home Health Care\n... The treatment is pre-authorized by the Company...\nThis Benefit requires pre-authorisation and is not available on reimbursement basis.",
         "reference": "Section C.6 Home Health Care",
-        "explanation": "If you take eligible home care without pre-authorization/cashless arrangement, reimbursement is not allowed."
+        "explanation": "Home health care requires pre-authorization and cannot be claimed on reimbursement. This limits flexibility in availing home treatments."
       },
       {
-        "name": "Cashless network can be modified/restricted at insurer’s discretion",
+        "name": "Cashless Network",
         "quote": "We reserve the right to modify, add or restrict any Network Provider for Cashless Facilities at Our sole discretion.",
         "reference": "Section E.2.7.1 (a) For Availing Cashless Facility",
-        "explanation": "The insurer can change the cashless hospital network; you may need to re-check network status before admission."
+        "explanation": "The insurer can change the cashless hospital network at any time. You must verify network status before admission."
       },
       {
-        "name": "Modern treatments: certain listed therapies/procedures are specifically excluded",
+        "name": "Modern Treatments",
         "quote": "D.2.6 Specific treatment Exclusion\nTreatment involving Rotational Field Quantum Magnetic Resonance (RFQMR), External Counter Pulsation (ECP), Enhanced External Counter Pulsation (EECP), Hyperbaric Oxygen Therapy, KTP Laser Surgeries, Cyber Knife Treatment, Femto Laser Surgeries, Bioabsorbable Stents, Bioabsorbable Valves, Bioabsorbable Implants. Use of Radio Frequency (RF) probe for ablation.",
         "reference": "Section D.2.6 Specific treatment Exclusion",
-        "explanation": "Even though many modern procedures are covered, this clause excludes several named therapies/procedures—confirm if your planned treatment falls in this list."
-      }
-    ],
-    "unclear": [
+        "explanation": "Several modern therapies and procedures are explicitly excluded. You should confirm if your planned treatment is covered."
+      },
       {
-        "name": "Co-pay (default/base policy): not explicitly stated (PPN co-pay is optional cover-specific)",
+        "name": "Co-pay",
         "quote": "C.15.5 Preferred Provider Network (PPN) Discount\n... bear a Co-Payment of 10% on each and every claim... (only if treatment is taken in a Hospital other than those listed as “Preferred Provider Network”)",
         "reference": "Section C.15.5 Preferred Provider Network (PPN) Discount",
-        "explanation": "The document clearly states a 10% co-pay under the optional PPN discount cover, but the default/base plan co-pay (if any) is not explicitly specified here—verify in the Policy Schedule."
+        "explanation": "A 10% co-pay applies if treatment is outside the preferred network, but the base plan co-pay is not clearly stated. Clarification is needed to understand your default co-pay liability."
       }
-    ]
+    ],
+    "unclear": []
   },
   "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
 }

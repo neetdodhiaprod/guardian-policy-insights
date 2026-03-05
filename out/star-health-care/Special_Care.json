@@ -2,116 +2,116 @@
   "policyName": "Special Care",
   "insurer": "Star Health and Allied Insurance Company Limited",
   "sumInsured": "Not specified in provided pages (modern treatments table shows an example SI of ₹3,00,000, but schedule SI not provided)",
-  "policyType": "Not specified",
+  "policyType": "Individual | Family Floater",
   "documentType": "Policy Wording",
   "summary": {
     "great": 0,
     "good": 3,
-    "bad": 11,
-    "unclear": 2
+    "bad": 12,
+    "unclear": 1
   },
   "features": {
     "great": [],
     "good": [
       {
-        "name": "PED waiting period: 36 months",
-        "quote": "Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 36 months of continuous coverage after the date of inception of the ﬁrst policy with insurer",
+        "name": "PED Waiting",
+        "quote": "Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 36 months of continuous coverage after the date of inception of the \u0001rst policy with insurer",
         "reference": "Section IV (Conditions) > Standard Exclusions > 1. Pre-Existing Diseases - Code Excl 01 (page 3-4 of provided extract)",
-        "explanation": "3-year PED waiting is within the normal 2–4 year range for many policies."
+        "explanation": "Pre-existing diseases are excluded for 36 months from the start of coverage. This 3-year waiting period is within the normal 2–4 year range common in many policies."
       },
       {
-        "name": "Specific illness/procedure waiting period: 24 months",
-        "quote": "Expenses related to the treatment of the following listed Conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the ﬁrst policy with us.",
-        "reference": "Section IV (Conditions) > Standard Exclusions > 2. Speciﬁed disease / procedure waiting period - Code Excl 02 (page 3-4 of provided extract)",
-        "explanation": "2-year specific-illness waiting is industry standard."
+        "name": "Specific Illness",
+        "quote": "Expenses related to the treatment of the following listed Conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the \u0001rst policy with us.",
+        "reference": "Section IV (Conditions) > Standard Exclusions > 2. Speci\u0001ed disease / procedure waiting period - Code Excl 02 (page 3-4 of provided extract)",
+        "explanation": "Certain listed illnesses and procedures are excluded for 24 months from policy start. This 2-year waiting period is standard in the industry."
       },
       {
-        "name": "Initial waiting period: 30 days (illnesses)",
-        "quote": "Expenses related to the treatment of any illness within 30 days from the ﬁrst policy commencement date shall be excluded except claims arising due to an accident",
+        "name": "Initial Waiting",
+        "quote": "Expenses related to the treatment of any illness within 30 days from the \u0001rst policy commencement date shall be excluded except claims arising due to an accident",
         "reference": "Section IV (Conditions) > Standard Exclusions > 3. 30-day waiting period - Code Excl 03 (page 3-4 of provided extract)",
-        "explanation": "30-day initial waiting for illnesses is standard."
+        "explanation": "Illness treatments are excluded for the first 30 days of the policy, but accidents are covered immediately. A 30-day initial waiting period is standard."
       }
     ],
     "bad": [
       {
-        "name": "Room rent cap: ₹5,000/day (and proportionate deduction applies due to cap)",
+        "name": "Room Rent",
         "quote": "Room, boarding, nursing expenses (all inclusive) as provided by the Hospital / Nursing Home up to  Rs.5,000/- per day",
         "reference": "Section II (Coverage) > A (page 2 of provided extract)",
-        "explanation": "A fixed daily room-rent cap is a major restriction and can increase out-of-pocket costs in metro hospitals."
+        "explanation": "Room rent is capped at ₹5,000 per day, which can increase your out-of-pocket expenses in higher-cost hospitals."
       },
       {
-        "name": "Proportionate deduction due to room rent eligibility (room rent capped)",
+        "name": "Proportionate Deduction",
         "quote": "Expenses relating to hospitalization will be considered in proportion to the eligible room rent stated in the policy or actual whichever is less",
         "reference": "Section II (Coverage) (page 2 of provided extract)",
-        "explanation": "Because room rent is capped, choosing a higher room category can trigger proportionate deductions on other linked hospital charges, increasing your payout gap."
+        "explanation": "Because room rent is capped, choosing a higher room category can reduce your claim payout proportionally, increasing your expenses."
       },
       {
-        "name": "Mandatory co-pay: 20% on every claim (all policies)",
+        "name": "Co-pay",
         "quote": "This policy is subject to co-payment of 20% of each and every claim amount for fresh as well as renewal policies",
         "reference": "Section II (Coverage) > G. Co-payment (page 2 of provided extract)",
-        "explanation": "A mandatory 20% co-pay means you pay 20% of every admissible claim amount, reducing effective coverage."
+        "explanation": "You must pay 20% of every claim amount, which lowers your effective coverage and increases your share of medical costs."
       },
       {
-        "name": "Post-hospitalization limited to 60 days (and also capped to 7% of hospitalization or actuals, whichever higher)",
+        "name": "Post-hospitalization Cover",
         "quote": "Post Hospitalization expenses: A sum equivalent to 7% of the hospitalization expenses or actuals incurred up to 60 days after discharge from the hospital following an admissible claim whichever is higher",
         "reference": "Section II (Coverage) > E (page 2 of provided extract)",
-        "explanation": "Post-hospital coverage is only 60 days (minimum acceptable but not strong) and is constrained by a formula tied to hospitalization spend."
+        "explanation": "Post-hospitalization expenses are covered only up to 60 days and capped at 7% of hospitalization costs, limiting your coverage for follow-up care."
       },
       {
-        "name": "Disease/procedure sub-limits (multiple listed)",
+        "name": "Disease Sub-limits",
         "quote": "Sublimits: The expenses incurred on treatment of the following procedure are payable up-to the limits mentioned hereunder;",
         "reference": "Section II (Coverage) > F. Sublimits (page 2 of provided extract)",
-        "explanation": "Having sub-limits can significantly reduce claim payout for those conditions/procedures even if your sum insured is higher."
+        "explanation": "Specific diseases and procedures have capped limits, which can reduce your claim payout even if your sum insured is higher."
       },
       {
-        "name": "Modern treatments covered with sub-limits",
+        "name": "Modern Treatments",
         "quote": "Coverage for Modern Treatments The expenses payable during the entire policy period for the following treatment / procedure ... is limited to the amount mentioned in table below;",
         "reference": "Section II (Coverage) > H. Coverage for Modern Treatments (page 2 of provided extract)",
-        "explanation": "Modern treatments are not covered at actuals; they are restricted by listed caps."
+        "explanation": "Modern treatments are covered but subject to fixed sub-limits, restricting the amount payable for these advanced procedures."
       },
       {
-        "name": "Ambulance sub-limit: ₹750 per hospitalization and ₹1,500 per policy period",
+        "name": "Ambulance Cover",
         "quote": "Emergency ambulance charges, actual subject to a maximum of Rs.750/- per hospitalization and overall limit of Rs.1,500/- per policy period",
         "reference": "Section II (Coverage) > D (page 2 of provided extract)",
-        "explanation": "Ambulance coverage exists but the limits are low; any excess will be out-of-pocket."
+        "explanation": "Ambulance expenses are covered but limited to ₹750 per hospitalization and ₹1,500 per year, so extra costs must be paid by you."
       },
       {
-        "name": "Restore benefit: Not found (assumed not covered)",
+        "name": "Restore Benefit",
         "quote": "Restore benefit not mentioned in the provided policy wording pages.",
         "reference": "Mandatory feature check (not found in provided extract)",
-        "explanation": "No restore benefit: Sum Insured is NOT replenished after a claim (based on the provided pages)."
+        "explanation": "Sum Insured is not replenished after a claim, so your coverage does not increase again during the policy term."
       },
       {
-        "name": "Consumables: Not explicitly covered (assumed not covered as a separate benefit)",
+        "name": "Consumables",
         "quote": "No explicit statement that consumables are covered as a separate/additional benefit (e.g., 'consumables covered').",
         "reference": "Mandatory feature check (not found in provided extract)",
-        "explanation": "Consumables not covered: gloves, syringes, PPE kits etc. are out-of-pocket unless they are bundled/paid under other heads as per hospital billing and insurer admissibility."
+        "explanation": "Consumables like gloves and syringes are not explicitly covered, which may lead to out-of-pocket expenses."
       },
       {
-        "name": "Pre-hospitalization: Not mentioned (assumed not covered)",
+        "name": "Pre-hospitalization Cover",
         "quote": "No pre-hospitalization expense cover is specified in the provided pages.",
         "reference": "Mandatory feature check (not found in provided extract)",
-        "explanation": "Pre-hospitalization is not stated; treat as not covered from the provided extract (this can increase out-of-pocket for tests/consultations before admission)."
+        "explanation": "No coverage for medical expenses before hospitalization is stated, increasing your potential out-of-pocket costs."
       },
       {
-        "name": "NCB / Renewal Bonus: Not mentioned (assumed not available)",
+        "name": "No Claim Bonus",
         "quote": "No cumulative bonus / no-claim bonus / renewal bonus clause is shown in the provided pages.",
         "reference": "Mandatory feature check (not found in provided extract)",
-        "explanation": "No NCB: Sum Insured does not grow at renewal (based on the provided pages)."
+        "explanation": "Sum Insured does not increase on renewal without claims, so you do not get extra coverage benefits over time."
+      },
+      {
+        "name": "Co-pay",
+        "quote": "This policy is subject to co-payment of 20% of each and every claim amount for fresh as well as renewal policies",
+        "reference": "Section II (Coverage) > G. Co-payment (page 2 of provided extract)",
+        "explanation": "Co-pay is mandatory at 20%, but the policy does not clarify if any waivers or optional add-ons exist; check your policy schedule for details."
       }
     ],
     "unclear": [
       {
-        "name": "Co-pay applicability details beyond the 20% statement (e.g., any exceptions/waivers/add-on options)",
-        "quote": "This policy is subject to co-payment of 20% of each and every claim amount for fresh as well as renewal policies",
-        "reference": "Section II (Coverage) > G. Co-payment (page 2 of provided extract)",
-        "explanation": "The wording makes co-pay mandatory, but the document excerpt does not show whether any optional waiver/add-on exists in schedule or future endorsements—verify with insurer/policy schedule."
-      },
-      {
-        "name": "Sum insured for your policy (and which sub-limit table applies)",
+        "name": "Sum Insured",
         "quote": "Sum Insured Rs.3,00,000/-",
         "reference": "Section II (Coverage) > H. Coverage for Modern Treatments table (page 2 of provided extract)",
-        "explanation": "The excerpt shows an example table with SI ₹3,00,000, but your actual Sum Insured should be taken from the Policy Schedule. Benefits/sub-limits may vary by SI."
+        "explanation": "The example shows a sum insured of ₹3,00,000, but your actual coverage depends on your policy schedule, which affects benefits and sub-limits."
       }
     ]
   },

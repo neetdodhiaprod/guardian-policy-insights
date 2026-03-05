@@ -7,99 +7,99 @@
   "summary": {
     "great": 0,
     "good": 4,
-    "bad": 7,
-    "unclear": 3
+    "bad": 8,
+    "unclear": 2
   },
   "features": {
     "great": [],
     "good": [
       {
-        "name": "PED waiting period (standard illnesses) — 36 months",
+        "name": "PED Waiting Period",
         "quote": "Applicable for diseases other than Disability / HIV/AIDS: Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 36 months of continuous coverage after the date of inception of the ﬁrst policy with insurer.",
         "reference": "Exclusions > Standard Exclusions > 1. Pre-Existing Diseases – Code Excl 01",
-        "explanation": "For non-disability and non-HIV conditions, pre-existing diseases are covered after 36 months of continuous coverage (this is within the 2–4 year market standard range)."
+        "explanation": "Pre-existing diseases are excluded for 36 months from the start of the first policy. You must maintain continuous coverage for 3 years before claims for pre-existing conditions are payable."
       },
       {
-        "name": "Specific illness / procedure waiting period — 24 months",
+        "name": "Specific Illness Waiting",
         "quote": "Expenses related to the treatment of the listed Conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the ﬁrst policy with us.",
         "reference": "Exclusions > Standard Exclusions > 2. Speciﬁed disease/procedure waiting period – Code Excl 02",
-        "explanation": "A standard 24-month waiting period applies to listed specified diseases/procedures (common across insurers)."
+        "explanation": "A 24-month waiting period applies to specified diseases and procedures. You will not get coverage for these conditions until after 2 years of continuous coverage."
       },
       {
-        "name": "Initial waiting period — 30 days (non-accident)",
+        "name": "Initial Waiting Period",
         "quote": "Expenses related to the treatment of any illness within 30 days from the ﬁrst policy commencement date shall be excluded except claims arising due to an accident, provided the same are covered.",
         "reference": "Exclusions > Standard Exclusions > 3. 30-day waiting period – Code Excl 03",
-        "explanation": "30-day initial waiting period is industry standard; accidents are typically exempt."
+        "explanation": "Illnesses are not covered during the first 30 days of the policy, except for accidents. This is a common industry practice to prevent immediate claims."
       },
       {
-        "name": "Post-hospitalization — 60 days",
+        "name": "Post-hospitalization Cover",
         "quote": "Post Hospitalization medical expenses incurred for a period of 60 days from the date of discharge from the hospital...",
         "reference": "Coverage > Hospitalisation Care > K",
-        "explanation": "Covers eligible medical expenses for 60 days after discharge (meets the standard threshold)."
+        "explanation": "Medical expenses after discharge are covered for 60 days, which meets the standard coverage period. This helps cover follow-up treatments after hospitalization."
       }
     ],
     "bad": [
       {
-        "name": "Room rent limit — capped at 1% of Sum Insured per day (can trigger proportionate deductions)",
+        "name": "Room Rent",
         "quote": "Room, Boarding, Nursing Expenses all inclusive as provided by the Hospital / Nursing Home up to maximum of 1% of the sum insured per day.",
         "reference": "Coverage > Hospitalisation Care > A",
-        "explanation": "Room rent is capped (not ‘any room / no limit’). If you choose a higher room category than eligible, overall payable amounts can reduce due to room-linked billing."
+        "explanation": "Room rent is capped at 1% of the sum insured per day, limiting your choice and potentially reducing claim amounts if you select a higher room category."
       },
       {
-        "name": "Disease-specific sub-limit — cataract capped at ₹40,000 per eye per policy year",
+        "name": "Disease Sub-limits",
         "quote": "Expenses incurred on treatment of Cataract is covered up to Rs.40,000/- per each eye in one policy year.",
         "reference": "Coverage > Hospitalisation Care > F",
-        "explanation": "A fixed sub-limit for cataract can cause out-of-pocket costs if the hospital package is higher."
+        "explanation": "A fixed limit of Rs.40,000 per eye for cataract treatment may lead to out-of-pocket expenses if actual costs exceed this amount."
       },
       {
-        "name": "Modern treatments sub-limit — up to 50% of Sum Insured",
+        "name": "Modern Treatments",
         "quote": "Coverage for Modern treatment... will be covered... up to 50% of Sum Insured, speciﬁed in the policy schedule, during the policy period:",
         "reference": "Coverage > Hospitalisation Care > H",
-        "explanation": "Modern treatment coverage is not at full Sum Insured; it is capped at 50% SI, which may be insufficient for high-cost procedures."
+        "explanation": "Modern treatments are covered only up to 50% of the sum insured, which may be insufficient for expensive procedures."
       },
       {
-        "name": "Mandatory co-payment — 20% on each and every claim",
+        "name": "Co-pay",
         "quote": "Each and every claim under the Policy shall be subject to a Co-payment of 20% applicable to claim amount admissible and payable as per the terms and conditions of the Policy.",
         "reference": "Coverage > Hospitalisation Care > L",
-        "explanation": "A mandatory 20% co-pay means you pay 20% of every admissible claim amount from your pocket (unless you buy the waiver add-on)."
+        "explanation": "A mandatory 20% co-pay applies to all claims, meaning you pay one-fifth of every claim from your pocket unless you purchase a waiver."
       },
       {
-        "name": "Pre-hospitalization — only 30 days",
+        "name": "Pre-hospitalization Cover",
         "quote": "Pre-Hospitalization medical expenses incurred for a period not exceeding 30 days prior to the date of hospitalization...",
         "reference": "Coverage > Hospitalisation Care > J",
-        "explanation": "30 days is on the lower side; expenses before admission beyond 30 days will not be covered."
+        "explanation": "Pre-hospitalization expenses are covered only for 30 days before admission, which is on the lower side and may exclude some earlier diagnostic or treatment costs."
       },
       {
-        "name": "Restore benefit — not mentioned (assumed not covered)",
+        "name": "Restore Benefit",
         "quote": "If during the period stated in the Policy Schedule... the Company will indemnify... but not exceeding sum insured stated in the Policy schedule.",
         "reference": "Coverage > 2. COVERAGE (no restore/recharge wording found in provided pages)",
-        "explanation": "No restore/recharge is stated in the provided wording. Assume the Sum Insured is not replenished after a claim within the same policy year."
+        "explanation": "No restore or recharge benefit is provided, so your sum insured is not replenished after a claim within the same policy year."
       },
       {
-        "name": "Consumables — not mentioned as covered (assumed not covered)",
+        "name": "Consumables",
         "quote": "Such associated medical expenses do not include Cost of pharmacy and consumables, Cost of implants and medical devices and Cost of diagnostics.",
         "reference": "Definitions > Specific Definitions > Associated Medical Expenses",
-        "explanation": "The policy does not explicitly state that consumables (gloves, syringes, PPE kits, etc.) are covered as a separate benefit; assume consumables are not covered unless confirmed via policy schedule/endorsement."
+        "explanation": "Consumables like gloves, syringes, and implants are excluded, which means you may have to pay for these items separately."
+      },
+      {
+        "name": "Co-pay Waiver",
+        "quote": "Waiver of Co-payment : Is available on payment of additional premium as per terms & conditions.",
+        "reference": "Coverage > Hospitalisation Care > M",
+        "explanation": "A co-pay waiver add-on is available for extra premium, but details about eligibility and extent of waiver are not provided here."
       }
     ],
     "unclear": [
       {
-        "name": "NCB / Renewal Bonus — not mentioned",
+        "name": "No-Claim Bonus",
         "quote": "Renewal of policy: The policy shall ordinarily be renewable except on grounds of fraud, misrepresentation by the Insured Person.",
         "reference": "Conditions > 8. Renewal of policy",
-        "explanation": "No No-Claim Bonus / renewal bonus language is shown in the provided pages. Verify whether any renewal bonus is offered and whether it resets on a claim."
+        "explanation": "No information is provided about a no-claim bonus or renewal bonus, so it is unclear if you get any benefits for claim-free renewals or if the bonus resets after a claim."
       },
       {
-        "name": "Co-pay waiver add-on details (terms/extent) — not specified",
-        "quote": "Waiver of Co-payment : Is available on payment of additional premium as per terms & conditions.",
-        "reference": "Coverage > Hospitalisation Care > M",
-        "explanation": "Add-on exists but the exact conditions (eligibility, whether it waives co-pay fully, waiting periods, etc.) are not detailed in the provided extract—confirm in add-on wording/schedule."
-      },
-      {
-        "name": "Cashless network size — not specified",
+        "name": "Cashless Network",
         "quote": "Cashless facility can be availed only in networked Hospitals. For details of Networked Hospitals, the insured may visit www.starhealth.in...",
         "reference": "Conditions > Claim Settlement > B (Documents for Cashless Treatment)",
-        "explanation": "The number of network hospitals is not stated here. Verify network size in your city and whether your preferred hospitals are included."
+        "explanation": "The size and coverage of the cashless hospital network is not stated, so you should verify if your preferred hospitals are included."
       }
     ]
   },

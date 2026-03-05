@@ -2,98 +2,98 @@
   "policyName": "Diabetes Safe",
   "insurer": "Star Health and Allied Insurance Company Limited",
   "sumInsured": "₹3,00,000 / ₹4,00,000 / ₹5,00,000 / ₹10,00,000 (as per tables shown; Individual or Floater variants mentioned)",
-  "policyType": "Not specified",
+  "policyType": "Individual | Family Floater",
   "documentType": "Policy Wording",
   "summary": {
     "great": 0,
     "good": 4,
-    "bad": 5,
-    "unclear": 4
+    "bad": 6,
+    "unclear": 3
   },
   "features": {
     "great": [],
     "good": [
       {
-        "name": "Room rent: Single Standard A/C room (eligible category)",
+        "name": "Room Rent",
         "quote": "A. Room (Single Standard A/C room), Boarding and Nursing Expenses",
         "reference": "Coverage – Section 1 and Section 2 (Page 3/10)",
-        "explanation": "Default room eligibility is Single Standard A/C room. This is industry-standard (not ‘any room’)."
+        "explanation": "The policy provides a private Single Standard AC room for hospitalization. This means you get a private air-conditioned room but not unlimited room choices or at actual costs."
       },
       {
-        "name": "PED waiting period: 36 months (for Section 2 & Section 4)",
+        "name": "PED Waiting Period",
         "quote": "Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 36 months of continuous coverage after the date of inception of the first policy with insurer",
         "reference": "Exclusions – Code Excl 01 (Page 4/10)",
-        "explanation": "Pre-existing diseases are covered after 36 months of continuous coverage (good as per your rules; not a red flag)."
+        "explanation": "Pre-existing diseases are excluded for 36 months from the start of coverage. You must maintain the policy for 3 years before claims for these conditions are payable."
       },
       {
-        "name": "Specific illness waiting period: 24 months (for Section 2 & Section 4)",
+        "name": "Specific Illness Waiting",
         "quote": "Expenses related to the treatment of the following listed Conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first policy with us.",
         "reference": "Exclusions – Code Excl 02 (Page 4-5/10)",
-        "explanation": "A 24-month specific disease/procedure waiting period is standard in the market."
+        "explanation": "Specific illnesses are excluded for 24 months from policy start. You need to wait 2 years before claiming for these specified conditions."
       },
       {
-        "name": "Initial waiting period: 30 days (standard)",
+        "name": "Initial Waiting Period",
         "quote": "Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident",
         "reference": "Exclusions – Code Excl 03 (Page 5/10)",
-        "explanation": "30-day initial waiting is standard for most health insurance policies."
+        "explanation": "Illnesses are not covered during the first 30 days except for accidents. This prevents immediate claims after buying the policy."
       }
     ],
     "bad": [
       {
-        "name": "Restore benefit: only for unrelated illness (not same illness) and only once; not available for Section 1",
+        "name": "Restore Benefit",
         "quote": "There shall be automatic restoration of the Basic Sum Insured by 100% immediately upon exhaustion of the basic sum insured, once during the policy period. It is made clear that such restored Sum Insured can be utilized only for illness /disease/treatment unrelated to the illness /diseases/treatment for which claim/s was/were made.",
         "reference": "Specific Conditions – Clause 29 (Page 8/10)",
-        "explanation": "Restore is NOT usable for the same illness, and is limited to once. Also, it is stated as applicable only for Section 2 (so diabetes complications under Section 1 may not get restore). Under your mandatory reporting, this is worse than ‘restore for same illness’, so flagged as a downside."
+        "explanation": "The sum insured is restored only once per year and only for unrelated illnesses. You cannot use the restored amount for the same illness, limiting financial protection."
       },
       {
-        "name": "Consumables not covered (mandatory feature not stated as covered)",
+        "name": "Consumables",
         "quote": "Associated medical expenses... do not include Cost of pharmacy and consumables, Cost of implants and medical devices and Cost of diagnostics.",
         "reference": "Definitions – 'Associated medical expenses' (Page 2/10)",
-        "explanation": "The wording does not state that consumables are covered as a benefit; and it explicitly excludes consumables from ‘associated medical expenses’ used for proportionate calculations. Since explicit consumables cover is not found, treat as not covered per your rule (gloves, syringes, PPE etc. can become out-of-pocket)."
+        "explanation": "Consumables like gloves, syringes, implants, and diagnostics are not covered. You may have to pay these costs yourself during hospitalization."
       },
       {
-        "name": "Pre-hospitalization: only 30 days (not >60 days)",
+        "name": "Pre-hospitalization Cover",
         "quote": "Relevant Pre Hospitalization medical expenses incurred for a period not exceeding 30 days prior to the date of Hospitalisation",
         "reference": "Coverage – Section 1(E) and Section 2(D) (Page 3/10)",
-        "explanation": "Pre-hospitalization coverage is limited to 30 days, which is at the lower end (not a strong feature)."
+        "explanation": "Pre-hospitalization expenses are covered only up to 30 days, which is the minimum acceptable period. This may limit coverage for longer diagnostic or treatment needs before admission."
       },
       {
-        "name": "Post-hospitalization: only 60 days and also capped (7% up to ₹5,000 per hospitalization)",
+        "name": "Post-hospitalization Cover",
         "quote": "Post Hospitalization expenses incurred up to 60 days after discharge... shall not exceed the sum equivalent to 7% of the hospitalization expenses subject to a maximum of Rs.5,000/- per hospitalization",
         "reference": "Coverage – Section 1(F) and Section 2(F) (Page 3/10)",
-        "explanation": "Post-hospitalization is only 60 days (minimum acceptable) and additionally capped at 7% with a ₹5,000 limit, which can be inadequate for follow-up medicines/tests."
+        "explanation": "Post-hospitalization cover is limited to 60 days and capped at 7% of hospital expenses or ₹5,000. This may be insufficient for follow-up care, leading to out-of-pocket costs."
       },
       {
-        "name": "NCB / Renewal Bonus: not found (mandatory feature assumed absent)",
+        "name": "No Claim Bonus",
         "quote": "Where the policy is issued for more than 1 year, the Basic Sum Insured including sublimits, cumulative bonus (if applicable), automatic restoration benefit (if applicable) is for each of the year",
         "reference": "Conditions – Important Note (Page 8/10)",
-        "explanation": "The document does not specify any No Claim Bonus/renewal bonus accrual. As per your rule, if not found, assume it is not covered: Sum Insured may not grow on renewal."
+        "explanation": "The policy does not explicitly provide a no claim bonus that increases sum insured. Your coverage amount may not grow over time if you do not claim."
+      },
+      {
+        "name": "Co-pay",
+        "quote": "The Company will pay... the amount of such expenses as are reasonably and necessarily incurred up-to the limits indicated but not exceeding sum insured in aggregate as stated in the schedule hereto;",
+        "reference": "Coverage – Section 1 & 2 (Page 3/10)",
+        "explanation": "The policy wording does not clearly state if any co-payment applies. It is unclear whether you must pay a portion of claims, so check the policy schedule or detailed terms."
       }
     ],
     "unclear": [
       {
-        "name": "Co-pay: not explicitly stated",
-        "quote": "The Company will pay... the amount of such expenses as are reasonably and necessarily incurred up-to the limits indicated but not exceeding sum insured in aggregate as stated in the schedule hereto;",
-        "reference": "Coverage – Section 1 & 2 (Page 3/10)",
-        "explanation": "No explicit co-payment clause (0%, 10%, etc.) is visible in the provided pages. Verify from policy schedule / detailed terms whether any co-pay applies (especially for certain ages / non-network / specified conditions)."
-      },
-      {
-        "name": "Cashless network size: not mentioned",
+        "name": "Cashless Network",
         "quote": "Cashless facility can be availed only in networked Hospitals",
         "reference": "Conditions – Claim Settlement (Page 6/10)",
-        "explanation": "Cashless is available at network hospitals, but the number of network hospitals is not provided here. This affects practical usability—verify current network size and hospitals in your city."
+        "explanation": "Cashless claims are available only at network hospitals, but the number and location of these hospitals are not specified. This affects how easily you can access cashless treatment."
       },
       {
-        "name": "Proportionate deduction exposure depends on schedule’s room eligibility (room category in schedule)",
+        "name": "Proportionate Deduction",
         "quote": "If Policy Holder chooses a higher room category above the eligibility defined in policy, then proportionate deduction will apply on the Associated Medical Expenses in addition to the difference in room rent.",
         "reference": "Definitions – 'Associated medical expenses' (Page 2/10) and Special conditions note (Page 4/10)",
-        "explanation": "Since the policy states eligibility is based on the room category stated in the policy schedule, confirm your schedule matches ‘Single Standard A/C room’ and understand which hospitals follow differential billing (where proportionate deductions may apply)."
+        "explanation": "If you opt for a room category higher than your eligibility, the insurer may reduce claim amounts proportionally. Confirm your room eligibility to avoid unexpected deductions."
       },
       {
-        "name": "Modern treatments: covered but with sub-limits (overall structure clear; exact applicability depends on SI type/limit table)",
+        "name": "Modern Treatments",
         "quote": "Section 4 - Coverage for Modern Treatments... is limited to the amount mentioned in table below; * Sublimit all inclusive with or without hospitalization",
         "reference": "Coverage – Section 4 and the Modern Treatment table (Page 4-5/10)",
-        "explanation": "Modern treatments are covered but subject to procedure-wise sublimits that vary by Sum Insured and by Individual vs Floater limits. Ensure the chosen SI provides adequate limits for the procedures relevant to you."
+        "explanation": "Modern treatments are covered but subject to procedure-wise sublimits that vary by sum insured and plan type. Ensure your sum insured provides adequate limits for needed treatments."
       }
     ]
   },

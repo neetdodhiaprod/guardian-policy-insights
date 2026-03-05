@@ -2,105 +2,105 @@
   "policyName": "HeartBeat Gold",
   "insurer": "Niva Bupa Health Insurance Company Limited",
   "sumInsured": "As per Policy Schedule (Silver/Gold/Platinum; Individual/Family Floater/Family First variants)",
-  "policyType": "Not specified",
+  "policyType": "Individual | Family Floater",
   "documentType": "Policy Wording",
   "summary": {
     "great": 2,
     "good": 5,
-    "bad": 5,
-    "unclear": 2
+    "bad": 6,
+    "unclear": 1
   },
   "features": {
     "great": [
       {
-        "name": "Built-in additional Sum Insured buffer (Re-fill up to 100% of Base SI)",
+        "name": "Built-in SI Buffer",
         "quote": "“We will provide an additional re-fill amount of maximum up to 100% of the Base Sum Insured.”",
         "reference": "Section 3.12 Re-fill Benefit",
-        "explanation": "If your base Sum Insured (and Loyalty Additions, if any) gets exhausted in a policy year due to claims, the insurer can provide extra coverage up to 100% of Base SI for subsequent claims in the same year (once per year)."
+        "explanation": "You get an extra coverage amount equal to 100% of the base Sum Insured once your base SI is exhausted. This gives you additional financial protection within the same policy year."
       },
       {
-        "name": "Restore/Re-fill can be used for same illness as well (as per benefit table)",
+        "name": "Restore Benefit",
         "quote": "“Re-fill benefit Reinstate up to base Sum Insured. Applicable for same & different illness as well”",
         "reference": "Annexure II – Product Benefit Table (Silver/Gold/Platinum tables)",
-        "explanation": "This is stronger than many restore benefits because it explicitly allows use even for the same illness (subject to policy conditions)."
+        "explanation": "Coverage is reinstated up to the base Sum Insured for both same and different illnesses. This means you get stronger protection as repeated claims on the same condition are covered."
       }
     ],
     "good": [
       {
-        "name": "Pre-existing disease (PED) waiting period (24-36 months depending on plan)",
+        "name": "PED Waiting Period",
         "quote": "“Expenses related to the treatment of a Pre-existing Disease (PED) ... shall be excluded until the expiry of 24 months (under gold & platinum Plans)/ 36 months (under Silver Plans) of continuous coverage”",
         "reference": "Section 5.1.1.1",
-        "explanation": "PED waiting of 24 months (Gold/Platinum) or 36 months (Silver) is within normal market ranges (2–4 years)."
+        "explanation": "Pre-existing diseases are excluded for 24 months under Gold/Platinum plans and 36 months under Silver plans. These waiting periods are within the normal market range of 2 to 4 years."
       },
       {
-        "name": "Initial waiting period (30 days)",
+        "name": "Initial Waiting Period",
         "quote": "“Expenses related to the treatment of any Illness within 30 days from the first Policy commencement date shall be excluded except claims arising due to an Accident”",
         "reference": "Section 5.1.1.2",
-        "explanation": "Standard 30-day initial waiting for illnesses; accidents are covered from day 1."
+        "explanation": "Illnesses are excluded for the first 30 days from policy start, but accidents are covered immediately. This is a standard initial waiting period in the market."
       },
       {
-        "name": "Specific disease/procedure waiting period (24 months; for >45 years at entry)",
+        "name": "Specific Illness Waiting",
         "quote": "“For all Insured Persons who are above 45 years of Age ... Expenses related to the treatment of the listed conditions ... shall be excluded until the expiry of 24 months of continuous coverage”",
         "reference": "Section 5.1.1.3",
-        "explanation": "A 24-month waiting for listed procedures/diseases is industry standard. It applies only if entry age is above 45."
+        "explanation": "A 24-month waiting period applies for certain listed diseases and procedures if the insured is above 45 years old. This matches industry standards for specific illness waiting."
       },
       {
-        "name": "Pre-hospitalization cover (60 days)",
+        "name": "Pre-hospitalization Cover",
         "quote": "“We will pay ... Pre-hospitalization Medical Expenses only for period up to 60 days immediately preceding the Insured Person’s admission”",
         "reference": "Section 3.2 (Sub-limit)",
-        "explanation": "Covers eligible medical expenses for 60 days before admission (standard)."
+        "explanation": "Medical expenses incurred up to 60 days before hospital admission are covered. This duration is standard and helps cover diagnostic and treatment costs before hospitalization."
       },
       {
-        "name": "Post-hospitalization cover (90 days)",
+        "name": "Post-hospitalization Cover",
         "quote": "“We will pay Post-hospitalization Medical Expenses only for up to 90 days immediately following the Insured Person’s discharge”",
         "reference": "Section 3.3 (Sub-limit)",
-        "explanation": "Covers eligible medical expenses for 90 days after discharge (standard)."
+        "explanation": "Medical expenses up to 90 days after discharge are covered, which is standard and supports recovery costs after hospitalization."
       }
     ],
     "bad": [
       {
-        "name": "Room rent limit / capping (varies by plan; capped in some variants)",
+        "name": "Room Rent",
         "quote": "“Room rent Shared Room or 1% of the Base Sum Insured per day”",
         "reference": "Annexure II – Product Benefit Table (Individual & Family Floater – Silver Plan)",
-        "explanation": "A default room rent cap can lead to higher out-of-pocket costs. Note: other variants show different room rent terms (e.g., Gold/Platinum mention ‘Covered up to Sum Insured’ with restrictions), but this Silver plan wording is a clear cap."
+        "explanation": "Room rent is capped at shared room or 1% of the base Sum Insured per day, which can lead to higher out-of-pocket expenses if you choose a higher room category."
       },
       {
-        "name": "Proportionate deduction due to room rent limit (can reduce entire claim payouts if you take a higher room category than eligible)",
+        "name": "Proportionate Deduction",
         "quote": "“If the Insured Person is admitted in a Hospital room where the room category opted or Room Rent incurred is higher than the eligibility as specified in the Policy Schedule, then We shall be liable to pay only a pro-rated portion of the total Associated Medical Expenses ... (Eligible Room Rent limit / Room Rent actually incurred) * total Associated Medical Expenses”",
         "reference": "Section 3.1 (Conditions b)",
-        "explanation": "If your plan has a room rent eligibility limit and you choose a higher room, the insurer can proportionately reduce not just room rent but also associated costs (doctor/OT/nursing etc.), increasing your out-of-pocket."
+        "explanation": "If you choose a room category above your plan’s eligibility, the insurer reduces not only room rent but also associated medical expenses proportionally, increasing your out-of-pocket costs."
       },
       {
-        "name": "No Claim Bonus / Renewal Bonus can reset (not protected as non-resetting)",
+        "name": "No Claim Bonus",
         "quote": "“Cumulative Bonus means any increase or addition in the Sum Insured granted by the insurer without an associated increase in premium.”",
         "reference": "Section 2.5 (Definition only; no non-resetting protection stated)",
-        "explanation": "The document describes Loyalty Additions/Cumulative Bonus accrual, but does not state that the bonus is protected/does not reduce on claims. In absence of explicit protection, this is treated as a standard NCB that may reset/adjust."
+        "explanation": "The policy offers cumulative bonus but does not protect it from resetting after a claim, so your bonus may reduce or reset, limiting your Sum Insured growth."
       },
       {
-        "name": "Consumables not covered (many common consumables are excluded/subsumed, leading to out-of-pocket)",
+        "name": "Consumables",
         "quote": "“The expenses that are not covered or subsumed into room charges/ procedure charges/ costs of treatment are mentioned in Annexure VI”",
         "reference": "Section 3 (c) and Annexure VI",
-        "explanation": "The policy lists many items as not covered or bundled into package charges (e.g., gloves, masks, kits etc.). This typically results in consumables-related out-of-pocket for customers depending on hospital billing."
+        "explanation": "Many common consumables like gloves and masks are excluded or bundled, which can result in additional out-of-pocket expenses depending on hospital billing."
       },
       {
-        "name": "No restore benefit stated as unlimited/multiple times (only once per year re-fill)",
+        "name": "Restore Benefit Limit",
         "quote": "“We will provide a re-fill amount only once in a Policy Year.”",
         "reference": "Section 3.12 (Conditions b)",
-        "explanation": "While a re-fill exists, it is limited to once per policy year (not an unlimited restore). If you need multiple restorations in a high-claim year, this may be insufficient."
+        "explanation": "The re-fill benefit is limited to once per policy year, so multiple restorations in a high-claim year are not covered, reducing your coverage flexibility."
+      },
+      {
+        "name": "Co-pay",
+        "quote": "“The Insured Person will bear a predetermined percentage of the admissible claim amounts subject to the Co-payment option chosen by You in the Proposal Form and / or Information Summary Sheet”",
+        "reference": "Section 6.2.14",
+        "explanation": "Co-pay depends on the option selected in your proposal form and policy schedule, so the default co-pay is not clearly stated and must be verified individually."
       }
     ],
     "unclear": [
       {
-        "name": "Co-pay (default/base co-pay not stated; optional co-pay and zonal co-pay exist)",
-        "quote": "“The Insured Person will bear a predetermined percentage of the admissible claim amounts subject to the Co-payment option chosen by You in the Proposal Form and / or Information Summary Sheet”",
-        "reference": "Section 6.2.14",
-        "explanation": "Co-pay depends on what you selected and what is shown in the Policy Schedule/benefit table (e.g., 10%/20% options; Zone 2 has 20% co-pay in specified cities). Verify your Policy Schedule to know whether any co-pay applies by default."
-      },
-      {
-        "name": "Cashless network size not specified",
+        "name": "Cashless Network",
         "quote": "“The complete list of Network Providers is available on Our website and at Our branches”",
         "reference": "Section 6.2.16.2(a)",
-        "explanation": "The document does not state the number of network hospitals. You should confirm the current cashless network size and availability in your city."
+        "explanation": "The policy does not specify the number of network hospitals; you should confirm the current cashless network size and availability in your area."
       }
     ]
   },

@@ -2,141 +2,141 @@
   "policyName": "Aspire Titanium+",
   "insurer": "Niva Bupa Health Insurance Company Limited",
   "sumInsured": "Not specified in extract (Base Sum Insured + Booster+ SI + Safeguard/Safeguard+ SI + ReAssure+/ReAssureX as per Policy Schedule/variant)",
-  "policyType": "Not specified",
+  "policyType": "Individual | Family Floater",
   "documentType": "Policy Wording",
   "summary": {
     "great": 5,
     "good": 9,
-    "bad": 2,
-    "unclear": 4
+    "bad": 3,
+    "unclear": 3
   },
   "features": {
     "great": [
       {
-        "name": "Room rent: No limit / any room (choose the room you like)",
+        "name": "Room Rent",
         "quote": "“We don’t limit your choice. Choose the room you like, but choose judiciously to protect your Sum Insured.”",
         "reference": "Section 4.1.2(a) Expenses during Hospitalization",
-        "explanation": "Default room rent is not capped (no Single AC-only limit or ₹/day cap stated). Your total Sum Insured can get consumed faster if you choose higher rooms."
+        "explanation": "You can choose any room without a daily limit, but higher room costs will use up your Sum Insured faster."
       },
       {
-        "name": "Built-in additional Sum Insured buffer / unlimited reload (ReAssure+ / ReAssureX)",
+        "name": "Built-in SI Buffer",
         "quote": "“ReAssure “Forever”: Enjoy unlimited Sum Insured. The first paid claim in the life of the policy triggers ReAssure “Forever”. Once Triggered it stays for life, provided that the policy is renewed without break.”",
         "reference": "Section 4.1.7 ReAssure+ and Section 4.1.8 ReAssureX",
-        "explanation": "Provides extra Sum Insured that activates after base SI is used, and can trigger repeatedly (subject to per-claim limit up to Base Sum Insured)."
+        "explanation": "Extra Sum Insured is added after your base limit is used, and it can be triggered repeatedly for lifetime coverage if the policy is renewed continuously."
       },
       {
-        "name": "Restore benefit: Unlimited, can support repeated claims (per-claim top-up up to Base SI)",
+        "name": "Restore Benefit",
         "quote": "“Enjoy unlimited Sum Insured... (this 10 Lakh will trigger unlimited times)”",
         "reference": "Section 4.1.7.1 Illustration (ReAssure+) / Section 4.1.8 Illustration (ReAssureX)",
-        "explanation": "This functions as a very strong restore/reload mechanism: after the first paid claim, additional SI becomes available for subsequent claims repeatedly (as described in the illustration)."
+        "explanation": "After your first claim, additional Sum Insured is restored unlimited times for future claims, enhancing your coverage."
       },
       {
-        "name": "Pre-existing disease waiting period option as low as 12 months (variant-based)",
+        "name": "PED Waiting Period",
         "quote": "“Pre-existing Diseases... shall be excluded until the expiry of 12months/24 months/ 36 months (as per Variant selected) of continuous coverage”",
         "reference": "Section 5.1.1 Pre-existing Diseases (Code–Excl01)",
-        "explanation": "If you choose the 12-month variant, PED waiting is best-in-class. (Longer variants are still acceptable, but 12 months is the standout.)"
+        "explanation": "If you select the 12-month option, pre-existing diseases are covered after just one year, which is better than the usual longer waits."
       },
       {
-        "name": "Specified disease/procedure waiting period option as low as 12 months (variant-based)",
+        "name": "Specific Illness Waiting",
         "quote": "“Specified disease/procedure... excluded until the expiry of 24 months/12 months (as per Variant Selected)”",
         "reference": "Section 5.1.2 Specified disease/procedure waiting period (Code- Excl02)",
-        "explanation": "If you choose the 12-month variant, this is better than the standard 24 months."
+        "explanation": "Choosing the 12-month variant means coverage for specified diseases starts sooner than the standard 24 months."
       }
     ],
     "good": [
       {
-        "name": "Initial waiting period: 30 days (standard)",
+        "name": "Initial Waiting",
         "quote": "“Expenses related to the treatment of any Illness within 30 days from the first Policy commencement date shall be excluded except claims arising due to an Accident”",
         "reference": "Section 5.1.3 30-day waiting period (Code- Excl03)",
-        "explanation": "Standard 30-day initial waiting for illnesses; accidents are covered from day 1."
+        "explanation": "Illnesses are not covered for the first 30 days, but accidents are covered immediately from day one."
       },
       {
-        "name": "Pre-hospitalization cover: 60 days",
+        "name": "Pre-hospitalization Cover",
         "quote": "“We will pay expenses... for 60 days before the date of admission”",
         "reference": "Section 4.1.3 Expenses before and after hospitalization",
-        "explanation": "Covers eligible medical expenses for the same condition for up to 60 days pre-hospitalization (standard-good)."
+        "explanation": "Medical expenses related to your hospitalization are covered for up to 60 days before admission."
       },
       {
-        "name": "Post-hospitalization cover: 180 days",
-        "quote": "“...and 180 days after date of discharge”",
+        "name": "Post-hospitalization Cover",
+        "quote": "...and 180 days after date of discharge”",
         "reference": "Section 4.1.3 Expenses before and after hospitalization",
-        "explanation": "Covers eligible medical expenses for the same condition for up to 180 days post-hospitalization (good standard)."
+        "explanation": "Medical expenses related to your hospitalization are covered for up to 180 days after discharge."
       },
       {
-        "name": "Domiciliary / home care treatment covered",
+        "name": "Domiciliary Hospitalization",
         "quote": "“Home Care Treatment means treatment availed by the insured person at home... would require care and treatment at a hospital but is actually taken at home...”",
         "reference": "Section 4.1.4 Home Care / Domiciliary Treatment",
-        "explanation": "Home care is covered when medically advised and monitored, subject to conditions stated."
+        "explanation": "Treatment at home is covered when medically necessary and monitored, providing flexibility if hospital admission is not possible."
       },
       {
-        "name": "Air ambulance covered (limit up to Base Sum Insured; emergency only)",
+        "name": "Air Ambulance",
         "quote": "“Air Ambulance: Only in case of Emergency. We will pay up to Base Sum Insured.”",
         "reference": "Section 4.1.1(a)-(b) Expenses in reaching a Hospital",
-        "explanation": "Air ambulance is covered for emergencies (any limit qualifies as good)."
+        "explanation": "Emergency air ambulance transport is covered up to your base Sum Insured, ensuring quick access to hospital care."
       },
       {
-        "name": "Modern treatments covered (listed) up to Base Sum Insured",
+        "name": "Modern Treatments",
         "quote": "“We pay for Modern treatments, up to Base Sum Insured for the list as specified below...”",
         "reference": "Section 4.1.2(b) Expenses during Hospitalization",
-        "explanation": "Modern treatments are covered but tied to Base SI and a specified list (not stated as “no sub-limits for all modern treatments”)."
+        "explanation": "Certain modern treatments are covered up to your base Sum Insured but limited to a specified list."
       },
       {
-        "name": "Optional cover: Borderless (worldwide planned/emergency treatment) with selectable co-pay",
+        "name": "Optional Worldwide Cover",
         "quote": "“Borderless... Choose from a range of co-payments options 0%, 20%, 30%, 40% & 50%”",
         "reference": "Section 4.1.23 Borderless",
-        "explanation": "Optional worldwide treatment benefit. Co-pay is a customer choice depending on option selected."
+        "explanation": "You can opt for worldwide treatment coverage with a co-pay percentage that you select."
       },
       {
-        "name": "Optional cover: Safeguard / Safeguard+ includes non-payable item coverage (consumables-like items) + inflation-linked SI increase",
+        "name": "Optional Claim Safeguard",
         "quote": "“Claim Safeguard: We will cover non-payable items mentioned in ‘List I – Expenses not covered’ of Annexure I’.”",
         "reference": "Section 4.1.20.1.1 Claim Safeguard and Annexure I",
-        "explanation": "As an optional benefit, it can reduce out-of-pocket on non-payable items (and also offers inflation-linked Base SI increases). Since it is not stated as default, treated as an optional enhancement."
+        "explanation": "An optional benefit that covers some normally excluded expenses and offers inflation-linked Sum Insured increases."
       },
       {
-        "name": "Optional add-on/benefits available (deductible, co-payment, room type modification, OPD/wellness)",
+        "name": "Optional Add-ons",
         "quote": "“Optional Benefit: 4.1.14. Annual Aggregate Deductible” / “4.1.16. Co-Payment” / “4.1.18. Room Type Modification” / “4.1.25. WellConsult (OPD): Opt for complete wellness and OPD benefits.”",
         "reference": "Sections 4.1.14 to 4.1.18 and 4.1.25",
-        "explanation": "The policy offers multiple optional levers (deductible/co-pay/room type modification/OPD) to tailor premium vs coverage."
+        "explanation": "You can customize your policy with optional deductible, co-pay, room type changes, and outpatient wellness benefits."
       }
     ],
     "bad": [
       {
-        "name": "NCB / Renewal bonus: Not found (assumed not covered)",
+        "name": "No NCB",
         "quote": "Not mentioned in the provided policy wording extract.",
         "reference": "Mandatory feature check (NCB/Renewal Bonus)",
-        "explanation": "No NCB stated here: Sum Insured growth at renewal via NCB is not evidenced in the extract. (Policy has other SI growth mechanisms like Booster+/Safeguard, but NCB itself is not specified.)"
+        "explanation": "No No Claim Bonus or renewal Sum Insured growth is stated, so you may not get extra benefits for claim-free renewals."
       },
       {
-        "name": "Consumables / non-payable items (default): Not covered (only via optional Safeguard/Safeguard+)",
+        "name": "Consumables",
         "quote": "“The expenses that are not covered... Annexure I - The expenses that are not covered...”",
         "reference": "Section 6.2.4(c) and Annexure I; plus Safeguard description in 4.1.20/4.1.21",
-        "explanation": "By default, many consumables/non-payable items are excluded (Annexure I). They are covered only if you opt for Safeguard/Safeguard+; otherwise these can be out-of-pocket."
+        "explanation": "Many consumables and non-payable items are excluded by default and only covered if you buy an optional safeguard benefit."
+      },
+      {
+        "name": "Co-pay",
+        "quote": "“Co-Payment: It is the percentage of admissible claim amount You would have to bear for every claim, Rest we will pay.”",
+        "reference": "Section 4.1.16 Co-Payment",
+        "explanation": "Co-pay exists but the default percentage is not clearly stated; it depends on your chosen option or policy schedule."
       }
     ],
     "unclear": [
       {
-        "name": "Co-pay (base plan): percentage not specified",
-        "quote": "“Co-Payment: It is the percentage of admissible claim amount You would have to bear for every claim, Rest we will pay.”",
-        "reference": "Section 4.1.16 Co-Payment",
-        "explanation": "The existence of a co-pay option is stated, but the actual co-pay % applicable to your policy depends on what you opt for / what is in the Policy Schedule. Verify whether default is 0% or some %."
-      },
-      {
-        "name": "Cashless network size (number of hospitals) not specified",
+        "name": "Cashless Network",
         "quote": "“Cashless claim facility is available at our network hospitals ONLY... for the latest list, refer to our website www.nivabupa.com.”",
         "reference": "Section 6.2.4(a) Claims",
-        "explanation": "Network exists but the document does not state the count (e.g., 7,000/10,000+)."
+        "explanation": "A cashless hospital network is available but the exact number of hospitals is not specified in the document."
       },
       {
-        "name": "Restore/reload variant: whether ReAssure+ or ReAssureX applies to you",
+        "name": "Restore Variant",
         "quote": "“Either ReAssure+ or ReAssureX can be offered in a single policy.”",
         "reference": "After Section 4.1.8 ReAssureX",
-        "explanation": "Both are described, but your policy will have only one. Confirm from your Policy Schedule which one is included."
+        "explanation": "Two restore benefit variants exist but only one applies per policy; check your schedule to know which one you have."
       },
       {
-        "name": "Specific room entitlement if Room Type Modification is chosen (and related co-pay/pro-rata impact)",
+        "name": "Room Type Modification",
         "quote": "“Room Type Modification... You can choose between a Standard Single Room and a Shared Room up to Sum Insured... You will have to bear additional co-payment IF treatment is taken in a higher room category than the eligible room category”",
         "reference": "Section 4.1.18 Room Type Modification",
-        "explanation": "Default seems ‘no limit’ on room choice, but if you opt for Room Type Modification, room eligibility changes and extra co-pay applies for higher room. Confirm if you are opting for this modification."
+        "explanation": "If you opt for room type modification, your room entitlement and co-pay change; confirm if this applies to your policy."
       }
     ]
   },

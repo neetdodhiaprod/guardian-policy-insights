@@ -2,111 +2,111 @@
   "policyName": "Women Care",
   "insurer": "Star Health and Allied Insurance Company Limited",
   "sumInsured": "Not specified (document shows options: 5L, 10L, 15L, 20L, 25L, 50L, 1Cr)",
-  "policyType": "Not specified",
+  "policyType": "Individual | Family Floater",
   "documentType": "Policy Wording",
   "summary": {
     "great": 2,
     "good": 8,
-    "bad": 3,
-    "unclear": 2
+    "bad": 4,
+    "unclear": 1
   },
   "features": {
     "great": [
       {
-        "name": "Automatic Restoration (Restore benefit) — 100% once; usable for subsequent hospitalisations (same policy year)",
+        "name": "Restore Benefit",
         "quote": "Automatic Restoration of Sum Insured: There shall be automatic restoration of the Sum Insured once by 100%... Such Restored Sum Insured can be utilized for all claims for subsequent hospitalisation during the policy period.",
         "reference": "Section II (15) Automatic Restoration of Sum Insured",
-        "explanation": "Restore is available and triggers immediately after partial/full utilization, giving you an extra 100% of base SI once in the year for subsequent claims."
+        "explanation": "The sum insured is automatically restored once by 100% during the policy period for subsequent hospitalizations. This gives you an extra full sum insured to use after your initial claims."
       },
       {
-        "name": "Consumables / Non-medical items covered (List I payable)",
+        "name": "Consumables",
         "quote": "Coverage for Non-medical Items: If there is an admissible claim under the policy, then Items as per List I will become payable",
         "reference": "Section II (6) Coverage for Non-medical Items; List I (Items for which coverage is available)",
-        "explanation": "Unlike many policies, this pays for listed consumables/non-medical items (e.g., gloves, masks, etc.) when the hospitalization claim is admissible."
+        "explanation": "Listed consumables and non-medical items are payable when you have an admissible hospitalization claim. This means essential items like gloves and masks are covered fully."
       }
     ],
     "good": [
       {
-        "name": "Pre-existing disease (PED) waiting period: 24 months",
+        "name": "PED Waiting Period",
         "quote": "Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first policy with insurer.",
         "reference": "Section III, Exclusions, 1. Pre-Existing Diseases - Code Excl 01",
-        "explanation": "PEDs are covered after 24 months of continuous coverage (standard/good)."
+        "explanation": "Pre-existing diseases are covered after 24 months of continuous coverage. This is a standard waiting period before PED claims are payable."
       },
       {
-        "name": "Specific illness/procedure waiting period: 24 months",
+        "name": "Specific Illness Waiting",
         "quote": "Expenses related to the treatment of the listed Conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first policy with us.",
         "reference": "Section III, Exclusions, 2. Specified disease / procedure waiting period - Code Excl 02",
-        "explanation": "Listed specific diseases/procedures are covered after 24 months (standard)."
+        "explanation": "Specific listed illnesses and procedures are covered after 24 months of continuous coverage. This is a typical waiting period for such conditions."
       },
       {
-        "name": "Initial waiting period: 30 days (illness); accidents covered from day 1",
+        "name": "Initial Waiting Period",
         "quote": "30-day waiting period - Code Excl 03 (Not Applicable for Accidents)",
         "reference": "Section III, Exclusions, 3. 30-day waiting period - Code Excl 03",
-        "explanation": "Illness claims in first 30 days are excluded (standard). Accident claims are not subject to this waiting period."
+        "explanation": "Illness claims are excluded for the first 30 days, but accidents are covered immediately. This is a standard initial waiting period."
       },
       {
-        "name": "Pre-hospitalization cover: 60 days",
+        "name": "Pre-hospitalization Cover",
         "quote": "Pre-hospitalization Expenses: Medical expenses incurred up to 60 days immediately before the insured person is hospitalized.",
         "reference": "Section II (9) Pre-hospitalization Expenses",
-        "explanation": "Covers eligible medical expenses for up to 60 days before admission (standard)."
+        "explanation": "Medical expenses up to 60 days before hospitalization are covered. This helps cover diagnostic and treatment costs leading to admission."
       },
       {
-        "name": "Post-hospitalization cover: 90 days",
+        "name": "Post-hospitalization Cover",
         "quote": "Post Hospitalization Expenses: Medical expenses incurred up to 90 days immediately after the insured person is discharged from the hospital.",
         "reference": "Section II (10) Post Hospitalization Expenses",
-        "explanation": "Covers eligible medical expenses for up to 90 days after discharge (standard)."
+        "explanation": "Medical expenses up to 90 days after discharge are covered. This supports recovery costs after your hospital stay."
       },
       {
-        "name": "NCB/Cumulative Bonus: 20% per claim-free year, up to 100% (reduces only if CB used up as per rules)",
+        "name": "NCB",
         "quote": "Cumulative Bonus: In respect of a claim free year of Insurance, the insured would be entitled to benefit of bonus of 20% of the expiring Sum Insured... The maximum allowable bonus shall not exceed 100% of the sum insured... Full utilization of Sum Insured and full utilization of cumulative bonus accrued, the cumulative bonus on renewal will be “nil”",
         "reference": "Section II (16) Cumulative Bonus",
-        "explanation": "Bonus increases SI by 20% each claim-free year up to 100%. It can reduce (even to nil) depending on usage during claims."
+        "explanation": "You earn a 20% sum insured bonus for each claim-free year up to 100%, but this bonus resets to zero if fully used in claims. This rewards claim-free years but can be lost if claims exhaust the bonus."
       },
       {
-        "name": "Air ambulance covered (10% of Sum Insured/year) for SI ₹10L and above",
+        "name": "Air Ambulance",
         "quote": "Air Ambulance charges up to 10% of the Sum Insured per year is payable... Note: This benefit is available for sum insured options of Rs.10,00,000/- and above only.",
         "reference": "Section II (8) Air Ambulance",
-        "explanation": "Provides air ambulance cover with a defined limit (useful add-on benefit built into policy for eligible SI options)."
+        "explanation": "Air ambulance costs are covered up to 10% of the sum insured annually for policies with ₹10 lakh or more. This provides emergency transport support within limits."
       },
       {
-        "name": "Bariatric surgery covered (with conditions; ₹2.5L/₹5L max as per table) after 24 months waiting",
+        "name": "Bariatric Surgery",
         "quote": "Bariatric Surgery: Expenses incurred on hospitalization for bariatric surgical procedure... Special conditions 1. This benefit is subject to a waiting period of 24 months from the date of first commencement of this policy",
         "reference": "Section II (13) Bariatric Surgery",
-        "explanation": "Bariatric surgery is covered after 24 months, subject to medical criteria and sub-limits."
+        "explanation": "Bariatric surgery is covered after a 24-month waiting period, subject to medical criteria and sub-limits. This allows coverage for weight-loss surgery after standard waiting."
       }
     ],
     "bad": [
       {
-        "name": "Room rent is not clearly 'Any room/No limit' as a default; proportionate deduction applies if higher room chosen than eligibility",
+        "name": "Room Rent",
         "quote": "Room, Boarding, Nursing Expenses... as per the limits given below; Note: Expenses relating to Associated Medical Expenses will be considered in proportion to the eligible room rent/room category stated in the policy schedule or actuals whichever is less.",
         "reference": "Section II (1) Room, Boarding... Note on proportionate deductions",
-        "explanation": "Because room eligibility is tied to limits in the policy schedule (not clearly stated here as 'any room/no cap'), choosing a higher category can trigger proportionate deductions on associated medical expenses, increasing out-of-pocket."
+        "explanation": "Room rent is limited by the policy schedule and choosing a higher room category triggers proportionate deductions on related expenses. This can increase your out-of-pocket costs."
       },
       {
-        "name": "Modern treatments have sub-limits (not covered at actuals)",
+        "name": "Modern Treatments",
         "quote": "Coverage for Modern Treatment... is limited to the amount mentioned in table below; Sum Insured (Rs.) Limit per policy period (Rs.) 5,00,000/- to 15,00,000/- 2,50,000/- Above 15,00,000/- 5,00,000/-",
         "reference": "Section II (14) Coverage for Modern Treatment",
-        "explanation": "Modern treatments are covered but capped, which can leave out-of-pocket expenses for high-cost procedures."
+        "explanation": "Modern treatments are covered but with sub-limits, which may leave you paying extra for expensive procedures. This restricts full coverage for advanced treatments."
       },
       {
-        "name": "Optional Cancer lump-sum cover has very long initial waiting: 180 days",
+        "name": "Initial Waiting Period",
         "quote": "Optional Cover (Lump sum on diagnosis of Cancer)... Waiting Period: An initial waiting period of 180 days is applicable from the date of commencement of this policy.",
         "reference": "Section II (29) Optional Cover (Lump sum on diagnosis of Cancer)",
-        "explanation": "If you choose this add-on, cancer diagnosis in the first 180 days is not covered under the optional lump-sum benefit (longer than standard 30 days)."
+        "explanation": "The optional cancer lump-sum cover has a long 180-day waiting period before coverage starts. This delays benefit availability compared to standard 30 days."
+      },
+      {
+        "name": "Co-pay",
+        "quote": "No explicit co-payment clause found in the provided extract (no statement such as 'co-payment of X% shall apply').",
+        "reference": "Document review: provided pages (1-15) extract",
+        "explanation": "The policy does not clearly state if any co-payment applies. You should check the policy schedule or terms to confirm if co-pay is mandatory."
       }
     ],
     "unclear": [
       {
-        "name": "Co-payment (co-pay) terms not explicitly stated",
-        "quote": "No explicit co-payment clause found in the provided extract (no statement such as 'co-payment of X% shall apply').",
-        "reference": "Document review: provided pages (1-15) extract",
-        "explanation": "Verify from policy schedule/specific plan terms whether any mandatory co-pay applies (especially age-wise or zone-wise)."
-      },
-      {
-        "name": "Cashless network size (number of network hospitals) not specified",
+        "name": "Cashless Network",
         "quote": "Cashless facility can be availed only in networked Hospitals. For details of Networked Hospitals, the insured may visit www.starhealth.in or contact the nearest branch or refer to the list of Networked Hospitals provided with the policy document.",
         "reference": "Section IV, Conditions, 2(B) Documents for Cashless Treatment (i)",
-        "explanation": "The document does not specify the count of network hospitals; check the insurer’s current network list for your city."
+        "explanation": "The number of network hospitals is not specified in the document. You need to verify the current network size from the insurer’s website or branch."
       }
     ]
   },

@@ -2,118 +2,117 @@
   "policyName": "Care Joy Tomorrow",
   "insurer": "Care Health Insurance Limited",
   "sumInsured": "Not specified in provided extract (depends on Policy Schedule; examples show ₹3,00,000)",
-  "policyType": "Not specified",
+  "policyType": "Individual | Family Floater",
   "documentType": "Policy Wording",
   "summary": {
     "great": 0,
     "good": 8,
-    "bad": 7,
-    "unclear": 1
+    "bad": 8,
+    "unclear": 0
   },
   "features": {
     "great": [],
     "good": [
       {
-        "name": "Pre-existing disease (PED) waiting period: 36 months",
+        "name": "PED Waiting",
         "quote": "Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 36 months of continuous coverage after the date of inception of the first policy with insurer.",
         "reference": "Section 4.1(a)(i) Pre-existing Disease - Code Excl01",
-        "explanation": "PEDs are covered after 36 months (3 years) of continuous coverage, which is within standard market range."
+        "explanation": "Pre-existing diseases are excluded for 36 months (3 years) from the start of coverage. This is a standard waiting period commonly accepted in the market."
       },
       {
-        "name": "Specific illness waiting period: 24 months",
+        "name": "Specific Illness Waiting",
         "quote": "Expenses related to the treatment of the listed Conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first policy with the Company.",
         "reference": "Section 4.1(a)(ii) Specific Waiting Period - Code Excl02",
-        "explanation": "Named ailments are covered after 24 months, which is standard."
+        "explanation": "Named illnesses and treatments are excluded for 24 months from policy start. This matches typical market standards."
       },
       {
-        "name": "Initial waiting period: 30 days",
+        "name": "Initial Waiting",
         "quote": "Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident",
         "reference": "Section 4.1(a)(iii) First 30-Day waiting Period – Code – Excl03",
-        "explanation": "Standard 30-day initial waiting for illnesses (accidents covered from day 1)."
+        "explanation": "Illnesses are not covered during the first 30 days except for accidents, which are covered immediately. This is a common initial waiting period."
       },
       {
-        "name": "Room rent / room category: Single Private Room with A.C. (with proportionate deduction if higher room taken)",
+        "name": "Room Rent",
         "quote": "If the Insured Person is admitted in a room where the Room Category is other than Single Private Room with A.C., then the Policyholder shall bear the ratable proportion of the total Associate Medical Expenses...",
         "reference": "Section 3.1(c)(i) Conditions for Medical Expenses – Room Category",
-        "explanation": "Default eligible room is Single Private AC. If you choose a higher category room, associated medical expenses can be proportionately reduced (extra out-of-pocket)."
+        "explanation": "Coverage is for a Single Private AC room by default; choosing a higher room category means you pay a proportional share of extra costs. This is a standard practice."
       },
       {
-        "name": "Modern/advanced treatments covered (listed)",
+        "name": "Modern Treatments",
         "quote": "The Company will indemnify the Insured Person for expenses incurred under Benefit 1 ... through following advance technology methods: a. Uterine Artery Embolization and HIFU ... g. Robotic surgeries ... l. Stem cell therapy: Hematopoietic stem cells for bone marrow transplant...",
         "reference": "Section 3.1(d) Advance Technology Methods",
-        "explanation": "Covers several modern treatment methods as part of hospitalization benefit, as listed in the wording."
+        "explanation": "Several advanced medical treatments are covered as part of hospitalization benefits, ensuring access to modern care options."
       },
       {
-        "name": "Pre-hospitalization cover: 30 days",
+        "name": "Pre-hospitalization",
         "quote": "As Pre-hospitalization Medical Expenses' during a period of 30 days immediately prior to the date of the Insured Person's admission to the Hospital",
         "reference": "Section 3.2(a)(i) Benefit 2",
-        "explanation": "Covers eligible medical expenses for 30 days before admission (linked to the same hospitalization claim)."
+        "explanation": "Medical expenses up to 30 days before hospital admission are covered, helping with costs related to diagnosis and treatment before hospitalization."
       },
       {
-        "name": "Post-hospitalization cover: 60 days",
+        "name": "Post-hospitalization",
         "quote": "As Post-hospitalization Medical Expenses' during a period of 60 days immediately following the date of the Insured Person's discharge from Hospital",
         "reference": "Section 3.2(a)(ii) Benefit 2",
-        "explanation": "Covers eligible medical expenses for 60 days after discharge (linked to the same hospitalization claim)."
+        "explanation": "Medical expenses up to 60 days after discharge are covered, assisting with follow-up treatments and recovery costs."
       },
       {
-        "name": "Maternity waiting period: 9 months (Joy Today) / 24 months (Joy Tomorrow)",
+        "name": "Maternity Waiting",
         "quote": "Claims will not be admissible ... until 9 months of continuous coverage has elapsed under Plan - Joy Today or 24 months of continuous coverage has elapsed under Plan - Joy Tomorrow",
         "reference": "Section 4.2(a) Waiting Periods – Maternity Cover (Benefit 4)",
-        "explanation": "If you choose Joy Today, maternity waiting is best-in-class at 9 months; Joy Tomorrow has 24 months waiting."
+        "explanation": "Maternity coverage starts after 9 months for Joy Today plan and 24 months for Joy Tomorrow plan, with the 9-month waiting being best-in-class."
       }
     ],
     "bad": [
       {
-        "name": "Restore benefit: Not available",
+        "name": "Restore Benefit",
         "quote": "Any Claim paid under Benefit 1 to Benefit 3, Benefit 7 shall reduce the Sum Insured for that Policy Year and only the balance shall be available for all future claims for that Policy Year.",
         "reference": "Section 3(d) General Conditions applicable to all Benefits",
-        "explanation": "No restore/reinstatement mentioned. After a claim, Sum Insured reduces for the year and is not replenished."
+        "explanation": "Sum Insured reduces after a claim and is not restored during the policy year, limiting coverage for subsequent claims."
       },
       {
-        "name": "Consumables / non-medical items: Not covered",
+        "name": "Consumables",
         "quote": "Any item or condition or treatment specified in List of Non-Medical Items (Annexure – II to Policy Terms & Conditions).",
         "reference": "Section 4.2(b)(i) Permanent Exclusions + Annexure II",
-        "explanation": "Consumables like gloves, masks, syringes/kits etc. (as per non-medical list) are out-of-pocket, increasing hospital bill burden."
+        "explanation": "Consumables like gloves, masks, and syringes are excluded and must be paid out-of-pocket, increasing your hospital expenses."
       },
       {
-        "name": "Mandatory co-pay: 20% for entry age >= 60 years (each and every claim)",
+        "name": "Co-pay",
         "quote": "The Policyholder shall bear 20% of the Final Claim Amount... *Entry Age means the age of the Insured Person at the time of issue of the first Policy... (b) The Co-payment shall be applicable to each and every Claim, for each Insured Person.",
         "reference": "Section 6.2.2 Special Condition 2 : Co-payment",
-        "explanation": "If entry age is 60+, 20% of every admissible claim is borne by you, reducing effective coverage."
+        "explanation": "If the insured is aged 60 or above at entry, you must pay 20% of every claim, reducing the effective coverage."
       },
       {
-        "name": "Disease-wise sub-limits may apply if specified in Policy Schedule",
+        "name": "Disease Sub-limits",
         "quote": "For diseases or conditions or procedure that have a specified sub-limit then all related expenses shall be covered up to the sub-limit specified for that disease or condition or procedure.",
         "reference": "Section 6.1.6(I) Payment Terms",
-        "explanation": "Allows applying disease/procedure sub-limits (if present in your schedule), which can cap payouts even when Sum Insured is higher."
+        "explanation": "Specific diseases or procedures may have capped limits, which can restrict claim amounts even if your overall Sum Insured is high."
       },
       {
-        "name": "NCB / Renewal Bonus: Optional cover resets to zero on claim (forfeited)",
+        "name": "NCB Reset",
         "quote": "In the event of a Claim occurring during any Policy Period, the accrued No Claim Bonanza will not be available in subsequent renewal, but in no case shall the Sum Insured be reduced.",
         "reference": "Optional Cover – 1: No Claim Bonanza, clause 3.3(f)",
-        "explanation": "No Claim Bonanza is not protected: if a claim happens, the accrued bonus is not available in next renewal (effectively resets)."
+        "explanation": "If you make a claim, your No Claim Bonus is lost at renewal, so you do not benefit from bonus protection."
       },
       {
-        "name": "Cashless network / cashless availability may be modified at insurer discretion",
+        "name": "Cashless Network",
         "quote": "the Company may, in its sole discretion, modify or add to the list of Network Provider or modify or restrict the extent of Cashless Facilities that may be availed at any particular Network Provider.",
         "reference": "Section 6.1.2(a) Cashless, point (iv) (as printed in document)",
-        "explanation": "Cashless availability/network can change; you should check current network list and cashless eligibility before admission."
+        "explanation": "The insurer can change or restrict the cashless hospital network at any time, so cashless availability is not guaranteed."
       },
       {
-        "name": "Post-hospitalization cover is only 60 days (not higher-tier)",
+        "name": "Post-hospitalization",
         "quote": "As Post-hospitalization Medical Expenses' during a period of 60 days immediately following the date of the Insured Person's discharge from Hospital",
         "reference": "Section 3.2(a)(ii) Benefit 2",
-        "explanation": "60 days is on the lower side versus many policies offering 90/180 days; longer follow-up costs may be out-of-pocket."
-      }
-    ],
-    "unclear": [
+        "explanation": "Post-hospitalization coverage is limited to 60 days, which is shorter than many policies offering longer periods like 90 or 180 days."
+      },
       {
-        "name": "Co-pay for ages below 60 / non-applicability conditions",
+        "name": "Co-pay Applicability",
         "quote": "Special Conditions shall be applicable only if the same is specifically mentioned in the Policy Schedule.\n\nSpecial Condition 2 : Co-payment ... >=60 years ...",
         "reference": "Section 6.2 Special Conditions + Section 6.2.2",
-        "explanation": "Policy wording shows a 20% co-pay for entry age >=60, but since special conditions apply only if mentioned in the Policy Schedule, confirm from your schedule whether co-pay applies to your policy and for which members."
+        "explanation": "Co-pay of 20% for age 60+ applies only if specified in your Policy Schedule, so confirm your schedule to know if co-pay applies to you."
       }
-    ]
+    ],
+    "unclear": []
   },
   "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
 }

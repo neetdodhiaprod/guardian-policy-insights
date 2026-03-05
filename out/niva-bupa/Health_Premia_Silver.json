@@ -2,107 +2,106 @@
   "policyName": "Health Premia Silver",
   "insurer": "Niva Bupa Health Insurance Company Limited",
   "sumInsured": "Individual/Family Floater: 5L to 3 Cr (plan-wise). Family First: Base individual SI 1L to 15L + floater SI as per formula (plan-wise).",
-  "policyType": "Not specified",
+  "policyType": "Individual | Family Floater",
   "documentType": "Policy Wording",
   "summary": {
     "great": 3,
     "good": 7,
-    "bad": 3,
-    "unclear": 1
+    "bad": 4,
+    "unclear": 0
   },
   "features": {
     "great": [
       {
-        "name": "Pre-existing disease (PED) waiting period: 24 months",
+        "name": "PED Waiting Period",
         "quote": "Expenses related to the treatment of a Pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first Policy..",
         "reference": "Section 5.1.1.1 (Pre-existing Diseases)",
-        "explanation": "PED coverage starts after 24 months of continuous coverage, which is better than many policies that have longer waits."
+        "explanation": "Pre-existing diseases are excluded for 24 months from the start of the policy. You must wait 2 years before claims for pre-existing conditions are covered."
       },
       {
-        "name": "Restore/Refill benefit (built-in): up to 100% of Base Sum Insured (once per policy year)",
+        "name": "Restore Benefit",
         "quote": "We will provide an additional re-fill amount of maximum up to 100% of the Base Sum Insured.",
         "reference": "Section 3.13 (Re-fill Benefit)",
-        "explanation": "If your base SI (and loyalty additions, if any) gets exhausted due to claims, the insurer provides an additional buffer SI for subsequent claims in the same policy year (once per year)."
+        "explanation": "If your base sum insured is used up, the insurer provides an extra sum insured up to 100% of the base amount once per policy year. This gives you extra coverage for additional claims."
       },
       {
-        "name": "Pre-hospitalization cover: 90 days",
+        "name": "Pre-hospitalization Cover",
         "quote": "We will pay above mentioned Pre-hospitalization Medical Expenses only for period up to 90 days immediately preceding the Insured Person’s admission",
         "reference": "Section 3.2 (Pre-hospitalization Medical Expenses) – Sub-limit",
-        "explanation": "Covers eligible medical expenses up to 90 days before hospitalization (subject to admissible hospitalization claim). This is above standard."
+        "explanation": "Medical expenses up to 90 days before hospitalization are covered if related to the hospitalization. This longer period helps cover more pre-admission costs."
       }
     ],
     "good": [
       {
-        "name": "Initial waiting period: 30 days",
+        "name": "Initial Waiting Period",
         "quote": "Expenses related to the treatment of any Illness within 30 days from the first Policy commencement date shall be excluded except claims arising due to an Accident",
         "reference": "Section 5.1.1.3 (30-day waiting period)",
-        "explanation": "Standard 30-day initial waiting for illnesses (accidents covered from day 1)."
+        "explanation": "Illnesses are excluded for the first 30 days except accidents which are covered immediately. This is a standard waiting period in the market."
       },
       {
-        "name": "Specific illness/procedure waiting period: 12 months",
+        "name": "Specific Illness Waiting",
         "quote": "Expenses related to the treatment of the listed conditions, surgeries/treatments shall be excluded until the expiry of 12 months of continuous coverage after the date of inception of the first Policy.",
         "reference": "Section 5.1.1.2 (Specified disease/procedure waiting period)",
-        "explanation": "Many listed illnesses/procedures are covered after 12 months (market-competitive; better than 24 months)."
+        "explanation": "Certain listed illnesses and procedures are excluded for 12 months from policy start. This is better than the usual 24 months waiting."
       },
       {
-        "name": "Post-hospitalization cover: 180 days",
+        "name": "Post-hospitalization Cover",
         "quote": "We will pay Post-hospitalization Medical Expenses only for up to 180 days immediately following the Insured Person’s discharge",
         "reference": "Section 3.3 (Post-hospitalization Medical Expenses) – Sub-limit",
-        "explanation": "Covers eligible medical expenses up to 180 days after discharge (subject to admissible hospitalization claim). This is standard-good."
+        "explanation": "Medical expenses up to 180 days after discharge are covered if related to the hospitalization. This duration is standard to good in the market."
       },
       {
-        "name": "Room rent (default for Individual/Family Floater): up to Sum Insured (except Suite or above)",
+        "name": "Room Rent",
         "quote": "Room rent Covered up to Sum Insured (except for Suite or above room category)",
         "reference": "Annexure II – Product Benefit Table (Individual & Family Floater variant)",
-        "explanation": "Effectively no fixed daily rupee cap for standard rooms (suite/above excluded). Note: Family First variant has room rent daily caps/options in its own table."
+        "explanation": "Room rent is covered up to the sum insured for standard rooms, excluding suites. This means no fixed daily cap for normal rooms."
       },
       {
-        "name": "Loyalty Additions / Cumulative Bonus: 10% per year up to 100% of Base SI (resets not stated here)",
+        "name": "No Claim Bonus",
         "quote": "We will provide Loyalty Additions in the form of Cumulative Bonus by increasing the Sum Insured applicable under the Policy by 10% of the Base Sum Insured ... subject to a maximum of 100% of the Base Sum Insured.",
         "reference": "Section 3.16 (Loyalty Additions)",
-        "explanation": "Sum insured can grow by 10% per year up to 100% of base SI on renewal without break. The wording provided does not state an explicit reduction to zero on a claim."
+        "explanation": "Sum insured increases by 10% each year without a break, up to 100% extra. The bonus likely does not reset to zero after a claim, preserving your coverage."
       },
       {
-        "name": "Domiciliary hospitalization covered",
+        "name": "Domiciliary Hospitalization",
         "quote": "We will indemnify on Reimbursement basis only, the Medical Expenses incurred for the Insured Person’s Domiciliary Hospitalization",
         "reference": "Section 3.5 (Domiciliary Hospitalization)",
-        "explanation": "Covers treatment at home when medically necessary and meeting conditions (e.g., at least 3 consecutive days)."
+        "explanation": "Treatment at home when medically necessary is covered on reimbursement basis. This helps when hospital admission is not possible."
       },
       {
-        "name": "Modern treatments covered, but with a sub-limit for some robotic surgeries",
+        "name": "Modern Treatments",
         "quote": "Modern Treatments Covered up to Sum Insured with sub-limit of Rs. 1Lac on few robotic surgeries",
         "reference": "Annexure II – Product Benefit Table; also Section 3.25 (Modern Treatments) special condition",
-        "explanation": "Modern treatments are included, but some robotic surgeries have a limit (e.g., max INR 1 lakh except specified categories)."
+        "explanation": "Modern treatments are covered but some robotic surgeries have a sub-limit of Rs. 1 lakh. This means coverage is mostly good but some limits apply."
       }
     ],
     "bad": [
       {
-        "name": "Consumables not covered (listed as non-payable/subsumed items)",
+        "name": "Consumables",
         "quote": "List  I – Expenses not covered ... 56 GLOVES ... 60 MASK ... 58 ANY KIT WITH NO DETAILS MENTIONED [DELIVERY KIT, ORTHOKIT, RECOVERY KIT, ETC]",
         "reference": "Annexure VII – The expenses that are not covered or subsumed...",
-        "explanation": "Many common consumables/medical supplies are excluded/subsumed, leading to out-of-pocket costs during hospitalization."
+        "explanation": "Many common consumables like gloves and masks are excluded, causing you to pay out-of-pocket during hospitalization."
       },
       {
-        "name": "Room rent for Family First (Silver) has daily caps (bad room rent capping)",
+        "name": "Room Rent Cap",
         "quote": "Room rent Option 1: Rs 3,000 per day or Shared Room; whichever is lower Option 2: Rs 5,000 per day or Single Private Room; whichever is lower",
         "reference": "Annexure II – Product Benefit Table (Family First variant – Silver)",
-        "explanation": "If you choose/are issued the Family First Silver variant, room rent is capped per day, which can trigger proportionate deductions and higher out-of-pocket costs."
+        "explanation": "For the Family First Silver variant, room rent is capped daily at Rs 3,000 or Rs 5,000 depending on room type, which can increase your out-of-pocket expenses."
       },
       {
-        "name": "Disease sub-limits exist (example: robotic surgery sub-limit)",
+        "name": "Disease Sub-limits",
         "quote": "A limit of maximum INR 1 Lac will apply to all robotic surgeries, except the following...",
         "reference": "Section 3.25 (Modern Treatments) – Special condition applicable for robotic surgeries",
-        "explanation": "Sub-limits reduce effective coverage for certain procedures compared to policies that cover modern treatments without caps."
-      }
-    ],
-    "unclear": [
+        "explanation": "Certain procedures like robotic surgeries have a maximum coverage limit of Rs. 1 lakh, reducing effective coverage compared to policies without such caps."
+      },
       {
-        "name": "Co-payment (base plan) not uniformly stated as 0% / varies by zone/optional benefits—verify your Policy Schedule selection",
+        "name": "Co-pay",
         "quote": "Co-payment (if applicable) shall be applied on the amount payable by Us.",
         "reference": "Section 6.2.14 (Claim Cost Sharing Option / Conditions)",
-        "explanation": "The wording indicates co-pay applies if applicable, but the exact default co-pay depends on selections in the Policy Schedule (e.g., Zone 2 has a 20% co-pay for certain locations). Confirm your zone and whether any other co-pay applies in your schedule."
+        "explanation": "Co-payment may apply depending on your policy schedule and zone, but the default co-pay percentage is not clearly stated. Check your policy details to confirm."
       }
-    ]
+    ],
+    "unclear": []
   },
   "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
 }

@@ -2,116 +2,116 @@
   "policyName": "Activ Health Plus Top-Up",
   "insurer": "Aditya Birla Health Insurance Co. Limited",
   "sumInsured": "Not specified (as per Policy Schedule / Product Benefit Table)",
-  "policyType": "Not specified",
+  "policyType": "Top-up",
   "documentType": "Policy Wording",
   "summary": {
     "great": 0,
     "good": 5,
-    "bad": 7,
-    "unclear": 4
+    "bad": 8,
+    "unclear": 3
   },
   "features": {
     "great": [],
     "good": [
       {
-        "name": "PED waiting period (36 months)",
+        "name": "PED Waiting Period",
         "quote": "Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 36 months of continuous coverage after the date of inception of the first policy with Us.",
         "reference": "Section D.I.1 (Standard Exclusions: Pre-Existing Diseases)",
-        "explanation": "Pre-existing diseases are covered after 36 months of continuous coverage, which is within the acceptable 2–4 year market range."
+        "explanation": "Pre-existing diseases are excluded for 36 months from the start of coverage. This 3-year waiting period is within the acceptable market range of 2 to 4 years."
       },
       {
-        "name": "Specific illness/procedure waiting period (24 months)",
+        "name": "Specific Illness Waiting",
         "quote": "Expenses related to the treatment of the listed Conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage, after the date of inception of the first policy with Us.",
         "reference": "Section D.I.2 (Specified disease / procedure waiting period)",
-        "explanation": "Specified illnesses/procedures are covered after 24 months (standard in the market)."
+        "explanation": "Specified illnesses and procedures are excluded for 24 months from policy start. This is a standard waiting period in the market."
       },
       {
-        "name": "Initial waiting period (30 days)",
+        "name": "Initial Waiting Period",
         "quote": "Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident, provided the same are covered.",
         "reference": "Section D.I.3 (30-day waiting period)",
-        "explanation": "30-day initial waiting period is standard; accidents are typically exempt."
+        "explanation": "Illnesses are excluded for the first 30 days except accidents. This 30-day waiting period with accident exemption is standard."
       },
       {
-        "name": "Domiciliary hospitalization covered",
+        "name": "Domiciliary Hospitalization",
         "quote": "We shall cover the Medical Expenses incurred towards the Insured Person’s Domiciliary Hospitalization, up to the limits as specified in the Policy Schedule / Product Benefit Table of this Policy",
         "reference": "Section C.I.(e) Domiciliary Hospitalization",
-        "explanation": "Home-based hospitalization (when medically necessary/bed unavailable etc.) is covered, subject to conditions and limits in the schedule."
+        "explanation": "Home-based hospitalization is covered subject to conditions and limits in the policy schedule. This provides coverage when hospital admission is not possible."
       },
       {
-        "name": "Air ambulance / emergency evacuation assistance included (service benefit)",
+        "name": "Air Ambulance",
         "quote": "Domestic Emergency Assistance Services (including Air Ambulance)",
         "reference": "Section C.II.(j) and Section C.II.(k)",
-        "explanation": "Includes emergency evacuation/repatriation assistance (including air ambulance) via empanelled service provider, subject to conditions (travel distance, authorization, etc.)."
+        "explanation": "Emergency evacuation including air ambulance is included via empanelled providers, subject to authorization and conditions. This helps in urgent medical transport."
       }
     ],
     "bad": [
       {
-        "name": "Room rent has limits/capping (not 'any room')",
+        "name": "Room Rent",
         "quote": "Reasonable and Customary Charges for Room Rent for accommodation in Hospital room and other boarding charges up to the limits as specified in the Policy Schedule / Product Benefit Table of this Policy;",
         "reference": "Section C.I.(a) In-patient Hospitalization – What is covered",
-        "explanation": "Room rent is capped as per schedule/benefit table (not 'no limit/any room'). This can restrict hospital choices and indirectly impact other bill components."
+        "explanation": "Room rent is capped as per the policy schedule and not unlimited. This can restrict hospital room choices and may lead to proportionate deductions."
       },
       {
-        "name": "Proportionate (rateable) deduction applies if you take higher room category than eligible",
+        "name": "Proportionate Deduction",
         "quote": "If the Insured Person is admitted in a room category/limit that is higher than the one that is specified in the Policy Schedule / Product Benefit Table of this Policy, then the Insured Person shall bear a rateable proportion of the total Associated Medical Expenses",
         "reference": "Section C.I.(a) In-patient Hospitalization – Conditions (2)",
-        "explanation": "If you choose a room above eligibility, insurer can apply proportionate deductions on associated medical expenses (OT, doctor fees, nursing, etc.), increasing out-of-pocket."
+        "explanation": "Choosing a room above the eligible category triggers proportionate deductions on medical expenses, increasing your out-of-pocket costs."
       },
       {
-        "name": "Restore benefit not mentioned (assume not available)",
+        "name": "Restore Benefit",
         "quote": "The Sum Insured and/or the sub-limit for each Benefit under Section C.I is specified against that Benefit in the Policy Schedule / Product Benefit Table of this Policy.",
         "reference": "Section C (Benefits Covered Under the Policy) – introductory text",
-        "explanation": "No restore/reinstatement benefit is described in the provided text. Assume no restore benefit: Sum Insured is NOT replenished after a claim."
+        "explanation": "No restore or reinstatement benefit is mentioned, so the Sum Insured is not replenished after a claim, limiting coverage for multiple claims."
       },
       {
-        "name": "Consumables not covered (non-medical expenses excluded; consumables list shown as non-payable)",
+        "name": "Consumables",
         "quote": "Non-Medical Expenses including but not limited to ... as specified in the Annexure B - Non- Medical Expenses and on Our website",
         "reference": "Specific Exclusions, point 50; Annexure B - List of Non-Medical Expenses",
-        "explanation": "Annexure B lists common consumables/non-medical items (e.g., gloves, masks, kits) as non-payable, leading to out-of-pocket expenses."
+        "explanation": "Common consumables like gloves and masks are excluded, meaning you may have to pay for these items out-of-pocket."
       },
       {
-        "name": "Pre-hospitalization period not specified in wording (assume not covered for this analysis)",
+        "name": "Pre-hospitalization Cover",
         "quote": "We shall cover on a reimbursement basis, up to the Sum Insured for the number of days as specified in the Policy Schedule / Product Benefit Table of this Policy, the Insured Person’s Pre-hospitalization Medical Expenses",
         "reference": "Section C.I.(b) Pre – hospitalization Medical Expenses",
-        "explanation": "The number of days is not provided in the text (depends on schedule). Per instructions, if not found, treat as not covered/unknown here: Pre-hospitalization benefit not confirmed from provided extract."
+        "explanation": "The pre-hospitalization period is not specified in the text, so coverage cannot be confirmed and should be assumed absent."
       },
       {
-        "name": "Post-hospitalization period not specified in wording (assume not covered for this analysis)",
+        "name": "Post-hospitalization Cover",
         "quote": "We shall cover on a reimbursement basis, up to the Sum Insured for the number of days specified in the Policy Schedule / Product Benefit Table of this Policy, the Insured Person’s Post-hospitalization Medical Expenses",
         "reference": "Section C.I.(c) Post – hospitalization Medical Expenses",
-        "explanation": "The number of days is not provided in the text (depends on schedule). Per instructions, if not found, treat as not covered/unknown here: Post-hospitalization benefit not confirmed from provided extract."
+        "explanation": "The post-hospitalization period is not specified, so coverage cannot be confirmed and should be assumed absent."
       },
       {
-        "name": "No NCB / renewal bonus mentioned (assume absent)",
+        "name": "No NCB",
         "quote": "The Policy Schedule shall specify which of the following covers are in force and available for the Insured Persons under the Policy during the Policy Period.",
         "reference": "Section A (Preamble / Key Notes)",
-        "explanation": "No No-Claim Bonus / cumulative bonus / renewal bonus feature is described in the provided text. Assume no NCB: Sum Insured does not grow at renewal."
+        "explanation": "No No-Claim Bonus or renewal bonus is mentioned, so the Sum Insured does not increase on claim-free renewals."
+      },
+      {
+        "name": "Co-pay",
+        "quote": "Co-payment means a cost sharing requirement under a health insurance policy that provides that the policyholder/insured will bear a specified percentage of the admissible claims amount.",
+        "reference": "Section B (Definitions) – Co-payment definition",
+        "explanation": "Co-payment is defined but no specific percentage or applicability is stated, so it is unclear if or when co-pay applies."
       }
     ],
     "unclear": [
       {
-        "name": "Co-pay not explicitly stated",
-        "quote": "Co-payment means a cost sharing requirement under a health insurance policy that provides that the policyholder/insured will bear a specified percentage of the admissible claims amount.",
-        "reference": "Section B (Definitions) – Co-payment definition",
-        "explanation": "The document defines co-payment but does not clearly state whether any co-pay applies by default (and if yes, the percentage/when it applies). Verify in Policy Schedule / Product Benefit Table."
-      },
-      {
-        "name": "Deductible amount not specified in wording (top-up is deductible-driven)",
+        "name": "Deductible",
         "quote": "All claims under these Benefits will be payable only if the aggregate of covered Medical Expenses... in a Policy Year is in excess of the Deductible as stated in the Policy Schedule/Product Benefit Table of this Policy",
         "reference": "Section C.I (Basic Covers) – applicability of deductible",
-        "explanation": "This is a top-up plan and the deductible is central to how claims pay, but the deductible amount is not given in the provided extract. Check the schedule."
+        "explanation": "The deductible amount is not specified in the text, so the threshold for claim payment is unclear."
       },
       {
-        "name": "Cashless network size not specified",
+        "name": "Cashless Network",
         "quote": "Cashless Facilities can be availed only at Our Network Providers/ Empaneled Service Providers. The complete list of Network Providers and Empaneled Service Providers is available on Our website",
         "reference": "Section F (Claims Procedure) – Cashless Facility",
-        "explanation": "Network exists, but the number of hospitals is not stated here. If network size is important to you, verify current list/size on insurer website."
+        "explanation": "A network exists but the number of hospitals is not stated, so the size and convenience of the cashless network is unclear."
       },
       {
-        "name": "Built-in additional Sum Insured buffer (restore/additional SI) not evidenced in extract",
+        "name": "Built-in SI Buffer",
         "quote": "The funds accumulated under HealthReturns TM may be utilized ... towards ... (i) In-patient Medical Expenses and Day Care Treatment, provided that the Sum Insured, is exhausted during the Policy Year.",
         "reference": "Section C.II.(l) HealthReturns™ – How can one spend HealthReturnsTM",
-        "explanation": "HealthReturns can be used after Sum Insured is exhausted, but it behaves like an earned wallet/benefit rather than a clearly stated insurer-provided additional SI buffer. Confirm from benefit table/schedule whether any separate automatic additional SI (restore/super NCB/secure benefit) exists."
+        "explanation": "HealthReturns funds can be used after Sum Insured is exhausted but this is not clearly an insurer-provided additional Sum Insured buffer; its exact nature is unclear."
       }
     ]
   },

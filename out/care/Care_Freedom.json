@@ -2,7 +2,7 @@
   "policyName": "Care Freedom",
   "insurer": "Care Health Insurance Limited",
   "sumInsured": "Not specified in provided extract (Schedule of Benefits/Policy Schedule will specify Benefit-wise Sum Insured; illustration shows examples like ₹3,00,000)",
-  "policyType": "Not specified",
+  "policyType": "Individual",
   "documentType": "Policy Wording",
   "summary": {
     "great": 1,
@@ -13,94 +13,94 @@
   "features": {
     "great": [
       {
-        "name": "Pre-existing Disease (PED) waiting period = 24 months",
+        "name": "PED Waiting",
         "quote": "Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first policy with insurer.",
         "reference": "Section 4.1(i)(a) Pre-existing Disease – code – Excl01",
-        "explanation": "24 months PED waiting is within standard/good market range and better than many plans that have 36-48 months."
+        "explanation": "Pre-existing diseases are excluded for 24 months from the start of coverage. This 24-month waiting period is better than many plans that have longer waits of 36 to 48 months."
       }
     ],
     "good": [
       {
-        "name": "Initial waiting period = 30 days (except accident)",
+        "name": "Initial Waiting",
         "quote": "Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident",
         "reference": "Section 4.1(i)(c) 30-Day waiting period – code – Excl03",
-        "explanation": "30-day initial waiting period is standard in health insurance (accidents are typically exempt)."
+        "explanation": "Illnesses are not covered during the first 30 days except for accidents. This 30-day initial waiting period is standard in health insurance."
       },
       {
-        "name": "Specific illness waiting period = 24 months",
+        "name": "Specific Illness Waiting",
         "quote": "Expenses related to the treatment of the listed Conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage",
         "reference": "Section 4.1(i)(b) Specific waiting period – code – Excl02",
-        "explanation": "24 months for listed diseases/procedures is industry standard."
+        "explanation": "Certain listed diseases and treatments are excluded for 24 months from policy start. This 24-month waiting period is industry standard."
       },
       {
-        "name": "Pre-hospitalization & post-hospitalization covered (duration depends on Schedule of Benefits; post-cover after policy end protected up to 30 days)",
+        "name": "Pre-hospitalization Cover",
         "quote": "The Company will indemnify the Medical Expenses up to the amount specified against this Benefit in the Schedule of Benefits... As Pre-hospitalization Medical Expenses immediately prior... As Post-hospitalization Medical Expenses immediately following... provided that the Company shall not be liable... for any Post-hospitalization Medical Expenses that were incurred 30 days or more after the Policy End Date",
         "reference": "Section 3.1.4 Benefit 4",
-        "explanation": "Pre/post hospitalization is included, but the exact day limits are defined in the Schedule of Benefits. There is also an extension concept that bills up to <30 days after policy end can be considered (subject to other terms)."
+        "explanation": "Pre- and post-hospitalization expenses are covered with durations defined in the Schedule of Benefits. Post-hospitalization bills up to 30 days after policy end may also be considered."
       },
       {
-        "name": "Restore/Recharge benefit present (but only for unrelated illnesses/injuries after SI exhaust)",
+        "name": "Restore Benefit",
         "quote": "Benefit 7 : Recharge of Sum Insured... The Recharge shall be available only for all future Claims and not in relation to any Illness or Injury for which a Claim has already been admitted for that Insured Person during that Policy Year.",
         "reference": "Section 3.1.7 Benefit 7",
-        "explanation": "This is a restore/recharge feature, but it cannot be used for the same illness/injury for which a claim has already been admitted in that policy year."
+        "explanation": "The policy offers a restore benefit that recharges sum insured for new illnesses or injuries after the base sum insured is exhausted. It cannot be used for the same illness already claimed in that policy year."
       },
       {
-        "name": "Consumables: partial cover via fixed “Consumable Allowance”",
+        "name": "Consumables",
         "quote": "Benefit 2 : Consumable Allowance... The Company will pay the amount specified against this Benefit in the Schedule of Benefits for each continuous and completed period of 24 hours of Hospitalization",
         "reference": "Section 3.1.2 Benefit 2",
-        "explanation": "This is not full consumables coverage; it is an allowance paid per 24 hours (amount and plan details per Schedule of Benefits). It can reduce out-of-pocket, but may not match actual consumables billed."
+        "explanation": "A fixed allowance for consumables is paid per 24 hours of hospitalization. This reduces out-of-pocket costs but may not cover all actual consumable expenses."
       }
     ],
     "bad": [
       {
-        "name": "Room rent is capped (1% of Benefit 1 Sum Insured per day) with proportionate/ratable deduction",
+        "name": "Room Rent",
         "quote": "Room Rent = 1% of Benefit 1 Sum Insured as specified in the Schedule of Benefits per day of Hospitalization.",
         "reference": "Section 3.1.1(c)(i) II",
-        "explanation": "Room rent is not ‘any room/no limit’; it is capped as a % of SI per day. This can cause significant out-of-pocket in higher-tariff hospitals."
+        "explanation": "Room rent is capped at 1% of sum insured per day, not at actuals. This cap can cause significant out-of-pocket expenses in higher-cost hospitals."
       },
       {
-        "name": "Proportionate deduction applies if you take a higher room than eligible",
+        "name": "Proportionate Deduction",
         "quote": "then the Policyholder/ Insured Person shall bear the ratable proportion of the total Associate Medical Expenses... in the proportion of the difference between the Room Rent actually incurred and the Room Rent specified in the Policy Schedule",
         "reference": "Section 3.1.1(c)(i) I; also Clause 6.1.5(a)(i)",
-        "explanation": "If you choose a room above eligibility, not only room rent but also associated medical expenses can be reduced proportionately (a major claim-reduction risk)."
+        "explanation": "If you choose a room above the eligible limit, not only room rent but also related medical expenses are reduced proportionately. This can greatly reduce claim payouts."
       },
       {
-        "name": "Mandatory co-payment applies (policy states it applies on all benefits except a few)",
+        "name": "Co-pay",
         "quote": "Co-payment is applicable on all the Benefits / Optional Covers except Benefit 2, Benefit 3, Benefit 5, Benefit 7, Benefit 9, Optional Cover 2 & Optional Cover 3.",
         "reference": "Section 3. Benefits Covered Under The Policy – General Conditions applicable to all Benefits, clause (f)",
-        "explanation": "Co-pay is not optional by default here; it applies broadly across benefits (except the listed ones). Actual co-pay % is in the Policy Schedule, which can materially reduce claim payout."
+        "explanation": "Co-payment applies mandatorily on most benefits except a few. The actual co-pay percentage is in the schedule and can significantly reduce claim amounts."
       },
       {
-        "name": "Additional co-pay kicks in after age 71 (unless you pay extra premium to waive)",
+        "name": "Co-pay Loading",
         "quote": "The applicable Co-payment will increase by 10% per Claim in the Policy Year following the Insured Person... attaining Age 71... option to waive... upon payment of extra premium",
         "reference": "Section 6.2.2 Special Condition 2: Co-payment (b) and (c)",
-        "explanation": "After 71, co-pay increases by 10% per claim unless you pay extra premium (if eligible). This can significantly increase out-of-pocket for seniors."
+        "explanation": "After age 71, co-pay increases by 10% per claim unless extra premium is paid. This raises out-of-pocket costs for seniors."
       },
       {
-        "name": "Disease/procedure sub-limits apply for named ailments/procedures",
+        "name": "Disease Sub-limits",
         "quote": "The Company will indemnify... in respect of the below mentioned Ailments / Procedures up to the amount specified against each and every Ailment / Procedure mentioned in the Policy Schedule",
         "reference": "Section 3.1.1(c)(iii) Expenses incurred on treatment for Named Ailments / Procedures",
-        "explanation": "Sub-limits for common/high-cost conditions (e.g., cataract, knee replacement, hernia, cancer etc.) can sharply limit payout even when overall Sum Insured is higher."
+        "explanation": "The policy imposes rupee sub-limits on specific diseases and procedures, which can sharply limit payouts even if the overall sum insured is high."
       },
       {
-        "name": "Modern/advanced treatments are covered only for a listed set (others excluded)",
+        "name": "Modern Treatments",
         "quote": "Expenses related to any kind of Advance Technology Methods other than mentioned in the Clause 3.1.1 (d).",
         "reference": "Section 4.2(i) Specific Exclusions, point 5",
-        "explanation": "The policy lists certain advanced methods that are covered; other modern treatments outside that list are excluded, which can restrict access to newer procedures."
+        "explanation": "Only certain advanced treatments listed in the policy are covered; others are excluded. This restricts access to newer medical procedures."
       },
       {
-        "name": "Consumables list largely excluded as “Non-medical” items (out-of-pocket risk)",
+        "name": "Consumables Exclusions",
         "quote": "Annexure II - List of Expenses Generally Excluded (\"Non-medical\")... Gloves... Mask... Nebulisation Kit... Any Kit With No Details Mentioned",
         "reference": "Annexure II - List of Expenses Generally Excluded (Non-medical)",
-        "explanation": "Many commonly billed consumables/disposables are shown as generally excluded/non-payable, which can create out-of-pocket costs; the policy only provides a consumable allowance (not full reimbursement)."
+        "explanation": "Many commonly billed consumables are excluded as non-medical items, increasing out-of-pocket expenses since only a limited allowance is provided."
       }
     ],
     "unclear": [
       {
-        "name": "NCB / Cumulative Bonus / Renewal Bonus (whether it exists and whether it resets on claim)",
+        "name": "NCB",
         "quote": "Cumulative Bonus shall mean any increase in the Sum Insured granted by the insurer without an associated increase in premium.",
         "reference": "Definition 2.1.9",
-        "explanation": "The document defines Cumulative Bonus but does not specify the actual NCB/renewal bonus rate or whether it resets to zero on a claim. Confirm from Policy Schedule/benefit table."
+        "explanation": "The policy defines cumulative bonus but does not clarify the bonus rate or whether it resets to zero after a claim. This information should be confirmed from the policy schedule."
       }
     ]
   },

@@ -2,141 +2,141 @@
   "policyName": "Cancer Care Platinum",
   "insurer": "Star Health and Allied Insurance Company Limited",
   "sumInsured": "₹5,00,000 / ₹7,50,000 / ₹10,00,000 (as per Schedule of Benefits)",
-  "policyType": "Not specified",
+  "policyType": "Individual",
   "documentType": "Policy Wording",
   "summary": {
     "great": 2,
-    "good": 10,
-    "bad": 6,
-    "unclear": 2
+    "good": 9,
+    "bad": 8,
+    "unclear": 1
   },
   "features": {
     "great": [
       {
-        "name": "Hospice Care benefit (indemnity) available with 12-month waiting",
-        "quote": "Hospice Care : Payable up to 20% of sum insured at network providers on indemnity basis, payable once in life time. Available after a waiting period of 12 months from the policy inception.",
-        "reference": "Section I (o) Hospice Care",
-        "explanation": "Hospice care is covered (up to 20% of Sum Insured, once in lifetime) after 12 months waiting, which is relatively favorable for a specialized cancer-focused benefit."
-      },
-      {
-        "name": "All day care procedures covered",
+        "name": "Day Care Procedures",
         "quote": "g) All day care procedures are covered.",
         "reference": "Section I (g)",
-        "explanation": "Day care treatments (procedures that do not require 24-hour hospitalization) are covered."
+        "explanation": "Day care treatments that do not require 24-hour hospitalization are covered. This means you can claim for many minor procedures without needing full hospital admission."
+      },
+      {
+        "name": "Hospice Care",
+        "quote": "Hospice Care : Payable up to 20% of sum insured at network providers on indemnity basis, payable once in life time. Available after a waiting period of 12 months from the policy inception.",
+        "reference": "Section I (o) Hospice Care",
+        "explanation": "Hospice care is covered once in a lifetime up to 20% of the sum insured after a 12-month waiting period. This provides early specialized support for end-of-life care at network hospitals."
       }
     ],
     "good": [
       {
-        "name": "Room rent (default): Single Standard A/c room",
+        "name": "Room Rent",
         "quote": "a) Room (Single Standard A/c), Boarding, Nursing expenses as provided by the Hospital / Nursing Home.",
         "reference": "Section I (a)",
-        "explanation": "Room eligibility is Single Standard AC room, which is standard in many plans (not 'any room')."
+        "explanation": "Room rent is for a Single Standard AC room, which is a common standard in many health plans. This means you get a private room but not the highest category."
       },
       {
-        "name": "Initial waiting period: 30 days (except accidents)",
+        "name": "Initial Waiting Period",
         "quote": "Expenses related to the treatment of any illness within 30 days from the ﬁrst policy commencement date shall be excluded except claims arising due to an accident",
         "reference": "Exclusions, Code Excl 03 (30-day waiting period)",
-        "explanation": "Standard initial waiting period for illnesses; accidents are typically exempt."
+        "explanation": "Illnesses are not covered for the first 30 days except accidents. This is a standard waiting period protecting against immediate claims."
       },
       {
-        "name": "Specific illness / procedure waiting period: 24 months",
+        "name": "Specific Illness Waiting",
         "quote": "Expenses related to the treatment of the listed Conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the ﬁrst policy with us.",
         "reference": "Exclusions, Code Excl 02 (Specified disease / procedure waiting period)",
-        "explanation": "A standard 24-month waiting applies to listed specific diseases/procedures."
+        "explanation": "A 24-month waiting period applies for listed specific diseases and procedures. This is a typical duration before these conditions are covered."
       },
       {
-        "name": "PED waiting period: 30 months",
+        "name": "PED Waiting Period",
         "quote": "Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded until the expiry 30 months of continuous coverage after the date of inception of the ﬁrst policy with insurer.",
         "reference": "PED exclusion text shown in document (under exclusions section content near modern treatment table)",
-        "explanation": "Pre-existing diseases are covered after 30 months of continuous coverage. This is within the 'good' range (≤48 months)."
+        "explanation": "Pre-existing diseases are covered after 30 months of continuous coverage. This is within the acceptable range of 24 to 48 months."
       },
       {
-        "name": "Co-pay: 10% for entry age 61+",
-        "quote": "Copayment : This policy is subject to co-payment of 10% of each and every claim amount for fresh as well as renewal policies for insured persons whose age at the time of entry is 61 years and above.",
-        "reference": "Section I (p)",
-        "explanation": "Industry-standard senior-age co-pay: if entry age is 61+, you pay 10% of every claim."
-      },
-      {
-        "name": "Pre-hospitalization: 30 days",
+        "name": "Pre-hospitalization Cover",
         "quote": "e) Pre-hospitalization Expenses: Medical expenses incurred up to 30 days immediately before the insured person is hospitalized.",
         "reference": "Section I (e)",
-        "explanation": "Covers eligible medical expenses for 30 days before hospitalization (standard)."
+        "explanation": "Medical expenses up to 30 days before hospitalization are covered. This standard duration helps cover diagnostic and preparatory tests."
       },
       {
-        "name": "Post-hospitalization: 60 days (with 2% of SI cap per hospitalization)",
+        "name": "Post-hospitalization Cover",
         "quote": "f) Post Hospitalization Expenses: Medical expenses incurred up to 60 days immediately after the insured person is discharged from the hospital. The amount payable shall be up to 2% of the basic sum insured per hospitalization.",
         "reference": "Section I (f)",
-        "explanation": "Covers eligible expenses for 60 days post discharge, but payout is capped at 2% of Basic SI per hospitalization."
+        "explanation": "Expenses up to 60 days after discharge are covered, which is standard. However, note the payout cap mentioned separately."
       },
       {
-        "name": "NCB / Cumulative Bonus: 5% per claim-free year up to 50% (reduces on claims)",
+        "name": "No Claim Bonus",
         "quote": "Cumulative bonus calculated at 5% of basic sum insured for each claim free year subject to a maximum of 50% of the basic sum insured... In the event of a claim... such cumulative bonus so granted will be reduced at the same rate at which it has accrued",
         "reference": "Section C. CUMULATIVE BONUS",
-        "explanation": "NCB grows up to 50% but is reduced when claims occur (not a protected/non-resetting bonus)."
+        "explanation": "No claim bonus grows by 5% per claim-free year up to 50%, but reduces proportionally after a claim. This is a standard bonus structure."
       },
       {
-        "name": "AYUSH inpatient hospitalization covered (Yoga/Naturopathy with prior approval)",
+        "name": "AYUSH Treatment",
         "quote": "AYUSH Treatment: Medical expenses for Inpatient Hospitalization incurred on treatment under Ayurveda, Unani, Sidha and Homeopathy systems of medicines in a AYUSH Hospital is payable up to the sum insured. Note : Claims under Yoga and Naturopathy system of treatment will be payable subject to prior approval from the company.",
         "reference": "Section I (n)",
-        "explanation": "AYUSH inpatient treatments are covered up to SI; Yoga/Naturopathy needs prior approval."
+        "explanation": "Inpatient AYUSH treatments are covered up to the sum insured, with Yoga and Naturopathy needing prior approval. This aligns with common AYUSH coverage."
       },
       {
-        "name": "Optional add-on: Lump-sum cover for cancer recurrence/metastasis/second malignancy (30-month waiting)",
+        "name": "Optional Cover",
         "quote": "Section  II  Lumpsum Cover for Cancer (Optional Cover Available only if speciﬁcally opted on payment of additional premium and shown in the policy schedule)... A waiting period of 30 months is applicable for this lump-sum beneﬁt cover",
         "reference": "Section II",
-        "explanation": "Optional paid cover: pays a lump-sum for recurrence/metastasis/second unrelated malignancy after 30 months; it is in addition to the indemnity SI."
+        "explanation": "An optional lump-sum cancer cover is available after a 30-month waiting period. This is an add-on benefit beyond the base indemnity cover."
       }
     ],
     "bad": [
       {
-        "name": "Modern treatments covered with sub-limits (not at actuals)",
+        "name": "Modern Treatments",
         "quote": "Coverage for Modern treatment... is limited to the amount mentioned in table below.",
         "reference": "Section I (m)",
-        "explanation": "Modern treatments have explicit caps/sub-limits, which can increase out-of-pocket costs for advanced procedures."
+        "explanation": "Modern treatments have explicit monetary sub-limits, which can increase your out-of-pocket expenses for advanced procedures."
       },
       {
-        "name": "Cataract sub-limits",
+        "name": "Disease Sub-limits",
         "quote": "Cataract treatment: The company will pay the expenses incurred for treatment of cataract up to the limits mentioned below; ... 5,00,000/- 30,000/- per eye per person and not exceeding 40,000/- per person per policy period ... 7,50,000/- and 10,00,000/- 40,000/- per eye per person and not exceeding 60,000/- per person per policy period",
         "reference": "Section I (h) and cataract limit table",
-        "explanation": "Cataract has defined monetary caps, which can be restrictive depending on hospital/doctor charges."
+        "explanation": "Cataract treatment has fixed monetary caps per eye and per policy period, which may be restrictive depending on actual treatment costs."
       },
       {
-        "name": "Room-category linked proportionate deductions apply (because room is capped to Single Standard AC)",
+        "name": "Proportionate Deduction",
         "quote": "Hospitalisation expenses which vary based on the room occupied by the insured person will be considered in proportion to the room category stated in the policy schedule or actuals whichever is less.",
         "reference": "Section I (a) Note; also aligns with 'Associated Medical Expenses' definition",
-        "explanation": "If you take a higher room category than eligible, proportionate deductions can reduce payouts for certain associated medical expenses (beyond just the room rent difference)."
+        "explanation": "If you choose a room higher than the eligible Single Standard AC, claim amounts for related expenses will be proportionately reduced, lowering your payout."
       },
       {
-        "name": "Post-hospitalization payout capped at 2% of Basic SI per hospitalization",
+        "name": "Post-hospitalization Cap",
         "quote": "The amount payable shall be up to 2% of the basic sum insured per hospitalization.",
         "reference": "Section I (f)",
-        "explanation": "Even though 60 days is covered, the payable amount is capped at 2% of SI per hospitalization, which can be limiting for expensive medicines/follow-ups."
+        "explanation": "Although post-hospitalization expenses are covered for 60 days, the payout is capped at 2% of the basic sum insured per hospitalization, which may limit claim amounts."
       },
       {
-        "name": "No restore benefit mentioned (mandatory feature) — Sum Insured not replenished after claim",
+        "name": "Restore Benefit",
         "quote": "Not mentioned in the provided policy wording text.",
         "reference": "Document review: no restore/reinstatement/recharge clause found in provided pages",
-        "explanation": "No restore/recharge benefit is stated here. After a claim exhausts the Sum Insured, it may not be replenished for the same policy year."
+        "explanation": "There is no mention of a restore or recharge benefit, so once the sum insured is exhausted, it is not replenished during the policy year."
       },
       {
-        "name": "Consumables not explicitly covered (mandatory feature) — likely out-of-pocket",
+        "name": "Consumables",
         "quote": "Not mentioned in the coverage as 'consumables covered' or any consumables add-on/benefit.",
         "reference": "Section I coverage list (a)-(p) does not state consumables are covered separately",
-        "explanation": "The policy does not explicitly state that consumables (gloves, syringes, PPE, etc.) are covered as a separate benefit. If hospitals bill these separately, they may be payable by you unless included under other admissible heads as per insurer rules."
+        "explanation": "Consumables like gloves, syringes, and PPE are not explicitly covered, so you may have to pay for these separately if billed by the hospital."
+      },
+      {
+        "name": "Co-pay",
+        "quote": "Copayment : This policy is subject to co-payment of 10% of each and every claim amount for fresh as well as renewal policies for insured persons whose age at the time of entry is 61 years and above.",
+        "reference": "Section I (p)",
+        "explanation": "A 10% co-pay applies only for entry age 61 and above. This is a common senior-age co-pay and does not affect younger insured persons."
+      },
+      {
+        "name": "Co-pay Applicability",
+        "quote": "Copayment : This policy is subject to co-payment of 10%... for insured persons whose age at the time of entry is 61 years and above.",
+        "reference": "Section I (p)",
+        "explanation": "Co-pay is clearly stated for entry age 61+, but the policy does not explicitly confirm if co-pay is zero for younger ages. Clarification from insurer or schedule is needed."
       }
     ],
     "unclear": [
       {
-        "name": "Co-pay for ages below 61: not explicitly stated (mandatory reporting)",
-        "quote": "Copayment : This policy is subject to co-payment of 10%... for insured persons whose age at the time of entry is 61 years and above.",
-        "reference": "Section I (p)",
-        "explanation": "The document clearly states co-pay for entry age 61+, but it does not explicitly say 'no co-pay' for others. Confirm from the policy schedule/insurer whether co-pay is 0% for entry age <61."
-      },
-      {
-        "name": "NCB treatment on claims: reduction mechanism described but 'reset to zero' not explicitly stated",
+        "name": "NCB Reduction",
         "quote": "In the event of a claim resulting in... the cumulative bonus so granted will be reduced at the same rate at which it has accrued... Full utilization of Basic Sum Insured and full utilization of cumulative bonus accrued, the cumulative bonus on renewal will be “nil”",
         "reference": "Section C. CUMULATIVE BONUS (Special Conditions 3)",
-        "explanation": "The wording explains reductions and can lead to 'nil' bonus depending on utilization, but the exact behavior for small claims (e.g., whether bonus reduces proportionately every time and how it is computed) should be confirmed via examples/insurer."
+        "explanation": "The policy states that cumulative bonus reduces proportionally after claims, but exact details on how small claims affect bonus and calculation examples are not provided."
       }
     ]
   },

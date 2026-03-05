@@ -2,99 +2,99 @@
   "policyName": "Care Advantage",
   "insurer": "Care Health Insurance Limited",
   "sumInsured": "As per Policy Schedule (not provided in extract)",
-  "policyType": "Not specified",
+  "policyType": "Individual | Family Floater",
   "documentType": "Policy Wording",
   "summary": {
     "great": 4,
     "good": 5,
-    "bad": 2,
-    "unclear": 2
+    "bad": 3,
+    "unclear": 1
   },
   "features": {
     "great": [
       {
-        "name": "Room rent / room category: No sub-limit (Any room)",
+        "name": "Room Rent",
         "quote": "Eligibility of Room Category of the insured person is 'no sub-limit', which means that there is no separate restriction on Room/Boarding and nursing expenses in case of Hospitalization.",
         "reference": "Clause 3.1.1(iii)(a) – Benefit 1 Hospitalization Expenses",
-        "explanation": "Default plan has no room category restriction, so you can choose any room type without room-rent capping impacting eligibility."
+        "explanation": "You can choose any room type during hospitalization without any limit on room rent, so your room rent expenses won't reduce your claim amount."
       },
       {
-        "name": "Restore (Automatic Recharge): once per year, usable for same illness too",
+        "name": "Restore Benefit",
         "quote": "automatically make the re-instatement of up to the base Sum Insured once in a policy year... Recharge amount can be utilized for same illness as well as different Illnesses.",
         "reference": "Clause 3.1.6 – Benefit 6 Automatic Recharge",
-        "explanation": "After you exhaust base SI (and other listed buckets), the policy can restore up to base SI once per policy year, and it can be used even for the same illness."
+        "explanation": "The policy restores your base sum insured once per year, which you can use even for the same illness, giving you extra coverage after your limit is used up."
       },
       {
-        "name": "Built-in additional Sum Insured buffer for accidents (Optional Cover): activates after base SI exhausted",
+        "name": "Built-in SI Buffer",
         "quote": "the Company shall automatically provide an additional Sum Insured equal to the Sum Insured... (i) ...utilized only after the Sum Insured has been completely exhausted;",
         "reference": "Clause 3.2.10 – Optional Cover 10 Additional Sum Insured for Accidental Hospitalization",
-        "explanation": "If you opt this cover, you get an extra SI for accidental hospitalization that kicks in after exhausting the existing SI, improving protection in high-cost accidental events."
+        "explanation": "If you opt for this cover, you get extra sum insured for accidents that activates only after your main sum insured is fully used, enhancing your financial protection."
       },
       {
-        "name": "Modern/advanced treatments listed (no sub-limit mentioned in clause)",
+        "name": "Modern Treatments",
         "quote": "The Company will indemnify... for treatment taken through following advance technology methods: ... Robotic surgeries ... Immunotherapy- Monoclonal Antibody ... Stem cell therapy: Hematopoietic stem cells...",
         "reference": "Clause 3.1.1(iv) – Advance Technology Methods",
-        "explanation": "The policy explicitly covers multiple modern treatment modalities under hospitalization, reducing the risk of denial merely because the treatment is advanced/tech-enabled."
+        "explanation": "Advanced treatments like robotic surgery and immunotherapy are covered without sub-limits, so you won't face restrictions for these modern procedures."
       }
     ],
     "good": [
       {
-        "name": "Pre-existing disease (PED) waiting period: 36 months",
+        "name": "PED Waiting Period",
         "quote": "Expenses related to the treatment of a pre-existing Disease (PED)... shall be excluded until the expiry of 36 months of continuous coverage",
         "reference": "Clause 4.1(a)(i) – Waiting Periods (Excl01)",
-        "explanation": "3-year PED wait is within common market range."
+        "explanation": "Pre-existing diseases are excluded for 36 months, which is a common waiting period in the market before coverage starts."
       },
       {
-        "name": "Specific illness/procedure waiting period: 24 months",
+        "name": "Specific Illness Waiting",
         "quote": "Expenses related to the treatment of the listed Conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage",
         "reference": "Clause 4.1(a)(ii) – Specific Waiting Period (Excl02)",
-        "explanation": "2-year specific disease wait is standard."
+        "explanation": "Certain listed illnesses and procedures have a 24-month waiting period, which is standard in most policies."
       },
       {
-        "name": "Initial waiting period: 30 days (illness), accident covered from day 1",
+        "name": "Initial Waiting Period",
         "quote": "Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident",
         "reference": "Clause 4.1(a)(iii) – 30-day waiting period (Excl03)",
-        "explanation": "Standard initial wait for illnesses; accidents are exempt."
+        "explanation": "Illnesses are not covered for the first 30 days except accidents, which is a typical initial waiting period."
       },
       {
-        "name": "Pre-hospitalization cover: 30 days",
+        "name": "Pre-hospitalization Cover",
         "quote": "Under Pre-hospitalization Medical Expenses, for a period of 30 days immediately prior to the Insured Person's date of admission",
         "reference": "Clause 3.1.2(i) – Benefit 2",
-        "explanation": "Covers eligible medical expenses for 30 days before admission, linked to an admissible hospitalization claim."
+        "explanation": "Medical expenses up to 30 days before hospitalization are covered, helping you with costs leading to your admission."
       },
       {
-        "name": "Post-hospitalization cover: 60 days",
+        "name": "Post-hospitalization Cover",
         "quote": "Under Post-hospitalization Medical Expenses, for a period of 60 days immediately after the Insured Person's date of discharge",
         "reference": "Clause 3.1.2(ii) – Benefit 2",
-        "explanation": "Covers eligible medical expenses for 60 days after discharge, linked to an admissible hospitalization claim."
+        "explanation": "Medical expenses up to 60 days after discharge are covered, assisting with recovery costs after your hospital stay."
       }
     ],
     "bad": [
       {
-        "name": "Consumables / non-medical items not covered (out-of-pocket)",
+        "name": "Consumables",
         "quote": "Any item or condition or treatment specified in List of Non-Medical Items (Annexure – II to Policy Terms & Conditions).",
         "reference": "Clause 4.2(a)(1) + Annexure II (List of Expenses Generally Excluded)",
-        "explanation": "Items like gloves, masks, nebulisation kit, etc. listed in Annexure II can become out-of-pocket unless billed in a way that is subsumed/allowed as per that annexure structure."
+        "explanation": "Items like gloves and masks are excluded and must be paid out-of-pocket, increasing your expenses during hospitalization."
       },
       {
-        "name": "NCB reduces on claim (can reduce next year)",
+        "name": "No Claims Bonus",
         "quote": "In the event of a Claim occurring during any Policy Year, the accrued No Claims Bonus will be reduced at same rate at which it is accrued at the commencement of next Policy Year;",
         "reference": "Clause 3.1.5(vii) – Benefit 5 No Claims Bonus",
-        "explanation": "Your accumulated NCB is not fully protected; it can reduce after a claim, which limits long-term SI build-up."
+        "explanation": "Your no-claims bonus reduces after a claim, limiting your ability to build higher sum insured over time."
+      },
+      {
+        "name": "Co-pay",
+        "quote": "The Co-payment proportion (if applicable) as specified in the Policy Schedule shall be borne by the Policyholder / Insured Person on each Claim",
+        "reference": "General Conditions Applicable to all the Benefits – Point 3",
+        "explanation": "The policy mentions co-payment may apply but does not specify the percentage, so check your policy schedule to know if and how much co-pay you must pay."
       }
     ],
     "unclear": [
       {
-        "name": "Co-payment: % not specified in wording (depends on Policy Schedule / optional covers chosen)",
-        "quote": "The Co-payment proportion (if applicable) as specified in the Policy Schedule shall be borne by the Policyholder / Insured Person on each Claim",
-        "reference": "General Conditions Applicable to all the Benefits – Point 3",
-        "explanation": "The document confirms co-pay can apply, but the exact percentage (including whether it is 0% by default) is not visible here. Check your Policy Schedule and whether Optional Covers like 'Smart Select' / 'Co-Payment Option' were selected."
-      },
-      {
-        "name": "Daily/Procedure disease sub-limits: may apply if specified in Policy Schedule (not shown here)",
+        "name": "Disease Sub-limits",
         "quote": "If any sub-limits on Room Rent/Category for Medical Expenses are applicable as specified in the Policy Schedule... For diseases or conditions or procedure that have a specified sub-limit then all related expenses shall be covered up to the sub-limit specified",
         "reference": "Clause 6.1.6(b)(iii) and Clause 6.1.7(h)",
-        "explanation": "The wording allows for disease/procedure sub-limits if listed in your Policy Schedule, but the extract does not show whether any sub-limits are actually applied to your policy."
+        "explanation": "The policy allows disease or procedure sub-limits if listed in your schedule, but it is unclear if any apply to your coverage."
       }
     ]
   },

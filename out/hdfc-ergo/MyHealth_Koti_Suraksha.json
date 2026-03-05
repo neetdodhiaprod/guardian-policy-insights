@@ -2,105 +2,105 @@
   "policyName": "MyHealth Koti Suraksha",
   "insurer": "HDFC ERGO General Insurance Company Limited",
   "sumInsured": "Not specified in provided extract (depends on Policy Schedule)",
-  "policyType": "Not specified",
+  "policyType": "Individual | Family Floater",
   "documentType": "Policy Wording",
   "summary": {
     "great": 1,
     "good": 5,
-    "bad": 5,
-    "unclear": 3
+    "bad": 6,
+    "unclear": 2
   },
   "features": {
     "great": [
       {
-        "name": "NCB / Renewal Bonus (non-resetting; added irrespective of claims)",
+        "name": "NCB",
         "quote": "“a sum equal to 50% of the Base Sum Insured of the expiring Policy shall be provided as Cumulative Bonus irrespective of any claims… Cumulative Bonus can be accumulated upto 100% of Basic Sum Insured.”",
         "reference": "Section 1.A.III.4 – Cumulitive Bonus (page 22 as per TOC; exact page in extract shows the clause under 'III. my:health Active')",
-        "explanation": "Your Sum Insured increases by 50% of Base SI on renewal even if you made claims (up to 100% of Base SI). This is better than typical NCBs that reduce/reset after claims."
+        "explanation": "You get a 50% bonus on your base Sum Insured at renewal even if you made claims, up to 100% of the base amount. This means your coverage can increase over time without losing bonus due to claims."
       }
     ],
     "good": [
       {
-        "name": "PED waiting period (36 months)",
+        "name": "PED Waiting",
         "quote": "“Expenses related to the treatment of a pre-existing disease (PED)… shall be excluded until the expiry of 36 months of continuous coverage after the date of inception of the first policy with insurer.”",
         "reference": "Section 1.B.I.i) Pre-existing Diseases: Code – Excl01 (page 26-27 area in extract)",
-        "explanation": "3-year PED waiting is within standard market range (2–4 years) and is not a red flag."
+        "explanation": "Pre-existing diseases are excluded for 36 months from the start of coverage. This 3-year waiting period is within the normal market range and not a concern."
       },
       {
-        "name": "Specific illness/procedure waiting period (24 months)",
+        "name": "Specific Illness Waiting",
         "quote": "“Expenses related to the treatment of the listed Conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage…”",
         "reference": "Section 1.B.I.ii) Specified Disease/Procedure waiting period: Code – Excl02 (page 26-27 area in extract)",
-        "explanation": "2-year specific illness waiting is standard."
+        "explanation": "Certain listed illnesses and procedures are excluded for 24 months from policy start. This 2-year waiting period is standard in the industry."
       },
       {
-        "name": "Initial waiting period (30 days)",
+        "name": "Initial Waiting",
         "quote": "“Expenses related to the treatment of any illness within 30 days from the first Policy commencement date shall be excluded except claims arising due to an Accident…”",
         "reference": "Section 1.B.I.iii) 30-day waiting period: Code – Excl03 (page 27-29 area in extract)",
-        "explanation": "30-day initial waiting is standard in health insurance."
+        "explanation": "Illnesses are not covered during the first 30 days except accidents. This 30-day initial waiting period is typical for health policies."
       },
       {
-        "name": "Pre-hospitalization (60 days)",
+        "name": "Pre-hospitalization",
         "quote": "“We will pay for the Pre - Hospitalization Medical Expenses incurred during the 60 days immediately before Hospitalization…”",
         "reference": "Section 1.A.I.4 Pre-Hospitalization cover (page 17 area in extract)",
-        "explanation": "Covers eligible medical expenses for 60 days before admission, which is industry-standard."
+        "explanation": "Medical expenses up to 60 days before hospital admission are covered. This duration meets the standard market practice."
       },
       {
-        "name": "Post-hospitalization (180 days)",
+        "name": "Post-hospitalization",
         "quote": "“We will pay for the Post Hospitalization Medical Expenses incurred upto180 days from the date Insured Person is discharged…”",
         "reference": "Section 1.A.I.5 Post-Hospitalization cover (page 17 area in extract)",
-        "explanation": "Covers eligible medical expenses up to 180 days after discharge, which is standard/good."
+        "explanation": "Medical expenses up to 180 days after discharge are covered. This is a good post-hospitalization coverage period."
       }
     ],
     "bad": [
       {
-        "name": "Room rent limit + proportionate deduction (default cap: Single Standard AC Room)",
+        "name": "Room Rent",
         "quote": "“Insured Person is eligible for Room Rent category of up to Single Standard AC Room. In case of admission to a room exceeding the aforesaid category, the reimbursement/payment of Room Rent charges including all Associated Medical Expenses… shall be effected in the same proportion…”",
         "reference": "Section 1.A.I.1 Medical Expenses – Special Conditions (i) Room Rent & Proportionate deduction (page 16 area in extract)",
-        "explanation": "Room eligibility is capped at Single Standard AC Room and can trigger proportionate deductions if you choose a higher room category, increasing out-of-pocket costs."
+        "explanation": "Room rent is capped at Single Standard AC Room and choosing a higher room triggers proportionate deductions, increasing your out-of-pocket costs."
       },
       {
-        "name": "Disease/Procedure sub-limits (capping on common surgeries)",
+        "name": "Disease Sub-limits",
         "quote": "“Procedure Sub-limits… Cataract per eye 75,000… Hernia Related 75,000… Hysterectomy 75,000… (and other listed procedures)”",
         "reference": "Section 1.A.I.1 Medical Expenses – Special Conditions (ii) Procedure Sub-limits; Table I (page 16 area in extract)",
-        "explanation": "Fixed sub-limits can significantly reduce payout for these procedures if hospital costs exceed the cap."
+        "explanation": "Fixed sub-limits on common procedures can reduce your claim payout if hospital costs exceed these caps."
       },
       {
-        "name": "Restore benefit (not found) — mandatory feature",
+        "name": "Restore Benefit",
         "quote": "Not found in provided document extract.",
         "reference": "Policy wording excerpt provided (no restore/reinstatement clause located; 'Sum Insured Rebound' appears only as an optional cover)",
-        "explanation": "No restore benefit: Sum Insured is NOT replenished after a claim (unless you opt the separate 'Sum Insured Rebound' optional cover as per schedule)."
+        "explanation": "Sum Insured is not replenished after a claim unless you opt for a separate optional cover, limiting your coverage for subsequent claims."
       },
       {
-        "name": "Consumables (not covered by default; only optional non-medical cover)",
+        "name": "Consumables",
         "quote": "“Non-Medical Expenses… are expenses other than those defined as Medical Expenses… Full list of Non -Medical expenses… (includes items like gloves, mask, nebulization kit etc.)” and “Optional Covers… 1. Non-Medical Expenses cover: We will pay for Non-Medical Expenses up to the limit mentioned…”",
         "reference": "Def. 30 Non-Medical Expenses (page 11 area); Optional Cover 1 Non-Medical Expenses cover (page 23 area); Annexure I list includes “GLOVES”, “MASK”, “NEBULISATION KIT” etc.",
-        "explanation": "Consumables/non-medical items are generally out-of-pocket by default. They are payable only if you buy the optional Non-Medical Expenses cover (limits as per schedule)."
+        "explanation": "Consumables like gloves and masks are not covered by default and require an optional cover, meaning you may pay out-of-pocket for these items."
       },
       {
-        "name": "Co-pay terms can apply (mandatory when applicable; tier-based 20% outside zone) — terms depend on schedule",
+        "name": "Co-pay",
         "quote": "“Insured Person shall bear specified percentage of admissible Claim amount under each and every Claim, where Co-payment is applicable and as specified in the Schedule of Coverage…” and “On payment of Tier 2 premium… if Insured Person avails a treatment in Tier 1a or Tier1b cities, 20% Co-Payment shall be applicable on admissible claim amount.”",
         "reference": "Section 1.B.II Specific: Co-payment (page 29 area in extract); Section C – Specific General Terms & Clauses: Premium Tier (page 68 area in extract)",
-        "explanation": "If your schedule/tier makes co-pay applicable, it is a real reduction in claim payout (e.g., 20% co-pay for treatment outside the premium tier zone). You can mitigate only if you choose Tier 1a (as per wording) or opt the 'Waiver of Co-Payment' optional cover (if available/opted)."
+        "explanation": "Co-payments can apply mandatorily, such as a 20% co-pay for treatments outside your premium tier zone, reducing your claim amount."
+      },
+      {
+        "name": "Co-pay",
+        "quote": "“Co-payment is applicable and as specified in the Schedule of Coverage in the Policy Schedule.”",
+        "reference": "Section 1.B.II Specific: Co-payment (page 29 area in extract)",
+        "explanation": "The exact co-pay percentage depends on your Policy Schedule, so check your schedule to know if co-pay applies and its rate."
       }
     ],
     "unclear": [
       {
-        "name": "Cashless network size (number of hospitals)",
+        "name": "Cashless Network",
         "quote": "“The complete list of Network Providers… is available on Our website and can be obtained by contacting Us.”",
         "reference": "Section 1.C.3 Conditions for obtaining Cashless facility (page 34-35 area in extract)",
-        "explanation": "The document does not state how many network hospitals are available. Confirm the current count and hospitals near you."
+        "explanation": "The policy does not specify the number of network hospitals; you should verify the current network size and availability near you."
       },
       {
-        "name": "Base plan co-pay applicability (percentage) from Policy Schedule",
-        "quote": "“Co-payment is applicable and as specified in the Schedule of Coverage in the Policy Schedule.”",
-        "reference": "Section 1.B.II Specific: Co-payment (page 29 area in extract)",
-        "explanation": "Exact co-pay % (other than the premium-tier 20% outside tier cities) depends on your Policy Schedule. Verify your schedule for any default co-pay and whether 'Waiver of Co-Payment' was opted."
-      },
-      {
-        "name": "Sum Insured Rebound / additional SI buffer (optional cover; depends on being opted and schedule limits)",
+        "name": "Built-in SI Buffer",
         "quote": "“IV. Optional Covers… These Covers are optional and applicable only if opted for… 9. Sum Insured Rebound… We will add to the Sum Insured, an amount equivalent to the Claim amount paid under Basic Sum Insured, subject to maximum of Basic Sum Insured…”",
         "reference": "Section 1.A.IV Optional Covers – 9. Sum Insured Rebound (page 24-25 area in extract)",
-        "explanation": "This is an additional Sum Insured buffer, but it applies only if you opted for this optional cover and is subject to conditions/limits in the schedule."
+        "explanation": "An additional Sum Insured buffer is available only if you opt for this optional cover, and it is subject to limits specified in your policy schedule."
       }
     ]
   },

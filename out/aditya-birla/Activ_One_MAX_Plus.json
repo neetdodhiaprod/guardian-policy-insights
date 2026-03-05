@@ -2,107 +2,106 @@
   "policyName": "Activ One MAX+",
   "insurer": "Aditya Birla Health Insurance Co. Limited",
   "sumInsured": "2 Lacs to 6 Crores (Base Sum Insured options listed); Sum Insured may include Base Sum Insured + Super Reload + Super Credit (+ Cancer Booster if opted)",
-  "policyType": "Not specified",
+  "policyType": "Individual | Family Floater",
   "documentType": "Mixed",
   "summary": {
     "great": 8,
-    "good": 3,
-    "bad": 2,
-    "unclear": 1
+    "good": 2,
+    "bad": 4,
+    "unclear": 0
   },
   "features": {
     "great": [
       {
-        "name": "Room Rent: No limit (At actuals) up to Sum Insured",
+        "name": "Room Rent",
         "quote": "Room Rent: Actuals up to Sum Insured",
         "reference": "Annexure III - Product Benefit Table (Activ One MAX+)",
-        "explanation": "No room category restriction/capping in the product benefit table, so you can choose any room (subject to Sum Insured). This helps avoid room-rent linked deductions."
+        "explanation": "Room rent is covered at actual costs up to the sum insured without any category restrictions or capping. This means you can choose any room type without facing room rent linked deductions."
       },
       {
-        "name": "Pre-hospitalization: 90 days",
+        "name": "Pre-hospitalization Cover",
         "quote": "The Company shall indemnify the Pre-Hospitalization Medical Expenses incurred... for up to 90 days immediately prior to the date of such Hospitalization.",
         "reference": "Section C.2 Pre-Hospitalization Expenses",
-        "explanation": "Covers eligible medical expenses for 90 days before hospitalization (for the same condition and linked to an admissible hospitalization)."
+        "explanation": "Medical expenses incurred up to 90 days before hospitalization for the same condition are covered. This longer pre-hospitalization period helps cover diagnostic and treatment costs leading to hospitalization."
       },
       {
-        "name": "Built-in additional Sum Insured buffer: Super Reload (unlimited refills)",
+        "name": "Built-in SI Buffer",
         "quote": "We shall provide for a reload amounting to the Base Sum Insured (\"super Reload\"), unlimited times during the Policy Year",
         "reference": "Section C.10 Super Reload",
-        "explanation": "If your Base SI (and accumulated Super Credit, if any) is exhausted/insufficient, the insurer reloads up to Base SI unlimited times in the year (conditions apply, including applicability from the 2nd claim in policy life per benefit table)."
+        "explanation": "If your base sum insured is exhausted, the insurer reloads the sum insured up to the base amount unlimited times in the policy year, subject to conditions. This provides extra coverage beyond the base sum insured for multiple claims."
       },
       {
-        "name": "NCB / Renewal Bonus (non-resetting): Super Credit increases irrespective of claims",
+        "name": "NCB",
         "quote": "Super Credit (Increases Irrespective of Claim): 100% of Base Sum Insured per year, up to 500% of Base Sum Insured (up to Max of 3 Cr under this benefit)",
         "reference": "Annexure III - Product Benefit Table (Activ One MAX+)",
-        "explanation": "This is a strong renewal bonus because it grows even if you claim (i.e., it is non-resetting as described in the table). Exact caps depend on the schedule/benefit table."
+        "explanation": "The no-claim bonus increases your sum insured by 100% of the base sum insured each year even if you make claims, up to a maximum of 500%. This means your sum insured grows continuously without resetting after claims."
       },
       {
-        "name": "Consumables / Non-medical items: Covered if Claim Protect is applicable",
+        "name": "Consumables",
         "quote": "Non-payable items will be covered (all 4 lists of Annexure I)",
         "reference": "Annexure III - Product Benefit Table (Activ One MAX+); also Section C.4 Claim Protect (Non-Medical Expense Waiver)",
-        "explanation": "If Claim Protect is applicable/in force for you (as per policy schedule), non-medical consumables listed in Annexure I (all lists) are covered—reducing common out-of-pocket items like gloves, masks, syringes etc."
+        "explanation": "Non-medical consumables like gloves, masks, and syringes listed in Annexure I are covered if Claim Protect is active. This reduces common out-of-pocket expenses during hospitalization."
       },
       {
-        "name": "Domiciliary Hospitalization: Covered",
+        "name": "Domiciliary Hospitalization",
         "quote": "The Company shall indemnify the Medical Expenses incurred during the Policy Period on Domiciliary Hospitalization of the Insured Person",
         "reference": "Section C.5 Domiciliary Hospitalization",
-        "explanation": "Home-based treatment is covered when it would normally require hospitalization and meets conditions (including minimum 3 consecutive days)."
+        "explanation": "Home-based treatment that would otherwise require hospitalization is covered if it lasts at least 3 consecutive days. This allows coverage for treatment at home under specified conditions."
       },
       {
-        "name": "Bariatric surgery: Covered (subject to conditions)",
+        "name": "Bariatric Surgery",
         "quote": "Obesity Treatment: Medical Expenses incurred towards treatment... arising out of Hospitalization for a Bariatric Surgery during the Policy Period subject to the conditions that needs to be fulfilled as per Section D.1.6",
         "reference": "Section C.1.1.1(h) Obesity Treatment",
-        "explanation": "Bariatric surgery is covered if it meets the specified medical criteria in the obesity exclusion/conditions."
+        "explanation": "Bariatric surgery is covered when medical criteria specified in the policy are met. This provides coverage for obesity-related surgical treatment."
       },
       {
-        "name": "Modern treatments/procedures: Covered at actuals up to Sum Insured (listed procedures)",
+        "name": "Modern Treatments",
         "quote": "Modern Procedures / Treatments: Actuals up to Sum Insured for listed procedures",
         "reference": "Annexure III - Product Benefit Table (Activ One MAX+)",
-        "explanation": "Modern procedures are covered without a separate rupee sub-limit in the benefit table (for listed procedures), subject to overall Sum Insured."
+        "explanation": "Modern medical procedures listed in the policy are covered at actual costs up to the sum insured without separate sub-limits. This ensures better coverage for advanced treatments."
       }
     ],
     "good": [
       {
-        "name": "Initial waiting period: 30 days (non-accident)",
+        "name": "Initial Waiting Period",
         "quote": "Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident",
         "reference": "Section D.1.3 30-day Waiting Period (Code-Excl03)",
-        "explanation": "Standard 30-day initial waiting period for illnesses (accidents covered)."
+        "explanation": "Illness-related expenses are excluded for the first 30 days except for accidents. This is a standard waiting period in health insurance."
       },
       {
-        "name": "Specific illness/procedure waiting period: 24 months",
+        "name": "Specific Illness Waiting",
         "quote": "Expenses related to the treatment of the listed Conditions, surgeries / treatments shall be excluded until the expiry of 24 months of continuous coverage",
         "reference": "Section D.1.2 Specified disease / procedure Waiting Period (Code-Excl02)",
-        "explanation": "Standard 2-year waiting for listed specific conditions/procedures (e.g., cataract, hernia, piles, etc.)."
-      },
-      {
-        "name": "Optional cover trade-off: PPN discount with co-pay outside PPN hospitals",
-        "quote": "Preferred Provider Network (PPN) Discount... discount of 10%... If the Insured Person takes treatment... other than those listed as “Preferred Provider Network”, then... shall bear a Co-Payment of 10% on each and every claim",
-        "reference": "Section C.15.5 Preferred Provider Network (PPN) Discount",
-        "explanation": "Not a default restriction—this applies only if you opt for the 10% discount optional cover."
+        "explanation": "Treatment for specified illnesses and procedures is excluded for the first 24 months of coverage. This is a common waiting period for certain conditions."
       }
     ],
     "bad": [
       {
-        "name": "Restore Benefit: Not found (assumed not covered)",
+        "name": "Restore Benefit",
         "quote": "Not mentioned in the provided text.",
         "reference": "Document extract provided (no explicit Restore/Restore+ benefit clause found)",
-        "explanation": "No restore benefit identified in this extract. If absent, Sum Insured is NOT replenished after a claim (separately from Super Reload, which is a different refill mechanism). Please confirm from the policy schedule/benefit table for your exact variant."
+        "explanation": "No restore benefit is mentioned, so the sum insured is not replenished after a claim. This means you cannot restore your sum insured separately from the super reload feature."
       },
       {
-        "name": "Post-hospitalization: 180 days (not >180 days)",
+        "name": "Post-hospitalization Cover",
         "quote": "for up to 180 days from the date of discharge from the Hospital.",
         "reference": "Section C.3 Post-Hospitalization Expenses",
-        "explanation": "Coverage is limited to 180 days post-hospitalization; this is good, but not best-in-class (>180 days)."
-      }
-    ],
-    "unclear": [
+        "explanation": "Post-hospitalization expenses are covered for up to 180 days after discharge. While good, this does not exceed 180 days, so it is not best-in-class."
+      },
       {
-        "name": "Co-pay (default/base plan): Not explicitly stated (except via optional PPN cover)",
+        "name": "Co-pay (Optional)",
+        "quote": "Preferred Provider Network (PPN) Discount... discount of 10%... If the Insured Person takes treatment... other than those listed as “Preferred Provider Network”, then... shall bear a Co-Payment of 10% on each and every claim",
+        "reference": "Section C.15.5 Preferred Provider Network (PPN) Discount",
+        "explanation": "A 10% co-pay applies only if you opt for the PPN discount and go outside the preferred network. This is an optional co-pay, not mandatory."
+      },
+      {
+        "name": "Co-pay",
         "quote": "Co-Payment: means a cost sharing requirement... (definition provided).",
         "reference": "Section B.1.10 Co-Payment (definition); Section C.15.5 shows co-pay only under optional cover",
-        "explanation": "This extract defines co-payment and mentions a 10% co-pay only if you opt for the PPN Discount optional cover. It does not clearly state whether the base policy has any mandatory co-pay (e.g., for certain ages/claims). Verify in your Policy Schedule."
+        "explanation": "The policy defines co-payment but does not clearly state if the base plan has any mandatory co-pay. Only optional co-pay under PPN discount is mentioned, so the default co-pay status is unclear."
       }
-    ]
+    ],
+    "unclear": []
   },
   "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
 }

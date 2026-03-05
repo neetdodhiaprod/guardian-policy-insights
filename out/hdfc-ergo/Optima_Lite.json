@@ -2,119 +2,118 @@
   "policyName": "Optima Lite",
   "insurer": "HDFC ERGO General Insurance Company Limited",
   "sumInsured": "Plan-dependent (Base Sum Insured options shown: 5/7.5/10/15/20/25/50/75/100/200 Lakhs depending on plan)",
-  "policyType": "Not specified",
+  "policyType": "Individual | Family Floater",
   "documentType": "Mixed",
   "summary": {
     "great": 6,
     "good": 8,
-    "bad": 1,
-    "unclear": 1
+    "bad": 2,
+    "unclear": 0
   },
   "features": {
     "great": [
       {
-        "name": "Room rent (default): At Actuals / no capping",
-        "quote": "Room rent limit shall be ‘At Actuals’ unless otherwise specified in the Policy Schedule.",
+        "name": "Room Rent",
+        "quote": "Room rent limit shall be \u0002At Actuals\u0002 unless otherwise specified in the Policy Schedule.",
         "reference": "Section B.1.1 (Hospitalization Expenses), page 11",
-        "explanation": "No room rent cap by default (unless your Policy Schedule/plan variant states otherwise). This avoids proportionate deductions due to room category in most cases."
+        "explanation": "Room rent is covered at actual cost unless your Policy Schedule states otherwise, so you generally avoid limits or deductions based on room type."
       },
       {
-        "name": "Built-in additional Sum Insured buffer: Secure Benefit (after base SI exhausted)",
+        "name": "Built-in SI Buffer",
         "quote": "The Secure Benefit will be applicable only after exhaustion of Base Sum Insured.",
         "reference": "Section B.2.5 (Secure Benefit), page 17",
-        "explanation": "Extra insurer-provided buffer becomes available once Base Sum Insured is used up (amount depends on plan as per Policy Schedule/Annexure C)."
+        "explanation": "An additional sum insured buffer activates once your base sum insured is fully used, providing extra financial protection."
       },
       {
-        "name": "Restore Benefit: covers same illness too (Automatic Restore Benefit)",
+        "name": "Restore Benefit",
         "quote": "The restored Sum Insured can be used even for the same illness for which an admissible claim has been paid during the Policy Year and also for any other Illness covered under the Policy.",
         "reference": "Section B.2.6 (Automatic Restore Benefit), point vi, page 18",
-        "explanation": "Restoration is usable even for the same illness within the same policy year, which is better than many policies that restrict restore to unrelated illnesses."
+        "explanation": "Sum insured restoration can be used for the same illness within the policy year, allowing multiple claims for recurring conditions."
       },
       {
-        "name": "Post-hospitalization: 180 days",
+        "name": "Post-hospitalization Cover",
         "quote": "Such expenses shall be indemnified if the same were incurred upto 180 days unless otherwise specified in the Policy Schedule, immediately post the date of discharge from the Hospital.",
         "reference": "Section B.1.6 (Post-Hospitalization Expenses), page 13",
-        "explanation": "Covers follow-up costs for up to 180 days (strong coverage)."
+        "explanation": "Follow-up medical expenses are covered for up to 180 days after hospital discharge, ensuring extended care."
       },
       {
-        "name": "NCB/Renewal Bonus (non-resetting): Plus Benefit (50% irrespective of claims)",
+        "name": "NCB",
         "quote": "This Cover will be applied irrespective of number of claims made under the expiring Policy.",
         "reference": "Section B.2.4 (Plus Benefit), point c, page 16",
-        "explanation": "Renewal bonus under Plus Benefit does not get wiped out just because you made a claim (availability depends on the plan/Policy Schedule)."
+        "explanation": "No claim bonus or renewal benefit does not reset to zero after a claim, helping maintain your benefits even if you claim."
       },
       {
-        "name": "Consumables covered via optional Protect Benefit (non-medical expenses list / Annexure B)",
+        "name": "Consumables",
         "quote": "The Company shall indemnify the Insured Person for the Non-Medical Expenses listed under Annexure B to this Policy incurred in relation to a claim admissible under Section B-1 (Base Coverage)",
         "reference": "Section B.2.3 (Protect Benefit), page 15-16",
-        "explanation": "If Protect Benefit is opted/inbuilt in your plan, many typical consumables/non-medical items (e.g., gloves, masks etc. listed in Annexure B) can be covered, reducing out-of-pocket."
+        "explanation": "If the Protect Benefit is included, many consumables like gloves and masks are covered, reducing your out-of-pocket expenses."
       }
     ],
     "good": [
       {
-        "name": "PED waiting period: 36 months",
+        "name": "PED Waiting Period",
         "quote": "Expenses related to the treatment of a pre-existing disease (PED) and its direct complications shall be excluded until the expiry of 36 months (Unless specified otherwise in the Policy Schedule) of continuous coverage",
         "reference": "Section C.1.a (Pre-Existing Diseases), page 28",
-        "explanation": "3-year PED wait is standard in the market and considered acceptable."
+        "explanation": "Pre-existing diseases are excluded for 36 months, which is a standard waiting period in the market."
       },
       {
-        "name": "Specific illness/procedure waiting period: 24 months",
+        "name": "Specific Illness Waiting",
         "quote": "Expenses related to the treatment of the listed Conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage",
         "reference": "Section C.1.b (Specified Disease/Procedure waiting period), page 28",
-        "explanation": "2-year specific illness waiting is standard."
+        "explanation": "Specific illnesses and procedures have a 24-month waiting period before coverage begins, which is typical."
       },
       {
-        "name": "Initial waiting period: 30 days",
+        "name": "Initial Waiting Period",
         "quote": "Expenses related to the treatment of any illness within 30 days from the first Policy commencement date shall be excluded except claims arising due to an accident",
         "reference": "Section C.1.c (30-day waiting period), page 30",
-        "explanation": "Standard 30-day initial waiting for illnesses."
+        "explanation": "Illnesses are not covered during the first 30 days except for accidents, which is a common initial waiting period."
       },
       {
-        "name": "Pre-hospitalization: 60 days",
+        "name": "Pre-hospitalization Cover",
         "quote": "Such expenses shall be indemnified if the same were incurred upto 60 days unless otherwise specified in the Policy Schedule, immediately prior to the date of admission.",
         "reference": "Section B.1.5 (Pre-Hospitalization Expenses), page 13",
-        "explanation": "Covers diagnostic/doctor expenses up to 60 days before admission (standard to good)."
+        "explanation": "Medical expenses up to 60 days before hospital admission are covered, providing good pre-hospital care."
       },
       {
-        "name": "Emergency Air Ambulance (optional cover)",
+        "name": "Air Ambulance",
         "quote": "The Company shall indemnify expenses incurred by the Insured Person during the Policy Year towards Ambulance transportation in an airplane or helicopter for Emergency Care",
         "reference": "Section B.2.1 (Emergency Air Ambulance), page 15",
-        "explanation": "Air ambulance is available if the cover is in force as per Policy Schedule (limits as per schedule)."
+        "explanation": "Emergency air ambulance transport is covered if you have opted for this benefit, subject to policy limits."
       },
       {
-        "name": "Domiciliary hospitalization covered",
+        "name": "Domiciliary Hospitalization",
         "quote": "The Company shall indemnify the Medical Expenses incurred during the Policy Year on Domiciliary Hospitalization",
         "reference": "Section B.1.3 (Domiciliary Hospitalization), page 12",
-        "explanation": "Covers eligible treatment at home under defined situations."
+        "explanation": "Treatment at home under defined conditions is covered, which helps when hospital admission is not possible."
       },
       {
-        "name": "Home Health Care covered (cashless only)",
+        "name": "Home Health Care",
         "quote": "This Cover is not available on reimbursement basis.",
         "reference": "Section B.1.2 (Home Health Care), page 12",
-        "explanation": "Home healthcare is available but only through the insurer’s cashless/pre-authorized process."
+        "explanation": "Home healthcare is covered but only through cashless service, so you cannot claim reimbursement for it."
       },
       {
-        "name": "Optional cover trade-off: Aggregate Deductible (self-chosen)",
+        "name": "Deductible",
         "quote": "The Insured Person shall bear an amount equal to the Aggregate Deductible specified on Policy Schedule once in a Policy Year post which coverage shall commence under this policy",
         "reference": "Section B.2.7 (Aggregate Deductible), page 18",
-        "explanation": "Optional deductible can reduce premium but you pay the chosen amount first each policy year before coverage starts."
+        "explanation": "You pay a specified deductible amount once per policy year before the insurer starts paying, which can lower your premium."
       }
     ],
     "bad": [
       {
-        "name": "Consumables (if Protect Benefit not opted/inbuilt): Non-medical items excluded",
-        "quote": "Non-Medical expenses such as food charges (other than patient’s diet provided by hospital), laundry charges, attendant charges... Full list of Non-Medical Expenses is attached as ANNEXURE B",
+        "name": "Consumables Exclusion",
+        "quote": "Non-Medical expenses such as food charges (other than patient\u0002s diet provided by hospital), laundry charges, attendant charges... Full list of Non-Medical Expenses is attached as ANNEXURE B",
         "reference": "Section C.3.k (Specific Exclusions) & Annexure B, pages 32 and 49-50",
-        "explanation": "If Protect Benefit is not in force, many consumables/non-medical items (gloves, masks, kits etc.) are out-of-pocket."
-      }
-    ],
-    "unclear": [
+        "explanation": "If the Protect Benefit is not included, many consumables and non-medical items are excluded, increasing your out-of-pocket costs."
+      },
       {
-        "name": "Co-pay (base plan): not explicitly stated as 0% / no co-pay",
+        "name": "Co-pay",
         "quote": "Co-Payment means a cost sharing requirement under a health insurance policy that provides that the policyholder/insured will bear a specified percentage of the admissible claims amount.",
         "reference": "Definition section (Co-Payment), page 3",
-        "explanation": "This document defines co-pay but does not clearly state whether a co-pay applies by default for this policy/plan. Verify co-pay (if any) in your Policy Schedule/plan chosen."
+        "explanation": "The policy defines co-pay but does not clearly state if or how much co-pay applies by default; check your Policy Schedule for details."
       }
-    ]
+    ],
+    "unclear": []
   },
   "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
 }

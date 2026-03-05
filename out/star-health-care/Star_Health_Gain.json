@@ -2,123 +2,122 @@
   "policyName": "Star Health Gain",
   "insurer": "Star Health and Allied Insurance Company Limited",
   "sumInsured": "Not specified in provided pages (examples shown: ₹1,00,000 to ₹5,00,000; actual SI as per Policy Schedule)",
-  "policyType": "Not specified",
+  "policyType": "Individual | Family Floater",
   "documentType": "Policy Wording",
   "summary": {
-    "great": 1,
-    "good": 4,
-    "bad": 8,
-    "unclear": 4
+    "great": 0,
+    "good": 5,
+    "bad": 9,
+    "unclear": 3
   },
   "features": {
-    "great": [
-      {
-        "name": "Specific illness waiting period (24 months) — standard but as per rules this is GOOD; not GREAT",
-        "quote": "Expenses related to the treatment of the following listed Conditions, surgeries/ treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the ﬁrst policy with us.",
-        "reference": "Section III Exclusions > 2. Speciﬁed disease / procedure waiting period - Code Excl 02",
-        "explanation": "Specific disease/procedure waiting is 24 months (industry standard). Note: As per the categorization rules you provided, 24 months is GOOD (not GREAT). This item should be treated as GOOD; if you want, I can move it accordingly."
-      }
-    ],
+    "great": [],
     "good": [
       {
-        "name": "PED waiting period (36 months)",
+        "name": "Specific Illness Waiting",
+        "quote": "Expenses related to the treatment of the following listed Conditions, surgeries/ treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the ﬁrst policy with us.",
+        "reference": "Section III Exclusions > 2. Speciﬁed disease / procedure waiting period - Code Excl 02",
+        "explanation": "Specific illnesses are excluded for 24 months from the start of coverage. This 24-month waiting period is standard and acceptable in the market."
+      },
+      {
+        "name": "PED Waiting Period",
         "quote": "Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 36 months of continuous coverage after the date of inception of the ﬁrst policy with insurer",
         "reference": "Section III Exclusions > 1. Pre-Existing Diseases - Code Excl 01",
-        "explanation": "Pre-existing diseases are covered after 36 months continuous coverage. As per your rules, 36 months is GOOD (not a red flag)."
+        "explanation": "Pre-existing diseases are excluded for 36 months from policy inception. This 36-month waiting period is common and meets market standards."
       },
       {
-        "name": "Initial waiting period (30 days)",
+        "name": "Initial Waiting Period",
         "quote": "Expenses related to the treatment of any illness within 30 days from the ﬁrst policy commencement date shall be excluded except claims arising due to an accident",
         "reference": "Section III Exclusions > 3. 30-day waiting period - Code Excl 03",
-        "explanation": "30-day initial waiting is standard in health insurance."
+        "explanation": "Illnesses are not covered for the first 30 days except accidents. A 30-day initial waiting period is standard practice."
       },
       {
-        "name": "Pre-hospitalization expenses (30 days)",
+        "name": "Pre-hospitalization Cover",
         "quote": "Pre-Hospitalization medical expenses incurred for a period not exceeding 30 days prior to the date of hospitalization",
         "reference": "Section II Coverage > Section I (E)",
-        "explanation": "Covers eligible medical expenses up to 30 days before hospitalization (standard)."
+        "explanation": "Medical expenses up to 30 days before hospitalization are covered. This duration is typical in health insurance policies."
       },
       {
-        "name": "Post-hospitalization expenses (60 days)",
+        "name": "Post-hospitalization Cover",
         "quote": "Post Hospitalization: Medical expenses incurred for a period up to 60 days from the date of discharge from the hospital",
         "reference": "Section II Coverage > Section I (F)",
-        "explanation": "Covers eligible medical expenses up to 60 days after discharge (standard)."
+        "explanation": "Medical expenses up to 60 days after hospital discharge are covered. This is a standard post-hospitalization coverage period."
       }
     ],
     "bad": [
       {
-        "name": "Room rent capping (daily cap: 1% of Sum Insured per day) — triggers proportionate deductions",
+        "name": "Room Rent",
         "quote": "Room, Boarding, Nursing Expenses all inclusive as provided by the Hospital / Nursing Home up to 1% of the sum insured per day",
         "reference": "Section II Coverage > Section I (A)",
-        "explanation": "This is a room rent cap (not 'any room/at actuals'). Room rent caps can significantly reduce claim payouts if you choose a higher category room."
+        "explanation": "Room rent is capped at 1% of the sum insured per day. Such daily caps can reduce claim amounts if you choose higher category rooms."
       },
       {
-        "name": "Proportionate deduction due to room rent eligibility (explicitly stated)",
+        "name": "Proportionate Deduction",
         "quote": "Expenses relating to hospitalization will be considered in proportion to the eligible room rent stated in the policy or actual whichever is less",
         "reference": "Section II Coverage > Section I (after F)",
-        "explanation": "Because room rent is capped, the insurer can proportionately reduce associated hospital charges (a major claims risk)."
+        "explanation": "Because room rent is capped, related hospital expenses may be proportionately reduced, increasing your out-of-pocket costs."
       },
       {
-        "name": "Modern treatments have sub-limits (not at actuals)",
+        "name": "Modern Treatments",
         "quote": "Coverage for Modern Treatments: The expenses payable during the entire policy period for the following treatment/procedure... is limited to the amount mentioned in table below; * Sublimit all inclusive",
         "reference": "Section II Coverage > Section I (G)",
-        "explanation": "Modern treatments are covered but with strict sub-limits (can cause large out-of-pocket costs)."
+        "explanation": "Modern treatments are covered but with strict sub-limits, which may lead to significant out-of-pocket expenses."
       },
       {
-        "name": "Cataract has disease-wise sub-limits",
+        "name": "Disease Sub-limits",
         "quote": "Expenses incurred on treatment of Cataract is subject to the limit as per the following table;",
         "reference": "Section II Coverage > Section I (Cataract table)",
-        "explanation": "Cataract payout is capped per eye/per policy period based on Sum Insured—this is a disease sub-limit."
+        "explanation": "Cataract treatment costs are capped per eye per policy period, limiting your claim amount for this condition."
       },
       {
-        "name": "Ambulance cover is very low",
+        "name": "Ambulance Cover",
         "quote": "Emergency ambulance charges up-to a sum of Rs.750/- per hospitalization and overall limit of Rs.1,500/- per policy period",
         "reference": "Section II Coverage > Section I (D)",
-        "explanation": "Ambulance benefit exists but is very small versus real ambulance costs."
+        "explanation": "Ambulance coverage exists but is very low compared to actual ambulance costs, potentially causing out-of-pocket expenses."
       },
       {
-        "name": "Coronary stent reimbursement restricted to specified stent types/costs",
+        "name": "Implants Limit",
         "quote": "With regard to coronary stenting, the Company will pay such amount up to the extent of cost of bare metal stent/drug eluting cobalt-chromium stent/drug eluting stainless steel stent.",
         "reference": "Section II Coverage > Section I (C)",
-        "explanation": "Payment for stents is limited to specified types/cost levels; higher-cost stents may lead to out-of-pocket expense."
+        "explanation": "Reimbursement for coronary stents is limited to specified types and costs, so higher-cost stents may not be fully covered."
       },
       {
-        "name": "Medicines/implants payment restricted to alternate indigenous make",
+        "name": "Medicines Limit",
         "quote": "In respect of medicines, Implants and such other similar items, the Company will pay up to the cost of alternate indigenous make",
         "reference": "Section II Coverage > Section I (C)",
-        "explanation": "If the hospital uses higher-cost imported brands/implants, reimbursement may be limited to the indigenous alternative cost."
+        "explanation": "Reimbursement for medicines and implants is limited to the cost of indigenous alternatives, which may cause extra expense if imported brands are used."
       },
       {
-        "name": "No NCB / renewal bonus mentioned in provided pages (assumed not covered)",
+        "name": "No NCB",
         "quote": "N/A (no No Claim Bonus / cumulative bonus clause found in provided text)",
         "reference": "Provided pages 1-8 (no explicit NCB section found)",
-        "explanation": "No NCB stated here, so assume none: Sum Insured does not grow at renewal."
+        "explanation": "No No Claim Bonus is mentioned, so the sum insured does not increase on claim-free renewals, reducing long-term value."
+      },
+      {
+        "name": "Co-pay",
+        "quote": "This policy is subject to co-payment of 20% of each and every claim amount for fresh as well as renewal policies for insured persons whose age at the time of entry is 61 years and above",
+        "reference": "Section II Coverage > Section I > ii) Co-payment",
+        "explanation": "A 20% co-pay applies for entry age 61 and above. Any co-pay clause makes the policy less favorable as it increases your out-of-pocket costs."
       }
     ],
     "unclear": [
       {
-        "name": "Restore benefit",
+        "name": "Restore Benefit",
         "quote": "N/A (no restore/reinstatement/sum insured recharge clause found in provided text)",
         "reference": "Provided pages 1-8 (no restore benefit section found)",
-        "explanation": "Mandatory item: Restore benefit not found. As per your instruction, if not found it should be treated as NOT covered (BAD). Confirm from full policy wording/schedule if any restore exists."
+        "explanation": "No restore benefit is mentioned in the provided text. Confirm with full policy wording if this feature is available."
       },
       {
-        "name": "Consumables coverage",
+        "name": "Consumables",
         "quote": "N/A (no explicit 'consumables covered' clause found; only list of items to be subsumed into room/procedure/treatment charges is provided)",
         "reference": "Page 8: 'ITEMS THAT ARE TO BE SUBSUMED...' tables",
-        "explanation": "Mandatory item: This document section lists items to be subsumed into other charges but does not clearly confirm consumables are covered without dispute/cap. If consumables are not separately covered, they can become out-of-pocket. Please verify in complete wording/claims guidelines."
+        "explanation": "Consumables are not explicitly confirmed as covered separately, which may lead to out-of-pocket costs. Verify in complete policy documents."
       },
       {
-        "name": "Co-pay applicability beyond seniors / general co-pay statement",
-        "quote": "This policy is subject to co-payment of 20% of each and every claim amount for fresh as well as renewal policies for insured persons whose age at the time of entry is 61 years and above",
-        "reference": "Section II Coverage > Section I > ii) Co-payment",
-        "explanation": "Co-pay is clearly 20% for entry age 61+. It is unclear from provided pages whether any other co-pay applies for other ages under any optional cover/variant; verify schedule/add-ons if any."
-      },
-      {
-        "name": "Cashless network size",
+        "name": "Cashless Network",
         "quote": "Cashless facility can be availed only in networked Hospitals",
         "reference": "Section IV Conditions > 2(B)(j)",
-        "explanation": "Network size (number of hospitals) is not stated here, so cannot judge how strong the cashless network is."
+        "explanation": "Cashless treatment is available only at network hospitals, but the size of the network is not stated, so network strength is unknown."
       }
     ]
   },

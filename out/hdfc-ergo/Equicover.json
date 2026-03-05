@@ -5,96 +5,95 @@
   "policyType": "Individual",
   "documentType": "Policy Wording",
   "summary": {
-    "great": 1,
+    "great": 0,
     "good": 4,
-    "bad": 7,
+    "bad": 8,
     "unclear": 1
   },
   "features": {
-    "great": [
-      {
-        "name": "PED waiting period (24 months) for pre-existing disability",
-        "quote": "Any treatment for the pre-existing disability covered, will have a waiting period of 24 months from the first policy inception date.",
-        "reference": "Section 6 (Specific Conditions Applicable for Persons with Disability)",
-        "explanation": "Pre-existing disability is covered after 24 months of continuous coverage, which is better than many plans for the relevant covered condition."
-      }
-    ],
+    "great": [],
     "good": [
       {
-        "name": "PED waiting period (36 months) for other pre-existing diseases",
+        "name": "PED Waiting",
         "quote": "PED waiting period 36 months ( For pre existing diseases other than the pre-existing Disability and HIV/AIDS covered)",
         "reference": "Table of Benefits (Page 25)",
-        "explanation": "3-year PED waiting is within normal market range (2–4 years) for standard health insurance."
+        "explanation": "Pre-existing diseases other than disability and HIV/AIDS have a 36-month waiting period, which is within the normal market range of 2 to 4 years. This means you can claim for these conditions after three years of continuous coverage."
       },
       {
-        "name": "Initial waiting period (30 days)",
+        "name": "Initial Waiting",
         "quote": "First 30 days waiting period- Code- Excl03",
         "reference": "Section 5(A)(2) (Waiting Periods)",
-        "explanation": "30-day initial waiting period for illnesses is standard (accidents are typically exempt)."
+        "explanation": "Illnesses have a 30-day waiting period, which is standard; accidents are typically exempt from this waiting period. This means you cannot claim for illnesses during the first 30 days of the policy."
       },
       {
-        "name": "Specific disease/procedure waiting period (24 months)",
+        "name": "Specific Illness Waiting",
         "quote": "Specified disease/procedure waiting period- Code- Excl02 ... excluded until the expiry of 24months",
         "reference": "Section 5(A)(3) (Waiting Periods)",
-        "explanation": "24 months for listed specific conditions is industry-standard."
+        "explanation": "Specified diseases and procedures have a 24-month waiting period, which aligns with industry standards. This means claims for these conditions are eligible after two years."
       },
       {
-        "name": "Pre-hospitalization cover (30 days)",
+        "name": "Pre-hospitalization Cover",
         "quote": "for a fixed period of 30 days prior to the date of admissible Hospitalization",
         "reference": "Section 4.3 (Pre-Hospitalization Medical Expenses)",
-        "explanation": "Covers eligible medical expenses for 30 days before hospitalization, which is standard."
+        "explanation": "Medical expenses incurred up to 30 days before hospitalization are covered, which is a standard benefit. This helps cover diagnostic tests and treatments before hospital admission."
       }
     ],
     "bad": [
       {
-        "name": "Room rent limit (daily cap linked to Sum Insured) — 1% of Sum Insured per day",
+        "name": "PED Waiting",
+        "quote": "Any treatment for the pre-existing disability covered, will have a waiting period of 24 months from the first policy inception date.",
+        "reference": "Section 6 (Specific Conditions Applicable for Persons with Disability)",
+        "explanation": "Pre-existing disability has a 24-month waiting period, which is longer than the best market standard of 12 months but still acceptable. This means you can claim for pre-existing disabilities after two years of continuous coverage."
+      },
+      {
+        "name": "Room Rent",
         "quote": "Room Rent, Boarding, Nursing Expenses as provided by the Hospital / Nursing Home up to maximum of 1% of the Sum Insured per day.",
         "reference": "Section 4.1(i) (Inpatient Care) / Table of Benefits (Page 25)",
-        "explanation": "Room rent is capped (not ‘any room / no limit’). This can restrict room choice and may lead to higher out-of-pocket if hospital room rates exceed the cap."
+        "explanation": "Room rent is capped at 1% of the Sum Insured per day, limiting room choice and potentially increasing out-of-pocket expenses if hospital charges exceed this cap."
       },
       {
-        "name": "Mandatory co-pay 20% on every claim (unless optional waiver is bought)",
+        "name": "Co-pay",
         "quote": "Each and every claim under the Policy shall be subject to a Co-payment of 20% ... This co-payment can be waived off by paying an additional premium(optional).",
         "reference": "Section 10.4 (Co-payment)",
-        "explanation": "By default you pay 20% of every admissible claim amount, which significantly reduces effective coverage unless you purchase the co-pay waiver."
+        "explanation": "A mandatory 20% co-pay applies to every claim by default, significantly reducing effective coverage unless the co-pay waiver is purchased."
       },
       {
-        "name": "Disease sub-limit: Cataract capped at ₹40,000 per eye per year",
+        "name": "Disease Sub-limits",
         "quote": "subject to a limit of Rs.40,000/-, per each eye in one policy year.",
         "reference": "Section 4.6 (Cataract Treatment)",
-        "explanation": "A fixed sub-limit for cataract can be inadequate in many hospitals and increases out-of-pocket costs."
+        "explanation": "Cataract treatment has a fixed sub-limit of Rs.40,000 per eye per year, which may be insufficient and lead to higher out-of-pocket costs."
       },
       {
-        "name": "Modern treatments capped at 50% of Sum Insured",
+        "name": "Modern Treatments",
         "quote": "will be covered ... up to 50% of Sum Insured",
         "reference": "Section 4.7 (Modern Treatment)",
-        "explanation": "Many newer procedures are covered only up to 50% of SI, which can be limiting for expensive treatments."
+        "explanation": "Coverage for modern treatments is limited to 50% of the Sum Insured, which can be restrictive for expensive procedures."
       },
       {
-        "name": "Consumables / non-payable items not covered (out-of-pocket)",
+        "name": "Consumables",
         "quote": "Non-Payable items: The expenses that are not covered in this Policy are placed under List -I of Annexure-11",
         "reference": "Section 8.2(17) and Annexure II (Non-Medical Expenses / List I)",
-        "explanation": "Consumables and many hospital items (e.g., gloves, masks, kits etc. listed as non-payable) are not covered, leading to routine out-of-pocket expenses."
+        "explanation": "Consumables and many hospital items like gloves and masks are excluded, resulting in routine out-of-pocket expenses."
       },
       {
-        "name": "No restore benefit: Sum Insured is NOT replenished after a claim",
+        "name": "Restore Benefit",
         "quote": "Maximum liability of the Company under all such Claims paid under indemnity, during each Policy Year shall be the Sum Insured opted and specified in the Schedule.",
         "reference": "Section 2 (Operating Clause)",
-        "explanation": "The document does not provide any ‘restore/reinstatement’ feature; once SI is exhausted in a policy year, coverage does not refill for further claims."
+        "explanation": "No restore or reinstatement benefit is provided; once the Sum Insured is exhausted in a policy year, no further coverage is available."
       },
       {
-        "name": "Post-hospitalization cover limited to 60 days",
+        "name": "Post-hospitalization Cover",
         "quote": "for a fixed period of 60 days from the date of discharge from the Hospital",
         "reference": "Section 4.4 (Post-Hospitalization Medical Expenses)",
-        "explanation": "60 days is the minimum common level; many better policies cover 90/180/365 days. Longer follow-up expenses may not be covered."
+        "explanation": "Post-hospitalization expenses are covered for only 60 days, which is the minimum common duration and may not cover longer recovery periods."
       }
     ],
     "unclear": [
       {
-        "name": "NCB / Renewal Bonus not mentioned (verify if any bonus applies)",
+        "name": "No-Claim Bonus",
         "quote": "Maximum liability of the Company under all such Claims paid under indemnity, during each Policy Year shall be the Sum Insured opted and specified in the Schedule.",
         "reference": "Section 2 (Operating Clause) / Table of Benefits (no NCB field shown)",
-        "explanation": "No No-Claim Bonus/renewal bonus is explicitly described in the provided wording excerpt. Confirm from policy schedule/product brochure whether any SI increase/bonus exists and whether it resets on claim."
+        "explanation": "No explicit mention of No-Claim Bonus or renewal bonus is found; confirmation from the policy schedule or brochure is needed to determine if any bonus applies."
       }
     ]
   },

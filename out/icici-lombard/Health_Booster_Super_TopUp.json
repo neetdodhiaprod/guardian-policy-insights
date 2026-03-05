@@ -6,113 +6,113 @@
   "documentType": "Policy Wording",
   "summary": {
     "great": 1,
-    "good": 6,
-    "bad": 7,
+    "good": 5,
+    "bad": 8,
     "unclear": 2
   },
   "features": {
     "great": [
       {
-        "name": "Built-in additional SI buffer (Reset Benefit)",
+        "name": "Built-in SI Buffer",
         "quote": "“Reset Benefit... We will reset up to 100% of the Sum insured once in a policy year... in case the Sum insured including accrued Loyalty Bonus(if any) is insufficient...”",
         "reference": "Section 2.A.8 (Page 10)",
-        "explanation": "Provides an extra buffer once the base Sum Insured is exhausted (subject to conditions). This improves claim-paying capacity within the same policy year."
+        "explanation": "The policy resets up to 100% of the Sum Insured once per policy year if the base Sum Insured and Loyalty Bonus are insufficient. This provides an extra buffer to increase claim capacity within the same year."
       }
     ],
     "good": [
       {
-        "name": "Initial waiting period (30 days)",
+        "name": "Initial Waiting Period",
         "quote": "“Code- Excl03: 30-day waiting period... Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident”",
         "reference": "Section 3.3 (Page 21)",
-        "explanation": "Standard 30-day initial waiting for illnesses (accidents covered immediately)."
+        "explanation": "Illnesses are excluded for the first 30 days except accidents, which are covered immediately. This is a standard initial waiting period in the industry."
       },
       {
-        "name": "PED waiting period (24 months)",
+        "name": "PED Waiting Period",
         "quote": "“Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first policy...”",
         "reference": "Section 3.4 (Page 21)",
-        "explanation": "Pre-existing diseases are covered after 24 months of continuous coverage, which is an industry-standard waiting period."
+        "explanation": "Pre-existing diseases are excluded for 24 months from policy start, which is the industry standard waiting period."
       },
       {
-        "name": "Specific illness/procedure waiting period (24 months)",
+        "name": "Specific Illness Waiting",
         "quote": "“Code- Excl02... listed Conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage...”",
         "reference": "Section 3.6 (Pages 22-23)",
-        "explanation": "Standard 24-month waiting for listed diseases/procedures (unless due to accident)."
+        "explanation": "Certain listed illnesses and procedures are excluded for 24 months, which aligns with typical market practice."
       },
       {
-        "name": "Pre-hospitalization expenses (60 days)",
+        "name": "Pre-hospitalization Cover",
         "quote": "“Pre-hospitalization Medical Expenses incurred by You up to 60-days immediately prior to Your Hospitalization”",
         "reference": "Section 2.A.6 (Page 9)",
-        "explanation": "Covers diagnostic/consultation expenses for up to 60 days before admission (subject to admissible hospitalization)."
+        "explanation": "Medical expenses up to 60 days before hospitalization are covered, allowing for diagnostic and consultation costs before admission."
       },
       {
-        "name": "Post-hospitalization expenses (90 days)",
+        "name": "Post-hospitalization Cover",
         "quote": "“Post-hospitalization Medical Expenses incurred by You up to 90-days immediately post Hospitalization”",
         "reference": "Section 2.A.6 (Page 9)",
-        "explanation": "Covers follow-up medicines/tests for up to 90 days after discharge (subject to admissible hospitalization)."
-      },
-      {
-        "name": "Co-pay for seniors (20% for 60+ only; with waiver condition)",
-        "quote": "“We are not liable to pay twenty percent (20%) of admissible claim amount above the Deductible... for insured(s) above 60 years of age... However, this condition will not be applicable if You were aged 45 years or below at the time of buying this policy first time with Us and have renewed it continuously after that.”",
-        "reference": "Section 3.2 and Claim assessment section (Pages 21, 29)",
-        "explanation": "Industry-standard senior-citizen co-pay (applies above age 60), with a favorable waiver if purchased early and renewed continuously."
+        "explanation": "Follow-up medical expenses up to 90 days after discharge are covered, supporting recovery after hospitalization."
       }
     ],
     "bad": [
       {
-        "name": "Room rent limit not stated (treated as not covered/unknown in wording extract)",
+        "name": "Room Rent",
         "quote": "“We will cover medical expenses for: • Hospital room rent”",
         "reference": "Section 2.A.1 (Page 8)",
-        "explanation": "The document excerpt does not specify whether room rent is 'any room/no limit/single AC' etc. Since the limit is not provided here, it can materially impact claims (possible room category restriction and proportionate deductions in practice). Verify in Policy Schedule."
+        "explanation": "The policy does not specify any room rent limits or categories, creating uncertainty about coverage and possible restrictions or proportionate deductions."
       },
       {
-        "name": "Restore Benefit (mandatory feature) not available/ not stated",
+        "name": "Restore Benefit",
         "quote": "No clause found stating restore/reinstatement of Sum Insured (separate from Reset Benefit).",
         "reference": "Document review: Sections 2 and 3 provided (Pages 8-23)",
-        "explanation": "No restore/reinstatement benefit is stated. Without restore, Sum Insured is not replenished after a claim (Reset exists but is restricted to unrelated illness and only for certain deductible plans)."
+        "explanation": "No restore benefit is stated, so the Sum Insured is not replenished after claims beyond the Reset Benefit, limiting coverage for repeated illnesses."
       },
       {
-        "name": "Consumables not covered (IRDAI non-payables list includes many consumables)",
+        "name": "Consumables",
         "quote": "“Non Payables... List of Non Payable Items as per IRDAI... 56 GLOVES... 60 MASK...”",
         "reference": "Section 31 Non Payables (Pages 39-41)",
-        "explanation": "The policy explicitly lists many items (including gloves, masks, kits, etc.) as non-payable, leading to out-of-pocket expenses."
+        "explanation": "Many consumables like gloves and masks are explicitly excluded, which means you may have to pay for these out of pocket."
       },
       {
-        "name": "Reset Benefit restricted to unrelated illness only (same illness not allowed) and only for deductible ₹3L+ plans",
+        "name": "Reset Restriction",
         "quote": "“For plans with Deductible ₹ 3lacs and above... The reset amount can only be used for all future claims within the same policy year, not related to the illness/disease/injury for which a claim has been paid in that policy year for the same person”",
         "reference": "Section 2.A.8 (Page 10)",
-        "explanation": "Reset is helpful but restricted: it does not apply to the same illness and is only available for plans with deductible ₹3 lakh and above."
+        "explanation": "Reset Benefit is limited to unrelated illnesses and only available for plans with deductibles of ₹3 lakh or more, reducing its usefulness for recurring conditions."
       },
       {
-        "name": "NCB/Renewal Bonus resets impact not clearly protected; Loyalty Bonus appears capped and likely claim-linked",
+        "name": "NCB",
         "quote": "“Loyalty Bonus... For each completed and continuous Policy Year subject to a maximum of 50% 10%” AND “our liability... shall not exceed the Annual Sum Insured (including Loyalty Bonus) ... based on Claim settled under the Policy.”",
         "reference": "Section 2.A.9 (Page 10) and definition of Annual Sum Insured (Page 1)",
-        "explanation": "Loyalty Bonus is mentioned but there is no statement that it is protected/non-reducing on claims. Wording suggests Sum Insured may be revised based on claims, so the bonus may not be non-resetting. This is weaker than best-in-class renewal bonus designs."
+        "explanation": "Loyalty Bonus appears capped and may be reduced or reset after claims, offering weaker protection compared to non-resetting no-claim bonuses."
       },
       {
-        "name": "Excluded providers / delisted hospitals may restrict full claim payouts (only stabilization payable)",
+        "name": "Excluded Providers",
         "quote": "“Expenses incurred towards treatment in any hospital... specifically excluded by the Insurer... are not admissible. However, in case of life threatening situations or following an accident, expenses up to the stage of stabilization are payable but not the complete claim.”",
         "reference": "Section 3.7(v) Code-Excl11 (Page 23)",
-        "explanation": "If treatment happens at a delisted/excluded provider, the claim may be denied beyond stabilization, creating a significant payout risk."
+        "explanation": "Claims for treatment at excluded or delisted hospitals may be denied beyond stabilization, risking partial claim payouts."
       },
       {
-        "name": "Domiciliary hospitalization: many common conditions not covered under domiciliary benefit",
+        "name": "Domiciliary Hospitalization",
         "quote": "“Domiciliary Hospitalisation benefits... shall not cover... Asthma... Bronchitis... Diabetes... Hypertension... Influenza, Cough and Cold... Arthritis, Gout and Rheumatism”",
         "reference": "Section 2.A.4 (Page 9)",
-        "explanation": "While domiciliary hospitalization exists, it excludes many common chronic/respiratory conditions, limiting usefulness when home-care is medically necessary."
+        "explanation": "Domiciliary hospitalization excludes many common chronic and respiratory conditions, limiting coverage for home-based treatment."
+      },
+      {
+        "name": "Co-pay",
+        "quote": "“We are not liable to pay twenty percent (20%) of admissible claim amount above the Deductible... for insured(s) above 60 years of age... However, this condition will not be applicable if You were aged 45 years or below at the time of buying this policy first time with Us and have renewed it continuously after that.”",
+        "reference": "Section 3.2 and Claim assessment section (Pages 21, 29)",
+        "explanation": "A 20% co-pay applies only to insured persons above 60 years, with a waiver if the policy was bought before age 45 and renewed continuously. This is a common senior co-pay structure."
       }
     ],
     "unclear": [
       {
-        "name": "NCB / Renewal Bonus (whether it resets to zero on claim) — not explicitly stated",
+        "name": "NCB Reset",
         "quote": "“Loyalty Bonus...” (no explicit statement found on whether it reduces/resets after claims or is added irrespective of claims)",
         "reference": "Section 2.A.9 (Page 10)",
-        "explanation": "The document does not clearly state how Loyalty Bonus behaves after a claim (reduction/reset/non-resetting). Confirm from Policy Schedule/bonus terms."
+        "explanation": "The policy does not clearly state whether the Loyalty Bonus resets or reduces after claims, so its impact on renewal benefits is uncertain."
       },
       {
-        "name": "Cashless network size (hospital count) not specified",
+        "name": "Cashless Network",
         "quote": "“Cashless treatment is only available at a Network Provider (List of Network Provider is available at our website... )”",
         "reference": "Claims procedure (Page 26)",
-        "explanation": "Network exists but the number of cashless hospitals is not stated in the wording excerpt. Verify current network size on insurer website."
+        "explanation": "The policy mentions a network for cashless treatment but does not specify the number of hospitals, so the network size and convenience are unclear."
       }
     ]
   },

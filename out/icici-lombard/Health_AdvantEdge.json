@@ -2,153 +2,153 @@
   "policyName": "Health AdvantEdge",
   "insurer": "ICICI Lombard General Insurance Company Limited",
   "sumInsured": "Not specified (varies by plan; room rent terms differ for up to ₹4L vs ₹5L+)",
-  "policyType": "Not specified",
+  "policyType": "Individual | Family Floater",
   "documentType": "Policy Wording",
   "summary": {
     "great": 6,
     "good": 7,
-    "bad": 7,
-    "unclear": 2
+    "bad": 8,
+    "unclear": 1
   },
   "features": {
     "great": [
       {
-        "name": "Room rent: No capping for SI ₹5 lakhs and above (default term is SI-dependent)",
+        "name": "Room Rent",
         "quote": "For policies with Annual Sum Insured options Rs. 5 Lakhs and above, there will be no room rent capping.",
         "reference": "Benefits covered under the Policy > Basic cover > In-patient Treatment > i. Room Rent charges",
-        "explanation": "If you choose ₹5L+ Sum Insured, room rent is at actuals (no cap), avoiding room-rent linked deductions."
+        "explanation": "If you choose a sum insured of ₹5 lakhs or more, room rent is covered at actual cost without any cap. This means you can opt for any room category without facing deductions."
       },
       {
-        "name": "Restore/Reset benefit: 100% reset for any illness/injury (incl. unlimited resets for SI ₹10L+)",
+        "name": "Restore Benefit",
         "quote": "We will reset up to 100% of the Annual Sum Insured, for any illness/disease/injury... For policies with annual sum insured Rs. 10 Lakhs and above reset benefit will be triggered unlimited times for any illness/disease/injury",
         "reference": "Benefits covered under the Policy > Basic cover > 8. Reset Benefit",
-        "explanation": "Provides a strong restore buffer after the base sum insured is exhausted (subject to stated conditions; for ₹10L+ it can be unlimited in a year)."
+        "explanation": "The policy restores your full sum insured after exhaustion, and for ₹10 lakhs or more, this reset can happen unlimited times in a year. This provides extra financial protection for repeated illnesses."
       },
       {
-        "name": "Built-in additional Sum Insured buffer: Loyalty bonus usable after base SI exhausts (non-claim-linked reduction protected)",
+        "name": "Built-in SI Buffer",
         "quote": "We will provide a Loyalty bonus of 20%... at the end of each Policy Year irrespective of a claim being initiated... Loyalty bonus can only be utilized when the Annual Sum Insured is completely exhausted... In the event of Claim... the credited Loyalty bonus will not be reduced.",
         "reference": "Benefits covered under the Policy > 17. Loyalty bonus",
-        "explanation": "Extra coverage builds up even if you claim, and once base SI is fully used, the bonus can fund additional eligible expenses."
+        "explanation": "You earn a 20% loyalty bonus each year that adds to your sum insured once the base limit is used up. This bonus is not reduced even if you make claims, giving you extra coverage."
       },
       {
-        "name": "Bariatric surgery covered (with eligibility & 24-month waiting)",
+        "name": "Bariatric Surgery",
         "quote": "7. Bariatric Surgery Cover We will cover medical expenses incurred in respect of Hospitalisation... for Surgical Procedure/treatment for Obesity... This benefit has a waiting period of 24 months from date of inception of the first policy with Us",
         "reference": "Benefits covered under the Policy > Basic cover > 7. Bariatric Surgery Cover",
-        "explanation": "Obesity surgery is covered if BMI/clinical criteria are met and waiting period is completed."
+        "explanation": "Surgical treatment for obesity is covered after a 24-month waiting period and meeting eligibility criteria. This helps those needing weight-loss surgery."
       },
       {
-        "name": "Modern treatments/technological advancements covered (listed) up to SI",
+        "name": "Modern Treatments",
         "quote": "We will cover the Medical Expenses... for the below mentioned Technological Advancements and Treatments... up to the Annual Sum Insured.",
         "reference": "Benefits covered under the Policy > Basic cover > 3. Technological Advancements and Treatments",
-        "explanation": "Covers several modern procedures (e.g., robotic surgeries, immunotherapy injections, deep brain stimulation) without any sub-limit stated in the quoted clause."
+        "explanation": "Several advanced treatments like robotic surgeries and immunotherapy are covered without specific sub-limits. This ensures access to modern healthcare options."
       },
       {
-        "name": "NCB / Renewal bonus does not reset on claims (Loyalty bonus irrespective of claims)",
+        "name": "NCB",
         "quote": "We will provide a Loyalty bonus of 20%... irrespective of a claim being initiated in the Policy Year... In the event of Claim... the credited Loyalty bonus will not be reduced.",
         "reference": "Benefits covered under the Policy > 17. Loyalty bonus",
-        "explanation": "Unlike typical NCBs that reduce/reset after claims, this renewal bonus continues and is not reduced due to claims (subject to continuous renewal)."
+        "explanation": "The loyalty bonus continues to accrue even if you make claims, unlike typical no-claim bonuses that reset. This rewards continuous renewal without penalty."
       }
     ],
     "good": [
       {
-        "name": "PED waiting period: 0 or 24 months (plan-dependent)",
+        "name": "PED Waiting Period",
         "quote": "Expenses related to the treatment of a pre-existing Disease (PED)... shall be excluded until the expiry of 0 Months/24 months (depending on plan opted) of continuous coverage after the date of inception of the first policy",
         "reference": "Exclusions > Standard Exclusions > 1. Pre-Existing Diseases - Code- Excl01",
-        "explanation": "PED waiting is either 0 months or 24 months based on plan chosen—both are good in market terms (0 months is excellent, 24 months is standard-good)."
+        "explanation": "Waiting period for pre-existing diseases is either 0 or 24 months based on the plan chosen. Both options are acceptable and standard in the market."
       },
       {
-        "name": "Specific disease/procedure waiting period: 0 or 24 months (plan-dependent)",
+        "name": "Specific Illness Waiting",
         "quote": "Expenses related to the treatment of the listed Conditions... shall be excluded until the expiry of 0 months/24months (depending on plan opted)",
         "reference": "Exclusions > Standard Exclusions > 2. Specified Disease/Procedure Waiting Period- Code- Excl02",
-        "explanation": "Specific disease waiting is up to 24 months depending on plan, which is standard."
+        "explanation": "Waiting period for specified diseases is up to 24 months depending on the plan, which aligns with market norms."
       },
       {
-        "name": "Initial waiting period: 30 days",
+        "name": "Initial Waiting",
         "quote": "Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident",
         "reference": "Exclusions > Standard Exclusions > 4. 30-day waiting period- Code- Excl03",
-        "explanation": "30-day initial waiting is standard for health insurance."
+        "explanation": "A 30-day waiting period for all illnesses except accidents is standard and common in health insurance."
       },
       {
-        "name": "Pre-hospitalization cover: 60 days",
+        "name": "Pre-hospitalization Cover",
         "quote": "We will cover the Pre-hospitalization Medical Expenses... immediately 60 days before the Insured Person’s Admission to Hospital",
         "reference": "Benefits covered under the Policy > Basic cover > 4. Pre- Hospitalisation Medical Expenses",
-        "explanation": "Covers eligible expenses for 60 days before admission (standard-good)."
+        "explanation": "Expenses incurred up to 60 days before hospital admission are covered, which is a good standard duration."
       },
       {
-        "name": "Post-hospitalization cover: 180 days",
+        "name": "Post-hospitalization Cover",
         "quote": "We will cover the Post-hospitalization Medical Expenses... immediately 180 days following the Insured Person’s discharge from Hospital",
         "reference": "Benefits covered under the Policy > Basic cover > 5. Post Hospitalization Medical Expenses",
-        "explanation": "Covers eligible expenses up to 180 days after discharge (standard-good)."
+        "explanation": "Medical expenses up to 180 days after discharge are covered, providing extended post-care support."
       },
       {
-        "name": "Air ambulance (domestic) covered (limit not explicitly capped in this clause; subject to SI & conditions)",
+        "name": "Air Ambulance",
         "quote": "We will cover the expenses incurred on Air Ambulance services up to the Annual Sum Insured...",
         "reference": "Benefits covered under the Policy > Basic cover > 10. Domestic Air Ambulance Cover",
-        "explanation": "Domestic air ambulance is available for life-threatening emergencies under stated conditions."
+        "explanation": "Domestic air ambulance services are covered for emergencies, subject to sum insured and conditions."
       },
       {
-        "name": "Domiciliary hospitalization covered (with min 3 days condition and listed ailment exclusions)",
+        "name": "Domiciliary Hospitalization",
         "quote": "We will cover the Medical Expenses incurred in respect of the Domiciliary Hospitalization... continues for at least 3 consecutive days",
         "reference": "Benefits covered under the Policy > Basic cover > 12. Domiciliary Hospitalization",
-        "explanation": "Home-based hospitalization is covered when hospital shifting/bed unavailability criteria apply, but with conditions and a list of non-payable ailments under this section."
+        "explanation": "Home-based hospitalization is covered if treatment lasts at least 3 days, with some ailment exclusions."
       }
     ],
     "bad": [
       {
-        "name": "Room rent cap for SI up to ₹4 lakhs (1% of Annual Sum Insured)",
+        "name": "Room Rent Cap",
         "quote": "For policies with Annual Sum Insured options up to Rs. 4 Lakhs- room rent charges shall be capped at 1 % of Annual Sum Insured",
         "reference": "Benefits covered under the Policy > Basic cover > In-patient Treatment > i. Room Rent charges",
-        "explanation": "A percentage-based room rent cap can force you into lower rooms and may trigger proportionate deductions if you choose a higher room."
+        "explanation": "Room rent is capped at 1% of sum insured for policies up to ₹4 lakhs, which can force you into lower room categories and cause claim reductions."
       },
       {
-        "name": "Proportionate deduction applies when room category exceeds entitlement",
+        "name": "Proportionate Deduction",
         "quote": "If the Insured Person is admitted in a room category/limit that is higher than the one that is specified... then the Insured Person shall bear a rateable proportion of the total Associated medical expenses",
         "reference": "Benefits covered under the Policy > Basic cover > In-patient Treatment > We will consider a claim under this Cover, subject to the following:",
-        "explanation": "If your room is above eligibility (relevant when there is a room limit/cap), insurer can reduce payable associated medical expenses proportionately."
+        "explanation": "If you choose a room higher than your entitlement, the insurer will reduce related medical expenses proportionately, increasing your out-of-pocket cost."
       },
       {
-        "name": "Consumables not fully covered (non-medical items list excluded; out-of-pocket likely)",
+        "name": "Consumables",
         "quote": "consumables (other than those specified in the list of excluded expenses (non-medical) in Annexure II.",
         "reference": "Benefits covered under the Policy > Basic cover > In-patient Treatment > v.",
-        "explanation": "Many consumable/non-medical items in Annexure II are not payable, which can increase out-of-pocket (gloves, masks, kits, etc. appear in the non-payable list)."
+        "explanation": "Many consumables like gloves and masks are excluded, meaning you may have to pay for these items yourself."
       },
       {
-        "name": "No restore/Reset for same illness relapse within 45 days (same insured person) in same policy year",
+        "name": "Restore Exclusion",
         "quote": "The Reset Benefit will not be available for an Illness /Injury or related complications including but not limited to any relapse within 45 days in respect of which a claim has been paid in that Policy Year for the same Insured Person",
         "reference": "Benefits covered under the Policy > Basic cover > 8. Reset Benefit > viii",
-        "explanation": "Reset cannot be used for the same illness/relapse within 45 days in the same policy year for the same person, reducing usefulness for repeat admissions for same condition."
+        "explanation": "The restore benefit cannot be used for the same illness relapse within 45 days, limiting coverage for repeated treatments in a short period."
       },
       {
-        "name": "Disease-wise 90-day exclusion for Hypertension/Diabetes/Cardiac conditions (unless already continuously covered >12 months)",
+        "name": "Disease Waiting",
         "quote": "Expenses related to the treatment of the below mentioned illness within 90 days from the first policy commencement date shall be excluded... i. Hypertension ii. Diabetes iii. Cardiac Conditions",
         "reference": "Exclusions > Standard Exclusions > 3.",
-        "explanation": "Creates an additional early waiting/exclusion for common lifestyle conditions beyond the basic 30-day waiting."
+        "explanation": "There is a 90-day waiting period for common lifestyle diseases unless you have been continuously covered for over 12 months, delaying coverage for these conditions."
       },
       {
-        "name": "No NCB if policy not continuously renewed (bonus not credited; accrual requires renewal within grace)",
+        "name": "NCB Continuity",
         "quote": "Loyalty bonus will not be added if the Policy is not renewed with the Company by the end of the Grace Period",
         "reference": "Benefits covered under the Policy > 17. Loyalty bonus > iii",
-        "explanation": "If renewal is delayed beyond grace, you lose the continuity and loyalty bonus credit."
+        "explanation": "If you do not renew your policy within the grace period, you lose the loyalty bonus and its benefits."
       },
       {
-        "name": "Claim notification delay can make claim inadmissible (insurer discretion)",
+        "name": "Claim Notification",
         "quote": "The above information needs to be provided... within 10 days of Hospitalisation, failing which We will have the right to treat the Claim as inadmissible, as We may deem fit at Our sole discretion.",
         "reference": "Claims Procedure > (B) For Reimbursement Settlement > i.",
-        "explanation": "Late claim intimation (for reimbursement route) can risk denial at insurer discretion; operationally important to comply."
+        "explanation": "Delaying claim intimation beyond 10 days can lead to claim rejection at the insurer's discretion, so timely reporting is critical."
+      },
+      {
+        "name": "Co-pay",
+        "quote": "\"Co-Payment\" shall mean a cost sharing requirement under a health Insurance policy that provides that the policy holder/insured will bear a specified percentage of the admissible claims amount.",
+        "reference": "Definitions > Co-Payment; Optional Covers > 11. Voluntary Co-Payment",
+        "explanation": "The document defines co-pay and mentions an optional voluntary co-pay but does not clearly state if any mandatory co-pay applies by default or its percentage."
       }
     ],
     "unclear": [
       {
-        "name": "Co-pay (mandatory) for all claims: not explicitly stated in base policy terms",
-        "quote": "\"Co-Payment\" shall mean a cost sharing requirement under a health Insurance policy that provides that the policy holder/insured will bear a specified percentage of the admissible claims amount.",
-        "reference": "Definitions > Co-Payment; Optional Covers > 11. Voluntary Co-Payment",
-        "explanation": "The wording defines co-pay and offers an optional 'Voluntary Co-Payment', but the document excerpt does not clearly state whether any mandatory co-pay applies by default (and at what %). Verify in Policy Schedule."
-      },
-      {
-        "name": "Cashless hospital network size: not mentioned",
+        "name": "Cashless Network",
         "quote": "\"Network Provider\" means hospitals or health care providers enlisted by an Insurer , TPA or jointly by an insurer and TPA to provide medical services to an Insured by a cashless facility.",
         "reference": "Definitions > Network Provider",
-        "explanation": "Network hospital count (e.g., 7,000/10,000+) is not provided in the excerpt; check insurer website/network list or schedule."
+        "explanation": "The size of the cashless hospital network is not specified here; you should check the insurer's website or policy schedule for details."
       }
     ]
   },

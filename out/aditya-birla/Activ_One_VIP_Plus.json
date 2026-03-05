@@ -2,101 +2,100 @@
   "policyName": "Activ One VIP+",
   "insurer": "Aditya Birla Health Insurance Co. Limited",
   "sumInsured": "₹50 Lakhs to ₹6 Crores (as per Product Benefit Table)",
-  "policyType": "Not specified",
+  "policyType": "Individual | Family Floater",
   "documentType": "Policy Wording",
   "summary": {
     "great": 7,
     "good": 3,
-    "bad": 2,
-    "unclear": 1
+    "bad": 3,
+    "unclear": 0
   },
   "features": {
     "great": [
       {
-        "name": "Room rent: No limit (At actuals up to Sum Insured)",
+        "name": "Room Rent",
         "quote": "Room Rent ... Actuals up to Sum Insured",
         "reference": "Annexure III - Product Benefit Table (VIP+), Hospitalization Treatment (In-built Cover)",
-        "explanation": "No room category restriction/cap in the benefit table, so you can choose any room and the eligible room rent is covered up to your Sum Insured (subject to overall policy terms)."
+        "explanation": "Room rent is covered at actual cost up to the sum insured without any category restriction. This means you can choose any room type and the policy will pay the full eligible rent within your sum insured limit."
       },
       {
-        "name": "Pre-hospitalization cover: 90 days",
+        "name": "Pre-hospitalization Cover",
         "quote": "The Company shall indemnify the Pre-Hospitalization Medical Expenses incurred... for up to 90 days immediately prior to the date of such Hospitalization.",
         "reference": "Section C.2 Pre-Hospitalization Expenses",
-        "explanation": "Covers eligible medical expenses for the same condition for up to 90 days before admission (better than standard 30–60 days)."
+        "explanation": "Medical expenses before hospitalization are covered for up to 90 days, which is better than the usual 30–60 days. This helps cover costs related to diagnosis and treatment before admission."
       },
       {
-        "name": "Built-in restore/reload benefit: Super Reload (unlimited refills; from 2nd claim of policy life as per PBT)",
+        "name": "Restore Benefit",
         "quote": "We shall provide for a reload amounting to the Base Sum Insured (“Super Reload”), unlimited times during the Policy Year...",
         "reference": "Section C.10 Super Reload",
-        "explanation": "Once your Base SI + Super Credit (if applicable) is exhausted/insufficient, the policy can reload SI multiple times in a year (conditions apply; the product benefit table notes availability from the 2nd claim of policy life)."
+        "explanation": "The policy allows unlimited reloads of the base sum insured during the policy year after it is exhausted, starting from the second claim. This gives you extra coverage if you have multiple claims."
       },
       {
-        "name": "Built-in additional Sum Insured buffer: Super Credit (added irrespective of claims)",
+        "name": "Built-in SI Buffer",
         "quote": "an additional limit under the current Policy Year (“Super Credit”) will be applied / increased... irrespective of any claims in previous Policy Year",
         "reference": "Section C.11 Super Credit",
-        "explanation": "This is extra coverage over and above Base SI that accrues on renewal even if you made a claim (a strong feature because it does not depend on being claim-free)."
+        "explanation": "Extra sum insured is added on renewal regardless of claims made, providing additional coverage beyond the base sum insured. This benefits you by increasing your coverage even if you have claimed before."
       },
       {
-        "name": "NCB / Renewal bonus: Non-resetting renewal addition (Super Credit)",
+        "name": "NCB",
         "quote": "Super Credit (increases irrespective of claim)",
         "reference": "Annexure III - Product Benefit Table (VIP+)",
-        "explanation": "Renewal bonus does not reset to zero due to claims, because it is explicitly stated to increase irrespective of claim."
+        "explanation": "The renewal bonus (Super Credit) does not reset to zero after a claim and increases regardless of claims. This means your sum insured can grow even if you make claims."
       },
       {
-        "name": "Consumables / non-medical expenses: Covered if Claim Protect is in force (all 4 lists)",
+        "name": "Consumables",
         "quote": "Claim Protect (Non-Medical Expense Waiver): Non-payable items will be covered (all 4 lists of Annexure I)",
         "reference": "Annexure III - Product Benefit Table (VIP+); also Section C.4",
-        "explanation": "If Claim Protect is applicable to you (in force as per your Policy Schedule), common non-medical hospital bill items (gloves, masks, etc. per Annexure I lists) are covered instead of being out-of-pocket."
+        "explanation": "If Claim Protect is active, common non-medical hospital items like gloves and masks are covered instead of being out-of-pocket. This reduces your incidental expenses during hospitalization."
       },
       {
-        "name": "Bariatric/obesity surgery: Covered (subject to conditions)",
+        "name": "Bariatric Surgery",
         "quote": "Obesity Treatment: Medical Expenses incurred... for a Bariatric Surgery... subject to the conditions that needs to be fulfilled as per Section D.1.6",
         "reference": "Section C.1.1.1(h)",
-        "explanation": "Bariatric surgery is covered when the policy’s medical criteria are met."
+        "explanation": "Bariatric surgery is covered when you meet the policy’s medical criteria. This allows treatment for obesity-related conditions under the policy."
       }
     ],
     "good": [
       {
-        "name": "Specific illness/procedure waiting period: 24 months",
+        "name": "Specific Illness Waiting",
         "quote": "Expenses related to the treatment of the listed Conditions, surgeries / treatments shall be excluded until the expiry of 24 months of continuous coverage...",
         "reference": "Section D.1.2 Specified disease / procedure Waiting Period (Code-Excl02)",
-        "explanation": "A 24-month specific illness waiting period is standard in the market."
+        "explanation": "A 24-month waiting period applies for specified illnesses and procedures, which is standard in the market. You must wait two years before claiming for these conditions."
       },
       {
-        "name": "Initial waiting period: 30 days (except accident)",
+        "name": "Initial Waiting",
         "quote": "Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident",
         "reference": "Section D.1.3 30-day Waiting Period (Code-Excl03)",
-        "explanation": "30 days is standard for new policies (accidents are typically exempt)."
+        "explanation": "Illnesses are not covered during the first 30 days except for accidents, which is a common industry practice. This protects against immediate claims on new policies."
       },
       {
-        "name": "PED waiting period: 3 years",
+        "name": "PED Waiting",
         "quote": "Pre Existing Disease (PED) Waiting Period\n3 years",
         "reference": "Annexure III - Product Benefit Table (VIP+), Waiting Period - Inbuilt Cover",
-        "explanation": "A 3-year PED waiting period is within the acceptable standard range (2–4 years)."
+        "explanation": "Pre-existing diseases are covered after a 3-year waiting period, which is within the acceptable 2–4 year range. This means you must wait three years before claiming for pre-existing conditions."
       }
     ],
     "bad": [
       {
-        "name": "Post-hospitalization cover limited to 180 days (not >180 days)",
+        "name": "Post-hospitalization Cover",
         "quote": "The Company shall indemnify the Post-Hospitalization Medical Expenses incurred... for up to 180 days from the date of discharge from the Hospital.",
         "reference": "Section C.3 Post-Hospitalization Expenses",
-        "explanation": "180 days is good/standard, but not best-in-class (>180 days). If you need longer follow-up care, expenses after 180 days may be out-of-pocket."
+        "explanation": "Post-hospitalization expenses are covered for up to 180 days, which is standard but not best-in-class. Expenses after 180 days will not be reimbursed, which may increase your out-of-pocket costs."
       },
       {
-        "name": "Consumables not covered by default (Claim Protect required)",
+        "name": "Consumables",
         "quote": "The expenses that are not covered... may be covered under this Product if Claim Protect (Non-Medical Expense Waiver) is applicable to You and mentioned in the Policy Schedule.",
         "reference": "Annexure Summary; also Section C.4 / Annexure I context",
-        "explanation": "Non-medical/consumable items are not automatically covered for everyone; they are covered only if Claim Protect is applicable and shown as in-force in your Policy Schedule."
-      }
-    ],
-    "unclear": [
+        "explanation": "Non-medical consumable items are not covered by default and require Claim Protect to be active. Without this, you may have to pay for these items yourself."
+      },
       {
-        "name": "Co-pay (copayment) terms",
+        "name": "Co-pay",
         "quote": "Co-Payment: means a cost sharing requirement under a health insurance policy that provides that the Policyholder / Insured will bear a specified percentage of the admissible claims amount.",
         "reference": "Section B.1 (Definitions), definition 10. Co-Payment",
-        "explanation": "The wording defines what co-pay is, but does not clearly state whether any co-pay applies by default for this plan/variant and for which ages/claims. Verify co-pay (if any) from the Policy Schedule / Product Benefit Table for your issued policy."
+        "explanation": "The policy defines co-payment but does not specify if or when it applies for this plan. You need to check your Policy Schedule to know if any co-pay applies."
       }
-    ]
+    ],
+    "unclear": []
   },
   "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
 }

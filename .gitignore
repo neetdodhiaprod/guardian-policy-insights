@@ -26,3 +26,6 @@ dist-ssr
 # Environment
 .env
 .env.*
+
+# Source PDFs (large binary files — not needed to run the app)
+policy-wording/

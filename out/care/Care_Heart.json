@@ -2,117 +2,117 @@
   "policyName": "Care Heart",
   "insurer": "Care Health Insurance Limited",
   "sumInsured": "As per Policy Schedule (examples shown: ₹2L/₹3L/₹4L/₹5L/₹7L/₹10L; illustrations also show ₹3,00,000)",
-  "policyType": "Not specified",
+  "policyType": "Individual",
   "documentType": "Policy Wording",
   "summary": {
     "great": 2,
     "good": 7,
-    "bad": 5,
-    "unclear": 2
+    "bad": 6,
+    "unclear": 1
   },
   "features": {
     "great": [
       {
-        "name": "Built-in additional Sum Insured buffer (Automatic Recharge) after base SI + NCB is exhausted",
+        "name": "Built-in SI Buffer",
         "quote": "“The Company agrees to automatically make the re-instatement of up to the Sum Insured once in a policy year... The Recharge shall be utilized only after the Sum Insured and No Claims Bonus (Benefit – 7) has been completely exhausted in that Policy Year”",
         "reference": "Benefit 6: Automatic Recharge (Clause 3.1.6)",
-        "explanation": "You get an extra buffer up to 100% of base Sum Insured (once per policy year), which activates only after you exhaust base SI + NCB. This helps if a large claim fully uses your cover."
+        "explanation": "You get an extra buffer equal to your Sum Insured once per policy year, which activates only after you exhaust your base Sum Insured and No Claims Bonus. This helps cover large claims that fully use your base cover."
       },
       {
-        "name": "PED waiting period: 24 months",
+        "name": "PED Waiting Period",
         "quote": "“Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first policy with insurer.”",
         "reference": "Exclusions > Standard Exclusions > Wait Period > Pre-Existing Diseases (Clause 4.1(a)(i)(a))",
-        "explanation": "Pre-existing diseases are covered after 24 months of continuous coverage, which is better than many policies that take 36–48 months."
+        "explanation": "Pre-existing diseases are covered after 24 months of continuous coverage, which is better than many policies that require 36 to 48 months."
       }
     ],
     "good": [
       {
-        "name": "Initial waiting period: 30 days (non-accident)",
+        "name": "Initial Waiting Period",
         "quote": "“Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident”",
         "reference": "Exclusions > Standard Exclusions > 30-day waiting period (Clause 4.1(a)(iii)(a))",
-        "explanation": "Standard 30-day initial waiting for illnesses; accidents are covered from day 1 as per this clause."
+        "explanation": "Illnesses are excluded for the first 30 days, but accidents are covered from day one, which is standard in the market."
       },
       {
-        "name": "Specific illness/procedure waiting period: 24 months",
+        "name": "Specific Illness Waiting",
         "quote": "“Expenses related to the treatment of the listed Conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage...”",
         "reference": "Exclusions > Standard Exclusions > Specific Waiting Period (Clause 4.1(a)(ii)(a))",
-        "explanation": "Standard 24-month waiting for listed specific diseases/procedures (accidents exempt)."
+        "explanation": "Listed specific diseases and procedures are excluded for 24 months, which is the usual waiting period for these conditions."
       },
       {
-        "name": "Restore / Reinstatement benefit: available but only for unrelated illness (and only after base SI + NCB exhausted)",
+        "name": "Restore Benefit",
         "quote": "“The Recharge shall be available only for all future Claims which are not in relation to any Illness or Injury for which a Claim has already been admitted for that Insured Person during that Policy Year.”",
         "reference": "Benefit 6: Automatic Recharge (Clause 3.1.6(iv))",
-        "explanation": "The restore (recharge) cannot be used for the same illness in the same policy year for the same person, so it’s less flexible than “same-illness restore”."
+        "explanation": "The restore benefit cannot be used for the same illness in the same policy year, so it only covers new illnesses, making it less flexible than same-illness restore."
       },
       {
-        "name": "Pre-hospitalization cover: 30 days",
+        "name": "Pre-hospitalization Cover",
         "quote": "“Under Pre-hospitalization Medical Expenses, for a period of 30 days immediately prior to the Insured Person's date of admission to the Hospital”",
         "reference": "Benefit 2 (Clause 3.1.2(i))",
-        "explanation": "Covers eligible expenses 30 days before admission, linked to an admissible hospitalization claim."
+        "explanation": "Eligible medical expenses incurred up to 30 days before hospital admission are covered, which is a standard duration."
       },
       {
-        "name": "Post-hospitalization cover: 60 days",
+        "name": "Post-hospitalization Cover",
         "quote": "“Under Post-hospitalization Medical Expenses, for a period of 60 days immediately after the Insured Person's date of discharge from the Hospital.”",
         "reference": "Benefit 2 (Clause 3.1.2(ii))",
-        "explanation": "Covers eligible expenses for 60 days after discharge, linked to an admissible hospitalization claim."
+        "explanation": "Eligible medical expenses for 60 days after discharge are covered, which meets typical market standards."
       },
       {
-        "name": "Domiciliary hospitalization: covered (with conditions)",
+        "name": "Domiciliary Hospitalization",
         "quote": "“The Company will indemnify the Insured Person... up to the Sum Insured... for the Medical Expenses incurred towards Domiciliary Hospitalization”",
         "reference": "Benefit 5: Domiciliary Hospitalization (Clause 3.1.5)",
-        "explanation": "Home treatment can be covered when medically necessary (subject to the policy’s conditions and listed disease exclusions under this benefit)."
+        "explanation": "Home treatment is covered when medically necessary, subject to policy conditions and exclusions."
       },
       {
-        "name": "NCB / Renewal bonus: 10% per year up to 50%, reduces by 10% on claim (does not drop to zero immediately)",
+        "name": "No Claims Bonus",
         "quote": "“enhance the Sum Insured by 10% flat, on a cumulative basis... (i) ... shall not exceed 50%... (ix) In the event of a Claim... accrued No Claims Bonus will be reduced by 10% of the Sum Insured...”",
         "reference": "Benefit 7: No Claims Bonus (Clause 3.1.7(i) and 3.1.7(ix))",
-        "explanation": "Your cover can grow with claim-free years up to 50%. On a claim, it reduces by 10% (not forfeited to zero instantly), which is relatively customer-friendly vs typical “reset to zero” NCBs."
+        "explanation": "Your Sum Insured increases by 10% each claim-free year up to 50%, and on a claim, the bonus reduces by 10% instead of resetting to zero, which is customer-friendly."
       }
     ],
     "bad": [
       {
-        "name": "Room rent: may be capped at 1% of Sum Insured per day (if chosen in Policy Schedule) → can cause proportionate deductions",
+        "name": "Room Rent",
         "quote": "“If the Policy Schedule states 'up to 1% of the Sum Insured per day' as eligible Room Rent, it means the maximum eligible Room Rent... is limited to 1% of the Sum Insured per day of Hospitalization.”",
         "reference": "Benefit 1 > Conditions applicable > Room Rent/Room Category (Clause 3.1.1(iii)(a), point 2)",
-        "explanation": "A daily cap (if your schedule has this) can lead to out-of-pocket due to room rent limit and pro-rating of associated medical expenses."
+        "explanation": "A daily room rent cap can cause out-of-pocket expenses due to limits and proportional deductions on related medical costs."
       },
       {
-        "name": "Proportionate deduction due to room rent limit (triggered if you take a higher room than eligible)",
+        "name": "Proportionate Deduction",
         "quote": "“If the Insured Person is admitted... where the Room Category opted or Room Rent incurred is higher than the eligible... then, The Insured Person shall bear the ratable proportion of the total Associate Medical Expenses...”",
         "reference": "Benefit 1 > Conditions applicable > Room Rent/Room Category (Clause 3.1.1(iii)(a))",
-        "explanation": "If you choose a higher room than allowed in your policy schedule, the insurer can reduce payment for linked costs (doctor/surgeon/OT etc.) proportionately, increasing out-of-pocket."
+        "explanation": "Choosing a room higher than allowed triggers proportional reduction in payment for associated medical expenses, increasing your out-of-pocket costs."
       },
       {
-        "name": "Disease-wise / procedure sub-limits (named ailments) as per Policy Schedule",
+        "name": "Disease Sub-limits",
         "quote": "“The Company will indemnify... for Expenses incurred in respect of the below mentioned Ailments / Procedures up to the amount specified against each and every Ailment / Procedure mentioned in the Policy Schedule...”",
         "reference": "Benefit 1 > Expenses incurred on treatment for Named Ailments / Procedures (Clause 3.1.1(iii)(C))",
-        "explanation": "If your policy schedule sets low sub-limits for procedures (e.g., cataract, knee replacement etc.), your payout can be capped even when you have a higher Sum Insured."
+        "explanation": "Low sub-limits on specific diseases or procedures can cap your payout even if your overall Sum Insured is higher."
       },
       {
-        "name": "Consumables / non-medical items not covered",
+        "name": "Consumables",
         "quote": "“Any item or condition or treatment specified in List of Non-Medical Items (Annexure – II to Policy Terms & Conditions).”",
         "reference": "Specific Exclusions > Permanent Exclusions (Clause 4.2(a)(1)) + Annexure II",
-        "explanation": "Consumables like gloves, masks, kits, etc. (as listed) can become out-of-pocket, which can meaningfully increase your hospital bill."
+        "explanation": "Consumables like gloves, masks, and kits are excluded, which can increase your hospital bill as these costs become out-of-pocket."
       },
       {
-        "name": "Domiciliary hospitalization: many common diseases not payable under this benefit",
+        "name": "Domiciliary Exclusions",
         "quote": "“Any Medical Expenses incurred for the treatment in relation to any of the following diseases shall not be payable under this Benefit: 1. Asthma; 2. Bronchitis; ... 5. Diabetes Mellitus... 7. Hypertension; 8. Influenza, cough or cold; ... 12. Arthritis, Gout and Rheumatism.”",
         "reference": "Benefit 5: Domiciliary Hospitalization (Clause 3.1.5(v))",
-        "explanation": "Although domiciliary hospitalization is offered, it excludes several common chronic/acute conditions when treated at home, reducing practical usability of this benefit."
+        "explanation": "Several common chronic and acute conditions are excluded from domiciliary hospitalization, limiting the usefulness of this benefit."
+      },
+      {
+        "name": "Co-pay",
+        "quote": "“The Co-payment proportion as specified in the Policy Schedule, shall be borne by the Policyholder / Insured Person on each Claim...”",
+        "reference": "General Conditions Applicable To All Benefits (Clause 3.A(2))",
+        "explanation": "Co-payment applies as per your policy schedule, but the exact percentage is not stated here, so check your schedule to know if co-pay is 0% or higher."
       }
     ],
     "unclear": [
       {
-        "name": "Co-payment: depends on Policy Schedule (not specified here)",
-        "quote": "“The Co-payment proportion as specified in the Policy Schedule, shall be borne by the Policyholder / Insured Person on each Claim...”",
-        "reference": "General Conditions Applicable To All Benefits (Clause 3.A(2))",
-        "explanation": "The wording says co-pay applies as per your schedule, but the % is not provided in the shared extract. Check your Policy Schedule to confirm if it is 0% or a % co-pay."
-      },
-      {
-        "name": "ICU charges limit: depends on Policy Schedule",
+        "name": "ICU Charges",
         "quote": "“The Policy Schedule will specify the limit of ICU Charges applicable... If the Policy Schedule states 'up to 2% of the Sum Insured per day'... ... If the Policy Schedule states... 'no sub-limit'...”",
         "reference": "Benefit 1 > ICU Charges (Clause 3.1.1(iii)(b))",
-        "explanation": "ICU could be either capped (2% of SI/day) or uncapped (no sub-limit) depending on your schedule. Verify what your Policy Schedule shows."
+        "explanation": "ICU charges may be capped or uncapped depending on your policy schedule; verify your schedule to understand your ICU coverage."
       }
     ]
   },
