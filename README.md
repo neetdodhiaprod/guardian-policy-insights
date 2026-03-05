@@ -2,8 +2,6 @@
 
 > **Prototype / Proof of Concept** — Built by Product for handoff to the dev team. This is a specification and working demo that should guide production-level implementation decisions.
 
----
-
 ## What Is This?
 
 A web app that helps Indian consumers understand their health insurance policy in plain English — categorized as **Best-in-class**, **Good**, **Red Flags**, or **Needs Clarification**.
