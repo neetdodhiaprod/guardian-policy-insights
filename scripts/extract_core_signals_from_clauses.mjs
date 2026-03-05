@@ -63,11 +63,11 @@ function score(rec, rule) {
 }
 
 const RULES = [
-  { key: 'initial_wait', type: 'waiting_period', name: '30-day initial waiting period', re: /within\s+30\s+days|30\s+days\s+from\s+the\s+first\s+policy\s+commencement/i },
-  { key: 'ped_wait', type: 'waiting_period', name: 'PED waiting period', re: /pre\s*-?\s*existing[\s\S]{0,200}?\b(24|36|48|60)\s*months\b|\b(24|36|48|60)\s*months\b[\s\S]{0,200}?pre\s*-?\s*existing/i },
-  { key: 'spec_wait', type: 'waiting_period', name: 'Specified illness/procedure waiting period', re: /specified\s+disease|listed\s+conditions|surgeries\/treatments|procedures?[\s\S]{0,120}?\b(12|24|36)\s*months\b/i },
+  { key: 'initial_wait', type: 'waiting_period', name: '30-day initial waiting period', re: /code\s*[-–]\s*excl03[\s\S]{0,200}?\b30\s*days\b[\s\S]{0,200}excluded/i },
+  { key: 'ped_wait', type: 'waiting_period', name: 'PED waiting period', re: /code\s*[-–]\s*excl01[\s\S]{0,400}?pre\s*-?\s*existing[\s\S]{0,400}?\b(24|36|48|60)\s*months\b[\s\S]{0,200}?excluded/i },
+  { key: 'spec_wait', type: 'waiting_period', name: 'Specified illness/procedure waiting period', re: /code\s*[-–]\s*excl02[\s\S]{0,400}?\b(12|24|36)\s*months\b[\s\S]{0,200}?excluded/i },
 
-  { key: 'room_rent', type: 'room_rent', name: 'Room rent (default term)', re: /1\.1\.a\s*room\s*rent[\s\S]{0,120}at\s+actuals|room\s*rent\s+at\s+actuals|single\s+private\s+room/i },
+  { key: 'room_rent', type: 'room_rent', name: 'Room rent (default term)', re: /1\.1\.a\s*room\s*rent[\s\S]{0,120}at\s+actuals/i },
   { key: 'prop_ded', type: 'payout_reducer', name: 'Proportionate deduction', re: /proportionate\s+deduction(?![\s\S]{0,60}not\s+(be\s+)?applicable)/i },
   { key: 'pre_window', type: 'pre_post', name: 'Pre-hospitalization window', re: /pre\s*-\s*hospitalization[\s\S]{0,80}?(\b\d{1,3}\b)\s*days/i },
   { key: 'post_window', type: 'pre_post', name: 'Post-hospitalization window', re: /post\s*-\s*hospitalization[\s\S]{0,80}?(\b\d{1,3}\b)\s*days/i },
