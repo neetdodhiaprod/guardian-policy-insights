@@ -2,8 +2,6 @@
 
 > **Prototype / Proof of Concept** — Built by Product for handoff to the dev team. This is a specification and working demo that should guide production-level implementation decisions.
 
-**Live Demo:** [guardian-policy-decoder.lovable.app](https://guardian-policy-decoder.lovable.app)
-
 ---
 
 ## What Is This?
