@@ -6,9 +6,9 @@
   "documentType": "Policy Wording",
   "summary": {
     "great": 0,
-    "good": 4,
-    "bad": 8,
-    "unclear": 2
+    "good": 6,
+    "bad": 6,
+    "unclear": 1
   },
   "features": {
     "great": [],
@@ -17,25 +17,37 @@
         "name": "PED Waiting Period",
         "quote": "Expenses related to the treatment of a Pre-Existing Disease (PED) and its direct complications shall be excluded until the expiry of 36 months of continuous coverage after the date of inception of the first policy with insurer",
         "reference": "Section IV (Exclusions) > 1. Pre-Existing Diseases - Code Excl 01 (Page 5/9)",
-        "explanation": "Pre-existing diseases are covered after 36 months of continuous coverage. You must wait 3 years before claims for pre-existing conditions are payable."
+        "explanation": "Pre-existing diseases and their direct complications are not covered for the first 36 months of continuous coverage. Claims for PEDs become payable only after you complete 3 years on the policy."
       },
       {
         "name": "Specific Illness Waiting",
         "quote": "Expenses related to the treatment of the following listed Conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first policy with us.",
         "reference": "Section IV (Exclusions) > 2. Specified disease / procedure waiting period - Code Excl 02 (Page 5/9)",
-        "explanation": "Specific listed diseases and procedures are covered after 24 months of continuous coverage. This is a standard waiting period for these conditions."
+        "explanation": "Listed diseases/procedures are excluded for the first 24 months of continuous coverage. You can claim for these only after completing 2 years on the policy."
       },
       {
         "name": "Initial Waiting Period",
         "quote": "Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident",
         "reference": "Section IV (Exclusions) > 3. 30-day waiting period - Code Excl 03 (Page 5/9)",
-        "explanation": "Illnesses are not covered during the first 30 days of the policy, but accidents are covered immediately. This is a common initial waiting period."
+        "explanation": "Illnesses are not covered in the first 30 days from policy start, but accidents are covered immediately. This mainly affects claims made soon after buying the policy."
       },
       {
         "name": "Restore Benefit",
         "quote": "There shall be automatic restoration of the Basic Sum Insured by 200%, once during the policy period... such restored Basic Sum Insured can be utilized only for illness / disease unrelated to the illness / diseases for which claim/s was / were made.",
         "reference": "Section II (Coverage) > K. Automatic Restoration of Basic Sum Insured (Page 3/9)",
-        "explanation": "The sum insured is restored once per policy year but only for unrelated illnesses. This helps extend coverage but not for the same condition."
+        "explanation": "Basic Sum Insured is automatically restored by 200% once in a policy year after it is used. The restored amount can be used only for an unrelated illness, so it won’t help if the same condition needs more treatment."
+      },
+      {
+        "name": "Pre-hospitalization Cover",
+        "quote": "Pre-Hospitalization medical expenses incurred for a period not exceeding 30 days prior to the date of hospitalization",
+        "reference": "Section II (Coverage) > E (Page 3/9)",
+        "explanation": "Medical expenses are covered up to 30 days before hospitalization. Costs incurred earlier than 30 days before admission won’t be payable."
+      },
+      {
+        "name": "Post-hospitalization Cover",
+        "quote": "Post Hospitalization medical expenses incurred for a period up to 60 days... The amount payable shall not exceed the sum equivalent to 7% of the hospitalization expenses subject to a maximum of Rs.5,000/- per hospitalisation.",
+        "reference": "Section II (Coverage) > F (Page 3/9)",
+        "explanation": "Post-hospitalization expenses are covered up to 60 days after discharge, but are capped at 7% of hospitalization expenses subject to a maximum of Rs.5,000 per hospitalization. Follow-up medicines/tests beyond these limits will be out of pocket."
       }
     ],
     "bad": [
@@ -43,63 +55,45 @@
         "name": "Co-pay",
         "quote": "This policy is subject to co-payment of 10% of each and every claim amount... for insured persons whose age at the time of entry in to this policy is 61 years and above.",
         "reference": "Important Note : Applicable for II Coverage and Optional Covers > Point 6 (Page 5/9)",
-        "explanation": "A 10% co-pay applies only to those entering the policy at age 61 or above. This is a typical senior citizen co-pay."
+        "explanation": "A 10% co-pay applies on each and every claim for insured persons who enter the policy at age 61 years or above. This means you must pay 10% of every admissible claim amount yourself."
       },
       {
         "name": "Room Rent",
         "quote": "2% of Basic Sum Insured maximum of Rs.5,000/- per day",
         "reference": "Section II (Coverage) > A. Room, boarding, nursing expenses... (Page 2/9)",
-        "explanation": "Room rent is capped at Rs.5,000 per day, which can increase your out-of-pocket costs and trigger proportional deductions on other charges."
+        "explanation": "Room rent is limited to 2% of Basic Sum Insured subject to a maximum of Rs.5,000 per day. Choosing a higher-priced room can significantly reduce what the insurer pays and increase your out-of-pocket costs."
       },
       {
         "name": "Proportionate Deduction",
         "quote": "Expenses relating to Associated Medical Expenses will be considered in proportion to the eligible room rent/room category stated in the policy schedule or actuals whichever is less.",
         "reference": "Section II (Coverage) > Note under A (Page 2/9) and definition of Associated medical expenses (Page 2/9)",
-        "explanation": "If you choose a room category above your eligibility, the insurer will reduce associated medical expenses proportionally, lowering your claim payout."
-      },
-      {
-        "name": "Pre-hospitalization Cover",
-        "quote": "Pre-Hospitalization medical expenses incurred for a period not exceeding 30 days prior to the date of hospitalization",
-        "reference": "Section II (Coverage) > E (Page 3/9)",
-        "explanation": "Pre-hospitalization expenses are covered only up to 30 days before admission, which is the minimum standard and may limit coverage for early treatment."
-      },
-      {
-        "name": "Post-hospitalization Cover",
-        "quote": "Post Hospitalization medical expenses incurred for a period up to 60 days... The amount payable shall not exceed the sum equivalent to 7% of the hospitalization expenses subject to a maximum of Rs.5,000/- per hospitalisation.",
-        "reference": "Section II (Coverage) > F (Page 3/9)",
-        "explanation": "Post-hospitalization cover lasts 60 days but is capped at 7% of hospital expenses or Rs.5,000 per claim, which may restrict coverage for follow-up care."
+        "explanation": "Associated medical expenses are paid only in proportion to your eligible room rent/room category (or actuals, whichever is less). If you take a room above eligibility, the insurer can reduce multiple linked hospital charges proportionately."
       },
       {
         "name": "Consumables",
         "quote": "ITEMS THAT ARE TO BE SUBSUMED INTO PROCEDURE CHARGES... DISPOSABLES RAZORS CHARGES... GAUZE... SURGICAL TAPE... (and similar lists of items to be subsumed)",
         "reference": "Items lists (Page 9/9)",
-        "explanation": "Consumables like gloves and syringes are not separately covered and are included in procedure charges, potentially limiting reimbursement for these items."
+        "explanation": "Many consumables are stated to be “subsumed into procedure charges” rather than payable separately. In practice, hospitals often bill these as separate line items, which can lead to deductions and higher out-of-pocket payment."
       },
       {
-        "name": "No Claim Bonus",
+        "name": "NCB",
         "quote": "In the event of a claim... At any point of time, the cumulative bonus will not be less than “zero”. ... Full utilization of Basic Sum Insured and full utilization of cumulative bonus accrued, the cumulative bonus granted on renewal will be “nil” or “zero”",
         "reference": "Section II (Coverage) > J. Cumulative Bonus (Base plan) Special Conditions (Page 3/9) and similar wording under Gold Plan (Page 4/9)",
-        "explanation": "The no-claim bonus reduces after a claim and can drop to zero, meaning your sum insured growth is lost on claims."
+        "explanation": "Cumulative Bonus can reduce after a claim and can become “nil/zero” if Basic Sum Insured and the accrued bonus are fully utilized. This means your built-up increase in cover may be lost after a large claim."
       },
       {
         "name": "Disease Sub-limits",
         "quote": "The expenses incurred on treatment of cataract are payable up to the limits mentioned hereunder; ... Coverage for Modern Treatments... is limited to the amount mentioned in table below;",
         "reference": "Section II (Coverage) > H and I (Page 3/9) and detailed tables under Gold Plan (Pages 3-4/9)",
-        "explanation": "Specific diseases and modern treatments have fixed sub-limits, which can leave you paying extra if costs exceed these caps."
+        "explanation": "Certain treatments like cataract and modern treatments are payable only up to the limits shown in the table. If your hospital bill exceeds these sub-limits, you will have to pay the difference."
       }
     ],
     "unclear": [
       {
-        "name": "Consumables Coverage",
-        "quote": "“Associated Medical Expenses” does not include cost of pharmacy and consumables, cost of implants and medical devices and cost of diagnostics, ICU charges and hence proportionate deduction will not be applicable on these items.",
-        "reference": "Section I (Definitions) > Specific Definitions > Associated medical expenses (Page 2/9)",
-        "explanation": "It is unclear if consumables are covered separately since the policy excludes them from proportionate deduction but does not explicitly confirm coverage."
-      },
-      {
         "name": "Cashless Network",
         "quote": "Cashless facility can be availed only in networked Hospitals. For details of Networked Hospitals, the insured may visit www.starhealth.in or contact the nearest branch",
         "reference": "Section V (Conditions) > 2. Claim Settlement > B (Page 6/9)",
-        "explanation": "The policy does not specify the number of network hospitals, so the size and convenience of the cashless network cannot be assessed."
+        "explanation": "Cashless treatment is available only at network hospitals, but the policy wording does not state the number of hospitals in the network. You’ll need to check the insurer’s website/branch to know how easy it will be to find a cashless hospital near you."
       }
     ]
   },

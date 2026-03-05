@@ -6,8 +6,8 @@
   "documentType": "Policy Wording",
   "summary": {
     "great": 0,
-    "good": 4,
-    "bad": 7,
+    "good": 5,
+    "bad": 6,
     "unclear": 1
   },
   "features": {
@@ -17,25 +17,31 @@
         "name": "PED Waiting Period",
         "quote": "Expenses related to the treatment of a Pre-Existing Disease (PED) and its direct complications shall be excluded until the expiry of 36 months of continuous coverage after the date of inception of the ﬁrst policy with insurer",
         "reference": "Section IV. EXCLUSIONS > 1. Pre-Existing Diseases - Code Excl 01 (Page 5/9)",
-        "explanation": "Pre-existing diseases are excluded for 36 months from the start of coverage. You must wait 3 years before claims for pre-existing conditions are payable, which is standard in the market."
+        "explanation": "Pre-existing diseases are not covered for the first 36 months from the policy inception with the insurer. Claims for PEDs will be payable only after you complete 3 years of continuous coverage."
       },
       {
-        "name": "Specific Illness Waiting",
+        "name": "Specific Illness Waiting Period",
         "quote": "Expenses related to the treatment of the following listed Conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the ﬁrst policy with us.",
         "reference": "Section IV. EXCLUSIONS > 2. Speciﬁed disease / procedure waiting period - Code Excl 02 (Page 5/9)",
-        "explanation": "Certain specified illnesses and procedures are excluded for 24 months from policy start. You must wait 2 years before claiming for these conditions, which is standard."
+        "explanation": "Listed specified diseases/procedures are not covered for the first 24 months from the policy start. You can claim for these only after completing 2 years of continuous coverage."
       },
       {
         "name": "Initial Waiting Period",
         "quote": "Expenses related to the treatment of any illness within 30 days from the ﬁrst policy commencement date shall be excluded except claims arising due to an accident",
         "reference": "Section IV. EXCLUSIONS > 3. 30-day waiting period - Code Excl 03 (Page 5/9)",
-        "explanation": "Illnesses are not covered during the first 30 days except for accidents. This is a common waiting period in health insurance."
+        "explanation": "Illness-related claims are not covered in the first 30 days from the first policy start date, except for accidents. This means you should not expect coverage for non-accident illnesses during the first month."
       },
       {
         "name": "Restore Benefit",
         "quote": "There shall be automatic restoration of the Basic Sum Insured by 200%, once during the policy period... such restored Basic Sum Insured can be utilized only for illness / disease unrelated to the illness / diseases for which claim/s was / were made... This beneﬁt is not available for Modern Treatment",
         "reference": "Section II. COVERAGE > K. Automatic Restoration of Basic Sum Insured (Page 3/9)",
-        "explanation": "Your Sum Insured is restored once per year but only for unrelated illnesses. You get extra coverage after using your limit, but not for the same condition."
+        "explanation": "Basic Sum Insured is automatically restored by 200% once in a policy year, but it can be used only for an unrelated illness/disease. The restored amount cannot be used for Modern Treatment, which can limit usefulness in some high-cost claims."
+      },
+      {
+        "name": "Pre-hospitalization Cover",
+        "quote": "Pre-Hospitalization medical expenses incurred for a period not exceeding 30 days prior to the date of hospitalization",
+        "reference": "Section II. COVERAGE > E (Page 3/9)",
+        "explanation": "Medical expenses are covered up to 30 days before hospitalization. Diagnostic tests and consultations older than 30 days before admission will not be payable."
       }
     ],
     "bad": [
@@ -43,43 +49,37 @@
         "name": "Co-pay",
         "quote": "This policy is subject to co-payment of 10% of each and every claim amount... for insured persons whose age at the time of entry in to this policy is 61 years and above. This co-payment will not apply for those insured persons who have entered the policy before attaining 61 years of age and renew the policy continuously without any break",
         "reference": "Important Note : Applicable for II Coverage and Optional Covers > Point 6 (Page 5/9)",
-        "explanation": "If you join at age 61 or older, you pay 10% co-pay on claims. If you joined younger and renew without break, no co-pay applies. This is a typical senior citizen co-pay."
+        "explanation": "A 10% co-pay applies on each and every claim if you enter the policy at age 61 years or above. This means you must pay 10% of admissible claim amounts from your pocket in addition to any non-payable items."
       },
       {
         "name": "Room Rent",
         "quote": "Basic Sum Insured Rs Limits (Rs) 1,50,000/- 2% of Basic Sum Insured maximum of Rs.5,000/- per day",
         "reference": "Section II. COVERAGE > A. Room, boarding, nursing expenses... (Page 2/9)",
-        "explanation": "Room rent is capped at ₹5,000 per day or 2% of Sum Insured, whichever is lower. This cap can limit your choice of room and reduce claim payouts."
+        "explanation": "Room rent is limited to 2% of Basic Sum Insured, capped at ₹5,000 per day (for the ₹1,50,000 Basic Sum Insured shown). Choosing a higher-priced room can lead to reduced claim payouts and higher out-of-pocket costs."
       },
       {
         "name": "Proportionate Deduction",
         "quote": "Expenses relating to Associated Medical Expenses will be considered in proportion to the eligible room rent/room category stated in the policy schedule or actuals whichever is less.",
         "reference": "Section II. COVERAGE > Note under A (Page 2/9)",
-        "explanation": "If you choose a room above your eligible category, the insurer will reduce associated medical expenses proportionally, lowering your claim amount."
+        "explanation": "Associated medical expenses are paid only in proportion to the eligible room rent/room category if you take a higher room than allowed. This can significantly reduce reimbursement for doctor fees, nursing, and other linked hospital charges."
       },
       {
         "name": "Consumables",
         "quote": "ITEMS THAT ARE TO BE SUBSUMED INTO PROCEDURE CHARGES... DISPOSABLES RAZORS CHARGES... SURGICAL BLADES... GAUZE... SURGICAL TAPE...",
         "reference": "Annexure/List: ITEMS THAT ARE TO BE SUBSUMED... (Page 9/9)",
-        "explanation": "Many consumable items are bundled into procedure charges rather than covered separately, which may lead to out-of-pocket expenses."
-      },
-      {
-        "name": "Pre-hospitalization Cover",
-        "quote": "Pre-Hospitalization medical expenses incurred for a period not exceeding 30 days prior to the date of hospitalization",
-        "reference": "Section II. COVERAGE > E (Page 3/9)",
-        "explanation": "Pre-hospitalization cover is limited to 30 days, which is the minimum standard and less favorable than policies offering longer coverage."
+        "explanation": "The policy lists many consumables (e.g., gauze, surgical tape, blades) as items to be subsumed into procedure charges rather than paid as separate line items. In practice, hospitals often bill these separately, which can increase your out-of-pocket expenses if not accepted under the claim."
       },
       {
         "name": "Post-hospitalization Cover",
         "quote": "Post Hospitalization medical expenses incurred for a period up to 60 days... The amount payable shall not exceed the sum equivalent to 7% of the hospitalization expenses subject to a maximum of Rs.5,000/- per hospitalisation.",
         "reference": "Section II. COVERAGE > F (Page 3/9)",
-        "explanation": "Post-hospitalization cover is limited to 60 days with a cap of 7% of hospitalization costs or ₹5,000, which can restrict reimbursement for follow-up care."
+        "explanation": "Post-hospitalization expenses are covered up to 60 days after discharge, but are capped at 7% of hospitalization expenses subject to a maximum of ₹5,000 per hospitalization. This low cap can leave you paying most follow-up medicines and consultations yourself."
       },
       {
         "name": "No Claim Bonus",
         "quote": "In the event of a claim resulting in... At any point of time, the cumulative bonus will not be less than “zero”... the cumulative bonus granted on renewal will be “nil” or “zero”",
         "reference": "Section II. COVERAGE > J. Cumulative Bonus (Special Conditions) (Page 3/9)",
-        "explanation": "The no-claim bonus resets to zero after a claim, meaning you lose your bonus benefits, which is less favorable than non-resetting bonuses."
+        "explanation": "The cumulative bonus can reduce to “nil” or “zero” on renewal if a claim occurs. This means you may lose the accumulated increase in coverage after a claim, reducing protection in later years."
       }
     ],
     "unclear": [
@@ -87,7 +87,7 @@
         "name": "Cashless Network",
         "quote": "Cashless facility can be availed only in networked Hospitals. For details of Networked Hospitals, the insured may visit www.starhealth.in or contact the nearest branch",
         "reference": "Section V. CONDITIONS > 2.B Documents for Cashless Treatment (Page 6/9)",
-        "explanation": "Cashless treatment is available only at network hospitals, but the policy does not specify the size of the network, so it is unclear how extensive the coverage is."
+        "explanation": "Cashless treatment is available only at network hospitals, but the policy wording does not state the number of network hospitals. The actual cashless convenience will depend on whether your preferred hospitals are in the insurer’s network."
       }
     ]
   },

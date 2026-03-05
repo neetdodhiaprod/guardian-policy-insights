@@ -6,9 +6,9 @@
   "documentType": "Policy Wording",
   "summary": {
     "great": 3,
-    "good": 6,
-    "bad": 6,
-    "unclear": 1
+    "good": 8,
+    "bad": 3,
+    "unclear": 2
   },
   "features": {
     "great": [
@@ -16,19 +16,19 @@
         "name": "Room Rent",
         "quote": "“We don’t limit your choice. Choose the room you like, but choose judiciously to protect your Sum Insured.”",
         "reference": "Section 4.2.1 (Expenses during Hospitalization)",
-        "explanation": "You can choose any room without a daily rent limit, giving you freedom to select your preferred accommodation. However, higher room costs may reduce your available Sum Insured faster."
+        "explanation": "No daily room rent cap is stated, so you can choose any room category. Higher room costs can still consume your Sum Insured faster, so pick judiciously."
       },
       {
         "name": "Built-in SI Buffer",
         "quote": "“Enjoy unlimited Sum Insured. The first paid claim in the life of the policy triggers ReAssure ‘Forever’. Once Triggered it stays for life, provided that the policy is renewed without break.”",
         "reference": "Section 4.7.1 (ReAssure+ ‘Forever’) and Section 4.8 (ReAssureX)",
-        "explanation": "After your first claim, an unlimited extra Sum Insured buffer activates and remains for life if you renew continuously. This greatly increases your claim capacity beyond the base Sum Insured."
+        "explanation": "After the first paid claim, ReAssure ‘Forever’ gets triggered and then stays for life if you renew without break. This can significantly increase claim-paying capacity beyond the base Sum Insured over time."
       },
       {
-        "name": "Consumables",
-        "quote": "“Claim Safeguard: We will cover non-payable items mentioned in ‘List I – Expenses not covered’ of Annexure I’.”",
-        "reference": "Section 4.16.1 (Safeguard) and Annexure I",
-        "explanation": "Non-payable items like gloves and masks are covered when you opt for Safeguard/Safeguard+, reducing unexpected hospital bill deductions. This lowers your out-of-pocket expenses."
+        "name": "Co-pay",
+        "quote": "“Co-Payment: It is the percentage of admissible claim amount You would have to bear, Rest we will pay.”",
+        "reference": "Section 4.19 (Co-Payment)",
+        "explanation": "Only a glossary-style definition of co-payment is provided, and no applied co-pay percentage/trigger is stated here. That means no co-pay is charged based on this wording, so admissible claims should be paid at 100% (subject to other terms)."
       }
     ],
     "good": [
@@ -36,83 +36,83 @@
         "name": "PED Waiting Period",
         "quote": "“Expenses related to the treatment of a Pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 36 months of continuous coverage after the date of inception of the first Policy.”",
         "reference": "Section 5.1.1 (Pre-existing Diseases – Excl01)",
-        "explanation": "Pre-existing diseases are excluded for 36 months from policy start, which is within the acceptable range. Coverage begins after this continuous period if declared and accepted."
+        "explanation": "Pre-existing diseases are not covered for the first 36 months of continuous coverage from the first policy start date. Claims for PEDs become payable after you complete 36 months without a break."
       },
       {
         "name": "Specific Illness Waiting",
         "quote": "“Expenses related to the treatment of the listed conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first Policy.”",
         "reference": "Section 5.1.2 (Specified disease/procedure waiting period – Excl02)",
-        "explanation": "Specific illnesses and procedures have a 24-month waiting period, which is standard in the market. Claims for these conditions are payable after this period."
+        "explanation": "Listed specified diseases/procedures are not covered for the first 24 months of continuous coverage. After 24 months, these conditions are covered as per policy terms."
       },
       {
         "name": "Initial Waiting Period",
         "quote": "“Expenses related to the treatment of any Illness within 30 days from the first Policy commencement date shall be excluded except claims arising due to an Accident…”",
         "reference": "Section 5.1.3 (30-day waiting period – Excl03)",
-        "explanation": "Illnesses are excluded for the first 30 days except accidents, which are covered immediately. This is a common waiting period in health insurance."
+        "explanation": "Illness-related claims are not covered in the first 30 days from policy commencement, but accidents are covered immediately. This is the standard initial waiting period in retail health insurance."
       },
       {
         "name": "Pre-hospitalization Cover",
         "quote": "“We will pay expenses incurred on consultations, medicines, physiotherapy, diagnostic tests for 60 days before the date of admission…”",
         "reference": "Section 4.3 (Expenses before and after hospitalization)",
-        "explanation": "Expenses up to 60 days before hospital admission are covered, which is a good pre-hospitalization period. This helps cover early treatment costs related to hospitalization."
+        "explanation": "Medical expenses for 60 days before hospitalization are covered if related to the hospitalization. This helps pay for diagnostics and treatment leading up to admission."
       },
       {
         "name": "Post-hospitalization Cover",
         "quote": "“…and 180 days after date of discharge IF these are related to the condition for which hospitalization claim is paid.”",
         "reference": "Section 4.3 (Expenses before and after hospitalization)",
-        "explanation": "Expenses up to 180 days after discharge are covered if related to the hospitalization. This is a solid post-hospitalization coverage period."
+        "explanation": "Medical expenses for 180 days after discharge are covered if related to the same condition for which the hospitalization claim is paid. This supports follow-up medicines, tests, and consultations during recovery."
       },
       {
-        "name": "Domiciliary Treatment",
+        "name": "Domiciliary Hospitalization",
         "quote": "“Home Care Treatment means treatment availed by the insured person at home which in normal course would require care and treatment at a hospital but is actually taken at home…”",
         "reference": "Section 4.4 (Home Care / Domiciliary Treatment)",
-        "explanation": "Treatment taken at home when hospital care is normally needed is covered under domiciliary treatment. This benefit supports care in home settings under certain conditions."
-      }
-    ],
-    "bad": [
-      {
-        "name": "Restore Benefit",
-        "quote": "No restore/reinstatement clause found in the provided policy wording extract. The policy instead describes ReAssure+/ReAssureX and Booster+ mechanisms.",
-        "reference": "Mandatory feature check (Restore Benefit) — not explicitly stated",
-        "explanation": "The policy does not explicitly replenish your base Sum Insured after a claim within the policy year. Without restore, your available cover reduces after each claim."
-      },
-      {
-        "name": "No Claim Bonus",
-        "quote": "No explicit “No Claim Bonus / Cumulative Bonus increase at renewal” benefit statement found (other than wellness discount and inflation-linked Safeguard/Safeguard+).",
-        "reference": "Mandatory feature check (NCB/Renewal Bonus) — not explicitly stated",
-        "explanation": "There is no stated No Claim Bonus that increases your Sum Insured on renewal for claim-free years. This means your cover does not grow automatically over time."
+        "explanation": "Treatment taken at home that would normally require hospitalization is covered under home care/domiciliary treatment, subject to policy conditions. This can be useful when hospital admission is not possible or not advised."
       },
       {
         "name": "Air Ambulance",
         "quote": "“Air Ambulance: Only in case of Emergency. Maximum INR 2,50,000 per hospitalization.”",
         "reference": "Section 4.1.2 (Air Ambulance)",
-        "explanation": "Air ambulance is covered but limited to ₹2.5 lakh per hospitalization, which may be insufficient in some emergencies. Costs exceeding this limit will not be reimbursed."
+        "explanation": "Air ambulance is covered only in an emergency, up to ₹2,50,000 per hospitalization. Any cost above ₹2.5 lakh will have to be paid by you."
       },
       {
         "name": "Modern Treatments",
         "quote": "“We pay for Modern treatments as specified below:”",
         "reference": "Section 4.2.2 (Modern treatments)",
-        "explanation": "Coverage for modern treatments is restricted to a specified list. Treatments not on this list may not be covered, limiting your access to newer procedures."
+        "explanation": "Modern treatments are covered only for the treatments listed in the policy. If a newer procedure is not in the specified list, it may not be payable."
+      }
+    ],
+    "bad": [
+      {
+        "name": "Consumables",
+        "quote": "“Claim Safeguard: We will cover non-payable items mentioned in ‘List I – Expenses not covered’ of Annexure I’.”",
+        "reference": "Section 4.16.1 (Safeguard) and Annexure I",
+        "explanation": "Consumables/non-payable items are covered only under the optional Claim Safeguard benefit. Without opting for it, these items can be deducted from your hospital bill and paid by you."
       },
       {
         "name": "Proportionate Deduction",
         "quote": "“If you opt for a Hospital room which is higher than the eligible room category as specified in your Policy Schedule, then We will pay only a pro-rated portion of the total Associated Medical Expenses…”",
         "reference": "Section 6.2.4(d) (Claims)",
-        "explanation": "If you choose a room higher than your eligible category, claim payments may be reduced proportionally. This can significantly lower your claim amount if you select a more expensive room."
+        "explanation": "If you take a room higher than your eligible category (as per the Policy Schedule), the insurer will pay only a pro-rated portion of associated medical expenses. This can sharply reduce claim payouts even when the treatment itself is covered."
       },
       {
-        "name": "Co-pay",
-        "quote": "“Co-Payment: It is the percentage of admissible claim amount You would have to bear, Rest we will pay.”",
-        "reference": "Section 4.19 (Co-Payment)",
-        "explanation": "The policy mentions co-payment but does not specify the percentage or when it applies. You need to check your policy schedule to know your exact co-pay details."
+        "name": "No Claim Bonus",
+        "quote": "No explicit “No Claim Bonus / Cumulative Bonus increase at renewal” benefit statement found (other than wellness discount and inflation-linked Safeguard/Safeguard+).",
+        "reference": "Mandatory feature check (NCB/Renewal Bonus) — not explicitly stated",
+        "explanation": "No No Claim Bonus/Cumulative Bonus increase is stated in the provided extract. That means your Sum Insured may not automatically increase for claim-free years based on this wording."
       }
     ],
     "unclear": [
       {
-        "name": "Room Rent Option",
+        "name": "Restore Benefit",
+        "quote": "No restore/reinstatement clause found in the provided policy wording extract. The policy instead describes ReAssure+/ReAssureX and Booster+ mechanisms.",
+        "reference": "Mandatory feature check (Restore Benefit) — not explicitly stated",
+        "explanation": "No classic restore/reinstatement clause is shown in the extract, while separate benefits like ReAssure+/ReAssureX are referenced. Whether you effectively get restoration (and on what conditions like same illness/unlimited) cannot be confirmed from this quote alone."
+      },
+      {
+        "name": "Room Type Modification",
         "quote": "“You can as per your lifestyle, choose to change the room category we are offering… You can choose between a Single Private Room and a Sharing Room.”",
         "reference": "Section 4.21 (Room Type Modification)",
-        "explanation": "You can select between single or sharing rooms, but the default eligibility and impact on claims depend on your policy schedule. Confirm your plan details to avoid unexpected deductions."
+        "explanation": "An option is provided to choose between Single Private Room and Sharing Room, but the default eligible room category is not stated here. Your actual eligibility and any impact on claims depends on what is shown in the Policy Schedule."
       }
     ]
   },

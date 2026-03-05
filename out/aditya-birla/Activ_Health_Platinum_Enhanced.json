@@ -6,9 +6,9 @@
   "documentType": "Policy Wording",
   "summary": {
     "great": 2,
-    "good": 6,
+    "good": 3,
     "bad": 5,
-    "unclear": 3
+    "unclear": 5
   },
   "features": {
     "great": [
@@ -16,103 +16,97 @@
         "name": "Built-in SI Buffer",
         "quote": "(9) Super Reload: What is covered We shall provide for a Reload of the Sum Insured, unlimited times during the Policy Year... (iii) The Super Reload of Sum Insured shall be available for all subsequent claims also and to any Illness / Injury (including its complications) for which a claim has been admitted for the Insured Person during that Policy Year.",
         "reference": "Section C.I.(9) Super Reload",
-        "explanation": "The policy provides unlimited sum insured reloads during the policy year, even for the same illness or its complications. This means you get extra coverage beyond your base sum insured without limits within the year."
+        "explanation": "Provides an unlimited reload of Sum Insured during the policy year, and it can be used even for the same illness/injury (including complications) after a claim is admitted. This can significantly reduce the chance of running out of cover in a high-claim year."
       },
       {
         "name": "Bariatric Surgery",
         "quote": "(12) Obesity Treatment: What is Covered We shall cover the related Medical Expenses... if the Insured Person is hospitalized for a Bariatric Surgery which is medically necessary...",
         "reference": "Section C.I.(12) Obesity Treatment",
-        "explanation": "Medically necessary bariatric surgery is covered under the policy. This allows you to get treatment for obesity-related surgery which many plans exclude."
+        "explanation": "Covers medical expenses for medically necessary bariatric surgery when hospitalization is required. This is valuable because many retail health plans exclude or tightly restrict obesity surgery."
       }
     ],
     "good": [
       {
-        "name": "Specific Illness Waiting",
+        "name": "Specific Illness Waiting Period",
         "quote": "2. Specified disease / procedure waiting period: ... excluded until the expiry of 24 months of continuous coverage after the date of inception of the first policy with Us.",
         "reference": "Section D.I.2 (Standard Exclusions)",
-        "explanation": "The waiting period for specified diseases and procedures is 24 months, which is standard in the industry. Claims for these conditions are not covered during the first two years."
+        "explanation": "Specified diseases/procedures are not covered until 24 months of continuous coverage are completed. Claims for listed conditions in the first 2 years will be rejected even if you are otherwise covered."
       },
       {
-        "name": "Initial Waiting",
+        "name": "Initial Waiting Period",
         "quote": "3. 30-day waiting period ... Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident",
         "reference": "Section D.I.3 (Standard Exclusions)",
-        "explanation": "There is a 30-day waiting period for all illnesses except accidents, which is standard in most health insurance plans. Illness claims within the first month are not covered."
+        "explanation": "Illness-related claims are excluded for the first 30 days from policy start, except for accidents. This is a standard waiting period, so early non-accident hospitalizations may not be payable."
       },
       {
         "name": "Restore Benefit",
         "quote": "(8) Reload of Sum Insured: ... Reload of Sum Insured shall be available only once during a Policy Year... (iii) ... not in relation to any Illness / Injury ... for which a claim has been admitted ... during that Policy Year.",
         "reference": "Section C.I.(8) Reload of Sum Insured",
-        "explanation": "The policy offers a restore benefit once per policy year but only for illnesses or injuries unrelated to previous claims. This helps replenish your sum insured annually."
-      },
-      {
-        "name": "Pre-hospitalization",
-        "quote": "(2) Pre – hospitalization Medical Expenses: ... for the number of days in accordance with the limits specified in the Policy Schedule / Product Benefit Table of this Policy",
-        "reference": "Section C.I.(2) Pre-hospitalization Medical Expenses",
-        "explanation": "Pre-hospitalization expenses are covered for the number of days stated in your policy schedule. Coverage exceeding 60 days is considered best-in-class."
-      },
-      {
-        "name": "Post-hospitalization",
-        "quote": "(3) Post – hospitalisation Medical Expenses: ... for the number of days in accordance with the limits specified in the Policy Schedule / Product Benefit Table of this Policy",
-        "reference": "Section C.I.(3) Post-hospitalization Medical Expenses",
-        "explanation": "Post-hospitalization expenses are covered for the number of days stated in your policy schedule. Coverage beyond 180 days is regarded as best-in-class."
-      },
-      {
-        "name": "PPN Discount",
-        "quote": "(37) Preferred Provider Network (PPN) Discount: ... discount of 10% on the premium payable... If ... treatment ... in a Hospital other than those listed as “Preferred Provider Network”, then ... shall bear a Co-Payment of 10% on each and every claim",
-        "reference": "Section V Optional Covers, (37) PPN Discount",
-        "explanation": "You can get a 10% premium discount by using hospitals in the Preferred Provider Network, but must pay a 10% co-pay if treated outside this network. This offers flexibility with a trade-off."
+        "explanation": "Allows one reload in a policy year, but it cannot be used for the same illness/injury for which a claim was already admitted in that year. This helps for a second unrelated hospitalization, but won’t help if the same condition recurs."
       }
     ],
     "bad": [
       {
-        "name": "Disease Sub-limits",
-        "quote": "For Platinum - Essential Plan, treatment-wise sub-limits will apply as below... Cataract... Angioplasty... Knee replacement... Hip replacement... Cholecystectomy... hysterectomy...",
-        "reference": "Section C.I.(1) In-patient Hospitalization — Sub-limits table",
-        "explanation": "The plan imposes specific monetary caps on treatments like cataract and knee replacement, which can cause high out-of-pocket expenses despite having sufficient sum insured."
-      },
-      {
         "name": "Room Rent",
         "quote": "Reasonable and Customary Charges for Room Rent... up to the limits as specified in the Policy Schedule / Product Benefit Table... If the Insured Person is admitted in a room category / limit that is higher... then the Insured Person shall bear a rateable proportion of the Room Rent (and the total Associated Medical Expenses...)",
         "reference": "Section C.I.(1) In-patient Hospitalization (What is covered + Conditions)",
-        "explanation": "Room rent is capped as per your policy schedule, and choosing a higher room category leads to proportionate deductions on your claim. This limits your flexibility and claim amount."
+        "explanation": "Room rent is limited as per the Policy Schedule/Product Benefit Table, and choosing a higher room category triggers a rateable (proportionate) deduction on associated medical expenses. This can sharply reduce claim payout even when your Sum Insured is sufficient."
       },
       {
         "name": "Co-pay",
         "quote": "In case of treatment taken in a city, in a Zone higher than the eligible Zone for the Insured Person, the Co-payment percentages as below shall apply: ... Zone I ... 10% ... 15% ... 25%",
         "reference": "Section C.I.(20) Co-payment for treatment in a Higher Zone + Zone Classification (Section E.II.22)",
-        "explanation": "If you get treatment in a higher-cost zone than your eligible zone, you must pay a mandatory co-pay of 10% to 25%, reducing your effective coverage."
+        "explanation": "A co-pay of 10% to 25% applies if treatment is taken in a higher zone than the insured person’s eligible zone. This means you must pay that percentage of each admissible claim amount out of pocket in such cases."
       },
       {
-        "name": "Mandatory Co-pay",
+        "name": "Co-pay (Mandatory)",
         "quote": "(21) Mandatory Co-payment: A mandatory Co-payment as specified in the Policy Schedule shall apply to all payable claims amount in respect of an Insured Person. Conditions i. For persons who have opted for a ‘Waiver of Mandatory Co-payment’ this Co-payment will not apply.",
         "reference": "Section C.I.(21) Mandatory Co-payment + Section V (38) Waiver of Mandatory Co-payment",
-        "explanation": "The base policy includes a mandatory co-pay on all claims unless you purchase a waiver add-on. This reduces your claim payout by the co-pay percentage."
+        "explanation": "A mandatory co-payment applies to all payable claims as per the Policy Schedule, unless a waiver is opted. This reduces every claim payout by the co-pay percentage and increases your out-of-pocket cost."
       },
       {
-        "name": "Co-pay",
-        "quote": "A mandatory Co-payment as specified in the Policy Schedule shall apply to all payable claims amount in respect of an Insured Person.",
-        "reference": "Section C.I.(21) Mandatory Co-payment",
-        "explanation": "The policy confirms mandatory co-pay exists but does not specify the percentage here. Check your policy schedule for the exact co-pay rate."
+        "name": "Co-pay (PPN)",
+        "quote": "(37) Preferred Provider Network (PPN) Discount: ... discount of 10% on the premium payable... If ... treatment ... in a Hospital other than those listed as “Preferred Provider Network”, then ... shall bear a Co-Payment of 10% on each and every claim",
+        "reference": "Section V Optional Covers, (37) PPN Discount",
+        "explanation": "If the optional PPN discount is chosen, a 10% co-pay applies on each and every claim when treated outside the PPN hospital list. This can make claims meaningfully costlier despite the 10% premium discount."
+      },
+      {
+        "name": "Disease Sub-limits",
+        "quote": "For Platinum - Essential Plan, treatment-wise sub-limits will apply as below... Cataract... Angioplasty... Knee replacement... Hip replacement... Cholecystectomy... hysterectomy...",
+        "reference": "Section C.I.(1) In-patient Hospitalization — Sub-limits table",
+        "explanation": "Treatment-wise sub-limits apply for procedures like cataract, angioplasty, knee/hip replacement, cholecystectomy and hysterectomy. Even with a high Sum Insured, payouts can be capped for these treatments, increasing your out-of-pocket spend."
       }
     ],
     "unclear": [
       {
-        "name": "PED Waiting",
+        "name": "PED Waiting Period",
         "quote": "Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of the number of months of continuous coverage ... as specified in the Policy Schedule / Certificate of Insurance / Product Benefit Table",
         "reference": "Section D.I.1 (Pre-Existing Diseases)",
-        "explanation": "The waiting period for pre-existing diseases is not stated in the wording and depends on your policy schedule. Confirm whether it is 24, 36, or 48 months for your plan."
+        "explanation": "Pre-existing diseases are covered only after a waiting period stated in the Policy Schedule/Certificate/Product Benefit Table, but the wording does not specify the months. Your PED coverage could start after 24/36/48 months depending on the variant you bought."
+      },
+      {
+        "name": "Pre-hospitalization Cover",
+        "quote": "(2) Pre – hospitalization Medical Expenses: ... for the number of days in accordance with the limits specified in the Policy Schedule / Product Benefit Table of this Policy",
+        "reference": "Section C.I.(2) Pre-hospitalization Medical Expenses",
+        "explanation": "Pre-hospitalization medical expenses are covered for a number of days as per the Policy Schedule/Product Benefit Table, but the exact duration is not stated here. The number of covered days directly affects how much of your pre-admission tests and consultations get reimbursed."
+      },
+      {
+        "name": "Post-hospitalization Cover",
+        "quote": "(3) Post – hospitalisation Medical Expenses: ... for the number of days in accordance with the limits specified in the Policy Schedule / Product Benefit Table of this Policy",
+        "reference": "Section C.I.(3) Post-hospitalization Medical Expenses",
+        "explanation": "Post-hospitalization medical expenses are covered for a number of days as per the Policy Schedule/Product Benefit Table, but the exact duration is not stated here. A longer window is important for follow-up medicines, diagnostics and consultations after discharge."
       },
       {
         "name": "Consumables",
         "quote": "Medicines, drugs and other allowable consumables prescribed by the treating Medical Practitioner; ... Annexure I – Non Medical Expenses",
         "reference": "Section C.I.(1)(vi) + Annexure I (Non-Medical Expenses list)",
-        "explanation": "The policy covers allowable consumables but excludes many non-medical items. Confirm if consumables are fully covered or limited to standard admissible items."
+        "explanation": "Allows medicines, drugs and other allowable consumables, while Annexure I lists non-medical items that are not payable. Your out-of-pocket cost will depend on which consumables the insurer treats as “allowable” versus excluded non-medical items."
       },
       {
         "name": "No Claim Bonus",
         "quote": "We shall apply a Cumulative Bonus in the form of No Claim Bonus at such rates as specified in the Policy Schedule... In the event of a claim impacting the eligibility of a Cumulative Bonus, the accumulated Cumulative Bonus shall be reduced by the percentage of Sum Insured as accumulated in the previous Policy Year and as mentioned in Policy Schedule / Product Benefit Table",
         "reference": "Cumulative Bonus section (under Benefits/Additional Benefits)",
-        "explanation": "No Claim Bonus exists but the exact accrual rate and reduction on claim depend on your policy schedule. Confirm if it resets to zero or reduces partially."
+        "explanation": "No Claim Bonus applies at rates shown in the Policy Schedule, and on a claim the accumulated bonus is reduced as per the schedule rather than clearly stated here. The actual bonus growth and how much it drops after a claim will materially affect your effective Sum Insured over time."
       }
     ]
   },

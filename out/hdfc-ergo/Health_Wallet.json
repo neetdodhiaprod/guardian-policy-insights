@@ -5,9 +5,9 @@
   "policyType": "Mixed",
   "documentType": "Policy Wording",
   "summary": {
-    "great": 3,
-    "good": 3,
-    "bad": 3,
+    "great": 2,
+    "good": 5,
+    "bad": 1,
     "unclear": 1
   },
   "features": {
@@ -16,39 +16,45 @@
         "name": "NCB",
         "quote": "“On Renewal of this Policy with the Company without a break, a sum equal to 50% of the Base Sum Insured of the expiring Policy shall be provided as multiplier benefit irrespective of any claims ... The maximum multiplier bonus will not exceed 100% of the Basic Sum Insured in any Policy Year.”",
         "reference": "Section B.3 Multiplier Benefit (pages 16-17 approx.)",
-        "explanation": "You get a renewal bonus of 50% of the base sum insured even if you have claimed, up to a maximum of 100%. This means your sum insured increases on renewal regardless of claims, which is better than typical no-claim bonuses that reduce after a claim."
+        "explanation": "On renewal without a break, a 50% multiplier benefit is added irrespective of any claims, up to a maximum of 100% of the Basic Sum Insured. This means your cover can grow even if you claim, which is better than typical NCBs that reduce or reset after claims."
       },
+      {
+        "name": "Co-pay",
+        "quote": "No explicit statement found such as “no co-payment” or “X% co-payment applicable”, other than definition: “Co-payment means a cost-sharing requirement...” and Reserve Benefit mentioning it can pay “Co-payment and / or Deductible for any health insurance claim”.",
+        "reference": "Definition Def.6 Co-payment (page 4 approx.); Section B.4 Reserve Benefit (page 18 approx.)",
+        "explanation": "No applied co-pay clause is stated; only a standard definition is present, and another benefit merely mentions co-pay/deductible as a type of expense. This indicates no co-pay is charged on the base plan, so admissible claims are not reduced by a mandatory percentage."
+      }
+    ],
+    "good": [
       {
         "name": "Restore Benefit",
         "quote": "“a Restore Sum Insured (equal to 100% of the Basic Sum Insured) will be automatically available... The Restore Sum Insured can be used for only future claims... In case Family Floater Policy, Restore Sum Insured will be available for all Insured Persons in the Policy... IMPORTANT: In a Family Floater the Illness or disease will be covered in case a claim is made by any other Insured Person other than the Insured Person who has already claimed for that Illness or disease.”",
         "reference": "Section B.1(k) Restore Benefit (page 15 approx.)",
-        "explanation": "An extra sum insured equal to 100% of the base amount is available after you exhaust your base sum insured, usable for future claims. In family floater policies, the same illness can be claimed by different family members using this benefit."
+        "explanation": "An automatic restore of 100% of the Basic Sum Insured becomes available for future claims after the base sum insured is used. In a family floater, the same illness can be covered only if claimed by a different insured person than the one who already claimed for that illness."
       },
       {
         "name": "Built-in SI Buffer",
         "quote": "“Any claims made under this benefit will not be subject to In-patient Benefit Sum Insured... This benefit covers... ii. Medical expenses incurred on inpatient and/or outpatient treatment. This includes - Co-payment and / or Deductible for any health insurance claim - Standard non-payable items under any health insurance claim ... - Additional inpatient medical expenses after exhaustion of sum insured.”",
         "reference": "Section B.4 Reserve Benefit (pages 17-19 approx.)",
-        "explanation": "An additional sum insured buffer covers inpatient and outpatient costs including co-payments and non-payables after your base sum insured is used up. This acts like a separate wallet to reduce your out-of-pocket expenses."
-      }
-    ],
-    "good": [
+        "explanation": "A separate “Reserve Benefit” can pay certain inpatient/outpatient expenses even after exhaustion of sum insured, and is stated to not be subject to the In-patient Benefit Sum Insured. This works like an extra insurer-funded buffer for items like deductibles/co-payments (if any) and standard non-payables."
+      },
       {
-        "name": "Initial Waiting",
+        "name": "Initial Waiting Period",
         "quote": "“30-day Waiting Period: Code-Excl03... Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident”",
         "reference": "Section C.1(i) (page 20 approx.)",
-        "explanation": "Illnesses are not covered for the first 30 days except if caused by an accident. This is a standard waiting period in health insurance."
+        "explanation": "Treatment for illnesses is not covered in the first 30 days from the first policy start date, except for accidents. This is a standard waiting period and mainly affects claims soon after buying the policy."
       },
       {
-        "name": "Specific Illness Waiting",
+        "name": "Specific Illness Waiting Period",
         "quote": "“Expenses related to the treatment of the listed Conditions, surgeries/treatments ... shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first Policy with us.”",
         "reference": "Section C.1(ii) Specified disease/procedure waiting period (page 20 approx.)",
-        "explanation": "Certain specified diseases and procedures are excluded for the first 24 months of coverage. This two-year waiting is typical for many policies."
+        "explanation": "Listed specified diseases/procedures are not covered until 24 months of continuous coverage are completed. This is a common 2-year moratorium for certain conditions."
       },
       {
-        "name": "PED Waiting",
+        "name": "PED Waiting Period",
         "quote": "“Expenses related to the treatment of a pre-existing disease (PED) and its direct complications shall be excluded until the expiry of 36 months of continuous coverage after the date of inception of the first policy with insurer.”",
         "reference": "Section C.1(iii) Pre-Existing Diseases (page 22 approx.)",
-        "explanation": "Pre-existing diseases are excluded for 36 months from the start of the first policy. This three-year waiting is common and not considered a red flag."
+        "explanation": "Pre-existing diseases and their direct complications are excluded for 36 months from the inception of the first policy. This 3-year PED waiting period is within normal market range."
       }
     ],
     "bad": [
@@ -56,27 +62,15 @@
         "name": "Consumables",
         "quote": "“Annexure I – List of Non-Medical Expenses” includes: “GLOVES”, “MASK”, “ANY KIT WITH NO DETAILS MENTIONED [DELIVERY KIT, ORTHOKIT, RECOVERY KIT, ETC]”, “NEBULISATION KIT”, etc.",
         "reference": "Annexure I – List of Non-Medical Expenses (pages 43-45 approx.)",
-        "explanation": "Many common hospital consumables like gloves and masks are excluded from coverage, which can lead to significant out-of-pocket expenses during hospitalization."
-      },
-      {
-        "name": "Room Rent",
-        "quote": "No explicit room rent eligibility limit (e.g., “single private AC”, “any room”, “no capping”) found in provided text. Only definition: “Room Rent means the amount charged by a hospital for the occupancy of a bed...”",
-        "reference": "Definition Def.40 Room Rent (page 8 approx.); Section B.1(a) mentions room rent as covered but no eligibility/cap provided (page 12 approx.)",
-        "explanation": "The policy does not specify the room category or any cap on room rent, which may lead to restrictions or proportionate deductions. This uncertainty can cause unexpected costs."
-      },
-      {
-        "name": "Co-pay",
-        "quote": "No explicit statement found such as “no co-payment” or “X% co-payment applicable”, other than definition: “Co-payment means a cost-sharing requirement...” and Reserve Benefit mentioning it can pay “Co-payment and / or Deductible for any health insurance claim”.",
-        "reference": "Definition Def.6 Co-payment (page 4 approx.); Section B.4 Reserve Benefit (page 18 approx.)",
-        "explanation": "The policy does not clearly state if co-pay applies or not. You should check the policy schedule or endorsements to confirm if any co-payment is mandatory."
+        "explanation": "Non-medical/consumable items listed in Annexure I (e.g., gloves, masks, kits) are not payable. This can increase out-of-pocket costs during hospitalization even when the main treatment is covered."
       }
     ],
     "unclear": [
       {
-        "name": "Room Rent Sub-limits",
-        "quote": "“In-patient Treatment... includes Hospital room rent or boarding; ... Intensive Care Unit” (no limits/capping mentioned).",
-        "reference": "Section B.1(a) In-patient Treatment (page 12 approx.)",
-        "explanation": "Room rent and ICU charges are covered but the policy does not specify any limits or caps. Confirm from the full policy or schedule to understand if any sub-limits apply."
+        "name": "Room Rent",
+        "quote": "No explicit room rent eligibility limit (e.g., “single private AC”, “any room”, “no capping”) found in provided text. Only definition: “Room Rent means the amount charged by a hospital for the occupancy of a bed...”",
+        "reference": "Definition Def.40 Room Rent (page 8 approx.); Section B.1(a) mentions room rent as covered but no eligibility/cap provided (page 12 approx.)",
+        "explanation": "Room rent is mentioned as covered, but the provided text does not state any room category eligibility or rupee cap. You may need to verify the Policy Schedule/benefit table to confirm whether any room rent limit applies (which can affect overall claim payouts)."
       }
     ]
   },

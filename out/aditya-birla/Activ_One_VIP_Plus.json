@@ -5,10 +5,10 @@
   "policyType": "Individual | Family Floater",
   "documentType": "Policy Wording",
   "summary": {
-    "great": 7,
-    "good": 3,
-    "bad": 3,
-    "unclear": 0
+    "great": 5,
+    "good": 4,
+    "bad": 1,
+    "unclear": 2
   },
   "features": {
     "great": [
@@ -16,86 +16,81 @@
         "name": "Room Rent",
         "quote": "Room Rent ... Actuals up to Sum Insured",
         "reference": "Annexure III - Product Benefit Table (VIP+), Hospitalization Treatment (In-built Cover)",
-        "explanation": "Room rent is covered at actual cost up to the sum insured without any category restriction. This means you can choose any room type and the policy will pay the full eligible rent within your sum insured limit."
+        "explanation": "Room rent is payable at actuals up to the Sum Insured with no room-category cap mentioned. This reduces the risk of room-rent based deductions and gives you flexibility to choose a room within your Sum Insured."
       },
       {
         "name": "Pre-hospitalization Cover",
         "quote": "The Company shall indemnify the Pre-Hospitalization Medical Expenses incurred... for up to 90 days immediately prior to the date of such Hospitalization.",
         "reference": "Section C.2 Pre-Hospitalization Expenses",
-        "explanation": "Medical expenses before hospitalization are covered for up to 90 days, which is better than the usual 30–60 days. This helps cover costs related to diagnosis and treatment before admission."
+        "explanation": "Pre-hospitalization medical expenses are covered for up to 90 days before admission. This helps pay for consultations, tests, and medicines leading up to hospitalization."
       },
       {
         "name": "Restore Benefit",
         "quote": "We shall provide for a reload amounting to the Base Sum Insured (“Super Reload”), unlimited times during the Policy Year...",
         "reference": "Section C.10 Super Reload",
-        "explanation": "The policy allows unlimited reloads of the base sum insured during the policy year after it is exhausted, starting from the second claim. This gives you extra coverage if you have multiple claims."
+        "explanation": "A reload equal to the Base Sum Insured is available unlimited times in the same policy year. This can significantly increase available cover if you have multiple hospitalizations in one year."
       },
       {
         "name": "Built-in SI Buffer",
         "quote": "an additional limit under the current Policy Year (“Super Credit”) will be applied / increased... irrespective of any claims in previous Policy Year",
         "reference": "Section C.11 Super Credit",
-        "explanation": "Extra sum insured is added on renewal regardless of claims made, providing additional coverage beyond the base sum insured. This benefits you by increasing your coverage even if you have claimed before."
-      },
-      {
-        "name": "NCB",
-        "quote": "Super Credit (increases irrespective of claim)",
-        "reference": "Annexure III - Product Benefit Table (VIP+)",
-        "explanation": "The renewal bonus (Super Credit) does not reset to zero after a claim and increases regardless of claims. This means your sum insured can grow even if you make claims."
-      },
-      {
-        "name": "Consumables",
-        "quote": "Claim Protect (Non-Medical Expense Waiver): Non-payable items will be covered (all 4 lists of Annexure I)",
-        "reference": "Annexure III - Product Benefit Table (VIP+); also Section C.4",
-        "explanation": "If Claim Protect is active, common non-medical hospital items like gloves and masks are covered instead of being out-of-pocket. This reduces your incidental expenses during hospitalization."
+        "explanation": "An additional limit (“Super Credit”) is applied/increased for the current policy year irrespective of claims in the previous year. This means your available coverage can grow even if you made claims earlier."
       },
       {
         "name": "Bariatric Surgery",
         "quote": "Obesity Treatment: Medical Expenses incurred... for a Bariatric Surgery... subject to the conditions that needs to be fulfilled as per Section D.1.6",
         "reference": "Section C.1.1.1(h)",
-        "explanation": "Bariatric surgery is covered when you meet the policy’s medical criteria. This allows treatment for obesity-related conditions under the policy."
+        "explanation": "Medical expenses for bariatric surgery are covered, subject to the conditions in Section D.1.6. This can reduce out-of-pocket costs for medically indicated obesity treatment."
       }
     ],
     "good": [
       {
-        "name": "Specific Illness Waiting",
+        "name": "Specific Illness Waiting Period",
         "quote": "Expenses related to the treatment of the listed Conditions, surgeries / treatments shall be excluded until the expiry of 24 months of continuous coverage...",
         "reference": "Section D.1.2 Specified disease / procedure Waiting Period (Code-Excl02)",
-        "explanation": "A 24-month waiting period applies for specified illnesses and procedures, which is standard in the market. You must wait two years before claiming for these conditions."
+        "explanation": "Specified diseases/procedures are not covered until 24 months of continuous coverage are completed. Claims for those listed conditions will be payable only after you finish this 2-year wait."
       },
       {
-        "name": "Initial Waiting",
+        "name": "Initial Waiting Period",
         "quote": "Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident",
         "reference": "Section D.1.3 30-day Waiting Period (Code-Excl03)",
-        "explanation": "Illnesses are not covered during the first 30 days except for accidents, which is a common industry practice. This protects against immediate claims on new policies."
+        "explanation": "Illness-related claims are excluded for the first 30 days from the policy start date, except accidents. This is a standard waiting period you should plan around when buying a new policy."
       },
       {
-        "name": "PED Waiting",
+        "name": "PED Waiting Period",
         "quote": "Pre Existing Disease (PED) Waiting Period\n3 years",
         "reference": "Annexure III - Product Benefit Table (VIP+), Waiting Period - Inbuilt Cover",
-        "explanation": "Pre-existing diseases are covered after a 3-year waiting period, which is within the acceptable 2–4 year range. This means you must wait three years before claiming for pre-existing conditions."
-      }
-    ],
-    "bad": [
+        "explanation": "Pre-existing diseases are covered after a waiting period of 3 years. You cannot claim for declared/known pre-existing conditions until this period is completed."
+      },
       {
         "name": "Post-hospitalization Cover",
         "quote": "The Company shall indemnify the Post-Hospitalization Medical Expenses incurred... for up to 180 days from the date of discharge from the Hospital.",
         "reference": "Section C.3 Post-Hospitalization Expenses",
-        "explanation": "Post-hospitalization expenses are covered for up to 180 days, which is standard but not best-in-class. Expenses after 180 days will not be reimbursed, which may increase your out-of-pocket costs."
-      },
-      {
-        "name": "Consumables",
-        "quote": "The expenses that are not covered... may be covered under this Product if Claim Protect (Non-Medical Expense Waiver) is applicable to You and mentioned in the Policy Schedule.",
-        "reference": "Annexure Summary; also Section C.4 / Annexure I context",
-        "explanation": "Non-medical consumable items are not covered by default and require Claim Protect to be active. Without this, you may have to pay for these items yourself."
-      },
+        "explanation": "Post-hospitalization medical expenses are covered for up to 180 days after discharge. This is market-standard support for follow-up tests, medicines, and consultations after hospitalization."
+      }
+    ],
+    "bad": [
       {
         "name": "Co-pay",
         "quote": "Co-Payment: means a cost sharing requirement under a health insurance policy that provides that the Policyholder / Insured will bear a specified percentage of the admissible claims amount.",
         "reference": "Section B.1 (Definitions), definition 10. Co-Payment",
-        "explanation": "The policy defines co-payment but does not specify if or when it applies for this plan. You need to check your Policy Schedule to know if any co-pay applies."
+        "explanation": "Only a definition of co-payment is provided here and no applied co-pay clause is shown in the quoted text. If the schedule/benefit table does not impose any co-pay, you would not have to share a percentage of admissible claims."
       }
     ],
-    "unclear": []
+    "unclear": [
+      {
+        "name": "Consumables",
+        "quote": "The expenses that are not covered... may be covered under this Product if Claim Protect (Non-Medical Expense Waiver) is applicable to You and mentioned in the Policy Schedule.",
+        "reference": "Annexure Summary; also Section C.4 / Annexure I context",
+        "explanation": "Non-medical/consumable items are covered only if the optional 'Claim Protect (Non-Medical Expense Waiver)' is applicable and shown in the Policy Schedule. If it is not included for you, these items may be out-of-pocket during hospitalization."
+      },
+      {
+        "name": "Consumables",
+        "quote": "Claim Protect (Non-Medical Expense Waiver): Non-payable items will be covered (all 4 lists of Annexure I)",
+        "reference": "Annexure III - Product Benefit Table (VIP+); also Section C.4",
+        "explanation": "The benefit table states non-payable items (all 4 lists in Annexure I) will be covered under 'Claim Protect'. Whether you get this depends on whether Claim Protect is included for you in the Policy Schedule."
+      }
+    ]
   },
   "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
 }

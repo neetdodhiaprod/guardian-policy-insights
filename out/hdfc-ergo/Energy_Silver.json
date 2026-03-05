@@ -5,50 +5,44 @@
   "policyType": "Individual | Family Floater",
   "documentType": "Policy Wording",
   "summary": {
-    "great": 3,
-    "good": 3,
+    "great": 1,
+    "good": 4,
     "bad": 2,
-    "unclear": 2
+    "unclear": 1
   },
   "features": {
     "great": [
       {
-        "name": "Restore Benefit",
-        "quote": "Instant addition of 100% Basic Sum Insured on complete or partial utilization of Your existing Policy Sum Insured and cumulative Bonus (if applicable) during the Policy Year... The Sum Insured will be restored only once in a Policy Year.",
-        "reference": "Section B, II. Other Benefits, 1. Restore benefit (Page 11)",
-        "explanation": "You get an extra 100% of the base sum insured once per policy year after using up your base sum insured and any cumulative bonus. This means your coverage is replenished to help with further claims within the same year."
-      },
-      {
-        "name": "Built-in SI Buffer",
-        "quote": "Instant addition of 100% Basic Sum Insured on complete or partial utilization of Your existing Policy Sum Insured and cumulative Bonus (if applicable) during the Policy Year.",
-        "reference": "Section B, II. Other Benefits, 1. Restore benefit (Page 11)",
-        "explanation": "An automatic extra sum insured equal to 100% of the base sum insured becomes available after you use your base sum insured and any bonus. This provides additional financial protection without extra purchase."
-      },
-      {
         "name": "NCB",
         "quote": "a sum equal to 10% of the Base Sum Insured of the expiring Policy shall be provided as Cumulative Bonus irrespective of any claims",
         "reference": "Section B, III. Renewal Benefits, 2. Cumulative Bonus (Page 16)",
-        "explanation": "You receive a 10% cumulative bonus on renewal even if you made claims in the previous year. This means your bonus does not reduce or reset after claims, which is better than standard no-claim bonuses."
+        "explanation": "A 10% Cumulative Bonus is added on renewal irrespective of any claims. Your bonus does not reduce or reset to zero after a claim, which is better than most NCB designs."
       }
     ],
     "good": [
       {
+        "name": "Restore Benefit",
+        "quote": "Instant addition of 100% Basic Sum Insured on complete or partial utilization of Your existing Policy Sum Insured and cumulative Bonus (if applicable) during the Policy Year... The Sum Insured will be restored only once in a Policy Year.",
+        "reference": "Section B, II. Other Benefits, 1. Restore benefit (Page 11)",
+        "explanation": "Adds 100% of Basic Sum Insured after complete or partial use of your Sum Insured (and cumulative bonus, if applicable), but only once in a policy year. This can help pay a second hospitalization in the same year, but the refill is limited to a single restore."
+      },
+      {
         "name": "PED Waiting Period",
         "quote": "Expenses related to the treatment of a pre-existing disease (PED) and its direct complications shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first policy with insurer.",
         "reference": "Section C, 1(ii) Pre-Existing Diseases: Code - Excl01 (Page 19)",
-        "explanation": "Pre-existing diseases are covered after 24 months of continuous coverage, subject to declaration and acceptance. This waiting period is standard and reasonable in the market."
+        "explanation": "Pre-existing diseases are covered after 24 months of continuous coverage from the first policy inception. This is a standard waiting period in retail health insurance."
       },
       {
         "name": "Specific Illness Waiting",
         "quote": "Expenses related to the treatment of the listed Conditions, surgeries/treatments... shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first Policy with us.",
         "reference": "Section C, 1(i) Specified disease/procedure waiting period: Code - Excl02 (Page 16-18)",
-        "explanation": "Certain specified diseases and procedures are covered only after 24 months of continuous coverage. This is a common industry standard waiting period."
+        "explanation": "Listed specified diseases/procedures are covered only after 24 months of continuous coverage. This is in line with common market practice."
       },
       {
-        "name": "Initial Waiting Period",
-        "quote": "All Illnesses and treatments shall be covered subject to the waiting periods specified below: i. Specified disease/procedure waiting period... ii. Pre-Existing Diseases...",
-        "reference": "Section C, 1. Standard Waiting Period (Page 16)",
-        "explanation": "The policy does not explicitly state an initial waiting period like 30 days, but it applies standard waiting periods for PED and specific illnesses. This is typical for many policies."
+        "name": "Pre-hospitalization Cover",
+        "quote": "Pre-Hospitalization Medical expenses... incurred upto 30 days before Hospitalisation.",
+        "reference": "Section B, I.2 Pre-Hospitalization Medical expenses (Page 10)",
+        "explanation": "Covers eligible medical expenses incurred up to 30 days before hospitalization. This helps reimburse diagnostics and consultations leading up to admission."
       }
     ],
     "bad": [
@@ -56,13 +50,13 @@
         "name": "Consumables",
         "quote": "Non-Medical expenses such as... Full list of Non-Medical expenses is attached... Annexure I - List of Non-Medical Expenses... 56 GLOVES ... 60 MASK ... 68 VASOFIX SAFETY ...",
         "reference": "Section C, 3. Specific Exclusions (Page 22) + Annexure I (Pages 41-42)",
-        "explanation": "Many common hospital consumables like gloves, masks, and safety kits are excluded from coverage. This means you may have to pay for these items out-of-pocket during hospitalization."
+        "explanation": "Non-medical/consumable items (e.g., gloves, masks, cannula/vasofix items) are excluded as per the annexure list. You will likely pay these hospital bill components out of pocket even in a cashless claim."
       },
       {
-        "name": "Co-pay",
+        "name": "Co-pay (Optional)",
         "quote": "If opted and mentioned on the Policy Schedule that a Co-payment is effective... the insured person shall bear 20% of the eligible claim amount payable under the Policy",
         "reference": "Section D, 2. Specific General Terms, Clause 15. Co-Payment (Page 34)",
-        "explanation": "Co-pay of 20% applies only if you opt for it and it is mentioned in your policy schedule. The default co-pay status if not opted is not clearly stated, so check your schedule."
+        "explanation": "If co-payment is opted and shown on the Policy Schedule, you must bear 20% of each eligible claim amount. This directly increases your out-of-pocket cost on every claim where it applies."
       }
     ],
     "unclear": [
@@ -70,13 +64,7 @@
         "name": "Room Rent",
         "quote": "In-Patient Treatment... includes: • Hospital room rent or boarding",
         "reference": "Section B, I.1 In-Patient Treatment (Page 9)",
-        "explanation": "Room rent is covered but the policy does not specify the eligible room category or any caps. You need to check your policy schedule to know if any room rent restrictions apply."
-      },
-      {
-        "name": "Pre-hospitalization Cover",
-        "quote": "Pre-Hospitalization Medical expenses... incurred upto 30 days before Hospitalisation.",
-        "reference": "Section B, I.2 Pre-Hospitalization Medical expenses (Page 10)",
-        "explanation": "Pre-hospitalization expenses are covered up to 30 days before admission, which is standard. However, the policy does not clarify if any exceptions or variations apply."
+        "explanation": "Hospital room rent/boarding is covered as part of in-patient treatment, but no room category or rupee cap is stated here. Any room-rent restriction (and possible linked deductions) would typically be confirmed in the Policy Schedule."
       }
     ]
   },

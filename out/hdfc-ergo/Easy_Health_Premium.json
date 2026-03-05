@@ -5,10 +5,10 @@
   "policyType": "Individual | Family Floater",
   "documentType": "Policy Wording",
   "summary": {
-    "great": 1,
+    "great": 2,
     "good": 6,
-    "bad": 5,
-    "unclear": 3
+    "bad": 2,
+    "unclear": 4
   },
   "features": {
     "great": [
@@ -16,45 +16,51 @@
         "name": "NCB",
         "quote": "On Renewal of this Policy with the Company without a break, a sum equal to 10% of the Base Sum Insured of the expiring Policy shall be provided as multiplier benefit irrespective of any claims ... The maximum multiplier bonus will not exceed 100% of the Basic Sum Insured in any Policy Year.",
         "reference": "Section B > 5. Renewal Benefits > 5.1 Cumulative Bonus",
-        "explanation": "You get a 10% increase in Sum Insured at each renewal even if you have made claims, up to 100% of the base Sum Insured. This means your coverage grows regardless of claims, which is better than typical no-claim bonuses that reduce after a claim."
+        "explanation": "A 10% multiplier benefit is added on every renewal even if you have made claims, up to 100% of the Base Sum Insured. This means your coverage can grow over time without being reduced due to claims."
+      },
+      {
+        "name": "Co-pay",
+        "quote": "Co-payment means a cost-sharing requirement under a health insurance policy that provides that the policyholder/insured will bear a specified percentage of the admissible claim amount.",
+        "reference": "Section A > Standard Definitions > Def. 8 Co-payment",
+        "explanation": "Only a standard definition of co-payment is provided and no applied co-pay clause is shown in the extract. This indicates no co-pay is being charged here, so the insurer should pay 100% of admissible claims (subject to other terms)."
       }
     ],
     "good": [
       {
-        "name": "Initial Waiting",
+        "name": "Initial Waiting Period",
         "quote": "30-day waiting period – Code – Excl03 ... Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident",
         "reference": "Section C > 1(i) 30-day waiting period – Excl03",
-        "explanation": "Illnesses are excluded for the first 30 days except accidents. This standard waiting period means you are covered for accidents from day one."
+        "explanation": "Treatment for illnesses is not covered for the first 30 days, but accidents are covered from day one. This is a standard waiting period in retail health insurance."
       },
       {
-        "name": "Specific Illness Waiting",
+        "name": "Specific Illness Waiting Period",
         "quote": "Specified disease/procedure waiting period – Code – Excl02 ... excluded until the expiry of 24 months of continuous coverage after the date of inception of the first policy with us.",
         "reference": "Section C > 1(ii) Specified disease/procedure waiting period – Excl02",
-        "explanation": "Certain diseases and procedures are excluded for 24 months from policy start. This is a typical industry standard waiting period."
+        "explanation": "Listed specified diseases/procedures are not covered for the first 24 months of continuous coverage. This is a common market-standard waiting period."
       },
       {
-        "name": "PED Waiting",
+        "name": "PED Waiting Period",
         "quote": "Pre-Existing Diseases – Code – Excl01 ... excluded until the expiry of 36 months of continuous coverage after the date of inception of the first policy with insurer.",
         "reference": "Section C > 1(iii) Pre-Existing Diseases – Excl01",
-        "explanation": "Pre-existing diseases are excluded for 36 months from policy start. This is common and not considered a red flag."
+        "explanation": "Pre-existing diseases are covered only after 36 months of continuous coverage. This is within the normal 2–4 year range seen in many plans."
       },
       {
-        "name": "Pre-hospitalization",
+        "name": "Pre-hospitalization Cover",
         "quote": "Pre-Hospitalization Medical Expenses for consultations, investigations and medicines incurred upto 60 days before the date of admission to the Hospital",
         "reference": "Section B > 1(b) Pre-Hospitalization Medical Expenses",
-        "explanation": "Medical expenses up to 60 days before hospital admission are covered. This is a good benefit that helps cover related costs before hospitalization."
+        "explanation": "Medical expenses for consultations, investigations and medicines are covered up to 60 days before hospitalization. This reduces out-of-pocket costs for pre-admission workups."
       },
       {
-        "name": "Post-hospitalization",
+        "name": "Post-hospitalization Cover",
         "quote": "Post-Hospitalization Medical Expenses for consultations, investigations and medicines incurred upto 90 days after discharge from Hospitalisation",
         "reference": "Section B > 1(c) Post-Hospitalization Medical Expenses",
-        "explanation": "Medical expenses up to 90 days after hospital discharge are covered. This extended period helps with recovery costs."
+        "explanation": "Medical expenses for consultations, investigations and medicines are covered up to 90 days after discharge. This helps pay for follow-ups and medicines during recovery."
       },
       {
         "name": "Air Ambulance",
         "quote": "Emergency Air Ambulance Cover ... d(i)The amount payable in case of Air ambulance facility shall be either the actual expenses or Rs. 2.5 Lacs per hospitalization, whichever is lower; upto basic sum insured limit for a year",
         "reference": "Section B > 2(d) Emergency Air Ambulance Cover",
-        "explanation": "Air ambulance is covered with a limit of ₹2.5 lakhs per hospitalization, where available. This helps in emergencies requiring air transfer."
+        "explanation": "Emergency air ambulance is covered up to the lower of actual expenses or ₹2.5 lakhs per hospitalization, within the basic sum insured for the year. This can be valuable for critical transfers but has a clear per-hospitalization cap."
       }
     ],
     "bad": [
@@ -62,51 +68,39 @@
         "name": "Consumables",
         "quote": "Annexure I – List I - Items for which coverage is not available in the policy ... 56 GLOVES ... 60 MASK ... 62 OXYGEN MASK ... 58 ANY KIT WITH NO DETAILS MENTIONED [DELIVERY KIT, ORTHOKIT, RECOVERY KIT, ETC]",
         "reference": "Annexure I – List I (Items for which coverage is not available)",
-        "explanation": "Common consumables like gloves and masks are excluded from coverage. This means you may have to pay these costs out of pocket during hospitalization."
+        "explanation": "Many common consumables (like gloves, masks, oxygen mask and kits) are listed as not covered. This can increase your hospital bill as these items are frequently charged during treatment."
       },
       {
         "name": "Restore Benefit",
         "quote": "No explicit restore/reinstatement/refill benefit mentioned in provided policy wording text.",
         "reference": "Document scan (no restore clause found in Benefits/Renewal sections provided)",
-        "explanation": "Sum Insured is not replenished after a claim. Multiple hospitalizations in the same year can exhaust your coverage faster."
-      },
-      {
-        "name": "Room Rent",
-        "quote": "This includes • Hospital room rent or boarding; ... (no room rent eligibility/capping stated in the provided extract).",
-        "reference": "Section B > 1(a) In-Patient Treatment",
-        "explanation": "Room rent eligibility or limits are not stated. If the actual policy has a room rent cap, it can cause proportionate deductions and unexpected out-of-pocket expenses."
-      },
-      {
-        "name": "Maternity Waiting",
-        "quote": "Schedule of Benefits – Easy Health Individual ... [Waiting Period of 6 years] ... [Waiting Period of 4 Years] ... Schedule of Benefits – Easy Health Family ... [Waiting Period 4 years] ... [Waiting Period of 3 Years]",
-        "reference": "Schedule of Benefits – Easy Health Individual / Easy Health Family (Maternity Expenses row)",
-        "explanation": "Maternity waiting periods range from 3 to 6 years depending on plan variant. This long wait delays eligibility for maternity benefits significantly."
-      },
-      {
-        "name": "Co-pay",
-        "quote": "Co-payment means a cost-sharing requirement under a health insurance policy that provides that the policyholder/insured will bear a specified percentage of the admissible claim amount.",
-        "reference": "Section A > Standard Definitions > Def. 8 Co-payment",
-        "explanation": "The policy defines co-pay but does not clearly state if or how much co-pay applies by default. Check the policy schedule for exact cost-sharing terms."
+        "explanation": "No restore/reinstatement benefit is shown in the provided extract. Without restore, multiple hospitalizations in the same year can exhaust the sum insured faster."
       }
     ],
     "unclear": [
       {
+        "name": "Room Rent",
+        "quote": "This includes • Hospital room rent or boarding; ... (no room rent eligibility/capping stated in the provided extract).",
+        "reference": "Section B > 1(a) In-Patient Treatment",
+        "explanation": "Room rent is mentioned as covered but no eligibility limit/cap is shown in the extract. If a room rent cap exists in the schedule, it can lead to higher out-of-pocket costs and proportionate deductions."
+      },
+      {
         "name": "Cashless Network",
         "quote": "Network Provider means Hospital enlisted by an insurer or a TPA ... to provide medical services to an insured by a cashless facility.",
         "reference": "Section A > Standard Definitions > Def. 30 Network Provider",
-        "explanation": "The number of network hospitals is not specified. The size of the cashless network affects how easily you can access cashless treatment."
+        "explanation": "Only the definition of a network provider is provided and the number/list of network hospitals is not stated. The practical usefulness of cashless treatment depends on how large and accessible the network is in your city."
       },
       {
         "name": "Modern Treatments",
         "quote": "This includes ... Diagnostic procedures.",
         "reference": "Section B > 1(a) In-Patient Treatment",
-        "explanation": "The policy extract does not clarify if modern or advanced treatments have sub-limits. Confirm from full policy wording or schedule."
+        "explanation": "The extract does not clearly confirm coverage for modern treatments (like advanced procedures) or any sub-limits for them. You may need the full wording/schedule to know whether such treatments are covered and at what limits."
       },
       {
         "name": "Built-in SI Buffer",
         "quote": "No explicit clause found in provided text for additional SI buffer that activates after base SI is exhausted (e.g., Secure Benefit/Enhanced SI/Super top-up buffer).",
         "reference": "Document scan (Benefits/Renewal sections provided)",
-        "explanation": "No separate built-in Sum Insured buffer beyond the renewal bonus is mentioned. Such buffers help extend coverage after the base SI is used up."
+        "explanation": "No separate built-in sum insured buffer is shown in the provided extract beyond the renewal multiplier/bonus. If a buffer exists only via an add-on or schedule, it would change how much cover you have after exhausting the base sum insured."
       }
     ]
   },

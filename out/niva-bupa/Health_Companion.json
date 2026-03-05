@@ -7,8 +7,8 @@
   "summary": {
     "great": 1,
     "good": 7,
-    "bad": 5,
-    "unclear": 1
+    "bad": 4,
+    "unclear": 0
   },
   "features": {
     "great": [
@@ -16,7 +16,7 @@
         "name": "Restore Benefit",
         "quote": "3.6. Refill We will add an amount equal to the base sum insured, after the first claim is paid... b. Benefit applies for any illness (same or different).",
         "reference": "Section 3.6 (Refill)",
-        "explanation": "After your first paid claim in a policy year, an extra amount equal to your Base Sum Insured is added once per year. This can be used even for the same illness, offering stronger coverage than standard restore benefits."
+        "explanation": "After the first claim is paid, an extra amount equal to the Base Sum Insured is added in the same policy year. It can be used for any illness including the same illness, which is stronger than many restore benefits that restrict to unrelated illnesses."
       }
     ],
     "good": [
@@ -24,43 +24,43 @@
         "name": "PED Waiting Period",
         "quote": "4.1.1. Pre-existing Diseases (Code–Excl01): a. Expenses related to the treatment of a Pre-existing Disease (PED)... shall be excluded until the expiry of 36 months of continuous coverage",
         "reference": "Section 4.1.1",
-        "explanation": "Pre-existing diseases are excluded for 36 months of continuous coverage, which falls within the acceptable 2–4 year market range."
+        "explanation": "Expenses for pre-existing diseases are not covered for the first 36 months of continuous coverage. This is within the common 2–4 year range in retail health insurance."
       },
       {
         "name": "Specific Illness Waiting",
         "quote": "4.1.2. Specified disease/procedure waiting period (Code- Excl02) a. Expenses related to the treatment of the listed conditions... shall be excluded until the expiry of 24 months of continuous coverage",
         "reference": "Section 4.1.2",
-        "explanation": "Specific listed illnesses and procedures have a 24-month waiting period, which is standard in the market."
+        "explanation": "Listed specified diseases/procedures are not covered for the first 24 months of continuous coverage. This is a standard waiting period for such conditions."
       },
       {
         "name": "Initial Waiting Period",
         "quote": "4.1.3. 30-day waiting period (Code- Excl03): a. Expenses related to the treatment of any Illness within 30 days... shall be excluded except claims arising due to an Accident",
         "reference": "Section 4.1.3",
-        "explanation": "Illness claims are excluded for the first 30 days, but accident claims are covered from day one, which is standard practice."
+        "explanation": "Illness-related claims are not covered in the first 30 days, but accidents are covered from day one. This is the usual market-standard initial waiting period."
       },
       {
         "name": "Pre-hospitalization Cover",
         "quote": "3.3. ... 60 days before date of admission and 180 days after date of discharge IF these are related to the condition for which hospital admission claim is paid.",
         "reference": "Section 3.3",
-        "explanation": "Medical expenses incurred up to 60 days before hospitalization for the same condition are covered, which meets standard market expectations."
+        "explanation": "Medical expenses incurred up to 60 days before admission are covered if related to the hospitalization. This helps pay for diagnostics and consultations leading up to admission."
       },
       {
         "name": "Post-hospitalization Cover",
         "quote": "3.3. ... 60 days before date of admission and 180 days after date of discharge IF these are related to the condition for which hospital admission claim is paid.",
         "reference": "Section 3.3",
-        "explanation": "Medical expenses incurred up to 180 days after discharge for the same condition are covered, aligning with good market standards."
+        "explanation": "Medical expenses incurred up to 180 days after discharge are covered if related to the hospitalization. This reduces out-of-pocket costs for follow-up treatment and medicines."
       },
       {
         "name": "No Claim Bonus",
         "quote": "3.5. No Claim Bonus (NCB) For every claim free year, we will add 20% of expiring policy base sum insured as NCB, maximum up to 100%.",
         "reference": "Section 3.5",
-        "explanation": "NCB increases by 20% of the base sum insured for each claim-free year up to 100%, but the policy does not clarify if NCB reduces or resets after a claim."
+        "explanation": "For each claim-free year, the Base Sum Insured increases by 20%, up to a maximum of 100%. This can meaningfully increase your available cover over time if you don’t claim."
       },
       {
-        "name": "Domiciliary Treatment",
+        "name": "Domiciliary Hospitalization",
         "quote": "3.9. Home Care / Domiciliary Treatment... We will pay for Pre & Post hospitalization benefit as per section 3.3 for Home Care / Domiciliary Treatment.",
         "reference": "Section 3.9",
-        "explanation": "Treatment at home when hospital care is needed is covered with pre- and post-hospitalization benefits, which is a useful standard feature."
+        "explanation": "Home care/domiciliary treatment is covered, along with pre- and post-hospitalization benefits as per Section 3.3. This is useful when treatment is medically required at home instead of a hospital."
       }
     ],
     "bad": [
@@ -68,41 +68,28 @@
         "name": "Room Rent",
         "quote": "For Variant 2023 there is a room type capping up to Shared Room. 20% co-payment will apply in case of higher room category",
         "reference": "Section 3.2 (Expenses during hospitalization)",
-        "explanation": "Room rent is capped up to Shared Room, which is restrictive compared to market standards that usually offer at least Single Private AC rooms. Upgrading the room category incurs a 20% co-payment."
+        "explanation": "Room eligibility is capped up to a Shared Room for Variant 2023. Choosing a higher room category triggers extra costs (including a 20% co-payment), which can make hospitalizations significantly more expensive."
       },
       {
         "name": "Proportionate Deduction",
         "quote": "If you opt for a Hospital room which is higher than the eligible room category as specified in your Policy Schedule, then We will pay only a pro-rated portion of the total Associated Medical Expenses... (Eligible Room Rent limit / Room Rent actually incurred) * total Associated Medical Expenses",
         "reference": "Section 5.2.4(d)",
-        "explanation": "Choosing a higher room category than eligible causes the insurer to proportionately reduce payment for associated medical expenses, increasing your out-of-pocket costs."
+        "explanation": "If you take a room higher than your eligible category, the insurer pays associated medical expenses only on a pro-rated basis using the stated formula. This can sharply reduce claim payouts beyond just the room rent difference."
       },
       {
         "name": "Consumables",
         "quote": "Annexure I - List I – Expenses not covered... 56 GLOVES ... 60 MASK ... 68 VASOFIX SAFETY",
         "reference": "Annexure I (List I – Expenses not covered)",
-        "explanation": "Consumables such as gloves, masks, and cannulas are explicitly excluded, which can lead to significant out-of-pocket expenses during hospitalization."
-      },
-      {
-        "name": "Built-in SI Buffer",
-        "quote": "5.2.10. Sum Insured... Our maximum, total and cumulative liability for all claims during the Policy Year will be Sum Insured and amount provided under Refill benefit.",
-        "reference": "Section 5.2.10",
-        "explanation": "No additional built-in sum insured buffer beyond the base sum insured, NCB, and refill benefit is provided, limiting extra coverage after the base sum insured is exhausted."
+        "explanation": "Consumables like gloves, masks and vasofix are listed as not covered. These items are commonly billed during hospitalization and can add to out-of-pocket expenses."
       },
       {
         "name": "Co-pay",
         "quote": "For Variant 2023... 20% co-payment will apply in case of higher room category",
         "reference": "Section 3.2",
-        "explanation": "The policy mentions a 20% co-pay only for upgrading room category in Variant 2023 but does not clarify if any other co-pay applies by default for age or other factors."
+        "explanation": "A 20% co-payment applies if a higher room category than the eligible one is used (Variant 2023). This means you must bear 20% of admissible expenses in that situation, increasing your share of the bill."
       }
     ],
-    "unclear": [
-      {
-        "name": "NCB Reset",
-        "quote": "3.5. No Claim Bonus (NCB) For every claim free year, we will add 20%... maximum up to 100%.",
-        "reference": "Section 3.5",
-        "explanation": "While NCB accrual is described, the policy does not specify whether NCB reduces or resets after a claim, requiring confirmation from full policy details."
-      }
-    ]
+    "unclear": []
   },
   "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
 }

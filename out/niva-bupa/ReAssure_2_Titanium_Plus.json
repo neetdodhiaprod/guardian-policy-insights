@@ -6,8 +6,8 @@
   "documentType": "Policy Wording",
   "summary": {
     "great": 3,
-    "good": 3,
-    "bad": 2,
+    "good": 4,
+    "bad": 1,
     "unclear": 4
   },
   "features": {
@@ -16,19 +16,19 @@
         "name": "Room Rent",
         "quote": "We don’t limit your choice. Choose the room you like, but choose judiciously to protect your Sum Insured.",
         "reference": "Section 4.2.1 (Expenses during Hospitalization)",
-        "explanation": "You can select any room category without limits on room rent, giving you full flexibility and no risk of claim reduction due to room type."
+        "explanation": "No room rent limit is mentioned, so you can choose any room category. This avoids room-rent caps that can reduce claims, but a higher room can still consume your Sum Insured faster."
       },
       {
         "name": "Built-in SI Buffer",
         "quote": "Sum Insured will be utilized as per following sequence in event of any claim: 1. Base Sum Insured 2. Booster+ Sum Insured 3. Safeguard/Safeguard+ Sum Insured",
         "reference": "Section 3 (Sum Insured(s))",
-        "explanation": "Additional Sum Insured layers activate after the base Sum Insured is exhausted, increasing your coverage for higher medical expenses without extra purchase."
+        "explanation": "Claims are paid in a defined order—Base Sum Insured first, then Booster+ Sum Insured, then Safeguard/Safeguard+ Sum Insured. This creates extra insurer-funded coverage layers that can kick in after the base cover is used up."
       },
       {
         "name": "Restore Benefit",
         "quote": "Enjoy unlimited Sum Insured. The first paid claim in the life of the policy triggers ReAssure “Forever”. Once Triggered it stays for life, provided that the policy is renewed without break.",
         "reference": "Section 4.7.1 (ReAssure+) and Section 4.8 (ReAssureX)",
-        "explanation": "After your first claim, your Sum Insured is restored unlimited times for future claims as long as you renew continuously, ensuring ongoing full coverage."
+        "explanation": "After the first paid claim, ReAssure “Forever” gets triggered and continues for life as long as you renew without a break. This can provide repeated replenishment of cover for future claims across policy years."
       }
     ],
     "good": [
@@ -36,59 +36,59 @@
         "name": "PED Waiting Period",
         "quote": "Expenses related to the treatment of a Pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 36 months of continuous coverage after the date of inception of the first Policy.",
         "reference": "Section 5.1.1 (Pre-existing Diseases) (Code–Excl01)",
-        "explanation": "Pre-existing diseases are excluded for 36 months from policy start, which is within the standard 2–4 year industry range, requiring a 3-year wait before claims."
+        "explanation": "Pre-existing diseases are not covered for the first 36 months of continuous coverage from the policy start date. You can claim for PEDs only after completing this 3-year waiting period."
       },
       {
         "name": "Specific Illness Waiting",
         "quote": "Expenses related to the treatment of the listed conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first Policy.",
         "reference": "Section 5.1.2 (Specified disease/procedure waiting period) (Code- Excl02)",
-        "explanation": "Certain specified illnesses and procedures are excluded for 24 months from inception, matching the industry standard 2-year waiting period."
+        "explanation": "Listed specified diseases/procedures are not covered for 24 months from the first policy inception. Claims for these conditions become payable only after 2 years of continuous coverage."
       },
       {
         "name": "Initial Waiting Period",
         "quote": "Expenses related to the treatment of any Illness within 30 days from the first Policy commencement date shall be excluded except claims arising due to an Accident, provided the same are covered.",
         "reference": "Section 5.1.3 (30-day waiting period) (Code- Excl03)",
-        "explanation": "Illnesses are not covered during the first 30 days except for accidents, which is standard practice, so new illnesses within the first month cannot be claimed."
-      }
-    ],
-    "bad": [
+        "explanation": "Illnesses are not covered in the first 30 days from the first policy commencement date, except accidents (if covered). This means non-accident medical issues arising in the first month are generally not payable."
+      },
       {
         "name": "Post-hospitalization Cover",
         "quote": "We will pay expenses incurred on consultations, medicines, physiotherapy, diagnostic tests for 60 days before the date of admission and 180 days after date of discharge",
         "reference": "Section 4.3 (Expenses before and after hospitalization)",
-        "explanation": "Post-hospitalization expenses are covered for up to 180 days after discharge, which meets but does not exceed the standard limit, offering limited follow-up care coverage."
-      },
+        "explanation": "Post-hospitalization expenses are covered for 180 days after discharge (and pre-hospitalization for 60 days before admission). This is a standard follow-up window for medicines, tests and consultations after a hospital stay."
+      }
+    ],
+    "bad": [
       {
         "name": "Co-pay",
         "quote": "Co-Payment: It is the percentage of admissible claim amount You would have to bear, Rest we will pay.",
         "reference": "Section 4.19 (Co-Payment)",
-        "explanation": "The policy includes a co-payment clause, meaning you must pay a portion of each claim, which is less favorable compared to no co-pay plans."
+        "explanation": "Only a definition of co-payment is provided here, and no applied co-pay percentage/trigger is stated in this extract. With no applied co-pay clause shown, the insurer should pay 100% of admissible claims, which is better than plans that charge 10–20% co-pay."
       }
     ],
     "unclear": [
       {
-        "name": "No Claim Bonus",
+        "name": "NCB",
         "quote": "Cumulative Bonus means any increase or addition in the Sum Insured granted by the insurer without an associated increase in premium",
         "reference": "Definition 2.1.8 (Cumulative Bonus)",
-        "explanation": "The policy mentions cumulative bonus but does not clarify the rate, cap, or if it resets after claims, so you should check your Policy Schedule for details."
+        "explanation": "Only the definition of Cumulative Bonus is provided, without the accrual rate, maximum cap, or what happens after a claim. You’ll need the policy schedule/benefit table to know how much extra Sum Insured you can earn and whether it reduces or resets on a claim."
       },
       {
         "name": "Consumables",
         "quote": "Claim Safeguard: We will cover non-payable items mentioned in ‘List I – Expenses not covered’ of Annexure I’... Claim Safeguard+: We will cover non-payable items mentioned in ‘List I,II,III,IV of Annexure I’.",
         "reference": "Section 4.16.1 (Safeguard) and 4.17.1 (Safeguard+)",
-        "explanation": "Coverage for consumables depends on optional add-ons and it is unclear if they are included by default, so confirm your plan details."
+        "explanation": "Consumables/non-payable items are covered under Safeguard or Safeguard+ as per the specified Annexure lists. It’s unclear from this extract whether either of these is included by default or only if selected, which changes whether consumables are payable in your plan."
       },
       {
         "name": "Restore Limit",
         "quote": "Maximum amount ReAssure+ pays for any single claim is up to Base Sum Insured.",
         "reference": "Section 4.7.1 (ReAssure+ Note) / Section 4.8 (ReAssureX Note)",
-        "explanation": "Although restore benefit is unlimited, each claim is capped at the base Sum Insured and conditions vary; check your Policy Schedule for exact terms."
+        "explanation": "Even if restore is described as unlimited, the maximum payable from ReAssure+ for any single claim is limited to the Base Sum Insured. This affects large single hospitalizations where the restore layer may not fully cover the excess beyond the base limit."
       },
       {
         "name": "Cashless Network",
         "quote": "Cashless claim facility is available at our network hospitals ONLY. As list of network hospitals is dynamic, for the latest list, refer to our website www.nivabupa.com.",
         "reference": "Section 6.2.4(a) (Claims)",
-        "explanation": "Cashless claims are available only at network hospitals, but the policy does not specify how many hospitals are included; check the insurer’s website for current details."
+        "explanation": "Cashless is available only at the insurer’s network hospitals, and the list is maintained on the website. The document doesn’t state the number of network hospitals, so the breadth of cashless access can’t be judged from this extract."
       }
     ]
   },

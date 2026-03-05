@@ -7,7 +7,7 @@
   "summary": {
     "great": 2,
     "good": 7,
-    "bad": 7,
+    "bad": 6,
     "unclear": 0
   },
   "features": {
@@ -16,13 +16,13 @@
         "name": "Built-in SI Buffer",
         "quote": "“Enhanced Annual Sum insured for Road Traffic Accidents... the Annual Sum Insured shall be doubled... The enhanced (double) Sum Insured shall be available only after exhaustion of the annual sum insured”",
         "reference": "Base Cover, Clause 16. Enhanced Annual Sum insured for Road Traffic Accidents",
-        "explanation": "The sum insured doubles specifically for road traffic accidents after the base sum insured is fully used. This provides extra financial protection for large accident-related hospitalizations."
+        "explanation": "For Road Traffic Accidents, the Annual Sum Insured is doubled after the base Annual Sum Insured is fully exhausted. This gives extra insurer-funded cover for large accident claims once your regular limit is used up."
       },
       {
         "name": "NCB",
         "quote": "“In the event of a Claim under the Policy during any subsequent Policy Year, the accrued loyalty bonus shall not be reduced”",
         "reference": "Base Cover, Clause 13. Loyalty Bonus (point ix)",
-        "explanation": "Your accumulated loyalty bonus remains intact even after making a claim. This means your no-claim benefits continue without reduction."
+        "explanation": "The accrued loyalty bonus is not reduced even if you make a claim in a later policy year. This helps your increased Sum Insured stay intact instead of dropping after a claim."
       }
     ],
     "good": [
@@ -30,43 +30,43 @@
         "name": "PED Waiting Period",
         "quote": "“Expenses related to the treatment of a pre-existing Disease (PED)... shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first policy”",
         "reference": "Exclusions, 1. Standard exclusions Code-Excl01: Pre-Existing Diseases",
-        "explanation": "Pre-existing conditions are covered after 24 months of continuous coverage. This is a standard waiting period in the market."
+        "explanation": "Pre-existing diseases are covered after 24 months of continuous coverage from the first policy inception. This is a standard waiting period in retail health insurance."
       },
       {
         "name": "Specific Illness Waiting",
         "quote": "“specified diseases/treatments... excluded until the expiry of 24 months of continuous coverage after the date of inception of the first policy with us.”",
         "reference": "Exclusions, 2. Code-Excl02: Specified disease/procedure waiting period",
-        "explanation": "Certain listed diseases and treatments are covered after 24 months of continuous coverage. This matches typical market standards."
+        "explanation": "Listed specified diseases/procedures are covered only after 24 months of continuous coverage. This is a common market-standard waiting period."
       },
       {
         "name": "Initial Waiting Period",
         "quote": "“Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident”",
         "reference": "Exclusions, 4. Code- Excl03: 30-day waiting period",
-        "explanation": "Illnesses are not covered during the first 30 days except for accidents. This is a common initial waiting period."
+        "explanation": "Illness-related claims are not covered for the first 30 days from policy start, except for accidents. This is the usual initial waiting period clause."
       },
       {
         "name": "Pre-hospitalization Cover",
         "quote": "“We will cover the Pre-hospitalization Medical Expenses... for up to 60days immediately before the Insured Person’s Admission”",
         "reference": "Base Cover, 4.A Pre Hospitalisation expenses",
-        "explanation": "Medical expenses up to 60 days before hospitalization are covered. This helps cover diagnostic and treatment costs leading to admission."
+        "explanation": "Pre-hospitalization medical expenses are covered for up to 60 days immediately before admission. This helps pay for tests and consultations leading up to hospitalization."
       },
       {
         "name": "Post-hospitalization Cover",
         "quote": "“We will cover the Post-hospitalization Medical Expenses... for up to 180 days immediately following the Insured Person’s discharge”",
         "reference": "Base Cover, 5.A Post Hospitalisation expenses",
-        "explanation": "Medical expenses up to 180 days after discharge are covered. This supports recovery costs after hospital stay."
+        "explanation": "Post-hospitalization medical expenses are covered for up to 180 days after discharge. This supports follow-up treatment and medicines during recovery."
       },
       {
         "name": "Restore Benefit",
         "quote": "“We will reset the Annual Sum insured up to 100%... unlimited times, for all future claims within the same policy not related to the illness/disease/injury for which a claim has been paid”",
         "reference": "Base Cover, Clause 14. Reset Benefit",
-        "explanation": "The sum insured is restored unlimited times for new unrelated claims in the same policy year. This extends your coverage for different illnesses."
+        "explanation": "The Annual Sum Insured is reset by up to 100% an unlimited number of times, but only for future claims unrelated to the earlier paid claim. This can increase total coverage in a year, but won’t help if the same illness recurs."
       },
       {
         "name": "Air Ambulance",
         "quote": "“We will cover the expenses up to the Annual sum insured incurred on air ambulance services...”",
         "reference": "Base Cover, Clause 11. Air Ambulance",
-        "explanation": "Air ambulance costs are covered up to the sum insured for emergencies. This can be crucial for critical transfers."
+        "explanation": "Air ambulance expenses are covered up to the Annual Sum Insured. This can be valuable for emergency transfers when medically required."
       }
     ],
     "bad": [
@@ -74,43 +74,37 @@
         "name": "Room Rent",
         "quote": "“Room Rent up to Twin sharing room (for Annual Sum Insured below Rs. 10 Lacs and Single private AC room for annual sum insured Rs. 10L and above)”",
         "reference": "Base Cover, 1.A In patient Treatment (i)",
-        "explanation": "Room rent is capped at twin sharing or single AC depending on sum insured. This limits room choice and may cause out-of-pocket expenses."
+        "explanation": "Room eligibility is capped to Twin sharing for Sum Insured below ₹10 lakhs and Single private AC room for ₹10 lakhs and above. Taking a higher category room can increase your out-of-pocket costs and may trigger proportional deductions."
       },
       {
         "name": "Proportionate Deduction",
         "quote": "“If the Insured Person is admitted in a room category/limit that is higher... then the Insured Person shall bear a rateable proportion of the total Associated medical expenses...”",
         "reference": "Base Cover, 1.A and 1.B (claim conditions v)",
-        "explanation": "Choosing a higher room than allowed leads to proportional reduction in claim for associated costs. This increases your out-of-pocket payment."
+        "explanation": "If you choose a room category higher than your eligible limit, you must bear a rateable proportion of associated medical expenses. This can significantly reduce the claim payout beyond just the room rent difference."
       },
       {
         "name": "Co-pay",
         "quote": "“This policy will be subject to 50% base co-payment and He/She shall be liable to pay 50% of admissible claim amount of each and every claim.”",
         "reference": "Base Cover, Clause 12. Base Co-payment",
-        "explanation": "A 50% mandatory co-pay means you pay half of every claim. This greatly reduces the effective coverage."
+        "explanation": "A 50% co-payment applies, meaning you must pay 50% of the admissible amount for each and every claim. This is a major cost-sharing clause that can halve the effective benefit of the policy."
       },
       {
         "name": "Consumables",
         "quote": "“Below are the non-payable items applicable in the policy... 56 GLOVES... 60 MASK... 57 NEBULISATION KIT...”",
         "reference": "General Terms and Clauses, Clause 29. Non Payables (List of Non Payable Items)",
-        "explanation": "Many common consumables like gloves and masks are excluded from coverage. This can lead to extra expenses during hospitalization."
+        "explanation": "Many consumables and non-payable items (e.g., gloves, masks, nebulisation kit) are excluded from reimbursement. These costs can add up during hospitalization and will typically be paid by you."
       },
       {
         "name": "Disease Sub-limits",
         "quote": "“The expenses payable... for treatment of the following diseases/ conditions... shall be maximum up to the amount mentioned in the table below;”",
         "reference": "Base Cover, Clause 15. Sub-limits applicable (A and B tables)",
-        "explanation": "Sub-limits cap the payout for common high-cost diseases regardless of your sum insured. This restricts claim amounts for serious illnesses."
+        "explanation": "Certain diseases/conditions have maximum payable limits as per the sub-limit tables, regardless of your overall Sum Insured. This can materially cap payouts for those listed treatments."
       },
       {
         "name": "Domiciliary Hospitalization",
         "quote": "“We shall not be liable to pay... under this Benefit... Asthma... Arthritis... Diabetes... Hypertension... Pyrexia...”",
         "reference": "Base Cover, Clause 7. Domiciliary Hospitalization (exclusions a-k)",
-        "explanation": "Many common chronic diseases are excluded from domiciliary hospitalization cover. This limits benefits for home-based treatment."
-      },
-      {
-        "name": "Co-pay",
-        "quote": "“This policy will be subject to 50% base co-payment... Base Co-payment once chosen cannot be changed mid-term.”",
-        "reference": "Base Cover, Clause 12. Base Co-payment",
-        "explanation": "The wording suggests 50% co-pay is mandatory but also says 'once chosen', creating confusion. Check your policy schedule to confirm if co-pay is compulsory or optional."
+        "explanation": "Domiciliary hospitalization has exclusions for several common conditions like asthma, arthritis, diabetes and hypertension. This reduces the usefulness of home-treatment cover for many frequent chronic illnesses."
       }
     ],
     "unclear": []

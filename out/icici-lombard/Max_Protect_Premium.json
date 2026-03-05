@@ -5,9 +5,9 @@
   "policyType": "Individual | Family Floater",
   "documentType": "Policy Wording",
   "summary": {
-    "great": 3,
-    "good": 8,
-    "bad": 4,
+    "great": 4,
+    "good": 7,
+    "bad": 3,
     "unclear": 1
   },
   "features": {
@@ -16,19 +16,25 @@
         "name": "Restore Benefit",
         "quote": "“Reset Benefit Unlimited (Not applicable for unlimited SI)”\n“We will reset up to 100% of the Annual Sum Insured, unlimited times in a Policy Year”",
         "reference": "Policy Schedule benefit table (Base cover #7); Section IV(A)(7) Reset Benefit",
-        "explanation": "The policy replenishes up to 100% of the base Annual Sum Insured unlimited times in a year once the base SI is insufficient. This means you get strong coverage with multiple top-ups of your sum insured during the policy year."
+        "explanation": "Up to 100% of the Annual Sum Insured is restored unlimited times in the same policy year (not applicable if you have an unlimited SI). This can significantly increase available cover if you have multiple hospitalizations in a year."
       },
       {
         "name": "Pre-hospitalization Cover",
         "quote": "“4 Pre-Hospitalization 60 days”",
         "reference": "Policy Schedule benefit table (Base cover #4)",
-        "explanation": "Eligible medical expenses incurred up to 60 days before hospital admission are covered. This provides extended financial protection for pre-admission treatments."
+        "explanation": "Medical expenses incurred up to 60 days before hospitalization are covered. This helps pay for consultations, tests, and medicines leading up to admission."
       },
       {
         "name": "Post-hospitalization Cover",
         "quote": "“5 Post-Hospitalization 180 days”",
         "reference": "Policy Schedule benefit table (Base cover #5)",
-        "explanation": "Eligible medical expenses incurred up to 180 days after discharge are covered. This long post-care period helps cover follow-up treatments and medications."
+        "explanation": "Medical expenses incurred up to 180 days after discharge are covered. This supports longer recovery needs like follow-up visits, diagnostics, and medicines."
+      },
+      {
+        "name": "No Claim Bonus",
+        "quote": "“We will provide 20% Loyalty Bonus… at the end of each Policy Year… The Loyalty Bonus will not be accumulated for an amount more than 100% of the Annual Sum Insured…”\n“In the event of Claim… the accrued Loyalty Bonus will not be reduced.”\n“Loyalty Bonus can only be utilized when the Annual Sum Insured is completely exhausted”",
+        "reference": "Section IV(A)(12) Loyalty Bonus (LB) (also reflected in benefit table #12)",
+        "explanation": "A 20% Loyalty Bonus is added each year up to 100% of Annual Sum Insured and it is not reduced even if you make a claim. The bonus can be used only after the Annual Sum Insured is fully exhausted, which still protects your accumulated buffer."
       }
     ],
     "good": [
@@ -36,49 +42,43 @@
         "name": "Room Rent",
         "quote": "“Room category All except suite”",
         "reference": "Policy Schedule benefit table (Base cover #1 In Patient Care)",
-        "explanation": "You can choose any room except suites for hospitalisation. This offers good flexibility though suites are excluded."
+        "explanation": "Any room is allowed except a suite. This gives strong flexibility in room choice without a rupee cap, but suite upgrades will be out of pocket."
       },
       {
         "name": "PED Waiting Period",
         "quote": "“Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 36 months of continuous coverage after the date of inception of the first policy with insurer.”",
         "reference": "Section V(A) Pre-existing diseases Code - Excl01",
-        "explanation": "Pre-existing diseases are covered after 36 months of continuous coverage. This is a standard waiting period in the industry."
+        "explanation": "Pre-existing diseases are covered after 36 months of continuous coverage from the first policy start date. Claims for PEDs during this period will be rejected."
       },
       {
         "name": "Specific Illness Waiting",
         "quote": "“Expenses related to the treatment of the listed Conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first policy with us.”",
         "reference": "Section V(B) Specified disease/procedure waiting period Code- Excl02",
-        "explanation": "Specified illnesses and procedures are covered after 24 months of continuous coverage. This matches typical market standards."
+        "explanation": "Listed specified diseases/procedures are covered only after 24 months of continuous coverage. This delays eligibility for those conditions even if they are not pre-existing."
       },
       {
         "name": "Initial Waiting Period",
         "quote": "“Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident”",
         "reference": "Section V(C) 30-day waiting period Code - Excl03",
-        "explanation": "Illnesses are not covered for the first 30 days except accidents, which are covered immediately. This is a common initial waiting period."
-      },
-      {
-        "name": "No Claim Bonus",
-        "quote": "“We will provide 20% Loyalty Bonus… at the end of each Policy Year… The Loyalty Bonus will not be accumulated for an amount more than 100% of the Annual Sum Insured…”\n“In the event of Claim… the accrued Loyalty Bonus will not be reduced.”\n“Loyalty Bonus can only be utilized when the Annual Sum Insured is completely exhausted”",
-        "reference": "Section IV(A)(12) Loyalty Bonus (LB) (also reflected in benefit table #12)",
-        "explanation": "The sum insured increases by 20% each claim-free year up to 100%, and this bonus is not reduced after a claim. This provides strong reward for claim-free renewals."
+        "explanation": "Illness claims are not covered for the first 30 days, while accidents are covered immediately. This mainly affects early claims soon after buying the policy."
       },
       {
         "name": "Air Ambulance",
         "quote": "“Additional Base covers in Premium plan 1 Air Ambulance Cover Up to SI”",
         "reference": "Policy Schedule benefit table (Additional base covers in Premium plan)",
-        "explanation": "Air ambulance transport is covered up to the sum insured under the Premium plan, subject to conditions. This ensures emergency transport is financially supported."
+        "explanation": "Air ambulance is covered up to the Sum Insured under the Premium plan, subject to policy conditions. This can reduce large emergency transport costs if you choose that plan variant."
       },
       {
         "name": "Domiciliary Hospitalization",
         "quote": "“We will cover the Medical Expenses incurred in respect of the Domiciliary Hospitalization… provided that: The Domiciliary Hospitalization continues for at least 3, consecutive days”",
         "reference": "Section IV(A)(9) Domiciliary Hospitalization",
-        "explanation": "Home-based hospitalization is covered if it lasts at least 3 consecutive days, offering coverage for treatment at home under certain conditions."
+        "explanation": "Home treatment is covered when it qualifies as domiciliary hospitalization and continues for at least 3 consecutive days. This helps when hospital admission is not possible or not advisable."
       },
       {
         "name": "PED Waiting Reduction",
         "quote": "“On payment of additional premium, waiting period… shall be reduced to 24 months…”",
         "reference": "Section IV(C)(1) Pre-exiting disease (PED) waiting period reduction",
-        "explanation": "You can reduce the PED waiting period to 24 months by paying extra premium, providing flexibility to get earlier coverage for pre-existing diseases."
+        "explanation": "By paying an additional premium, the PED waiting period can be reduced to 24 months. This can make the plan more useful sooner if you already have medical history."
       }
     ],
     "bad": [
@@ -86,25 +86,19 @@
         "name": "Consumables",
         "quote": "“medicines, drugs and consumables (other than those specified in the list of excluded expenses (non-medical) in Annexure I”\n(List I includes “GLOVES”, “MASK”, “NEBULISATION KIT”, etc.)",
         "reference": "Section IV(A)(1)(e) Inpatient Care; Section VI(B)(12) Non Payables (List I)",
-        "explanation": "Many common hospital consumables like gloves and masks are excluded from coverage, meaning you may have to pay for these out-of-pocket unless you have the Claim Protector add-on."
+        "explanation": "Non-medical consumables listed in Annexure I (e.g., gloves, masks, nebulisation kit) are not payable. This can increase out-of-pocket costs in most hospitalizations."
       },
       {
-        "name": "Restore Benefit Limitation",
+        "name": "Restore Benefit Restriction",
         "quote": "“The Reset Benefit will not be available for an Illness / Injury or related complications including but not limited to any relapse within 45 days in respect of which a claim has been paid in that Policy Year for the same Insured Person.”",
         "reference": "Section IV(A)(7)(f) Reset Benefit",
-        "explanation": "The restore benefit does not apply for repeat treatment or relapse of the same illness within 45 days, limiting its usefulness for ongoing conditions."
+        "explanation": "Reset Benefit cannot be used for the same illness/injury (or related complications/relapse) within 45 days of a paid claim in the same policy year. This reduces usefulness for recurring episodes or short-gap readmissions."
       },
       {
         "name": "Co-pay",
         "quote": "“Additional zone based Co-Payment… would be levied on each and every claim in case medically necessary treatment has been taken in a zone higher… than the zone for which premium has been paid”\n(Examples shown: “Zone C… Zone A 16%”, “Zone C… Zone B 8%”)",
         "reference": "Section VI(B)(1) Zone based premium (zone based co-payment table)",
-        "explanation": "If you get treatment in a higher premium zone than purchased, a mandatory co-pay up to 16% applies on every claim, increasing your out-of-pocket costs."
-      },
-      {
-        "name": "Co-pay",
-        "quote": "“Co-Payment means a cost sharing requirement…”",
-        "reference": "Definitions section (Co-Payment definition); Zone-based co-payment appears separately in Section VI(B)(1)",
-        "explanation": "The policy defines co-payment and zone-based co-pay but does not clearly state if any standard co-pay applies by age or claim type, so the default co-pay is unclear."
+        "explanation": "A zone-based co-pay applies on each and every claim if treatment is taken in a higher zone than the one you paid premium for (e.g., 8% or 16% in the examples). This directly increases your share of every admissible claim in that situation."
       }
     ],
     "unclear": [
@@ -112,7 +106,7 @@
         "name": "Cashless Network",
         "quote": "“Cashless treatment is only available at a Network Provider (List of Network Providers is available at our website).”",
         "reference": "Section VII Claims procedure (Cashless Settlement within India)",
-        "explanation": "Cashless treatment is available at network hospitals, but the policy does not specify how many hospitals are included, so network size is unknown."
+        "explanation": "Cashless is available only at network providers, with the list hosted on the insurer’s website. The policy wording does not state the number of network hospitals, so the network size cannot be judged from the document."
       }
     ]
   },

@@ -6,9 +6,9 @@
   "documentType": "Mixed",
   "summary": {
     "great": 5,
-    "good": 3,
-    "bad": 4,
-    "unclear": 1
+    "good": 5,
+    "bad": 2,
+    "unclear": 0
   },
   "features": {
     "great": [
@@ -16,31 +16,31 @@
         "name": "Room Rent",
         "quote": "Room Rent: Actuals up to Sum Insured",
         "reference": "Annexure III - Product Benefit Table (Activ One NXT)",
-        "explanation": "Room rent charges are covered at actuals up to the Sum Insured without any category restriction or daily cap. This means you can choose any room type without worrying about proportionate deductions."
+        "explanation": "Room rent is covered at actuals up to the Sum Insured with no daily cap mentioned. This reduces the risk of room-rent linked deductions and gives flexibility to choose a room."
       },
       {
         "name": "Restore Benefit",
         "quote": "Super Reload: 2X - Day 1; 2nd Claim Onwards - Unlimited Times (upto Base Sum Insured)",
         "reference": "Annexure III - Product Benefit Table (Activ One NXT); Section C.8 Super Reload",
-        "explanation": "The policy provides unlimited reloads of the Base Sum Insured after exhaustion, starting from day one and for subsequent claims. This offers strong protection against multiple hospitalizations within the policy year."
+        "explanation": "A Super Reload is available from Day 1, with unlimited reloads from the 2nd claim onwards, each reload up to the Base Sum Insured. This can significantly increase available cover in the same policy year after the base Sum Insured is used."
       },
       {
         "name": "Pre-hospitalization Cover",
         "quote": "The Company shall indemnify the Pre-Hospitalization Medical Expenses... for up to 90 days immediately prior to the date of such Hospitalization.",
         "reference": "Section C.2 Pre-Hospitalization Expenses",
-        "explanation": "Medical expenses incurred up to 90 days before hospitalization are covered. This longer pre-hospitalization period helps cover related diagnostic and treatment costs better than standard plans."
+        "explanation": "Pre-hospitalization medical expenses are covered for up to 90 days before admission. This helps pay for diagnostics and consultations leading up to hospitalization."
       },
       {
         "name": "Modern Treatments",
         "quote": "Modern Procedures / Treatments: Actuals up to Sum Insured for listed procedures",
         "reference": "Annexure III - Product Benefit Table; Section C.1.1.1(e) indicative list",
-        "explanation": "Listed modern treatments are covered at actuals up to the Sum Insured without sub-limits. This means you get full coverage for advanced procedures without restrictive caps."
+        "explanation": "Listed modern procedures/treatments are covered at actuals up to the Sum Insured. This avoids restrictive sub-limits for many advanced treatments."
       },
       {
-        "name": "Renewal Bonus",
+        "name": "NCB",
         "quote": "Super Credit (increases irrespective of claim): 100% of Base Sum Insured per year, up to 500% of Base Sum Insured (up to Max of 3 Cr under this benefit)",
         "reference": "Annexure III - Product Benefit Table; Section C.10.8 Super Credit",
-        "explanation": "Sum Insured increases by 100% of the base amount each year regardless of claims, up to 500%. This is better than typical no-claim bonuses that reduce or reset after claims."
+        "explanation": "Sum Insured increases by 100% of Base Sum Insured each year irrespective of claims, up to 500% (max 3 Cr under this benefit). This is stronger than typical no-claim bonuses that reduce or reset after a claim."
       }
     ],
     "good": [
@@ -48,19 +48,31 @@
         "name": "Initial Waiting Period",
         "quote": "D.1.3 30-day Waiting Period (Code-Excl03) ... Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident",
         "reference": "Section D.1.3",
-        "explanation": "There is a 30-day waiting period for illnesses from policy start, but accidents are covered immediately. This is the industry standard initial waiting period."
+        "explanation": "Illness-related claims are not covered for the first 30 days from the first policy start date, except for accidents. This is a standard waiting period in retail health insurance."
       },
       {
-        "name": "Specific Illness Waiting",
+        "name": "Specific Illness Waiting Period",
         "quote": "Expenses related to the treatment of the listed Conditions, surgeries / treatments shall be excluded until the expiry of 24 months of continuous coverage",
         "reference": "Section D.1.2 Specified disease / procedure Waiting Period (Code-Excl02)",
-        "explanation": "A 24-month waiting period applies for specified diseases and procedures. This matches the typical market standard for such conditions."
+        "explanation": "Specified diseases/procedures are covered only after 24 months of continuous coverage. This is broadly in line with market norms for listed conditions."
       },
       {
         "name": "Domiciliary Hospitalization",
         "quote": "The Company shall indemnify the Medical Expenses incurred during the Policy Period on Domiciliary Hospitalization...",
         "reference": "Section C.4 Domiciliary Hospitalization",
-        "explanation": "Home-based treatment that requires hospital-level care is covered, subject to conditions like minimum duration and medical necessity. This is a useful benefit for non-hospitalized care."
+        "explanation": "Medical expenses for domiciliary hospitalization (treatment at home when hospitalization is required) are covered as per policy conditions. This can help when hospital admission is not possible or advisable."
+      },
+      {
+        "name": "Post-hospitalization Cover",
+        "quote": "for up to 180 days from the date of discharge from the Hospital.",
+        "reference": "Section C.3 Post-Hospitalization Expenses",
+        "explanation": "Post-hospitalization medical expenses are covered for up to 180 days after discharge. This is a standard duration and helps cover follow-up treatment and medicines."
+      },
+      {
+        "name": "PED Waiting Period",
+        "quote": "Expenses related to the treatment of a pre-existing Disease (PED)... shall be excluded until the expiry of years / months as specified in the Policy Schedule / Product Benefit Table",
+        "reference": "Section D.1.1 Pre-Existing Diseases (PED) (Code-Excl01); Annexure III (shows 'Pre-Existing Diseases Waiting Period: 3 Years')",
+        "explanation": "Pre-existing diseases are covered only after the waiting period shown in the Policy Schedule/Product Benefit Table, and the table indicates 3 years. This means PED-related claims may be rejected until you complete that waiting period."
       }
     ],
     "bad": [
@@ -68,35 +80,16 @@
         "name": "Consumables",
         "quote": "items in List I, II, III & IV will be excluded unless forms a part of In-patient hospitalization.",
         "reference": "Section D.2.5 Non-Medical Expenses; Annexure I",
-        "explanation": "Many consumables and non-medical items are excluded by default unless you opt for an additional cover. This can lead to out-of-pocket expenses for common hospital supplies."
-      },
-      {
-        "name": "Post-hospitalization Cover",
-        "quote": "for up to 180 days from the date of discharge from the Hospital.",
-        "reference": "Section C.3 Post-Hospitalization Expenses",
-        "explanation": "Post-hospitalization expenses are covered for up to 180 days, which is standard but not best-in-class. Longer coverage beyond 180 days would be preferable."
-      },
-      {
-        "name": "Restore Benefit",
-        "quote": "Super Reload ... We shall provide for a reload amounting to the Base Sum Insured (“Super Reload”), unlimited times during the Policy Year",
-        "reference": "Section C.8 Super Reload",
-        "explanation": "The policy offers a reload benefit but does not explicitly provide a traditional restore benefit covering same or unrelated illnesses. This may limit some types of coverage replenishment."
+        "explanation": "Many non-medical/consumable items listed in Annexure I are excluded. This can create out-of-pocket costs for common hospital supplies even during a claim."
       },
       {
         "name": "Co-pay",
         "quote": "Preferred Provider Network (PPN) Discount... then the Policyholder / Insured Person shall bear a Co-Payment of 10% on each and every claim arising in such regard.",
         "reference": "Section C.10.5 Preferred Provider Network (PPN) Discount",
-        "explanation": "A 10% co-pay applies only if you opt for the PPN discount and receive treatment outside PPN hospitals. The default co-pay for the base plan is not clearly stated and should be confirmed in your Policy Schedule."
+        "explanation": "A 10% co-payment applies on each and every claim in the stated PPN Discount scenario. This means you may have to pay part of every claim from your pocket in addition to any non-payable items."
       }
     ],
-    "unclear": [
-      {
-        "name": "PED Waiting Period",
-        "quote": "Expenses related to the treatment of a pre-existing Disease (PED)... shall be excluded until the expiry of years / months as specified in the Policy Schedule / Product Benefit Table",
-        "reference": "Section D.1.1 Pre-Existing Diseases (PED) (Code-Excl01); Annexure III (shows 'Pre-Existing Diseases Waiting Period: 3 Years')",
-        "explanation": "The waiting period for pre-existing diseases depends on your Policy Schedule, with the product table indicating 3 years. You should verify the exact period applicable to your variant."
-      }
-    ]
+    "unclear": []
   },
   "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
 }

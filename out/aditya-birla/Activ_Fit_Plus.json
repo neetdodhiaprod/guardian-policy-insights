@@ -5,10 +5,10 @@
   "policyType": "Individual | Family Floater",
   "documentType": "Policy Wording",
   "summary": {
-    "great": 1,
-    "good": 5,
-    "bad": 6,
-    "unclear": 1
+    "great": 2,
+    "good": 4,
+    "bad": 1,
+    "unclear": 4
   },
   "features": {
     "great": [
@@ -16,85 +16,73 @@
         "name": "Restore Benefit",
         "quote": "“Binge Refill ... provide for a refill of the Sum Insured, unlimited times during the Policy Year ... The Refill of Sum Insured shall be available for all subsequent claims also and to any Illness / Injury (including its complications) for which a claim has been admitted for the Insured Person during that Policy Year.”",
         "reference": "Section C.I (j) Binge Refill",
-        "explanation": "The sum insured can be refilled unlimited times within the policy year for the same or different illnesses. This means you get extra coverage beyond the base sum insured without limit for repeated claims."
-      }
-    ],
-    "good": [
-      {
-        "name": "Initial Waiting",
-        "quote": "“30-day waiting period ... Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident”",
-        "reference": "Section D.I.3 (Code-Excl03)",
-        "explanation": "Illness treatments are excluded for the first 30 days except accidents, which are covered from day one. This is a standard waiting period protecting you from immediate claims."
-      },
-      {
-        "name": "Specific Illness Waiting",
-        "quote": "“Expenses related to the treatment of the listed Conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first policy with Us.”",
-        "reference": "Section D.I.2 (Code-Excl02)",
-        "explanation": "Coverage for listed diseases and procedures starts after 24 months of continuous coverage. This is the market standard waiting period for specific illnesses."
-      },
-      {
-        "name": "Domiciliary Hospitalization",
-        "quote": "“We shall cover the Medical Expenses incurred for the Insured Person’s Domiciliary Hospitalization, up to the Sum Insured as specified in the Policy Schedule / Product Benefit Table of this Policy”",
-        "reference": "Section C.I (f)(a) Domiciliary Hospitalization",
-        "explanation": "Treatment at home under certain conditions is covered up to the sum insured. This helps if you cannot be hospitalized but need hospital-level care at home."
-      },
-      {
-        "name": "Modern Treatments",
-        "quote": "“We shall cover the Medical Expenses for the following modern treatment procedures ... up to the Sum Insured specified in the Policy Schedule / Product Benefit Table of this Policy.”",
-        "reference": "Section C.I (a.1) Modern Treatment coverage",
-        "explanation": "Modern treatments like robotic surgeries and immunotherapy are covered up to the sum insured. This ensures access to advanced medical procedures."
-      },
-      {
-        "name": "Optional Covers",
-        "quote": "“The following optional covers shall apply only if the premium in respect of the optional cover has been received and the Policy Schedule mentions the optional cover is in force...”",
-        "reference": "Section C.IV Optional Covers",
-        "explanation": "You can add optional covers like OPD, maternity waiting reduction, or non-medical expense waiver by paying extra premium. This adds flexibility without mandatory restrictions."
-      }
-    ],
-    "bad": [
-      {
-        "name": "Room Rent",
-        "quote": "“Room Rent ... up to the limits as specified in the Policy Schedule / Product Benefit Table of this Policy;”",
-        "reference": "Section C.I (a)(i) In-patient Hospitalization",
-        "explanation": "Room rent coverage depends on limits in your policy schedule and is not unlimited or any room. If your schedule has a rupee/day cap, it may cause extra out-of-pocket expenses."
-      },
-      {
-        "name": "Consumables",
-        "quote": "“Non-Medical expenses ... As mentioned under Annexure (I) List II, III & IV will be excluded unless forms a part of In-patient hospitalization.” AND “Non-Medical Expense waiver ... We shall cover cost of Non-Medical Items ... listed under Annexure I ...”",
-        "reference": "Section D.23 Non-Medical expenses; Section C.IV (w) Non-Medical Expense waiver",
-        "explanation": "Many consumables and non-medical items are excluded by default and only covered if you buy an optional waiver. This can lead to unexpected out-of-pocket costs."
-      },
-      {
-        "name": "Pre-hospitalization",
-        "quote": "“We shall cover ... for the number of days in accordance with the limits specified in the Policy Schedule / Product Benefit Table of this Policy”",
-        "reference": "Section C.I (d) Pre–hospitalization Medical Expenses",
-        "explanation": "The exact pre-hospitalization coverage duration is not stated and depends on your schedule. Lack of clear coverage means you may have limited or no pre-hospitalization benefits."
-      },
-      {
-        "name": "Post-hospitalization",
-        "quote": "“We shall cover ... for the number of days specified in the Policy Schedule / Product Benefit Table of this Policy”",
-        "reference": "Section C.I (e) Post–hospitalization Medical Expenses",
-        "explanation": "Post-hospitalization coverage duration is not specified here and depends on your schedule. This uncertainty may result in limited or no post-hospitalization benefits."
+        "explanation": "Sum Insured gets refilled unlimited times during the policy year and can be used for subsequent claims including the same illness/injury and its complications. This greatly reduces the chance of running out of cover after one large claim."
       },
       {
         "name": "NCB",
         "quote": "“In the event of a claim impacting the eligibility of a No Claim Bonus, the accumulated No Claim Bonus shall be reduced by the percentage of Sum Insured as accumulated in the previous Policy Year...”",
         "reference": "Section C.II (l).a (xi) No Claim Bonus",
-        "explanation": "The no claim bonus reduces after a claim instead of being protected. This means your bonus sum insured can decrease, reducing future coverage benefits."
+        "explanation": "On a claim, the accumulated No Claim Bonus is reduced by a percentage instead of being wiped out to zero. This is better than many plans where the entire bonus resets after a claim."
+      }
+    ],
+    "good": [
+      {
+        "name": "Initial Waiting Period",
+        "quote": "“30-day waiting period ... Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident”",
+        "reference": "Section D.I.3 (Code-Excl03)",
+        "explanation": "Illness-related treatment is not covered for the first 30 days from the first policy start date, but accidents are covered from day one. This is a standard market waiting period."
       },
       {
-        "name": "Co-pay",
-        "quote": "No explicit co-payment clause found in the provided extract (no statement like “co-payment of X% shall apply...” or “no co-pay”).",
-        "reference": "Not found in provided extract",
-        "explanation": "Co-payment terms are not clearly stated in the extract. You should check your policy schedule or specific clauses to confirm if any co-pay applies."
+        "name": "Specific Illness Waiting",
+        "quote": "“Expenses related to the treatment of the listed Conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first policy with Us.”",
+        "reference": "Section D.I.2 (Code-Excl02)",
+        "explanation": "Listed diseases/surgeries are covered only after 24 months of continuous coverage from the first policy inception. This is in line with common industry practice."
+      },
+      {
+        "name": "Domiciliary Hospitalization",
+        "quote": "“We shall cover the Medical Expenses incurred for the Insured Person’s Domiciliary Hospitalization, up to the Sum Insured as specified in the Policy Schedule / Product Benefit Table of this Policy”",
+        "reference": "Section C.I (f)(a) Domiciliary Hospitalization",
+        "explanation": "Home-based treatment that qualifies as domiciliary hospitalization is covered up to the Sum Insured as per the schedule/benefit table. This helps when hospital admission isn’t possible but hospital-level care is needed at home."
+      },
+      {
+        "name": "Modern Treatments",
+        "quote": "“We shall cover the Medical Expenses for the following modern treatment procedures ... up to the Sum Insured specified in the Policy Schedule / Product Benefit Table of this Policy.”",
+        "reference": "Section C.I (a.1) Modern Treatment coverage",
+        "explanation": "Modern treatment procedures are covered up to the Sum Insured as per the schedule/benefit table. This supports access to newer, often expensive procedures, subject to plan limits."
+      }
+    ],
+    "bad": [
+      {
+        "name": "Consumables",
+        "quote": "“Non-Medical expenses ... As mentioned under Annexure (I) List II, III & IV will be excluded unless forms a part of In-patient hospitalization.” AND “Non-Medical Expense waiver ... We shall cover cost of Non-Medical Items ... listed under Annexure I ...”",
+        "reference": "Section D.23 Non-Medical expenses; Section C.IV (w) Non-Medical Expense waiver",
+        "explanation": "Non-medical/consumable items listed in Annexure I are excluded by default, and are covered only if the optional Non-Medical Expense waiver is in force. This can create significant out-of-pocket costs during hospitalization if you don’t buy the add-on."
       }
     ],
     "unclear": [
       {
-        "name": "PED Waiting",
+        "name": "Room Rent",
+        "quote": "“Room Rent ... up to the limits as specified in the Policy Schedule / Product Benefit Table of this Policy;”",
+        "reference": "Section C.I (a)(i) In-patient Hospitalization",
+        "explanation": "Room rent is payable only up to the limit shown in the Policy Schedule/Product Benefit Table, but the cap is not stated in the wording extract. If the schedule has a rupee/day cap, it can increase your share of the bill and may trigger proportionate deductions."
+      },
+      {
+        "name": "Pre-hospitalization Cover",
+        "quote": "“We shall cover ... for the number of days in accordance with the limits specified in the Policy Schedule / Product Benefit Table of this Policy”",
+        "reference": "Section C.I (d) Pre–hospitalization Medical Expenses",
+        "explanation": "Pre-hospitalization expenses are covered for the number of days shown in the Policy Schedule/Product Benefit Table, but the duration is not stated in the extract. Your reimbursement for tests/consultations before admission depends on that schedule limit."
+      },
+      {
+        "name": "Post-hospitalization Cover",
+        "quote": "“We shall cover ... for the number of days specified in the Policy Schedule / Product Benefit Table of this Policy”",
+        "reference": "Section C.I (e) Post–hospitalization Medical Expenses",
+        "explanation": "Post-hospitalization expenses are covered for the number of days shown in the Policy Schedule/Product Benefit Table, but the duration is not stated in the extract. Follow-up medicine and consultation coverage after discharge will depend on that limit."
+      },
+      {
+        "name": "PED Waiting Period",
         "quote": "“Expenses related to the treatment of a pre-existing Disease (PED) ... shall be excluded until the expiry of months as specified in the Policy Schedule / Product Benefit Table of this Policy...”",
         "reference": "Section D.I.1 (Code-Excl01)",
-        "explanation": "The waiting period for pre-existing diseases is not specified here and depends on your policy schedule. Confirm the exact duration to understand when PED coverage begins."
+        "explanation": "Pre-existing diseases are not covered until the waiting period (in months) mentioned in the Policy Schedule/Product Benefit Table is completed. The exact duration isn’t visible in the extract, so you must check the schedule to know when PED cover starts."
       }
     ]
   },

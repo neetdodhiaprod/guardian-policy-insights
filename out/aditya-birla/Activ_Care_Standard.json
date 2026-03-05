@@ -5,7 +5,7 @@
   "policyType": "Individual | Family Floater",
   "documentType": "Policy Wording",
   "summary": {
-    "great": 2,
+    "great": 1,
     "good": 8,
     "bad": 7,
     "unclear": 3
@@ -13,110 +13,104 @@
   "features": {
     "great": [
       {
-        "name": "Built-in SI Buffer",
-        "quote": "Once in the Policy Year, We shall provide for a reload of the Sum Insured ... in case the available Sum Insured which shall be considered to be inclusive of accumulated No Claim Bonus (if any), is insufficient for covering a claim under the Policy as a result of previous claims in that Policy Year.",
-        "reference": "Section C.I (h) Reload of Sum Insured",
-        "explanation": "You get a one-time reload of the Sum Insured within the policy year if your available limit (including No Claim Bonus) is insufficient for a new claim. This provides extra coverage after exhausting your base limit, helping with multiple claims in the same year."
-      },
-      {
-        "name": "Initial Waiting",
-        "quote": "Waiting periods do not apply in respect of this Benefit.",
-        "reference": "Section C.II (o) OPD Treatment - Conditions (IV)",
-        "explanation": "Waiting periods are waived for the OPD benefit, allowing immediate use of outpatient services subject to sub-limits. This means you can claim OPD expenses right from the start of the policy."
+        "name": "NCB",
+        "quote": "The accumulated No Claim Bonus shall not exceed 50% of the Sum Insured ... In the event of a claim impacting the eligibility of a No Claim Bonus, the accumulated No Claim Bonus shall be reduced by 10% of the Sum Insured at the commencement of subsequent Policy Year.",
+        "reference": "Section C.II (l).a No Claim Bonus",
+        "explanation": "No Claim Bonus can build up to 50% of Sum Insured and reduces by 10% of Sum Insured after a claim instead of resetting to zero. This helps you retain part of the bonus even after using the policy."
       }
     ],
     "good": [
       {
+        "name": "Restore Benefit",
+        "quote": "Once in the Policy Year, We shall provide for a reload of the Sum Insured ... in case the available Sum Insured which shall be considered to be inclusive of accumulated No Claim Bonus (if any), is insufficient for covering a claim under the Policy as a result of previous claims in that Policy Year.",
+        "reference": "Section C.I (h) Reload of Sum Insured",
+        "explanation": "Once in a policy year, Sum Insured is reloaded if the available Sum Insured (including any NCB) is insufficient due to earlier claims in the same year. This gives you extra cover for multiple hospitalizations in one year."
+      },
+      {
         "name": "PED Waiting Period",
         "quote": "Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the ﬁrst policy with Insurer.",
         "reference": "Section D.I.1 Pre-Existing Diseases (Code-Excl01)",
-        "explanation": "Pre-existing diseases are covered after 24 months of continuous coverage, which is standard in the market. This means you must wait two years before claiming for pre-existing conditions."
+        "explanation": "Pre-existing diseases and their direct complications are covered only after 24 months of continuous coverage. This means PED claims are not payable in the first 2 years."
       },
       {
         "name": "Specific Illness Waiting",
         "quote": "Expenses related to the treatment of the listed Conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the ﬁrst policy with us.",
         "reference": "Section D.I.2 Specified disease / procedure waiting period (Code-Excl02)",
-        "explanation": "Coverage for listed specific diseases and procedures begins after 24 months of continuous coverage, which is typical. This means you need to wait two years before claiming for these conditions."
+        "explanation": "Listed diseases/procedures are covered only after 24 months of continuous coverage. This delays claims for those specified conditions for the first 2 years."
       },
       {
-        "name": "Initial Waiting",
+        "name": "Initial Waiting Period",
         "quote": "Expenses related to the treatment of any illness within 30 days from the ﬁrst policy commencement date shall be excluded except claims arising due to an accident",
         "reference": "Section D.I.3 30-day waiting period (Code-Excl03)",
-        "explanation": "A standard 30-day waiting period applies for illnesses, but accidents are covered immediately. This means you cannot claim for illnesses within the first month except for accidents."
+        "explanation": "Illnesses are not covered for the first 30 days from policy start, while accidents are covered immediately. This means early claims for sickness in the first month will be rejected."
       },
       {
         "name": "Restore Benefit",
         "quote": "The reload of Sum Insured shall be available only for subsequent claims and not in relation to any Illness/ Injury (including its complications) for which a claim has been admitted for the Insured Person during that Policy Year.",
         "reference": "Section C.I (h) Reload of Sum Insured - Condition (iii)",
-        "explanation": "The reload benefit applies only to new illnesses or injuries, not for repeat claims on the same condition within the policy year. This means you get extra cover for different illnesses but not for the same one again."
+        "explanation": "Reloaded Sum Insured can be used only for subsequent claims and not for the same illness/injury (including complications) already claimed in that policy year. This limits the reload to different conditions within the year."
       },
       {
         "name": "Domiciliary Hospitalization",
         "quote": "We shall cover the Medical Expenses incurred for the Insured Person’s Domiciliary Hospitalization, up to the limits as speciﬁed in the Policy Schedule / Product Beneﬁt Table of this Policy",
         "reference": "Section C.I (e) Domiciliary Hospitalization",
-        "explanation": "Home-based treatment when hospitalization is required is covered subject to policy limits and conditions. This means you can claim for treatment at home if hospitalization is not possible."
+        "explanation": "Domiciliary hospitalization expenses are covered up to limits shown in the Policy Schedule/Product Benefit Table. This can help if treatment is taken at home when hospitalization is otherwise required."
       },
       {
-        "name": "Air Ambulance (Domestic)",
+        "name": "Air Ambulance",
         "quote": "Domestic Emergency Assistance Services (including Air Ambulance)",
         "reference": "Section C.II (m)",
-        "explanation": "Emergency evacuation including air ambulance is available within India under specified conditions. This means you can get air ambulance services for emergencies inside the country."
+        "explanation": "Domestic emergency assistance includes air ambulance services, subject to the policy’s assistance terms. This can support emergency evacuation within India."
       },
       {
-        "name": "Air Ambulance (International)",
+        "name": "Air Ambulance",
         "quote": "International Emergency Assistance Services (including Air Ambulance)",
         "reference": "Section C.II (n)",
-        "explanation": "Emergency evacuation and repatriation services are available for trips outside India up to 90 days, subject to conditions. This means you have air ambulance cover during short international travel."
-      },
-      {
-        "name": "No Claim Bonus",
-        "quote": "The accumulated No Claim Bonus shall not exceed 50% of the Sum Insured ... In the event of a claim impacting the eligibility of a No Claim Bonus, the accumulated No Claim Bonus shall be reduced by 10% of the Sum Insured at the commencement of subsequent Policy Year.",
-        "reference": "Section C.II (l).a No Claim Bonus",
-        "explanation": "No Claim Bonus can accumulate up to 50% of the Sum Insured but reduces by 10% after a claim instead of resetting to zero. This means you retain some bonus even after making a claim."
+        "explanation": "International emergency assistance includes air ambulance services, subject to the policy’s assistance terms. This can support emergency evacuation during overseas travel (as per the policy conditions)."
       }
     ],
     "bad": [
       {
-        "name": "Co-pay",
-        "quote": "If this option is chosen ... discount of 10% on the premium... If the Insured Person takes Inpatient hospitalization ... in a Hospital other than those listed as “Preferred Provider Network”, then the Policyholder / Insured Person shall bear a Co-Payment of 15% on each and every claim",
-        "reference": "Section C.V (bb) PPN Discount",
-        "explanation": "You can opt for a 10% premium discount but must pay 15% co-pay if treated outside the preferred network. This means you save premium but accept higher co-payments for non-network hospitals."
-      },
-      {
         "name": "Room Rent",
         "quote": "Reasonable and Customary Charges for Room Rent ... up to the limits as speciﬁed in the Policy Schedule / Product Beneﬁt Table of this Policy;",
         "reference": "Section C.I (a) In-patient Hospitalization - What is covered (1)",
-        "explanation": "Room rent is capped as per the policy schedule rather than being unlimited or at actuals. This can reduce claim amounts if your room rent exceeds the limit."
+        "explanation": "Room rent is payable only up to the limit mentioned in the Policy Schedule/Product Benefit Table. If you choose a higher room category, your claim can be reduced and your out-of-pocket cost can rise."
       },
       {
         "name": "Proportionate Deduction",
         "quote": "If the Insured Person is admitted in a room category/limit that is higher than the one that is speciﬁed ... then the Insured Person shall bear a rateable proportion of the total Associated Medical Expenses",
         "reference": "Section C.I (a) In-patient Hospitalization - Conditions (2)",
-        "explanation": "If you choose a room category above your entitlement, the insurer will reduce your claim proportionally on related medical expenses. This can significantly increase your out-of-pocket costs."
+        "explanation": "If you take a room higher than your eligible category/limit, you must bear a rateable proportion of associated medical expenses. This can sharply reduce the insurer payout beyond just the room rent difference."
       },
       {
         "name": "Consumables",
         "quote": "Activ Care Policy Wordings - Annexure - I - List of Non-medical expenses ... 56 GLOVES ... 60 MASK ... 62 OXYGEN MASK ... 58 ANY KIT WITH NO DETAILS MENTIONED",
         "reference": "Annexure I – List of Non-medical expenses",
-        "explanation": "Many common hospital consumables like gloves and masks are excluded from coverage, often leading to out-of-pocket expenses. This means you may have to pay for essential items during hospitalization."
+        "explanation": "Items listed as non-medical expenses (like gloves, masks and oxygen masks) are not covered. This increases out-of-pocket costs during hospitalization."
       },
       {
         "name": "Disease Sub-limits",
         "quote": "Sublimit for listed illnesses: We will cover the Medical Expenses arising out of an Insured Person’s in-patient Hospitalization for the listed Illness/ conditions and limit as speciﬁed in the Policy Schedule / Product Beneﬁt Table.",
         "reference": "Section C.I (j) Sublimit for listed illnesses",
-        "explanation": "The policy imposes sub-limits on specific diseases as per the schedule, which can reduce your claim payout for common illnesses. This limits the financial protection for those conditions."
+        "explanation": "In-patient hospitalization for listed illnesses/conditions is covered only up to sub-limits mentioned in the Policy Schedule/Product Benefit Table. This can leave you underinsured for those specific conditions even if your Sum Insured is higher."
       },
       {
-        "name": "Domiciliary Exclusions",
+        "name": "Domiciliary Hospitalization",
         "quote": "We shall not be liable to pay for any claim made under this Beneﬁt in connection with: (1) Asthma... (5) Diabetes mellitus and insipidus; ... (7) Hypertension; ...",
         "reference": "Section C.I (e) Domiciliary Hospitalization - What is not covered",
-        "explanation": "Several common chronic conditions like asthma, diabetes, and hypertension are excluded from domiciliary hospitalization cover. This limits the usefulness of home treatment for these illnesses."
+        "explanation": "Domiciliary hospitalization claims are not payable for several common conditions such as asthma, diabetes and hypertension. This significantly reduces the usefulness of home-treatment cover for chronic illnesses."
       },
       {
         "name": "Co-pay",
         "quote": "if the Age ... is 61 years or above... shall bear a Co-payment per claim ... as speciﬁed in Product Beneﬁt Table/Policy Schedule.",
         "reference": "Section E.II.32 Co-payment",
-        "explanation": "A mandatory co-pay applies for insured persons aged 61 and above, but the exact percentage is not stated here. Check your policy schedule for the co-pay amount."
+        "explanation": "If the insured person is age 61 years or above, a co-pay per claim applies as per the Product Benefit Table/Policy Schedule. This means seniors will have a mandatory share of every claim to pay themselves."
+      },
+      {
+        "name": "Co-pay",
+        "quote": "If this option is chosen ... discount of 10% on the premium... If the Insured Person takes Inpatient hospitalization ... in a Hospital other than those listed as “Preferred Provider Network”, then the Policyholder / Insured Person shall bear a Co-Payment of 15% on each and every claim",
+        "reference": "Section C.V (bb) PPN Discount",
+        "explanation": "A 15% co-pay applies on each and every claim if you opt the PPN discount and take inpatient treatment outside the Preferred Provider Network. This means you will pay part of every such claim from your pocket even if the expense is otherwise covered."
       }
     ],
     "unclear": [
@@ -124,19 +118,19 @@
         "name": "Pre-hospitalization Cover",
         "quote": "We shall cover ... the Insured Person’s Pre-hospitalization Medical Expenses incurred ... in accordance with the limits speciﬁed in the Policy Schedule / Product Beneﬁt Table of this Policy",
         "reference": "Section C.I (b) Pre-hospitalization Medical Expenses",
-        "explanation": "The number of pre-hospitalization days covered is not stated here and depends on the policy schedule. You should check your specific plan for exact pre-hospitalization coverage."
+        "explanation": "Pre-hospitalization expenses are covered, but the number of days/limit is only as per the Policy Schedule/Product Benefit Table. You need to check your schedule to know whether it is 30/60/90 days and the applicable cap, if any."
       },
       {
         "name": "Post-hospitalization Cover",
         "quote": "We shall cover ... the Insured Person’s Post-hospitalization Medical Expenses ... in accordance with the limits speciﬁed in the Policy Schedule / Product Beneﬁt Table of this Policy",
         "reference": "Section C.I (c) Post-hospitalization Medical Expenses",
-        "explanation": "The number of post-hospitalization days covered is not specified here and depends on the policy schedule. Verify your plan details to know the exact post-hospitalization coverage."
+        "explanation": "Post-hospitalization expenses are covered, but the number of days/limit is only as per the Policy Schedule/Product Benefit Table. You need to check your schedule to know whether it is 60/90/180 days and the applicable cap, if any."
       },
       {
         "name": "Cashless Network",
         "quote": "Cashless Facilities can be availed only at Our Network Providers/ Empanelled Service Providers. The complete list of Network Providers and Empaneled Service Providers is available on Our website",
         "reference": "Section F - Claims Procedure (a)(i)",
-        "explanation": "The policy does not specify the number of network hospitals available for cashless claims. Confirm network size and key hospitals from the insurer’s website."
+        "explanation": "Cashless treatment is available only at the insurer’s network/empanelled providers, with the list hosted on the insurer website. Since the number of hospitals is not stated here, you should verify whether your preferred hospitals are in-network before buying."
       }
     ]
   },

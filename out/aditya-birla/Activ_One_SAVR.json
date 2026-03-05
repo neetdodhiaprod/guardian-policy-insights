@@ -7,8 +7,8 @@
   "summary": {
     "great": 8,
     "good": 4,
-    "bad": 3,
-    "unclear": 0
+    "bad": 1,
+    "unclear": 2
   },
   "features": {
     "great": [
@@ -16,49 +16,49 @@
         "name": "Room Rent",
         "quote": "Room Rent: Actuals up to Sum Insured",
         "reference": "Annexure III - Product Benefit Table (SAVR)",
-        "explanation": "Room rent is covered at actual costs up to the sum insured without any daily limit or room category cap. This means you can choose any room type without worrying about fixed daily limits."
+        "explanation": "Room rent is payable at actuals up to the Sum Insured, with no daily cap or room-category restriction mentioned. This reduces the risk of out-of-pocket costs and avoids room-rent linked deductions."
       },
       {
         "name": "Pre-hospitalization Cover",
         "quote": "The Company shall indemnify the Pre-Hospitalization Medical Expenses incurred... for up to 90 days immediately prior to the date of such Hospitalization.",
         "reference": "Section C.2 Pre-Hospitalization Expenses",
-        "explanation": "Medical expenses before hospitalization are covered for up to 90 days for the same condition. This is better than the usual 60-day coverage, giving you more financial protection."
+        "explanation": "Pre-hospitalization medical expenses are covered for up to 90 days before admission for the same condition. This is better than the common 60-day window and helps cover diagnostics and consultations leading to hospitalization."
       },
       {
         "name": "Consumables",
         "quote": "Non-payable items will be covered (all 4 lists of Annexure I)",
         "reference": "Annexure III - Product Benefit Table (SAVR) / Section C.4 Claim Protect (Non-Medical Expense Waiver)",
-        "explanation": "Non-medical consumables like gloves, masks, and kits are covered when the Claim Protect benefit is active. This reduces your out-of-pocket expenses for such items during hospitalization."
+        "explanation": "Non-payable consumables are covered as per all 4 lists in Annexure I under the Claim Protect benefit. This can significantly reduce out-of-pocket spend on items like gloves, masks, and procedure kits during hospitalization."
       },
       {
         "name": "Restore Benefit",
         "quote": "We shall provide for a reload amounting to the Base Sum Insured (“Super Reload”), unlimited times during the Policy Year",
         "reference": "Section C.10 Super Reload",
-        "explanation": "If your sum insured is exhausted, the policy reloads the base sum insured unlimited times within the policy year. This ensures you have extra coverage for multiple claims in the same year."
+        "explanation": "A reload equal to the Base Sum Insured is available unlimited times in the same policy year once the cover is used. This is strong protection for multiple hospitalizations in a year."
       },
       {
         "name": "Built-in SI Buffer",
         "quote": "Super Credit (Increases Irrespective of Claim) ... An additional limit under the current Policy Year (“Super Credit”) will be applied / increased by a fixed percentage of the Base Sum Insured of immediately preceding Policy Year irrespective of any claims in previous Policy Year",
         "reference": "Section C.11 Super Credit / Annexure III - Product Benefit Table (SAVR)",
-        "explanation": "Your sum insured can increase at renewal even if you made claims, unlike typical no-claim bonuses that reset. This means your coverage grows over time regardless of claims."
+        "explanation": "An additional limit (“Super Credit”) increases by a fixed percentage of the prior year’s Base Sum Insured irrespective of claims. This helps your available cover grow even in years when you make claims."
       },
       {
         "name": "Modern Treatments",
         "quote": "Expenses incurred... arising out of any of the below mentioned Indicative list of Modern Procedures / Treatments... Robotic Surgeries... Stereotactic Radio Surgeries... Stem Cell Therapy: Hematopoietic Stem Cells for Bone Marrow Transplant...",
         "reference": "Section C.1.1.1(e) Other Expenses Covered",
-        "explanation": "The policy covers many modern medical procedures and treatments during hospitalization. This ensures access to advanced healthcare without separate limits."
+        "explanation": "Modern procedures/treatments listed (including robotic surgeries and stereotactic radio surgeries) are covered as hospitalization expenses. This improves access to advanced care without needing a separate add-on."
       },
       {
         "name": "Bariatric Surgery",
         "quote": "Obesity Treatment: Medical Expenses... arising out of Hospitalization for a Bariatric Surgery during the Policy Period subject to the conditions... Section D.1.6",
         "reference": "Section C.1.1.1(h) and Section D.1.6",
-        "explanation": "Bariatric surgery is covered if you meet specified medical criteria like BMI and comorbidities. This helps those needing weight-loss surgery get insured treatment."
+        "explanation": "Bariatric surgery is covered subject to the conditions mentioned in Section D.1.6. This can be valuable because many retail policies exclude weight-loss surgery unless explicitly covered."
       },
       {
         "name": "Domiciliary Hospitalization",
         "quote": "The Company shall indemnify the Medical Expenses incurred during the Policy Period on Domiciliary Hospitalization...",
         "reference": "Section C.5 Domiciliary Hospitalization",
-        "explanation": "Treatment at home that would otherwise require hospitalization is covered, subject to conditions like minimum 3 days. This provides flexibility for home-based care."
+        "explanation": "Domiciliary hospitalization expenses are covered when treatment is taken at home as per the policy conditions. This helps when hospital admission is not possible or medically advised against."
       }
     ],
     "good": [
@@ -66,48 +66,49 @@
         "name": "PED Waiting Period",
         "quote": "Pre Existing Disease (PED) Waiting Period: 3 years",
         "reference": "Annexure III - Product Benefit Table (SAVR) - Waiting Period (Inbuilt Cover)",
-        "explanation": "Pre-existing diseases are excluded for 36 months from policy start. This is a standard waiting period in the market."
+        "explanation": "Pre-existing diseases are covered after a waiting period of 3 years (36 months). This is within the normal 2–4 year range seen in the market."
       },
       {
         "name": "Specific Illness Waiting",
         "quote": "Expenses related to the treatment of the listed Conditions, surgeries / treatments shall be excluded until the expiry of 24 months of continuous coverage...",
         "reference": "Section D.1.2 Specified disease / procedure Waiting Period (Code-Excl02)",
-        "explanation": "Certain specified illnesses and procedures are excluded for 24 months from policy start. This is a common industry standard."
+        "explanation": "Listed specified diseases/procedures are not covered until 24 months of continuous coverage are completed. This is a standard waiting period for such conditions."
       },
       {
         "name": "Initial Waiting Period",
         "quote": "30-day Waiting Period (Code-Excl03)... Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident",
         "reference": "Section D.1.3 30-day Waiting Period",
-        "explanation": "Illnesses are excluded for the first 30 days except accidents which are covered immediately. This is a typical initial waiting period."
+        "explanation": "Illness claims are not covered in the first 30 days from the first policy start date, while accidents are covered immediately. This is the usual initial waiting period structure."
       },
       {
         "name": "Post-hospitalization Cover",
         "quote": "The Company shall indemnify the Post-Hospitalization Medical Expenses incurred... for up to 180 days from the date of discharge from the Hospital.",
         "reference": "Section C.3 Post-Hospitalization Expenses",
-        "explanation": "Medical expenses after discharge are covered for up to 180 days for the same condition. This is at the higher end of standard post-hospitalization coverage."
+        "explanation": "Post-hospitalization medical expenses are covered for up to 180 days after discharge for the same condition. This is at the upper end of standard post-hospitalization coverage."
       }
     ],
     "bad": [
       {
+        "name": "Co-pay",
+        "quote": "Preferred Provider Network (PPN) Discount... If the Insured Person takes treatment... other than those listed as “Preferred Provider Network”, then... shall bear a Co-Payment of 10% on each and every claim",
+        "reference": "Section C.15.5 Preferred Provider Network (PPN) Discount",
+        "explanation": "A 10% co-payment applies on each and every claim if treatment is taken outside the Preferred Provider Network under the PPN Discount feature. This can materially increase your out-of-pocket costs whenever you use a non-PPN hospital."
+      }
+    ],
+    "unclear": [
+      {
         "name": "No-claim Bonus",
         "quote": "If the feature from the table above is not found in the document, assume it is NOT covered and flag as BAD.",
         "reference": "NCB not expressly defined as NCB/Cumulative Bonus in the provided policy wording excerpts; Super Credit is a separate mechanism",
-        "explanation": "The policy does not explicitly provide a standard no-claim bonus; instead it offers a Super Credit which is different. Lack of a classic NCB may reduce rewards for claim-free years."
+        "explanation": "A standard No-Claim Bonus/Cumulative Bonus is not shown in the provided wording excerpts, while “Super Credit” is a different benefit. You should verify in the full policy schedule/wording whether any classic NCB exists and how it interacts with Super Credit."
       },
       {
         "name": "Home Health Care",
         "quote": "This Benefit requires pre-authorisation and is not available on reimbursement basis.",
         "reference": "Section C.6 Home Health Care",
-        "explanation": "Home health care benefits are only available via cashless pre-authorization and not on reimbursement. This limits flexibility if you prefer to pay first and claim later."
-      },
-      {
-        "name": "Co-pay",
-        "quote": "Preferred Provider Network (PPN) Discount... If the Insured Person takes treatment... other than those listed as “Preferred Provider Network”, then... shall bear a Co-Payment of 10% on each and every claim",
-        "reference": "Section C.15.5 Preferred Provider Network (PPN) Discount",
-        "explanation": "The base policy does not clearly state any mandatory co-pay; only an optional discount plan mentions 10% co-pay outside network. Confirm from the Policy Schedule if any co-pay applies by default."
+        "explanation": "Home Health Care is available only with pre-authorisation and is not payable on a reimbursement basis. This may limit usage if cashless/pre-authorisation is not feasible in your situation."
       }
-    ],
-    "unclear": []
+    ]
   },
   "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
 }

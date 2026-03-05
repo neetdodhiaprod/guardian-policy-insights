@@ -5,10 +5,10 @@
   "policyType": "Individual | Family Floater",
   "documentType": "Policy Wording",
   "summary": {
-    "great": 3,
-    "good": 4,
-    "bad": 6,
-    "unclear": 2
+    "great": 2,
+    "good": 5,
+    "bad": 4,
+    "unclear": 3
   },
   "features": {
     "great": [
@@ -16,19 +16,13 @@
         "name": "Built-in SI Buffer",
         "quote": "(9) Super Reload: What is covered We shall provide for a Reload of the Sum Insured, unlimited times during the Policy Year... (ii) The Super Reload of Sum Insured shall apply to the ﬁrst claim in the Policy Year. (iii) ... available ... to any Illness / Injury (including its complications) for which a claim has been admitted...",
         "reference": "Section C.I.(9) Super Reload",
-        "explanation": "The policy provides unlimited super reloads of the sum insured during the policy year, even for the same illness or its complications. This means your coverage can increase beyond the base sum insured for multiple or high-value claims."
-      },
-      {
-        "name": "Restore Benefit",
-        "quote": "(8) Reload of Sum Insured: ... Once in the Policy Year, We shall provide for a reload of the Sum Insured...; (9) Super Reload: ... Reload ... unlimited times during the Policy Year...",
-        "reference": "Section C.I.(8) and Section C.I.(9)",
-        "explanation": "The policy includes both reload and super reload benefits that replenish your sum insured during the policy year. This ensures extra coverage is available after claims, enhancing your financial protection."
+        "explanation": "Provides an unlimited Sum Insured reload during the policy year, and it can be used even for the same illness/injury (including complications) once a claim is admitted. This can significantly increase available cover for multiple or large claims in the same year."
       },
       {
         "name": "Bariatric Surgery",
         "quote": "(12) Obesity Treatment: What is Covered We shall cover the related Medical Expenses... if the Insured Person is hospitalized for a Bariatric Surgery which is medically necessary...",
         "reference": "Section C.I.(12) Obesity Treatment",
-        "explanation": "Medically necessary bariatric surgery is covered under the policy, subject to medical criteria and approval. This is helpful since many base policies exclude obesity-related surgeries."
+        "explanation": "Covers medical expenses for medically necessary bariatric surgery when hospitalization is required. This is valuable because many retail health plans exclude or tightly restrict obesity-related surgeries."
       }
     ],
     "good": [
@@ -36,25 +30,31 @@
         "name": "Initial Waiting Period",
         "quote": "3. 30-day waiting period (Code- Excl03) ... Expenses related to the treatment of any illness within 30 days from the ﬁrst policy commencement date shall be excluded except claims arising due to an accident...",
         "reference": "Section D.I.3 (Standard Exclusions)",
-        "explanation": "There is a standard 30-day waiting period for illnesses, but accidents are covered from day one. This is a common industry practice."
+        "explanation": "Illness-related claims are not covered for the first 30 days from the first policy start date, while accidents are covered from day 1. This is a standard waiting period in most health insurance plans."
       },
       {
         "name": "Specific Illness Waiting",
         "quote": "2. Speciﬁed disease / procedure waiting period: (Code- Excl02) ... shall be excluded until the expiry of 24 months of continuous coverage after the date of inception...",
         "reference": "Section D.I.2",
-        "explanation": "Specified diseases and procedures are covered after a 24-month waiting period, which aligns with typical market standards."
+        "explanation": "Specified diseases/procedures are covered only after 24 months of continuous coverage from inception. This is in line with common market practice for such conditions."
       },
       {
         "name": "Domiciliary Hospitalization",
         "quote": "(5) Domiciliary Hospitalisation: What is covered We shall cover the Medical Expenses incurred for the Insured Person’s Domiciliary Hospitalization...",
         "reference": "Section C.I.(5)",
-        "explanation": "Home-based treatment when hospitalization is not possible or a bed is unavailable is covered, subject to policy terms."
+        "explanation": "Covers eligible medical expenses for treatment taken at home as domiciliary hospitalization, subject to policy terms. This helps when hospital admission is not possible or practical."
       },
       {
         "name": "Air Ambulance",
         "quote": "(15) Domestic Emergency Assistance Services (including Air Ambulance)... (16) International Emergency Assistance Services (including Air Ambulance)...",
         "reference": "Section C.I.(15) and Section C.I.(16)",
-        "explanation": "Emergency evacuation and air ambulance services are included for domestic and international travel, subject to conditions and service rules."
+        "explanation": "Includes emergency assistance services that also cover air ambulance for domestic and international emergencies, subject to conditions. This can reduce the financial burden of costly medical evacuations."
+      },
+      {
+        "name": "No Claim Bonus",
+        "quote": "Cumulative Bonus: ... at such rates as speciﬁed in the Policy Schedule / Product Beneﬁt Table... In the event of a claim impacting the eligibility of a Cumulative Bonus, the accumulated Cumulative Bonus shall be reduced by the percentage of Sum Insured as accumulated in the previous Policy Year...",
+        "reference": "Cumulative Bonus section (under Benefits/Additional Benefits)",
+        "explanation": "Offers a cumulative bonus as per the Policy Schedule/Product Benefit Table, and on a claim the accumulated bonus is reduced (not necessarily reset to zero). This can still preserve some extra Sum Insured after a claim, depending on the schedule rates."
       }
     ],
     "bad": [
@@ -62,37 +62,25 @@
         "name": "Room Rent",
         "quote": "(i) Reasonable and Customary Charges for Room Rent ... up to the limits as speciﬁed in the Policy Schedule / Product Beneﬁt Table of this Policy; (ii) If the Insured Person is admitted in a room category / limit that is higher than the one that is speciﬁed ... then the Insured Person shall bear a rateable proportion of the Room Rent (and the total Associated Medical Expenses...)",
         "reference": "Section C.I.(1) In-patient Hospitalization (What is covered & Conditions)",
-        "explanation": "Room rent is limited to specified categories in the policy schedule, and choosing a higher room category leads to proportional deduction of room rent and related expenses. This can increase your out-of-pocket costs."
+        "explanation": "Room rent is capped as per the Policy Schedule/Product Benefit Table, and choosing a higher room category triggers a proportionate (rateable) deduction on room rent and associated medical expenses. This can sharply increase out-of-pocket costs even when the hospital bill is otherwise admissible."
       },
       {
         "name": "Disease Sub-limits",
         "quote": "Sub-limits For Platinum - Essential Plan, treatment-wise sub-limits will apply as below... Cataract... Angioplasty... Knee replacement... Hip replacement... Cholecystectomy... hysterectomy...",
         "reference": "Section C.I.(1) Sub-limits table (Platinum Essential Plan)",
-        "explanation": "Certain treatments have fixed payout caps which may be much lower than actual costs, potentially causing significant out-of-pocket expenses."
+        "explanation": "Imposes treatment-wise sub-limits (e.g., cataract, angioplasty, knee/hip replacement, hysterectomy) as per the table. If actual hospital costs exceed these caps, you pay the difference."
       },
       {
         "name": "Consumables",
         "quote": "53. Non-Medical Expenses including but not limited to RMO charges, surcharges, night charges, service charges levied by the Hospital under any head and as speciﬁed in the Annexure I for Non- Medical Expenses",
         "reference": "Section D.II.53 and Annexure I – Non Medical Expenses (sample list includes items like gloves/strips/kits etc.)",
-        "explanation": "Non-medical consumables listed in the annexure are excluded from coverage, meaning you may have to pay for these items out-of-pocket."
-      },
-      {
-        "name": "Pre-hospitalization Cover",
-        "quote": "(2) Pre – hospitalization Medical Expenses: ... for the number of days in accordance with the limits speciﬁed in the Policy Schedule / Product Beneﬁt Table of this Policy",
-        "reference": "Section C.I.(2)",
-        "explanation": "Pre-hospitalization coverage duration is not specified in the policy wording and depends on the schedule; if not provided, it may not be covered."
-      },
-      {
-        "name": "Post-hospitalization Cover",
-        "quote": "(3) Post – hospitalisation Medical Expenses: ... for the number of days in accordance with the limits speciﬁed in the Policy Schedule / Product Beneﬁt Table of this Policy",
-        "reference": "Section C.I.(3)",
-        "explanation": "Post-hospitalization coverage duration is not specified in the policy wording and depends on the schedule; if not provided, it may not be covered."
+        "explanation": "Non-medical/consumable items listed in Annexure I (e.g., gloves, strips, kits and similar) are excluded. These can add up to a meaningful out-of-pocket amount during hospitalization."
       },
       {
         "name": "Co-pay",
         "quote": "(21) Mandatory Co-payment A mandatory Co-payment as speciﬁed in the Policy Schedule shall apply to all payable claims amount in respect of an Insured Person. Conditions i. For persons who have opted for a ‘Waiver of Mandatory Co-payment’ this Co-payment will not apply.",
         "reference": "Section C.I.(21) Mandatory Co-payment",
-        "explanation": "A mandatory co-pay applies but the percentage is not stated in the wording. You may opt for a waiver add-on to remove it; check your policy schedule for details."
+        "explanation": "A mandatory co-payment applies to all payable claims as per the Policy Schedule, unless a 'Waiver of Mandatory Co-payment' is opted. This means you may have to bear a fixed percentage of every claim from your own pocket."
       }
     ],
     "unclear": [
@@ -100,13 +88,19 @@
         "name": "PED Waiting Period",
         "quote": "Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of the number of months... as speciﬁed in the Policy Schedule / Certiﬁcate of Insurance / Product Beneﬁt Table of this Policy.",
         "reference": "Section D.I.1 Pre-Existing Diseases (Excl01)",
-        "explanation": "The waiting period for pre-existing diseases is not specified in the wording and varies by plan; verify the exact duration in your policy schedule."
+        "explanation": "Pre-existing diseases and their direct complications are not covered until the waiting period shown in the Policy Schedule/Certificate of Insurance/Product Benefit Table is completed. The exact duration is not stated here, so you must check your schedule to know whether it is 24/36/48 months, etc."
       },
       {
-        "name": "No Claim Bonus",
-        "quote": "Cumulative Bonus: ... at such rates as speciﬁed in the Policy Schedule / Product Beneﬁt Table... In the event of a claim impacting the eligibility of a Cumulative Bonus, the accumulated Cumulative Bonus shall be reduced by the percentage of Sum Insured as accumulated in the previous Policy Year...",
-        "reference": "Cumulative Bonus section (under Benefits/Additional Benefits)",
-        "explanation": "The policy offers a no claim bonus that reduces after a claim, but exact accrual and reduction rates are not stated here; check your policy schedule for details."
+        "name": "Pre-hospitalization Cover",
+        "quote": "(2) Pre – hospitalization Medical Expenses: ... for the number of days in accordance with the limits speciﬁed in the Policy Schedule / Product Beneﬁt Table of this Policy",
+        "reference": "Section C.I.(2)",
+        "explanation": "Pre-hospitalization medical expenses are covered only for the number of days mentioned in the Policy Schedule/Product Benefit Table. Since the day-limit is not stated here, the usable coverage window is unclear without the schedule."
+      },
+      {
+        "name": "Post-hospitalization Cover",
+        "quote": "(3) Post – hospitalisation Medical Expenses: ... for the number of days in accordance with the limits speciﬁed in the Policy Schedule / Product Beneﬁt Table of this Policy",
+        "reference": "Section C.I.(3)",
+        "explanation": "Post-hospitalization medical expenses are covered only for the number of days mentioned in the Policy Schedule/Product Benefit Table. Without the schedule, you cannot confirm whether follow-up costs are covered for 60/90/180 days, etc."
       }
     ]
   },

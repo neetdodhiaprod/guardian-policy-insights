@@ -5,10 +5,10 @@
   "policyType": "Individual | Family Floater",
   "documentType": "Policy Wording",
   "summary": {
-    "great": 1,
+    "great": 2,
     "good": 5,
-    "bad": 6,
-    "unclear": 1
+    "bad": 3,
+    "unclear": 3
   },
   "features": {
     "great": [
@@ -16,39 +16,45 @@
         "name": "NCB",
         "quote": "“On Renewal of this Policy with the Company without a break, a sum equal to 10% of the Base Sum Insured of the expiring Policy shall be provided as multiplier benefit irrespective of any claims... The maximum multiplier bonus will not exceed 100% of the Basic Sum Insured in any Policy Year.”",
         "reference": "Section B, 5.1 Cumulative Bonus (page 16)",
-        "explanation": "Your Sum Insured increases by 10% each year on renewal without breaks, even if you make claims, up to 100% of the base Sum Insured. This means your coverage grows over time regardless of claims, which is better than typical no-claim bonuses that reset after claims."
+        "explanation": "A 10% multiplier benefit is added on every renewal without break, irrespective of any claims, up to 100% of the Base Sum Insured. Your coverage can grow over time even if you claim, which is better than typical NCBs that reduce or reset after a claim."
+      },
+      {
+        "name": "Co-pay",
+        "quote": "“Co-payment means a cost-sharing requirement...” (definition present, but no co-pay percentage/trigger stated in benefits/conditions in provided extract).",
+        "reference": "Definitions, Def. 8 Co-payment (page 2)",
+        "explanation": "Only a co-payment definition is present and no applied co-pay clause/trigger is shown in the provided extract. No co-pay is charged based on the available wording, so admissible claims should be paid at 100% (subject to other terms)."
       }
     ],
     "good": [
       {
-        "name": "Initial Waiting",
+        "name": "Initial Waiting Period",
         "quote": "“30-day waiting period... Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident”",
         "reference": "Section C.1.i (page 19)",
-        "explanation": "Illness claims are excluded for the first 30 days except for accidents. This is standard practice in health insurance."
+        "explanation": "Illness-related claims are not covered for the first 30 days from the first policy start date, except for accidents. This is a standard waiting period in retail health insurance."
       },
       {
         "name": "Specific Illness Waiting",
         "quote": "“Expenses related to the treatment of the listed Conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first policy with us.”",
         "reference": "Section C.1.ii (page 19)",
-        "explanation": "Certain listed conditions and surgeries have a 24-month waiting period before coverage starts. This matches the industry standard."
+        "explanation": "Listed diseases/surgeries are covered only after 24 months of continuous coverage from the first policy inception. Claims for these conditions in the first 2 years can be rejected even if the illness is newly diagnosed."
       },
       {
-        "name": "PED Waiting",
+        "name": "PED Waiting Period",
         "quote": "“Expenses related to the treatment of a pre-existing disease (PED) and its direct complications shall be excluded until the expiry of 36 months of continuous coverage after the date of inception of the first policy with insurer.”",
         "reference": "Section C.1.iii (page 22)",
-        "explanation": "Pre-existing diseases are covered after 36 months of continuous coverage, which is acceptable and common in the market."
+        "explanation": "Pre-existing diseases and their direct complications are covered only after 36 months of continuous coverage. You should expect out-of-pocket costs for PED-related treatment during the first 3 policy years."
       },
       {
-        "name": "Pre-hospitalization",
+        "name": "Pre-hospitalization Cover",
         "quote": "“Pre-Hospitalization Medical Expenses... incurred upto 60 days before the date of admission to the Hospital”",
         "reference": "Section B.1.b (page 11)",
-        "explanation": "Medical expenses incurred up to 60 days before hospitalization are covered, which is standard."
+        "explanation": "Medical expenses incurred up to 60 days before hospital admission are covered if related to the hospitalization. This helps pay for consultations, tests, and medicines leading up to admission."
       },
       {
-        "name": "Post-hospitalization",
+        "name": "Post-hospitalization Cover",
         "quote": "“Post-Hospitalization Medical Expenses... incurred upto 90 days after discharge from Hospitalisation”",
         "reference": "Section B.1.c (page 11)",
-        "explanation": "Medical expenses up to 90 days after hospital discharge are covered, which meets market norms."
+        "explanation": "Medical expenses incurred up to 90 days after discharge are covered if related to the hospitalization. This supports follow-up visits, diagnostics, and medicines after you leave the hospital."
       }
     ],
     "bad": [
@@ -56,45 +62,39 @@
         "name": "Restore Benefit",
         "quote": "No restore/reinstatement benefit wording found in the provided document text.",
         "reference": "Not mentioned in provided pages (Policy Wording extract)",
-        "explanation": "Sum Insured is not replenished after a claim, so you cannot restore your coverage once used."
+        "explanation": "No restore/reinstatement of Sum Insured is mentioned in the provided extract. After using your Sum Insured, you may not get an automatic refill for later hospitalizations in the same policy year."
       },
       {
         "name": "Consumables",
         "quote": "“Annexure I - List I - Items for which coverage is not available in the policy... GLOVES... MASK... NEBULISATION KIT... ANY KIT WITH NO DETAILS MENTIONED [DELIVERY KIT, ORTHOKIT, RECOVERY KIT, ETC]”",
         "reference": "Annexure I, List I (page 44-45)",
-        "explanation": "Many consumables like gloves, masks, and various kits are excluded, so you must pay for these out-of-pocket."
+        "explanation": "Many common consumables (e.g., gloves, masks, nebulisation kit, and various procedure kits) are not covered. These can add meaningful out-of-pocket costs during hospitalization."
       },
+      {
+        "name": "Ambulance Cover",
+        "quote": "“Ambulance: ... subject to Rs. 2000 per Hospitalisation.”",
+        "reference": "Section B.1.g (page 12); Schedule of Benefits (page 40-43)",
+        "explanation": "Ambulance expenses are capped at ₹2,000 per hospitalization. You may have to pay the balance if actual ambulance charges are higher."
+      }
+    ],
+    "unclear": [
       {
         "name": "Room Rent",
         "quote": "No explicit room rent entitlement/capping (e.g., “single private AC”, “any room”, or ₹/day cap) found in the provided document text.",
         "reference": "Not mentioned in provided pages (Policy Wording extract)",
-        "explanation": "Room rent details are missing, which is critical as limits or caps can cause claim deductions; verify separately."
+        "explanation": "No room rent limit/eligibility is visible in the provided extract. Room rent terms matter because a cap can lead to proportionate deductions across the entire hospital bill."
       },
       {
         "name": "Cashless Network",
         "quote": "No number of network hospitals/cashless network size found in the provided document text.",
         "reference": "Not mentioned in provided pages (Policy Wording extract)",
-        "explanation": "The size of the cashless hospital network is not stated, which may affect your ability to avail cashless treatment."
+        "explanation": "The number/size of the cashless hospital network is not stated in the provided extract. This affects how easily you can access cashless treatment in your city and preferred hospitals."
       },
-      {
-        "name": "Disease Sub-limits",
-        "quote": "“Ambulance: ... subject to Rs. 2000 per Hospitalisation.”",
-        "reference": "Section B.1.g (page 12); Schedule of Benefits (page 40-43)",
-        "explanation": "Ambulance coverage is limited to ₹2,000 per hospitalization, which may be insufficient and cause out-of-pocket expenses."
-      },
-      {
-        "name": "Co-pay",
-        "quote": "“Co-payment means a cost-sharing requirement...” (definition present, but no co-pay percentage/trigger stated in benefits/conditions in provided extract).",
-        "reference": "Definitions, Def. 8 Co-payment (page 2)",
-        "explanation": "Co-payment terms are not clearly stated in the extract; check the policy schedule or endorsements for any mandatory co-pay."
-      }
-    ],
-    "unclear": [
       {
         "name": "Built-in SI Buffer",
         "quote": "No wording found for restore/booster/secure benefit/super top-up-like additional SI that activates after base SI is exhausted (other than the renewal-based Cumulative Bonus multiplier).",
         "reference": "Not mentioned in provided pages (Policy Wording extract)",
-        "explanation": "No separate built-in additional Sum Insured buffer beyond the renewal bonus is mentioned; verify if any variants offer this."
+        "explanation": "No separate built-in extra Sum Insured (like super reload/booster) is shown in the provided extract beyond the renewal-based multiplier bonus. If not available, coverage may be limited to base SI plus accumulated multiplier in a year."
       }
     ]
   },

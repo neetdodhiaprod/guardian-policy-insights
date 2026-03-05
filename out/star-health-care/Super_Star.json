@@ -5,10 +5,10 @@
   "policyType": "Individual | Family Floater",
   "documentType": "Policy Wording",
   "summary": {
-    "great": 6,
-    "good": 6,
+    "great": 5,
+    "good": 7,
     "bad": 2,
-    "unclear": 2
+    "unclear": 1
   },
   "features": {
     "great": [
@@ -16,75 +16,75 @@
         "name": "Room Rent",
         "quote": "(i) Room Rent (Any Room), Boarding, Nursing Expenses as provided by the Hospital / Nursing Home",
         "reference": "Section II - Coverage > BASIC COVER > 1. In-patient Treatment (page 5/37)",
-        "explanation": "You can choose any room type without any capping on room rent, so there is no limit on your room choice or rent expenses."
+        "explanation": "Room rent is covered for “Any Room” along with boarding and nursing expenses as provided by the hospital/nursing home. This avoids room-rent caps and the claim reductions that usually come with them."
       },
       {
         "name": "Pre-hospitalization Cover",
         "quote": "Pre-hospitalization Expenses: Medical expenses incurred up to 90 days immediately before the insured person is hospitalized.",
         "reference": "Section II - Coverage > BASIC COVER > 3 (page 5/37)",
-        "explanation": "Medical expenses up to 90 days before hospitalization are covered, which is longer than the usual 30 to 60 days and gives you better pre-hospitalization support."
+        "explanation": "Medical expenses are covered up to 90 days immediately before hospitalization. This gives a longer window than the usual 30–60 days for tests, consultations, and medicines leading up to admission."
       },
       {
         "name": "Restore Benefit",
         "quote": "Automatic Restoration of Sum Insured... Sum Insured will be restored unlimited number of times and maximum up to 100% each time... 2nd Claim (For Same / different illness)",
         "reference": "Section II - Coverage > BASIC COVER > 15 (page 7/37)",
-        "explanation": "The sum insured is restored unlimited times for the same or different illnesses, allowing you multiple refills of your coverage without losing protection."
+        "explanation": "Sum insured is automatically restored an unlimited number of times, up to 100% each time, for the 2nd claim for same or different illness. This can significantly increase usable cover in a year if there are multiple hospitalizations."
       },
       {
         "name": "NCB",
         "quote": "Cumulative Bonus... 50% of sum insured for each claim free year and maximum up to 100%... Cumulative bonus will not be reduced unless the same is utilized in the event of claim... unutilized Cumulative bonus will be carried forward",
         "reference": "Section II - Coverage > BASIC COVER > 14 (page 7/37)",
-        "explanation": "No claim bonus accumulates up to 100% and only reduces when used, so your bonus is protected even after making claims."
+        "explanation": "Cumulative Bonus increases by 50% of sum insured for each claim-free year up to 100%, and it is not reduced unless it is utilized in a claim. This helps your bonus stay intact even after a claim if the bonus portion wasn’t used."
       },
       {
         "name": "Organ Donor Expenses",
         "quote": "Organ Donor Expenses... Note: The coverage limit under this benefit is upto the sum insured and over and above the sum insured.",
         "reference": "Section II - Coverage > BASIC COVER > 9 (page 6/37)",
-        "explanation": "Expenses for organ donor treatment are covered over and above the sum insured, giving you extra financial protection beyond your base coverage."
-      },
-      {
-        "name": "Modern Treatments",
-        "quote": "Coverage for Modern Treatments: The following procedures will be covered... g) Robotic surgeries ... h) Stereotactic radio surgeries ...",
-        "reference": "Section II - Coverage > BASIC COVER > 5 (page 5/37)",
-        "explanation": "Modern treatments like robotic surgeries are covered up to the sum insured without any specific sub-limits, ensuring full coverage for advanced procedures."
+        "explanation": "Organ donor expenses are covered, and the note states the limit is “upto the sum insured and over and above the sum insured.” This indicates donor costs may not eat into your base sum insured, improving protection for transplant scenarios."
       }
     ],
     "good": [
       {
-        "name": "Initial Waiting",
-        "quote": "30-day waiting period – Code Excl 03 (Not Applicable for Accidents)... within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident",
-        "reference": "Section IV - EXCLUSIONS > STANDARD EXCLUSIONS > 3 (page 18/37)",
-        "explanation": "There is a 30-day waiting period for illnesses, but accidents are covered immediately, which is standard and reasonable."
+        "name": "Modern Treatments",
+        "quote": "Coverage for Modern Treatments: The following procedures will be covered... g) Robotic surgeries ... h) Stereotactic radio surgeries ...",
+        "reference": "Section II - Coverage > BASIC COVER > 5 (page 5/37)",
+        "explanation": "Modern treatments including robotic surgeries and stereotactic radio surgeries are covered. Since no specific “no sub-limit” wording is shown in the quote, it is safest to treat this as covered but subject to policy terms/limits up to sum insured."
       },
       {
-        "name": "PED Waiting",
+        "name": "Initial Waiting Period",
+        "quote": "30-day waiting period – Code Excl 03 (Not Applicable for Accidents)... within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident",
+        "reference": "Section IV - EXCLUSIONS > STANDARD EXCLUSIONS > 3 (page 18/37)",
+        "explanation": "Illness claims are not covered in the first 30 days from policy start, except accidents which are covered immediately. This is standard in retail health insurance and mainly affects early non-accident claims."
+      },
+      {
+        "name": "PED Waiting Period",
         "quote": "Expenses related to the treatment of a pre-existing Disease (PED)... shall be excluded until the expiry of 36 months of continuous coverage after the date of inception of the first policy with insurer",
         "reference": "Section IV - EXCLUSIONS > STANDARD EXCLUSIONS > 1 (page 18/37)",
-        "explanation": "Pre-existing diseases are excluded for 36 months, which is within the typical industry range of 2 to 4 years."
+        "explanation": "Pre-existing diseases are covered only after 36 months of continuous coverage from the first policy inception with the insurer. This is within the common 2–4 year market range and is important if you already have known conditions."
       },
       {
         "name": "Specific Illness Waiting",
         "quote": "Specified disease / procedure waiting period... shall be excluded until the expiry of 24 months of continuous coverage",
         "reference": "Section IV - EXCLUSIONS > STANDARD EXCLUSIONS > 2 (page 18/37)",
-        "explanation": "Specific illnesses and procedures have a 24-month waiting period, which aligns with common market practice."
+        "explanation": "Specified diseases/procedures are excluded until you complete 24 months of continuous coverage. This is a standard waiting period and can delay coverage for listed conditions even if they are not pre-existing."
       },
       {
         "name": "Post-hospitalization Cover",
         "quote": "Post Hospitalization Expenses: Medical expenses incurred up to 180 days immediately after the insured person is discharged from the hospital.",
         "reference": "Section II - Coverage > BASIC COVER > 4 (page 5/37)",
-        "explanation": "Medical expenses up to 180 days after discharge are covered, providing extended post-hospital care at the higher end of standard coverage."
+        "explanation": "Medical expenses are covered up to 180 days immediately after discharge. This is at the higher end of standard post-hospitalization coverage and helps with follow-up treatment costs."
       },
       {
         "name": "Air Ambulance",
         "quote": "Air Ambulance... reimbursement of expenses incurred towards the cost of air ambulance service up to Rs.5,00,000/- in a policy year",
         "reference": "Section II - Coverage > BASIC COVER > 8 (page 6/37)",
-        "explanation": "Air ambulance services are covered up to ₹5,00,000 per policy year, offering valuable emergency transport support."
+        "explanation": "Air ambulance expenses are reimbursed up to ₹5,00,000 per policy year. This can be valuable for emergency transfers, but costs beyond this limit will be out of pocket."
       },
       {
         "name": "Domiciliary Hospitalization",
         "quote": "Domiciliary Hospitalization: Coverage for medical treatment (including AYUSH) for a period exceeding three days... taken whilst confined at home...",
         "reference": "Section II - Coverage > BASIC COVER > 11 (page 6/37)",
-        "explanation": "Home-based hospitalization is covered under certain conditions, allowing treatment at home when hospital admission is not possible."
+        "explanation": "Domiciliary hospitalization is covered for treatment (including AYUSH) exceeding three days when you are confined at home. This helps when hospitalization is medically needed but home treatment is required due to specific circumstances."
       }
     ],
     "bad": [
@@ -92,13 +92,13 @@
         "name": "Consumables",
         "quote": "Coverage for Non-medical Items (Consumables): Items as per List I will become payable If there is an admissible claim... If insured opts this coverage",
         "reference": "Section III - Optional Covers > 3 (page 12/37)",
-        "explanation": "Non-medical consumables are not covered by default and require an optional add-on, which may increase your out-of-pocket expenses."
+        "explanation": "Consumables/non-medical items are payable only if you opt for this optional cover. If you don’t buy the add-on, these items can become significant out-of-pocket costs during hospitalization."
       },
       {
         "name": "Co-pay",
         "quote": "Co-Payment: Co-payment means a cost sharing requirement... provides that the policyholder / insured will bear a specified percentage of the admissible claims amount.",
         "reference": "Definitions (page 2/37); Optional Covers include Smart Network co-pay and Voluntary Co-payment (pages 12/37, 16/37)",
-        "explanation": "The policy mentions co-payment and optional co-pay features, but the default mandatory co-pay percentage is not clearly stated, making it unclear if you must pay any co-pay."
+        "explanation": "Optional covers include co-pay options (e.g., Smart Network co-pay and Voluntary Co-payment), which means you may have to bear a percentage of each admissible claim if chosen. Any co-pay increases your out-of-pocket share on every claim where it applies."
       }
     ],
     "unclear": [
@@ -106,13 +106,7 @@
         "name": "Cashless Network",
         "quote": "Cashless facility... payments... are directly made to the network provider by the insurer",
         "reference": "Definitions (page 1/37)",
-        "explanation": "Cashless facility is available, but the number of network hospitals is not specified, so it is unclear how extensive the cashless network is."
-      },
-      {
-        "name": "Post-hospitalization Cover",
-        "quote": "Post Hospitalization Expenses: Medical expenses incurred up to 180 days immediately after the insured person is discharged from the hospital.",
-        "reference": "Section II - Coverage > BASIC COVER > 4 (page 5/37)",
-        "explanation": "Post-hospitalization cover is limited to 180 days, which meets standard coverage but does not exceed the threshold for excellent coverage."
+        "explanation": "Cashless treatment is available at network providers where the insurer pays the hospital directly. The document excerpt does not specify the number or breadth of network hospitals, so ease of finding a nearby cashless hospital cannot be judged here."
       }
     ]
   },

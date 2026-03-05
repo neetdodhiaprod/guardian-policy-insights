@@ -7,7 +7,7 @@
   "summary": {
     "great": 3,
     "good": 7,
-    "bad": 6,
+    "bad": 5,
     "unclear": 1
   },
   "features": {
@@ -16,63 +16,63 @@
         "name": "Restore Benefit",
         "quote": "Re-fill benefit Reinstate up to base Sum Insured. Applicable for same & different illness as well",
         "reference": "Annexure II – Product Benefit Table; also Section 3.13 Re-fill Benefit",
-        "explanation": "You get a full refill of your base Sum Insured for both same and different illnesses within the policy year. This means your coverage can renew fully if you exhaust your Sum Insured."
+        "explanation": "Reinstates up to the base Sum Insured and can be used for both same and different illnesses. This helps you get additional coverage in the same policy year after the base Sum Insured is used."
       },
       {
         "name": "Pre-hospitalization Cover",
         "quote": "We will pay above mentioned Pre-hospitalization Medical Expenses only for period up to 90 days immediately preceding the Insured Person’s admission",
         "reference": "Section 3.2 (Pre-hospitalization Medical Expenses) – Sub-limit",
-        "explanation": "Medical expenses up to 90 days before hospitalization are covered. This longer period helps cover diagnostic and treatment costs before admission."
+        "explanation": "Covers eligible medical expenses for up to 90 days immediately before hospitalization. This reduces out-of-pocket costs for tests, consultations, and medicines leading up to admission."
       },
       {
-        "name": "PED Waiting Period",
-        "quote": "Expenses related to the treatment of a Pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first Policy.",
-        "reference": "Section 5.1.1.1 (Pre-existing Diseases)",
-        "explanation": "Pre-existing diseases are covered after 24 months of continuous coverage. This is better than many policies requiring 36 months, giving you earlier coverage for existing conditions."
+        "name": "Specific Illness Waiting Period",
+        "quote": "Expenses related to the treatment of the listed conditions, surgeries/treatments shall be excluded until the expiry of 12 months of continuous coverage after the date of inception of the first Policy.",
+        "reference": "Section 5.1.1.2 (Specified disease/procedure waiting period)",
+        "explanation": "Listed specified diseases/procedures are not covered for the first 12 months from the first policy start date. This is better than many plans that impose a 24-month waiting period for such conditions."
       }
     ],
     "good": [
       {
+        "name": "PED Waiting Period",
+        "quote": "Expenses related to the treatment of a Pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first Policy.",
+        "reference": "Section 5.1.1.1 (Pre-existing Diseases)",
+        "explanation": "Pre-existing diseases are covered after 24 months of continuous coverage from the first policy inception. This is a standard-to-good PED waiting period versus many policies that require 36 months."
+      },
+      {
         "name": "Initial Waiting Period",
         "quote": "Expenses related to the treatment of any Illness within 30 days from the first Policy commencement date shall be excluded except claims arising due to an Accident",
         "reference": "Section 5.1.1.3 (30-day waiting period)",
-        "explanation": "Illnesses are excluded for the first 30 days except accidents, which are covered immediately. This is a standard waiting period in the market."
-      },
-      {
-        "name": "Specific Illness Waiting",
-        "quote": "Expenses related to the treatment of the listed conditions, surgeries/treatments shall be excluded until the expiry of 12 months of continuous coverage after the date of inception of the first Policy.",
-        "reference": "Section 5.1.1.2 (Specified disease/procedure waiting period)",
-        "explanation": "Listed specific diseases and procedures are covered after 12 months. This is better than the common 24-month waiting period, allowing earlier access to treatment."
+        "explanation": "Illnesses are not covered in the first 30 days from policy commencement, except accidents. This is a common market-standard waiting period."
       },
       {
         "name": "Post-hospitalization Cover",
         "quote": "We will pay Post-hospitalization Medical Expenses only for up to 180 days immediately following the Insured Person’s discharge",
         "reference": "Section 3.3 (Post-hospitalization Medical Expenses) – Sub-limit",
-        "explanation": "Medical expenses up to 180 days after discharge are covered. This helps cover follow-up treatments and recovery costs."
+        "explanation": "Covers eligible medical expenses for up to 180 days after discharge. This helps pay for follow-up consultations, diagnostics, and medicines during recovery."
       },
       {
         "name": "Domiciliary Hospitalization",
         "quote": "We will indemnify on Reimbursement basis only, the Medical Expenses incurred for the Insured Person’s Domiciliary Hospitalization during the Policy Period",
         "reference": "Section 3.5 (Domiciliary Hospitalization)",
-        "explanation": "Home treatment is covered when medically necessary and subject to conditions like minimum 3 consecutive days. This provides flexibility for non-hospitalized care."
+        "explanation": "Pays eligible domiciliary hospitalization expenses on a reimbursement basis during the policy period. This can help when hospital admission is not possible and treatment is taken at home (subject to policy conditions)."
       },
       {
         "name": "Modern Treatments",
         "quote": "Modern Treatments Covered up to Sum Insured with sub-limit of Rs. 1Lac on few robotic surgeries",
         "reference": "Annexure II – Product Benefit Table; also Section 3.25 (Modern Treatments) special condition",
-        "explanation": "Modern treatments are included but some robotic surgeries have a ₹1 lakh cap. This means coverage is available but with some financial limits on advanced procedures."
+        "explanation": "Modern treatments are covered up to the Sum Insured, but some robotic surgeries are capped at ₹1 lakh. This provides coverage for advanced procedures but may leave a gap for high-cost robotic surgeries."
       },
       {
         "name": "No Claim Bonus",
         "quote": "We will provide Loyalty Additions in the form of Cumulative Bonus by increasing the Sum Insured applicable under the Policy by 10% of the Base Sum Insured of the immediately preceding Policy Year subject to a maximum of 100% of the Base Sum Insured.",
         "reference": "Section 3.16 (Loyalty Additions); Annexure II",
-        "explanation": "Sum Insured increases by 10% per year up to 100%, but the bonus likely resets after a claim. This is a standard renewal bonus feature."
+        "explanation": "Increases Sum Insured by 10% of the Base Sum Insured each claim-free year, up to 100% maximum. This can grow your coverage over time if you do not make claims."
       },
       {
-        "name": "Loyalty Add-on",
+        "name": "No Claim Bonus",
         "quote": "Loyalty Additions ... automatically increase to 20% of Base Insured and the maximum Loyalty Additions shall not exceed 200% of the Base Sum Insured.",
         "reference": "Section 4.3 (Enhanced Loyalty Additions)",
-        "explanation": "An optional paid cover increases the renewal bonus accrual rate and maximum cap, giving you flexibility to boost your Sum Insured over time."
+        "explanation": "An enhanced option increases the bonus accrual to 20% and raises the maximum bonus cap to 200% of Base Sum Insured. This can significantly boost your available cover over time if you choose this option."
       }
     ],
     "bad": [
@@ -80,37 +80,31 @@
         "name": "Room Rent",
         "quote": "Room rent Option 1: Rs 3,000 per day or Shared Room; whichever is lower Option 2: Rs 5,000 per day or Single Private Room; whichever is lower",
         "reference": "Annexure II – Product Benefit Table (Family First variant – Silver)",
-        "explanation": "A fixed daily room rent cap of ₹3,000 or ₹5,000 applies depending on room type. This can reduce claim payouts if you choose a higher category room."
+        "explanation": "Room rent is capped at ₹3,000/day (shared) or ₹5,000/day (single private), whichever is lower as per the option. Choosing a higher-priced room can trigger reduced claim payouts and higher out-of-pocket costs."
       },
       {
         "name": "Proportionate Deduction",
         "quote": "If the Insured Person is admitted in a Hospital room where the room category opted or Room Rent incurred is higher than the eligibility as specified in the Policy Schedule, then We shall be liable to pay only a pro-rated portion of the total Associated Medical Expenses ...",
         "reference": "Section 3.1 (Inpatient Care) – Condition (b)",
-        "explanation": "If you choose a room category above your plan’s limit, the insurer pays only a proportionate amount of all related medical expenses, reducing your claim payout."
+        "explanation": "If you take a room above your eligible category/limit, the insurer pays only a pro-rated portion of associated medical expenses. This can sharply reduce the payout not just for room rent but also for doctor, surgery, and other linked hospital bills."
       },
       {
         "name": "Consumables",
         "quote": "Annexure VII - The expenses that are not covered ... List  I – Expenses not covered ... 56 GLOVES ... 60 MASK ... 57 NEBULISATION KIT ... 58 ANY KIT WITH NO DETAILS MENTIONED [DELIVERY KIT, ORTHOKIT, RECOVERY KIT, ETC]",
         "reference": "Annexure VII – The expenses that are not covered or subsumed into room charges / procedure charges / costs of treatment",
-        "explanation": "Many common consumables like gloves, masks, and nebulisation kits are excluded or subsumed, often resulting in out-of-pocket expenses for these items."
+        "explanation": "Common consumables like gloves, masks, nebulisation kits, and various procedure kits are listed as not covered/subsumed. This typically increases out-of-pocket spending during hospitalization."
       },
       {
         "name": "Co-pay",
         "quote": "If You select Zone 2, then 20% Co-payment will apply for treatment in Mumbai (including Navi Mumbai & Thane), Delhi NCR, Kolkata & Gujarat State.",
         "reference": "Section 6.2.11 (Zonal pricing)",
-        "explanation": "Choosing Zone 2 pricing means you pay a 20% co-pay for treatment in specified major cities, significantly reducing your claim amount."
+        "explanation": "If Zone 2 is selected, a 20% co-payment applies for treatment in Mumbai (including Navi Mumbai & Thane), Delhi NCR, Kolkata and Gujarat. This means you will pay 20% of the admissible claim amount in these locations."
       },
       {
         "name": "Disease Sub-limits",
         "quote": "HIV / AIDS covered up to Rs 50,000 ... Mental disorder treatment ... (sub-limit of Rs 50,000 applicable on few conditions) ... Modern Treatments ... sub-limit of Rs. 1Lac on few robotic surgeries",
         "reference": "Annexure II – Product Benefit Table; Section 3.17; Section 3.19; Section 3.25",
-        "explanation": "The policy imposes multiple sub-limits on specific diseases and treatments, increasing your out-of-pocket costs for these conditions."
-      },
-      {
-        "name": "Co-pay",
-        "quote": "Co-payment (if applicable) as specified in the Policy Schedule shall be applicable on the amount payable by Us.",
-        "reference": "Section 6.2.15.4(e)(iii) and Section 6.2.14",
-        "explanation": "The policy states co-pay applies if mentioned in the schedule but does not clarify the default co-pay percentage. Check your policy schedule for exact details."
+        "explanation": "Certain conditions/treatments have rupee caps such as HIV/AIDS up to ₹50,000, mental disorder treatment sub-limits of ₹50,000 for some conditions, and ₹1 lakh for a few robotic surgeries. These caps can leave you paying the balance even when you have sufficient Sum Insured."
       }
     ],
     "unclear": [
@@ -118,7 +112,7 @@
         "name": "Cashless Network",
         "quote": "Cashless Facility can be availed only at Our Network Providers or Service Providers (as applicable). The complete list of Network Providers is available on Our website",
         "reference": "Section 6.2.15.2(a) (For Availing Cashless Facility)",
-        "explanation": "The policy does not specify the number of network hospitals; verify the current network size and locations on the insurer’s website or app."
+        "explanation": "Cashless treatment is available only at the insurer’s network/service providers, with the list hosted on the website. The policy does not state the number of network hospitals, so you should verify availability in your city before buying."
       }
     ]
   },

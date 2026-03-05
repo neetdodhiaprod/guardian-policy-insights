@@ -7,7 +7,7 @@
   "summary": {
     "great": 2,
     "good": 8,
-    "bad": 9,
+    "bad": 8,
     "unclear": 0
   },
   "features": {
@@ -16,13 +16,13 @@
         "name": "Built-in SI Buffer",
         "quote": "Recharge Benefit (Applicable for A to K, M, S): If the limit of coverage under the policy is exhausted/ exceeded during the policy period, additional indemnity up to the limits stated in the table given below would be provided once for the remaining policy period. Such additional indemnity can be utilized even for the same hospitalization or for the treatment of diseases / illness / injury / for which claim was paid / payable under the policy.",
         "reference": "Section 2 Coverage, Clause W (page 14/35)",
-        "explanation": "You get extra Sum Insured once your base cover is fully used, which can be used even for the same illness or hospitalization. This gives you additional financial protection beyond the base limit."
+        "explanation": "Provides an additional indemnity once in the policy year after the Sum Insured is exhausted/exceeded, as per the table. It can be used even for the same hospitalization/illness, which helps when costs spill over the base cover."
       },
       {
         "name": "NCB",
         "quote": "Loyalty Bonus shall be available irrespective of a claim and only upon timely renewal without break or upon renewal within the grace period allowed.",
         "reference": "Section 2 Coverage, Clause Z (page 15/35)",
-        "explanation": "Your Sum Insured can increase on renewal even if you have made claims, as long as you renew on time. This rewards loyalty without penalizing claims."
+        "explanation": "Loyalty Bonus is available even if you make a claim, as long as you renew on time (or within the grace period). This helps your cover grow without being reset due to claims."
       }
     ],
     "good": [
@@ -30,49 +30,49 @@
         "name": "PED Waiting Period",
         "quote": "Expenses related to the treatment of a Pre-Existing Disease (PED) and its direct complications shall be excluded until the expiry of 36 months of continuous coverage after the date of inception of the first policy with insurer",
         "reference": "Section 3 Exclusions, Standard Exclusion 1 (Code Excl 01) (page 22/35)",
-        "explanation": "Pre-existing diseases are covered after 36 months (3 years) of continuous coverage, which is within normal market range. This means you must wait 3 years before claims for these conditions are payable."
+        "explanation": "Pre-existing diseases are covered after 36 months of continuous coverage from the first policy inception with the insurer. This means you cannot claim for PEDs and their direct complications during the first 3 years."
       },
       {
-        "name": "Specific Illness Waiting",
+        "name": "Specific Illness Waiting Period",
         "quote": "Expenses related to the treatment of the following listed Conditions, surgeries/ treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first policy with us.",
         "reference": "Section 3 Exclusions, Standard Exclusion 2 (Code Excl 02) (page 22/35)",
-        "explanation": "Specified conditions have a 24-month waiting period, which is standard. Claims for these illnesses are payable only after 2 years of continuous coverage."
+        "explanation": "Listed specific conditions/surgeries are covered only after 24 months of continuous coverage. Claims for these conditions will not be payable in the first 2 years."
       },
       {
-        "name": "Initial Waiting",
+        "name": "Initial Waiting Period",
         "quote": "Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident",
         "reference": "Section 3 Exclusions, Standard Exclusion 3 (Code Excl 03) (page 23/35)",
-        "explanation": "Illnesses are not covered during the first 30 days except for accidents. This is a common waiting period in health insurance."
+        "explanation": "Illnesses are not covered for the first 30 days from policy commencement, except accidents. This is the standard initial waiting period in retail health insurance."
       },
       {
         "name": "Restore Benefit",
         "quote": "Automatic Restoration of Sum Insured... Such Automatic Restoration is available 3 times at 100% each time... It is made clear that such restored Sum Insured can be utilized only for illness / disease unrelated to the illness / diseases for which claim/s was / were made.",
         "reference": "Section 2 Coverage, Clause V (page 12/35)",
-        "explanation": "Sum Insured is restored automatically up to 3 times but only for different illnesses, not the same one. This helps cover new health issues during the policy year."
+        "explanation": "Automatically restores 100% Sum Insured up to 3 times in a policy year. The restored amount can be used only for unrelated illnesses, so it won’t help if the same illness continues to need treatment."
       },
       {
-        "name": "Pre-hospitalization",
+        "name": "Pre-hospitalization Cover",
         "quote": "Relevant Pre-Hospitalization medical expenses incurred for a period not exceeding 60 days prior to the date of hospitalization",
         "reference": "Section 2 Coverage, Clause H (page 8/35)",
-        "explanation": "Medical expenses up to 60 days before hospital admission are covered. This helps with costs related to diagnosis and treatment before hospitalization."
+        "explanation": "Covers relevant medical expenses up to 60 days before hospitalization. This helps pay for consultations, tests, and medicines leading up to admission."
       },
       {
-        "name": "Post-hospitalization",
+        "name": "Post-hospitalization Cover",
         "quote": "Post Hospitalization medical expenses incurred for a period of 90 days from the date of discharge from the hospital",
         "reference": "Section 2 Coverage, Clause I (page 8/35)",
-        "explanation": "Medical expenses up to 90 days after discharge are covered. This supports recovery costs following hospitalization."
+        "explanation": "Covers medical expenses up to 90 days after discharge. This reduces out-of-pocket costs for follow-ups and medicines during recovery."
       },
       {
         "name": "Air Ambulance",
         "quote": "Air Ambulance charges up to 10% of the Sum Insured during the entire policy period... Note: This benefit is available for Sum Insured options of Rs.5,00,000/- and above only.",
         "reference": "Section 2 Coverage, Clause G (page 8/35)",
-        "explanation": "Air ambulance is covered up to 10% of Sum Insured for policies ₹5 lakh and above. This provides emergency transport support."
+        "explanation": "Pays air ambulance charges up to 10% of the Sum Insured for the entire policy period, available only for Sum Insured of ₹5,00,000 and above. This can help in emergencies but is capped and not available on lower Sum Insured options."
       },
       {
         "name": "Domiciliary Hospitalization",
         "quote": "Domiciliary Hospitalization: Coverage for medical treatment (Including AYUSH) for a period exceeding three days...",
         "reference": "Section 2 Coverage, Clause J (page 9/35)",
-        "explanation": "Home-based treatment is covered when hospitalization isn't possible, but some conditions are excluded. This offers flexibility for certain treatments."
+        "explanation": "Covers domiciliary (home) treatment, including AYUSH, when it exceeds 3 days as per policy terms. This is useful when hospital admission is not possible or advisable."
       }
     ],
     "bad": [
@@ -80,55 +80,49 @@
         "name": "Room Rent",
         "quote": "Sum Insured (Rs.) Limit (Rs.) 1,00,000/- Upto 2,000/- per day ... 2,00,000/- 3,00,000/- Upto 5,000/- per day",
         "reference": "Section 2 Coverage, Clause A (page 7/35)",
-        "explanation": "Daily room rent limits can cause out-of-pocket expenses and trigger proportionate deductions if you choose a higher room category. This restricts your room choice and increases costs."
+        "explanation": "Room rent is capped per day based on Sum Insured (e.g., ₹2,000/day for ₹1,00,000 SI and ₹5,000/day for ₹2,00,000/₹3,00,000 SI). Choosing a higher room category can lead to significant deductions and higher out-of-pocket costs."
       },
       {
         "name": "Proportionate Deduction",
         "quote": "Expenses relating to Associated medical expenses will be considered in proportion to the eligible room rent/room category stated in the policy schedule or actuals whichever is less.",
         "reference": "Section 2 Coverage, Clause A Note + Definitions (Associated medical expenses) (pages 7/35 and 6/35)",
-        "explanation": "If you select a room above your eligibility, related medical expenses like doctor and nursing fees may be reduced proportionately. This increases your share of costs."
+        "explanation": "If you take a room above your eligible room rent/category, associated medical expenses are paid only in proportion to eligibility. This can reduce payouts for doctor fees, nursing, etc., increasing your share of the bill."
       },
       {
         "name": "Consumables",
         "quote": "Associated Medical Expenses does not include cost of pharmacy and consumables, cost of implants and medical devices and cost of diagnostics, ICU charges...",
         "reference": "Definitions, Specific Definitions: Associated Medical Expenses (page 6/35)",
-        "explanation": "Consumables like gloves, syringes, and PPE kits are not covered, leading to out-of-pocket expenses. This can increase your hospitalization costs."
+        "explanation": "Consumables are not included under “Associated Medical Expenses” as per this definition. This can lead to extra out-of-pocket costs for items billed as consumables during hospitalization."
       },
       {
         "name": "Disease Sub-limits",
         "quote": "Expenses incurred on treatment of Cataract is subject to the limit as per the following table",
         "reference": "Section 2 Coverage, Clause E (page 8/35)",
-        "explanation": "Cataract treatment has a fixed cap per eye/policy period, which may be insufficient if hospital costs are higher. This limits your claim amount."
+        "explanation": "Cataract treatment is payable only up to the limit shown in the table. If your hospital charges exceed the cap, you will have to pay the difference."
       },
       {
         "name": "Modern Treatments",
         "quote": "Coverage for Modern Treatments: The following expenses are payable... is limited to the amount mentioned in table below.",
         "reference": "Section 2 Coverage, Clause Y (pages 14-15/35)",
-        "explanation": "Modern treatments are covered but with sub-limits that may not cover full costs. This can leave you with significant expenses."
+        "explanation": "Modern treatments are covered but only up to the sub-limits mentioned in the table. This can leave a gap if the procedure costs more than the allowed limit."
       },
       {
         "name": "Road Ambulance",
         "quote": "Emergency Road ambulance charges up-to a sum of Rs. 750/- per hospitalization and overall limit of Rs.1,500/- per policy period",
         "reference": "Section 2 Coverage, Clause F (page 8/35)",
-        "explanation": "Road ambulance coverage is limited to ₹750 per hospitalization and ₹1,500 per year, which is low compared to actual costs. This may cause out-of-pocket spending."
+        "explanation": "Road ambulance is limited to ₹750 per hospitalization and ₹1,500 per policy year. Actual ambulance costs are often higher, so you may need to pay the balance."
       },
       {
-        "name": "NCB Absence",
+        "name": "NCB",
         "quote": "For the Sum Insured options Rs.3,00,000/- and above, the insured would be entitled to benefit of Loyalty Bonus of 10%...",
         "reference": "Section 2 Coverage, Clause Z (page 15/35)",
-        "explanation": "No renewal bonus or NCB is available for Sum Insured below ₹3 lakh, so your cover may not grow if you choose lower SI. This limits benefits for lower coverage."
-      },
-      {
-        "name": "Co-pay (Senior)",
-        "quote": "This policy is subject to co- payment of 20% of each and every claim amount for fresh as well as renewal policies for insured persons whose age at the time of entry is 61 years and above.",
-        "reference": "Section 2 Coverage, Clause AA (page 15/35)",
-        "explanation": "A 20% co-pay applies for entry age 61 and above, reducing claim payouts for seniors. This is common in many health plans."
+        "explanation": "Loyalty Bonus is available only for Sum Insured options of ₹3,00,000 and above (e.g., 10% as stated). If you choose a lower Sum Insured, your cover may not increase through this bonus."
       },
       {
         "name": "Co-pay",
-        "quote": "Mandatory Co-payment... for insured persons whose age at the time of entry is 61 years and above.",
+        "quote": "This policy is subject to co- payment of 20% of each and every claim amount for fresh as well as renewal policies for insured persons whose age at the time of entry is 61 years and above.",
         "reference": "Section 2 Coverage, Clause AA (page 15/35)",
-        "explanation": "Co-pay is clearly stated for entry age 61+, but the policy does not explicitly confirm if co-pay is 0% for younger ages. This needs clarification from the policy schedule."
+        "explanation": "A mandatory 20% co-payment applies on each and every claim if entry age is 61 years and above. This means seniors must bear 20% of admissible claim amounts, which can be a large recurring cost."
       }
     ],
     "unclear": []

@@ -5,9 +5,9 @@
   "policyType": "Individual | Family Floater",
   "documentType": "Policy Wording",
   "summary": {
-    "great": 4,
+    "great": 5,
     "good": 6,
-    "bad": 2,
+    "bad": 1,
     "unclear": 0
   },
   "features": {
@@ -16,25 +16,31 @@
         "name": "Room Rent",
         "quote": "Room rent limit shall be \u0002At Actuals\u0002 unless otherwise specified in the Policy Schedule.",
         "reference": "Section B.1.1(a), Page 11",
-        "explanation": "Room rent is payable at actuals unless a different limit is shown in the Policy Schedule. This reduces the risk of room-category restrictions cutting down your claim payout."
+        "explanation": "Room rent is payable at actuals unless a different limit is mentioned in the Policy Schedule. This reduces the risk of room-rent caps leading to lower claim payouts."
       },
       {
         "name": "Built-in SI Buffer",
         "quote": "The Secure Benefit will be applicable only after exhaustion of Base Sum Insured.",
         "reference": "Section B.2.5(c), Page 17",
-        "explanation": "Secure Benefit becomes available only after the Base Sum Insured is fully exhausted. This provides extra insurer-funded cover in high-cost or multiple-claim years."
+        "explanation": "Secure Benefit becomes available only after the Base Sum Insured is fully exhausted. This provides extra insurer-funded cover once your base cover runs out."
       },
       {
         "name": "Restore Benefit",
         "quote": "The restored Sum Insured can be used even for the same illness for which an admissible claim has been paid during the Policy Year and also for any other Illness covered under the Policy.",
         "reference": "Section B.2.6(vi), Page 18",
-        "explanation": "Restored Sum Insured can be used even for the same illness in the same Policy Year, and also for other covered illnesses. This helps if the same condition needs repeat hospitalization within the year."
+        "explanation": "The restored Sum Insured can be used for the same illness in the same Policy Year, and also for any other covered illness. This helps if you need repeat hospitalizations after using up the base cover."
       },
       {
         "name": "No Claim Bonus",
         "quote": "This Cover will be applied irrespective of number of claims made under the expiring Policy.",
         "reference": "Section B.2.4(c), Page 16",
-        "explanation": "The renewal bonus applies irrespective of the number of claims in the expiring policy. This means the benefit is not lost just because you made a claim."
+        "explanation": "The renewal bonus applies irrespective of the number of claims made in the expiring policy. This means the bonus does not reduce or reset just because you made a claim."
+      },
+      {
+        "name": "Co-pay",
+        "quote": "Co-Payment means a cost sharing requirement under a health insurance policy that provides that the policyholder/insured will bear a specified percentage of the admissible claims amount.",
+        "reference": "Definition 8, Page 3",
+        "explanation": "No co-pay is charged on this plan — the insurer bears 100% of all admissible claims. This is better than many policies that apply a 10–20% co-pay, especially for senior citizens."
       }
     ],
     "good": [
@@ -42,19 +48,19 @@
         "name": "PED Waiting Period",
         "quote": "Expenses related to the treatment of a pre-existing disease (PED) and its direct complications shall be excluded until the expiry of 36 months (Unless specified otherwise in the Policy Schedule) of continuous coverage",
         "reference": "Section C.1(a)(i), Page 28",
-        "explanation": "Pre-existing diseases are covered after 36 months of continuous coverage unless the Policy Schedule specifies otherwise. This is a common waiting period, so early-year PED claims will not be payable."
+        "explanation": "Pre-existing diseases are covered after 36 months of continuous coverage unless the Policy Schedule specifies otherwise. Claims for PEDs in the first 3 years are not payable."
       },
       {
         "name": "Specific Illness Waiting",
         "quote": "Expenses related to the treatment of the listed Conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage",
         "reference": "Section C.1(b)(i), Page 28",
-        "explanation": "Listed conditions/surgeries are covered only after 24 months of continuous coverage. This can delay payouts for certain planned treatments in the first two years."
+        "explanation": "Listed conditions and surgeries are covered only after 24 months of continuous coverage. This can delay payouts for certain planned treatments in the first two years."
       },
       {
         "name": "Initial Waiting Period",
         "quote": "Expenses related to the treatment of any illness within 30 days from the first Policy commencement date shall be excluded except claims arising due to an accident",
         "reference": "Section C.1(c)(i), Page 30",
-        "explanation": "Illnesses are not covered for the first 30 days from the policy start date, except accidents. This is standard, so non-accident claims in the first month are typically rejected."
+        "explanation": "Illnesses are not covered for the first 30 days from the policy start date, except accidents. Non-accident claims in the first month are typically rejected."
       },
       {
         "name": "Pre-hospitalization Cover",
@@ -80,13 +86,7 @@
         "name": "Consumables",
         "quote": "Any Kit with no details mentioned [DELIVERY KIT, ORTHO KIT, RECOVERY KIT, ETC.] ... GLOVES ... MASK ... VASOFIX SAFETY",
         "reference": "Annexure B - Items for which Coverage is not available in the Policy (Non-Medical Expenses), Pages 49-50",
-        "explanation": "Many non-medical/consumable items (such as kits, gloves, masks, etc.) are listed as not covered. This can materially increase out-of-pocket costs during hospitalization."
-      },
-      {
-        "name": "Co-pay",
-        "quote": "Co-Payment means a cost sharing requirement under a health insurance policy that provides that the policyholder/insured will bear a specified percentage of the admissible claims amount.",
-        "reference": "Definition 8, Page 3",
-        "explanation": "A co-payment clause exists in the document, meaning you may have to bear a specified percentage of the admissible claim amount. This directly reduces the insurer payout and increases your share of every claim where co-pay applies."
+        "explanation": "Non-medical/consumable items like kits, gloves, masks and similar items are not covered. This can significantly increase your out-of-pocket costs during hospitalization."
       }
     ],
     "unclear": []

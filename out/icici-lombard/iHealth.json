@@ -5,97 +5,91 @@
   "policyType": "Individual | Family Floater",
   "documentType": "Mixed",
   "summary": {
-    "great": 0,
-    "good": 6,
-    "bad": 6,
-    "unclear": 1
+    "great": 1,
+    "good": 7,
+    "bad": 4,
+    "unclear": 0
   },
   "features": {
-    "great": [],
+    "great": [
+      {
+        "name": "Co-pay",
+        "quote": "Co-payment means a cost sharing requirement under a health insurance policy that provides that the policyholder/ insured/ proposer will bear a specified percentage of the admissible claims amount.",
+        "reference": "Policy Wording Part II, Definitions (Co-payment)",
+        "explanation": "Only a glossary definition of co-payment is given and no applied co-pay clause is stated here. No co-pay is charged on this plan — the insurer bears 100% of all admissible claims, which is better than many policies that add 10–20% co-pay for seniors."
+      }
+    ],
     "good": [
       {
-        "name": "PED Waiting",
+        "name": "PED Waiting Period",
         "quote": "Pre-existing diseases: Covered after 24 months (48 months, for plans with Sum Insured up to 2Lacs) of continuous coverage.",
         "reference": "Key Information Sheet, S.No 6(a); Policy Wording Part II, Clause 3.1",
-        "explanation": "Pre-existing diseases are covered after 24 months for most plans, or 48 months if the sum insured is up to ₹2 lakhs. This means you must keep the policy active for 2 years before claiming for pre-existing conditions."
+        "explanation": "Pre-existing diseases are covered after 24 months of continuous coverage, but it becomes 48 months if Sum Insured is up to ₹2 lakhs. This means you must keep the policy active for 2–4 years before claiming for declared pre-existing conditions."
       },
       {
         "name": "Specific Illness Waiting",
         "quote": "Expenses related to the treatment of the listed Conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage",
         "reference": "Policy Wording Part II, Clause 3.2",
-        "explanation": "Treatment for specified illnesses is excluded for the first 24 months of coverage. You need to wait 2 years before claiming for these specific conditions."
+        "explanation": "Listed specific illnesses/surgeries are not covered until 24 months of continuous coverage are completed. Claims for these conditions will be payable only from the 3rd policy year onwards."
       },
       {
-        "name": "Initial Waiting",
+        "name": "Initial Waiting Period",
         "quote": "Initial waiting period: 30 days for all illnesses (except Hospitalisation due to injury).",
         "reference": "Key Information Sheet, S.No 6(d); Policy Wording Part II, Clause 3.4",
-        "explanation": "Illnesses are covered only after a 30-day waiting period, while hospitalizations due to injury are covered immediately. This means you cannot claim for illnesses occurring within the first month of policy start."
+        "explanation": "Illness-related hospitalisation is covered only after a 30-day waiting period, while hospitalisation due to injury is covered immediately. This blocks claims for illnesses that start in the first month."
       },
       {
         "name": "Restore Benefit",
         "quote": "For plans with Sum Insured ` 3lacs and above, We will reset up to 100% of the Sum insured once in a policy year... The reset amount can only be used for all future claims within the same policy year, not related to the illness/ disease/ injury for which a claim has been paid in that policy year for the same person",
         "reference": "Policy Wording Part II, Section 2 (Scope of Cover), E) Reset Benefit",
-        "explanation": "Sum insured is replenished once per policy year for unrelated illnesses if your sum insured is ₹3 lakhs or more. This helps cover new illnesses but not repeated claims for the same condition in the same year."
+        "explanation": "For Sum Insured ₹3 lakhs and above, up to 100% of the Sum Insured is restored once in a policy year. The restored amount can be used only for unrelated future claims for the same person in that year."
       },
       {
-        "name": "Pre-hospitalization",
+        "name": "Pre-hospitalization Cover",
         "quote": "Pre-hospitalisation Medical Expenses incurred by You for a 30-day period immediately prior to Your Hospitalisation",
         "reference": "Policy Wording Part II, Section 2(C)(i)",
-        "explanation": "Medical expenses up to 30 days before hospitalization are covered. This helps you claim costs related to diagnosis and treatment leading to hospital admission."
+        "explanation": "Medical expenses incurred up to 30 days before hospitalisation are covered. This helps pay for consultations, tests, and medicines leading up to admission."
       },
       {
-        "name": "Post-hospitalization",
+        "name": "Post-hospitalization Cover",
         "quote": "Post-hospitalisation Medical Expenses incurred by You for a 60-day period immediately post Hospitalisation",
         "reference": "Policy Wording Part II, Section 2(C)(ii)",
-        "explanation": "Medical expenses up to 60 days after discharge are covered. This supports recovery costs following hospitalization."
+        "explanation": "Medical expenses incurred up to 60 days after discharge are covered. This reduces out-of-pocket costs for follow-ups and medicines during recovery."
+      },
+      {
+        "name": "NCB",
+        "quote": "An Additional Sum Insured of 10% of Annual Sum Insured provided on each renewal for every claim-free year up to a maximum of 50%. In case of a claim under the policy, the accumulated Additional Sum Insured will be reduced by 10% of the Annual Sum Insured in the following year.",
+        "reference": "Key Information Sheet, S.No 10(a); Policy Wording Part II, Section 2(G) Additional Sum Insured (Cumulative Bonus)",
+        "explanation": "An additional sum insured of 10% is added each claim-free renewal up to 50%, and after a claim it reduces by 10% of the Annual Sum Insured next year. This means the bonus does not reset to zero in one claim, so your increased cover is partly retained."
       }
     ],
     "bad": [
       {
-        "name": "Room Rent",
-        "quote": "Room Rent means the amount charged by a hospital for the occupancy of a bed on per day (24 hours) basis and shall include associated medical expenses.",
-        "reference": "Policy Wording Part II, Definitions (Room Rent)",
-        "explanation": "The policy does not specify any room rent limit or room category, implying possible caps or restrictions elsewhere. Lack of clarity on room rent can lead to proportionate deductions and higher out-of-pocket costs."
-      },
-      {
         "name": "Consumables",
         "quote": "Below are the non payable items applicable in the policy... GLOVES... SYRINGES / PPE-type items etc. (listed as non payable items)",
         "reference": "Policy document section: \"Non Payables\" / \"List of Non Payable Items as per IRDAI\"",
-        "explanation": "Many common hospital consumables like gloves and syringes are excluded from coverage. This means you may have to pay these costs yourself during hospitalization."
+        "explanation": "Common hospital consumables (like gloves, syringes and PPE-type items) are listed as non-payable. This can add meaningful out-of-pocket costs during hospitalisation even when the main bill is covered."
       },
       {
         "name": "Cashless Network",
         "quote": "Cashless Facility available at over 4000+ network hospitals.",
         "reference": "Key Information Sheet, S.No 7",
-        "explanation": "The cashless hospital network includes just over 4,000 hospitals, which is below the market standard of 7,000+. This may limit your convenience and choice for cashless treatment."
+        "explanation": "Cashless treatment is available at 4000+ network hospitals. A smaller network can limit cashless options in your city and may force reimbursement claims."
       },
       {
         "name": "Disease Sub-limits",
         "quote": "Cataract, where sub-limit of ` 20,000/- is applicable per eye per Policy year for Plans with Sum Insured up to 5 Lacs. Sub limit of ` 1,00,000 per eye per Policy year will be applicable for cataract treatment for plans with Sum Insured above ` 5Lacs",
         "reference": "Key Information Sheet, S.No 8(a); Policy Wording Part II, Clause 3.2 (Cataract*)",
-        "explanation": "Cataract treatment has fixed monetary caps per eye, which can restrict claim amounts especially for lower sum insured plans. This limits coverage for this common procedure."
+        "explanation": "Cataract has a sub-limit of ₹20,000 per eye per policy year for Sum Insured up to ₹5 lakhs, and ₹1,00,000 per eye per policy year above ₹5 lakhs. If your hospital charges more than this cap, you will pay the difference."
       },
       {
         "name": "Disease Sub-limits",
         "quote": "Extension 15: Sub Limits on Medical Expenses/ Illness/ Surgeries/ Procedures... Our maximum liability... shall be limited as per the table below",
         "reference": "Policy Wordings, Extensions/Endorsements, Extension 15",
-        "explanation": "If selected, this extension imposes multiple procedure-wise caps on claims, restricting payouts for common surgeries. This can significantly reduce your claim amount if these sub-limits apply."
-      },
-      {
-        "name": "Co-pay",
-        "quote": "Co-payment means a cost sharing requirement under a health insurance policy that provides that the policyholder/ insured/ proposer will bear a specified percentage of the admissible claims amount.",
-        "reference": "Policy Wording Part II, Definitions (Co-payment)",
-        "explanation": "The policy defines co-payment but does not specify if or when it applies or the percentage involved. You need to check the policy schedule to understand if any co-pay is applicable."
+        "explanation": "If Extension 15 is opted, the insurer’s payout is capped for listed illnesses/surgeries/procedures as per a table. These sub-limits can sharply reduce claim payouts for common treatments."
       }
     ],
-    "unclear": [
-      {
-        "name": "NCB",
-        "quote": "An Additional Sum Insured of 10% of Annual Sum Insured provided on each renewal for every claim-free year up to a maximum of 50%. In case of a claim under the policy, the accumulated Additional Sum Insured will be reduced by 10% of the Annual Sum Insured in the following year.",
-        "reference": "Key Information Sheet, S.No 10(a); Policy Wording Part II, Section 2(G) Additional Sum Insured (Cumulative Bonus)",
-        "explanation": "No claim bonus increases sum insured by 10% per claim-free year but reduces by 10% after a claim. The exact reset behavior and minimum floor are not clearly stated, so confirm details from the policy schedule."
-      }
-    ]
+    "unclear": []
   },
   "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
 }

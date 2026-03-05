@@ -5,68 +5,68 @@
   "policyType": "Individual | Family Floater",
   "documentType": "Policy Wording",
   "summary": {
-    "great": 2,
-    "good": 7,
+    "great": 1,
+    "good": 8,
     "bad": 4,
     "unclear": 0
   },
   "features": {
     "great": [
       {
-        "name": "Bariatric Surgery",
-        "quote": "13. Bariatric Surgery: Hospitalisation Expenses incurred for bariatric surgical procedure and its complications thereof are payable... after a waiting period of 24 months.",
-        "reference": "Section II (Coverage), point 13 (Page 3/12)",
-        "explanation": "Bariatric surgery is covered after a 24-month waiting period. You can claim for bariatric procedures once you have completed two years of coverage."
-      },
-      {
         "name": "Consumables",
         "quote": "6. Coverage for Non-medical Items (Consumables) : If there is an admissible claim under the policy, then Items as per List I speciﬁed in this policy will become payable",
         "reference": "Section II (Coverage), point 6 (Page 3/12) + List I (Page 12/12)",
-        "explanation": "Non-medical consumables listed in List I are payable when a hospitalization claim is admitted. This reduces your out-of-pocket expenses for items like bandages and syringes."
+        "explanation": "Non-medical consumables listed in List I are payable when there is an admissible hospitalization claim. This can significantly reduce out-of-pocket spend on items that are often excluded in many policies."
       }
     ],
     "good": [
       {
+        "name": "Bariatric Surgery",
+        "quote": "13. Bariatric Surgery: Hospitalisation Expenses incurred for bariatric surgical procedure and its complications thereof are payable... after a waiting period of 24 months.",
+        "reference": "Section II (Coverage), point 13 (Page 3/12)",
+        "explanation": "Bariatric surgery and related complications are covered after a 24-month waiting period. Claims for these procedures will be payable only after you complete 2 years of continuous coverage."
+      },
+      {
         "name": "PED Waiting Period",
         "quote": "Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the ﬁrst policy with insurer.",
         "reference": "Section III (Exclusions) > 1. Pre-Existing Diseases - Code Excl 01 (Page 7/12)",
-        "explanation": "Pre-existing diseases are covered after 24 months of continuous coverage. This is a standard waiting period in the market."
+        "explanation": "Pre-existing diseases are covered after 24 months of continuous coverage from the first policy start date. This is a standard waiting period and affects when you can claim for known conditions."
       },
       {
         "name": "Specific Illness Waiting",
         "quote": "Expenses related to the treatment of the listed Conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the ﬁrst policy with us.",
         "reference": "Section III (Exclusions) > 2. Speciﬁed disease / procedure waiting period - Code Excl 02 (Page 7/12)",
-        "explanation": "Specified illnesses and procedures have a 24-month waiting period. Claims for these conditions can be made only after two years."
+        "explanation": "Listed specified diseases/procedures are covered only after 24 months of continuous coverage. If you need any of these treatments in the first 2 years, the claim will be rejected."
       },
       {
         "name": "Initial Waiting Period",
         "quote": "3. 30-day waiting period - Code Excl 03 (Not Applicable for Accidents)",
         "reference": "Section III (Exclusions) > Code Excl 03 (Page 7/12)",
-        "explanation": "There is a 30-day waiting period for illness claims, but accidents are covered immediately. This is a common industry practice."
+        "explanation": "Illness claims are not covered for the first 30 days, while accidents are covered immediately. This is a common clause and mainly impacts claims soon after buying the policy."
       },
       {
         "name": "Restore Benefit",
         "quote": "16. Automatic Restoration of Sum Insured : There shall be automatic restoration of the Sum Insured once by 100%... Such Restored Sum Insured can be utilized for all claims for subsequent hospitalization during the policy period.",
         "reference": "Section II (Coverage), point 16 (Page 3/12)",
-        "explanation": "The sum insured is automatically restored once by 100% during the policy year. This helps if your base sum insured is exhausted."
+        "explanation": "Sum insured is automatically restored once by 100% during the policy year after it is used up. This increases available cover for subsequent hospitalizations in the same policy period."
       },
       {
         "name": "Pre-hospitalization Cover",
         "quote": "9. Pre-hospitalization Expenses: Medical expenses incurred up to 60 days immediately before the insured person is hospitalized.",
         "reference": "Section II (Coverage), point 9 (Page 3/12)",
-        "explanation": "Pre-hospitalization expenses are covered for up to 60 days before hospitalization. This helps cover diagnostic tests and consultations."
+        "explanation": "Medical expenses up to 60 days before hospitalization are covered. This helps pay for tests and consultations leading up to admission."
       },
       {
         "name": "Post-hospitalization Cover",
         "quote": "10. Post Hospitalization Expenses: Medical expenses incurred up to 90 days immediately after the insured person is discharged from the hospital.",
         "reference": "Section II (Coverage), point 10 (Page 3/12)",
-        "explanation": "Post-hospitalization expenses are covered for up to 90 days after discharge. This supports recovery costs like medicines and follow-ups."
+        "explanation": "Medical expenses up to 90 days after discharge are covered. This supports follow-up visits, medicines, and recovery-related costs."
       },
       {
         "name": "Air Ambulance",
         "quote": "8. Air Ambulance... reimbursement... up to  Rs.2,50,000/- per hospitalization and maximum upto Rs.5,00,000/-  per policy year",
         "reference": "Section II (Coverage), point 8 (Page 3/12)",
-        "explanation": "Air ambulance transport is covered with limits of ₹2.5 lakh per hospitalization and ₹5 lakh per year. This can be critical in emergencies."
+        "explanation": "Air ambulance is reimbursed up to ₹2,50,000 per hospitalization, with a maximum of ₹5,00,000 per policy year. This can be valuable for emergency transfers but is limited by these caps."
       }
     ],
     "bad": [
@@ -74,25 +74,25 @@
         "name": "Room Rent",
         "quote": "1. Room, Boarding and Nursing Expenses up to 1% of sum insured or maximum up to Rs.20,000/- per day whichever is less... Note: Expenses relating to Associated Expenses will be considered in proportion to the eligible room rent/room category stated in the policy schedule or actuals whichever is less.",
         "reference": "Section II (Coverage), point 1 (Page 3/12) + 'Associated medical expenses' definition (Page 2/12)",
-        "explanation": "Room rent is capped at 1% of sum insured or ₹20,000 per day, whichever is less, limiting hospital room choices. Proportionate deductions apply if you choose a higher room category."
+        "explanation": "Room rent is capped at 1% of sum insured or ₹20,000 per day (whichever is less), and associated medical expenses are paid proportionately if you choose a higher room category. This can cause large deductions across the whole bill, not just the room rent."
       },
       {
         "name": "Disease Sub-limits",
         "quote": "5. Expenses incurred on treatment of Cataract is subject to the limit as per the following table",
         "reference": "Section II (Coverage), point 5 (Page 3/12)",
-        "explanation": "Cataract treatment has fixed sub-limits per eye and per policy year. This can increase your out-of-pocket costs if treatment costs exceed these limits."
+        "explanation": "Cataract treatment is payable only up to the sub-limits shown in the table. If your cataract surgery costs more than the limit, you will have to pay the difference."
       },
       {
         "name": "Modern Treatments",
         "quote": "14. Coverage for Modern Treatment... upto 50% of sum insured speciﬁed in the policy schedule (including Pre and Post hospitalization expenses) during the policy period;",
         "reference": "Section II (Coverage), point 14 (Page 3/12)",
-        "explanation": "Modern treatments are covered only up to 50% of the sum insured. This cap may be insufficient for expensive advanced procedures."
+        "explanation": "Modern treatments are covered only up to 50% of the sum insured during the policy period (including pre/post hospitalization). This can leave a big shortfall if an advanced procedure is expensive."
       },
       {
         "name": "Co-pay",
         "quote": "24. Co-payment: (Applicable for Insured persons whose age at the time of entry is above 65 years) Each and every claim under the Policy shall be subject to a Copayment of 20%",
         "reference": "Section II (Coverage), point 24 (Page 6/12)",
-        "explanation": "A 20% co-pay applies for entry age above 65 years, but co-pay terms for younger insured persons are not clearly stated. Clarification is needed to understand if co-pay applies to others."
+        "explanation": "For entry age above 65 years, each and every claim has a mandatory 20% co-payment. This means you will always pay 20% of admissible claim amounts from your own pocket."
       }
     ],
     "unclear": []

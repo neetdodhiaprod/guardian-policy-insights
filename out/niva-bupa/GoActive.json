@@ -5,8 +5,8 @@
   "policyType": "Individual | Family Floater",
   "documentType": "Policy Wording",
   "summary": {
-    "great": 2,
-    "good": 5,
+    "great": 1,
+    "good": 6,
     "bad": 5,
     "unclear": 0
   },
@@ -16,45 +16,45 @@
         "name": "Pre-hospitalization Cover",
         "quote": "We will not be liable to pay Pre-hospitalization Medical Expenses for more than 90 days immediately preceding the Insured Person’s admission",
         "reference": "Section 3.2(b)",
-        "explanation": "Medical expenses incurred up to 90 days before hospitalization are covered, which is longer than the typical 30-60 day limits. This means you get extended coverage for medical costs before hospital admission."
-      },
-      {
-        "name": "Built-in SI Buffer",
-        "quote": "We will provide a Re-fill amount of maximum up to 100% of the Base Sum Insured",
-        "reference": "Section 3.9 (Re-fill Benefit)",
-        "explanation": "An additional sum insured up to 100% of the base amount is available after the base sum insured is exhausted. This gives you extra financial protection beyond your base coverage."
+        "explanation": "Pre-hospitalization medical expenses are covered for up to 90 days before admission. This is longer than many plans and helps pay for consultations, tests, and medicines leading up to hospitalization."
       }
     ],
     "good": [
       {
+        "name": "Restore Benefit",
+        "quote": "We will provide a Re-fill amount of maximum up to 100% of the Base Sum Insured",
+        "reference": "Section 3.9 (Re-fill Benefit)",
+        "explanation": "A refill of up to 100% of the Base Sum Insured is available after the base sum insured is used. This increases your available cover for additional hospitalizations in the same policy year."
+      },
+      {
         "name": "PED Waiting Period",
         "quote": "Expenses related to the treatment of a Pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 36 months of continuous coverage after the date of inception of the first Policy.",
         "reference": "Section 6.1(I)(a) (Code–Excl01)",
-        "explanation": "Pre-existing diseases are covered after 36 months of continuous coverage, which is standard in the market. This means you must wait 3 years before claims for pre-existing conditions are payable."
+        "explanation": "Pre-existing diseases are covered only after 36 months of continuous coverage from the first policy inception. This means PED-related claims are not payable during the first 3 years."
       },
       {
         "name": "Specific Illness Waiting",
         "quote": "Expenses related to the treatment of the listed conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first Policy.",
         "reference": "Section 6.1(II)(a) (Code–Excl02)",
-        "explanation": "Coverage for listed specific illnesses and procedures begins after 24 months of continuous coverage, which aligns with industry norms. You need to wait 2 years before claiming for these conditions."
+        "explanation": "Listed specific illnesses/surgeries are covered only after 24 months of continuous coverage from the first policy inception. This means you must wait 2 years before claiming for those listed conditions."
       },
       {
         "name": "Initial Waiting Period",
         "quote": "Expenses related to the treatment of any Illness within 30 days from the first Policy commencement date shall be excluded except claims arising due to an Accident",
         "reference": "Section 6.1(III)(a) (Code–Excl03)",
-        "explanation": "Illnesses are excluded for the first 30 days except accidents which are covered immediately. This is a standard initial waiting period protecting against immediate claims."
+        "explanation": "Illness-related claims are not covered for the first 30 days from policy start, while accidents are covered immediately. This is a standard waiting period in retail health insurance."
       },
       {
         "name": "Post-hospitalization Cover",
         "quote": "We will not be liable to pay Post-hospitalization Medical Expenses for more than 180 days immediately following the Insured Person’s discharge from Hospital",
         "reference": "Section 3.3(b)",
-        "explanation": "Medical expenses up to 180 days after hospital discharge are covered, which is at the higher end of typical market limits. This helps cover follow-up treatments and medications."
+        "explanation": "Post-hospitalization medical expenses are covered for up to 180 days after discharge. This helps pay for follow-up consultations, tests, and medicines after hospitalization."
       },
       {
         "name": "Domiciliary Hospitalization",
         "quote": "We will indemnify on a Reimbursement basis the Medical Expenses incurred for Domiciliary Hospitalization... The Home Health Care Services are covered only if We have accepted a claim under Section 3.1 (Inpatient Care) above and Home Health Care Services are availed immediately after that Hospitalization.",
         "reference": "Section 3.5",
-        "explanation": "Home-based treatment is covered when hospitalization is not possible, and home health care is available after an accepted inpatient claim in selected cities. This provides flexibility for treatment outside hospitals."
+        "explanation": "Domiciliary hospitalization expenses are reimbursed when treatment is taken at home as per the policy terms, and home health care is covered only after an accepted inpatient claim and immediately after discharge. This can help when continued care is needed at home, but it is conditional on a prior approved hospitalization claim."
       }
     ],
     "bad": [
@@ -62,31 +62,31 @@
         "name": "Room Rent",
         "quote": "Room Rent (per day) Up to 1% of Base Sum Insured",
         "reference": "Annexure IV (Product Benefit Table) – Room Rent (per day) for 1 lac / 2 lacs",
-        "explanation": "A daily room rent cap of 1% of the sum insured limits your choice of room and can reduce claim payouts. Choosing a higher category room may lead to reduced reimbursement."
+        "explanation": "Room rent is capped at 1% of the Base Sum Insured per day. If you choose a room costing more than this limit, your claim payout can reduce significantly."
       },
       {
         "name": "Proportionate Deduction",
         "quote": "We shall be liable to pay only a pro-rated portion of the total Associated Medical Expenses... in the proportion of the difference between the Room Rent actually incurred and the Room Rent specified in the Policy Schedule",
         "reference": "Section 3.1(c)",
-        "explanation": "If you opt for a room above your eligible limit, the insurer reduces payment proportionately across all associated medical expenses. This can increase your out-of-pocket costs."
+        "explanation": "If you stay in a room above the eligible room rent, the insurer pays associated medical expenses only in the same proportion as the room rent shortfall. This can sharply increase your out-of-pocket costs beyond just the room rent difference."
       },
       {
         "name": "Restore Benefit",
         "quote": "The re-fill amount may be used for only subsequent claims... and shall not be for any Illness / Injury (including its complications or follow up) for which a claim has been paid or accepted as payable in the current Policy Year for the same Insured Person.",
         "reference": "Section 3.9(a) (Re-fill Benefit)",
-        "explanation": "The sum insured refill cannot be used for repeat claims of the same illness in the same policy year. This limits your ability to get extra coverage for ongoing treatment of one condition."
+        "explanation": "The refill amount cannot be used for the same illness/injury (including complications or follow-ups) if a claim for it has already been paid/accepted in the same policy year for the same person. This limits refill usefulness for repeated admissions for one ongoing condition."
       },
       {
         "name": "Consumables",
         "quote": "ANNEXURE II – List I – Expenses not covered... 56 GLOVES ... 60 MASK ... 58 ANY KIT WITH NO DETAILS MENTIONED [DELIVERY KIT, ORTHOKIT, RECOVERY KIT, ETC]",
         "reference": "Annexure II (List I – Expenses not covered)",
-        "explanation": "Many common hospital consumables like gloves, masks, and kits are excluded from coverage, which can lead to significant out-of-pocket expenses during hospitalization."
+        "explanation": "Common consumables like gloves, masks and various kits are listed as not covered. These items are frequently billed by hospitals and can add to your non-payable expenses."
       },
       {
         "name": "Co-pay",
         "quote": "Co-payment (if applicable) as specified in the Policy Schedule shall be applicable on the amount payable by Us.",
         "reference": "Section 5.2 (Co-payment)",
-        "explanation": "Co-payment depends on the Policy Schedule and is not explicitly stated as zero by default. You need to check your schedule to know if and how much co-pay applies."
+        "explanation": "A co-pay can apply as per the Policy Schedule, meaning you may have to bear a percentage of each claim. This directly increases your share of costs even when the claim is otherwise admissible."
       }
     ],
     "unclear": []

@@ -5,9 +5,9 @@
   "policyType": "Individual | Family Floater",
   "documentType": "Policy Wording",
   "summary": {
-    "great": 6,
-    "good": 5,
-    "bad": 4,
+    "great": 3,
+    "good": 7,
+    "bad": 3,
     "unclear": 0
   },
   "features": {
@@ -16,69 +16,63 @@
         "name": "Restore Benefit",
         "quote": "We will provide an additional re-fill amount of maximum up to 100% of the Base Sum Insured.",
         "reference": "Section 3.13 Re-fill Benefit",
-        "explanation": "The policy refills up to 100% of the Base Sum Insured after it is exhausted, allowing more coverage for multiple hospitalizations in the same year."
-      },
-      {
-        "name": "Built-in SI Buffer",
-        "quote": "If the Base Sum Insured and increased Sum Insured under Loyalty Additions... has been partially or completely exhausted due to claims... then We will provide an additional re-fill amount of maximum up to 100% of the Base Sum Insured.",
-        "reference": "Section 3.13 Re-fill Benefit",
-        "explanation": "An extra Sum Insured equal to 100% of the Base SI is available after the main cover and loyalty additions are used up, enhancing protection for multiple claims."
-      },
-      {
-        "name": "PED Waiting Period",
-        "quote": "Expenses related to the treatment of a Pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first Policy.",
-        "reference": "Section 5.1.1.1 Pre-existing Diseases (Code–Excl01)",
-        "explanation": "Pre-existing diseases are covered after 24 months of continuous coverage, which is better than many policies requiring 36 months."
+        "explanation": "Provides a refill of up to 100% of the Base Sum Insured once the available cover is used. This increases protection for multiple hospitalizations in the same policy year."
       },
       {
         "name": "Specific Illness Waiting",
         "quote": "Expenses related to the treatment of the listed conditions, surgeries/treatments shall be excluded until the expiry of 12 months of continuous coverage after the date of inception of the first Policy.",
         "reference": "Section 5.1.1.2 Specified disease/procedure waiting period- Code- Excl02",
-        "explanation": "Common listed surgeries and conditions are covered after 12 months, which is shorter than the typical 24-month waiting period."
+        "explanation": "Listed specified diseases/procedures are not covered for the first 12 months from the first policy start date. This is shorter than the common 24-month waiting period, so coverage starts sooner."
       },
       {
         "name": "Pre-hospitalization Cover",
         "quote": "We will pay above mentioned Pre-hospitalization Medical Expenses only for period up to 90 days immediately preceding the Insured Person’s admission",
         "reference": "Section 3.2 (Sub-limit a.)",
-        "explanation": "Medical expenses up to 90 days before hospitalization are covered when related to the same hospital stay."
+        "explanation": "Covers eligible medical expenses for up to 90 days before hospitalization if related to the same admission. This reduces out-of-pocket costs for tests and consultations leading up to admission."
+      }
+    ],
+    "good": [
+      {
+        "name": "PED Waiting Period",
+        "quote": "Expenses related to the treatment of a Pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first Policy.",
+        "reference": "Section 5.1.1.1 Pre-existing Diseases (Code–Excl01)",
+        "explanation": "Pre-existing diseases are covered after 24 months of continuous coverage from the first policy inception. This is a standard waiting period in retail health insurance."
       },
       {
         "name": "Post-hospitalization Cover",
         "quote": "We will pay Post-hospitalization Medical Expenses only for up to 180 days immediately following the Insured Person’s discharge",
         "reference": "Section 3.3 (Sub-limit a.)",
-        "explanation": "Medical expenses up to 180 days after discharge are covered for the same condition."
-      }
-    ],
-    "good": [
+        "explanation": "Covers eligible medical expenses for up to 180 days after discharge if related to the same hospitalization. This helps pay for follow-up medicines, tests, and consultations."
+      },
       {
         "name": "Initial Waiting Period",
         "quote": "Expenses related to the treatment of any Illness within 30 days from the first Policy commencement date shall be excluded except claims arising due to an Accident",
         "reference": "Section 5.1.1.3 30-day waiting period (Code- Excl03)",
-        "explanation": "Illnesses are covered after 30 days from policy start, while accidents are covered immediately."
+        "explanation": "Illness-related claims are not covered in the first 30 days from the first policy start date, but accidents are covered immediately. This is a common market-standard waiting period."
       },
       {
         "name": "Room Rent",
         "quote": "Room rent Covered up to Sum Insured (except for Suite or above room category)",
         "reference": "Annexure II – Product Benefit Table (Individual & Family Floater variant)",
-        "explanation": "Standard rooms have no fixed daily room rent cap, but suites and higher categories are excluded."
+        "explanation": "Room rent is covered up to the Sum Insured, but Suite (or above) category rooms are not covered. This generally avoids a daily room-rent cap, but choosing a suite can lead to non-payable expenses."
       },
       {
         "name": "Domiciliary Hospitalization",
         "quote": "We will indemnify on Reimbursement basis only, the Medical Expenses incurred for the Insured Person’s Domiciliary Hospitalization... The Domiciliary Hospitalization continues for at least 3 consecutive days",
         "reference": "Section 3.5 Domiciliary Hospitalization",
-        "explanation": "Home hospitalization is covered if it lasts at least 3 consecutive days."
+        "explanation": "Home treatment (domiciliary hospitalization) is covered on a reimbursement basis if it continues for at least 3 consecutive days. This can help when hospital admission is not possible or medically advised at home."
       },
       {
         "name": "Modern Treatments",
         "quote": "Modern Treatments Covered up to Sum Insured with sub-limit of Rs. 1Lac on few robotic surgeries",
         "reference": "Annexure II – Product Benefit Table; also Section 3.25 (robotic special condition)",
-        "explanation": "Modern treatments are covered but robotic surgeries have a ₹1 lakh sub-limit."
+        "explanation": "Modern treatments are covered up to the Sum Insured, but some robotic surgeries are capped at ₹1 lakh. This can create higher out-of-pocket costs if a robotic procedure is recommended."
       },
       {
-        "name": "Renewal Bonus",
+        "name": "NCB",
         "quote": "We will provide Loyalty Additions... by increasing the Sum Insured... by 10% of the Base Sum Insured... subject to a maximum of 100% of the Base Sum Insured.",
         "reference": "Section 3.16 Loyalty Additions",
-        "explanation": "Sum Insured increases by 10% of Base SI on renewal, up to 100%, enhancing coverage over time."
+        "explanation": "Adds 10% of the Base Sum Insured on renewal as a loyalty addition, up to 100% of the Base Sum Insured. This increases your available cover over time if you keep renewing."
       }
     ],
     "bad": [
@@ -86,25 +80,19 @@
         "name": "Consumables",
         "quote": "Annexure VII - The expenses that are not covered... List  I – Expenses not covered... 56 GLOVES... 60 MASK... 57 NEBULISATION KIT... 58 ANY KIT WITH NO DETAILS MENTIONED [DELIVERY KIT, ORTHOKIT, RECOVERY KIT, ETC]",
         "reference": "Annexure VII - The expenses that are not covered or subsumed...",
-        "explanation": "Many standard consumables like gloves and masks are excluded, increasing out-of-pocket expenses during hospitalization."
+        "explanation": "Common consumables like gloves, masks, nebulisation kits, and various procedure kits are not covered. This can materially increase your hospital bill out of pocket even when the main treatment is covered."
       },
       {
         "name": "Disease Sub-limits",
         "quote": "This benefit is covered up to a limit of Rs. 50,000.",
         "reference": "Section 3.17 HIV / AIDS (Sub-limit a.)",
-        "explanation": "HIV/AIDS treatment has a hard limit of ₹50,000, reducing financial protection for this condition."
+        "explanation": "HIV/AIDS treatment is capped at ₹50,000. Any admissible expenses beyond this limit would be paid by you, reducing protection for this condition."
       },
       {
         "name": "Co-pay",
         "quote": "If You select Zone 2, then 20% Co-payment will apply for treatment in Mumbai (including Navi Mumbai & Thane), Delhi NCR, Kolkata & Gujarat State.",
         "reference": "Section 6.2.11 Zonal pricing",
-        "explanation": "Selecting Zone 2 means you pay 20% of claims in major cities, reducing effective coverage."
-      },
-      {
-        "name": "Co-pay",
-        "quote": "Co-payment (if applicable) shall be applied on the amount payable by Us.",
-        "reference": "Section 6.2.14 Claim Cost Sharing Option / Conditions; also Section 6.2.11 Zonal pricing",
-        "explanation": "Co-pay may apply depending on zone or policy schedule, but the policy does not clearly state a universal 0% co-pay."
+        "explanation": "If Zone 2 is selected, a 20% co-pay applies for treatment in Mumbai (including Navi Mumbai & Thane), Delhi NCR, Kolkata, and Gujarat State. This means you must bear 20% of the admissible claim amount in these locations."
       }
     ],
     "unclear": []

@@ -6,9 +6,9 @@
   "documentType": "Policy Wording",
   "summary": {
     "great": 0,
-    "good": 4,
-    "bad": 6,
-    "unclear": 2
+    "good": 5,
+    "bad": 5,
+    "unclear": 1
   },
   "features": {
     "great": [],
@@ -17,25 +17,31 @@
         "name": "PED Waiting Period",
         "quote": "Expenses related to the treatment of a pre-existing disease (PED) and its direct complications shall be excluded until the expiry of 36 months of continuous coverage after the date of inception of the first policy with insurer.",
         "reference": "Section D (Waiting Period & Exclusions) > Standard General Exclusions & Waiting Period > 1. Pre-existing Diseases (Excl01), Page 11-12",
-        "explanation": "Pre-existing diseases are excluded for 36 months from the start of coverage. You must have continuous coverage for 3 years before PED treatments are payable."
+        "explanation": "Pre-existing diseases and their direct complications are not covered for the first 36 months of continuous coverage. Claims for PED treatment become payable only after you complete 3 years on the policy without a break."
       },
       {
-        "name": "Specific Illness Waiting",
+        "name": "Specific Illness Waiting Period",
         "quote": "Expenses related to the treatment of the listed Conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first Policy with us.",
         "reference": "Section D > 2. Specified Disease/Procedure waiting period (Excl02), Page 12",
-        "explanation": "Certain listed diseases and procedures are excluded for 24 months from policy start. You need 2 years of coverage before these specific treatments are covered."
+        "explanation": "Listed specified diseases/procedures are not covered for the first 24 months of continuous coverage. You can claim for these only after completing 2 years on the policy."
       },
       {
         "name": "Initial Waiting Period",
         "quote": "Expenses related to the treatment of any illness within 30 days from the first Policy commencement date shall be excluded except claims arising due to an Accident",
         "reference": "Section D > 3. 30-day waiting period (Excl03), Page 12",
-        "explanation": "Illnesses are not covered during the first 30 days except accidents. This standard waiting protects against immediate claims on new policies."
+        "explanation": "Illness-related claims are not covered in the first 30 days from the policy start date, except if the claim arises due to an accident. This is a standard waiting period that can affect claims soon after buying the policy."
       },
       {
         "name": "Pre-hospitalization Cover",
         "quote": "The Pre-Hospitalization Medical Expenses incurred in the 30 days immediately before You were Hospitalized",
         "reference": "Section C > 2. Pre-Hospitalization Medical Expenses, Page 11",
-        "explanation": "Medical expenses up to 30 days before hospital admission are covered. This helps cover diagnostic and treatment costs leading to hospitalization."
+        "explanation": "Medical expenses incurred in the 30 days immediately before hospitalization are covered if related to the hospitalization. This helps pay for tests and consultations leading up to admission."
+      },
+      {
+        "name": "Cashless Network",
+        "quote": "We may provide Cashless facility for Hospitalization expenses either directly or through the Third Party Administrator (TPA) if treatment is undergone at a  Network Hospital",
+        "reference": "Section F > I. Claims Procedure > 2. Cashless Facility for Hospitalization, Page 24",
+        "explanation": "Cashless treatment may be provided when you take treatment at a network hospital, either directly or through a TPA. Since it says \"may provide\" and does not specify the network size, availability can vary by hospital and insurer arrangements."
       }
     ],
     "bad": [
@@ -43,37 +49,31 @@
         "name": "Co-pay",
         "quote": "All person(s) named in the Schedule to this Policy above the age of 80 years (age last birthday) shall bear a co-pay of 10% for each and every claim.",
         "reference": "Section D (Waiting Period & Exclusions) > II. Specific Exclusions > 2. Co-payment, Page 15",
-        "explanation": "Insured persons over 80 years must pay 10% of each claim amount. This senior-age co-pay reduces insurer risk but increases your out-of-pocket costs."
+        "explanation": "For insured persons above age 80, a 10% co-pay applies on each and every claim. This means you must pay 10% of the admissible bill amount from your pocket every time you claim."
       },
       {
         "name": "Restore Benefit",
         "quote": "In the event of a claim being admitted under this Policy, the Sum Insured for the remaining Policy Period shall stand correspondingly reduced by the amount of claim paid (including ‘taxes’) or admitted and shall be reckoned accordingly.",
         "reference": "Section B > Specific Definitions > Def 6 Sum Insured, Page 9",
-        "explanation": "Sum Insured reduces by the claim amount during the policy year with no restore benefit. This limits coverage after a claim until renewal."
+        "explanation": "Sum insured reduces during the policy year by the amount of claim paid/admitted (including taxes). No automatic restore/reinstatement is mentioned, so a large claim can significantly reduce cover for the rest of the year."
       },
       {
         "name": "Consumables",
         "quote": "Non-Medical expenses such as Food charges (other than patient’s diet provided by hospital), laundry charges, attendant charges, ambulance collar, ambulance equipment, baby food, baby utility charges etc. Full list of Non -Medical expenses is attached",
         "reference": "Section D > II. Specific Exclusions > 15, Page 15 and Annexure I (List of Non-Medical Expenses), Page 32 onwards",
-        "explanation": "Common consumables and non-medical items are excluded from coverage. This increases your out-of-pocket expenses during hospitalization."
+        "explanation": "Non-medical/consumable items (like attendant charges, laundry, baby food/utility charges, etc.) are excluded as per the attached list. These costs can add up during hospitalization and will be out-of-pocket."
       },
       {
         "name": "Post-hospitalization Cover",
         "quote": "The Post Hospitalization Medical Expenses incurred in the 60 days immediately after You were discharged",
         "reference": "Section C > 3. Post Hospitalization Medical Expenses, Page 11",
-        "explanation": "Only 60 days of post-hospitalization expenses are covered. Many plans offer longer periods for follow-up care."
-      },
-      {
-        "name": "No NCB",
-        "quote": "This policy wording (including endorsements, if any), and the Schedule",
-        "reference": "Section B > Specific Definitions > Def 17 Policy, Page 10",
-        "explanation": "No No-Claim Bonus or renewal benefit is mentioned. This means your Sum Insured does not increase for claim-free years."
+        "explanation": "Medical expenses incurred in the 60 days immediately after discharge are covered if related to the hospitalization. Coverage beyond 60 days is not included, which can be limiting for longer recoveries."
       },
       {
         "name": "Domiciliary Hospitalization",
         "quote": "Domiciliary hospitalization expenses",
         "reference": "Section D > II. Specific Exclusions > 1, Page 15",
-        "explanation": "Home-based treatment expenses are excluded. You must be hospitalized in a recognized facility for coverage."
+        "explanation": "Domiciliary hospitalization expenses are listed under specific exclusions, indicating home-based treatment is not covered. If hospital admission is not possible and treatment is taken at home, the claim may be rejected."
       }
     ],
     "unclear": [
@@ -81,13 +81,7 @@
         "name": "Room Rent",
         "quote": "Room Rent means the amount charged by a Hospital towards Room and Boarding expenses and shall include the Associated Medical Expenses",
         "reference": "Section B > Standard Definitions > Def 42 Room Rent, Page 8",
-        "explanation": "Room rent is defined but no specific room category or limit is stated. Check the Policy Schedule for applicable room rent limits."
-      },
-      {
-        "name": "Cashless Network",
-        "quote": "We may provide Cashless facility for Hospitalization expenses either directly or through the Third Party Administrator (TPA) if treatment is undergone at a  Network Hospital",
-        "reference": "Section F > I. Claims Procedure > 2. Cashless Facility for Hospitalization, Page 24",
-        "explanation": "Cashless treatment is available at network hospitals, but the number of such hospitals is not specified. Confirm network size with the insurer."
+        "explanation": "Only the definition of room rent is provided, without stating any eligible room category or limit in this extract. The actual room rent entitlement (and whether proportionate deductions can apply) would depend on the schedule/benefit table."
       }
     ]
   },

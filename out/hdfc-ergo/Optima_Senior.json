@@ -6,8 +6,8 @@
   "documentType": "Policy Wording",
   "summary": {
     "great": 0,
-    "good": 5,
-    "bad": 6,
+    "good": 6,
+    "bad": 5,
     "unclear": 1
   },
   "features": {
@@ -17,69 +17,69 @@
         "name": "PED Waiting Period",
         "quote": "Expenses related to the treatment of a pre -existing disease (PED) and its direct complications shall be excluded until the expiry of 36 months of continuous coverage after the date of inception of the first policy with insurer.",
         "reference": "Section C.I.iii) Pre-Existing Diseases (Code – Excl01), Page 13",
-        "explanation": "Pre-existing diseases are excluded for 36 months from the start of coverage. You need to maintain continuous coverage for 3 years before PED claims become payable."
+        "explanation": "Pre-existing diseases and their direct complications are not covered for the first 36 months of continuous coverage from the first policy start date. Claims for PEDs become payable only after you complete 3 years without a break."
       },
       {
         "name": "Initial Waiting Period",
         "quote": "Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident",
         "reference": "Section C.I.i) 30-day Waiting period (Code – Excl03), Page 11",
-        "explanation": "Illness claims are not covered during the first 30 days except for accidents. This is the standard waiting period in the industry."
+        "explanation": "Illness-related treatment is not covered in the first 30 days from policy commencement, except if the claim arises due to an accident. This means you should not expect coverage for non-accident illnesses in the first month."
       },
       {
         "name": "Specific Illness Waiting",
         "quote": "Expenses related to the treatment of the listed Conditions, surgeries/treatments as mentioned in the table below shall be excluded until the expiry of 24 months of continuous coverage",
         "reference": "Section C.I.ii) Specified disease/procedure waiting period (Code – Excl02), Page 11",
-        "explanation": "Certain listed illnesses and procedures have a 24-month waiting period. This is a common and acceptable waiting time."
+        "explanation": "The listed specified diseases/procedures are not covered until you complete 24 months of continuous coverage. Claims for those listed items will be payable only after 2 years."
       },
       {
         "name": "Domiciliary Hospitalization",
         "quote": "e. Domiciliary Treatment",
         "reference": "Section B.I (Coverages), Page 7-8",
-        "explanation": "Treatment at home is covered under certain conditions. This provides flexibility for non-hospitalized care."
-      },
-      {
-        "name": "Air Ambulance",
-        "quote": "Emergency Ambulance: Expenses incurred on an ambulance in an emergency, subject to Rs. 2000 per Hospitalisation.",
-        "reference": "Section B.I.g, Page 8",
-        "explanation": "Ambulance expenses are covered up to ₹2,000 per hospitalization. This helps with emergency transport costs but has a low limit."
-      }
-    ],
-    "bad": [
-      {
-        "name": "Restore Benefit",
-        "quote": "No restore/reinstatement benefit wording found in the provided document.",
-        "reference": "Not mentioned in provided Policy Wording extract",
-        "explanation": "Sum Insured is not replenished after a claim. Once you exhaust your limit, no extra cover is provided."
-      },
-      {
-        "name": "Consumables",
-        "quote": "Annexure I – List of Non-Medical Expenses ... 56 GLOVES ... 60 MASK ... 68 VASOFIX SAFETY",
-        "reference": "Annexure I – List of Non-Medical Expenses, Page 31-32",
-        "explanation": "Items like gloves, masks, and syringes are excluded and must be paid out-of-pocket. This increases your personal expenses during hospitalization."
+        "explanation": "Domiciliary treatment is included as a covered benefit as per the policy terms. This can help when treatment is taken at home instead of a hospital (subject to the policy’s conditions)."
       },
       {
         "name": "Pre-hospitalization Cover",
         "quote": "Pre-Hospitalization Medical expenses for consultations, investigations and medicines incurred upto 30 days before Hospitalisation.",
         "reference": "Section B.I.1(b), Page 7",
-        "explanation": "Pre-hospitalization expenses are covered only for 30 days. This is the minimum acceptable duration but less than some better plans."
+        "explanation": "Consultations, investigations and medicines are covered for up to 30 days before hospitalization. This helps reimburse diagnostic and doctor costs leading up to admission."
       },
       {
         "name": "Post-hospitalization Cover",
         "quote": "Post-Hospitalization Medical expenses for consultations, investigations and medicines incurred upto 60 days after discharge from Hospitalisation.",
         "reference": "Section B.I.1(c), Page 7",
-        "explanation": "Post-hospitalization expenses are covered for 60 days. This is the minimum standard but shorter than many competitors offering longer cover."
+        "explanation": "Consultations, investigations and medicines are covered for up to 60 days after discharge. This supports follow-up care costs after hospitalization, but only within the 60-day window."
+      }
+    ],
+    "bad": [
+      {
+        "name": "Co-pay",
+        "quote": "Shared Accommodation... 15% ... Single occupancy or any higher accommodation type 30% ... If a claim has been admitted... then, the insured person shall bear 30% ... A Co-payment of 15% shall be applicable to all Day Care Procedures",
+        "reference": "Section B.III (Special terms and conditions) Co-Payment, Page 9-10",
+        "explanation": "A co-payment applies, including 15% for shared accommodation and 30% for single occupancy or higher, and 15% for all day care procedures. This means you must pay part of every admissible bill yourself, which can materially increase out-of-pocket costs."
+      },
+      {
+        "name": "Ambulance Cover",
+        "quote": "Emergency Ambulance: Expenses incurred on an ambulance in an emergency, subject to Rs. 2000 per Hospitalisation.",
+        "reference": "Section B.I.g, Page 8",
+        "explanation": "Emergency ambulance expenses are covered only up to ₹2,000 per hospitalization. Any ambulance cost above ₹2,000 will be paid by you."
+      },
+      {
+        "name": "Restore Benefit",
+        "quote": "No restore/reinstatement benefit wording found in the provided document.",
+        "reference": "Not mentioned in provided Policy Wording extract",
+        "explanation": "No restore/reinstatement benefit is stated in the provided extract. This means once the sum insured is exhausted, you should not expect automatic refill for further claims in the same policy year."
+      },
+      {
+        "name": "Consumables",
+        "quote": "Annexure I – List of Non-Medical Expenses ... 56 GLOVES ... 60 MASK ... 68 VASOFIX SAFETY",
+        "reference": "Annexure I – List of Non-Medical Expenses, Page 31-32",
+        "explanation": "Non-medical/consumable items listed in Annexure I (e.g., gloves, masks, vasofix) are not payable. This can increase your out-of-pocket spend during hospitalization even when the main treatment is covered."
       },
       {
         "name": "No Claim Bonus",
         "quote": "No Claim Discount - A 5% non-cumulative discount will be offered on the renewal premium payable under the Policy after every CLAIM FREE Policy Year",
         "reference": "Section B.II Renewal Benefits, Page 9",
-        "explanation": "No Sum Insured increase on claim-free renewals, only a 5% premium discount. Your coverage does not grow with claim-free years."
-      },
-      {
-        "name": "Co-pay",
-        "quote": "Shared Accommodation... 15% ... Single occupancy or any higher accommodation type 30% ... If a claim has been admitted... then, the insured person shall bear 30% ... A Co-payment of 15% shall be applicable to all Day Care Procedures",
-        "reference": "Section B.III (Special terms and conditions) Co-Payment, Page 9-10",
-        "explanation": "Co-pay percentages vary by room type and procedure, with 15% to 30% applicable. Actual applicability may depend on plan options or endorsements, so verify your policy details."
+        "explanation": "A 5% non-cumulative premium discount is offered on renewal after every claim-free policy year. This reduces premium but does not increase your sum insured over time."
       }
     ],
     "unclear": [
@@ -87,7 +87,7 @@
         "name": "Room Rent",
         "quote": "In-patient Treatment means ... includes Hospital room rent or boarding expenses...",
         "reference": "Important terms You should know, Page 8-9",
-        "explanation": "Room rent is covered but the exact room type or any rupee limit is not specified here. Check your policy schedule for details on room category and limits."
+        "explanation": "Hospital room rent/boarding is included under in-patient treatment, but no room category or rupee cap is stated in the provided extract. Your actual eligibility (e.g., shared/single room or any cap) may be specified elsewhere such as the policy schedule."
       }
     ]
   },

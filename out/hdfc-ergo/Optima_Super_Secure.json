@@ -6,9 +6,9 @@
   "documentType": "Policy Wording",
   "summary": {
     "great": 7,
-    "good": 8,
+    "good": 7,
     "bad": 2,
-    "unclear": 0
+    "unclear": 1
   },
   "features": {
     "great": [
@@ -16,43 +16,43 @@
         "name": "Room Rent",
         "quote": "Room rent limit shall be \u0002At Actuals\u0002 unless otherwise specified in the Policy Schedule.",
         "reference": "Section B.1.1(a), Page 11",
-        "explanation": "Room rent is covered at actual cost with no fixed limit, allowing you to choose any room type without restriction."
+        "explanation": "Room rent is payable at actuals unless the Policy Schedule sets a limit. This reduces the chance of out-of-pocket costs due to room category restrictions."
       },
       {
         "name": "ICU Charges",
         "quote": "ICU limit (including ICCU) for bed charges shall be \u0002At Actuals\u0002 unless otherwise specified in the Policy Schedule.",
         "reference": "Section B.1.1(b), Page 11",
-        "explanation": "ICU and ICCU bed charges are covered at actual cost without any cap, ensuring full coverage for critical care stays."
+        "explanation": "ICU/ICCU bed charges are payable at actuals unless the Policy Schedule sets a limit. This helps protect you from high ICU room costs during critical care."
       },
       {
         "name": "Restore Benefit",
         "quote": "The restored Sum Insured can be used even for the same illness for which an admissible claim has been paid during the Policy Year and also for any other Illness covered under the Policy.",
         "reference": "Section B.2.6 (vi), Page 18",
-        "explanation": "Sum Insured restoration applies even for the same illness within the policy year, providing extra coverage for recurring conditions."
+        "explanation": "Restored sum insured can be used even for the same illness within the same policy year. This is stronger than many plans where restore works only for unrelated illnesses."
       },
       {
         "name": "Built-in SI Buffer",
         "quote": "The Secure Benefit will be applicable only after exhaustion of Base Sum Insured.",
         "reference": "Section B.2.5(c), Page 17",
-        "explanation": "An additional Sum Insured buffer activates after the base limit is used up, offering enhanced financial protection for large claims."
+        "explanation": "Secure Benefit adds extra coverage only after the Base Sum Insured is fully exhausted. This provides an insurer-funded buffer for large or multiple claims in a year."
       },
       {
         "name": "Renewal Bonus",
         "quote": "On Renewal... a sum equal to 50% of the Base Sum Insured... will be added... This Cover will be applied irrespective of number of claims made under the expiring Policy.",
         "reference": "Section B.2.4, Page 16-17",
-        "explanation": "Sum Insured increases by 50% on renewal even if claims were made, so your coverage grows without resetting after claims."
+        "explanation": "On renewal, 50% of the Base Sum Insured is added even if claims were made in the expiring policy. This means your coverage can grow without being reduced due to claims."
       },
       {
         "name": "Air Ambulance",
         "quote": "The Company shall indemnify expenses incurred... towards Ambulance transportation in an airplane or helicopter for Emergency Care...",
         "reference": "Section B.2.1, Page 15",
-        "explanation": "Emergency air ambulance transport is covered as per plan limits, helping in critical situations requiring urgent transfer."
+        "explanation": "Emergency air ambulance (airplane/helicopter) expenses are covered. This can be valuable for urgent transfers, though the payable amount may depend on plan limits."
       },
       {
         "name": "Bariatric Surgery",
         "quote": "Expenses related to the surgical treatment of obesity that does not fulfil all the below conditions:",
         "reference": "Section C.2(c) Obesity/Weight control, Page 30-31",
-        "explanation": "Bariatric surgery is covered if IRDAI conditions are met, benefiting those needing obesity-related surgical treatment."
+        "explanation": "Bariatric/obesity surgery is not covered if the stated conditions are not fulfilled (implying it is covered when conditions are met). This can help if you qualify under the policy’s criteria for obesity surgery."
       }
     ],
     "good": [
@@ -60,66 +60,67 @@
         "name": "PED Waiting Period",
         "quote": "Expenses related to the treatment of a pre-existing disease (PED)... shall be excluded until the expiry of 36 months (Unless specified otherwise in the Policy Schedule) of continuous coverage...",
         "reference": "Section C.1(a)(i), Page 28",
-        "explanation": "Pre-existing diseases are covered after 36 months of continuous coverage, which is a standard waiting period in the market."
+        "explanation": "Pre-existing diseases are covered after 36 months of continuous coverage (unless the Policy Schedule says otherwise). This is a common waiting period in retail health insurance."
       },
       {
         "name": "Specific Illness Waiting",
         "quote": "Expenses related to the treatment of the listed Conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage...",
         "reference": "Section C.1(b)(i), Page 28",
-        "explanation": "Certain listed illnesses and procedures are covered after 24 months, matching typical waiting periods for specific conditions."
+        "explanation": "Listed diseases/procedures are covered after 24 months of continuous coverage. This is broadly in line with market-standard specific illness waiting periods."
       },
       {
-        "name": "Initial Waiting",
+        "name": "Initial Waiting Period",
         "quote": "Expenses related to the treatment of any illness within 30 days from the first Policy commencement date shall be excluded except claims arising due to an accident...",
         "reference": "Section C.1(c)(i), Page 29",
-        "explanation": "Illnesses are excluded for the first 30 days except accidents, which is a common initial waiting period."
+        "explanation": "Illnesses are not covered for the first 30 days from policy start, except accidents. This is the standard initial waiting period in most health plans."
       },
       {
-        "name": "Pre-hospitalization",
+        "name": "Pre-hospitalization Cover",
         "quote": "Such expenses shall be indemnified if the same were incurred upto 60 days unless otherwise specified in the Policy Schedule, immediately prior to the date of admission.",
         "reference": "Section B.1.5, Page 12-13",
-        "explanation": "Pre-hospitalization expenses are covered up to 60 days before admission, helping cover diagnostic and treatment costs before hospitalization."
+        "explanation": "Pre-hospitalization medical expenses are covered up to 60 days before admission (unless the Policy Schedule says otherwise). This helps pay for tests and consultations leading up to hospitalization."
       },
       {
-        "name": "Post-hospitalization",
+        "name": "Post-hospitalization Cover",
         "quote": "Such expenses shall be indemnified if the same were incurred upto 180 days unless otherwise specified in the Policy Schedule, immediately post the date of discharge from the Hospital.",
         "reference": "Section B.1.6, Page 13",
-        "explanation": "Post-hospitalization expenses are covered up to 180 days after discharge, supporting recovery costs following hospital treatment."
+        "explanation": "Post-hospitalization medical expenses are covered up to 180 days after discharge (unless the Policy Schedule says otherwise). This supports follow-up treatment and medicines during recovery."
       },
       {
         "name": "Domiciliary Hospitalization",
         "quote": "The Company shall indemnify the Medical Expenses incurred during the Policy Year on Domiciliary Hospitalization...",
         "reference": "Section B.1.3, Page 12",
-        "explanation": "Home-based treatment requiring hospitalization is covered, providing flexibility for treatment outside hospitals."
+        "explanation": "Domiciliary hospitalization expenses are covered when treatment is taken at home as per policy conditions. This is useful when hospital admission is not possible or not available."
       },
       {
         "name": "AYUSH Treatment",
         "quote": "The Company shall indemnify the Medical Expenses incurred... for Inpatient Care under Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homeopathy... up to the Sub-limit specified...",
         "reference": "Section B.1.4, Page 12",
-        "explanation": "AYUSH inpatient treatments are covered subject to sub-limits, allowing coverage for traditional medicine systems."
-      },
-      {
-        "name": "Consumables",
-        "quote": "Intravenous fluids, blood transfusion, surgical appliances, allowable consumables and/or enteral feedings.",
-        "reference": "Section B.1.1(f), Page 11",
-        "explanation": "Allowable consumables during hospitalization are covered, helping with essential medical supplies."
+        "explanation": "Inpatient AYUSH treatment is covered up to the sub-limit specified. This gives some coverage for alternative systems, but payouts may be capped."
       }
     ],
     "bad": [
       {
-        "name": "No NCB",
-        "quote": "Cumulative Bonus shall be available only if the Cover is specified to be applicable in the Policy Schedule.",
-        "reference": "Section B.1 Base Coverage intro, Page 11",
-        "explanation": "No standard No Claim Bonus is guaranteed unless specified, so your Sum Insured may not increase automatically on claim-free renewals."
+        "name": "Consumables",
+        "quote": "Intravenous fluids, blood transfusion, surgical appliances, allowable consumables and/or enteral feedings.",
+        "reference": "Section B.1.1(f), Page 11",
+        "explanation": "Only “allowable consumables” are mentioned as part of covered hospitalization expenses, without confirming that all consumables are covered. In many claims, non-payable consumables can still create out-of-pocket costs."
       },
       {
         "name": "Co-pay",
         "quote": "Def. 8. Co-Payment means a cost sharing requirement under a health insurance policy...",
         "reference": "Definitions, Def. 8, Page 3",
-        "explanation": "Co-payment is defined but the policy does not clearly state if any co-pay applies by default; check your Policy Schedule for details."
+        "explanation": "Only a definition of co-payment is provided here and no co-pay is stated in this clause. Unless another section applies a co-pay, you should not be charged any percentage share on admissible claims."
       }
     ],
-    "unclear": []
+    "unclear": [
+      {
+        "name": "NCB",
+        "quote": "Cumulative Bonus shall be available only if the Cover is specified to be applicable in the Policy Schedule.",
+        "reference": "Section B.1 Base Coverage intro, Page 11",
+        "explanation": "Cumulative Bonus is available only if it is shown as applicable in the Policy Schedule. You need to check your schedule to know whether you will get any no-claim increase in sum insured."
+      }
+    ]
   },
   "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
 }

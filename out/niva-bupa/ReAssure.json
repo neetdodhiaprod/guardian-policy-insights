@@ -16,13 +16,13 @@
         "name": "Restore Benefit",
         "quote": "ReAssure Unlimited reinstatement up to base Sum Insured. (Applicable for both same & different illness)",
         "reference": "Annexure I (Product Benefit Table) + Section 4.13 (ReAssure)",
-        "explanation": "You get unlimited reinstatements of your base Sum Insured for the same or different illnesses within the policy year. This means your coverage can be fully replenished multiple times, providing excellent protection for multiple claims."
+        "explanation": "Unlimited reinstatement is available up to the base Sum Insured, and it applies for both same and different illnesses. This greatly improves protection if you need multiple hospitalizations in the same policy year."
       },
       {
         "name": "Built-in SI Buffer",
         "quote": "The sequence of utilization of Sum Insured will be as below: i. Base Sum Insured ... iii. Accumulated Cumulative Bonus under Booster benefit (if any) followed by; iv. ReAssure benefit",
         "reference": "Section 4.13 (ReAssure)",
-        "explanation": "An additional Sum Insured layer called ReAssure activates after your base Sum Insured and bonuses are used up. This gives you extra financial protection during the policy year for multiple claims."
+        "explanation": "After the Base Sum Insured (and any accumulated Cumulative Bonus under Booster, if available) is used, the ReAssure benefit is utilized. This effectively gives an additional insurer-funded cover layer once the base cover is exhausted."
       }
     ],
     "good": [
@@ -30,31 +30,31 @@
         "name": "PED Waiting Period",
         "quote": "Expenses related to the treatment of a Pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 36 months of continuous coverage after the date of inception of the first Policy .",
         "reference": "Section 6.1 (Pre-existing Diseases)",
-        "explanation": "Pre-existing diseases are covered after 36 months of continuous coverage. This waiting period is standard in the market."
+        "explanation": "Pre-existing diseases and their direct complications are covered only after 36 months of continuous coverage from the first policy inception. This is within common market ranges for retail health insurance."
       },
       {
         "name": "Specific Illness Waiting",
         "quote": "Expenses related to the treatment of the listed conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first Policy.",
         "reference": "Section 6.2 (Specified disease/procedure waiting period)",
-        "explanation": "Listed diseases and procedures are covered after 24 months of continuous coverage. This waiting period aligns with typical market standards."
+        "explanation": "Listed specified diseases/procedures are covered only after 24 months of continuous coverage from the first policy inception. This is a standard waiting period seen in many plans."
       },
       {
         "name": "Initial Waiting Period",
         "quote": "Expenses related to the treatment of any Illness within 30 days from the first Policy commencement date shall be excluded except claims arising due to an Accident",
         "reference": "Section 6.3 (30-day waiting period)",
-        "explanation": "Illnesses are not covered for the first 30 days except accidents, which are covered immediately. This is a common industry practice."
+        "explanation": "Illness-related claims are not covered for the first 30 days from policy commencement, except accidents. This is the usual initial waiting period structure in India."
       },
       {
         "name": "Pre-hospitalization Cover",
         "quote": "We will pay above mentioned Pre-hospitalization Medical Expenses only for period up to 60 days immediately preceding the Insured Person’s admission",
         "reference": "Section 4.6 (Pre-hospitalization Medical Expenses) - Sub-limit",
-        "explanation": "Medical expenses incurred up to 60 days before hospitalization are covered. This duration is considered good and standard."
+        "explanation": "Pre-hospitalization medical expenses are covered for up to 60 days immediately before admission. This helps pay for consultations, tests, and medicines leading up to hospitalization."
       },
       {
         "name": "Post-hospitalization Cover",
         "quote": "We will pay Post-hospitalization Medical Expenses only for up to 180 days immediately following the Insured Person’s discharge",
         "reference": "Section 4.7 (Post-hospitalization Medical Expenses) - Sub-limit",
-        "explanation": "Medical expenses up to 180 days after discharge are covered, which is at the higher end of standard coverage periods."
+        "explanation": "Post-hospitalization medical expenses are covered for up to 180 days immediately after discharge. This supports follow-up treatment costs for up to 6 months."
       }
     ],
     "bad": [
@@ -62,13 +62,13 @@
         "name": "Consumables",
         "quote": "Annexure II - The expenses that are not covered or subsumed into room charges / procedure charges / costs of treatment\nList  I – Expenses not covered ... 56 GLOVES ... 60 MASK ... 57 NEBULISATION KIT ...",
         "reference": "Annexure II (List I – Expenses not covered)",
-        "explanation": "Common consumables like gloves, masks, and nebulisation kits are excluded from coverage. This means you may have to pay for these items out-of-pocket during hospitalization."
+        "explanation": "Consumables like gloves, masks, and nebulisation kits are listed as not covered. This can increase out-of-pocket costs during hospitalization because hospitals commonly bill these separately."
       },
       {
         "name": "Co-pay",
         "quote": "Co-payment (if applicable) as specified in the Policy Schedule shall be applicable on the amount payable by Us.",
         "reference": "Section 7.4(d)(iii) (Claims Assessment)",
-        "explanation": "Co-pay may apply as per the Policy Schedule, but the exact percentage or conditions are not stated here. Verify your Policy Schedule to know if and when co-pay applies."
+        "explanation": "A co-payment can apply as per the Policy Schedule on the amount payable by the insurer. If co-pay is present in your schedule, you will have to bear that percentage of every admissible claim."
       }
     ],
     "unclear": [
@@ -76,7 +76,7 @@
         "name": "Room Rent",
         "quote": "Room Rent means the amount charged by a Hospital towards Room and Boarding expenses and shall include the associated medical expenses.",
         "reference": "Section 3.1.41 (Room Rent) + Annexure I (Inpatient Care: 'Covered up to Sum Insured')",
-        "explanation": "The policy does not specify the eligible room category or any limit on room rent. You should check your Policy Schedule to confirm your room entitlement and avoid unexpected deductions."
+        "explanation": "The wording shown only defines room rent and does not clearly state any eligible room category or cap in the quoted text. If a room rent limit exists in the Policy Schedule, choosing a higher room can lead to reduced claim payments via linked deductions."
       }
     ]
   },

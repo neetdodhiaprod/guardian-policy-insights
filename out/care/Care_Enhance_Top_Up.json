@@ -7,8 +7,8 @@
   "summary": {
     "great": 1,
     "good": 5,
-    "bad": 4,
-    "unclear": 3
+    "bad": 3,
+    "unclear": 2
   },
   "features": {
     "great": [
@@ -16,7 +16,7 @@
         "name": "Modern Treatments",
         "quote": "(d) Advance Technology Methods: ... The Company will indemnify the Insured Person for the Hospitalization Expenses incurred for treatment taken through following advance technology methods: A. Uterine Artery Embolization and HIFU ... G. Robotic surgeries ... H. Stereotactic radio surgeries ... L. Stem cell therapy: Hematopoietic stem cells for bone marrow transplant for haematological conditions to be covered",
         "reference": "Section 3.1 Benefit 1: Hospitalization Expenses, clause (d) Advance Technology Methods",
-        "explanation": "Advanced treatments including robotic surgeries and specific stem cell therapies are covered without sub-limits. This means you can access modern medical procedures without restrictive caps."
+        "explanation": "Hospitalization expenses are covered for listed advanced technology methods like robotic surgeries, stereotactic radio surgeries, and specified stem cell therapy for bone marrow transplant. This improves access to newer procedures without the wording showing any specific sub-limits for these methods."
       }
     ],
     "good": [
@@ -24,31 +24,31 @@
         "name": "Room Rent",
         "quote": "Room Category : If the Insured Person is admitted ... (i) Room Category = Single Private Room with A.C.",
         "reference": "Section 3 Scope of Cover (Room Category clause under General Conditions/Benefit 1 context)",
-        "explanation": "The policy provides a Single Private AC room as the default room category. This ensures a comfortable hospital stay without extra charges for room type."
+        "explanation": "Hospitalization is eligible in a Single Private Room with A.C. as the room category. Choosing a higher room category may lead to extra out-of-pocket costs as per policy terms."
       },
       {
         "name": "Initial Waiting Period",
         "quote": "iii. First 30-Day waiting Period – Code – Excl03 ... Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident",
         "reference": "Section 4 Exclusions, 4.1(a)(iii) First 30-Day waiting period (Excl03)",
-        "explanation": "Illnesses are excluded for the first 30 days except accidents, which are covered immediately. This is a standard waiting period in health insurance policies."
+        "explanation": "Treatment for any illness is not covered in the first 30 days from the policy start date, except for accidents. This is a standard waiting period, so early non-accident claims can be rejected."
       },
       {
         "name": "PED Waiting Period",
         "quote": "a. Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 36 months of continuous coverage after the date of inception of the first policy with insurer.",
         "reference": "Section 4 Exclusions, 4.1 Standard Exclusions, (i) Pre-existing Disease - Code- Excl01",
-        "explanation": "Pre-existing diseases are excluded for 36 months from policy start. This is an acceptable and common waiting period in the market."
+        "explanation": "Pre-existing diseases and their direct complications are not covered for the first 36 months of continuous coverage. Claims related to declared/undeclared PEDs can be denied until this waiting period is completed."
       },
       {
-        "name": "Specific Illness Waiting",
+        "name": "Specific Illness Waiting Period",
         "quote": "ii. Specific Waiting Period - Code- Excl 02 ... Expenses related to the treatment of the listed Conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage",
         "reference": "Section 4 Exclusions, 4.1(a)(ii) Specific Waiting Period (Excl02)",
-        "explanation": "Certain listed illnesses and treatments are excluded for 24 months from policy start. This is a standard waiting period for specific diseases."
+        "explanation": "Listed specific conditions/surgeries are not covered for the first 24 months of continuous coverage. Even if not pre-existing, claims for those listed items can be rejected during this period."
       },
       {
         "name": "Pre-hospitalization Cover",
         "quote": "(i) As Pre-Hospitalization Medical Expenses during a period of 30 days immediately prior to the date of the Insured Person's admission to the Hospital; and (ii) As Post-Hospitalization Medical Expenses during a period of 60 days immediately following the date of the Insured Person's discharge from Hospital,",
         "reference": "Section 3.2 Benefit 2: Pre-Hospitalization & Post-Hospitalization Medical Expenses",
-        "explanation": "Pre-hospitalization expenses are covered for 30 days and post-hospitalization for 60 days. These durations meet the standard coverage periods in the industry."
+        "explanation": "Medical expenses are covered for 30 days before hospitalization and 60 days after discharge (as per admissibility). This helps pay for diagnostics and follow-up treatment around a hospitalization episode."
       }
     ],
     "bad": [
@@ -56,45 +56,33 @@
         "name": "Restore Benefit",
         "quote": "Any Claim paid except for Benefit 4 shall reduce the Sum Insured for the Policy Year and only the balance shall be available for all future Claims for that Policy Year.",
         "reference": "Section 3 Scope of Cover (General Conditions) / Sum Insured reduction clause",
-        "explanation": "Claims reduce the available Sum Insured without any restore or recharge during the policy year. This limits your coverage after a claim and is less favorable than plans with restore benefits."
+        "explanation": "Any claim paid reduces the available Sum Insured for the policy year and only the remaining balance can be used for future claims. No recharge/restore is indicated here, so coverage can become insufficient after one large claim."
       },
       {
         "name": "Consumables",
         "quote": "Any item or condition or treatment specified in List of Non-Medical Items (Annexure – II to Policy Terms & Conditions).",
         "reference": "Section 4.2 Specific Exclusions, clause (i) + Annexure II",
-        "explanation": "Consumables and many non-medical hospital items listed in Annexure II are excluded from coverage. This means you must pay out-of-pocket for these common hospital expenses."
+        "explanation": "Items listed as non-medical/consumables in Annexure II are excluded from payment. This can increase out-of-pocket costs for common hospital bill components like gloves, syringes, and similar items."
       },
       {
         "name": "Co-pay",
         "quote": "6.2.2. Special Condition 2 : Co-payment ... (a) The Policyholder shall bear 20% of the Final Claim Amount ... (b) The Co-payment shall be applicable to each and every Claim, for each Insured Person.",
         "reference": "Section 6.2.2 Special Condition 2: Co-payment (applicable only if mentioned in Policy Schedule)",
-        "explanation": "If this co-payment condition applies, you must pay 20% of every claim amount. This reduces the effective coverage and increases your out-of-pocket costs."
-      },
-      {
-        "name": "Co-pay Applicability",
-        "quote": "Special Conditions shall be applicable only if the same is specifically mentioned in the Policy Schedule.",
-        "reference": "Section 6.2 Special Conditions",
-        "explanation": "The co-payment applies only if specified in your Policy Schedule. You need to check your schedule to confirm if co-pay is applicable to your coverage."
+        "explanation": "A 20% co-payment applies to each and every claim for each insured person if this special condition is mentioned in the Policy Schedule. This means you pay 20% of the final admissible claim amount from your pocket, which is a major cost burden."
       }
     ],
     "unclear": [
       {
-        "name": "NCB",
+        "name": "No Claim Bonus",
         "quote": "2.1.9. Cumulative Bonus shall mean any increase or addition in the Sum Insured granted by the insurer without an associated increase in premium.",
         "reference": "Definitions 2.1.9",
-        "explanation": "The policy defines Cumulative Bonus but does not specify if or how it is granted or reset after claims. Confirm details in your policy schedule."
+        "explanation": "Only the definition of Cumulative Bonus is provided, without stating the percentage/increase, maximum limit, or how it changes after a claim. You will need the Policy Schedule or benefits section to know whether any No Claim Bonus is actually offered."
       },
       {
         "name": "Cashless Network",
         "quote": "Cashless Facility is available only at Network Hospitals.",
         "reference": "Section 6.1.2(a) Claims Procedure (Cashless Facility)",
-        "explanation": "Cashless treatment is available at network hospitals, but the number and locations of these hospitals are not stated. Check the insurer's website for network details."
-      },
-      {
-        "name": "Sum Insured Exhaustion",
-        "quote": "The Company shall have no liability to make payment of a Claim under the Policy in respect of an Insured Person, once the Sum Insured for that Insured Person is exhausted.",
-        "reference": "Section 6.1.6 Payment Terms, clause (f)",
-        "explanation": "The policy states no payment beyond exhausted Sum Insured unless additional benefits apply. Confirm if any restore or extra Sum Insured is provided in your policy schedule."
+        "explanation": "Cashless treatment is available only at network hospitals. The document does not state the number of network hospitals, so the practical ease of cashless access depends on the insurer’s current network list."
       }
     ]
   },

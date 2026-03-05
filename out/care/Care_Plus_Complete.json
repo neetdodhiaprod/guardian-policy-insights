@@ -5,10 +5,10 @@
   "policyType": "Individual | Family Floater",
   "documentType": "Policy Wording",
   "summary": {
-    "great": 2,
-    "good": 4,
+    "great": 1,
+    "good": 7,
     "bad": 2,
-    "unclear": 3
+    "unclear": 1
   },
   "features": {
     "great": [
@@ -16,39 +16,51 @@
         "name": "Restore Benefit",
         "quote": "3.1.8 Benefit : Unlimited Automatic Recharge\n... automatically make the re-instatement of up to the base Sum Insured unlimited times in a policy year...\n(iii) Recharge amount can be utilized for same illness except for claim under Any one Illness condition.",
         "reference": "Clause 3.1.8",
-        "explanation": "The policy allows unlimited reinstatement of the base Sum Insured within the same policy year, including for the same illness except under the 'Any One Illness' condition. This means you get extensive extra coverage after exhausting your base Sum Insured."
-      },
-      {
-        "name": "Built-in SI Buffer",
-        "quote": "3.1.11 Benefit : No Claim Bonus Protect:\n... enhance the Sum Insured by 50% flat, on a cumulative basis...\n(i) ... shall not exceed 200% of the Sum Insured...\n3.1.14 Benefit: Inflation Shield\nThis benefit is designed to provide additional increase in Sum Insured under this Policy on the basis of inflation rate...",
-        "reference": "Clause 3.1.11 and Clause 3.1.14",
-        "explanation": "You can increase your Sum Insured by 50% each year up to double the base amount through No Claim Bonus Protect, plus get additional increases linked to inflation. This provides meaningful extra coverage beyond the base Sum Insured."
+        "explanation": "Automatically reinstates up to the base Sum Insured unlimited times in a policy year, and can be used for the same illness (except for claims under the “Any one Illness” condition). This greatly reduces the risk of running out of cover after one or more large claims."
       }
     ],
     "good": [
       {
+        "name": "Built-in SI Buffer",
+        "quote": "3.1.11 Benefit : No Claim Bonus Protect:\n... enhance the Sum Insured by 50% flat, on a cumulative basis...\n(i) ... shall not exceed 200% of the Sum Insured...\n3.1.14 Benefit: Inflation Shield\nThis benefit is designed to provide additional increase in Sum Insured under this Policy on the basis of inflation rate...",
+        "reference": "Clause 3.1.11 and Clause 3.1.14",
+        "explanation": "Sum Insured can increase by 50% per year up to 200% under No Claim Bonus Protect, and can also increase under Inflation Shield based on inflation. This builds extra coverage over time without needing to buy a higher base Sum Insured immediately."
+      },
+      {
         "name": "PED Waiting Period",
         "quote": "4.1. Standard Exclusions:\n(a) Waiting Periods:\n(i) Pre-Existing Diseases: Code- Excl01\n... excluded until the expiry of 36 months of continuous coverage after the date of inception of the first policy with insurer.",
         "reference": "Clause 4.1(a)(i)",
-        "explanation": "Pre-existing diseases are excluded for 36 months from the start of coverage. This is a standard waiting period that balances risk and coverage."
+        "explanation": "Pre-existing diseases are not covered until 36 months of continuous coverage from the first policy start date with the insurer. This is within the common 2–4 year range, so plan for this gap if you already have known conditions."
       },
       {
         "name": "Specific Illness Waiting",
         "quote": "4.1. Standard Exclusions:\n(a) Waiting Periods:\n(ii) Specific Waiting Period: Code- Excl02\n... excluded until the expiry of 24 months of continuous coverage...",
         "reference": "Clause 4.1(a)(ii)",
-        "explanation": "Certain listed illnesses are excluded for 24 months from policy start, which is the industry standard for specific illness waiting periods."
+        "explanation": "Listed specific illnesses are excluded for the first 24 months of continuous coverage. This is a standard market waiting period for named/listed conditions."
       },
       {
         "name": "Initial Waiting Period",
         "quote": "4.1. Standard Exclusions:\n(a) Waiting Periods:\n(iii) 30-day waiting period- Code- Excl03\n... treatment of any illness within 30 days... shall be excluded except claims arising due to an accident...",
         "reference": "Clause 4.1(a)(iii)",
-        "explanation": "Illnesses are not covered for the first 30 days except if caused by an accident. This is a common initial waiting period."
+        "explanation": "Illness treatment is not covered in the first 30 days, except for claims arising due to an accident. This is standard and mainly affects claims made immediately after buying the policy."
       },
       {
         "name": "Pre-hospitalization Cover",
         "quote": "3.1.2 Benefit : Pre-Hospitalization Medical Expenses and Post-Hospitalization Medical Expenses\n(i) Under Pre-hospitalization Medical Expenses, for a period of 60 days immediately prior to the Insured Person’s date of admission...",
         "reference": "Clause 3.1.2(i)",
-        "explanation": "Medical expenses incurred up to 60 days before hospital admission are covered, providing good support for related pre-hospital care."
+        "explanation": "Covers medical expenses for 60 days immediately before the date of hospital admission, if related to the hospitalization. This helps pay for consultations, tests, and medicines leading up to admission."
+      },
+      {
+        "name": "Post-hospitalization Cover",
+        "quote": "3.1.2 ...\n(ii) Under Post-hospitalization Medical Expenses, for a period of 90 days immediately after the Insured Person’s date of discharge...",
+        "reference": "Clause 3.1.2(ii)",
+        "explanation": "Covers medical expenses for 90 days immediately after discharge, if related to the hospitalization. This supports follow-up care like medicines and investigations during recovery."
+      },
+      {
+        "name": "NCB",
+        "quote": "3.1.11 Benefit : No Claim Bonus Protect:\n... 50% flat... provided that no Claim has been paid... or total claim amount payable does not exceed the 25% of the base Sum Insured...\n(vii) In the event of total claim amount payable exceeds 25% of the base Sum Insured during any Policy Year, the accrued Cumulative Bonus will be reduced at same rate at which it is accrued...",
+        "reference": "Clause 3.1.11 (main clause) and (vii)",
+        "explanation": "Cumulative Bonus increases Sum Insured by 50% (up to 200%) if no claim is paid or if total payable claims do not exceed 25% of base Sum Insured, and reduces at the same accrual rate if claims exceed 25%. This means the bonus does not necessarily reset to zero, but it can reduce after higher claims."
       }
     ],
     "bad": [
@@ -56,13 +68,13 @@
         "name": "Consumables",
         "quote": "4.2. Specific Exclusions:\n(b) Permanent Exclusions:\n1. Any item or condition or treatment specified in List of Non-Medical Items (Annexure – I to Policy Terms & Conditions).\n\nAnnexure I - List of Expenses Generally Excluded (\"Non-medical\")...\n... 56 GLOVES ... 60 MASK ...",
         "reference": "Clause 4.2(b)(1) and Annexure I",
-        "explanation": "Non-medical consumables like gloves and masks are excluded, meaning you may have to pay out-of-pocket for these during hospitalization."
+        "explanation": "Items listed as “Non-medical” in Annexure I (e.g., gloves, masks) are excluded from cover. This can increase out-of-pocket costs during hospitalization because hospitals often bill these separately."
       },
       {
         "name": "Co-pay",
         "quote": "3. Benefits Covered Under The Policy:\n3. The Co-payment proportion (if applicable) shall be borne by the Insured Person on each Claim...\n...\n3.2.6 Optional Benefit : Co-Payment Option\n... on opting this optional Benefit... will bear a Co-payment... as specified in the Policy Schedule...",
         "reference": "General Conditions point 3; Clause 3.2.6",
-        "explanation": "Co-payment applies if specified and there is an optional co-pay benefit for seniors, but the default co-pay for the base plan is not clearly stated here. Any mention of co-pay makes the policy less favorable."
+        "explanation": "A co-payment can apply “if applicable”, and if you opt the Co-Payment Option you must bear a co-pay as per the Policy Schedule. Co-pay is always a negative because you pay a fixed share of every claim even when it is otherwise admissible."
       }
     ],
     "unclear": [
@@ -70,19 +82,7 @@
         "name": "Room Rent",
         "quote": "3.1.1 (iii) (a)\nThe Policy Schedule will specify the eligibility of Room Rent or Room Category applicable...\nii. Single Private AC Room...\niii. If the Policy Schedule states ‘up to 1% of the Sum Insured per day’ as eligible Room Rent...",
         "reference": "Clause 3.1.1(iii)(a)(ii)-(iii)",
-        "explanation": "Room rent coverage depends on your Policy Schedule and may range from Single Private AC Room to a capped amount of 1% of Sum Insured per day, which affects claim calculations. The exact benefit is unclear without the schedule."
-      },
-      {
-        "name": "Post-hospitalization Cover",
-        "quote": "3.1.2 ...\n(ii) Under Post-hospitalization Medical Expenses, for a period of 90 days immediately after the Insured Person’s date of discharge...",
-        "reference": "Clause 3.1.2(ii)",
-        "explanation": "Post-hospitalization expenses are covered for 90 days after discharge, which is reasonable but does not clearly meet good or great standards."
-      },
-      {
-        "name": "NCB Reset",
-        "quote": "3.1.11 Benefit : No Claim Bonus Protect:\n... 50% flat... provided that no Claim has been paid... or total claim amount payable does not exceed the 25% of the base Sum Insured...\n(vii) In the event of total claim amount payable exceeds 25% of the base Sum Insured during any Policy Year, the accrued Cumulative Bonus will be reduced at same rate at which it is accrued...",
-        "reference": "Clause 3.1.11 (main clause) and (vii)",
-        "explanation": "The No Claim Bonus increases Sum Insured by 50% annually but reduces proportionally if claims exceed 25% of base Sum Insured, so it is not fully non-resetting."
+        "explanation": "Room rent eligibility depends on the Policy Schedule and may be either Single Private AC Room or a cap like “up to 1% of the Sum Insured per day”. The exact room entitlement (and whether any cap applies) cannot be confirmed without the schedule, and it can materially affect claim payouts."
       }
     ]
   },

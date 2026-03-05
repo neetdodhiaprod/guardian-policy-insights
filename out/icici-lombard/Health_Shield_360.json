@@ -5,43 +5,44 @@
   "policyType": "Individual | Family Floater",
   "documentType": "Policy Wording",
   "summary": {
-    "great": 0,
-    "good": 5,
-    "bad": 7,
-    "unclear": 3
+    "great": 1,
+    "good": 4,
+    "bad": 4,
+    "unclear": 5
   },
   "features": {
-    "great": [],
+    "great": [
+      {
+        "name": "No Claim Bonus",
+        "quote": "“At the time of renewal of this Policy, We will provide a Loyalty Bonus of 10% of annual sum insured of immediately preceding policy year subject to a maximum of 100% of the annual sum insured”",
+        "reference": "Section A.6 Loyalty Bonus",
+        "explanation": "A 10% loyalty bonus is added to the annual sum insured at renewal, up to a maximum of 100% of the annual sum insured. This can build your cover up to 2× over time if you stay claim-free."
+      }
+    ],
     "good": [
       {
         "name": "Restore Benefit",
         "quote": "“The reset amount can only be used for all future claims within the same policy year, not related to the illness/ disease/ injury for which a claim has been paid in that policy year for the same person.”",
         "reference": "Section A.5 Unlimited Reset Benefit",
-        "explanation": "The sum insured resets within the same policy year but only for new illnesses or injuries, not for repeated claims on the same condition. This means you get extra coverage for different health issues during the year but not for the same illness."
-      },
-      {
-        "name": "No Claim Bonus",
-        "quote": "“At the time of renewal of this Policy, We will provide a Loyalty Bonus of 10% of annual sum insured of immediately preceding policy year subject to a maximum of 100% of the annual sum insured”",
-        "reference": "Section A.6 Loyalty Bonus",
-        "explanation": "You receive a 10% increase in sum insured each claim-free year, up to double the original amount. This rewards you by increasing your coverage on renewal for staying claim-free."
+        "explanation": "The reset sum insured can be used within the same policy year only for future claims that are not related to the illness/disease/injury already claimed for that person. This helps when you have multiple unrelated hospitalizations in a year, but won’t help for repeat admissions for the same condition."
       },
       {
         "name": "Domiciliary Hospitalization",
         "quote": "“We will cover the Medical Expenses incurred in respect of Your Domiciliary Hospitalization during the Policy Period… The Domiciliary Hospitalization continues for at least 3 consecutive days…”",
         "reference": "Section A.8 Domiciliary Hospitalization",
-        "explanation": "Home-based treatment is covered if it lasts at least 3 consecutive days and meets medical criteria. This helps cover treatment costs without hospital admission when medically necessary."
+        "explanation": "Home treatment (domiciliary hospitalization) is covered when it continues for at least 3 consecutive days and meets the policy conditions. This can pay for eligible treatment at home when hospital admission isn’t possible or advisable."
       },
       {
         "name": "Air Ambulance",
         "quote": "“In consideration of the payment of additional premium to Us, We will cover the expenses incurred on air ambulance services…”",
         "reference": "Section C.7 Air Ambulance",
-        "explanation": "Air ambulance coverage is available if you pay an extra premium. This provides emergency air transport but only if you opt for this add-on."
+        "explanation": "Air ambulance expenses are covered only if you pay an additional premium for this optional benefit. This can be useful for emergencies, but it is not included by default."
       },
       {
         "name": "OPD Cover",
         "quote": "“In consideration of the payment of additional premium… We will cover you for the Medical Expenses incurred by You in outpatient.”",
         "reference": "Section C.14 Out Patient Treatment Cover",
-        "explanation": "Outpatient expenses like consultations and diagnostics can be covered if you buy this add-on. Coverage limits depend on your policy schedule."
+        "explanation": "Outpatient (OPD) medical expenses are covered only if you pay an additional premium for this optional benefit. This can reduce routine healthcare costs, but limits and details depend on the Policy Schedule/Customer Information Sheet."
       }
     ],
     "bad": [
@@ -49,63 +50,57 @@
         "name": "Room Rent",
         "quote": "“Room rent capping shall be applicable to room rent of a hospital room, ICU/ICCU and will be specified in policy schedule/Customer Information Sheet against the benefit.”",
         "reference": "Section A.1 Hospitalization Expenses (Inpatient Treatment)",
-        "explanation": "Room rent is capped as per the policy schedule rather than covering any room at actual cost. This can increase your out-of-pocket expenses if you choose a higher room category."
+        "explanation": "Room rent (including ICU/ICCU) is subject to a cap as per the Policy Schedule/Customer Information Sheet. A room-rent cap can increase your out-of-pocket costs and may also reduce the payable amount for other linked hospital charges."
       },
       {
         "name": "Proportionate Deduction",
         "quote": "“If the insured chooses a higher room category than the category that is eligible as per terms and conditions of the policy then the insured person shall bear the rateable proportion of the total associated medical expenses.”",
         "reference": "Section A.1 Hospitalization Expenses (Inpatient Treatment) + Definitions (Associated Medical Expenses)",
-        "explanation": "Choosing a room category above your eligible limit triggers proportionate deductions on medical bills. This reduces claim payouts and increases your expenses."
+        "explanation": "If you choose a room category higher than your eligibility, the insurer applies a rateable (proportionate) deduction on total associated medical expenses. This can sharply reduce claim payout beyond just the room rent difference."
       },
       {
         "name": "Consumables",
         "quote": "“Below are the non-payable items applicable in the policy… 56 GLOVES… 60 MASK…”",
         "reference": "Part III (ii) 10 Non Payables (List of Non Payable Items)",
-        "explanation": "Common consumables like gloves and masks are excluded from coverage and must be paid out-of-pocket unless you buy an optional add-on. This can add to your hospital expenses."
-      },
-      {
-        "name": "Pre/Post Hospitalization",
-        "quote": "“Pre-hospitalisation Medical Expenses… for a period… as specified against this benefit in the policy schedule/Customer Information Sheet… Post-hospitalisation Medical Expenses… as specified against this benefit in the policy schedule/Customer Information Sheet”",
-        "reference": "Section A.3 Pre-Hospitalisation and Post-Hospitalisation Expenses",
-        "explanation": "The number of days covered before and after hospitalization is not stated and depends on the schedule. Without clear limits, coverage may be minimal or absent."
+        "explanation": "A list of non-payable items applies, including common consumables like gloves and masks. This means you may have to pay these hospital items from your pocket unless covered under a separate add-on/benefit."
       },
       {
         "name": "Co-pay",
         "quote": "“If opted customer will pay the co -pay as per Zone explained below… Zone 1 Nil Nil Nil; Zone 2 10% Nil Nil; Zone 3 15% 5% Nil”",
         "reference": "Section C.25 Zone wise premium",
-        "explanation": "The policy includes co-pay options based on geographic zones, requiring you to pay a percentage of claims if you opt in. Any co-pay clause means higher out-of-pocket costs and is considered a disadvantage."
-      },
-      {
-        "name": "Co-pay",
-        "quote": "“In case You have opted for a voluntary co-payment, you will be liable to pay the % of admissible claim amount for each and every claim as specified in the policy schedule.”",
-        "reference": "Section C.24 Voluntary Co-Payment",
-        "explanation": "Voluntary co-pay means you pay a portion of each claim to reduce premiums. Even if optional, co-pay clauses increase your expenses and are considered negative."
-      },
-      {
-        "name": "Co-pay",
-        "quote": "“Claims… shall be subject to… Co-payment (if any) for the Benefit claimed as specified in the Policy Schedule/Certificate”",
-        "reference": "Section d) WHAT WE WILL PAY (Scope of Cover)",
-        "explanation": "The policy mentions co-payment may apply as per the schedule but does not clarify if it is mandatory or zero by default. This requires checking the schedule to confirm."
+        "explanation": "A co-payment applies if opted, and can be 10% or 15% (and 5% in some cases) depending on the zone. Any co-pay means you must bear part of every admissible claim, increasing out-of-pocket costs."
       }
     ],
     "unclear": [
       {
+        "name": "Pre-hospitalization Cover",
+        "quote": "“Pre-hospitalisation Medical Expenses… for a period… as specified against this benefit in the policy schedule/Customer Information Sheet… Post-hospitalisation Medical Expenses… as specified against this benefit in the policy schedule/Customer Information Sheet”",
+        "reference": "Section A.3 Pre-Hospitalisation and Post-Hospitalisation Expenses",
+        "explanation": "Pre-hospitalisation expenses are covered for a period that is only stated in the Policy Schedule/Customer Information Sheet. You need to check the schedule to know whether the covered days are adequate (e.g., 30/60/90 days)."
+      },
+      {
+        "name": "Post-hospitalization Cover",
+        "quote": "“Pre-hospitalisation Medical Expenses… for a period… as specified against this benefit in the policy schedule/Customer Information Sheet… Post-hospitalisation Medical Expenses… as specified against this benefit in the policy schedule/Customer Information Sheet”",
+        "reference": "Section A.3 Pre-Hospitalisation and Post-Hospitalisation Expenses",
+        "explanation": "Post-hospitalisation expenses are covered for a period that is only stated in the Policy Schedule/Customer Information Sheet. You need to check the schedule to confirm whether it is 60/90/180 days or more."
+      },
+      {
         "name": "PED Waiting Period",
         "quote": "“Expenses related to the treatment of a pre-existing Disease (PED)… shall be excluded until the expiry of specified months of continuous coverage after the date of inception of the first policy with insurer.”",
         "reference": "Exclusions 3.1 Code-Excl01: Pre-Existing Diseases",
-        "explanation": "The waiting period for pre-existing diseases is not specified here and depends on the policy schedule. Without this info, the waiting period cannot be classified."
+        "explanation": "Pre-existing diseases are not covered until completion of the “specified months” of continuous coverage, but the exact duration is not stated here. You must check the Policy Schedule/Customer Information Sheet to know whether it is 24/36/48 months, etc."
       },
       {
         "name": "Specific Illness Waiting",
         "quote": "“Expenses related to the treatment of the listed Conditions, surgeries/treatments shall be excluded until the expiry of specified months of continuous coverage…”",
         "reference": "Exclusions 3.2 Code-Excl02: Specified disease/procedure waiting period",
-        "explanation": "Waiting period for specific illnesses or procedures is schedule-based and not stated here. The exact duration needs to be confirmed from the schedule."
+        "explanation": "Listed specified diseases/procedures are excluded until completion of the “specified months” of continuous coverage, but the exact duration is not stated here. You must check the Policy Schedule/Customer Information Sheet to know whether it is 24 months or longer."
       },
       {
         "name": "Initial Waiting Period",
         "quote": "“Expenses related to the treatment of any illness within specified days from the first policy commencement date shall be excluded except claims arising due to an accident…”",
         "reference": "Exclusions 3.4 Code-Excl03: Initial waiting period",
-        "explanation": "The initial waiting period duration is not specified and depends on the policy schedule. This needs confirmation to determine if it meets market standards."
+        "explanation": "Illness claims are excluded for the “specified days” from the first policy commencement date, with an accident exception, but the number of days is not stated here. You must check the Policy Schedule/Customer Information Sheet to confirm whether it is the standard 30 days or more."
       }
     ]
   },

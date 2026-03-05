@@ -6,17 +6,17 @@
   "documentType": "Policy Wording",
   "summary": {
     "great": 1,
-    "good": 5,
-    "bad": 6,
+    "good": 6,
+    "bad": 5,
     "unclear": 0
   },
   "features": {
     "great": [
       {
-        "name": "NCB",
+        "name": "No Claim Bonus",
         "quote": "If a claim has been made in the immediately preceding Policy Year, We will not increase or decrease the Sum Insured due to this benefit for the Policy Year.",
         "reference": "Section 3.10(b) No Claim Bonus",
-        "explanation": "The Sum Insured remains unchanged even after a claim, so your coverage amount is protected and does not reduce due to claims."
+        "explanation": "If you make a claim in the previous policy year, the Sum Insured is not increased or decreased due to the No Claim Bonus in the next year. This avoids any NCB-linked reduction in cover after a claim."
       }
     ],
     "good": [
@@ -24,31 +24,37 @@
         "name": "PED Waiting Period",
         "quote": "Expenses related to the treatment of a Pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 36 months of continuous coverage after the date of inception of the first Policy.",
         "reference": "Section 6.1(I)(a) Standard Exclusions – Pre-existing Diseases",
-        "explanation": "Pre-existing diseases are excluded for 36 months from policy start. This 3-year waiting period is within the normal market range."
+        "explanation": "Pre-existing diseases and their direct complications are not covered for the first 36 months from the policy start date. Claims for PEDs will be payable only after completing 3 years of continuous coverage."
       },
       {
         "name": "Specific Illness Waiting",
         "quote": "Expenses related to the treatment of the listed conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first Policy.",
         "reference": "Section 6.1(II)(a) Specified disease/procedure Waiting Period",
-        "explanation": "Listed illnesses and procedures have a 24-month waiting period. This is the industry standard duration."
+        "explanation": "Listed diseases/procedures are not covered for the first 24 months from the policy inception. You will need to wait 2 years before claiming for those specified conditions."
       },
       {
         "name": "Initial Waiting Period",
         "quote": "Expenses related to the treatment of any Illness within 30 days from the first Policy commencement date shall be excluded except claims arising due to an Accident, provided the same are covered.",
         "reference": "Section 6.1(III)(a) 30-day waiting period",
-        "explanation": "Illnesses are excluded for the first 30 days, but accidents are covered immediately. This is a common waiting period in health insurance."
+        "explanation": "Illness-related claims are not covered in the first 30 days from the policy start, but accidents are covered immediately (if covered under the policy). This is the standard initial waiting period in retail health insurance."
       },
       {
         "name": "Restore Benefit",
         "quote": "We will provide a Re-fill amount of maximum up to 100% of the Base Sum Insured... The Re-fill amount may be used... shall not be for any Illness / Injury (including its complications or follow up) for which a claim has been paid or accepted as payable in the current Policy Year for the same Insured Person.",
         "reference": "Section 3.11 Re-fill Benefit (and Conditions a)",
-        "explanation": "You can get up to 100% of your Sum Insured refilled for new illnesses in the same year, but not for the same illness. This is a standard restore benefit."
+        "explanation": "A refill of up to 100% of the Base Sum Insured is available in the same policy year. It can be used only for a different illness/injury and not for the same illness (including complications/follow-ups) for which a claim was already paid/accepted that year."
+      },
+      {
+        "name": "Pre-hospitalization Cover",
+        "quote": "We will pay above mentioned Pre-hospitalization Medical Expenses only for period up to 30 days immediately preceding the Insured Person’s admission...",
+        "reference": "Section 3.2 (Sub-limit a) Pre-hospitalization Medical Expenses",
+        "explanation": "Pre-hospitalization medical expenses are covered for up to 30 days before admission. You may have to pay yourself for diagnostic/doctor visits beyond 30 days before hospitalization."
       },
       {
         "name": "Post-hospitalization Cover",
         "quote": "We will pay Post-hospitalization Medical Expenses only for period up to 60 days immediately following the Insured Person’s discharge...",
         "reference": "Section 3.3 (Sub-limit a) Post-hospitalization Medical Expenses",
-        "explanation": "Medical expenses after discharge are covered for up to 60 days. This duration meets the minimum standard in the market."
+        "explanation": "Post-hospitalization medical expenses are covered for up to 60 days after discharge. Follow-up medicines/tests beyond 60 days will not be payable."
       }
     ],
     "bad": [
@@ -56,37 +62,31 @@
         "name": "Room Rent",
         "quote": "Room Rent (per day) Up to 1% of Base Sum Insured per day or Single Private Room, whichever is lower",
         "reference": "Annexure III – Product Benefit Table (Room Rent)",
-        "explanation": "Room rent is capped at 1% of the Sum Insured per day, which can limit your room choice and increase out-of-pocket costs."
+        "explanation": "Room rent is limited to 1% of Base Sum Insured per day or Single Private Room, whichever is lower. Choosing a higher room category can lead to significant out-of-pocket costs and may also trigger proportionate deductions."
       },
       {
         "name": "Proportionate Deduction",
         "quote": "If the Insured Person is admitted in a Hospital room where the room category opted or Room Rent incurred is higher than the eligibility as specified in the Policy Schedule, then We shall be liable to pay only a pro-rated portion of the total Associated Medical Expenses... (eligible Room Rent limit / Room Rent actually incurred) * total Associated Medical Expenses",
         "reference": "Section 3.1 (Conditions b) Inpatient Care",
-        "explanation": "If you choose a room above your eligibility, the insurer will reduce your claim proportionally, including related medical expenses, leading to higher costs for you."
+        "explanation": "If you take a room above your eligible limit, the insurer pays only a pro-rated portion of associated medical expenses using the formula (eligible room rent/actual room rent) × associated expenses. This can reduce not just room rent but also doctor/surgeon/OT and other linked costs, increasing your payout."
       },
       {
         "name": "Consumables",
         "quote": "Annexure II - List  I – Expenses not covered... 56 GLOVES... 60 MASK... 58 ANY KIT WITH NO DETAILS MENTIONED [DELIVERY KIT, ORTHOKIT, RECOVERY KIT, ETC]",
         "reference": "Annexure II – The expenses that are not covered or subsumed...",
-        "explanation": "Common consumables like gloves and masks are excluded from coverage, which means you may have to pay for these items during hospitalization."
-      },
-      {
-        "name": "Pre-hospitalization Cover",
-        "quote": "We will pay above mentioned Pre-hospitalization Medical Expenses only for period up to 30 days immediately preceding the Insured Person’s admission...",
-        "reference": "Section 3.2 (Sub-limit a) Pre-hospitalization Medical Expenses",
-        "explanation": "Pre-hospitalization expenses are covered only for 30 days before admission, which is shorter than many policies and may increase your out-of-pocket costs."
+        "explanation": "Common consumables like gloves, masks and various kits are listed as not covered. These items are frequently billed during hospitalization, so you may face extra out-of-pocket expenses."
       },
       {
         "name": "Modern Treatments",
         "quote": "A limit of maximum INR 1 Lac will apply to all robotic surgeries, except the following: i. Robotic total radical prostatectomy ii. Robotic cardiac surgeries iii. Robotic partial nephrectomy iv. Robotic surgeries for malignancies",
         "reference": "Section 3.15 Modern Treatments – Special condition applicable for robotic surgeries",
-        "explanation": "Robotic surgeries have a ₹1 lakh limit except for a few types, which can cause significant out-of-pocket expenses for many procedures."
+        "explanation": "Robotic surgeries are capped at ₹1 lakh, except for the listed procedures where the cap does not apply. For many robotic procedures, this sub-limit can leave a large balance payable by you."
       },
       {
         "name": "Co-pay",
         "quote": "Co-payment (if applicable) as specified in the Policy Schedule shall be applied... A 20% Co-payment will apply under Classic plan... for treatment in Delhi NCR, Mumbai (including Navi Mumbai and Thane), Kolkata & Gujarat State.",
         "reference": "Section 5 Claim Cost Sharing",
-        "explanation": "Co-payment depends on your plan and location, with a 20% co-pay mentioned for certain areas under the Classic plan. You need to check your Policy Schedule to know if co-pay applies to you."
+        "explanation": "A 20% co-payment applies under the Classic plan for treatment in Delhi NCR, Mumbai (including Navi Mumbai and Thane), Kolkata and Gujarat State (as per the clause). This means you must pay 20% of admissible claim amounts in those locations, which is a major cost burden."
       }
     ],
     "unclear": []

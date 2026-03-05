@@ -5,8 +5,8 @@
   "policyType": "Senior",
   "documentType": "Policy Wording",
   "summary": {
-    "great": 6,
-    "good": 6,
+    "great": 5,
+    "good": 7,
     "bad": 3,
     "unclear": 0
   },
@@ -16,75 +16,75 @@
         "name": "Room Rent",
         "quote": "The eligible Room Rent or Room Category applicable for the Insured Person under the Policy is 'No limit', which means that there is no separate restriction on Room Charges incurred towards stay during Hospitalization",
         "reference": "Clause 3.1.1(ix)(i)",
-        "explanation": "There is no cap on room rent charges during hospitalization, so you can choose any room without worrying about extra costs. This avoids proportionate deductions related to room upgrades."
+        "explanation": "Room rent is on a 'No limit' basis during hospitalization. This lets you choose any room category without a room-rent cap driving extra out-of-pocket costs."
       },
       {
         "name": "ICU Charges",
         "quote": "Intensive Care Unit Charges (ICU Charges): The eligible ICU Charges applicable for the Insured Person under the Policy is 'No limit'",
         "reference": "Clause 3.1.1(ix)(ii)",
-        "explanation": "ICU charges have no separate limit, reducing your out-of-pocket expenses during critical care stays. This ensures full coverage of ICU costs up to the sum insured."
+        "explanation": "ICU charges are covered with 'No limit' as a separate cap. This reduces the chance of large ICU-related expenses being disallowed due to sub-limits."
       },
       {
         "name": "Restore Benefit",
         "quote": "automatically make the re-instatement of up to the base Sum Insured unlimited times in a policy year... Recharge amount can be utilized for same illness as well as different Illnesses.",
         "reference": "Clause 3.1.4 (especially (iii))",
-        "explanation": "The policy allows unlimited reinstatements of the base sum insured within the policy year, including for the same illness. This provides extra coverage if your base sum insured is exhausted."
+        "explanation": "The base Sum Insured can be reinstated unlimited times in a policy year, and it can be used for the same illness as well as different illnesses. This can significantly increase available coverage if you have multiple or recurring hospitalizations in a year."
       },
       {
         "name": "No Claim Bonus",
         "quote": "In the event of a Claim there is no impact on the accrual of Cumulative Bonus.",
         "reference": "Clause 3.1.3(vi)",
-        "explanation": "Your no claim bonus continues to accumulate even after making a claim, so your sum insured can grow over time without resetting. This is a best-in-class feature."
-      },
-      {
-        "name": "Sum Insured Bonus",
-        "quote": "enhance the Sum Insured by 50% flat, on a cumulative basis, as a Cumulative Bonus for each completed and continuous Policy Year",
-        "reference": "Clause 3.1.3",
-        "explanation": "The sum insured increases by 50% each policy year you stay claim-free, up to 100% extra. This gives you an additional buffer beyond the base sum insured."
+        "explanation": "Cumulative Bonus continues to accrue even if you make a claim. This is valuable because your bonus-based increase is not reduced or reset due to claims."
       },
       {
         "name": "Modern Treatments",
         "quote": "Advance Technology Methods: The Company will indemnify the Insured Person up to the Sum Insured... for treatment taken through following advance technology methods: ... Robotic surgeries ... Stereotactic radio surgeries ... Bronchical Thermoplasty ...",
         "reference": "Clause 3.1.1(iii)",
-        "explanation": "Several advanced medical treatments are covered up to the sum insured without separate sub-limits. This ensures access to modern procedures under your policy."
+        "explanation": "Advanced technology methods (including robotic surgeries and stereotactic radio surgeries) are covered up to the Sum Insured. This improves access to newer procedures without needing a separate add-on."
       }
     ],
     "good": [
       {
+        "name": "No Claim Bonus",
+        "quote": "enhance the Sum Insured by 50% flat, on a cumulative basis, as a Cumulative Bonus for each completed and continuous Policy Year",
+        "reference": "Clause 3.1.3",
+        "explanation": "Sum Insured is enhanced by 50% for each completed continuous policy year as a Cumulative Bonus. This increases your available cover over time if you maintain the policy."
+      },
+      {
         "name": "PED Waiting Period",
         "quote": "excluded until the expiry of 36 months of continuous coverage after the date of inception of the first policy with insurer.",
         "reference": "Clause 4.1(a)(i)",
-        "explanation": "Pre-existing diseases are excluded for 36 months from the start of coverage. This is a standard waiting period in retail health insurance."
+        "explanation": "Pre-existing diseases are not covered for the first 36 months of continuous coverage. Claims related to declared/undeclared PEDs can be rejected until this waiting period is completed."
       },
       {
-        "name": "Specific Illness Waiting",
+        "name": "Specific Illness Waiting Period",
         "quote": "excluded until the expiry of 24 months of continuous coverage",
         "reference": "Clause 4.1(a)(ii)",
-        "explanation": "Certain listed illnesses are excluded for 24 months from policy start, which is a typical waiting period for specific conditions."
+        "explanation": "Listed specific illnesses are not covered for the first 24 months of continuous coverage. This delays coverage for those conditions even if they are not pre-existing."
       },
       {
-        "name": "Initial Waiting",
+        "name": "Initial Waiting Period",
         "quote": "Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident",
         "reference": "Clause 4.1(a)(iii)",
-        "explanation": "Illnesses are not covered during the first 30 days except for accidents, which is a common initial waiting period."
+        "explanation": "Illness-related treatment is excluded for the first 30 days from the first policy commencement date, except for accidents. This means early non-accident claims can be denied during the first month."
       },
       {
-        "name": "Pre-hospitalization",
+        "name": "Pre-hospitalization Cover",
         "quote": "For a period of 60 days immediately prior to the Insured Person's date of admission to the Hospital",
         "reference": "Clause 3.1.1(iv)(i)",
-        "explanation": "Medical expenses up to 60 days before hospitalization are covered, helping with costs leading up to admission."
+        "explanation": "Pre-hospitalization medical expenses are covered for 60 days before admission. This helps pay for consultations, tests, and medicines leading up to hospitalization."
       },
       {
-        "name": "Post-hospitalization",
+        "name": "Post-hospitalization Cover",
         "quote": "For a period of 180 days immediately after the Insured Person's date of discharge from the hospital",
         "reference": "Clause 3.1.1(v)(i)",
-        "explanation": "Expenses for up to 180 days after hospital discharge are covered, assisting with recovery costs."
+        "explanation": "Post-hospitalization medical expenses are covered for 180 days after discharge. This supports follow-up treatment and medicines during recovery."
       },
       {
         "name": "Domiciliary Hospitalization",
         "quote": "The Company will indemnify the Insured Person... for the Medical Expenses incurred towards Domiciliary Hospitalization",
         "reference": "Clause 3.1.1(vii)",
-        "explanation": "Home-based treatment is covered when medically necessary, subject to conditions and exclusions. This provides flexibility if hospital admission is not possible."
+        "explanation": "Medical expenses for domiciliary hospitalization (treatment at home when hospitalization is required) are covered as per policy conditions. This can help when a hospital bed is unavailable or the patient cannot be moved."
       }
     ],
     "bad": [
@@ -92,19 +92,19 @@
         "name": "Consumables",
         "quote": "Any item or condition or treatment specified in List of Non-Medical Items (Annexure – I to Policy Terms & Conditions).",
         "reference": "Clause 4.2(1) read with Annexure I",
-        "explanation": "Many common hospital consumables like gloves and masks are excluded by default, which can lead to out-of-pocket expenses unless you buy an optional cover."
+        "explanation": "Items listed as non-medical/consumables in Annexure I are excluded from cover. This can increase your out-of-pocket costs for common hospital items during a claim."
       },
       {
-        "name": "Restore Benefit Trigger",
+        "name": "Restore Benefit",
         "quote": "The Recharge shall be utilized only after the base Sum Insured, applicable Cumulative Bonus , Cumulative Bonus Super (if applicable) and Plus Benefit (if applicable) have been completely exhausted in that Policy Year.",
         "reference": "Clause 3.1.4(i)",
-        "explanation": "The restore benefit activates only after you exhaust your base sum insured and all bonuses, so it is a last-resort feature rather than early support."
+        "explanation": "Recharge can be used only after the base Sum Insured and all applicable bonuses/benefits are completely exhausted in that policy year. This makes the restore a last-layer protection rather than something that helps early in a large claim."
       },
       {
-        "name": "Co-pay",
+        "name": "Co-pay (Optional)",
         "quote": "The Co-payment proportion ( If opted ) shall be borne by the Insured Person on each Claim...",
         "reference": "General Conditions Applicable To All The Benefits And Optional Benefits, point 4; and Optional Benefit 3.2.7",
-        "explanation": "Co-payment is described as optional and not clearly stated for the base plan, so it is unclear if any co-pay applies by default without checking the policy schedule."
+        "explanation": "An optional co-payment applies if opted, meaning you bear a proportion of each claim. Any co-pay increases your out-of-pocket share on every claim where it is selected."
       }
     ],
     "unclear": []

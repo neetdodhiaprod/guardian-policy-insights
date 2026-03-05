@@ -6,8 +6,8 @@
   "documentType": "Policy Wording | Mixed",
   "summary": {
     "great": 7,
-    "good": 2,
-    "bad": 2,
+    "good": 3,
+    "bad": 1,
     "unclear": 0
   },
   "features": {
@@ -16,71 +16,71 @@
         "name": "Room Rent",
         "quote": "Room Rent\nActuals up to Sum Insured",
         "reference": "Annexure III - Product Benefit Table (Activ One MAX)",
-        "explanation": "Room rent is paid at actuals up to the Sum Insured without any category or daily cap. This means you can choose any room type without facing proportionate deductions."
+        "explanation": "Room rent is covered at actuals up to the Sum Insured with no room-category or per-day cap mentioned. This lets you choose any room without triggering room-rent linked deductions."
       },
       {
         "name": "Pre-hospitalization Cover",
         "quote": "The Company shall indemnify the Pre-Hospitalization Medical Expenses incurred... for up to 90 days immediately prior to the date of such Hospitalization.",
         "reference": "Section C.2 Pre-Hospitalization Expenses",
-        "explanation": "Medical expenses before hospitalization are covered for up to 90 days, which is better than the usual 30–60 days offered by many policies."
+        "explanation": "Pre-hospitalization medical expenses are covered for up to 90 days before admission. This reduces out-of-pocket costs for consultations, tests, and medicines leading up to hospitalization."
       },
       {
         "name": "Consumables",
         "quote": "Non-payable items will be covered (all 4 lists of Annexure I)",
         "reference": "Annexure III - Product Benefit Table (Claim Protect)",
-        "explanation": "Common hospital consumables like gloves, masks, and kits are covered under Claim Protect, reducing unexpected out-of-pocket costs."
+        "explanation": "Non-payable consumables are covered as per all 4 lists in Annexure I under Claim Protect. This can significantly cut common hospital add-ons like gloves, masks, and procedure kits that are often excluded."
       },
       {
         "name": "Restore Benefit",
         "quote": "We shall provide for a reload amounting to the Base Sum Insured (“Super Reload”), unlimited times during the Policy Year",
         "reference": "Section C.10 Super Reload",
-        "explanation": "You get unlimited reloads of the Base Sum Insured during the policy year, allowing multiple large claims without exhausting your coverage."
+        "explanation": "A reload equal to the Base Sum Insured is available unlimited times during the policy year. This helps you handle multiple hospitalizations in the same year without exhausting cover after the first big claim."
       },
       {
         "name": "Built-in SI Buffer",
         "quote": "Super Credit (Increases Irrespective of Claim)\nUnder this Benefit... (“Super Credit”) will be applied/increased... irrespective of any claims in previous Policy Year",
         "reference": "Annexure III - Product Benefit Table + Section C.11 Super Credit",
-        "explanation": "Your Sum Insured can increase on renewal even if you made claims, providing extra coverage beyond the base Sum Insured."
+        "explanation": "Sum Insured can increase via Super Credit on renewal irrespective of claims in the previous policy year. This builds extra coverage over time even if you had a claim."
       },
       {
         "name": "Domiciliary Hospitalization",
         "quote": "The Company shall indemnify the Medical Expenses incurred during the Policy Period on Domiciliary Hospitalization...",
         "reference": "Section C.5 Domiciliary Hospitalization",
-        "explanation": "Treatment taken at home when hospitalization is needed is covered, helping you get care without hospital admission."
+        "explanation": "Medical expenses for domiciliary hospitalization (treatment at home when hospitalization is required) are covered. This is useful when a hospital bed is unavailable or the patient cannot be moved."
       },
       {
         "name": "Bariatric Surgery",
         "quote": "Obesity Treatment: Medical Expenses incurred... arising out of Hospitalization for a Bariatric Surgery... subject to the conditions... as per Section D.1.6",
         "reference": "Section C.1.1.1(h) + Section D.1.6",
-        "explanation": "Bariatric surgery is covered if you meet medical criteria like BMI and co-morbidities, supporting treatment for obesity."
+        "explanation": "Hospitalization expenses for bariatric surgery are covered subject to the conditions in Section D.1.6. This can help manage high-cost obesity treatment when medical criteria are met."
       }
     ],
     "good": [
       {
-        "name": "Specific Illness Waiting",
+        "name": "Specific Illness Waiting Period",
         "quote": "Expenses related to the treatment of the listed Conditions, surgeries / treatments shall be excluded until the expiry of 24 months of continuous coverage...",
         "reference": "Section D.1.2 Specified disease / procedure Waiting Period (Code-Excl02)",
-        "explanation": "Specific illnesses have a 24-month waiting period, which is standard in the market for listed diseases and procedures."
+        "explanation": "Listed specified diseases/procedures are not covered until 24 months of continuous coverage is completed. This is a common market-standard waiting period for such conditions."
       },
       {
-        "name": "Initial Waiting",
+        "name": "Initial Waiting Period",
         "quote": "Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident",
         "reference": "Section D.1.3 30-day Waiting Period (Code-Excl03)",
-        "explanation": "Illnesses are excluded for the first 30 days except accidents, which are covered from day one as per usual market practice."
-      }
-    ],
-    "bad": [
+        "explanation": "Illnesses are not covered for the first 30 days from the first policy start date, while accidents are covered immediately. This is standard and mainly affects early claims for non-accidental conditions."
+      },
       {
         "name": "Post-hospitalization Cover",
         "quote": "for up to 180 days from the date of discharge from the Hospital.",
         "reference": "Section C.3 Post-Hospitalization Expenses",
-        "explanation": "Post-hospitalization expenses are covered for up to 180 days, but coverage beyond 180 days is considered better in the market."
-      },
+        "explanation": "Post-hospitalization medical expenses are covered for up to 180 days after discharge. This is in line with common plans, though some premium policies offer more than 180 days."
+      }
+    ],
+    "bad": [
       {
         "name": "Co-pay",
         "quote": "Preferred Provider Network (PPN) Discount... If the Insured Person takes treatment... other than those listed as “Preferred Provider Network”, then... shall bear a Co-Payment of 10% on each and every claim...",
         "reference": "Section C.13.5 Preferred Provider Network (PPN) Discount",
-        "explanation": "A 10% co-pay applies if you use a non-PPN hospital under the PPN discount option; any mention of co-pay makes the policy worse than market standard."
+        "explanation": "A 10% co-pay applies on each and every claim if treatment is taken at a non-PPN hospital under the PPN Discount option. This can materially increase your out-of-pocket cost even when the claim is otherwise admissible."
       }
     ],
     "unclear": []

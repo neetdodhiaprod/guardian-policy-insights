@@ -5,9 +5,9 @@
   "policyType": "Individual | Family Floater",
   "documentType": "Policy Wording",
   "summary": {
-    "great": 1,
+    "great": 2,
     "good": 4,
-    "bad": 5,
+    "bad": 4,
     "unclear": 2
   },
   "features": {
@@ -16,7 +16,13 @@
         "name": "Built-in SI Buffer",
         "quote": "(h) Reload of Sum Insured: Once in the Policy Year, We shall provide for a reload of the Sum Insured up to the limits as speciﬁed in the Policy Schedule / Product Beneﬁt Table of this Policy, in case the available Sum Insured... is insufficient for covering a claim under the Policy as a result of previous claims in that Policy Year.",
         "reference": "Section C.I.(h) Reload of Sum Insured",
-        "explanation": "The policy provides a reload of the sum insured once per policy year if the base sum insured is exhausted due to earlier claims. This gives you extra coverage for subsequent claims within the same policy year."
+        "explanation": "Once in a policy year, an extra sum insured (reload) is added if your available sum insured becomes insufficient due to earlier claims, up to limits in the Policy Schedule/Product Benefit Table. This gives you additional cover for later hospitalizations in the same year after you have used up the base cover."
+      },
+      {
+        "name": "NCB",
+        "quote": "In the event of a claim impacting the eligibility of a No Claim Bonus, the accumulated No Claim Bonus shall be reduced by 10% of the Sum Insured at the commencement of subsequent Policy Year.",
+        "reference": "Section C.II (l).a No Claim Bonus",
+        "explanation": "After a claim, the accumulated No Claim Bonus is reduced by 10% of the Sum Insured at the start of the next policy year. This is better than policies where the bonus resets to zero after a claim."
       }
     ],
     "good": [
@@ -24,25 +30,25 @@
         "name": "PED Waiting Period",
         "quote": "Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the ﬁrst policy with Insurer.",
         "reference": "Section D.I.1 (Standard Exclusions) - Pre-Existing Diseases (Code-Excl01)",
-        "explanation": "Pre-existing diseases are excluded for 24 months from policy start. After 24 months of continuous coverage, these conditions are covered."
+        "explanation": "Pre-existing diseases and their direct complications are not covered for the first 24 months from the policy start date. Coverage for PEDs begins after you complete 24 months of continuous coverage."
       },
       {
         "name": "Specific Illness Waiting",
         "quote": "Expenses related to the treatment of the listed Conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the ﬁrst policy with us.",
         "reference": "Section D.I.2 (Standard Exclusions) - Specified disease / procedure waiting period (Code-Excl02)",
-        "explanation": "Certain listed illnesses and procedures are excluded for 24 months from policy start. After this period, treatment for these conditions is covered."
+        "explanation": "Treatment for the listed diseases/procedures is not covered for the first 24 months from the policy start date. Claims for these conditions become payable only after 24 months of continuous coverage."
       },
       {
         "name": "Initial Waiting Period",
         "quote": "Expenses related to the treatment of any illness within 30 days from the ﬁrst policy commencement date shall be excluded except claims arising due to an accident, provided the same are covered.",
         "reference": "Section D.I.3 - 30-day waiting period (Code-Excl03)",
-        "explanation": "Illnesses are not covered during the first 30 days of the policy, but accidents are covered from day one. This is a standard waiting period."
+        "explanation": "Illness-related claims are not covered in the first 30 days from the first policy commencement date, while accidents are covered from day 1 (if covered). This is a standard market waiting period."
       },
       {
         "name": "Restore Benefit",
         "quote": "Such reloading of Sum Insured shall be available only once during a Policy Year... The reload of Sum Insured shall not apply to the ﬁrst claim in the Policy Year... available only for subsequent claims and not in relation to any Illness/ Injury (including its complications) for which a claim has been admitted for the Insured Person during that Policy Year.",
         "reference": "Section C.I.(h) Reload of Sum Insured - Conditions (ii) and (iii)",
-        "explanation": "The sum insured reload is available once per year but only for unrelated illnesses and not for the same illness in the same policy year. This is a standard restore benefit."
+        "explanation": "The reload can be used only once in a policy year and only for subsequent claims, not the first claim. It is not available for the same illness/injury (including complications) for which a claim has already been admitted in that policy year."
       }
     ],
     "bad": [
@@ -50,31 +56,25 @@
         "name": "Room Rent",
         "quote": "Reasonable and Customary Charges for Room Rent for accommodation in Hospital room and other boarding charges up to the limits as speciﬁed in the Policy Schedule / Product Beneﬁt Table of this Policy;",
         "reference": "Section C.I.(a) In-patient Hospitalization - What is covered (1)",
-        "explanation": "Room rent is capped as per your plan’s schedule and is not unlimited. This can reduce your claim payout if you choose a higher room category."
+        "explanation": "Room rent is payable only up to the limits mentioned in the Policy Schedule/Product Benefit Table, not at actuals. If you choose a higher category than your eligibility, your claim can reduce significantly due to linked deductions."
       },
       {
         "name": "Proportionate Deduction",
         "quote": "If the Insured Person is admitted in a room category/limit that is higher than the one that is speciﬁed... then the Insured Person shall bear a rateable proportion of the total Associated Medical Expenses... in the proportion of the difference between the Room Rent of the entitled room category to the Room Rent actually incurred.",
         "reference": "Section C.I.(a) In-patient Hospitalization - Conditions (2)",
-        "explanation": "If you stay in a room higher than your eligibility, the insurer reduces many related costs proportionately, increasing your out-of-pocket expenses."
+        "explanation": "If you take a room above your eligible category/limit, you must pay a proportionate share of the total associated medical expenses. This can sharply increase out-of-pocket costs beyond just the room rent difference."
       },
       {
         "name": "Consumables",
         "quote": "Activ Care Policy Wordings - Annexure - I - List of Non-medical expenses... 56 GLOVES ... 60 MASK ... 58 ANY KIT WITH NO DETAILS MENTIONED [DELIVERY KIT, ORTHOKIT, RECOVERY KIT, ETC]",
         "reference": "Annexure I - List of Non-medical expenses",
-        "explanation": "Many common hospital consumables like gloves, masks, and kits are excluded from coverage, so you will have to pay for these out-of-pocket."
+        "explanation": "Non-medical/consumable items listed in Annexure I (e.g., gloves, masks, and various kits) are not covered. You will have to pay these hospital bill components yourself even during a covered hospitalization."
       },
       {
         "name": "Disease Sub-limits",
         "quote": "(j) Sublimit for listed illnesses: We will cover the Medical Expenses arising out of an Insured Person’s in-patient Hospitalization for the listed Illness/ conditions and limit as speciﬁed in the Policy Schedule / Product Beneﬁt Table.",
         "reference": "Section C.I.(j) Sublimit for listed illnesses",
-        "explanation": "The policy imposes sub-limits on certain illnesses as per the schedule, which can limit your claim amount compared to the full sum insured."
-      },
-      {
-        "name": "No Claim Bonus",
-        "quote": "In the event of a claim impacting the eligibility of a No Claim Bonus, the accumulated No Claim Bonus shall be reduced by 10% of the Sum Insured at the commencement of subsequent Policy Year.",
-        "reference": "Section C.II (l).a No Claim Bonus",
-        "explanation": "The no claim bonus reduces by 10% after a claim instead of being fully protected, which means you lose part of your bonus on claims."
+        "explanation": "For certain listed illnesses/conditions, claim payment is capped to sub-limits mentioned in the Policy Schedule/Product Benefit Table. This can leave you underinsured even when your overall sum insured is higher."
       }
     ],
     "unclear": [
@@ -82,13 +82,13 @@
         "name": "Pre-hospitalization Cover",
         "quote": "We shall cover on a reimbursement basis, in accordance with the limits speciﬁed in the Policy Schedule / Product Beneﬁt Table of this Policy, the Insured Person’s Pre-hospitalization Medical Expenses",
         "reference": "Section C.I.(b) Pre – hospitalization Medical Expenses",
-        "explanation": "The duration of pre-hospitalization coverage is not specified in the wording and depends on the policy schedule. Confirm the exact number of days."
+        "explanation": "Pre-hospitalization expenses are covered on a reimbursement basis, subject to limits mentioned in the Policy Schedule/Product Benefit Table. The number of days covered is not stated here, so you must check the schedule to know the exact duration."
       },
       {
         "name": "Post-hospitalization Cover",
         "quote": "We shall cover on a reimbursement basis, in accordance with the limits speciﬁed in the Policy Schedule / Product Beneﬁt Table of this Policy, the Insured Person’s Post-hospitalization Medical Expenses",
         "reference": "Section C.I.(c) Post – hospitalization Medical Expenses",
-        "explanation": "The duration of post-hospitalization coverage is not specified in the wording and depends on the policy schedule. Confirm the exact number of days."
+        "explanation": "Post-hospitalization expenses are covered on a reimbursement basis, subject to limits mentioned in the Policy Schedule/Product Benefit Table. The number of days covered is not stated here, so you must check the schedule to know the exact duration."
       }
     ]
   },

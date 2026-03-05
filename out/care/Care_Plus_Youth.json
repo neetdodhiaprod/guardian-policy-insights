@@ -5,10 +5,10 @@
   "policyType": "Individual | Family Floater",
   "documentType": "Policy Wording",
   "summary": {
-    "great": 4,
+    "great": 5,
     "good": 5,
     "bad": 6,
-    "unclear": 2
+    "unclear": 0
   },
   "features": {
     "great": [
@@ -16,25 +16,31 @@
         "name": "Restore Benefit",
         "quote": "The Company agrees to automatically make the re-instatement of up to the base Sum Insured unlimited times in a policy year",
         "reference": "Clause 3.1.8 Benefit: Unlimited Automatic Recharge",
-        "explanation": "Your base Sum Insured is automatically reinstated unlimited times within the same policy year after it is used up. This means you get continuous coverage without waiting for a new policy year."
+        "explanation": "Automatically reinstates up to the base Sum Insured unlimited times in the same policy year. This can protect you from running out of cover after multiple hospitalizations."
       },
       {
         "name": "Restore Benefit",
         "quote": "Recharge amount can be utilized for same illness except for claim under Any one Illness condition.",
         "reference": "Clause 3.1.8 (iii)",
-        "explanation": "The restored Sum Insured can be used for the same illness except under the 'Any One Illness' condition. This gives you more flexibility than restores limited only to unrelated illnesses."
+        "explanation": "The recharged amount can be used even for the same illness, except where the 'Any one Illness' condition applies. This is stronger than restores that work only for unrelated illnesses."
       },
       {
         "name": "Built-in SI Buffer",
         "quote": "For any single Claim during a Policy Year, the maximum Claim amount payable shall be sum total of Sum Insured, Cumulative Bonus, Inflation Shield.",
         "reference": "Clause 3, General Conditions Applicable To All The Benefits, point 2(II)",
-        "explanation": "Additional Sum Insured buffers like Cumulative Bonus and Inflation Shield increase your coverage beyond the base Sum Insured. This provides extra financial protection during claims."
+        "explanation": "For a single claim, the maximum payable can be the total of Sum Insured, Cumulative Bonus and Inflation Shield. This increases the available payout beyond just the base Sum Insured."
       },
       {
         "name": "No Claim Bonus",
         "quote": "enhance the Sum Insured by 50% flat, on a cumulative basis... provided that no Claim has been paid... or total claim amount payable does not exceed the 25% of the base Sum Insured",
         "reference": "Clause 3.1.11 Benefit : No Claim Bonus Protect",
-        "explanation": "You get a 50% increase in your Sum Insured as a renewal bonus if no claims are paid or claims are below 25% of the base Sum Insured. This rewards claim-free years with significant coverage increases."
+        "explanation": "Sum Insured can be enhanced by 50% flat on a cumulative basis if no claim is paid, or if total claim amount payable does not exceed 25% of the base Sum Insured. This can grow your coverage meaningfully over claim-light years."
+      },
+      {
+        "name": "NCB",
+        "quote": "In the event of total claim amount payable exceeds 25% of the base Sum Insured during any Policy Year, the accrued Cumulative Bonus will be reduced at same rate at which it is accrued",
+        "reference": "Clause 3.1.11 (vii)",
+        "explanation": "If total claim amount payable exceeds 25% of the base Sum Insured in a policy year, the accrued Cumulative Bonus is reduced at the same rate at which it was accrued. This is better than policies that reset the bonus to zero after a claim."
       }
     ],
     "good": [
@@ -42,31 +48,31 @@
         "name": "PED Waiting Period",
         "quote": "excluded until the expiry of 36 months of continuous coverage after the date of inception of the first policy with insurer.",
         "reference": "Clause 4.1(a)(i) Pre-Existing Diseases (PED)",
-        "explanation": "Pre-existing diseases are excluded for 36 months from your first policy start date. This is a reasonable waiting period common in the market."
+        "explanation": "Pre-existing diseases are excluded for 36 months from the inception of the first policy with the insurer. You should plan for out-of-pocket costs for PED treatment during this waiting period."
       },
       {
-        "name": "Specific Illness Waiting",
+        "name": "Specific Illness Waiting Period",
         "quote": "shall be excluded until the expiry of 24 months of continuous coverage",
         "reference": "Clause 4.1(a)(ii) Specific Waiting Period",
-        "explanation": "Specified illnesses have a 24-month waiting period before coverage begins. This is standard practice for certain conditions."
+        "explanation": "Specified illnesses are excluded until the expiry of 24 months of continuous coverage. Claims for listed conditions in the first 2 years may be rejected even if they are not pre-existing."
       },
       {
         "name": "Initial Waiting Period",
         "quote": "Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident",
         "reference": "Clause 4.1(a)(iii) 30-day waiting period",
-        "explanation": "Illnesses are not covered during the first 30 days of the policy, except for accidents. This is a common initial waiting period."
+        "explanation": "Illness treatment is excluded for the first 30 days from policy commencement, except for accidents. Non-accident hospitalizations in the first month are typically not payable."
       },
       {
         "name": "Pre-hospitalization Cover",
         "quote": "Under Pre-hospitalization Medical Expenses, for a period of 60 days immediately prior",
         "reference": "Clause 3.1.2 (i)",
-        "explanation": "Medical expenses up to 60 days before hospitalization are covered. This helps cover diagnostic and treatment costs before admission."
+        "explanation": "Covers pre-hospitalization medical expenses for 60 days immediately prior to hospitalization. This helps pay for tests and consultations leading up to admission."
       },
       {
         "name": "Post-hospitalization Cover",
         "quote": "Under Post-hospitalization Medical Expenses, for a period of 90 days immediately after",
         "reference": "Clause 3.1.2 (ii)",
-        "explanation": "Medical expenses up to 90 days after discharge are covered, providing good support for follow-up care."
+        "explanation": "Covers post-hospitalization medical expenses for 90 days immediately after discharge. This supports follow-up treatment and medicines after hospitalization."
       }
     ],
     "bad": [
@@ -74,53 +80,40 @@
         "name": "Room Rent",
         "quote": "If the Policy Schedule states ‘up to 1% of the Sum Insured per day’ as eligible Room Rent, it means the maximum eligible Room Rent... is limited to 1% of the Sum Insured per day of Hospitalization.",
         "reference": "Clause 3.1.1(iii)(a)(iii)",
-        "explanation": "Room rent is capped at 1% of the Sum Insured per day, which can cause significant out-of-pocket costs if you choose a higher category room."
+        "explanation": "Room rent can be capped at 1% of the Sum Insured per day if stated in the Policy Schedule. Choosing a higher room can trigger large out-of-pocket costs and proportionate deductions on the whole bill."
       },
       {
         "name": "Proportionate Deduction",
         "quote": "The Policyholder/Insured Person shall bear the ratable proportion of the total Associate Medical Expenses... in the proportion of the difference between the Room Rent actually incurred and the Room Rent specified in the Policy Schedule",
         "reference": "Clause 3.1.1(iii)(a)(i)",
-        "explanation": "If you stay in a room above your eligibility, the insurer reduces payouts on related medical expenses proportionally, increasing your expenses."
+        "explanation": "If you take a room above the eligible room rent, you must bear expenses in proportion to the difference between actual room rent and eligible room rent. This can reduce payouts across associated hospital charges, not just the room rent."
       },
       {
         "name": "Consumables",
         "quote": "Any item or condition or treatment specified in List of Non-Medical Items (Annexure – I to Policy Terms & Conditions).",
         "reference": "Clause 4.2(b)(1) + Annexure I (e.g., 'GLOVES', 'MASK')",
-        "explanation": "Common consumables like gloves and masks are excluded, meaning you may have to pay for these during hospitalization."
+        "explanation": "Items listed as non-medical in Annexure I (e.g., gloves, masks) are excluded. You may have to pay these common hospital consumables from your pocket during a claim."
       },
       {
         "name": "Domiciliary Hospitalization",
         "quote": "Any Medical Expenses incurred for the treatment in relation to any of the following diseases shall not be payable under this Benefit : ... Diabetes Mellitus... Hypertension... Arthritis...",
         "reference": "Clause 3.1.5 (iv)",
-        "explanation": "Many common chronic diseases are excluded from domiciliary hospitalization benefits, limiting the usefulness of this coverage."
+        "explanation": "Domiciliary hospitalization does not pay for home-treatment expenses related to listed diseases such as Diabetes Mellitus, Hypertension and Arthritis. This significantly limits the usefulness of domiciliary cover for common chronic conditions."
       },
       {
         "name": "Disease Sub-limits",
         "quote": "For diseases or conditions or procedure that have a specified sub-limit then all related expenses shall be covered up to the sub-limit specified for that disease or condition or procedure.",
         "reference": "Clause 6.1.7(h) Payment Terms",
-        "explanation": "The policy applies sub-limits on certain diseases or procedures, which can reduce claim payouts significantly."
+        "explanation": "Where a disease/condition/procedure has a specified sub-limit, all related expenses are covered only up to that sub-limit. This can leave you with a large shortfall even when your Sum Insured is higher."
       },
       {
         "name": "Co-pay",
         "quote": "The Co-payment proportion (if applicable)... The Policy Schedule will specify the Optional Benefits that are in force",
         "reference": "Clause 3, point 3 + Clause 3.2 Optional Benefits",
-        "explanation": "The base co-pay percentage is not clearly stated and may depend on optional covers or your Policy Schedule. Confirm your co-pay details in your policy documents."
+        "explanation": "A co-payment proportion may apply as per the Policy Schedule/optional benefits in force. If applicable, you will have to pay a fixed percentage of each admissible claim yourself."
       }
     ],
-    "unclear": [
-      {
-        "name": "Room Rent Eligibility",
-        "quote": "The Policy Schedule will specify the eligibility of Room Rent or Room Category applicable",
-        "reference": "Clause 3.1.1(iii)(a) and sub-clauses (ii)/(iii)",
-        "explanation": "The exact room rent eligibility depends on your Policy Schedule. This affects your claim amount if you choose a higher room category."
-      },
-      {
-        "name": "NCB Reduction",
-        "quote": "In the event of total claim amount payable exceeds 25% of the base Sum Insured during any Policy Year, the accrued Cumulative Bonus will be reduced at same rate at which it is accrued",
-        "reference": "Clause 3.1.11 (vii)",
-        "explanation": "The No Claim Bonus reduces proportionally if claims exceed 25% of the base Sum Insured, but the exact impact depends on your claim amounts and policy details."
-      }
-    ]
+    "unclear": []
   },
   "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
 }

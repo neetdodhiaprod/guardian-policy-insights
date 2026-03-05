@@ -6,17 +6,17 @@
   "documentType": "Policy Wording",
   "summary": {
     "great": 1,
-    "good": 5,
-    "bad": 8,
-    "unclear": 2
+    "good": 6,
+    "bad": 6,
+    "unclear": 1
   },
   "features": {
     "great": [
       {
-        "name": "Built-in SI Buffer",
+        "name": "Reset Benefit",
         "quote": "“Reset Benefit... We will reset up to 100% of the Sum insured once in a policy year... in case the Sum insured including accrued Loyalty Bonus(if any) is insufficient...”",
         "reference": "Section 2.A.8 (Page 10)",
-        "explanation": "The policy resets up to 100% of the Sum Insured once per policy year if the base Sum Insured and Loyalty Bonus are insufficient. This provides an extra buffer to increase claim capacity within the same year."
+        "explanation": "Up to 100% of the Sum Insured can be reset once in a policy year if the Sum Insured (including accrued Loyalty Bonus, if any) is insufficient. This can increase your claim-paying capacity within the same year."
       }
     ],
     "good": [
@@ -24,31 +24,37 @@
         "name": "Initial Waiting Period",
         "quote": "“Code- Excl03: 30-day waiting period... Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident”",
         "reference": "Section 3.3 (Page 21)",
-        "explanation": "Illnesses are excluded for the first 30 days except accidents, which are covered immediately. This is a standard initial waiting period in the industry."
+        "explanation": "Illness-related treatment is not covered for the first 30 days from the first policy start date, but accidents are covered immediately. This is a standard waiting period and mainly affects claims soon after purchase."
       },
       {
         "name": "PED Waiting Period",
         "quote": "“Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first policy...”",
         "reference": "Section 3.4 (Page 21)",
-        "explanation": "Pre-existing diseases are excluded for 24 months from policy start, which is the industry standard waiting period."
+        "explanation": "Pre-existing diseases and their direct complications are not covered until 24 months of continuous coverage are completed. This is in line with many retail health plans and matters if you already have known conditions."
       },
       {
         "name": "Specific Illness Waiting",
         "quote": "“Code- Excl02... listed Conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage...”",
         "reference": "Section 3.6 (Pages 22-23)",
-        "explanation": "Certain listed illnesses and procedures are excluded for 24 months, which aligns with typical market practice."
+        "explanation": "Certain listed conditions/surgeries are not covered until 24 months of continuous coverage are completed. This delays coverage for those specific treatments even if they are not pre-existing."
       },
       {
         "name": "Pre-hospitalization Cover",
         "quote": "“Pre-hospitalization Medical Expenses incurred by You up to 60-days immediately prior to Your Hospitalization”",
         "reference": "Section 2.A.6 (Page 9)",
-        "explanation": "Medical expenses up to 60 days before hospitalization are covered, allowing for diagnostic and consultation costs before admission."
+        "explanation": "Medical expenses incurred up to 60 days before hospitalization are covered. This helps pay for consultations and diagnostics leading up to admission."
       },
       {
         "name": "Post-hospitalization Cover",
         "quote": "“Post-hospitalization Medical Expenses incurred by You up to 90-days immediately post Hospitalization”",
         "reference": "Section 2.A.6 (Page 9)",
-        "explanation": "Follow-up medical expenses up to 90 days after discharge are covered, supporting recovery after hospitalization."
+        "explanation": "Medical expenses incurred up to 90 days after hospitalization are covered. This supports follow-up treatment and medicines during recovery."
+      },
+      {
+        "name": "Cashless Network",
+        "quote": "“Cashless treatment is only available at a Network Provider (List of Network Provider is available at our website... )”",
+        "reference": "Claims procedure (Page 26)",
+        "explanation": "Cashless treatment is available only at network providers listed by the insurer. This is typical, but you should check the current hospital list on the insurer’s website for your city."
       }
     ],
     "bad": [
@@ -56,63 +62,45 @@
         "name": "Room Rent",
         "quote": "“We will cover medical expenses for: • Hospital room rent”",
         "reference": "Section 2.A.1 (Page 8)",
-        "explanation": "The policy does not specify any room rent limits or categories, creating uncertainty about coverage and possible restrictions or proportionate deductions."
-      },
-      {
-        "name": "Restore Benefit",
-        "quote": "No clause found stating restore/reinstatement of Sum Insured (separate from Reset Benefit).",
-        "reference": "Document review: Sections 2 and 3 provided (Pages 8-23)",
-        "explanation": "No restore benefit is stated, so the Sum Insured is not replenished after claims beyond the Reset Benefit, limiting coverage for repeated illnesses."
+        "explanation": "Room rent is mentioned as covered, but no room category or limit is stated in the provided clause. If the limit is later restricted in the schedule/annexures, it can increase out-of-pocket costs and may trigger proportionate deductions."
       },
       {
         "name": "Consumables",
         "quote": "“Non Payables... List of Non Payable Items as per IRDAI... 56 GLOVES... 60 MASK...”",
         "reference": "Section 31 Non Payables (Pages 39-41)",
-        "explanation": "Many consumables like gloves and masks are explicitly excluded, which means you may have to pay for these out of pocket."
+        "explanation": "Items listed as “Non Payables” (e.g., gloves, masks) are not payable as per the policy’s non-payable list. This can add meaningful out-of-pocket costs during hospitalization."
       },
       {
         "name": "Reset Restriction",
         "quote": "“For plans with Deductible ₹ 3lacs and above... The reset amount can only be used for all future claims within the same policy year, not related to the illness/disease/injury for which a claim has been paid in that policy year for the same person”",
         "reference": "Section 2.A.8 (Page 10)",
-        "explanation": "Reset Benefit is limited to unrelated illnesses and only available for plans with deductibles of ₹3 lakh or more, reducing its usefulness for recurring conditions."
-      },
-      {
-        "name": "NCB",
-        "quote": "“Loyalty Bonus... For each completed and continuous Policy Year subject to a maximum of 50% 10%” AND “our liability... shall not exceed the Annual Sum Insured (including Loyalty Bonus) ... based on Claim settled under the Policy.”",
-        "reference": "Section 2.A.9 (Page 10) and definition of Annual Sum Insured (Page 1)",
-        "explanation": "Loyalty Bonus appears capped and may be reduced or reset after claims, offering weaker protection compared to non-resetting no-claim bonuses."
-      },
-      {
-        "name": "Excluded Providers",
-        "quote": "“Expenses incurred towards treatment in any hospital... specifically excluded by the Insurer... are not admissible. However, in case of life threatening situations or following an accident, expenses up to the stage of stabilization are payable but not the complete claim.”",
-        "reference": "Section 3.7(v) Code-Excl11 (Page 23)",
-        "explanation": "Claims for treatment at excluded or delisted hospitals may be denied beyond stabilization, risking partial claim payouts."
-      },
-      {
-        "name": "Domiciliary Hospitalization",
-        "quote": "“Domiciliary Hospitalisation benefits... shall not cover... Asthma... Bronchitis... Diabetes... Hypertension... Influenza, Cough and Cold... Arthritis, Gout and Rheumatism”",
-        "reference": "Section 2.A.4 (Page 9)",
-        "explanation": "Domiciliary hospitalization excludes many common chronic and respiratory conditions, limiting coverage for home-based treatment."
+        "explanation": "For plans with deductible of ₹3 lakhs and above, the reset amount can be used only for future claims in the same policy year that are not related to the earlier claimed illness/injury for that person. This reduces usefulness for repeat admissions for the same condition."
       },
       {
         "name": "Co-pay",
         "quote": "“We are not liable to pay twenty percent (20%) of admissible claim amount above the Deductible... for insured(s) above 60 years of age... However, this condition will not be applicable if You were aged 45 years or below at the time of buying this policy first time with Us and have renewed it continuously after that.”",
         "reference": "Section 3.2 and Claim assessment section (Pages 21, 29)",
-        "explanation": "A 20% co-pay applies only to insured persons above 60 years, with a waiver if the policy was bought before age 45 and renewed continuously. This is a common senior co-pay structure."
+        "explanation": "A 20% co-pay applies on the admissible claim amount above the deductible for insured persons above 60 years of age, with a waiver if first bought at age 45 or below and renewed continuously. This can materially increase your share of every claim in senior years."
+      },
+      {
+        "name": "Excluded Providers",
+        "quote": "“Expenses incurred towards treatment in any hospital... specifically excluded by the Insurer... are not admissible. However, in case of life threatening situations or following an accident, expenses up to the stage of stabilization are payable but not the complete claim.”",
+        "reference": "Section 3.7(v) Code-Excl11 (Page 23)",
+        "explanation": "Treatment taken at hospitals specifically excluded by the insurer is not admissible, except expenses up to stabilization in life-threatening situations/accidents. This creates a risk of large claim rejections if you get treated at a delisted/excluded hospital."
+      },
+      {
+        "name": "Domiciliary Hospitalization",
+        "quote": "“Domiciliary Hospitalisation benefits... shall not cover... Asthma... Bronchitis... Diabetes... Hypertension... Influenza, Cough and Cold... Arthritis, Gout and Rheumatism”",
+        "reference": "Section 2.A.4 (Page 9)",
+        "explanation": "Domiciliary hospitalization has a long list of conditions that are not covered (including asthma, diabetes, hypertension and arthritis). This significantly limits home-treatment coverage for common chronic illnesses."
       }
     ],
     "unclear": [
       {
-        "name": "NCB Reset",
-        "quote": "“Loyalty Bonus...” (no explicit statement found on whether it reduces/resets after claims or is added irrespective of claims)",
-        "reference": "Section 2.A.9 (Page 10)",
-        "explanation": "The policy does not clearly state whether the Loyalty Bonus resets or reduces after claims, so its impact on renewal benefits is uncertain."
-      },
-      {
-        "name": "Cashless Network",
-        "quote": "“Cashless treatment is only available at a Network Provider (List of Network Provider is available at our website... )”",
-        "reference": "Claims procedure (Page 26)",
-        "explanation": "The policy mentions a network for cashless treatment but does not specify the number of hospitals, so the network size and convenience are unclear."
+        "name": "No Claim Bonus",
+        "quote": "“Loyalty Bonus... For each completed and continuous Policy Year subject to a maximum of 50% 10%” AND “our liability... shall not exceed the Annual Sum Insured (including Loyalty Bonus) ... based on Claim settled under the Policy.”",
+        "reference": "Section 2.A.9 (Page 10) and definition of Annual Sum Insured (Page 1)",
+        "explanation": "A Loyalty Bonus is mentioned (10% per year up to a maximum of 50%), but the wording provided does not clearly state how it changes after a claim. This matters because some insurers reduce or reset the bonus on claims, which lowers future coverage."
       }
     ]
   },

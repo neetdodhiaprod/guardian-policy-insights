@@ -7,7 +7,7 @@
   "summary": {
     "great": 2,
     "good": 5,
-    "bad": 4,
+    "bad": 3,
     "unclear": 1
   },
   "features": {
@@ -16,13 +16,13 @@
         "name": "Restore Benefit",
         "quote": "“the Company agrees to automatically make the re-instatement of up to the base Sum Insured unlimited times in a policy year… (iii) Recharge amount can be utilized for same illness as well as different Illnesses…”",
         "reference": "Clause 3.1.5 Benefit: Unlimited Automatic Recharge",
-        "explanation": "The policy reinstates your base Sum Insured unlimited times within the same year, including for the same illness. This means you have strong protection against multiple claims for the same condition without losing coverage."
+        "explanation": "Automatically reinstates up to the base Sum Insured unlimited times in a policy year. The recharge can be used for the same illness as well as different illnesses, which is very strong for multiple/high-value claims."
       },
       {
-        "name": "Built-in SI Buffer",
-        "quote": "“The Recharge shall be utilized only after the base Sum Insured, 'No Claims Bonus' and 'Additional Sum Insured for Accidental Hospitalization' has been completely exhausted in that Policy Year.”",
-        "reference": "Clause 3.1.5 (i)",
-        "explanation": "Extra Sum Insured is available after you exhaust your base SI and other bonuses, providing an additional layer of coverage. This helps protect you against high or multiple claims in a policy year."
+        "name": "NCB",
+        "quote": "“In the event of a Claim occurring during any Policy Year, the accrued No Claims Bonus will be reduced at same rate at which it is accrued at the commencement of next Policy Year;”",
+        "reference": "Clause 3.1.3 (vii)",
+        "explanation": "If a claim happens, the accrued No Claims Bonus is reduced at the same rate at which it was accrued, instead of resetting to zero. This helps you retain part of your accumulated increase in Sum Insured even after a claim."
       }
     ],
     "good": [
@@ -30,31 +30,31 @@
         "name": "PED Waiting Period",
         "quote": "“Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 48 months of continuous coverage…”",
         "reference": "Clause 4.1 (i) Pre-Existing Diseases: Code-Excl01",
-        "explanation": "Pre-existing diseases are covered after 48 months of continuous coverage. This is a standard waiting period that balances risk and coverage."
+        "explanation": "Pre-existing diseases and their direct complications are covered only after 48 months of continuous coverage. This is within the common 2–4 year range, so plan for out-of-pocket costs for PED treatment during this period."
       },
       {
         "name": "Specific Illness Waiting",
         "quote": "“Expenses related to the treatment of the listed Conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage…”",
         "reference": "Clause 4.1 (ii) Specific Waiting Period: Code-Excl02",
-        "explanation": "The policy excludes listed illnesses and procedures for 24 months from start of coverage. This is a common waiting period for specific conditions."
+        "explanation": "Listed conditions/surgeries are not covered until 24 months of continuous coverage are completed. Claims for these conditions in the first 2 years can be rejected even if they are not pre-existing."
       },
       {
         "name": "Initial Waiting Period",
         "quote": "“Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident…”",
         "reference": "Clause 4.1 (iii) 30-day waiting period: Code-Excl03",
-        "explanation": "Illnesses are not covered during the first 30 days except accidents. This is a standard initial waiting period in health insurance."
+        "explanation": "Illness-related claims are not covered in the first 30 days from the first policy start date, except for accidents. This is a standard waiting period, so avoid buying the policy right before planned treatment."
       },
       {
         "name": "Pre-hospitalization Cover",
         "quote": "“for a period of 60 days immediately prior to the Insured Person's date of admission to the Hospital”",
         "reference": "Clause 3.1.1 (iii) 1. Pre-Hospitalization Medical Expenses",
-        "explanation": "Medical expenses up to 60 days before hospital admission are covered. This helps cover costs related to diagnosis and treatment before hospitalization."
+        "explanation": "Covers eligible medical expenses for 60 days immediately before hospital admission. This helps pay for consultations, tests, and medicines leading up to hospitalization."
       },
       {
         "name": "Post-hospitalization Cover",
         "quote": "“for a period of 90 days immediately after the Insured Person's date of discharge from the Hospital”",
         "reference": "Clause 3.1.1 (iii) 2. Post Hospitalization Medical Expenses",
-        "explanation": "Medical expenses up to 90 days after discharge are covered. This supports recovery costs following hospitalization."
+        "explanation": "Covers eligible medical expenses for 90 days immediately after discharge. This reduces out-of-pocket costs for follow-ups, medicines, and recovery-related treatment."
       }
     ],
     "bad": [
@@ -62,25 +62,19 @@
         "name": "Room Rent",
         "quote": "“If the Policy Schedule states 'up to 1% of the Sum Insured per day' as eligible Room Rent, it means the maximum eligible Room Rent… is limited to 1% of the Sum Insured per day… If the Insured Person is admitted… higher… then… shall bear the ratable proportion of the total Associate Medical Expenses…”",
         "reference": "Clause 3.1.1 (vii) (a) Room Rent / Room Category",
-        "explanation": "If your policy limits room rent to 1% of Sum Insured per day, choosing a higher room category causes proportionate deductions on many hospital expenses. This can increase your out-of-pocket costs."
+        "explanation": "Room rent can be capped (e.g., up to 1% of Sum Insured per day) if stated in the Policy Schedule. If you choose a higher room category, you may face proportionate (ratable) deductions on associated medical expenses, increasing your share of the bill."
       },
       {
         "name": "Consumables",
         "quote": "“Any item or condition or treatment specified in List of Non-Medical Items (Annexure – I to Policy Terms & Conditions).”",
         "reference": "Clause 4.2 Specific Exclusions (Permanent Exclusions) point 1 + Annexure I",
-        "explanation": "Common consumables like gloves and masks are excluded, meaning you must pay for these items yourself during hospitalization."
-      },
-      {
-        "name": "NCB",
-        "quote": "“In the event of a Claim occurring during any Policy Year, the accrued No Claims Bonus will be reduced at same rate at which it is accrued at the commencement of next Policy Year;”",
-        "reference": "Clause 3.1.3 (vii)",
-        "explanation": "Your No Claims Bonus decreases after a claim, so your Sum Insured growth is not fully protected across claims."
+        "explanation": "Items listed as non-medical/consumables in Annexure I are excluded from cover. This can add meaningful out-of-pocket costs during hospitalization for commonly billed items."
       },
       {
         "name": "Co-pay",
         "quote": "“The Co-payment proportion (if applicable)… (if Age… is 61 Years or above… shall bear a Co-payment of 20% per Claim…)”",
         "reference": "Clause 3 (General Conditions) point 3 and 3(I)",
-        "explanation": "The policy states a 20% co-pay for ages 61 and above but does not specify co-pay for younger ages. Confirm your co-pay details in the Policy Schedule."
+        "explanation": "A 20% co-payment per claim applies if the insured person’s age is 61 years or above. This means you must pay 20% of every admissible claim amount yourself, which can be expensive for large hospital bills."
       }
     ],
     "unclear": [
@@ -88,7 +82,7 @@
         "name": "Cashless Network",
         "quote": "“For an updated list of Network Providers… the Insured Person may refer to the list of Network Providers available on the Company's website or at the call center.”",
         "reference": "Clause 6.1.2 (a) (vii)",
-        "explanation": "The policy confirms cashless treatment at network hospitals but does not state how many hospitals are included. Check current network size for your area."
+        "explanation": "Cashless availability depends on the insurer’s current network provider list published on its website/call center. Since the policy does not state the number of network hospitals, you should verify network strength in your city before buying."
       }
     ]
   },

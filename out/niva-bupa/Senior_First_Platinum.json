@@ -6,9 +6,9 @@
   "documentType": "Policy Wording",
   "summary": {
     "great": 1,
-    "good": 4,
-    "bad": 7,
-    "unclear": 2
+    "good": 5,
+    "bad": 4,
+    "unclear": 3
   },
   "features": {
     "great": [
@@ -16,7 +16,7 @@
         "name": "Restore Benefit",
         "quote": "“The first paid claim triggers ReAssure, a benefit with unlimited sum insured. NOTE: Maximum amount ReAssure benefit pays for any single claim is up to base sum insured.”",
         "reference": "Section 3.7 ReAssure",
-        "explanation": "After your first paid claim, you get an additional sum insured called ReAssure that can pay further claims in the same policy year, effectively giving extra cover once the base sum insured is used."
+        "explanation": "After the first paid claim, ReAssure provides an unlimited additional sum insured for future claims in the same policy year. However, for any single claim it will pay only up to the base sum insured, so very large single hospitalizations may still be limited."
       }
     ],
     "good": [
@@ -24,25 +24,31 @@
         "name": "PED Waiting Period",
         "quote": "“Expenses related to the treatment of a Pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first Policy.”",
         "reference": "Section 5.1(I) Pre-existing Diseases (Code–Excl01)",
-        "explanation": "Pre-existing diseases are covered after 24 months of continuous coverage, which is standard in the market."
+        "explanation": "Pre-existing diseases and their direct complications are not covered for the first 24 months from the policy start date. After 24 months of continuous coverage, PED-related claims become payable, which is market-standard."
       },
       {
         "name": "Specific Illness Waiting",
         "quote": "“Expenses related to the treatment of the listed conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first Policy.”",
         "reference": "Section 5.1(II) Specified disease/procedure waiting period (Code- Excl02)",
-        "explanation": "Specified diseases and procedures are covered after 24 months of continuous coverage, which is standard."
+        "explanation": "Listed specified diseases/procedures are not covered for the first 24 months from the policy start date. This is a standard waiting period and delays coverage for those conditions even if they are not pre-existing."
       },
       {
         "name": "Initial Waiting Period",
         "quote": "“Expenses related to the treatment of any Illness within 30 days from the first Policy commencement date shall be excluded except claims arising due to an Accident”",
         "reference": "Section 5.1(III) 30-day waiting period (Code- Excl03)",
-        "explanation": "Illnesses are excluded for the first 30 days except for accidents, which are covered from day one; this is the market standard."
+        "explanation": "Illness-related claims are not covered in the first 30 days from policy commencement, but accidents are covered from day 1. This is the usual initial waiting period in retail health insurance."
       },
       {
-        "name": "No Claim Bonus",
-        "quote": "“For every claim free year, we will add 10% of expiring policy base sum insured as NCB, maximum up to 100%.”",
-        "reference": "Section 3.6 No Claim Bonus (NCB)",
-        "explanation": "Your sum insured increases by 10% each claim-free year up to 100%, but it is unclear if this bonus reduces or resets after a claim."
+        "name": "Pre-hospitalization Cover",
+        "quote": "“60 days before date of admission”",
+        "reference": "Section 3.3 Expenses before and after hospitalization (Pre & Post hospitalization)",
+        "explanation": "Medical expenses incurred up to 60 days before hospitalization are covered if they relate to the same hospitalization. This helps pay for consultations, tests, and medicines leading up to admission."
+      },
+      {
+        "name": "Post-hospitalization Cover",
+        "quote": "“180 days after date of discharge”",
+        "reference": "Section 3.3 Expenses before and after hospitalization (Pre & Post hospitalization)",
+        "explanation": "Medical expenses incurred up to 180 days after discharge are covered if they relate to the same hospitalization. This supports longer recovery costs like follow-ups, diagnostics, and medicines."
       }
     ],
     "bad": [
@@ -50,57 +56,45 @@
         "name": "Co-pay",
         "quote": "“The default co-payment in the product is 50% which You can modify to 40% or 30% or 20% at inception of the first policy.”",
         "reference": "Section 4.1 Co-payment",
-        "explanation": "By default, you pay 50% of every admissible claim unless you choose a lower co-pay at inception; even the lowest available 20% is a significant out-of-pocket expense."
+        "explanation": "A co-pay applies on every admissible claim, with a default of 50% and options to reduce it to 40%/30%/20% only at first policy inception. This means you will always pay a large share of each claim out of pocket, which is a major drawback."
       },
       {
-        "name": "Co-pay (Room Upgrade)",
+        "name": "Room Upgrade Co-pay",
         "quote": "“You will have to bear additional 10% co-payment IF treatment is taken in higher room category than the eligible room category as specified in Your Policy Schedule”",
         "reference": "Section 4.1 Co-payment (Note b)",
-        "explanation": "If you choose a higher room category than your eligibility, you must pay an extra 10% co-pay on admissible expenses, increasing your share of the bill."
-      },
-      {
-        "name": "Room Rent",
-        "quote": "“All applicable benefits and details are mentioned in your Policy Schedule.”",
-        "reference": "Section 1 Preamble",
-        "explanation": "The policy wording does not specify the eligible room category or room rent limits, making it impossible to assess your potential cost-sharing risks."
+        "explanation": "An additional 10% co-pay is charged if you take treatment in a higher room category than what your policy schedule allows. This can significantly increase your share of the bill if the eligible room category is restrictive."
       },
       {
         "name": "Consumables",
         "quote": "“Annexure I – The expenses that are not covered ... List I – Expenses not covered ... 56 GLOVES ... 60 MASK ... 57 NEBULISATION KIT ... 68 VASOFIX SAFETY”",
         "reference": "Annexure I – List I (Expenses not covered)",
-        "explanation": "Common consumables like gloves, masks, and nebulisation kits are excluded, which means you will likely pay out-of-pocket for these during hospital stays."
-      },
-      {
-        "name": "Pre-hospitalization Cover",
-        "quote": "“60 days before date of admission”",
-        "reference": "Section 3.3 Expenses before and after hospitalization (Pre & Post hospitalization)",
-        "explanation": "Pre-hospitalization expenses are covered for 60 days, which is standard but not better than the market norm."
-      },
-      {
-        "name": "Post-hospitalization Cover",
-        "quote": "“180 days after date of discharge”",
-        "reference": "Section 3.3 Expenses before and after hospitalization (Pre & Post hospitalization)",
-        "explanation": "Post-hospitalization expenses are covered for 180 days, which meets the market standard but does not exceed it."
+        "explanation": "Common hospital consumables like gloves, masks, nebulisation kits, and cannula-related items are not covered. These costs are frequently billed during hospitalization, so out-of-pocket expenses can add up."
       },
       {
         "name": "Modern Treatments",
         "quote": "“We pay for Modern treatments as specified below: ... Robotic surgeries ... NOTE: A limit of maximum Rs. 1,00,000 per claim will apply to all robotic surgeries, except for total radical prostatectomy, cardiac surgeries, partial nephrectomy and surgeries for malignancies.”",
         "reference": "Section 3.2(b) Expenses during hospitalization (Hospital admission)",
-        "explanation": "Modern treatments are explicitly covered with a stated cap of Rs. 1,00,000 per claim for most robotic surgeries, except certain major surgeries which have no cap, offering better coverage than many senior-focused plans."
+        "explanation": "Modern treatments are covered, but most robotic surgeries are capped at Rs. 1,00,000 per claim (with some exceptions). If your robotic surgery costs more than this cap, you will have to pay the balance yourself."
       }
     ],
     "unclear": [
       {
-        "name": "NCB Reset",
-        "quote": "“For every claim free year, we will add 10% ... maximum up to 100%.”",
+        "name": "Room Rent",
+        "quote": "“All applicable benefits and details are mentioned in your Policy Schedule.”",
+        "reference": "Section 1 Preamble",
+        "explanation": "The eligible room category/room rent limit is not stated in the wording and is only referenced as being in the Policy Schedule. Your actual room eligibility can materially affect claim payouts, so you must check the schedule to know the restriction."
+      },
+      {
+        "name": "No Claim Bonus",
+        "quote": "“For every claim free year, we will add 10% of expiring policy base sum insured as NCB, maximum up to 100%.”",
         "reference": "Section 3.6 No Claim Bonus (NCB)",
-        "explanation": "The policy explains how NCB accrues but does not clarify whether it reduces or resets after a claim, so its behavior on claims is unclear."
+        "explanation": "The sum insured increases by 10% of expiring base sum insured for each claim-free year, up to 100%. The wording here does not state what happens to the accumulated NCB after a claim (reduce or reset), so the impact on future cover is unclear."
       },
       {
         "name": "Deductible",
         "quote": "“Annual Aggregate Deductible (optional benefit) ... This is an aggregate amount in a year ... which we will NOT pay.”",
         "reference": "Section 4.2 Annual Aggregate Deductible (optional benefit)",
-        "explanation": "The deductible is optional, but the exact amount and structure are not specified here; if chosen, it affects your out-of-pocket costs."
+        "explanation": "An optional annual aggregate deductible can be chosen, under which the insurer will not pay claims until the deductible amount is met in that year. The deductible amount is not specified in this extract, so you need the schedule/option details to know your out-of-pocket exposure."
       }
     ]
   },

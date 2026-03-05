@@ -62,10 +62,13 @@ CATEGORISATION RUBRIC
 ═══════════════════════════════════════════════════════════════
 
 CO-PAY RULE (ABSOLUTE — OVERRIDE ALL OTHER RULES):
-  If the document mentions co-pay/co-payment in ANY form → BAD. Always. No exceptions.
+  CRITICAL DISTINCTION — definition vs applied clause:
+    - A GLOSSARY DEFINITION (e.g. "Co-Payment means a cost-sharing requirement where the insured bears a specified percentage...") is NOT a co-pay clause. Every IRDAI policy must include this definition. IGNORE IT.
+    - An APPLIED CLAUSE actually charges the insured (e.g. "A co-pay of 10% applies", "You shall bear 20% of each claim", "Co-pay of 5% for age 60+", "Co-pay applicable under PPN option").
+
+  If the document has an APPLIED co-pay clause → BAD. Always. No exceptions.
   This includes: optional co-pay, age-based co-pay, PPN co-pay, discounted plan co-pay, co-pay "if opted", co-pay for 60+ only, co-pay with unknown percentage, co-pay "as per schedule".
-  NEVER put co-pay in GOOD, UNCLEAR, or GREAT if the document contains any co-pay clause.
-  Only put co-pay in GREAT if the document has ZERO mention of co-pay anywhere (truly absent).
+  If the ONLY co-pay mention is a glossary definition (no applied clause) → GREAT.
   In that GREAT case, the entry should say: name="Co-pay", explanation="No co-pay is charged on this plan — the insurer bears 100% of all admissible claims. This is better than most policies which charge 10–20% co-pay for senior citizens."
 
 GREAT — better than market standard:
@@ -73,7 +76,7 @@ GREAT — better than market standard:
   PED Waiting     : < 24 months (12 months = GREAT)
   Specific Illness: < 24 months
   Initial Waiting : 0 days
-  Co-pay          : Zero mention of co-pay anywhere in the document (see CO-PAY RULE above)
+  Co-pay          : No applied co-pay clause (glossary definition alone does not count — see CO-PAY RULE above)
   Restore Benefit : Covers SAME illness / Unlimited refills
   Consumables     : Fully covered
   Pre-hosp        : > 60 days
@@ -105,7 +108,7 @@ BAD — worse than market standard (genuine red flags):
   PED Waiting     : > 48 months (more than 4 years only)
   Specific Illness: > 24 months
   Initial Waiting : > 30 days
-  Co-pay          : ANY co-pay clause in the document = BAD (see CO-PAY RULE above). This is the most important rule — do not deviate.
+  Co-pay          : Any APPLIED co-pay clause = BAD (see CO-PAY RULE above). A glossary definition alone is not an applied clause.
   Restore         : Not available
   Consumables     : Not covered
   Pre-hosp        : < 30 days
@@ -115,7 +118,7 @@ BAD — worse than market standard (genuine red flags):
 
 UNCLEAR — genuinely ambiguous:
   Use ONLY when: the policy wording is vague (e.g. "at insurer's discretion"), contradictory, or genuinely does not state a value that matters.
-  NOTE: If co-pay is not mentioned anywhere in the document → GREAT (no co-pay). If co-pay IS mentioned in any form → BAD. Never put co-pay in UNCLEAR.
+  NOTE: If no applied co-pay clause exists → GREAT (glossary definition alone = no co-pay). If an applied co-pay clause exists → BAD. Never put co-pay in UNCLEAR.
   DO NOT use UNCLEAR just because a value depends on Policy Schedule — infer the direction and put in GREAT/GOOD/BAD.
 
 NEVER flag these (standard IRDAI exclusions): maternity not covered in base, infertility, cosmetic surgery, war, self-harm, dental unless accident, spectacles, HIV.
@@ -240,7 +243,7 @@ for (const insurer of fs.readdirSync(OUT_DIR).sort()) {
   }
 }
 
-const CONCURRENCY = 8;
+const CONCURRENCY = 15;
 
 console.log(`Re-grading ${filesToProcess.length} policies with ${MODEL} (concurrency=${CONCURRENCY})…\n`);
 
@@ -270,10 +273,20 @@ for (const filePath of filesToProcess) {
       const isCoPayEntry = nameLower.includes('co-pay') || nameLower.includes('copay') || nameLower.includes('co pay');
       if (!isCoPayEntry) { toKeep.push(f); continue; }
 
-      // Keep in GREAT only if explanation explicitly says there is no co-pay
+      // Keep in GREAT only if explanation explicitly says there is no co-pay,
+      // OR if the quote is only a glossary definition (not an applied clause)
       if (fromBucket === 'great') {
-        const exp = (f.explanation ?? '').toLowerCase();
-        if (exp.includes('no co-pay') || exp.includes('no copay') || exp.includes('zero co-pay') || exp.includes('not charged')) {
+        const exp  = (f.explanation ?? '').toLowerCase();
+        const quote = (f.quote ?? '').toLowerCase();
+        const isDefinitionOnly =
+          (quote.includes('co-payment means') || quote.includes('copayment means') || quote.includes('co payment means')) &&
+          !quote.match(/\d+\s*%/) && // no percentage applied
+          !quote.includes('shall bear') && !quote.includes('you will bear') && !quote.includes('insured shall pay');
+        if (
+          exp.includes('no co-pay') || exp.includes('no copay') ||
+          exp.includes('zero co-pay') || exp.includes('not charged') ||
+          isDefinitionOnly
+        ) {
           toKeep.push(f); continue;
         }
       }

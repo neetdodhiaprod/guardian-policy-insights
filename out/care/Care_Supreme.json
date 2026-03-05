@@ -5,9 +5,9 @@
   "policyType": "Individual | Family Floater",
   "documentType": "Policy Wording",
   "summary": {
-    "great": 7,
+    "great": 6,
     "good": 6,
-    "bad": 4,
+    "bad": 3,
     "unclear": 0
   },
   "features": {
@@ -16,43 +16,37 @@
         "name": "Room Rent",
         "quote": "The eligible Room Rent or Room Category applicable for the Insured Person under the Policy is 'No limit', which means that there is no separate restriction on Room Charges incurred towards stay during Hospitalization",
         "reference": "Clause 3.1.1(ix)(i), page 18",
-        "explanation": "There is no limit on room rent charges during hospitalization, so you can choose any room without extra deductions."
+        "explanation": "Room rent is on a 'No limit' basis during hospitalization. This lets you choose any room category without room-rent-linked deductions."
       },
       {
         "name": "ICU Charges",
         "quote": "Intensive Care Unit Charges (ICU Charges): The eligible ICU Charges applicable for the Insured Person under the Policy is 'No limit'",
         "reference": "Clause 3.1.1(ix)(ii), page 18",
-        "explanation": "ICU charges have no separate cap, so full ICU expenses are covered without restriction."
+        "explanation": "ICU charges are covered with 'No limit' under the policy. This reduces the risk of large out-of-pocket costs during critical care."
       },
       {
         "name": "Restore Benefit",
         "quote": "automatically make the re-instatement of up to the base Sum Insured unlimited times in a policy year... Recharge amount can be utilized for same illness as well as different Illnesses.",
         "reference": "Clause 3.1.4, page 20",
-        "explanation": "The policy restores your base sum insured unlimited times per year, usable even for the same illness, giving you extra coverage after your limit is used."
+        "explanation": "Base Sum Insured is reinstated unlimited times in a policy year. The recharged amount can be used for the same illness as well as different illnesses, which is stronger than typical restores."
       },
       {
         "name": "NCB",
         "quote": "enhance the Sum Insured by 50% flat, on a cumulative basis... (vi) In the event of a Claim there is no impact on the accrual of Cumulative Bonus.",
         "reference": "Clause 3.1.3, page 19",
-        "explanation": "Your sum insured increases by 50% each claim-free year up to 100%, and this bonus continues even after you make claims, so your coverage grows over time."
+        "explanation": "Sum Insured increases by a flat 50% cumulatively as Cumulative Bonus. Even if you make a claim, the accrual of Cumulative Bonus is not impacted, so your bonus does not reset."
       },
       {
         "name": "Built-in SI Buffer",
         "quote": "For any single Claim during a Policy Year, the maximum Claim amount payable shall be sum total of Sum Insured, Cumulative Bonus , Cumulative Bonus Super (if applicable), Plus Benefit (if applicable), Unlimited Care (if applicable).",
         "reference": "General Conditions, Clause 3(II), page 14",
-        "explanation": "The policy pays beyond the base sum insured using accrued bonuses and benefits, providing extra financial protection."
+        "explanation": "For a single claim, the maximum payable can be the total of Sum Insured plus add-ons like Cumulative Bonus and other applicable benefits. This can increase the claim-paying capacity beyond the base Sum Insured when those benefits exist."
       },
       {
         "name": "Domiciliary Hospitalization",
         "quote": "The Company will indemnify the Insured Person... for the Medical Expenses incurred towards Domiciliary Hospitalization",
         "reference": "Clause 3.1.1(vii), page 17",
-        "explanation": "Home treatment is covered if it meets policy conditions, offering broader coverage beyond hospital stays."
-      },
-      {
-        "name": "Cashless Network",
-        "quote": "The Company will indemnify the Insured Person for Medical Expenses incurred towards Hospitalization through Cashless or Reimbursement Facility",
-        "reference": "Clause 3.1.1(i), page 15",
-        "explanation": "You can avail cashless treatment at network hospitals or claim reimbursement for hospitalization expenses."
+        "explanation": "Medical expenses for domiciliary hospitalization are covered as per policy terms. This helps when treatment is taken at home instead of in a hospital."
       }
     ],
     "good": [
@@ -60,37 +54,37 @@
         "name": "PED Waiting Period",
         "quote": "excluded until the expiry of 36 months of continuous coverage after the date of inception of the first policy with insurer.",
         "reference": "Clause 4.1(a)(i)(a), page 32",
-        "explanation": "Pre-existing diseases are excluded for 36 months, which is within the normal market range."
+        "explanation": "Pre-existing diseases are not covered for the first 36 months of continuous coverage. Claims for declared/known conditions will be payable only after this waiting period ends."
       },
       {
         "name": "Specific Illness Waiting",
         "quote": "excluded until the expiry of 24 months of continuous coverage",
         "reference": "Clause 4.1(a)(ii)(a), page 32-33",
-        "explanation": "Waiting period for listed illnesses is 24 months, which is standard in the market."
+        "explanation": "Listed specific illnesses are excluded for 24 months of continuous coverage. You should expect no payout for those conditions until the 2-year wait is completed."
       },
       {
-        "name": "Initial Waiting",
+        "name": "Initial Waiting Period",
         "quote": "Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident",
         "reference": "Clause 4.1(a)(iii)(a), page 34",
-        "explanation": "Illnesses are excluded for the first 30 days except for accidents, which is a standard waiting period."
+        "explanation": "Illness-related claims are not covered for the first 30 days from policy start, except accidents. This is the standard initial waiting period in retail health insurance."
       },
       {
         "name": "Pre-hospitalization Cover",
         "quote": "For a period of 60 days immediately prior to the Insured Person's date of admission to the Hospital",
         "reference": "Clause 3.1.1(iv)(i), page 16",
-        "explanation": "Pre-hospitalization expenses are covered for 60 days before hospital admission, which meets market standards."
+        "explanation": "Pre-hospitalization medical expenses are covered for up to 60 days before admission. This helps pay for consultations, tests, and medicines leading up to hospitalization."
       },
       {
         "name": "Post-hospitalization Cover",
         "quote": "For a period of 180 days immediately after the Insured Person's date of discharge from the hospital",
         "reference": "Clause 3.1.1(v)(i), page 17",
-        "explanation": "Post-hospitalization expenses are covered for 180 days after discharge, which is at the higher end of standard coverage."
+        "explanation": "Post-hospitalization medical expenses are covered for up to 180 days after discharge. This supports follow-up treatment and medicines for a longer recovery period."
       },
       {
         "name": "Air Ambulance",
         "quote": "The Company will indemnify the Insured Person up to the amount as specified in Policy Schedule , for the Reasonable and Customary Charges necessarily incurred on availing Air Ambulance services",
         "reference": "Clause 3.2.14, page 29-30",
-        "explanation": "Air ambulance coverage is available as an optional benefit within specified limits."
+        "explanation": "Air ambulance expenses are covered up to the amount specified in the Policy Schedule. This can be valuable for emergency transfers but is limited to the scheduled cap."
       }
     ],
     "bad": [
@@ -98,25 +92,19 @@
         "name": "Consumables",
         "quote": "Any item or condition or treatment specified in List of Non-Medical Items (Annexure – I to Policy Terms & Conditions).",
         "reference": "Clause 4.2(1), page 37 and Annexure I (List I – Optional Items) pages 58-59",
-        "explanation": "Consumable items like gloves and masks are excluded by default, so you may have to pay out-of-pocket unless you buy an optional cover."
+        "explanation": "Items listed as non-medical/consumables in Annexure I are excluded from claims. This can increase out-of-pocket costs for common hospital items unless covered via an add-on."
       },
       {
         "name": "Disease Sub-limits",
         "quote": "For diseases or conditions or procedure that have a specified sub-limit then all related expenses shall be covered up to the sub-limit specified for that disease or condition or procedure.",
         "reference": "Clause 6.1.7(h), page 57-58",
-        "explanation": "The policy allows sub-limits on specific diseases or procedures, which can reduce your effective coverage for those conditions."
+        "explanation": "If a disease/procedure has a specified sub-limit, all related expenses are payable only up to that sub-limit. This can significantly reduce payouts even when your Sum Insured is higher."
       },
       {
-        "name": "Domiciliary Exclusions",
-        "quote": "Any Medical Expenses incurred for the treatment in relation to any of the following diseases shall not be payable under this Benefit : 1. Asthma; ... 5. Diabetes Mellitus and Diabetes Insipidus; ... 7. Hypertension; ...",
-        "reference": "Clause 3.1.1(vii)(v), page 17-18",
-        "explanation": "Several common conditions like asthma, diabetes, and hypertension are excluded from domiciliary hospitalization coverage."
-      },
-      {
-        "name": "Co-pay",
+        "name": "Co-pay (Optional)",
         "quote": "The Co-payment proportion ( If opted ) shall be borne by the Insured Person on each Claim...",
         "reference": "General Conditions, Clause 4, page 14 and Optional Benefit 3.2.7, page 24-25",
-        "explanation": "The policy mentions a co-pay clause that applies if chosen, which is a negative feature as any co-pay clause is considered a red flag."
+        "explanation": "A co-payment applies on each claim if this option is opted. This means you will bear a percentage of every admissible claim, which increases your out-of-pocket cost."
       }
     ],
     "unclear": []

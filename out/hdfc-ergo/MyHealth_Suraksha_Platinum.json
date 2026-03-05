@@ -5,56 +5,56 @@
   "policyType": "Individual | Family Floater",
   "documentType": "Policy Wording",
   "summary": {
-    "great": 1,
-    "good": 6,
+    "great": 3,
+    "good": 4,
     "bad": 3,
     "unclear": 2
   },
   "features": {
     "great": [
       {
-        "name": "Built-in SI Buffer",
-        "quote": "We will pay for Medical Expenses incurred and admissible under Section B-I-1,up to additional Sum Insured equivalent to Basic Sum Insured... Claim under this Cover is admissible only when total of Basic Sum Insuredis completely utilized.",
-        "reference": "Section B, III Optional Covers, 9. Major Illness Hospitalization Expenses (around page 16)",
-        "explanation": "You get an extra Sum Insured equal to your Basic Sum Insured for major illnesses, usable only after your base Sum Insured is fully used in the policy year. This gives you additional financial protection beyond the base limit."
-      }
-    ],
-    "good": [
-      {
-        "name": "PED Waiting Period",
-        "quote": "Expenses related to the treatment of a pre-existing disease (PED) and its direct complications shall be excluded until the expiry of 48 months of continuous coverage after the date of inception of the first policy with insurer.",
-        "reference": "Section C, 1.I Waiting Periods, i) Pre-existing Diseases – Code – Excl01 (around page 19)",
-        "explanation": "Pre-existing diseases are covered after 48 months of continuous coverage. This waiting period is standard and acceptable in the market."
-      },
-      {
-        "name": "Specific Illness Waiting",
-        "quote": "Expenses related to the treatment of the listed Conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first Policy with us.",
-        "reference": "Section C, 1.I Waiting Periods, ii) Specified Disease/Procedure waiting period – Code – Excl02 (around page 19)",
-        "explanation": "Listed conditions and surgeries are covered after 24 months of continuous coverage, which aligns with industry norms."
-      },
-      {
-        "name": "Initial Waiting Period",
-        "quote": "Expenses related to the treatment of any illness within 30 days from the first Policy commencement date shall be excluded except claims arising due to an Accident",
-        "reference": "Section C, 1.I Waiting Periods, iii) 30-day waiting period – Code – Excl03 (around page 20)",
-        "explanation": "Illnesses are not covered in the first 30 days except for accidents, which is a common waiting period in health insurance."
-      },
-      {
         "name": "Pre-hospitalization Cover",
         "quote": "We will pay for the Pre-hospitalization Medical Expenses incurred during the 60 days immediately before Hospitalization",
         "reference": "Section B, I Hospitalization Cover, 4. Pre-hospitalization cover (around page 10)",
-        "explanation": "Medical expenses up to 60 days before hospitalization are covered, providing good support for related treatment costs."
+        "explanation": "Pre-hospitalization medical expenses are covered for 60 days immediately before hospitalization. This helps pay for consultations, tests and medicines leading up to admission."
       },
       {
         "name": "Post-hospitalization Cover",
         "quote": "We will pay for the Post-HospitalizationMedical Expenses incurred upto180 days from the date Insured Person is discharged from Hospital",
         "reference": "Section B, I Hospitalization Cover, 5. Post-Hospitalization cover (around page 10)",
-        "explanation": "Medical expenses up to 180 days after discharge are covered, which helps with recovery costs."
+        "explanation": "Post-hospitalization medical expenses are covered up to 180 days from the date of discharge. This reduces out-of-pocket costs for follow-ups and medicines during recovery."
       },
       {
-        "name": "No Claim Bonus",
+        "name": "NCB",
         "quote": "On each Renewal of the Policy with Us, We will apply 5% of Basic Sum Insured... Cumulative Bonus will be reduced at the same rate as accrued in the event of admissible Claim... Cumulative Bonus can be accumulated upto 50% of Basic Sum Insured.",
         "reference": "Section B, II Renewal Benefits, 2. Cumulative Bonus (around page 11)",
-        "explanation": "Your Sum Insured increases by 5% each claim-free renewal up to 50%, but reduces proportionally if you claim. This rewards claim-free years with higher coverage."
+        "explanation": "A 5% cumulative bonus is added on each claim-free renewal, up to 50% of the Basic Sum Insured, and it reduces by the same rate when a claim is paid. This means your bonus does not reset to zero after a claim, which preserves some extra cover."
+      }
+    ],
+    "good": [
+      {
+        "name": "Built-in SI Buffer",
+        "quote": "We will pay for Medical Expenses incurred and admissible under Section B-I-1,up to additional Sum Insured equivalent to Basic Sum Insured... Claim under this Cover is admissible only when total of Basic Sum Insuredis completely utilized.",
+        "reference": "Section B, III Optional Covers, 9. Major Illness Hospitalization Expenses (around page 16)",
+        "explanation": "An additional Sum Insured equal to the Basic Sum Insured is available, but only after the Basic Sum Insured is completely used. This provides extra protection for large claims, but it is not usable for the first claim until the base limit is exhausted."
+      },
+      {
+        "name": "PED Waiting Period",
+        "quote": "Expenses related to the treatment of a pre-existing disease (PED) and its direct complications shall be excluded until the expiry of 48 months of continuous coverage after the date of inception of the first policy with insurer.",
+        "reference": "Section C, 1.I Waiting Periods, i) Pre-existing Diseases – Code – Excl01 (around page 19)",
+        "explanation": "Pre-existing diseases are covered only after 48 months of continuous coverage from the first policy start date. This is a standard 4-year waiting period, so plan coverage accordingly if you have known conditions."
+      },
+      {
+        "name": "Specific Illness Waiting",
+        "quote": "Expenses related to the treatment of the listed Conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first Policy with us.",
+        "reference": "Section C, 1.I Waiting Periods, ii) Specified Disease/Procedure waiting period – Code – Excl02 (around page 19)",
+        "explanation": "Listed specified diseases/procedures are covered after 24 months of continuous coverage. This is in line with common market practice for such conditions."
+      },
+      {
+        "name": "Initial Waiting Period",
+        "quote": "Expenses related to the treatment of any illness within 30 days from the first Policy commencement date shall be excluded except claims arising due to an Accident",
+        "reference": "Section C, 1.I Waiting Periods, iii) 30-day waiting period – Code – Excl03 (around page 20)",
+        "explanation": "Illness-related claims are not covered for the first 30 days from policy commencement, except accidents. This is a standard initial waiting period in retail health insurance."
       }
     ],
     "bad": [
@@ -62,19 +62,19 @@
         "name": "Restore Benefit",
         "quote": "Not found in provided policy wording excerpt.",
         "reference": "Document review: Section B Benefits & Optional Covers (no restore/reinstatement/restoration clause found).",
-        "explanation": "Sum Insured is not replenished after a claim unless you buy a separate optional benefit. This means you lose coverage amount after a claim."
+        "explanation": "No restoration/reinstatement of Sum Insured is mentioned in the provided wording excerpt. This means once the Sum Insured is used up in a policy year, further hospitalization claims may not be payable unless another benefit adds extra cover."
       },
       {
         "name": "Consumables",
         "quote": "Non-Medical expenses such as Food charges... laundry charges, attendant charges... Full list of Non-Medical expenses is attached... Annexure I - List of Non-Medical Expenses ... (includes) GLOVES ... NEBULISATION KIT ... ANY KIT WITH NO DETAILS MENTIONED...",
         "reference": "Section C, 2.II Specific Permanent Exclusions, xii) Non-Medical expenses (around page 21) and Annexure I lists (around pages 32-34)",
-        "explanation": "Consumables and non-medical items like gloves and kits are excluded unless you buy an add-on cover, meaning you may pay out-of-pocket for these common items."
+        "explanation": "Non-medical/consumable items (e.g., gloves, nebulisation kit and other kits) are excluded as per the annexure list. This can increase your out-of-pocket costs during hospitalization even when the main treatment is covered."
       },
       {
         "name": "Co-pay",
         "quote": "Insured Person shall bear specified percentage of admissible Claim amount under each and every Claim If Co-payment is applicable",
         "reference": "Section B, I Hospitalization Cover (appears repeatedly, around pages 10-11)",
-        "explanation": "Co-pay applies if specified but the default percentage is not stated. It may vary by premium tier or optional cover, so confirm from your Policy Schedule."
+        "explanation": "A co-payment can apply, where you bear a specified percentage of every admissible claim amount if it is applicable. This is a negative because it can reduce every claim payout and increase your share of costs."
       }
     ],
     "unclear": [
@@ -82,13 +82,13 @@
         "name": "Room Rent",
         "quote": "Room rent, boarding and Nursing charges",
         "reference": "Section B, I Hospitalization Cover, 1. Medical Expenses (around page 10)",
-        "explanation": "The default room rent entitlement is not clearly stated; only an optional capped room rent is mentioned. Check your Policy Schedule for your actual room rent limit."
+        "explanation": "Room rent is listed as covered, but the entitlement/limit is not stated in the provided quote. Your actual room category or any cap would need to be confirmed from the Policy Schedule."
       },
       {
         "name": "Cashless Network",
         "quote": "Cashless facility can be availed only at Our Network Provider. The complete list of Network Providers... is available on Our website",
         "reference": "Section E, Claim Procedure, 'Conditions for obtaining Cashless facility' (around page 30)",
-        "explanation": "The policy does not specify the number of network hospitals; you must check the insurer’s website for the current list."
+        "explanation": "Cashless treatment is available only at the insurer’s network providers, with the list hosted on the website. Since the number of hospitals is not stated, the breadth of the cashless network cannot be graded from the wording alone."
       }
     ]
   },

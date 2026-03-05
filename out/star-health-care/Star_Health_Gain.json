@@ -7,41 +7,41 @@
   "summary": {
     "great": 0,
     "good": 5,
-    "bad": 9,
-    "unclear": 3
+    "bad": 8,
+    "unclear": 4
   },
   "features": {
     "great": [],
     "good": [
       {
-        "name": "Specific Illness Waiting",
+        "name": "Specific Illness Waiting Period",
         "quote": "Expenses related to the treatment of the following listed Conditions, surgeries/ treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the ﬁrst policy with us.",
         "reference": "Section III Exclusions > 2. Speciﬁed disease / procedure waiting period - Code Excl 02",
-        "explanation": "Specific illnesses are excluded for 24 months from the start of coverage. This 24-month waiting period is standard and acceptable in the market."
+        "explanation": "Specified diseases/procedures are not covered for the first 24 months from the first policy inception date. Claims for these listed conditions will be payable only after completing 2 years of continuous coverage."
       },
       {
         "name": "PED Waiting Period",
         "quote": "Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 36 months of continuous coverage after the date of inception of the ﬁrst policy with insurer",
         "reference": "Section III Exclusions > 1. Pre-Existing Diseases - Code Excl 01",
-        "explanation": "Pre-existing diseases are excluded for 36 months from policy inception. This 36-month waiting period is common and meets market standards."
+        "explanation": "Pre-existing diseases and their direct complications are not covered for the first 36 months from the first policy inception date. You will need to wait 3 years of continuous coverage before PED-related claims become payable."
       },
       {
         "name": "Initial Waiting Period",
         "quote": "Expenses related to the treatment of any illness within 30 days from the ﬁrst policy commencement date shall be excluded except claims arising due to an accident",
         "reference": "Section III Exclusions > 3. 30-day waiting period - Code Excl 03",
-        "explanation": "Illnesses are not covered for the first 30 days except accidents. A 30-day initial waiting period is standard practice."
+        "explanation": "Illnesses are not covered in the first 30 days from the policy commencement date, except for accidents. Any non-accident hospitalization in this period can be rejected."
       },
       {
         "name": "Pre-hospitalization Cover",
         "quote": "Pre-Hospitalization medical expenses incurred for a period not exceeding 30 days prior to the date of hospitalization",
         "reference": "Section II Coverage > Section I (E)",
-        "explanation": "Medical expenses up to 30 days before hospitalization are covered. This duration is typical in health insurance policies."
+        "explanation": "Medical expenses incurred up to 30 days before hospitalization are covered if related to the hospitalization. This helps pay for pre-admission consultations, tests, and medicines within that window."
       },
       {
         "name": "Post-hospitalization Cover",
         "quote": "Post Hospitalization: Medical expenses incurred for a period up to 60 days from the date of discharge from the hospital",
         "reference": "Section II Coverage > Section I (F)",
-        "explanation": "Medical expenses up to 60 days after hospital discharge are covered. This is a standard post-hospitalization coverage period."
+        "explanation": "Medical expenses incurred up to 60 days after discharge are covered if related to the hospitalization. This supports follow-up visits, diagnostics, and medicines during recovery."
       }
     ],
     "bad": [
@@ -49,75 +49,75 @@
         "name": "Room Rent",
         "quote": "Room, Boarding, Nursing Expenses all inclusive as provided by the Hospital / Nursing Home up to 1% of the sum insured per day",
         "reference": "Section II Coverage > Section I (A)",
-        "explanation": "Room rent is capped at 1% of the sum insured per day. Such daily caps can reduce claim amounts if you choose higher category rooms."
+        "explanation": "Room rent (including boarding and nursing) is capped at 1% of the sum insured per day. Choosing a room above this limit can reduce the payable amount and increase your out-of-pocket costs."
       },
       {
         "name": "Proportionate Deduction",
         "quote": "Expenses relating to hospitalization will be considered in proportion to the eligible room rent stated in the policy or actual whichever is less",
         "reference": "Section II Coverage > Section I (after F)",
-        "explanation": "Because room rent is capped, related hospital expenses may be proportionately reduced, increasing your out-of-pocket costs."
+        "explanation": "Hospitalization expenses can be reduced proportionately if the room chosen is above the eligible room rent limit. This can cut payments across multiple bill heads, not just the room rent."
       },
       {
         "name": "Modern Treatments",
         "quote": "Coverage for Modern Treatments: The expenses payable during the entire policy period for the following treatment/procedure... is limited to the amount mentioned in table below; * Sublimit all inclusive",
         "reference": "Section II Coverage > Section I (G)",
-        "explanation": "Modern treatments are covered but with strict sub-limits, which may lead to significant out-of-pocket expenses."
+        "explanation": "Modern treatments are covered but subject to an overall sub-limit as per the table for the policy period. If the actual cost exceeds the sub-limit, you will have to pay the difference."
       },
       {
         "name": "Disease Sub-limits",
         "quote": "Expenses incurred on treatment of Cataract is subject to the limit as per the following table;",
         "reference": "Section II Coverage > Section I (Cataract table)",
-        "explanation": "Cataract treatment costs are capped per eye per policy period, limiting your claim amount for this condition."
+        "explanation": "Cataract treatment is payable only up to the limit mentioned in the table. Any amount above that cap will be out of pocket even if you have sufficient sum insured."
       },
       {
         "name": "Ambulance Cover",
         "quote": "Emergency ambulance charges up-to a sum of Rs.750/- per hospitalization and overall limit of Rs.1,500/- per policy period",
         "reference": "Section II Coverage > Section I (D)",
-        "explanation": "Ambulance coverage exists but is very low compared to actual ambulance costs, potentially causing out-of-pocket expenses."
+        "explanation": "Emergency ambulance charges are limited to ₹750 per hospitalization and ₹1,500 per policy period. This is typically much lower than real ambulance costs, so you may pay most of it yourself."
       },
       {
-        "name": "Implants Limit",
+        "name": "Implants Sub-limit",
         "quote": "With regard to coronary stenting, the Company will pay such amount up to the extent of cost of bare metal stent/drug eluting cobalt-chromium stent/drug eluting stainless steel stent.",
         "reference": "Section II Coverage > Section I (C)",
-        "explanation": "Reimbursement for coronary stents is limited to specified types and costs, so higher-cost stents may not be fully covered."
+        "explanation": "Coronary stenting is reimbursed only up to the cost of the specified stent types. If a higher-cost stent is used, the extra amount may not be payable."
       },
       {
-        "name": "Medicines Limit",
+        "name": "Medicine Price Limit",
         "quote": "In respect of medicines, Implants and such other similar items, the Company will pay up to the cost of alternate indigenous make",
         "reference": "Section II Coverage > Section I (C)",
-        "explanation": "Reimbursement for medicines and implants is limited to the cost of indigenous alternatives, which may cause extra expense if imported brands are used."
-      },
-      {
-        "name": "No NCB",
-        "quote": "N/A (no No Claim Bonus / cumulative bonus clause found in provided text)",
-        "reference": "Provided pages 1-8 (no explicit NCB section found)",
-        "explanation": "No No Claim Bonus is mentioned, so the sum insured does not increase on claim-free renewals, reducing long-term value."
+        "explanation": "Medicines/implants and similar items are payable only up to the cost of an alternate indigenous make. If the hospital uses imported or higher-priced brands, you may need to bear the difference."
       },
       {
         "name": "Co-pay",
         "quote": "This policy is subject to co-payment of 20% of each and every claim amount for fresh as well as renewal policies for insured persons whose age at the time of entry is 61 years and above",
         "reference": "Section II Coverage > Section I > ii) Co-payment",
-        "explanation": "A 20% co-pay applies for entry age 61 and above. Any co-pay clause makes the policy less favorable as it increases your out-of-pocket costs."
+        "explanation": "A 20% co-pay applies on each and every claim for insured persons with entry age 61 years and above, for both fresh and renewal policies. This means you must pay 20% of admissible claim amounts from your own pocket."
       }
     ],
     "unclear": [
       {
+        "name": "No Claim Bonus",
+        "quote": "N/A (no No Claim Bonus / cumulative bonus clause found in provided text)",
+        "reference": "Provided pages 1-8 (no explicit NCB section found)",
+        "explanation": "No No Claim Bonus clause is visible in the provided pages. If the policy truly has no NCB, your sum insured will not increase on claim-free renewals, but this needs confirmation from the full wording/schedule."
+      },
+      {
         "name": "Restore Benefit",
         "quote": "N/A (no restore/reinstatement/sum insured recharge clause found in provided text)",
         "reference": "Provided pages 1-8 (no restore benefit section found)",
-        "explanation": "No restore benefit is mentioned in the provided text. Confirm with full policy wording if this feature is available."
+        "explanation": "No restore/reinstatement benefit is visible in the provided pages. If not available, the sum insured may not refill after it is used up in a policy year, so confirm from the complete policy wording."
       },
       {
         "name": "Consumables",
         "quote": "N/A (no explicit 'consumables covered' clause found; only list of items to be subsumed into room/procedure/treatment charges is provided)",
         "reference": "Page 8: 'ITEMS THAT ARE TO BE SUBSUMED...' tables",
-        "explanation": "Consumables are not explicitly confirmed as covered separately, which may lead to out-of-pocket costs. Verify in complete policy documents."
+        "explanation": "The provided pages do not clearly confirm whether consumables are payable or excluded beyond being “subsumed” into other charges. If consumables are not covered, items like gloves, syringes, and masks can become out-of-pocket."
       },
       {
         "name": "Cashless Network",
         "quote": "Cashless facility can be availed only in networked Hospitals",
         "reference": "Section IV Conditions > 2(B)(j)",
-        "explanation": "Cashless treatment is available only at network hospitals, but the size of the network is not stated, so network strength is unknown."
+        "explanation": "Cashless treatment is available only at network hospitals. The number/list of network hospitals is not provided here, so you should verify network availability in your city before buying."
       }
     ]
   },

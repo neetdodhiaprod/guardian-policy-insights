@@ -5,10 +5,10 @@
   "policyType": "Individual | Family Floater",
   "documentType": "Policy Wording",
   "summary": {
-    "great": 4,
-    "good": 8,
-    "bad": 6,
-    "unclear": 1
+    "great": 2,
+    "good": 7,
+    "bad": 4,
+    "unclear": 4
   },
   "features": {
     "great": [
@@ -16,75 +16,57 @@
         "name": "Restore Benefit",
         "quote": "We will reset up to 100% of the Annual Sum Insured, Once for same illness/disease/injury and Unlimited times for different illness/disease/injury for the same Insured Person in a Policy Year",
         "reference": "Section d.A.7 (Page 15)",
-        "explanation": "The sum insured is restored once for the same illness and unlimited times for different illnesses within a policy year. This provides strong protection if you exhaust coverage on multiple conditions."
+        "explanation": "Up to 100% of the Annual Sum Insured is restored once for the same illness and unlimited times for different illnesses in the same policy year. This reduces the risk of running out of cover after one big claim."
       },
       {
-        "name": "Built-in SI Buffer",
+        "name": "Loyalty Bonus",
         "quote": "We will provide a Loyalty Bonus of 20% of expiring or renewed Annual Sum Insured (whichever is lower) at the end of each Policy Year... If the Insured Persons in the expiring Policy are covered on an individual basis... In the event of Claim... the credited Loyalty Bonus will not be reduced.",
         "reference": "Section d.A.14 (Pages 25-26)",
-        "explanation": "Your sum insured increases by 20% each year as a loyalty bonus, which is not reduced after claims. This acts as extra coverage without extra premium."
-      },
-      {
-        "name": "Modern Treatments",
-        "quote": "We will cover the Medical Expenses... for the below mentioned Technological advancements and Treatments... Robotic surgeries, Stem cell therapy: Hematopoietic stem cells for bone marrow transplant..., Deep Brain stimulation... Bronchical Thermoplasty, IONM",
-        "reference": "Section d.A.3 (Page 14)",
-        "explanation": "Advanced procedures like robotic surgery and stem cell therapy are covered. This ensures access to modern treatments often excluded in weaker plans."
-      },
-      {
-        "name": "Cashless Network",
-        "quote": "We will respond within 1 hours of the actual receipt of such pre authorization request... grant final authorization within three hours of the receipt of discharge authorization request from the hospital.",
-        "reference": "Section g.I.1(A) (Page 52)",
-        "explanation": "The insurer commits to quick cashless claim approvals within hours. This means faster hospital admissions and discharge settlements."
+        "explanation": "A 20% Loyalty Bonus is added at the end of each policy year (based on expiring or renewed Annual Sum Insured, whichever is lower) and it is not reduced even if you make a claim. This gives you extra sum insured growth without losing it after claims."
       }
     ],
     "good": [
       {
+        "name": "Modern Treatments",
+        "quote": "We will cover the Medical Expenses... for the below mentioned Technological advancements and Treatments... Robotic surgeries, Stem cell therapy: Hematopoietic stem cells for bone marrow transplant..., Deep Brain stimulation... Bronchical Thermoplasty, IONM",
+        "reference": "Section d.A.3 (Page 14)",
+        "explanation": "Medical expenses are covered for listed modern treatments like robotic surgeries, hematopoietic stem cell therapy for bone marrow transplant, deep brain stimulation, bronchial thermoplasty and IONM. This improves access to newer procedures that are sometimes restricted in basic plans."
+      },
+      {
         "name": "PED Waiting Period",
         "quote": "Expenses related to the treatment of a pre-existing Disease (PED)... shall be excluded until the expiry of 12/24 months (as per the plan opted) of continuous coverage",
         "reference": "Exclusions e.i.1 (Page 37)",
-        "explanation": "Pre-existing diseases are excluded for either 12 or 24 months depending on your plan. Both durations are acceptable market standards."
+        "explanation": "Pre-existing diseases are not covered until 12 or 24 months of continuous coverage, depending on the plan chosen. This is a common waiting period range in retail health insurance."
       },
       {
         "name": "Specific Illness Waiting",
         "quote": "Expenses related to the treatment of the listed Conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage",
         "reference": "Exclusions e.i.2 (Pages 37-38)",
-        "explanation": "Treatment for specified diseases is excluded for 24 months from policy start. This is a standard waiting period in health insurance."
+        "explanation": "Listed specific conditions/surgeries are not covered for the first 24 months of continuous coverage. This is a standard specific-disease waiting period."
       },
       {
         "name": "Initial Waiting Period",
         "quote": "Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident",
         "reference": "Exclusions e.i.4 (Page 38)",
-        "explanation": "Illnesses are excluded for the first 30 days except accidents. This is a common initial waiting period."
-      },
-      {
-        "name": "Post-hospitalization Cover",
-        "quote": "We will cover the Post-hospitalization Medical Expenses... up to the limits as specified in the Policy Schedule",
-        "reference": "Section d.A.5 (Page 15)",
-        "explanation": "Medical expenses after hospitalization are covered as per limits in your policy schedule. This helps with recovery costs after discharge."
-      },
-      {
-        "name": "Pre-hospitalization Cover",
-        "quote": "We will cover the Pre-hospitalization Medical Expenses... up to the limits as specified in the Policy Schedule",
-        "reference": "Section d.A.4 (Page 14-15)",
-        "explanation": "Medical expenses before hospitalization are covered within limits stated in your policy schedule. This supports diagnosis and treatment before admission."
+        "explanation": "Illnesses are not covered in the first 30 days from the first policy start date, except for accidents. This is the usual initial waiting period in health insurance."
       },
       {
         "name": "Domiciliary Hospitalization",
         "quote": "We will cover the Medical Expenses incurred in respect of the Domiciliary Hospitalization... provided that: i. The Domiciliary Hospitalization continues for at least 3 consecutive days",
         "reference": "Section d.A.11 (Page 17)",
-        "explanation": "Home-based hospitalization is covered if it lasts at least 3 days. This provides coverage for treatment at home when hospital admission is not possible."
+        "explanation": "Home treatment is covered as domiciliary hospitalization if it continues for at least 3 consecutive days (subject to the section conditions). This can help when hospital admission is not possible or advisable."
       },
       {
         "name": "Air Ambulance",
         "quote": "We will cover the expenses incurred on Air Ambulance services up to the Annual Sum Insured... It is for a life threatening emergency health conditions... Domestic Road Ambulance services cannot be provided.",
         "reference": "Section d.A.9 (Page 16)",
-        "explanation": "Air ambulance is covered for life-threatening emergencies up to the sum insured. This ensures quick emergency transport when needed."
+        "explanation": "Air ambulance expenses are covered up to the Annual Sum Insured for life-threatening emergencies when domestic road ambulance services cannot be provided. This can be valuable for critical transfers but is restricted to specific emergency situations."
       },
       {
         "name": "Optional Covers",
         "quote": "Optional Covers available under the Policy: ... Maternity Cover & New Born Baby Cover ... Super Loyalty Bonus ... Sum Insured Protector ... Claim Protector ... Worldwide Cover",
         "reference": "Policy Schedule section a.IX (Page 4) and Section d.B (Pages 27-37)",
-        "explanation": "You can add optional covers like maternity and worldwide cover by paying extra premium. These add flexibility and extra benefits."
+        "explanation": "Optional covers like Maternity & New Born Baby Cover, Super Loyalty Bonus, Sum Insured Protector, Claim Protector and Worldwide Cover are available for an extra premium. This lets you customize the policy based on your needs."
       }
     ],
     "bad": [
@@ -92,45 +74,51 @@
         "name": "Consumables",
         "quote": "medicines, drugs and consumables (other than those specified in the list of excluded expenses (non-medical) in Annexure I)",
         "reference": "Section d.A.1(v) (Page 13) and Non Payables List (Pages 47-51)",
-        "explanation": "Many common hospital consumables and non-medical items are excluded unless you opt for the Claim Protector add-on. This may cause out-of-pocket expenses."
-      },
-      {
-        "name": "Room Rent",
-        "quote": "We will cover... i. Room Rent charges",
-        "reference": "Section d.A.1 (Page 13)",
-        "explanation": "The policy wording does not specify any room rent category or limit, so your entitlement is unclear without the policy schedule. This can lead to unexpected capping."
-      },
-      {
-        "name": "No Classic NCB",
-        "quote": "Loyalty Bonus means any increase or addition in the Sum Insured granted by the insurer without an associated increase in premium.",
-        "reference": "Definitions (Page 7) and Section d.A.14 (Page 25)",
-        "explanation": "The policy offers a loyalty bonus but does not describe a traditional No Claim Bonus that reduces premium or resets on claim. This may be less beneficial if you expect classic NCB."
+        "explanation": "Consumables are only covered except for items listed as excluded (non-medical) in Annexure I, which typically includes many common hospital consumables. This can lead to out-of-pocket costs for items like gloves, syringes and other non-payables."
       },
       {
         "name": "Claim Intimation",
         "quote": "The above information needs to be provided... within 10 days of Hospitalisation, failing which We will have the right to treat the Claim as inadmissible, as We may deem fit at Our sole discretion.",
         "reference": "Section g.I.1(B)(i) (Page 53)",
-        "explanation": "If you fail to inform the insurer within 10 days of hospitalization, your claim can be rejected at the insurer's discretion. This is a strict requirement."
+        "explanation": "Claim information must be provided within 10 days of hospitalization, failing which the insurer may treat the claim as inadmissible at its sole discretion. This is a strict condition that can risk rejection if you miss timelines."
       },
       {
         "name": "Home Care Approval",
         "quote": "Prior approval from Us has been taken... In case the Insured Person breaches the conditions of approval or fails to take the prior written approval from Company, we are not liable to settle any claim under this section.",
         "reference": "Section d.A.12 (Page 18)",
-        "explanation": "Home care treatment requires prior written approval; without it, claims under this section will be denied. This limits flexibility for home treatment."
+        "explanation": "Prior written approval is required for home care, and breach of approval conditions or not taking approval makes the insurer not liable under this section. This can make home-care claims harder to use in urgent situations."
       },
       {
         "name": "Co-pay",
         "quote": "Co-Payment means a cost sharing requirement... the policyholder/insured will bear a specified percentage of the admissible claims amount.",
         "reference": "Definitions (Page 7) and Exclusions intro (Page 37): \"...or Co-payment amount, if applicable and as specifically defined in the Policy Schedule\"",
-        "explanation": "The policy defines co-pay but does not specify the percentage in the base plan wording. You need to check your policy schedule to know if co-pay applies."
+        "explanation": "A co-payment may apply “as specifically defined in the Policy Schedule,” meaning you could be required to bear a percentage of each admissible claim. Any co-pay increases your out-of-pocket share on every claim where it applies."
       }
     ],
     "unclear": [
       {
-        "name": "Pre/Post-hospitalization",
-        "quote": "up to the limits as specified in the Policy Schedule",
-        "reference": "Section d.A.4 and d.A.5 (Pages 14-15)",
-        "explanation": "Pre- and post-hospitalization coverage exists but the exact number of days or amount is not stated here. Refer to your policy schedule for details."
+        "name": "Room Rent",
+        "quote": "We will cover... i. Room Rent charges",
+        "reference": "Section d.A.1 (Page 13)",
+        "explanation": "Room rent is covered, but the eligible room category/limit is not stated in the quoted wording. If the schedule applies a cap, it can increase your costs and may trigger proportionate deductions."
+      },
+      {
+        "name": "Pre-hospitalization Cover",
+        "quote": "We will cover the Pre-hospitalization Medical Expenses... up to the limits as specified in the Policy Schedule",
+        "reference": "Section d.A.4 (Page 14-15)",
+        "explanation": "Pre-hospitalization expenses are covered, but the number of days/limits are only stated in the Policy Schedule. Your out-of-pocket costs will depend on the schedule limits for diagnostics and consultations before admission."
+      },
+      {
+        "name": "Post-hospitalization Cover",
+        "quote": "We will cover the Post-hospitalization Medical Expenses... up to the limits as specified in the Policy Schedule",
+        "reference": "Section d.A.5 (Page 15)",
+        "explanation": "Post-hospitalization expenses are covered, but the number of days/limits are only stated in the Policy Schedule. This matters because follow-up medicines and tests after discharge can be significant."
+      },
+      {
+        "name": "Cashless Process",
+        "quote": "We will respond within 1 hours of the actual receipt of such pre authorization request... grant final authorization within three hours of the receipt of discharge authorization request from the hospital.",
+        "reference": "Section g.I.1(A) (Page 52)",
+        "explanation": "The insurer states timelines of 1 hour for responding to pre-authorization and 3 hours for final discharge authorization after receiving the hospital request. These are service timelines and do not confirm the size of the cashless hospital network or guarantee approval."
       }
     ]
   },

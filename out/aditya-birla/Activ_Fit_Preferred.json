@@ -6,8 +6,8 @@
   "documentType": "Policy Wording",
   "summary": {
     "great": 2,
-    "good": 4,
-    "bad": 4,
+    "good": 3,
+    "bad": 1,
     "unclear": 3
   },
   "features": {
@@ -16,39 +16,33 @@
         "name": "Restore Benefit",
         "quote": "If the Policy Sum Insured along with accumulated No Claim Bonus (if any), Super No Claim Bonus (if any), is completely exhausted or is insufficient for covering a claim as a result of previous claims, then We shall provide for a refill of the Sum Insured, unlimited times during the Policy Year... The Refill of Sum Insured shall be available for all subsequent claims also and to any Illness / Injury (including its complications) for which a claim has been admitted",
         "reference": "Section C.I (j) Binge Refill",
-        "explanation": "The insurer refills your Sum Insured unlimited times within the policy year if your base limit and bonuses are used up, even for the same illness or its complications. This gives you extra coverage during the year without waiting for renewal."
+        "explanation": "Provides an unlimited refill of Sum Insured during the policy year once the base Sum Insured (plus NCB/Super NCB, if any) is exhausted or insufficient. The refill can be used for subsequent claims even for the same illness/injury and its complications."
       },
       {
-        "name": "Built-in SI Buffer",
-        "quote": "If the Policy Sum Insured along with accumulated No Claim Bonus (if any), Super No Claim Bonus (if any), is completely exhausted... then We shall provide for a refill of the Sum Insured, unlimited times during the Policy Year",
-        "reference": "Section C.I (j) Binge Refill",
-        "explanation": "An extra Sum Insured layer activates automatically after your base limit and bonuses are exhausted, reducing the risk of running out of cover mid-year."
+        "name": "NCB",
+        "quote": "We shall apply a cumulative bonus in the form of No Claim Bonus at such 10% of the Sum Insured of the expiring policy year... The accumulated No Claim Bonus shall not exceed 100% of the Sum Insured... In the event of a claim impacting the eligibility of a No Claim Bonus, the accumulated No Claim Bonus shall be reduced by the percentage of Sum Insured as accumulated in the previous Policy Year",
+        "reference": "Section C.II (l) (I).a No Claim Bonus",
+        "explanation": "Gives a 10% No Claim Bonus each claim-free year up to a maximum of 100% of Sum Insured. If you claim, the accumulated bonus reduces by the last year’s accumulated percentage instead of resetting to zero."
       }
     ],
     "good": [
       {
-        "name": "Initial Waiting",
+        "name": "Initial Waiting Period",
         "quote": "Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident",
         "reference": "Section D.I.3 (Code-Excl03) 30-day waiting period",
-        "explanation": "Illnesses are not covered during the first 30 days except if caused by an accident. This is a standard initial waiting period."
+        "explanation": "Illnesses are not covered for the first 30 days from the policy start date, but accidents are covered from day 1. This is a standard waiting period in retail health insurance."
       },
       {
-        "name": "Specific Illness Waiting",
+        "name": "Specific Illness Waiting Period",
         "quote": "Expenses related to the treatment of the listed Conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first policy with Us.",
         "reference": "Section D.I.2 (Code-Excl02) Specified disease / procedure waiting period",
-        "explanation": "Certain listed illnesses and procedures are covered only after 24 months of continuous coverage, unless caused by an accident."
-      },
-      {
-        "name": "No Claim Bonus",
-        "quote": "We shall apply a cumulative bonus in the form of No Claim Bonus at such 10% of the Sum Insured of the expiring policy year... The accumulated No Claim Bonus shall not exceed 100% of the Sum Insured... In the event of a claim impacting the eligibility of a No Claim Bonus, the accumulated No Claim Bonus shall be reduced by the percentage of Sum Insured as accumulated in the previous Policy Year",
-        "reference": "Section C.II (l) (I).a No Claim Bonus",
-        "explanation": "Your Sum Insured increases by 10% for each claim-free year up to 100%, but a claim reduces the accumulated bonus. This is a common renewal bonus with partial reduction on claim."
+        "explanation": "Listed diseases/procedures are covered only after 24 months of continuous coverage from the first policy inception with the insurer. This delays coverage for those conditions even if you are otherwise covered for hospitalization."
       },
       {
         "name": "Domiciliary Hospitalization",
         "quote": "We shall cover the Medical Expenses incurred for the Insured Person’s Domiciliary Hospitalization, up to the Sum Insured as specified in the Policy Schedule / Product Benefit Table of this Policy",
         "reference": "Section C.I (f) a. Domiciliary Hospitalization",
-        "explanation": "Medical treatment taken at home due to medical necessity or unavailability of hospital beds is covered up to the Sum Insured, subject to conditions."
+        "explanation": "Home treatment (domiciliary hospitalization) is covered up to the Sum Insured as per the Policy Schedule/Product Benefit Table. This helps when hospitalization is not possible and treatment is medically required at home."
       }
     ],
     "bad": [
@@ -56,45 +50,27 @@
         "name": "Room Rent",
         "quote": "Reasonable and Customary Charges for Room Rent for accommodation in Hospital room and other boarding charges up to the limits as specified in the Policy Schedule / Product Benefit Table of this Policy;",
         "reference": "Section C.I (a) In-patient Hospitalization (i)",
-        "explanation": "Room rent is capped as per your plan or schedule, not paid at actuals. Choosing a higher room category than eligible may cause proportional deductions in your claim."
-      },
-      {
-        "name": "Consumables",
-        "quote": "Medicines, drugs and other allowable consumables prescribed by the treating Medical Practitioner;",
-        "reference": "Section C.I (a) In-patient Hospitalization (vi)",
-        "explanation": "Consumables are not clearly covered as a separate benefit and may be excluded or capped. This means you might have to pay out-of-pocket for some consumables."
-      },
-      {
-        "name": "No Claim Bonus Reduction",
-        "quote": "In the event of a claim impacting the eligibility of a No Claim Bonus, the accumulated No Claim Bonus shall be reduced by the percentage of Sum Insured as accumulated in the previous Policy Year",
-        "reference": "Section C.II (l) (I).a No Claim Bonus, Condition (xi)",
-        "explanation": "A claim reduces your accumulated No Claim Bonus, meaning your renewal bonus is not protected after a claim."
-      },
-      {
-        "name": "Co-pay",
-        "quote": "The Sum Insured and/or the sub-limit for each Benefit under Section C.I is specified against that Benefit in the Policy Schedule / Product Benefit Table of this Policy.",
-        "reference": "Section C.I Basic Covers (general clause)",
-        "explanation": "The policy wording does not clearly state if any co-payment applies by default. Check your Policy Schedule for exact co-pay details."
+        "explanation": "Room rent is payable only up to limits mentioned in the Policy Schedule/Product Benefit Table, not at actuals. If your plan has a room cap, choosing a higher room category can increase out-of-pocket costs (including possible proportionate deductions)."
       }
     ],
     "unclear": [
       {
-        "name": "PED Waiting",
+        "name": "PED Waiting Period",
         "quote": "Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of months as specified in the Policy Schedule / Product Benefit Table of this Policy of continuous coverage",
         "reference": "Section D.I.1 (Code-Excl01) Pre-Existing Diseases (PED)",
-        "explanation": "The waiting period for pre-existing diseases is not specified here and depends on your Policy Schedule."
+        "explanation": "Pre-existing diseases are not covered until a waiting period shown in the Policy Schedule/Product Benefit Table is completed. The exact duration is not stated in the provided text, so you must check your schedule to know whether it is 24/36/48 months etc."
       },
       {
-        "name": "Pre-hospitalization",
+        "name": "Pre-hospitalization Cover",
         "quote": "We shall cover... for the number of days in accordance with the limits specified in the Policy Schedule / Product Benefit Table of this Policy",
         "reference": "Section C.I (d) Pre – hospitalization Medical Expenses",
-        "explanation": "The number of days covered before hospitalization is not stated here; please verify in your Policy Schedule."
+        "explanation": "Pre-hospitalization medical expenses are covered for a number of days as per the Policy Schedule/Product Benefit Table. The exact day limit is not visible here, so your out-of-pocket depends on what your schedule states."
       },
       {
-        "name": "Post-hospitalization",
+        "name": "Post-hospitalization Cover",
         "quote": "We shall cover... for the number of days specified in the Policy Schedule / Product Benefit Table of this Policy",
         "reference": "Section C.I (e) Post – hospitalization Medical Expenses",
-        "explanation": "The number of days covered after hospitalization is not stated here; please verify in your Policy Schedule."
+        "explanation": "Post-hospitalization medical expenses are covered for a number of days as per the Policy Schedule/Product Benefit Table. The exact day limit is not visible here, so you need to confirm it in your schedule."
       }
     ]
   },

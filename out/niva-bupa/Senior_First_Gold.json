@@ -7,8 +7,8 @@
   "summary": {
     "great": 1,
     "good": 6,
-    "bad": 6,
-    "unclear": 2
+    "bad": 4,
+    "unclear": 1
   },
   "features": {
     "great": [
@@ -16,7 +16,7 @@
         "name": "Restore Benefit",
         "quote": "The first paid claim triggers ReAssure, a benefit with unlimited sum insured.",
         "reference": "Section 3.7 ReAssure",
-        "explanation": "After your first claim, you get unlimited additional sum insured through ReAssure, helping cover future claims even after the base sum insured is used."
+        "explanation": "After the first paid claim, ReAssure provides unlimited additional sum insured. This can fund multiple future hospitalizations even after the base sum insured is used up."
       }
     ],
     "good": [
@@ -24,37 +24,37 @@
         "name": "PED Waiting Period",
         "quote": "Expenses related to the treatment of a Pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first Policy.",
         "reference": "Section 5.1(I) Pre-existing Diseases (Code–Excl01)",
-        "explanation": "Pre-existing diseases are covered after 24 months of continuous coverage, which is standard in the market."
+        "explanation": "Pre-existing diseases are covered after 24 months of continuous coverage from the first policy start date. This is in line with common market practice."
       },
       {
         "name": "Specific Illness Waiting",
         "quote": "Expenses related to the treatment of the listed conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first Policy.",
         "reference": "Section 5.1(II) Specified disease/procedure waiting period (Code- Excl02)",
-        "explanation": "Listed specific diseases and procedures are covered after 24 months, which meets market standards."
+        "explanation": "Listed specified diseases/procedures are covered only after 24 months of continuous coverage from the first policy start date. This is a standard waiting period in retail health plans."
       },
       {
         "name": "Initial Waiting Period",
         "quote": "Expenses related to the treatment of any Illness within 30 days from the first Policy commencement date shall be excluded except claims arising due to an Accident",
         "reference": "Section 5.1(III) 30-day waiting period (Code- Excl03)",
-        "explanation": "Illnesses are not covered for the first 30 days except accidents, which is standard practice."
+        "explanation": "Illness-related claims are not covered for the first 30 days from policy commencement, except if the claim is due to an accident. This is the usual initial waiting period in India."
       },
       {
         "name": "Pre-hospitalization Cover",
         "quote": "We will pay expenses incurred on consultations, medicines, diagnostic tests 60 days before date of admission",
         "reference": "Section 3.3 Expenses before and after hospitalization (Pre & Post hospitalization)",
-        "explanation": "Medical expenses up to 60 days before hospital admission are covered, which is a good coverage period."
+        "explanation": "Consultations, medicines and diagnostic tests are covered up to 60 days before hospital admission. This reduces out-of-pocket costs for pre-admission workups."
       },
       {
         "name": "Post-hospitalization Cover",
         "quote": "and 180 days after date of discharge",
         "reference": "Section 3.3 Expenses before and after hospitalization (Pre & Post hospitalization)",
-        "explanation": "Medical expenses up to 180 days after discharge are covered, which is at the higher end of standard coverage."
+        "explanation": "Medical expenses are covered up to 180 days after discharge. This helps pay for follow-ups and medicines during recovery."
       },
       {
         "name": "No Claim Bonus",
         "quote": "For every claim free year, we will add 10% of expiring policy base sum insured as NCB, maximum up to 100%.",
         "reference": "Section 3.6 No Claim Bonus (NCB)",
-        "explanation": "Sum insured increases by 10% for each claim-free year up to 100%, but it is unclear if this resets after a claim."
+        "explanation": "For each claim-free year, 10% of the expiring base sum insured is added as NCB, up to a maximum of 100%. This can increase your available cover over time if you don’t claim."
       }
     ],
     "bad": [
@@ -62,51 +62,33 @@
         "name": "Room Rent",
         "quote": "All applicable benefits and details are mentioned in your Policy Schedule.",
         "reference": "Preamble",
-        "explanation": "Room rent details are not specified here, so it is unclear if there are any caps or restrictions, which is a concern since room rent is a major cost driver."
+        "explanation": "Room eligibility is not stated here and is instead left to the Policy Schedule. If the schedule has a room-rent cap, it can increase your out-of-pocket costs and may trigger proportionate deductions."
       },
       {
         "name": "Co-pay",
         "quote": "The default co-payment in the product is 50% which You can modify to 40% or 30% or 20% at inception of the first policy.",
         "reference": "Section 4.1 Co-payment",
-        "explanation": "A default 50% co-pay means you pay half of each admissible claim, significantly reducing your effective coverage."
-      },
-      {
-        "name": "Co-pay Room Category",
-        "quote": "You will have to bear additional 10% co-payment IF treatment is taken in higher room category than the eligible room category as specified in Your Policy Schedule",
-        "reference": "Section 4.1 Co-payment (Note b)",
-        "explanation": "If you choose a room category higher than eligible, you pay an extra 10% co-pay, increasing your out-of-pocket expenses."
+        "explanation": "A co-payment applies by default at 50%, and can only be reduced to 40%/30%/20% at inception. This means you must pay that percentage of every admissible claim, which is a major cost burden."
       },
       {
         "name": "Consumables",
         "quote": "Annexure I – The expenses that are not covered or subsumed into room charges / procedure charges / costs of treatment\nList  I – Expenses not covered ... 56 GLOVES ... 60 MASK ... 57 NEBULISATION KIT ... 58 ANY KIT WITH NO DETAILS MENTIONED",
         "reference": "Annexure I – List I (Expenses not covered)",
-        "explanation": "Many common consumables like gloves and masks are excluded, which can increase your hospital bills."
+        "explanation": "Many consumables (e.g., gloves, masks, nebulisation kit and unspecified kits) are listed as not covered. These items are commonly billed by hospitals and can materially increase your final payable amount."
       },
       {
         "name": "Modern Treatments",
         "quote": "NOTE: A limit of maximum Rs. 1,00,000 per claim will apply to all robotic surgeries, except for total radical prostatectomy, cardiac surgeries, partial nephrectomy and surgeries for malignancies.",
         "reference": "Section 3.2(b) Modern treatments",
-        "explanation": "Robotic surgeries have a sub-limit of ₹1,00,000 per claim, which may be insufficient given their typically high costs."
-      },
-      {
-        "name": "Co-pay Options",
-        "quote": "The default co-payment in the product is 50% which You can modify to 40% or 30% or 20% at inception of the first policy.",
-        "reference": "Section 4.1 Co-payment",
-        "explanation": "The co-pay depends on the option chosen at inception and cannot be changed later; it is unclear if a 0% co-pay option exists."
+        "explanation": "Robotic surgeries are capped at ₹1,00,000 per claim (with some exceptions listed). Since robotic procedures often cost much more, you may have to pay the balance yourself."
       }
     ],
     "unclear": [
       {
-        "name": "NCB Reset",
-        "quote": "For every claim free year, we will add 10% of expiring policy base sum insured as NCB, maximum up to 100%.",
-        "reference": "Section 3.6 No Claim Bonus (NCB)",
-        "explanation": "The policy explains how NCB accumulates but does not clarify if it resets or reduces after a claim."
-      },
-      {
         "name": "Cashless Network",
         "quote": "Cashless claim facility is available at our network hospitals ONLY. As list of network hospitals is dynamic, for the latest list, refer to our website www.nivabupa.com.",
         "reference": "Section 6.2(X)(a) Claims",
-        "explanation": "The number of network hospitals is not specified, making it unclear how extensive the cashless network is."
+        "explanation": "Cashless is available only at network hospitals, but the policy does not state how many hospitals are in the network. You should verify the current network list for your city before buying."
       }
     ]
   },

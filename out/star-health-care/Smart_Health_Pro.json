@@ -6,85 +6,91 @@
   "documentType": "Policy Wording",
   "summary": {
     "great": 2,
-    "good": 10,
-    "bad": 3,
+    "good": 11,
+    "bad": 2,
     "unclear": 0
   },
   "features": {
     "great": [
       {
-        "name": "NCB",
+        "name": "No Claim Bonus",
         "quote": "Cumulative Bonus will not be reduced unless the same is utilized in the event of claim. During Renewal, Cumulative Bonus will be reduced only to the extent of utilized portion and the unutilized Cumulative Bonus will be carried forward to the next policy year.",
         "reference": "Section II – 15. Cumulative Bonus (page 3-4)",
-        "explanation": "Your no-claim bonus only reduces if you make a claim using it; otherwise, it accumulates year after year. This protects your bonus and rewards claim-free years."
+        "explanation": "Cumulative Bonus is not reduced unless it is actually utilized in a claim, and at renewal it reduces only by the utilized portion. This helps you retain the unutilized bonus even after a claim, which is better than policies that reset the bonus to zero."
       },
       {
-        "name": "Restore Benefit",
-        "quote": "Automatic Restoration of Sum Insured: There shall be automatic restoration of the Sum Insured once by 100%... The automatic restoration shall be immediately upon partial/full utilization of the limit of coverage... Such Restored Sum Insured can be utilized for all claims for subsequent Hospitalization during the policy period.",
-        "reference": "Section II – 16. Automatic Restoration of Sum Insured (page 4)",
-        "explanation": "Your full sum insured is restored immediately after you use it once, allowing multiple claims in the same policy year. This gives you extra coverage beyond the base sum insured."
+        "name": "Co-pay",
+        "quote": "Co-Payment: Co-payment means a cost sharing requirement... (definition only; no percentage/age-based co-pay terms found in provided pages)",
+        "reference": "Section I – Definitions: Co-Payment (page 1) / No explicit co-pay clause located in provided extract",
+        "explanation": "Only a definition of co-payment is provided and no applied co-pay clause is stated in the extract. This indicates no co-pay is charged on admissible claims, unlike many policies that apply 10–20% co-pay for seniors."
       }
     ],
     "good": [
       {
+        "name": "Restore Benefit",
+        "quote": "Automatic Restoration of Sum Insured: There shall be automatic restoration of the Sum Insured once by 100%... The automatic restoration shall be immediately upon partial/full utilization of the limit of coverage... Such Restored Sum Insured can be utilized for all claims for subsequent Hospitalization during the policy period.",
+        "reference": "Section II – 16. Automatic Restoration of Sum Insured (page 4)",
+        "explanation": "Sum insured is automatically restored once by 100% immediately after partial or full utilization. This gives you an extra refill for subsequent hospitalizations in the same policy year."
+      },
+      {
         "name": "Room Rent",
         "quote": "Room (Private Single A/c Room), Boarding and Nursing Expenses as provided by the Hospital / Nursing Home",
         "reference": "Section II – Coverage, point 1 (page 3)",
-        "explanation": "The policy covers a private single AC room by default, which is standard in the market. You can optionally upgrade to any room type for higher sum insured."
+        "explanation": "Hospital room, boarding and nursing expenses are covered for a Private Single A/c Room. This is a standard room category limit and may restrict upgrades to higher room types."
       },
       {
         "name": "PED Waiting Period",
         "quote": "Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 36 months of continuous coverage after the date of inception of the ﬁrst policy with insurer.",
         "reference": "Section IV – 1. Pre-Existing Diseases (Code Excl 01) (page 7)",
-        "explanation": "Pre-existing diseases are excluded for 36 months from the first policy start date, which is a normal waiting period. You can reduce this with optional covers subject to underwriting."
+        "explanation": "Pre-existing diseases and their direct complications are not covered for the first 36 months from the initial policy start date. You will need to complete 3 years of continuous coverage before PED claims become payable."
       },
       {
-        "name": "Specific Illness Waiting",
+        "name": "Specific Illness Waiting Period",
         "quote": "Expenses related to the treatment of the listed Conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the ﬁrst policy with us.",
         "reference": "Section IV – 2. Speciﬁed disease/procedure waiting period (Code Excl 02) (page 7)",
-        "explanation": "The policy excludes certain specified illnesses and procedures for 24 months, which is standard practice in India."
+        "explanation": "Listed specified diseases/procedures are not covered for the first 24 months from the initial policy start date. This is a common market waiting period you should plan around."
       },
       {
-        "name": "Initial Waiting",
+        "name": "Initial Waiting Period",
         "quote": "Expenses related to the treatment of any illness within 30 days from the ﬁrst policy commencement date shall be excluded except claims arising due to an accident",
         "reference": "Section IV – 3. 30-day waiting period (Code Excl 03) (page 7)",
-        "explanation": "Illnesses are excluded for the first 30 days of the policy, but accidents are covered immediately. This is the market standard."
+        "explanation": "Illness-related claims are not covered for the first 30 days, while accidents are covered immediately. This is the standard initial waiting period in retail health insurance."
       },
       {
         "name": "Pre-hospitalization Cover",
         "quote": "Pre-hospitalization Expenses: Medical expenses incurred up to 60 days immediately before the insured person is hospitalized.",
         "reference": "Section II – 7 (page 3)",
-        "explanation": "Medical expenses up to 60 days before hospitalization are covered, which aligns with typical industry coverage."
+        "explanation": "Medical expenses incurred up to 60 days before hospitalization are covered. This helps pay for consultations and tests leading up to admission."
       },
       {
         "name": "Post-hospitalization Cover",
         "quote": "Post Hospitalization Expenses: Medical expenses incurred up to 180 days immediately after the insured person is discharged from the hospital.",
         "reference": "Section II – 8 (page 3)",
-        "explanation": "Medical expenses up to 180 days after discharge are covered, providing good post-hospital care support."
+        "explanation": "Medical expenses incurred up to 180 days after discharge are covered. This supports follow-up treatment and medicines for up to 6 months."
       },
       {
         "name": "Domiciliary Hospitalization",
         "quote": "Domiciliary Hospitalization: Coverage for medical treatment (Including AYUSH) for a period exceeding three days",
         "reference": "Section II – 9 (page 3)",
-        "explanation": "Home-based treatment is covered if it lasts more than three days, including AYUSH therapies, which is a useful benefit."
+        "explanation": "Home treatment (including AYUSH) is covered when it exceeds three days. This can help when hospitalization is not possible and treatment is taken at home."
       },
       {
         "name": "Air Ambulance",
         "quote": "Air Ambulance... reimbursement of expenses incurred towards the cost of air ambulance service up to 10% of sum insured per policy year",
         "reference": "Section II – 6 (page 3)",
-        "explanation": "Air ambulance costs are covered up to 10% of the sum insured per year, providing valuable emergency transport support."
+        "explanation": "Air ambulance expenses are reimbursed up to 10% of the sum insured per policy year. This can reduce out-of-pocket costs for emergency air transfers."
       },
       {
         "name": "Modern Treatments",
         "quote": "Coverage for Modern Treatment: The following procedures will be covered... upto sum insured...",
         "reference": "Section II – 14 (page 3-4)",
-        "explanation": "Modern medical procedures like robotic surgery and immunotherapy are covered up to the sum insured, ensuring access to advanced care."
+        "explanation": "Modern treatment procedures listed are covered up to the sum insured. This improves access to advanced procedures, subject to the overall coverage limit."
       },
       {
         "name": "Optional Covers",
         "quote": "SECTION III - OPTIONAL COVERS... Modiﬁcation of Room Category... Reduction of Pre-Existing Diseases Waiting Period... Coverage for Non-medical Items (Consumables)... Unlimited Automatic Restoration of Sum Insured... Cumulative Bonus Booster",
         "reference": "Section III – Optional Covers (page 6)",
-        "explanation": "You can choose optional add-ons like room upgrades, reduced PED waiting, consumables cover, unlimited restoration, and bonus boosters to enhance your policy."
+        "explanation": "Optional covers are available for room category modification, PED waiting period reduction, consumables cover, unlimited restoration, and a cumulative bonus booster. These add-ons can improve benefits but typically increase premium."
       }
     ],
     "bad": [
@@ -92,19 +98,13 @@
         "name": "Consumables",
         "quote": "Other Excluded Expenses as detailed in List I (68 items)... (except to those who opted for Optional Cover Section III – 4) - Code Excl 37.",
         "reference": "Section IV – 32 (Code Excl 37) (page 8) + Section III – 4 (page 6)",
-        "explanation": "Non-medical consumables like gloves and masks are not covered by default and require an optional add-on, meaning you may pay out-of-pocket otherwise."
+        "explanation": "Non-medical items listed in List I (68 items) are excluded unless you opt for the consumables optional cover. This can lead to significant out-of-pocket costs during hospitalization for items like gloves, masks and similar supplies."
       },
       {
-        "name": "Domiciliary Exclusions",
+        "name": "Domiciliary Restrictions",
         "quote": "However, this beneﬁt shall not cover Asthma, Bronchitis... Diabetes Mellitus and Insipidus... Hypertension... Cough and Cold... Arthritis, Gout and Rheumatism.",
         "reference": "Section II – 9 Domiciliary Hospitalization (page 3)",
-        "explanation": "Several common chronic conditions are excluded from domiciliary hospitalization, limiting the usefulness of home treatment coverage."
-      },
-      {
-        "name": "Co-pay",
-        "quote": "Co-Payment: Co-payment means a cost sharing requirement... (definition only; no percentage/age-based co-pay terms found in provided pages)",
-        "reference": "Section I – Definitions: Co-Payment (page 1) / No explicit co-pay clause located in provided extract",
-        "explanation": "The policy defines co-payment but does not clearly state if or how much co-pay applies by default. Check the policy schedule or full wording for details."
+        "explanation": "Domiciliary hospitalization does not cover several common conditions such as asthma/bronchitis, diabetes, hypertension, cough/cold, and arthritis/gout/rheumatism. This materially reduces the usefulness of home-treatment cover for chronic and common ailments."
       }
     ],
     "unclear": []

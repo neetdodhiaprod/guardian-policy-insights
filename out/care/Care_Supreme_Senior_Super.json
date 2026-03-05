@@ -5,10 +5,10 @@
   "policyType": "Senior",
   "documentType": "Policy Wording",
   "summary": {
-    "great": 6,
-    "good": 6,
+    "great": 4,
+    "good": 8,
     "bad": 3,
-    "unclear": 2
+    "unclear": 0
   },
   "features": {
     "great": [
@@ -16,75 +16,75 @@
         "name": "Room Rent",
         "quote": "The eligible Room Rent or Room Category applicable for the Insured Person under the Policy is 'No limit', which means that there is no separate restriction on Room Charges incurred towards stay during Hospitalization",
         "reference": "Clause 3.1.1(ix)(i) (Conditions applicable for Benefit \u0002Hospitalization Expenses\u0002)",
-        "explanation": "You can choose any room category during hospitalization without any limit on room rent charges. This means no capping or proportionate deductions will reduce your claim."
+        "explanation": "Room rent is on a 'No limit' basis, so there is no separate cap on the room category/charges during hospitalization. This helps you avoid room-rent based reductions and lets you choose the room you need."
       },
       {
         "name": "ICU Charges",
         "quote": "Intensive Care Unit Charges (ICU Charges): The eligible ICU Charges applicable for the Insured Person under the Policy is 'No limit', which means that there is no separate restriction on ICU Charges incurred towards stay in ICU during Hospitalization.",
         "reference": "Clause 3.1.1(ix)(ii)",
-        "explanation": "ICU charges are covered without any cap, so your ICU expenses will be paid up to the sum insured and any additional benefits."
+        "explanation": "ICU charges are covered on a 'No limit' basis with no separate cap for ICU stay during hospitalization. This reduces the risk of large ICU bills becoming out-of-pocket (subject to Sum Insured)."
       },
       {
         "name": "Restore Benefit",
         "quote": "automatically make the re-instatement of up to the base Sum Insured unlimited times in a policy year... Recharge amount can be utilized for same illness as well as different Illnesses.",
         "reference": "Clause 3.1.4 (iii)",
-        "explanation": "The sum insured can be reinstated unlimited times within the policy year, even for the same illness, giving you strong coverage for multiple claims."
+        "explanation": "Base Sum Insured can be reinstated unlimited times in a policy year, and the recharge can be used for the same illness as well as different illnesses. This is very strong for multiple hospitalizations in the same year."
       },
       {
         "name": "NCB",
         "quote": "enhance the Sum Insured by 50% flat... (vi) In the event of a Claim there is no impact on the accrual of Cumulative Bonus.",
         "reference": "Clause 3.1.3",
-        "explanation": "You get a 50% increase in sum insured as cumulative bonus each claim-free year, and claims do not reduce this bonus, which helps increase your coverage over time."
-      },
-      {
-        "name": "Built-in SI Buffer",
-        "quote": "The Recharge shall be utilized only after the base Sum Insured, applicable Cumulative Bonus , Cumulative Bonus Super (if applicable) and Plus Benefit (if applicable) have been completely exhausted in that Policy Year.",
-        "reference": "Clause 3.1.4 (i)",
-        "explanation": "Extra sum insured becomes available after you exhaust the base sum insured and accrued bonuses, providing a large buffer for multiple or large claims."
-      },
-      {
-        "name": "Specific Illness Waiting",
-        "quote": "Expenses related to the treatment of the listed Conditions, surgeries/ treatments shall be excluded until the expiry of 24 months of continuous coverage",
-        "reference": "Clause 4.1(a)(ii) Named Ailment Waiting Period (Code-Excl02)",
-        "explanation": "Named illnesses are covered after 24 months of continuous coverage, which is a standard and acceptable waiting period."
+        "explanation": "Sum Insured increases by a flat 50% as Cumulative Bonus, and a claim does not impact the accrual of this bonus. This helps your cover grow without getting reset due to claims."
       }
     ],
     "good": [
       {
-        "name": "PED Waiting",
-        "quote": "Expenses related to the treatment of a pre-existing Disease (PED)... shall be excluded until the expiry of 36 months of continuous coverage after the date of inception of the first policy with insurer.",
-        "reference": "Clause 4.1(a)(i) Pre-Existing Diseases (Code-Excl01)",
-        "explanation": "Pre-existing diseases are covered after 36 months (3 years) of continuous coverage, which is within the acceptable 24–48 month range."
+        "name": "Built-in SI Buffer",
+        "quote": "The Recharge shall be utilized only after the base Sum Insured, applicable Cumulative Bonus , Cumulative Bonus Super (if applicable) and Plus Benefit (if applicable) have been completely exhausted in that Policy Year.",
+        "reference": "Clause 3.1.4 (i)",
+        "explanation": "Recharge becomes available only after the base Sum Insured and applicable bonuses/benefits are fully exhausted in that policy year. This works as an extra buffer for large or multiple claims, but it is not usable from the first rupee."
       },
       {
-        "name": "Initial Waiting",
+        "name": "Specific Illness Waiting Period",
+        "quote": "Expenses related to the treatment of the listed Conditions, surgeries/ treatments shall be excluded until the expiry of 24 months of continuous coverage",
+        "reference": "Clause 4.1(a)(ii) Named Ailment Waiting Period (Code-Excl02)",
+        "explanation": "Listed named ailments/surgeries are not covered until you complete 24 months of continuous coverage. This is a standard market waiting period for specific conditions."
+      },
+      {
+        "name": "PED Waiting Period",
+        "quote": "Expenses related to the treatment of a pre-existing Disease (PED)... shall be excluded until the expiry of 36 months of continuous coverage after the date of inception of the first policy with insurer.",
+        "reference": "Clause 4.1(a)(i) Pre-Existing Diseases (Code-Excl01)",
+        "explanation": "Pre-existing diseases are excluded until 36 months (3 years) of continuous coverage from the first policy inception with the insurer. This is within the common 2–4 year range, so plan for this waiting period if you have known conditions."
+      },
+      {
+        "name": "Initial Waiting Period",
         "quote": "Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident",
         "reference": "Clause 4.1(a)(iii) 30-day waiting period (Code-Excl03)",
-        "explanation": "There is a standard 30-day waiting period for illnesses except accidents, which is common in the market."
+        "explanation": "Illnesses are not covered for the first 30 days from policy commencement, while accidents are covered immediately. This is a standard initial waiting period in retail health insurance."
       },
       {
         "name": "Pre-hospitalization Cover",
         "quote": "For a period of 60 days immediately prior to the Insured Person's date of admission to the Hospital",
         "reference": "Clause 3.1.1(iv)(i)",
-        "explanation": "Medical expenses incurred up to 60 days before hospitalization are covered, which is a standard duration."
+        "explanation": "Medical expenses are covered for 60 days immediately before the date of hospital admission. This helps pay for consultations, tests, and medicines leading up to hospitalization."
       },
       {
         "name": "Post-hospitalization Cover",
         "quote": "For a period of 180 days immediately after the Insured Person's date of discharge from the hospital",
         "reference": "Clause 3.1.1(v)(i)",
-        "explanation": "Medical expenses up to 180 days after discharge are covered, providing good post-hospital care coverage."
+        "explanation": "Medical expenses are covered for 180 days immediately after discharge from the hospital. This supports follow-up care and medicines for up to 6 months after hospitalization."
       },
       {
         "name": "Domiciliary Hospitalization",
         "quote": "The Company will indemnify the Insured Person... for the Medical Expenses incurred towards Domiciliary Hospitalization",
         "reference": "Clause 3.1.1(vii)",
-        "explanation": "Home-based hospitalization treatment is covered subject to conditions like minimum 3-day treatment and certain exclusions."
+        "explanation": "Domiciliary hospitalization (treatment at home that would otherwise require hospitalization) is covered as per policy conditions. This can be useful when hospital admission is not possible or not advisable."
       },
       {
         "name": "Air Ambulance",
         "quote": "The Company will indemnify the Insured Person up to the amount as specified in Policy Schedule , for the Reasonable and Customary Charges necessarily incurred on availing Air Ambulance services",
         "reference": "Clause 3.2.14",
-        "explanation": "Air ambulance services are covered as an optional benefit with limits specified in the policy schedule."
+        "explanation": "Air ambulance charges are covered up to the amount specified in the Policy Schedule. This can help in emergencies, but the payable limit depends on the schedule."
       }
     ],
     "bad": [
@@ -92,35 +92,22 @@
         "name": "Consumables",
         "quote": "Any item or condition or treatment specified in List of Non-Medical Items (Annexure \u0002 I to Policy Terms & Conditions).",
         "reference": "Clause 4.2(1) + Annexure I (List of Expenses Generally Excluded)",
-        "explanation": "Many consumables like gloves and masks are excluded by default, increasing your out-of-pocket costs unless you opt for the Claim Shield benefit."
+        "explanation": "Items listed as non-medical/consumables in Annexure I are excluded from cover. This can increase out-of-pocket costs for common hospital items during a claim."
       },
       {
         "name": "Disease Sub-limits",
         "quote": "For diseases or conditions or procedure that have a specified sub-limit then all related expenses shall be covered up to the sub-limit specified for that disease or condition or procedure.",
         "reference": "Clause 6.1.7(h)",
-        "explanation": "If your policy schedule includes disease-wise sub-limits, claims for those conditions are capped, which can limit your claim amount."
+        "explanation": "Where the Policy Schedule specifies a disease/condition/procedure sub-limit, all related expenses are payable only up to that sub-limit. This can significantly reduce claim payouts for those listed treatments."
       },
       {
         "name": "Co-pay",
         "quote": "The Co-payment proportion ( If opted ) shall be borne by the Insured Person on each Claim",
         "reference": "General Conditions Applicable To All The Benefits And Optional Benefits, point 4 + Optional Benefit 3.2.7",
-        "explanation": "Co-pay is mentioned as an optional feature; any mention of co-pay is a disadvantage as it means you may have to pay a portion of each claim."
+        "explanation": "If the co-payment option is opted, you must bear the co-payment proportion on each claim. This directly increases your share of every hospitalization bill, so it is a negative feature even when optional."
       }
     ],
-    "unclear": [
-      {
-        "name": "NCB Cap",
-        "quote": "the accrued Cumulative Bonus, shall not exceed 100% of the Sum Insured",
-        "reference": "Clause 3.1.3(i)",
-        "explanation": "Cumulative Bonus is capped at 100% of sum insured, but optional benefits may increase this; your effective bonus depends on your policy schedule."
-      },
-      {
-        "name": "Schedule-dependent Benefits",
-        "quote": "Sum Insured means the amount specified in the Policy Schedule",
-        "reference": "Definition 2.2.26 and Clause 5.25",
-        "explanation": "Key values like sum insured and optional benefits depend on your policy schedule and are not specified in the document extract."
-      }
-    ]
+    "unclear": []
   },
   "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
 }

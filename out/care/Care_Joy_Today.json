@@ -7,47 +7,47 @@
   "summary": {
     "great": 0,
     "good": 6,
-    "bad": 7,
-    "unclear": 2
+    "bad": 5,
+    "unclear": 1
   },
   "features": {
     "great": [],
     "good": [
       {
-        "name": "Specific Illness Waiting",
+        "name": "Specific Illness Waiting Period",
         "quote": "Expenses related to the treatment of the listed Conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first policy with the Company.",
         "reference": "Section 4.1(a)(ii) Specific Waiting Period – Code- Excl02",
-        "explanation": "Claims for specified diseases and surgeries are covered only after 24 months of continuous coverage. You must wait 2 years before these conditions are payable."
+        "explanation": "Listed diseases/surgeries are not covered until you complete 24 months of continuous coverage. Claims for these conditions will be payable only from the 3rd policy year onward."
       },
       {
-        "name": "PED Waiting",
+        "name": "PED Waiting Period",
         "quote": "Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 36 months of continuous coverage after the date of inception of the first policy with insurer.",
         "reference": "Section 4.1(a)(i) Pre-existing Disease - Code- Excl01",
-        "explanation": "Pre-existing diseases are covered only after 36 months of continuous coverage. You need to maintain the policy for 3 years before claims for pre-existing conditions are accepted."
+        "explanation": "Pre-existing diseases and their direct complications are excluded for the first 36 months of continuous coverage. You need to stay insured for 3 years before PED-related claims become payable."
       },
       {
-        "name": "Initial Waiting",
+        "name": "Initial Waiting Period",
         "quote": "Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident",
         "reference": "Section 4.1(a)(iii) First 30-Day waiting Period – Code – Excl03",
-        "explanation": "Illness claims are not covered during the first 30 days of the policy, but accidents are covered immediately. This protects against early claims for existing illnesses."
+        "explanation": "Illnesses are not covered in the first 30 days, while accidents are covered immediately. This is a standard waiting period that can affect claims soon after buying the policy."
       },
       {
         "name": "Room Rent",
         "quote": "If the Insured Person is admitted in a room where the Room Category is other than Single Private Room with A.C., then the Policyholder shall bear the ratable proportion of the total Associate Medical Expenses... in the proportion of the difference between the Room Rent of Single Private Room with A.C. to the Room Rent actually incurred.",
         "reference": "Section 3.1(c)(i) Conditions for Medical Expenses – Room Category",
-        "explanation": "The policy covers expenses for a Single Private AC room by default. Choosing a higher room category means you pay proportionately more out of pocket."
+        "explanation": "Coverage is aligned to a Single Private Room with A.C. and choosing any other room category triggers a ratable (proportionate) share of associated medical expenses. Upgrading rooms can significantly increase your out-of-pocket costs beyond just the room rent difference."
       },
       {
-        "name": "Pre-hospitalization",
+        "name": "Pre-hospitalization Cover",
         "quote": "As Pre-hospitalization Medical Expenses' during a period of 30 days immediately prior to the date of the Insured Person's admission to the Hospital;",
         "reference": "Section 3.2(a)(i) Benefit 2",
-        "explanation": "Medical expenses related to the same condition are covered up to 30 days before hospital admission. This helps cover tests and treatments leading up to hospitalization."
+        "explanation": "Medical expenses are covered for up to 30 days before hospitalization if related to the same condition. This helps pay for consultations, tests, and medicines leading up to admission."
       },
       {
-        "name": "Post-hospitalization",
+        "name": "Post-hospitalization Cover",
         "quote": "As Post-hospitalization Medical Expenses' during a period of 60 days immediately following the date of the Insured Person's discharge from Hospital,",
         "reference": "Section 3.2(a)(ii) Benefit 2",
-        "explanation": "Medical expenses related to the same condition are covered up to 60 days after hospital discharge. This supports recovery costs after leaving the hospital."
+        "explanation": "Medical expenses are covered for up to 60 days after discharge if related to the same condition. This supports follow-up visits, diagnostics, and medicines during recovery."
       }
     ],
     "bad": [
@@ -55,43 +55,31 @@
         "name": "Restore Benefit",
         "quote": "Not found in the provided policy wording extract.",
         "reference": "Mandatory feature check (Restore Benefit)",
-        "explanation": "Sum Insured is not replenished after a claim, meaning you cannot get extra coverage once the limit is used up."
+        "explanation": "No restore/reinstatement benefit is evidenced in the provided extract. Once the Sum Insured is exhausted, you may not get any automatic refill for further hospitalizations in the same policy year."
       },
       {
         "name": "Consumables",
         "quote": "Any item or condition or treatment specified in List of Non-Medical Items (Annexure – II to Policy Terms & Conditions).",
         "reference": "Section 4.2(b)(i) + Annexure II (Non-medical items list)",
-        "explanation": "Many common hospital consumables like gloves and syringes are excluded, leading to out-of-pocket expenses for these items."
-      },
-      {
-        "name": "Co-pay",
-        "quote": "The Policyholder shall bear 20% of the Final Claim Amount... *Entry Age means the age of the Insured Person at the time of issue of the first Policy... (b) The Co-payment shall be applicable to each and every Claim, for each Insured Person.",
-        "reference": "Section 6.2.2 Special Condition 2: Co-payment",
-        "explanation": "If the insured is aged 60 or above at entry, you must pay 20% of every claim amount, increasing your out-of-pocket costs."
-      },
-      {
-        "name": "NCB",
-        "quote": "Optional Cover – 1 : No Claim Bonanza... If the Policy is renewed... for three consecutive claim free Policy Years... provide 100%... (f) In the event of a Claim occurring during any Policy Period, the accrued No Claim Bonanza will not be available in subsequent renewal, but in no case shall the Sum Insured be reduced.",
-        "reference": "Optional Cover – 1: No Claim Bonanza, Clause 3.1 and 3.3(f)",
-        "explanation": "The no claim bonus resets to zero after a claim and is only available as an optional cover, so you lose accrued benefits if you claim."
+        "explanation": "Items listed as non-medical consumables in Annexure II are excluded from payment. This can lead to frequent out-of-pocket costs for common hospital items like gloves, masks, syringes, etc."
       },
       {
         "name": "Disease Sub-limits",
         "quote": "For diseases or conditions or procedure that have a specified sub-limit then all related expenses shall be covered up to the sub-limit specified for that disease or condition or procedure.",
         "reference": "Section 6.1.6(I) Payment Terms",
-        "explanation": "Certain diseases or procedures have specific payout limits, which can restrict your claim amount even if your overall Sum Insured is higher."
+        "explanation": "Some diseases/procedures can have their own sub-limits, and all related expenses are payable only up to that cap. Even with a high Sum Insured, your payout can be restricted for those listed conditions."
       },
       {
         "name": "Modern Treatments",
         "quote": "Expenses related to any kind of Advance Technology Methods other than mentioned in the Clause 3.1(d).",
         "reference": "Section 4.2(b)(xxiv) Specific Exclusions",
-        "explanation": "Only advanced treatments listed in the policy are covered; others are excluded, limiting access to newer medical technologies."
+        "explanation": "Advanced technology methods are excluded unless they are specifically listed under Clause 3.1(d). This can limit coverage for newer procedures if they are not explicitly named in the covered list."
       },
       {
-        "name": "Co-pay Applicability",
-        "quote": "Special Condition 2 : Co-payment... *Entry Age means the age of the Insured Person at the time of issue of the first Policy with the Company.",
+        "name": "Co-pay",
+        "quote": "The Policyholder shall bear 20% of the Final Claim Amount... *Entry Age means the age of the Insured Person at the time of issue of the first Policy... (b) The Co-payment shall be applicable to each and every Claim, for each Insured Person.",
         "reference": "Section 6.2.2 Special Condition 2: Co-payment",
-        "explanation": "The policy states 20% co-pay for entry age 60+, but does not clarify if co-pay applies for those under 60. Check your Policy Schedule for details."
+        "explanation": "A 20% co-pay applies to each and every claim for an insured person whose entry age is 60 years or above. This means you will always pay 20% of the approved claim amount out of pocket, which is a major cost burden in senior years."
       }
     ],
     "unclear": [
@@ -99,13 +87,7 @@
         "name": "Cashless Network",
         "quote": "Network Provider... For an updated list of Network Provider... can refer to the list of Network Provider available on the Company's website or at the call centre.",
         "reference": "Section 6.1.2(a)(iv) Cashless",
-        "explanation": "The policy does not specify the number of network hospitals; you need to verify the current network size on the insurer's website."
-      },
-      {
-        "name": "Benefit Limits",
-        "quote": "Any Benefit shall be available only if the same is specifically mentioned in the Policy Schedule... up to the amount specified against this Benefit in the Policy Schedule",
-        "reference": "Section 3 (General Conditions) + Benefits 3.3/3.4/3.5/3.6",
-        "explanation": "Coverage amounts for maternity, newborn, ambulance, etc. depend on your Policy Schedule, so you must check it for exact limits."
+        "explanation": "The policy directs you to the insurer’s website/call centre for the current list of network providers. Since the number of hospitals is not stated here, you should verify network availability in your city before buying."
       }
     ]
   },

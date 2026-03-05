@@ -6,8 +6,8 @@
   "documentType": "Policy Wording",
   "summary": {
     "great": 2,
-    "good": 5,
-    "bad": 7,
+    "good": 6,
+    "bad": 3,
     "unclear": 0
   },
   "features": {
@@ -16,13 +16,13 @@
         "name": "Restore Benefit",
         "quote": "There shall be automatic restoration of the Basic Sum Insured by 100% immediately upon exhaustion of the Basic Sum Insured and accrued Cumulative Bonus if any, once during the policy period. It is made clear that such restored Sum Insured can be utilized for the subsequent hospitalization even for the illness /disease for which claim/s was / were already made.",
         "reference": "Conditions > Special Features > 29(a)",
-        "explanation": "The policy restores 100% of the base sum insured once per policy year, even for the same illness. This means you get an extra full sum insured to use if your base limit is exhausted, which is a top-tier benefit."
+        "explanation": "Automatically restores 100% of the Basic Sum Insured once in the policy year after the Basic Sum Insured (and any Cumulative Bonus) is exhausted. The restored amount can be used even for the same illness/disease in a later hospitalization, which improves protection against multiple admissions."
       },
       {
         "name": "Bariatric Surgery",
         "quote": "Section 7 Bariatric Surgery Expenses incurred on hospitalization for bariatric surgical procedure and its complications thereof are payable subject to limits mentioned in the table given below",
         "reference": "Coverage > Section 7",
-        "explanation": "Bariatric surgery is covered subject to waiting periods and limits, providing access to weight-loss surgery which many plans exclude or limit."
+        "explanation": "Hospitalization expenses for bariatric surgery and its complications are covered, subject to limits in the table. This is valuable because many plans exclude bariatric procedures or restrict them heavily."
       }
     ],
     "good": [
@@ -30,75 +30,57 @@
         "name": "Room Rent",
         "quote": "Room (Private Single A/C room), Boarding and Nursing Expenses as provided by the Hospital / Nursing Home",
         "reference": "Coverage > Section 1 Hospitalization > A",
-        "explanation": "You are entitled to a single private AC room by default, which is standard and comfortable but not unlimited or any room choice."
+        "explanation": "Covers room, boarding and nursing charges for a Private Single A/C room. This avoids low room-rent caps, but does not give “any room/at actuals” flexibility."
       },
       {
         "name": "PED Waiting Period",
         "quote": "Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 36 months of continuous coverage after the date of inception of the first policy with insurer",
         "reference": "Exclusions > Standard Exclusions > 1 (Pre-Existing Diseases - Code Excl 01)",
-        "explanation": "Pre-existing diseases are covered after 36 months of continuous coverage, which is within the typical 2–4 year waiting period and considered acceptable."
+        "explanation": "Pre-existing diseases are covered only after 36 months of continuous coverage from the first policy inception. This is within the common 2–4 year range, so you need to plan for out-of-pocket costs during the waiting period."
       },
       {
         "name": "Specific Illness Waiting",
         "quote": "Expenses related to the treatment of the following listed Conditions, surgeries/ treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first policy with us.",
         "reference": "Exclusions > Standard Exclusions > 2 (Specified disease / procedure waiting period - Code Excl 02)",
-        "explanation": "Waiting period for listed diseases and procedures is 24 months, which is the standard market norm."
+        "explanation": "Listed diseases/procedures are not covered for the first 24 months of continuous coverage. Claims for these conditions during this period will be rejected even if they are not pre-existing."
       },
       {
         "name": "Initial Waiting Period",
         "quote": "Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident",
         "reference": "Exclusions > Standard Exclusions > 3 (30-day waiting period - Code Excl 03)",
-        "explanation": "Illnesses are not covered for the first 30 days except accidents, which is standard practice in health insurance."
+        "explanation": "Illness-related claims are not covered in the first 30 days from policy start, except for accidents. This is a standard waiting period, so early non-accident medical costs won’t be payable."
       },
       {
         "name": "Pre-hospitalization Cover",
         "quote": "Relevant Pre-Hospitalization medical expenses incurred for a period not exceeding 60 days prior to the date of hospitalization are payable subject to an admissible hospitalization claim",
         "reference": "Coverage > Section 1 Hospitalization > F",
-        "explanation": "Pre-hospitalization expenses are covered up to 60 days before admission, which meets market expectations."
-      }
-    ],
-    "bad": [
+        "explanation": "Covers relevant medical expenses up to 60 days before hospitalization, as long as the hospitalization claim is admissible. This helps pay for consultations, tests and medicines leading up to admission."
+      },
       {
         "name": "Post-hospitalization Cover",
         "quote": "Post Hospitalization: Medical expenses incurred for a period up to 90 days from the date of discharge from the hospital ... are payable",
         "reference": "Coverage > Section 1 Hospitalization > G",
-        "explanation": "Post-hospitalization expenses are covered only up to 90 days, whereas many top plans offer 180 days or more, limiting your follow-up treatment coverage."
-      },
+        "explanation": "Covers medical expenses up to 90 days after discharge, subject to policy terms. Follow-up treatment beyond 90 days will not be covered under post-hospitalization."
+      }
+    ],
+    "bad": [
       {
         "name": "Modern Treatments",
         "quote": "Section 13 - Coverage for Modern Treatments The expenses payable ... is limited to the amount mentioned in table below;",
         "reference": "Coverage > Section 13",
-        "explanation": "Modern treatments have specific sub-limits per procedure, which can cause high out-of-pocket costs for expensive advanced treatments."
+        "explanation": "Modern treatments are covered but subject to sub-limits as per the table. This can leave significant out-of-pocket costs if an advanced procedure costs more than the capped amount."
       },
       {
         "name": "NCB",
         "quote": "In the event of a claim resulting in ... the cumulative bonus so granted will be reduced ... At any point of time, the cumulative bonus will not be less than “zero”",
         "reference": "Conditions > Special Features > 29(b) Special Conditions for Cumulative Bonus",
-        "explanation": "The no-claim bonus reduces with each claim and can drop to zero, meaning you lose accumulated bonus benefits after claims."
-      },
-      {
-        "name": "Consumables",
-        "quote": "“Associated Medical Expenses” does not include cost of pharmacy and consumables, cost of implants and medical devices and cost of diagnostics, ICU charges and hence proportionate deduction will not be applicable on these items.",
-        "reference": "Definitions > Specific Definitions > Associated medical expenses",
-        "explanation": "Consumables like gloves, syringes, and implants are not covered, so you may have to pay these costs out-of-pocket."
-      },
-      {
-        "name": "Built-in SI Buffer",
-        "quote": "No explicit feature found in the provided pages stating an extra Sum Insured that activates after base SI is exhausted (e.g., Secure Benefit / Super NCB / Enhanced SI buffer).",
-        "reference": "Document review (pages 1-14 provided)",
-        "explanation": "There is no additional sum insured buffer beyond the base sum insured, so once your base limit is used up, no extra coverage is available."
-      },
-      {
-        "name": "Cashless Network",
-        "quote": "No explicit number of network hospitals is stated in the provided pages (only: \"Cashless facility can be availed only in networked Hospitals. For details of Networked Hospitals, the insured may visit www.starhealth.in\")",
-        "reference": "Conditions > Claim Settlement > B(i)",
-        "explanation": "The policy does not specify the number of network hospitals, making it hard to assess the breadth of cashless facility access."
+        "explanation": "Cumulative Bonus is reduced when a claim occurs and can go down to zero. This means your increased cover from past claim-free years can be lost after claims."
       },
       {
         "name": "Co-pay",
         "quote": "This policy is subject to co-payment of 10% of each and every claim amount for fresh as well as renewal policies for insured persons whose age at the time of entry is 61 years and above.. This co-payment will not apply for those insured persons who have entered the policy before attaining 61 years of age and renew the policy continuously without any break.",
         "reference": "Conditions > Claim Settlement > I (Co-payment)",
-        "explanation": "Co-pay of 10% applies only if the insured was 61 or older at entry, but continuous renewal without break may waive it. You need to check your age at entry and renewal status to know if co-pay applies."
+        "explanation": "A 10% co-payment applies on each and every claim if the insured’s entry age is 61 years or above. This directly increases your share of every admissible claim, reducing the insurer payout."
       }
     ],
     "unclear": []

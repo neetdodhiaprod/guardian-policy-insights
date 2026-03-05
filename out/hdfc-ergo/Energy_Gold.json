@@ -5,10 +5,10 @@
   "policyType": "Individual | Family Floater",
   "documentType": "Policy Wording",
   "summary": {
-    "great": 3,
-    "good": 3,
-    "bad": 4,
-    "unclear": 1
+    "great": 2,
+    "good": 4,
+    "bad": 2,
+    "unclear": 2
   },
   "features": {
     "great": [
@@ -16,73 +16,67 @@
         "name": "Restore Benefit",
         "quote": "Instant addition of 100% Basic Sum Insured on complete or partial utilization of Your existing Policy Sum Insured and cumulative Bonus (if applicable) during the Policy Year.",
         "reference": "Section B > II. Other Benefits > 1. Restore benefit (Page 11)",
-        "explanation": "The policy replenishes your base Sum Insured by 100% once you use it up within the same policy year. This means you get full extra coverage during the year, improving your financial protection."
+        "explanation": "Adds 100% of the Basic Sum Insured instantly when your Sum Insured (and Cumulative Bonus, if any) is partially or fully used during the policy year. This increases available cover for further hospitalisations in the same year."
       },
       {
         "name": "NCB",
         "quote": "On Renewal of this Policy with the Company without a break, a sum equal to 10% of the Base Sum Insured of the expiring Policy shall be provided as Cumulative Bonus irrespective of any claims",
         "reference": "Section B > III. Renewal Benefits > 2. Cumulative Bonus (Page 16)",
-        "explanation": "Your Sum Insured increases by 10% at each renewal even if you make claims, so your coverage grows without resetting. This means you keep gaining benefits despite claims."
-      },
-      {
-        "name": "PED Waiting Period",
-        "quote": "Expenses related to the treatment of a pre-existing disease (PED) and its direct complications shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first policy with insurer.",
-        "reference": "Section C > 1(ii) Pre-Existing Diseases: Code - Excl01 (Page 19)",
-        "explanation": "Pre-existing diseases are excluded for 24 months from the start of coverage. This means you get earlier coverage for existing conditions compared to longer waiting periods."
+        "explanation": "Gives a Cumulative Bonus of 10% of Base Sum Insured at renewal even if you made claims. Your cover can keep increasing year-on-year without being reset due to claims."
       }
     ],
     "good": [
       {
-        "name": "Specific Illness",
+        "name": "PED Waiting Period",
+        "quote": "Expenses related to the treatment of a pre-existing disease (PED) and its direct complications shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first policy with insurer.",
+        "reference": "Section C > 1(ii) Pre-Existing Diseases: Code - Excl01 (Page 19)",
+        "explanation": "Pre-existing diseases and their direct complications are not covered for the first 24 months of continuous coverage. After 24 months, PED-related claims become payable as per policy terms."
+      },
+      {
+        "name": "Specific Illness Waiting",
         "quote": "Expenses related to the treatment of the listed Conditions, surgeries/treatments... shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first Policy with us.",
         "reference": "Section C > 1(i) Specified disease/procedure waiting period: Code - Excl02 (Page 16)",
-        "explanation": "Listed surgeries and conditions are excluded for 24 months from policy start. After this period, these treatments are covered as normal."
+        "explanation": "Listed diseases/procedures are not covered for the first 24 months from the policy start date. This is a standard market waiting period you should plan around."
       },
       {
         "name": "Pre-hospitalization Cover",
         "quote": "Pre-Hospitalization Medical expenses... incurred upto 30 days before Hospitalisation.",
         "reference": "Section B > I. Hospitalisation Covers > 2. Pre-Hospitalization Medical expenses (Page 10)",
-        "explanation": "Medical expenses up to 30 days before hospital admission are covered. This helps pay for tests and treatments before you are hospitalized."
+        "explanation": "Covers eligible medical expenses incurred up to 30 days before hospitalisation. This helps pay for consultations, tests, and medicines leading up to admission."
       },
       {
         "name": "Post-hospitalization Cover",
         "quote": "Post-Hospitalization Medical expenses... incurred upto 60 days after discharge from Hospitalisation.",
         "reference": "Section B > I. Hospitalisation Covers > 3. Post-Hospitalization Medical expenses (Page 10)",
-        "explanation": "Medical expenses up to 60 days after hospital discharge are covered. This helps cover follow-up care and medicines after your hospital stay."
+        "explanation": "Covers eligible medical expenses incurred up to 60 days after discharge. This supports follow-up visits, diagnostics, and medicines after hospitalisation."
       }
     ],
     "bad": [
       {
-        "name": "Co-pay",
+        "name": "Co-pay (Optional)",
         "quote": "If opted and mentioned on the Policy Schedule that a Co-payment is effective... the insured person shall bear 20% of the eligible claim amount payable under the Policy",
         "reference": "Section D > 2. Specific General Terms > 15. Co-Payment (Page 34)",
-        "explanation": "A 20% co-pay applies only if you choose it and it is shown in your policy schedule. Otherwise, you pay no co-pay, giving you flexibility."
+        "explanation": "If opted and shown on the Policy Schedule, you must pay 20% of each eligible claim amount. This directly increases your out-of-pocket cost on every claim where co-pay applies."
       },
       {
         "name": "Consumables",
         "quote": "Non-Medical expenses such as Food charges (other than patient’s diet provided by hospital), laundry charges, attendant charges, ambulance collar, ambulance equipment, baby food, baby utility charges and other such items. Full list of Non-Medical expenses is attached",
         "reference": "Section C > 3. Specific Exclusions > xii (Page 22) and Annexure I List of Non-Medical Expenses (Page 41)",
-        "explanation": "Many consumables and non-medical items are excluded except in limited cases. This means you may have to pay these costs yourself."
-      },
-      {
-        "name": "Room Rent",
-        "quote": "In-Patient Treatment... includes: • Hospital room rent or boarding",
-        "reference": "Section B > I. Hospitalisation Covers > 1. In-Patient Treatment (Page 9)",
-        "explanation": "Room rent is covered but no specific room type or limit is stated, so claims may be reduced if you choose a higher room category. This can cause unexpected deductions."
-      },
-      {
-        "name": "Co-pay",
-        "quote": "If opted and mentioned on the Policy Schedule that a Co-payment is effective...",
-        "reference": "Section D > 2. Specific General Terms > 15. Co-Payment (Page 34)",
-        "explanation": "The policy includes a co-pay clause that applies if chosen and shown in the schedule. The presence of any co-pay clause is considered a negative factor as it means you may have to pay part of your claim."
+        "explanation": "Non-medical/consumable items listed (and in the annexure) are excluded from cover. You may have to pay these hospital bill components yourself even when the main treatment is covered."
       }
     ],
     "unclear": [
       {
+        "name": "Room Rent",
+        "quote": "In-Patient Treatment... includes: • Hospital room rent or boarding",
+        "reference": "Section B > I. Hospitalisation Covers > 1. In-Patient Treatment (Page 9)",
+        "explanation": "Hospital room rent/boarding is included under in-patient treatment, but no room category limit or cap is stated in the provided extract. You should confirm from the policy schedule/wording whether any room rent restriction applies, as it can affect claim payouts."
+      },
+      {
         "name": "Initial Waiting Period",
         "quote": "All Illnesses and treatments shall be covered subject to the waiting periods specified below:",
         "reference": "Section C > 1. Standard Waiting Period (Page 16)",
-        "explanation": "The extract does not explicitly mention an initial waiting period like 30 days. You should verify the full policy wording or schedule for this important detail."
+        "explanation": "The extract indicates waiting periods apply but does not show the actual initial waiting period duration (commonly 30 days, with accident exceptions). You should check the next lines/clauses in the same section or the schedule to confirm the exact number of days."
       }
     ]
   },

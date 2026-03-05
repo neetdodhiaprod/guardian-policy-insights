@@ -6,17 +6,17 @@
   "documentType": "Policy Wording",
   "summary": {
     "great": 1,
-    "good": 4,
-    "bad": 4,
+    "good": 5,
+    "bad": 1,
     "unclear": 2
   },
   "features": {
     "great": [
       {
-        "name": "Built-in SI Buffer",
+        "name": "Sum Insured Rebound",
         "quote": "6. Sum Insured Rebound\nWe will add to the Sum Insured, an amount equivalent to the Claim amount paid under Basic Sum Insured,subject to maximum of Basic Sum Insured on subsequent Hospitalization of the Insured Person during Policy Year",
         "reference": "Section B > III Optional Covers > 6. Sum Insured Rebound (page 15)",
-        "explanation": "The policy adds extra Sum Insured equal to the claim amount paid under the basic Sum Insured for subsequent hospitalizations within the same policy year, up to 100% of the basic Sum Insured. This gives you additional coverage if you have multiple hospitalizations in one year."
+        "explanation": "An optional cover adds back Sum Insured equal to the claim paid from the Basic Sum Insured, up to 100% of the Basic Sum Insured, for subsequent hospitalizations in the same policy year. This can protect you if you have multiple hospitalizations in a year and the base Sum Insured gets used up."
       }
     ],
     "good": [
@@ -24,51 +24,39 @@
         "name": "Pre-hospitalization Cover",
         "quote": "We will pay for the Pre-hospitalization Medical Expenses incurred during the 60 days immediately before Hospitalization of an Insured Person",
         "reference": "Section B > I Hospitalization Cover > 4. Pre-hospitalization cover (page 10)",
-        "explanation": "Medical expenses incurred up to 60 days before hospitalization are covered. This helps cover costs related to diagnosis and treatment leading to your hospital stay."
+        "explanation": "Pre-hospitalization medical expenses are covered for up to 60 days before hospitalization. This helps pay for consultations, tests, and medicines leading up to admission."
       },
       {
         "name": "Post-hospitalization Cover",
         "quote": "We will pay for the Post-HospitalizationMedical Expenses incurred upto180 days from the date Insured Person is discharged from Hospital",
         "reference": "Section B > I Hospitalization Cover > 5. Post-Hospitalization cover (page 10)",
-        "explanation": "Medical expenses up to 180 days after hospital discharge are covered. This supports recovery by covering follow-up treatments and medications."
+        "explanation": "Post-hospitalization medical expenses are covered for up to 180 days after discharge. This reduces out-of-pocket costs for follow-ups, medicines, and recovery-related treatment."
       },
       {
         "name": "PED Waiting Period",
         "quote": "Expenses related to the treatment of a pre-existing disease (PED) and its direct complications shall be excluded until the expiry of 48 months of continuous coverage after the date of inception of the first policy with insurer.",
         "reference": "Section C > 1.I Waiting Periods > i) Pre-existing Diseases – Code – Excl01 (page 19)",
-        "explanation": "Pre-existing diseases are covered after 48 months of continuous coverage with the insurer. This is a standard waiting period before claims for such conditions are accepted."
+        "explanation": "Pre-existing diseases are covered only after 48 months of continuous coverage from the first policy start date with the insurer. This is a common 4-year waiting period, so PED-related claims before that can be rejected."
       },
       {
         "name": "Specific Illness Waiting",
         "quote": "Expenses related to the treatment of the listed Conditions, surgeries/treatmentsshall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first Policy with us.",
         "reference": "Section C > 1.I Waiting Periods > ii) Specified Disease/Procedure waiting period – Code – Excl02 (page 19)",
-        "explanation": "Treatment for specified diseases or procedures is covered after 24 months of continuous coverage. This waiting period applies to certain listed illnesses and surgeries."
+        "explanation": "Listed specified diseases/procedures are covered only after 24 months of continuous coverage from the first policy start date. This means claims for those listed conditions in the first 2 years can be excluded."
+      },
+      {
+        "name": "Initial Waiting Period",
+        "quote": "30-day waiting period – Code – Excl03\nExpenses related to the treatment of any illness within 30 days from the first Policy commencement date shall be excluded except claims arising due to an Accident... This exclusion shall not, however, apply if the Insured Person has continuous coverage for more than twelve months.",
+        "reference": "Section C > 1.I Waiting Periods > iii) 30-day waiting period – Code – Excl03 (page 20)",
+        "explanation": "Illnesses are not covered for the first 30 days from the first policy commencement date, but accidents are covered immediately. The exclusion does not apply if the insured has continuous coverage for more than 12 months."
       }
     ],
     "bad": [
       {
-        "name": "Restore Benefit",
-        "quote": "Restore benefit not found in the provided policy wording extract.",
-        "reference": "Not found in provided document text",
-        "explanation": "Sum Insured is not replenished after a claim unless you opt for additional covers like Sum Insured Rebound. This means your coverage reduces after a claim and is not automatically restored."
-      },
-      {
-        "name": "Consumables",
-        "quote": "Consumables benefit / consumables cover not found as a separate explicit coverage (only listed under medical expenses generally).",
-        "reference": "Not found as a specific consumables cover in provided text",
-        "explanation": "Consumables such as gloves, syringes, and PPE kits are not explicitly covered and may need to be paid out-of-pocket. Lack of explicit coverage means these costs could be excluded."
-      },
-      {
-        "name": "NCB",
-        "quote": "Cumulative Bonuswill be reduced at the same rate as accrued in the event of admissible Claim under Section B-I of the Policy.",
-        "reference": "Section B > II Renewal Benefits > 2. Cumulative Bonus (page 11)",
-        "explanation": "The no-claim bonus reduces when you make a claim, lowering your future discounts. This means you lose part of your renewal benefit after a claim."
-      },
-      {
         "name": "Co-pay",
         "quote": "Insured Person shall bear specified percentage of admissible Claim amount under each and every Claim If Co-payment is applicable",
         "reference": "Section B > I Hospitalization Cover (repeated across benefits, pages 10-11)",
-        "explanation": "The co-payment percentage is not explicitly stated for the base plan in the policy wording. Verify from the Policy Schedule whether co-pay applies and at what rate."
+        "explanation": "A co-payment can apply, meaning you may have to bear a specified percentage of every admissible claim when it is applicable. This is a red flag because it can reduce every claim payout, and the exact percentage is not stated in the quoted clause."
       }
     ],
     "unclear": [
@@ -76,13 +64,13 @@
         "name": "Room Rent",
         "quote": "Room rent, boarding and Nursing charges",
         "reference": "Section B > I Hospitalization Cover > 1. Medical Expenses (page 10)",
-        "explanation": "The policy wording does not clearly state the default room rent limit or capping. You need to check the Policy Schedule to know if there is a cap or if room rent is covered at actuals."
+        "explanation": "Room rent is listed as covered under medical expenses, but the wording here does not state any room category limit or daily cap. The actual room rent restriction (if any) would materially affect claim payouts, so it needs confirmation from the schedule/terms not shown here."
       },
       {
-        "name": "Initial Waiting Period",
-        "quote": "30-day waiting period – Code – Excl03\nExpenses related to the treatment of any illness within 30 days from the first Policy commencement date shall be excluded except claims arising due to an Accident... This exclusion shall not, however, apply if the Insured Person has continuous coverage for more than twelve months.",
-        "reference": "Section C > 1.I Waiting Periods > iii) 30-day waiting period – Code – Excl03 (page 20)",
-        "explanation": "There is a 30-day initial waiting period for illnesses except accidents, but it may be waived if you have continuous coverage over 12 months. Clarify how this applies on renewals or port-ins."
+        "name": "No Claim Bonus",
+        "quote": "Cumulative Bonuswill be reduced at the same rate as accrued in the event of admissible Claim under Section B-I of the Policy.",
+        "reference": "Section B > II Renewal Benefits > 2. Cumulative Bonus (page 11)",
+        "explanation": "Cumulative Bonus is reduced by the same rate as it was accrued when an admissible claim is made. The reduction amount/step is not provided in the quote, so the impact on your future Sum Insured increase cannot be quantified from this extract."
       }
     ]
   },

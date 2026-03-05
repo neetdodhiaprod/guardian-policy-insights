@@ -6,8 +6,8 @@
   "documentType": "Policy Wording",
   "summary": {
     "great": 4,
-    "good": 7,
-    "bad": 4,
+    "good": 8,
+    "bad": 3,
     "unclear": 0
   },
   "features": {
@@ -16,25 +16,25 @@
         "name": "Restore Benefit",
         "quote": "We will reset up to 100% of the Annual Sum Insured, for any illness/disease/injury for the Insured Person in a Policy Year... i. This benefit will be triggered unlimited times for any illness/disease/injury.",
         "reference": "Benefits covered under the Policy > Basic cover > 11. Reset Benefit",
-        "explanation": "The Sum Insured is fully replenished unlimited times within the same policy year for any illness or injury. This means you get multiple full top-ups of your coverage if you exhaust your Sum Insured."
+        "explanation": "Up to 100% of the Annual Sum Insured is restored for any illness/disease/injury, and it can trigger unlimited times in a policy year. This can significantly increase available cover if the sum insured gets exhausted due to multiple hospitalisations."
       },
       {
         "name": "Pre-hospitalization Cover",
         "quote": "We will cover the Pre-Hospitalization Medical Expenses... immediately 90 days before the Insured Person’s Admission to Hospital",
         "reference": "Benefits covered under the Policy > Basic cover > 4. Pre-Hospitalisation Medical Expenses",
-        "explanation": "Medical expenses incurred up to 90 days before hospital admission are covered. This longer pre-hospitalization period helps cover early treatment costs better than typical plans."
+        "explanation": "Pre-hospitalisation medical expenses are covered for 90 days immediately before hospital admission. This helps pay for consultations, tests and medicines leading up to hospitalisation."
       },
       {
         "name": "NCB",
         "quote": "We will provide a Loyalty Bonus of 20%... at the end of each Policy Year irrespective of a claim being initiated... ix. In the event of Claim, under the Policy during any subsequent Policy Year, the credited Loyalty Bonus will not be reduced.",
         "reference": "Benefits covered under the Policy > Basic cover > 10. Loyalty Bonus",
-        "explanation": "You receive a 20% bonus Sum Insured every year regardless of claims, and this bonus is not reduced after claims. This is better than usual no-claim bonuses that reset after a claim."
+        "explanation": "A 20% Loyalty Bonus is added at the end of each policy year even if a claim is made, and it is not reduced after future claims. This is stronger than typical no-claim bonuses that drop or reset after a claim."
       },
       {
         "name": "Bariatric Surgery",
         "quote": "We will cover medical expenses incurred in respect of Hospitalisation of the Insured Person for Surgical Procedure/treatment for Obesity up to Annual Sum Insured",
         "reference": "Benefits covered under the Policy > Basic cover > 12. Bariatric Surgery Cover",
-        "explanation": "Surgical treatment for obesity is covered under the base plan, subject to conditions. This is a valuable benefit not commonly included in standard policies."
+        "explanation": "Hospitalisation expenses for surgical procedure/treatment for obesity are covered up to the Annual Sum Insured. This is a valuable inclusion because many retail health plans exclude bariatric surgery or cover it only via add-ons."
       }
     ],
     "good": [
@@ -42,43 +42,49 @@
         "name": "Room Rent",
         "quote": "Room Rent charges up to Single Private AC room;",
         "reference": "Benefits covered under the Policy > Basic cover > 1. In-patient Treatment",
-        "explanation": "Room rent is covered up to a Single Private AC room, which is a good standard level of room eligibility. Optional upgrades may be available."
+        "explanation": "Room rent is covered up to a Single Private AC room. Staying in a higher category room can lead to reduced claim payout due to linked room-rent conditions."
       },
       {
         "name": "PED Waiting Period",
         "quote": "Expenses related to the treatment of a pre-existing Disease (PED)... shall be excluded until the expiry of 36 months of continuous coverage after the date of inception of the first policy",
         "reference": "Exclusions > Standard Exclusions > 1. Pre-Existing Diseases - Code- Excl01",
-        "explanation": "Pre-existing diseases are excluded for 36 months from policy start, which is within the acceptable 2–4 year market standard."
+        "explanation": "Pre-existing diseases are not covered for the first 36 months of continuous coverage from the first policy start date. Claims for declared/known conditions during this period can be rejected."
       },
       {
         "name": "Specific Illness Waiting",
         "quote": "Expenses related to the treatment of the listed Conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage",
         "reference": "Exclusions > Standard Exclusions > 2. Specified Disease/Procedure Waiting Period - Code- Excl02",
-        "explanation": "Waiting period for specified illnesses and procedures is 24 months, which aligns with typical market practice."
+        "explanation": "Listed specified diseases/procedures are not covered for the first 24 months of continuous coverage. This is a common market waiting period for certain planned surgeries and conditions."
       },
       {
-        "name": "Initial Waiting",
+        "name": "Initial Waiting Period",
         "quote": "Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident",
         "reference": "Exclusions > Standard Exclusions > 4. 30-day waiting period - Code- Excl03",
-        "explanation": "Illnesses are excluded for the first 30 days except accidents, which is the standard initial waiting period in health insurance."
+        "explanation": "Illnesses are not covered in the first 30 days from the first policy commencement date, except for accidents. Early claims for sickness during this period can be denied."
       },
       {
         "name": "Post-hospitalization Cover",
         "quote": "We will cover the Post-Hospitalization Medical Expenses... immediately 180 days following the Insured Person’s discharge from Hospital",
         "reference": "Benefits covered under the Policy > Basic cover > 5. Post Hospitalization Medical Expenses",
-        "explanation": "Medical expenses up to 180 days after hospital discharge are covered, which is at the higher end of standard post-hospitalization coverage."
+        "explanation": "Post-hospitalisation medical expenses are covered for 180 days immediately after discharge. This helps cover follow-up consultations, diagnostics and medicines for a longer recovery period."
       },
       {
         "name": "Air Ambulance",
         "quote": "We will cover the expenses incurred on Air Ambulance services up to the Annual Sum Insured...",
         "reference": "Add ons/Optional Covers > 12. Domestic Air Ambulance Cover",
-        "explanation": "Air ambulance coverage is available as an optional add-on with no specified limit, providing useful emergency transport coverage."
+        "explanation": "Air ambulance expenses are covered up to the Annual Sum Insured under an optional add-on. This can be useful for emergency transfers but will apply only if you buy the add-on."
       },
       {
         "name": "Domiciliary Hospitalization",
         "quote": "We will cover the Medical Expenses incurred in respect of the Domiciliary Hospitalization of the Insured Person during the Policy Period up to the Annual Sum Insured",
         "reference": "Benefits covered under the Policy > Basic cover > 9. Domiciliary Hospitalization",
-        "explanation": "Home-based hospitalization expenses are covered if conditions are met, though some disease exclusions apply."
+        "explanation": "Domiciliary hospitalisation (treatment at home when hospitalisation is required) is covered up to the Annual Sum Insured, subject to policy conditions. This helps when a hospital bed is unavailable or the patient cannot be moved."
+      },
+      {
+        "name": "Modern Treatments",
+        "quote": "We will cover... Technological Advancements and Treatments... for the below mentioned... [listed items: Robotic surgeries, Deep Brain stimulation, etc.]",
+        "reference": "Benefits covered under the Policy > Basic cover > 3. Technological Advancements and Treatments",
+        "explanation": "Coverage is provided for technological advancements and treatments only for the items specifically listed (e.g., robotic surgeries, deep brain stimulation). If a modern treatment is not on the list, it may not be payable even if medically necessary."
       }
     ],
     "bad": [
@@ -86,25 +92,19 @@
         "name": "Consumables",
         "quote": "medicines, drugs and consumables (other than those specified in the list of excluded expenses (non-medical) in Annexure II.",
         "reference": "Benefits covered under the Policy > Basic cover > 1. In-patient Treatment (point v) + Annexure II",
-        "explanation": "Many common hospital consumables like gloves and masks are excluded, causing potential out-of-pocket expenses unless you buy an optional cover."
+        "explanation": "Consumables are payable only except those mentioned in the excluded (non-medical) list in Annexure II. This can create out-of-pocket costs for common hospital items that are often billed separately."
       },
       {
         "name": "Proportionate Deduction",
         "quote": "If the Insured Person is admitted in a room category/limit that is higher than the one that is specified... then the Insured Person shall bear a proportional share of the total Associated medical expenses",
         "reference": "Benefits covered under the Policy > Basic cover > 1. In-patient Treatment (claim conditions)",
-        "explanation": "Choosing a room higher than Single Private AC triggers proportional deductions on medical expenses, reducing your claim payout."
-      },
-      {
-        "name": "Modern Treatments",
-        "quote": "We will cover... Technological Advancements and Treatments... for the below mentioned... [listed items: Robotic surgeries, Deep Brain stimulation, etc.]",
-        "reference": "Benefits covered under the Policy > Basic cover > 3. Technological Advancements and Treatments",
-        "explanation": "Coverage for modern treatments is limited to a specific list, so treatments not listed may not be covered, which restricts your options."
+        "explanation": "If you choose a room category higher than the eligible limit, you must bear a proportional share of the total associated medical expenses. This can sharply reduce the claim payout beyond just the room rent difference."
       },
       {
         "name": "Co-pay",
         "quote": "“Co-Payment” shall mean a cost sharing requirement... A co-payment does not reduce the Sum Insured",
         "reference": "Definitions > Co-Payment (definition only); Optional Covers > 19. Voluntary Co-Payment; Optional Cover 29 Network Advantage (20% co-pay outside PPN if opted)",
-        "explanation": "The policy defines co-pay and offers optional co-pay plans but does not clearly state if the base plan has any mandatory co-pay. Confirm from the schedule if any co-pay applies by default."
+        "explanation": "A co-pay applies if you opt for the Voluntary Co-Payment option or if you opt for the Network Advantage option where a 20% co-pay applies outside the PPN. Any co-pay means you pay part of every claim from your pocket, so opting into these variants reduces claim reimbursement."
       }
     ],
     "unclear": []

@@ -7,7 +7,7 @@
   "summary": {
     "great": 2,
     "good": 7,
-    "bad": 3,
+    "bad": 2,
     "unclear": 1
   },
   "features": {
@@ -16,57 +16,57 @@
         "name": "Restore Benefit",
         "quote": "Restore Benefit Instant addition of 100% Basic Sum Insured on complete or partial utilization of Your existing Policy Sum Insured and Multiplier Benefit (if applicable) during the Policy Year.",
         "reference": "Section B, In-patient Benefits, 1.a Restore Benefit (page 14)",
-        "explanation": "You get an extra 100% of your Basic Sum Insured once per policy year after using your existing sum insured. This increases your claim capacity beyond the base sum insured."
+        "explanation": "Provides an instant addition of 100% of the Basic Sum Insured when your existing Sum Insured (and Multiplier Benefit, if applicable) is partially or fully used in the same policy year. This increases your available cover for subsequent hospitalisations in that year."
       },
       {
         "name": "NCB",
         "quote": "On Renewal of this Policy with the Company without a break, a sum equal to 50% of the Base Sum Insured of the expiring Policy shall be provided as multiplier benefit irrespective of any claims",
         "reference": "Section B.3 Multiplier Benefit (page 17-18)",
-        "explanation": "Your sum insured increases by 50% on renewal even if you made claims, so your bonus does not reset to zero after a claim."
+        "explanation": "On renewal without a break, 50% of the Base Sum Insured is added as a multiplier benefit even if you made claims. This means your bonus does not get wiped out just because you claimed."
       }
     ],
     "good": [
       {
-        "name": "Initial Waiting",
+        "name": "Initial Waiting Period",
         "quote": "30-day waiting period... Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident",
         "reference": "Section C.1.i (page 18)",
-        "explanation": "Illnesses are not covered for the first 30 days except accidents, which are covered immediately."
+        "explanation": "Illness-related treatment is not covered for the first 30 days from the first policy start date, except for accidents. This is a standard waiting period in retail health insurance."
       },
       {
-        "name": "Specific Illness Waiting",
+        "name": "Specific Illness Waiting Period",
         "quote": "Expenses related to the treatment of the listed Conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage",
         "reference": "Section C.1.ii (page 18-20)",
-        "explanation": "Treatment for listed diseases and surgeries is excluded for 24 months from policy start, which is standard in the market."
+        "explanation": "Treatment for the listed conditions/surgeries is excluded until you complete 24 months of continuous coverage. This is a common market-standard waiting period for specified illnesses."
       },
       {
-        "name": "PED Waiting",
+        "name": "PED Waiting Period",
         "quote": "Expenses related to the treatment of a pre-existing disease (PED) and its direct complications shall be excluded until the expiry of 36 months of continuous coverage",
         "reference": "Section C.1.iii (page 20)",
-        "explanation": "Pre-existing diseases are excluded for 36 months, which is within the normal market range."
+        "explanation": "Pre-existing diseases and their direct complications are not covered until 36 months of continuous coverage are completed. This is within the typical 2–4 year range seen in many plans."
       },
       {
-        "name": "Restore Limit",
+        "name": "Restore Benefit Limit",
         "quote": "i. The Sum Insured will be restored only once in a Policy Year. ii. If the Restored Sum Insured is not utilized in a Policy Year, it will expire.",
         "reference": "Section B, In-patient Benefits, 1.a Restore Benefit conditions (page 14)",
-        "explanation": "The sum insured is restored only once per policy year and unused restore amount expires, so restore is limited but still useful."
+        "explanation": "The restored Sum Insured is available only once per policy year and any unused restored amount expires at the end of that year. This limits how many times you can rely on restore in a single year."
       },
       {
-        "name": "Pre-hospitalization",
+        "name": "Pre-hospitalization Cover",
         "quote": "Pre-Hospitalisation expenses... incurred upto 60 days before the date of admission",
         "reference": "Section B.1.b (page 11) and Schedule of Benefits (page 47-48)",
-        "explanation": "Expenses before hospital admission are covered up to 60 days, which is a good coverage period."
+        "explanation": "Covers pre-hospitalisation medical expenses incurred up to 60 days before admission. This helps pay for consultations, tests, and medicines leading up to hospitalisation."
       },
       {
-        "name": "Post-hospitalization",
+        "name": "Post-hospitalization Cover",
         "quote": "Post-Hospitalisation expenses... incurred upto 180 days after discharge from the Hospital",
         "reference": "Section B.1.c (page 11-12) and Schedule of Benefits (page 47-48)",
-        "explanation": "Expenses after hospital discharge are covered up to 180 days, providing good post-hospital care."
+        "explanation": "Covers post-hospitalisation medical expenses incurred up to 180 days after discharge. This supports longer recovery costs like follow-ups, diagnostics, and medicines."
       },
       {
         "name": "Air Ambulance",
         "quote": "J(i) The amount payable in case of Air ambulance facility shall be either the actual expenses or Rs. 2.5 Lacs per hospitalisation, whichever is lower",
         "reference": "Section B.1.j (page 13) and Schedule of Benefits (page 47-48)",
-        "explanation": "Air ambulance is covered with a limit of Rs. 2.5 lakhs per hospitalization for higher sum insured slabs, adding valuable emergency transport cover."
+        "explanation": "Pays for air ambulance charges up to the lower of actual expenses or ₹2.5 lakhs per hospitalisation. This can be valuable for emergency transfers but has a clear per-hospitalisation cap."
       }
     ],
     "bad": [
@@ -74,27 +74,21 @@
         "name": "Consumables",
         "quote": "Annexure I List I - Items for which coverage is not available in the policy... 56 GLOVES... 60 MASK... 55 ECG ELECTRODES... 68 VASOFIX SAFETY",
         "reference": "Annexure I, List I (page 43-44)",
-        "explanation": "Common consumables like gloves and masks are excluded, which means you may have to pay for these during hospitalization."
+        "explanation": "Consumables like gloves, masks, ECG electrodes and similar items are listed as not covered. This can increase your out-of-pocket costs during hospitalisation even when the main bill is covered."
       },
       {
-        "name": "Room Rent",
-        "quote": "Hospital room rent or boarding;",
-        "reference": "Section B.1.a In-patient Treatment inclusions (page 11)",
-        "explanation": "Room rent coverage is mentioned but no details on room category or limits are provided here, which can lead to proportionate deductions if there is a cap."
-      },
-      {
-        "name": "Co-pay",
+        "name": "Co-pay (Optional)",
         "quote": "Co-Payment (Optional benefit) I. If opted and mentioned on the Policy Schedule that a Co-payment is effective",
         "reference": "Section B.2.d Co-Payment (Optional benefit) (page 15-16) and Schedule of Benefits (page 47-48)",
-        "explanation": "Co-pay applies only if opted for, but the default co-pay percentage is not clearly stated, so check your policy schedule for exact details."
+        "explanation": "A co-payment can apply if you opt for it and it is shown as effective in the Policy Schedule. If selected, you will have to bear a part of each admissible claim, reducing the insurer payout."
       }
     ],
     "unclear": [
       {
-        "name": "Cashless Network",
-        "quote": "Network Provider means Hospital enlisted by an insurer or a TPA... to provide medical services to an insured by a cashless facility",
-        "reference": "Definitions, Def. 32 Network Provider (page 7)",
-        "explanation": "Cashless facility is described but the number of network hospitals is not specified here; verify network size from insurer or policy documents."
+        "name": "Room Rent",
+        "quote": "Hospital room rent or boarding;",
+        "reference": "Section B.1.a In-patient Treatment inclusions (page 11)",
+        "explanation": "Room rent/boarding is included, but this clause does not state any room category limit or rupee cap. You should confirm the room rent eligibility in the Schedule of Benefits to avoid unexpected deductions."
       }
     ]
   },

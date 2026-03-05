@@ -5,56 +5,49 @@
   "policyType": "Senior",
   "documentType": "Mixed",
   "summary": {
-    "great": 1,
+    "great": 0,
     "good": 6,
     "bad": 7,
-    "unclear": 0
+    "unclear": 1
   },
   "features": {
-    "great": [
-      {
-        "name": "Built-in SI Buffer",
-        "quote": "“Additional Sum Insured for Accidental Hospitalization' shall be utilized only after the Sum Insured has been completely exhausted;”",
-        "reference": "Optional Cover 11: Additional Sum Insured for Accidental Hospitalization (Clause 3.11)",
-        "explanation": "An extra Sum Insured layer activates after your base Sum Insured is fully used, but only for accidental hospitalization if you opt for this cover. This gives you additional financial protection beyond the base limit in case of accidents."
-      }
-    ],
+    "great": [],
     "good": [
       {
         "name": "Initial Waiting Period",
         "quote": "“First 30-Day waiting Period… Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident”",
         "reference": "Waiting Periods (Clause 4.1(i))",
-        "explanation": "Illnesses are excluded for the first 30 days except accidents, which are covered immediately. This is a standard waiting period in health insurance."
+        "explanation": "Treatment for any illness is not covered for the first 30 days from the policy start date, but accidents are covered immediately. This is a standard waiting period and mainly affects claims made soon after buying the policy."
       },
       {
         "name": "Specific Illness Waiting",
         "quote": "“Specific Waiting Period… excluded until the expiry of 24 months of continuous coverage”",
         "reference": "Waiting Periods (Clause 4.1(ii))",
-        "explanation": "Certain listed diseases or procedures are excluded for 24 months from policy start. This is the industry standard waiting time for specific illnesses."
+        "explanation": "Certain listed diseases/procedures are not covered until you complete 24 months of continuous coverage. This is market-standard and delays coverage for those specific conditions."
       },
       {
         "name": "PED Waiting Period",
         "quote": "“Pre-existing Disease… shall be excluded until the expiry of 48 months of continuous coverage”",
         "reference": "Waiting Periods (Clause 4.1(iii))",
-        "explanation": "Pre-existing diseases are excluded for 48 months (4 years) from policy start. This is within the normal range and not a red flag."
+        "explanation": "Pre-existing diseases are not covered until the expiry of 48 months (4 years) of continuous coverage. This is common in retail health insurance and is important if you already have diagnosed conditions."
       },
       {
         "name": "Restore Benefit",
         "quote": "“Automatic Recharge… re-instatement of up to the Sum Insured once in a policy year… The Recharge shall be available only for all future Claims which are not in relation to any Illness or Injury for which a Claim has already been admitted”",
         "reference": "Benefit 7: Automatic Recharge (Clause 2.7(iv))",
-        "explanation": "The policy restores up to 100% of the Sum Insured once per year but only for unrelated illnesses. This helps cover new health issues after your limit is used."
+        "explanation": "Up to 100% of the Sum Insured is reinstated once in a policy year after it is used, but only for future claims unrelated to the illness/injury already claimed. This helps if a second, different hospitalization happens in the same year."
       },
       {
         "name": "Pre-hospitalization Cover",
         "quote": "“Relevant Pre-hospitalization Medical Expenses, for a period of 30 days immediately prior”",
         "reference": "Benefit 2: Pre & Post Hospitalization (Clause 2.2(i))",
-        "explanation": "Medical expenses up to 30 days before hospitalization are covered. This is a standard pre-hospitalization period."
+        "explanation": "Medical expenses for up to 30 days immediately before hospitalization are covered if related to the hospitalization. This reduces out-of-pocket costs for tests and consultations leading up to admission."
       },
       {
         "name": "Post-hospitalization Cover",
         "quote": "“Relevant Post-hospitalization Medical Expenses, for a period of 60 days immediately after”",
         "reference": "Benefit 2: Pre & Post Hospitalization (Clause 2.2(ii))",
-        "explanation": "Medical expenses up to 60 days after discharge are covered. This is an adequate post-hospitalization period at entry-level."
+        "explanation": "Medical expenses for up to 60 days immediately after discharge are covered if related to the hospitalization. This helps pay for follow-up medicines and check-ups after you leave the hospital."
       }
     ],
     "bad": [
@@ -62,46 +55,53 @@
         "name": "Room Rent",
         "quote": "“If the Policy Schedule states ‘Single Private Room’ as eligible Room Category… payable by the Company is limited to stay in a Single Private Room.”",
         "reference": "Benefit 1: Hospitalization Expenses → Conditions (Clause 2.1(iii)(a)(2))",
-        "explanation": "Coverage is limited to a Single Private Room; choosing a higher room category leads to proportionate deductions on claims. This restricts your room choice and can increase your out-of-pocket costs."
+        "explanation": "Room eligibility is limited to a Single Private Room when stated in the Policy Schedule. Choosing a higher category room can increase your share of the bill due to room-category linked deductions."
       },
       {
         "name": "Co-pay",
         "quote": "“Co-payment – 20% per claim, where age of insured / eldest member is 61 years or above”",
         "reference": "Customer Information Sheet / KFD table (Clause 2(g) referenced)",
-        "explanation": "A mandatory 20% co-pay applies for insured persons aged 61 and above, increasing your share of claim costs. This raises out-of-pocket expenses for seniors."
+        "explanation": "A 20% co-payment per claim applies when the insured/eldest member is 61 years or above. This means you pay 20% of every admissible claim amount, increasing out-of-pocket costs for seniors."
       },
       {
         "name": "Disease Sub-limits",
         "quote": "“Expenses incurred on treatment for Named Ailments / Procedures… up to the amount specified against each… in the Policy Schedule… (These conditions will apply only if specifically mentioned in the Policy Schedule)”",
         "reference": "Benefit 1: Hospitalization Expenses (Clause 2.1(iii)(c))",
-        "explanation": "Certain diseases or procedures have capped payouts if specified in the schedule, limiting claim amounts. This can cause significant out-of-pocket expenses."
+        "explanation": "Named ailments/procedures can have payout caps up to the amount shown in the Policy Schedule, if mentioned there. This can leave you paying the balance if the hospital bill exceeds the sub-limit."
       },
       {
         "name": "Consumables",
         "quote": "“Any item or condition or treatment specified in List of Non-Medical Items (Annexure – II to Policy Terms & Conditions).”",
         "reference": "Permanent Exclusions (Clause 4.2(1))",
-        "explanation": "Many common hospital consumables like gloves, masks, and syringes are excluded from coverage. This increases your out-of-pocket costs during hospitalization."
+        "explanation": "Items listed as non-medical in Annexure II are permanently excluded from cover. This typically increases your hospital out-of-pocket spend on consumables and similar items."
       },
       {
         "name": "NCB",
         "quote": "“In the event of a Claim occurring during any Policy Year, the accrued No Claims Bonus will be reduced by 10% of the Sum Insured at the commencement of next Policy Year”",
         "reference": "Benefit 10: No Claims Bonus (Clause 2.10(ix))",
-        "explanation": "The No Claims Bonus decreases by 10% after a claim instead of being fully protected. This reduces your bonus benefits over time."
+        "explanation": "After a claim, the accrued No Claims Bonus is reduced by 10% of the Sum Insured at the next policy year start. This means your accumulated bonus can shrink after claims instead of staying fully protected."
       },
       {
-        "name": "Global Coverage Co-pay",
+        "name": "Co-pay",
         "quote": "“A mandatory Co-Payment of 10% per Claim is applicable, which will be in addition to any other co-payment (if any) applicable in the Policy.”",
         "reference": "Benefit 11: Global Coverage (excluding U.S.A.) (Clause 2.11(i))",
-        "explanation": "Using global coverage (excluding USA) requires paying a mandatory 10% co-pay on each claim, increasing your costs. This reduces the effective coverage abroad."
+        "explanation": "Global coverage claims have a mandatory 10% co-payment per claim, in addition to any other co-pay in the policy. This increases your share of costs when using the overseas benefit."
       },
       {
-        "name": "Co-pay Applicability",
+        "name": "Co-pay",
         "quote": "“If age of Insured Person or eldest Insured Person (in case of Floater) is 61 years or more, the Company provides an option… to choose for co-payment option of 20% per claim… and thereby get a discount of 20% in Premium” AND “Co-payment – 20% per claim, where age of insured / eldest member is 61 years or above”",
         "reference": "General Conditions 2 / Clause 2(g)(I) AND KFD loss sharing table (Clause 2(g))",
-        "explanation": "One clause states the 20% co-pay for seniors 61+ is optional with a premium discount, while another suggests it applies by default. Check your policy schedule to confirm if senior co-pay is mandatory or optional."
+        "explanation": "One clause describes a 20% co-pay for age 61+ as an optional choice with a 20% premium discount, while another states 20% co-pay applies for age 61+ without clarifying it is optional. This creates a conflict, so you should verify from the Policy Schedule/KFD which co-pay actually applies."
       }
     ],
-    "unclear": []
+    "unclear": [
+      {
+        "name": "Built-in SI Buffer",
+        "quote": "“Additional Sum Insured for Accidental Hospitalization' shall be utilized only after the Sum Insured has been completely exhausted;”",
+        "reference": "Optional Cover 11: Additional Sum Insured for Accidental Hospitalization (Clause 3.11)",
+        "explanation": "An additional sum insured for accidental hospitalization is available only after the base Sum Insured is completely exhausted. Since it is under an optional cover and the amount/availability depends on what you opt for, the real benefit depends on your chosen add-on and schedule."
+      }
+    ]
   },
   "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
 }

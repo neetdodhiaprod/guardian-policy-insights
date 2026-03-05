@@ -7,54 +7,54 @@
   "summary": {
     "great": 1,
     "good": 6,
-    "bad": 4,
-    "unclear": 3
+    "bad": 3,
+    "unclear": 1
   },
   "features": {
     "great": [
       {
-        "name": "Restore Benefit",
-        "quote": "Once in the Policy Year, We shall provide for a reload of the Sum Insured... Reload of Sum Insured shall be available only once during a Policy Year... (iii) The reload of Sum Insured shall be available only for subsequent claims and not in relation to any Illness/ Injury (including its complications) for which a claim has been admitted for the Insured Person during that Policy Year.",
-        "reference": "Section C.I.(h) Reload of Sum Insured",
-        "explanation": "The Sum Insured is replenished once per policy year but only for new illnesses or injuries, not for the same condition already claimed. This gives you an extra buffer annually for unrelated health issues."
+        "name": "No Claim Bonus",
+        "quote": "The accumulated No Claim Bonus shall not exceed 50% of the Sum Insured on the Renewed Policy. In the event of a claim impacting the eligibility of a No Claim Bonus, the accumulated No Claim Bonus shall be reduced by 10% of the Sum Insured at the commencement of subsequent Policy Year.",
+        "reference": "Section C.II.(l).a No Claim Bonus",
+        "explanation": "No Claim Bonus can build up to 50% of Sum Insured, and after a claim it reduces by only 10% (instead of resetting to zero). This helps you retain most of your accumulated bonus even if you make a claim."
       }
     ],
     "good": [
       {
-        "name": "Initial Waiting",
+        "name": "Restore Benefit",
+        "quote": "Once in the Policy Year, We shall provide for a reload of the Sum Insured... Reload of Sum Insured shall be available only once during a Policy Year... (iii) The reload of Sum Insured shall be available only for subsequent claims and not in relation to any Illness/ Injury (including its complications) for which a claim has been admitted for the Insured Person during that Policy Year.",
+        "reference": "Section C.I.(h) Reload of Sum Insured",
+        "explanation": "Sum Insured reload is available once in a policy year, only for subsequent claims and not for the same illness/injury (or its complications) already claimed that year. This gives an extra buffer for a different medical event in the same year, but won’t help if the same condition needs more treatment."
+      },
+      {
+        "name": "Initial Waiting Period",
         "quote": "30-day waiting period (Code- Excl03) i. Expenses related to the treatment of any illness within 30 days from the ﬁrst policy commencement date shall be excluded except claims arising due to an accident",
         "reference": "Section D. Exclusions > I.3 (Excl03)",
-        "explanation": "Illnesses are not covered in the first 30 days except accidents, which is standard practice in health insurance. This protects you from immediate claims but allows accident coverage from day one."
+        "explanation": "Illness-related treatment is not covered for the first 30 days from the first policy start date, except for accidents. This is a standard waiting period and means non-accident claims in the first month will be rejected."
       },
       {
-        "name": "Specific Illness Waiting",
+        "name": "Specific Illness Waiting Period",
         "quote": "Expenses related to the treatment of the listed Conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the ﬁrst policy with Us.",
         "reference": "Section D. Exclusions > I.2 (Excl02)",
-        "explanation": "Certain listed diseases and procedures are covered only after 24 months of continuous coverage, unless caused by an accident. This is a common waiting period for specific illnesses."
-      },
-      {
-        "name": "No Claim Bonus",
-        "quote": "The accumulated No Claim Bonus shall not exceed 50% of the Sum Insured on the Renewed Policy. In the event of a claim impacting the eligibility of a No Claim Bonus, the accumulated No Claim Bonus shall be reduced by 10% of the Sum Insured at the commencement of subsequent Policy Year.",
-        "reference": "Section C.II.(l).a No Claim Bonus",
-        "explanation": "Your Sum Insured can increase by up to 50% if you remain claim-free, and if you do claim, the bonus reduces by only 10% instead of resetting to zero. This rewards you for staying healthy with a better bonus than many policies."
+        "explanation": "Listed diseases/procedures are not covered until you complete 24 months of continuous coverage from the first policy inception. This delays coverage for those specific conditions for the first 2 years."
       },
       {
         "name": "Domiciliary Hospitalization",
         "quote": "We shall cover the Medical Expenses incurred for the Insured Person’s Domiciliary Hospitalization, up to the limits as speciﬁed in the Policy Schedule / Product Beneﬁt Table of this Policy",
         "reference": "Section C.I.(e) Domiciliary Hospitalization (Home Care)",
-        "explanation": "Home-based medical treatment is covered when hospital admission is not possible or bed unavailable, subject to conditions. This provides flexibility for treatment outside hospitals."
+        "explanation": "Home treatment (domiciliary hospitalization) is covered up to the limits shown in the Policy Schedule/Product Benefit Table. This can help when treatment is needed at home instead of being admitted to a hospital."
       },
       {
         "name": "Pre-hospitalization Cover",
         "quote": "We shall cover on a reimbursement basis, up to the Sum Insured for the number of days in accordance with the limit as speciﬁed in the Policy Schedule / Product Beneﬁt Table of this Policy, the Insured Person’s Pre-hospitalization Medical Expenses",
         "reference": "Section C.I.(b) Pre–hospitalization Medical Expenses",
-        "explanation": "Pre-hospitalization expenses are reimbursed up to a limit specified in your policy schedule. This helps cover medical costs before hospital admission, though exact days depend on your plan."
+        "explanation": "Pre-hospitalization medical expenses are reimbursed for the number of days shown in the Policy Schedule/Product Benefit Table. This helps pay for consultations/tests before admission, but the day-limit depends on your plan."
       },
       {
         "name": "Post-hospitalization Cover",
         "quote": "We shall cover on a reimbursement basis, up to the Sum Insured for the number of days speciﬁed in the Policy Schedule / Product Beneﬁt Table of this Policy, the Insured Person’s Post-hospitalization Medical Expenses",
         "reference": "Section C.I.(c) Post–hospitalization Medical Expenses",
-        "explanation": "Post-hospitalization expenses are reimbursed up to a limit stated in your policy schedule. This covers medical costs after discharge, with exact days varying by plan."
+        "explanation": "Post-hospitalization medical expenses are reimbursed for the number of days shown in the Policy Schedule/Product Benefit Table. This helps cover follow-up medicines/tests after discharge, but the day-limit depends on your plan."
       }
     ],
     "bad": [
@@ -62,45 +62,27 @@
         "name": "Room Rent",
         "quote": "Reasonable and Customary Charges for Room Rent... up to the limits as speciﬁed in the Policy Schedule / Product Beneﬁt Table of this Policy; ... If the Insured Person is admitted in a room category/limit that is higher than the one that is speciﬁed... then the Insured Person shall bear a rateable proportion of the total Associated Medical Expenses",
         "reference": "Section C.I.(a) In-patient Hospitalization (Room rent) + Conditions (2)",
-        "explanation": "Room rent is capped as per your policy schedule, and if you choose a higher room category, you must pay a proportionate share of hospital expenses. This can increase your out-of-pocket costs."
+        "explanation": "Room rent is limited as per the Policy Schedule/Product Benefit Table, and choosing a higher room category triggers a proportionate (rateable) share of associated medical expenses. This can significantly increase out-of-pocket costs if you take a room above your eligibility."
       },
       {
         "name": "Consumables",
         "quote": "Non-Medical Expenses... as speciﬁed in the Annexure I - Non- Medical Expenses... List I - Items for which coverage is not available in the policy... 56 GLOVES ... 60 MASK ... 58 ANY KIT WITH NO DETAILS MENTIONED [DELIVERY KIT, ORTHOKIT, RECOVERY KIT, ETC]",
         "reference": "Section D.II.(50) + Annexure I (Non-medical expenses list)",
-        "explanation": "Many common hospital consumables like gloves, masks, and kits are excluded from coverage, meaning you will have to pay for these items yourself during hospitalization."
-      },
-      {
-        "name": "Restore Restriction",
-        "quote": "(ii) The reload of Sum Insured shall not apply to the ﬁrst claim in the Policy Year. (iii) The reload of Sum Insured shall be available only for subsequent claims and not in relation to any Illness/ Injury (including its complications) for which a claim has been admitted for the Insured Person during that Policy Year.",
-        "reference": "Section C.I.(h) Reload of Sum Insured",
-        "explanation": "The reload benefit does not apply to your first claim each year and cannot be used for the same illness or its complications within that year. This limits the usefulness of the restore feature."
+        "explanation": "Non-medical/consumable items listed in Annexure I (e.g., gloves, masks, and various kits) are not covered. This means you will pay these common hospital charges from your own pocket during hospitalization."
       },
       {
         "name": "Co-pay",
         "quote": "At the time of inception... if the Age... is 61 years or above... shall bear a Co-payment per claim... as speciﬁed in Product Beneﬁt Table/Policy Schedule.",
         "reference": "Section E (II).31 Co-payment",
-        "explanation": "Co-payment applies mandatorily for those aged 61 and above, but the exact percentage is not stated here. You need to check your policy schedule for the specific co-pay amount."
+        "explanation": "If age at inception is 61 years or above, a co-payment per claim applies as per the Product Benefit Table/Policy Schedule. This means you must pay a fixed percentage/amount of every claim yourself, increasing your out-of-pocket costs."
       }
     ],
     "unclear": [
       {
-        "name": "PED Waiting",
+        "name": "PED Waiting Period",
         "quote": "Expenses related to the treatment of a pre-existing Disease (PED)... shall be excluded until the expiry of years / months as speciﬁed in the Policy Schedule / Product Beneﬁt Table of this Policy",
         "reference": "Section D. Exclusions > I.1 (Excl01)",
-        "explanation": "The waiting period for pre-existing diseases is not specified in this excerpt and depends on your policy schedule. Confirm the exact duration before purchase."
-      },
-      {
-        "name": "Pre-hospitalization Days",
-        "quote": "for the number of days in accordance with the limit as speciﬁed in the Policy Schedule / Product Beneﬁt Table of this Policy",
-        "reference": "Section C.I.(b) Pre–hospitalization Medical Expenses",
-        "explanation": "Pre-hospitalization coverage exists but the exact number of days covered is not stated here and varies by plan. Check your policy schedule for details."
-      },
-      {
-        "name": "Post-hospitalization Days",
-        "quote": "for the number of days speciﬁed in the Policy Schedule / Product Beneﬁt Table of this Policy",
-        "reference": "Section C.I.(c) Post–hospitalization Medical Expenses",
-        "explanation": "Post-hospitalization coverage exists but the exact number of days covered is not stated here and varies by plan. Check your policy schedule for details."
+        "explanation": "Pre-existing diseases are not covered until you complete the waiting period mentioned in the Policy Schedule/Product Benefit Table. The exact duration is not stated here, so you must verify the number of months/years in your schedule before buying."
       }
     ]
   },

@@ -5,10 +5,10 @@
   "policyType": "Individual | Family Floater",
   "documentType": "Policy Wording",
   "summary": {
-    "great": 2,
+    "great": 1,
     "good": 5,
-    "bad": 5,
-    "unclear": 0
+    "bad": 3,
+    "unclear": 1
   },
   "features": {
     "great": [
@@ -16,13 +16,7 @@
         "name": "Restore Benefit",
         "quote": "Re-fill benefit Reinstate up to base Sum Insured. Applicable for same & different illness as well",
         "reference": "Annexure II – Product Benefit Table (Silver/Gold/Platinum tables)",
-        "explanation": "The policy provides an additional sum insured equal to the base amount for repeated or new illnesses after the base sum insured is exhausted. This means you get extra coverage within the same policy year for continued treatment."
-      },
-      {
-        "name": "Built-in SI Buffer",
-        "quote": "We will provide an additional re-fill amount of maximum up to 100% of the Base Sum Insured.",
-        "reference": "Section 3.12 Re-fill Benefit",
-        "explanation": "An extra sum insured equal to the base sum insured is available once per policy year after the base limit is used up. This gives you a financial cushion for additional hospitalizations."
+        "explanation": "Sum insured can be reinstated up to the base Sum Insured and can be used for the same or a different illness. This improves claim-paying ability within the same policy year after the base cover is used."
       }
     ],
     "good": [
@@ -30,31 +24,31 @@
         "name": "PED Waiting Period",
         "quote": "Expenses related to the treatment of a Pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 24 months (under gold & platinum Plans)/ 36 months (under Silver Plans) of continuous coverage after the date of inception of the first Policy.",
         "reference": "Section 5.1.1.1 Pre-existing Diseases",
-        "explanation": "Pre-existing diseases are covered after 24 months for Gold/Platinum and 36 months for Silver plans. This aligns with common market standards."
+        "explanation": "Pre-existing diseases are covered after 24 months (Gold/Platinum) or 36 months (Silver) of continuous coverage from first policy inception. This is broadly in line with typical retail health insurance waiting periods."
       },
       {
         "name": "Initial Waiting Period",
         "quote": "Expenses related to the treatment of any Illness within 30 days from the first Policy commencement date shall be excluded except claims arising due to an Accident",
         "reference": "Section 5.1.1.2 30-day Waiting Period",
-        "explanation": "Illnesses are excluded for the first 30 days except accidents, which are covered immediately. This is a standard waiting period in health insurance."
+        "explanation": "Illness-related claims are not covered for the first 30 days from policy start, except for accidents. This is a standard market condition and mainly affects early claims for non-accident illnesses."
       },
       {
         "name": "Specific Illness Waiting",
         "quote": "For all Insured Persons who are above 45 years of Age as on the date of inception of the First Policy with Us... excluded until the expiry of 24 months of continuous coverage",
         "reference": "Section 5.1.1.3 Specified disease/procedure waiting period",
-        "explanation": "Certain illnesses have a 24-month waiting period for those over 45 years old at policy start. This is typical for specified conditions."
+        "explanation": "Specified diseases/procedures are excluded for 24 months for insured persons who are above 45 years at first policy inception. This delays coverage for listed conditions and is common in many plans."
       },
       {
         "name": "Pre-hospitalization Cover",
         "quote": "We will pay above mentioned Pre-hospitalization Medical Expenses only for period up to 60 days immediately preceding the Insured Person’s admission",
         "reference": "Section 3.2 (Sub-limit)",
-        "explanation": "Medical expenses incurred up to 60 days before hospitalization are covered. This helps cover diagnostic and treatment costs leading to admission."
+        "explanation": "Pre-hospitalization medical expenses are covered for up to 60 days before admission. This helps pay for diagnostics and consultations leading up to hospitalization."
       },
       {
         "name": "Post-hospitalization Cover",
         "quote": "We will pay Post-hospitalization Medical Expenses only for up to 90 days immediately following the Insured Person’s discharge",
         "reference": "Section 3.3 (Sub-limit)",
-        "explanation": "Expenses up to 90 days after discharge are covered to support recovery and follow-up care. This duration is standard in the industry."
+        "explanation": "Post-hospitalization medical expenses are covered for up to 90 days after discharge. This supports follow-up treatment and medicines during recovery."
       }
     ],
     "bad": [
@@ -62,34 +56,29 @@
         "name": "Room Rent",
         "quote": "Room rent Shared Room or 1% of the Base Sum Insured per day",
         "reference": "Annexure II – Product Benefit Table: Individual & Family Floater Silver Plan (Renewal only)",
-        "explanation": "The plan restricts room rent to shared room or 1% of base sum insured per day, which can cause significant out-of-pocket expenses if you choose a higher room category."
-      },
-      {
-        "name": "Room Rent",
-        "quote": "Room rent Rs 3,000 per day or Shared Room",
-        "reference": "Annexure II – Product Benefit Table: Family First - Silver Plan",
-        "explanation": "A daily cap of ₹3,000 or shared room eligibility limits your room choice and may reduce claim payouts if you opt for a higher room category."
+        "explanation": "Room rent is limited to Shared Room or 1% of the Base Sum Insured per day. Choosing a higher room category can lead to large out-of-pocket costs and may also reduce other linked hospital charges."
       },
       {
         "name": "Proportionate Deduction",
         "quote": "If the Insured Person is admitted in a Hospital room where the room category opted or Room Rent incurred is higher than the eligibility as specified in the Policy Schedule, then We shall be liable to pay only a pro-rated portion of the total Associated Medical Expenses... (Eligible Room Rent limit / Room Rent actually incurred) * total Associated Medical Expenses",
         "reference": "Section 3.1 Inpatient Care – Conditions (b)",
-        "explanation": "If you choose a room above your plan's limit, the insurer reduces not only room rent but also related medical expenses proportionally, increasing your out-of-pocket costs."
-      },
-      {
-        "name": "NCB",
-        "quote": "If the Insured Persons covered on a Family Floater Policy... Renew... by splitting... then We will provide the credit of the accumulated Cumulative Bonus to the split Policy reduced proportionately... In case the Base Sum Insured under the Policy is reduced at the time of Renewal, the applicable accumulated Cumulative Bonus shall also be reduced in proportion to the Base Sum Insured.",
-        "reference": "Section 3.14 Loyalty Additions – Conditions (e), (f), (g)",
-        "explanation": "The no-claim bonus can be reduced or lost if you reduce sum insured or split the policy, which is less favorable than policies that protect the bonus fully."
+        "explanation": "If you take a room above your eligible category/limit, the insurer pays only a pro-rated portion of associated medical expenses using (Eligible Room Rent / Actual Room Rent). This can sharply reduce the claim payout beyond just the room rent difference."
       },
       {
         "name": "Co-pay",
         "quote": "Co-payment means a cost-sharing requirement... 6.2.14 Co-payment The Insured Person will bear a predetermined percentage of the admissible claim amounts subject to the Co-payment option chosen by You in the Proposal Form and / or Information Summary Sheet",
         "reference": "Definition 2.4 and Section 6.2.14 Co-payment",
-        "explanation": "Co-payment depends on the option selected at proposal and is not clearly stated as zero or otherwise in the base policy. You must check your policy schedule to know your exact co-pay percentage."
+        "explanation": "A co-payment applies based on the option chosen in the proposal form and/or information summary sheet, meaning you bear a predetermined percentage of each admissible claim. This directly increases your out-of-pocket share on every claim where co-pay is opted/selected."
       }
     ],
-    "unclear": []
+    "unclear": [
+      {
+        "name": "NCB",
+        "quote": "If the Insured Persons covered on a Family Floater Policy... Renew... by splitting... then We will provide the credit of the accumulated Cumulative Bonus to the split Policy reduced proportionately... In case the Base Sum Insured under the Policy is reduced at the time of Renewal, the applicable accumulated Cumulative Bonus shall also be reduced in proportion to the Base Sum Insured.",
+        "reference": "Section 3.14 Loyalty Additions – Conditions (e), (f), (g)",
+        "explanation": "Cumulative Bonus is reduced proportionately if the policy is split or if the Base Sum Insured is reduced at renewal. The wording does not clarify whether the bonus resets/reduces on a claim, so the overall NCB impact cannot be fully assessed from this extract."
+      }
+    ]
   },
   "disclaimer": "Standard IRDAI exclusions apply. Please verify all details with your insurer or policy document."
 }

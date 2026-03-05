@@ -5,76 +5,76 @@
   "policyType": "Individual | Family Floater",
   "documentType": "Policy Wording",
   "summary": {
-    "great": 1,
-    "good": 7,
+    "great": 2,
+    "good": 6,
     "bad": 2,
     "unclear": 1
   },
   "features": {
     "great": [
       {
-        "name": "Built-in SI Buffer",
+        "name": "Sum Insured Rebound",
         "quote": "Sum Insured Rebound\nWe will add to the Sum Insured, an amount equivalent to the Claim amount paid under Basic Sum Insured, subject to maximum of Basic Sum Insured on subsequent Hospitalization of the Insured Person during Policy Year",
         "reference": "Section B, III. Optional Covers, 6. Sum Insured Rebound (Page 15)",
-        "explanation": "If you opt for this add-on, the policy adds extra sum insured equal to the amount claimed, up to 100% of the basic sum insured, within the same policy year. This increases your available coverage for subsequent hospitalizations in that year."
-      }
-    ],
-    "good": [
-      {
-        "name": "PED Waiting Period",
-        "quote": "Expenses related to the treatment of a pre-existing disease (PED) and its direct complications shall be excluded until the expiry of 48 months of continuous coverage after the date of inception of the first policy with insurer.",
-        "reference": "Section C, 1.I.i) Pre-existing Diseases – Code – Excl01 (Page 19)",
-        "explanation": "Pre-existing diseases are excluded for 48 months (4 years) from the start of continuous coverage. This is a standard waiting period in the market."
-      },
-      {
-        "name": "Specific Illness Waiting",
-        "quote": "Expenses related to the treatment of the listed Conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first Policy with us.",
-        "reference": "Section C, 1.I.ii) Specified Disease/Procedure waiting period – Code – Excl02 (Page 19)",
-        "explanation": "Certain listed illnesses and procedures have a 24-month waiting period before coverage begins, which aligns with typical market practice."
-      },
-      {
-        "name": "Initial Waiting Period",
-        "quote": "Expenses related to the treatment of any illness within 30 days from the first Policy commencement date shall be excluded except claims arising due to an Accident",
-        "reference": "Section C, 1.I.iii) 30-day waiting period – Code – Excl03 (Page 20)",
-        "explanation": "Illnesses are not covered during the first 30 days of the policy, except for accidents which are covered immediately. This is a common industry standard."
-      },
-      {
-        "name": "Pre-hospitalization Cover",
-        "quote": "We will pay for the Pre-hospitalization Medical Expenses incurred during the 60 days immediately before Hospitalization",
-        "reference": "Section B, I. Hospitalization Cover, 4. Pre-hospitalization cover (Page 10)",
-        "explanation": "Medical expenses up to 60 days before hospital admission are covered, helping with diagnostic and treatment costs leading to hospitalization."
-      },
-      {
-        "name": "Post-hospitalization Cover",
-        "quote": "We will pay for the Post-Hospitalization Medical Expenses incurred upto 180 days from the date Insured Person is discharged from Hospital",
-        "reference": "Section B, I. Hospitalization Cover, 5. Post-Hospitalization cover (Page 10)",
-        "explanation": "Follow-up medical expenses up to 180 days after discharge are covered, supporting recovery and ongoing treatment."
-      },
-      {
-        "name": "NCB",
-        "quote": "On each Renewal of the Policy with Us, We will apply 5% of Basic Sum Insured under expiring Policy as Cumulative Bonus... Cumulative Bonus will be reduced at the same rate as accrued in the event of admissible Claim under Section B-I of the Policy... accumulated upto 50% of Basic Sum Insured.",
-        "reference": "Section B, II. Renewal Benefits, 2. Cumulative Bonus (Page 11)",
-        "explanation": "You earn a 5% sum insured bonus each claim-free renewal up to 50%, but this bonus reduces proportionally if you make a claim. This rewards claim-free years but does not fully protect the bonus."
-      },
-      {
-        "name": "Air Ambulance",
-        "quote": "4. Air Ambulance Cover\nWe will pay for Air Ambulance transportation... Claim would be reimbursed up to the actual expenses subject to a maximum of Sum Insured as specified on the Schedule of Coverage in the Policy Schedule.",
-        "reference": "Section B, III. Optional Covers, 4. Air Ambulance Cover (Page 14)",
-        "explanation": "Air ambulance transport is available as an optional add-on, reimbursed up to your sum insured limit. This provides emergency transport coverage if you choose this option."
-      }
-    ],
-    "bad": [
-      {
-        "name": "Restore Benefit",
-        "quote": "We will pay under below listed Covers on Medically Necessary Hospitalization... subject to Sum Insured and limits including Cumulative Bonus if applicable...",
-        "reference": "Section B: BENEFITS (Pages 10-11) — no restore/reinstatement benefit described in base benefits",
-        "explanation": "The policy does not replenish your sum insured after a claim unless you purchase the optional Sum Insured Rebound add-on. This limits your coverage to the original sum insured within the policy year."
+        "explanation": "If opted, the insurer adds back an amount equal to the claim paid from the Basic Sum Insured, up to a maximum of 100% of the Basic Sum Insured, for subsequent hospitalizations in the same policy year. This can effectively restore your available cover after a claim and reduce the chance of exhausting your Sum Insured."
       },
       {
         "name": "Co-pay",
         "quote": "Insured Person shall bear specified percentage of admissible Claim amount under each and every Claim If Co-payment is applicable",
         "reference": "Section B, I. Hospitalization Cover (Page 10)",
-        "explanation": "The policy mentions co-pay may apply but does not specify the percentage in the base plan. You need to check your policy schedule to know if co-pay is 0% or any other value."
+        "explanation": "No co-pay is charged unless it is made applicable (typically via the Policy Schedule/option), in which case you must bear a specified percentage of every admissible claim. If co-pay is applied, your out-of-pocket cost increases on each claim, so you should confirm whether your schedule shows 0% or a non-zero co-pay."
+      }
+    ],
+    "good": [
+      {
+        "name": "Specific Illness Waiting",
+        "quote": "Expenses related to the treatment of the listed Conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first Policy with us.",
+        "reference": "Section C, 1.I.ii) Specified Disease/Procedure waiting period – Code – Excl02 (Page 19)",
+        "explanation": "Listed diseases/procedures are not covered for the first 24 months from the policy start date with the insurer. Claims for these conditions during this period can be rejected even if the illness is newly diagnosed."
+      },
+      {
+        "name": "Initial Waiting Period",
+        "quote": "Expenses related to the treatment of any illness within 30 days from the first Policy commencement date shall be excluded except claims arising due to an Accident",
+        "reference": "Section C, 1.I.iii) 30-day waiting period – Code – Excl03 (Page 20)",
+        "explanation": "Illness-related claims are not covered in the first 30 days from the policy commencement date, except for accidents. This means you should not expect coverage for non-accident hospitalizations in the first month."
+      },
+      {
+        "name": "Pre-hospitalization Cover",
+        "quote": "We will pay for the Pre-hospitalization Medical Expenses incurred during the 60 days immediately before Hospitalization",
+        "reference": "Section B, I. Hospitalization Cover, 4. Pre-hospitalization cover (Page 10)",
+        "explanation": "Medical expenses incurred in the 60 days immediately before hospitalization are covered. This helps pay for consultations, tests, and medicines leading up to admission."
+      },
+      {
+        "name": "Post-hospitalization Cover",
+        "quote": "We will pay for the Post-Hospitalization Medical Expenses incurred upto 180 days from the date Insured Person is discharged from Hospital",
+        "reference": "Section B, I. Hospitalization Cover, 5. Post-Hospitalization cover (Page 10)",
+        "explanation": "Medical expenses up to 180 days after discharge are covered. This supports follow-up treatment and medicines during recovery."
+      },
+      {
+        "name": "Cumulative Bonus",
+        "quote": "On each Renewal of the Policy with Us, We will apply 5% of Basic Sum Insured under expiring Policy as Cumulative Bonus... Cumulative Bonus will be reduced at the same rate as accrued in the event of admissible Claim under Section B-I of the Policy... accumulated upto 50% of Basic Sum Insured.",
+        "reference": "Section B, II. Renewal Benefits, 2. Cumulative Bonus (Page 11)",
+        "explanation": "A 5% Cumulative Bonus is added on each claim-free renewal, up to 50% of the Basic Sum Insured. If a claim is made, the bonus reduces by the same rate as it was accrued instead of resetting to zero."
+      },
+      {
+        "name": "Air Ambulance",
+        "quote": "4. Air Ambulance Cover\nWe will pay for Air Ambulance transportation... Claim would be reimbursed up to the actual expenses subject to a maximum of Sum Insured as specified on the Schedule of Coverage in the Policy Schedule.",
+        "reference": "Section B, III. Optional Covers, 4. Air Ambulance Cover (Page 14)",
+        "explanation": "If opted, air ambulance transportation is reimbursed up to actuals, subject to the limit shown in the Policy Schedule. This can help in emergencies where rapid transfer is medically necessary but can be expensive."
+      }
+    ],
+    "bad": [
+      {
+        "name": "PED Waiting Period",
+        "quote": "Expenses related to the treatment of a pre-existing disease (PED) and its direct complications shall be excluded until the expiry of 48 months of continuous coverage after the date of inception of the first policy with insurer.",
+        "reference": "Section C, 1.I.i) Pre-existing Diseases – Code – Excl01 (Page 19)",
+        "explanation": "Pre-existing diseases and their direct complications are not covered for the first 48 months (4 years) of continuous coverage. This can lead to claim rejections for known conditions until the waiting period is completed."
+      },
+      {
+        "name": "Restore Benefit",
+        "quote": "We will pay under below listed Covers on Medically Necessary Hospitalization... subject to Sum Insured and limits including Cumulative Bonus if applicable...",
+        "reference": "Section B: BENEFITS (Pages 10-11) — no restore/reinstatement benefit described in base benefits",
+        "explanation": "No automatic restore/reinstatement of Sum Insured is described in the base benefits section. Without opting for the Sum Insured Rebound cover, your available Sum Insured reduces after a claim within the same policy year."
       }
     ],
     "unclear": [
@@ -82,7 +82,7 @@
         "name": "Room Rent",
         "quote": "Room rent, boarding and Nursing charges",
         "reference": "Section B, I. Hospitalization Cover, 1. Medical Expenses (Page 10)",
-        "explanation": "The base plan’s room rent limit or category is not specified in the excerpt. The default room rent coverage should be verified in the policy schedule."
+        "explanation": "Room rent is listed as covered, but no room category or rupee cap is stated in the provided text. Your actual eligibility (e.g., any room vs single private room vs a daily cap) needs to be confirmed from the Policy Schedule/complete wording because it can materially affect claim payouts."
       }
     ]
   },
