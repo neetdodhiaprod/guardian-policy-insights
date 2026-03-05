@@ -1,21 +1,19 @@
 import dotenv from 'dotenv';
-// Load env from .env (single-file approach)
 dotenv.config({ path: '.env' });
 
-type RequiredEnv = {
-  MONGODB_URI: string;
-  ADMIN_DASHBOARD_KEY: string;
+type Env = {
+  MONGODB_URI: string | undefined;
+  ADMIN_DASHBOARD_KEY: string | undefined;
   API_PORT: number;
 };
 
-export function getEnv(): RequiredEnv {
-  const MONGODB_URI = process.env.MONGODB_URI;
-  const ADMIN_DASHBOARD_KEY = process.env.ADMIN_DASHBOARD_KEY;
+export function getEnv(): Env {
   const API_PORT = Number(process.env.API_PORT || 3001);
-
-  if (!MONGODB_URI) throw new Error('Missing env: MONGODB_URI');
-  if (!ADMIN_DASHBOARD_KEY) throw new Error('Missing env: ADMIN_DASHBOARD_KEY');
   if (!Number.isFinite(API_PORT)) throw new Error('Invalid env: API_PORT');
 
-  return { MONGODB_URI, ADMIN_DASHBOARD_KEY, API_PORT };
+  return {
+    MONGODB_URI: process.env.MONGODB_URI,
+    ADMIN_DASHBOARD_KEY: process.env.ADMIN_DASHBOARD_KEY,
+    API_PORT,
+  };
 }
