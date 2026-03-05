@@ -24,25 +24,69 @@ async function getJson<T>(url: string): Promise<T> {
   return res.json();
 }
 
+function splitOptionalName(name: string) {
+  const s = String(name ?? "");
+  if (s.toLowerCase().startsWith("optional:")) {
+    return { title: s.replace(/^optional:\s*/i, "").trim(), optional: true };
+  }
+  return { title: s, optional: false };
+}
+
 function Bucket({ title, items }: { title: string; items: GradedItem[] }) {
+  const [expanded, setExpanded] = useState(false);
+
+  const CORE_MAX = 5;
+  const NICE_MAX = 3;
+  const COLLAPSED_MAX = CORE_MAX + NICE_MAX;
+
+  const visible = expanded ? items : items.slice(0, COLLAPSED_MAX);
+  const remaining = Math.max(0, items.length - visible.length);
+
   return (
     <div className="border rounded-lg p-4 space-y-2">
       <div className="text-lg font-semibold">{title}</div>
+
       {items.length === 0 ? (
         <div className="text-sm text-muted-foreground">No items</div>
       ) : (
         <div className="space-y-3">
-          {items.map((it, idx) => (
-            <div key={`${title}-${idx}`} className="border rounded-md p-3">
-              <div className="font-medium">{it.name}</div>
-              <div className="text-xs text-muted-foreground mt-1">Ref: {it.reference}</div>
-              <div className="text-sm mt-2 whitespace-pre-wrap">{it.explanation}</div>
-              <details className="mt-2">
-                <summary className="text-sm cursor-pointer text-muted-foreground">Show source text</summary>
-                <div className="text-sm mt-2 whitespace-pre-wrap">{it.quote}</div>
-              </details>
-            </div>
-          ))}
+          {visible.map((it, idx) => {
+            const core = idx < CORE_MAX;
+            const { title: cleanTitle, optional } = splitOptionalName(it.name);
+            return (
+              <div key={`${title}-${idx}`} className="border rounded-md p-3">
+                <div className="flex items-start justify-between gap-3">
+                  <div className="font-medium">{cleanTitle}</div>
+                  <div className="flex gap-2">
+                    {optional ? (
+                      <div className="text-[11px] px-2 py-1 rounded bg-muted">Optional</div>
+                    ) : null}
+                    <div className="text-[11px] px-2 py-1 rounded bg-muted">
+                      {core ? "Core" : "Nice-to-have"}
+                    </div>
+                  </div>
+                </div>
+
+                <div className="text-sm mt-2 whitespace-pre-wrap">{it.explanation}</div>
+
+                <details className="mt-2">
+                  <summary className="text-sm cursor-pointer text-muted-foreground">Read the clause</summary>
+                  <div className="text-xs text-muted-foreground mt-2">Reference: {it.reference}</div>
+                  <div className="text-sm mt-2 whitespace-pre-wrap">{it.quote}</div>
+                </details>
+              </div>
+            );
+          })}
+
+          {!expanded && remaining > 0 ? (
+            <Button variant="outline" onClick={() => setExpanded(true)}>
+              Show more ({remaining})
+            </Button>
+          ) : expanded && items.length > COLLAPSED_MAX ? (
+            <Button variant="outline" onClick={() => setExpanded(false)}>
+              Show less
+            </Button>
+          ) : null}
         </div>
       )}
     </div>
