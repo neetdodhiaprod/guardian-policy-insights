@@ -19,9 +19,9 @@ import dotenv from 'dotenv';
 dotenv.config({ path: '.env' });
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const OUT_DIR   = path.resolve(__dirname, '..', 'out');
-const API_KEY   = process.env.OPENAI_API_KEY;
-const MODEL     = 'gpt-4.1-mini';
+const OUT_DIR = path.resolve(__dirname, '..', 'out');
+const API_KEY = process.env.OPENAI_API_KEY;
+const MODEL = 'gpt-5.2';
 
 if (!API_KEY) { console.error('OPENAI_API_KEY missing in .env'); process.exit(1); }
 
@@ -154,12 +154,12 @@ async function regrade(features) {
       temperature: 0.2,
       messages: [
         { role: 'system', content: SYSTEM_PROMPT },
-        { role: 'user',   content: JSON.stringify(features) },
+        { role: 'user', content: JSON.stringify(features) },
       ],
     }),
   });
   const data = await res.json();
-  if (!res.ok) throw new Error(`OpenAI ${res.status}: ${JSON.stringify(data).slice(0,500)}`);
+  if (!res.ok) throw new Error(`OpenAI ${res.status}: ${JSON.stringify(data).slice(0, 500)}`);
   return JSON.parse(data.choices[0].message.content);
 }
 
@@ -175,9 +175,9 @@ async function processFile(filePath) {
     for (const f of existing[bucket] ?? []) {
       if (!f.quote) continue; // skip features with no quote (unreliable)
       allFeatures.push({
-        name:        f.name ?? '',
-        quote:       f.quote,
-        reference:   f.reference ?? 'Not provided',
+        name: f.name ?? '',
+        quote: f.quote,
+        reference: f.reference ?? 'Not provided',
         explanation: f.explanation ?? '',
         _currentBucket: bucket, // hint for AI (it may override)
       });
@@ -204,17 +204,17 @@ async function processFile(filePath) {
 
   // Write back
   data.features = {
-    great:   result.GREAT,
-    good:    result.GOOD,
-    bad:     result.BAD,
+    great: result.GREAT,
+    good: result.GOOD,
+    bad: result.BAD,
     unclear: result.UNCLEAR,
   };
 
   // Recompute summary counts
   data.summary = {
-    great:   data.features.great.length,
-    good:    data.features.good.length,
-    bad:     data.features.bad.length,
+    great: data.features.great.length,
+    good: data.features.good.length,
+    bad: data.features.bad.length,
     unclear: data.features.unclear.length,
   };
 
@@ -250,4 +250,55 @@ for (let i = 0; i < filesToProcess.length; i += CONCURRENCY) {
   await Promise.all(batch.map(processFile));
 }
 
-console.log('\nDone.');
+// ── Co-pay enforcement pass ───────────────────────────────────────────────────
+// Deterministically move any co-pay entry in GOOD/UNCLEAR/GREAT (that isn't
+// explicitly "no co-pay") to BAD. Runs on the same files just processed.
+
+let copayFixed = 0;
+
+for (const filePath of filesToProcess) {
+  const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+  let changed = false;
+
+  for (const fromBucket of ['great', 'good', 'unclear']) {
+    const features = data.features?.[fromBucket] ?? [];
+    const toKeep = [];
+    const toMove = [];
+
+    for (const f of features) {
+      const nameLower = (f.name ?? '').toLowerCase();
+      const isCoPayEntry = nameLower.includes('co-pay') || nameLower.includes('copay') || nameLower.includes('co pay');
+      if (!isCoPayEntry) { toKeep.push(f); continue; }
+
+      // Keep in GREAT only if explanation explicitly says there is no co-pay
+      if (fromBucket === 'great') {
+        const exp = (f.explanation ?? '').toLowerCase();
+        if (exp.includes('no co-pay') || exp.includes('no copay') || exp.includes('zero co-pay') || exp.includes('not charged')) {
+          toKeep.push(f); continue;
+        }
+      }
+
+      toMove.push(f);
+    }
+
+    if (toMove.length > 0) {
+      data.features[fromBucket] = toKeep;
+      data.features.bad = [...(data.features.bad ?? []), ...toMove];
+      copayFixed += toMove.length;
+      changed = true;
+    }
+  }
+
+  if (changed) {
+    data.summary = {
+      great:   data.features.great?.length ?? 0,
+      good:    data.features.good?.length ?? 0,
+      bad:     data.features.bad?.length ?? 0,
+      unclear: data.features.unclear?.length ?? 0,
+    };
+    fs.writeFileSync(filePath, JSON.stringify(data, null, 2), 'utf8');
+  }
+}
+
+if (copayFixed > 0) console.log(`\nCo-pay fix: moved ${copayFixed} entr${copayFixed === 1 ? 'y' : 'ies'} → BAD.`);
+console.log('Done.');
