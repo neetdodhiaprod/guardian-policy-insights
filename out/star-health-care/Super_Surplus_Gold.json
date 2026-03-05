@@ -6,8 +6,8 @@
   "documentType": "Policy Wording",
   "summary": {
     "great": 3,
-    "good": 7,
-    "bad": 7,
+    "good": 8,
+    "bad": 5,
     "unclear": 2
   },
   "features": {
@@ -73,21 +73,15 @@
         "quote": "AYUSH Treatment: Medical expenses for Inpatient Hospitalization incurred on treatment under Ayurveda, Unani, Sidha and Homeopathy systems of medicines in a AYUSH Hospital is payable up to the sum insured. Note : Claims under Yoga and Naturopathy system of treatment will be payable subject to prior approval from the company.",
         "reference": "Section II (Silver) clause F and Section III (Gold) clause K",
         "explanation": "Inpatient AYUSH treatment is covered up to the sum insured in an AYUSH hospital. Yoga and Naturopathy claims need prior approval, which can affect claim certainty."
-      }
-    ],
-    "bad": [
+      },
       {
         "name": "PED Waiting Period",
         "quote": "Applicable for Silver Plan: Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 36 months of continuous coverage after the date of inception of the first policy with insurer",
         "reference": "Section IV (Exclusions), Standard Exclusions, 1(A) Pre-Existing Diseases (PED)",
-        "explanation": "Pre-existing diseases are covered only after 36 months of continuous coverage under the Silver Plan. This is a long wait and delays coverage for known conditions."
-      },
-      {
-        "name": "Room Rent",
-        "quote": "Room, Boarding, Nursing Expenses as provided by the Hospital / Nursing Home subject to a maximum of Rs.4,000/- per day.",
-        "reference": "Section II (Coverage - Silver Plan), clause A",
-        "explanation": "Room rent is capped at ₹4,000 per day under the Silver Plan. Choosing a higher-category room can lead to significant out-of-pocket costs and lower claim payouts."
-      },
+        "explanation": "Pre-existing diseases are covered after 36 months of continuous coverage under the Silver Plan. 36 months falls within the standard 24–48 month market range and is not a red flag."
+      }
+    ],
+    "bad": [
       {
         "name": "Proportionate Deduction",
         "quote": "Hospitalisation expenses which vary based on the room rent occupied by the insured person will be considered in proportion to the room rent limit stated in the policy or actuals whichever is less.",

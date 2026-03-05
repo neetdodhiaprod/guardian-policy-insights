@@ -6,8 +6,8 @@
   "documentType": "Policy Wording",
   "summary": {
     "great": 2,
-    "good": 6,
-    "bad": 2,
+    "good": 7,
+    "bad": 1,
     "unclear": 1
   },
   "features": {
@@ -61,15 +61,15 @@
         "quote": "4. Air Ambulance Cover\nWe will pay for Air Ambulance transportation... Claim would be reimbursed up to the actual expenses subject to a maximum of Sum Insured as specified on the Schedule of Coverage in the Policy Schedule.",
         "reference": "Section B, III. Optional Covers, 4. Air Ambulance Cover (Page 14)",
         "explanation": "If opted, air ambulance transportation is reimbursed up to actuals, subject to the limit shown in the Policy Schedule. This can help in emergencies where rapid transfer is medically necessary but can be expensive."
-      }
-    ],
-    "bad": [
+      },
       {
         "name": "PED Waiting Period",
         "quote": "Expenses related to the treatment of a pre-existing disease (PED) and its direct complications shall be excluded until the expiry of 48 months of continuous coverage after the date of inception of the first policy with insurer.",
         "reference": "Section C, 1.I.i) Pre-existing Diseases – Code – Excl01 (Page 19)",
-        "explanation": "Pre-existing diseases and their direct complications are not covered for the first 48 months (4 years) of continuous coverage. This can lead to claim rejections for known conditions until the waiting period is completed."
-      },
+        "explanation": "Pre-existing diseases and their direct complications are excluded for the first 48 months of continuous coverage. A 48-month waiting period is exactly the market standard and is not a red flag."
+      }
+    ],
+    "bad": [
       {
         "name": "Restore Benefit",
         "quote": "We will pay under below listed Covers on Medically Necessary Hospitalization... subject to Sum Insured and limits including Cumulative Bonus if applicable...",

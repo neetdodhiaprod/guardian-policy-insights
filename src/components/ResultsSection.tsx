@@ -36,12 +36,6 @@ const ResultsSection = ({ analysis, onReset }: ResultsSectionProps) => {
                 </span>
               )}
             </div>
-            {hasRedFlags && (
-              <div className="flex items-center gap-1.5 bg-bad/10 text-bad text-xs font-semibold px-3 py-1.5 rounded-full border border-bad/20 flex-shrink-0">
-                <AlertTriangle className="w-3.5 h-3.5" />
-                {analysis.summary.bad} red flag{analysis.summary.bad !== 1 ? "s" : ""}
-              </div>
-            )}
           </div>
         </div>
 

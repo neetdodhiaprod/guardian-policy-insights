@@ -7,7 +7,7 @@
   "summary": {
     "great": 4,
     "good": 8,
-    "bad": 7,
+    "bad": 6,
     "unclear": 1
   },
   "features": {
@@ -88,12 +88,6 @@
       }
     ],
     "bad": [
-      {
-        "name": "Room Rent",
-        "quote": "For policies with Annual Sum Insured options up to Rs. 4 Lakhs- room rent charges shall be capped at 1 % of Annual Sum Insured",
-        "reference": "Benefits covered under the Policy > Basic cover > In-patient Treatment > i. Room Rent charges",
-        "explanation": "For Sum Insured up to ₹4 lakhs, room rent is capped at 1% of the Annual Sum Insured. Choosing a room above this limit can lead to significant out-of-pocket costs due to linked deductions."
-      },
       {
         "name": "Proportionate Deduction",
         "quote": "If the Insured Person is admitted in a room category/limit that is higher than the one that is specified... then the Insured Person shall bear a rateable proportion of the total Associated medical expenses",
