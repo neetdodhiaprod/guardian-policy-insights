@@ -29,6 +29,7 @@ const V2ResultsView = ({ analysis, insurerId }: V2ResultsViewProps) => {
   const ci = analysis.customerInfo ?? null;
   const insurerColor = INSURER_COLORS[insurerId] ?? '#64748b';
   const [showIntro, setShowIntro] = useState(true);
+  const [completedIntro, setCompletedIntro] = useState(false);
   const [showStory, setShowStory] = useState(false);
 
   if (showIntro) {
@@ -37,7 +38,7 @@ const V2ResultsView = ({ analysis, insurerId }: V2ResultsViewProps) => {
         analysis={analysis}
         model={model}
         customerInfo={ci}
-        onComplete={() => setShowIntro(false)}
+        onComplete={() => { setShowIntro(false); setCompletedIntro(true); }}
       />
     );
   }
@@ -72,7 +73,7 @@ const V2ResultsView = ({ analysis, insurerId }: V2ResultsViewProps) => {
   return (
     <>
       <div className="space-y-5">
-        {/* Story trigger banner */}
+        {/* Story trigger banner — different copy if user already completed the intro walkthrough */}
         <button
           onClick={() => setShowStory(true)}
           className="w-full flex items-center justify-between gap-3 px-5 py-4 rounded-xl border border-border bg-card hover:bg-surface-sunken/60 transition-colors shadow-card group"
@@ -83,12 +84,21 @@ const V2ResultsView = ({ analysis, insurerId }: V2ResultsViewProps) => {
               <Sparkles className="w-4 h-4 text-primary" />
             </div>
             <div className="text-left">
-              <p className="text-sm font-semibold text-foreground leading-tight">Understand your policy in 60 seconds</p>
-              <p className="text-xs text-muted-foreground mt-0.5">Plain-English breakdown of every clause that matters — no jargon</p>
+              {completedIntro ? (
+                <>
+                  <p className="text-sm font-semibold text-foreground leading-tight">Deep dive into every clause</p>
+                  <p className="text-xs text-muted-foreground mt-0.5">Beyond the critical 4 — all features, explained in plain English</p>
+                </>
+              ) : (
+                <>
+                  <p className="text-sm font-semibold text-foreground leading-tight">Understand your policy in 60 seconds</p>
+                  <p className="text-xs text-muted-foreground mt-0.5">Plain-English breakdown of every clause that matters — no jargon</p>
+                </>
+              )}
             </div>
           </div>
           <span className="text-xs font-semibold text-primary flex-shrink-0 group-hover:underline">
-            See your story →
+            {completedIntro ? 'See all clauses →' : 'See your story →'}
           </span>
         </button>
 
