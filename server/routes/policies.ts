@@ -116,6 +116,111 @@ function scoreMatch(titleText: string, fullText: string, policyName: string, pol
   return (hitsInFull / specific.length) * 20;
 }
 
+// ─── Customer info extraction ───────────────────────────────────────────────
+
+export interface CustomerInfo {
+  customerName: string | null;
+  policyType: string | null;
+  sumInsured: string | null;
+  totalPremium: string | null;
+  primaryDOB: string | null;
+  age: number | null;
+  city: string | null;
+  premiumTier: string | null;
+  preExistingDiseases: string[];
+  policyPeriod: string | null;
+  members: Array<{ name: string; relation: string; dob: string }>;
+}
+
+function dobToAge(dob: string): number | null {
+  const parts = dob.split(/[\/\-]/);
+  if (parts.length !== 3) return null;
+  const yearStr = parts[2];
+  const year = parseInt(yearStr.length === 2 ? '20' + yearStr : yearStr, 10);
+  if (isNaN(year) || year < 1900 || year > new Date().getFullYear()) return null;
+  return new Date().getFullYear() - year;
+}
+
+export function extractCustomerInfo(rawText: string): CustomerInfo {
+  const grab = (pattern: RegExp): string | null => {
+    const m = rawText.match(pattern);
+    return m ? m[1].trim() : null;
+  };
+
+  // Policyholder name
+  const customerName = grab(/Policyholder\s+Name\s*[:\-]\s*([^\n\r]{3,60})/i)
+    ?? grab(/Name\s+of\s+(?:Insured|Proposer)\s*[:\-]\s*([^\n\r]{3,60})/i);
+
+  // Policy type
+  const policyType = grab(/Policy\s+Type\s*[:\-]\s*([^\n\r]{3,50})/i);
+
+  // Sum insured — "Sum Insured opted:2500000" or "Base Sum Insured ... 2500000"
+  const siRaw = grab(/Sum\s+Insured\s+opted[:\s]+(\d[\d,]+)/i)
+    ?? grab(/Base\s+Sum\s+Insured[^\d]*(\d[\d,]+)/i)
+    ?? grab(/Sum\s+Insured[^\d]*(\d[\d,]{4,})/i);
+  const sumInsured = siRaw ? siRaw.replace(/,/g, '') : null;
+
+  // Total premium — "received an amount of ₹ 28534" or "Total Premium ... 28534"
+  const premRaw = grab(/received\s+an\s+amount\s+of\s*[`₹\s]*([\d,]+)/i)
+    ?? grab(/Total\s+Premium\s+(?:\([^)]+\)\s*)?[:\-]\s*[₹\s]*([\d,]+(?:\.\d{2})?)/i)
+    ?? grab(/(?:Net\s+Premium|Annual\s+Premium)\s*[:\-]\s*[₹\s]*([\d,]+(?:\.\d{2})?)/i);
+  const totalPremium = premRaw ? premRaw.replace(/,/g, '') : null;
+
+  // Primary insured DOB (Self row)
+  const primaryDOB = grab(/\bSelf\b\s+(?:Male|Female)\s+(\d{1,2}\/\d{2}\/\d{4})/i)
+    ?? grab(/Date\s+of\s+Birth\s*[:\-]\s*(\d{1,2}[\/\-]\d{2}[\/\-]\d{2,4})/i);
+  const age = primaryDOB ? dobToAge(primaryDOB) : null;
+
+  // Premium Tier (HDFC ERGO explicit field — city tier indicator)
+  const premiumTier = grab(/Premium\s+Tier\s*[:\-]\s*([^\n\r\s]{2,10})/i);
+
+  // City from address block — "MUMBAI, MAHARASHTRA-400030"
+  const cityMatch = rawText.match(/([A-Z][A-Za-z\s]{2,20}),\s*[A-Z][A-Za-z\s]+-\d{6}/);
+  const city = cityMatch ? cityMatch[1].trim() : null;
+
+  // Policy period
+  const policyPeriod = grab(/Period\s+of\s+Insurance\s*[:\-]\s*From\s+(\d{2}\/\d{2}\/\d{4}[^\n\r]{0,30})/i)
+    ?? grab(/Policy\s+Period\s*[:\-]\s*([^\n\r]{5,60})/i);
+
+  // Pre-existing diseases — from Special Conditions table
+  const predRaw = grab(/Declared\s+Pre.existing\s+Disease\s*[:\n\r]+([A-Z_0-9][A-Z_0-9\s,]+)/i)
+    ?? grab(/Special\s+Condition[^:\n]*[:\-]\s*([A-Z][A-Z_0-9\s,]+)/i);
+  const preExistingDiseases = predRaw
+    ? predRaw.split(/[,\n]/).map(s => s.trim().replace(/_/g, ' ')).filter(Boolean)
+    : [];
+
+  // Members: scan for "Name Relation Gender DOB" rows.
+  // Only match Title Case words (e.g. "Rishi Kapoor") — rejects ALL-CAPS tokens and OCR garbage.
+  const memberPattern = /((?:[A-Z][a-z]+)(?:\s+[A-Z][a-z]+){0,3})\s+(Self|Spouse|Son|Daughter|Father|Mother|Parent|Employee|Dependent)\s+(?:Male|Female)\s+(\d{1,2}\/\d{2}\/\d{4})/g;
+  // Common short Title-Case words that are NOT names
+  const NAME_STOPWORDS = new Set(['Yes', 'No', 'The', 'An', 'In', 'Of', 'For', 'To', 'As', 'By', 'Or', 'At', 'Is', 'Be', 'On']);
+  // Post-process: keep only trailing non-stopword Title Case tokens.
+  function cleanMemberName(raw: string): string {
+    const words = raw.trim().split(/\s+/);
+    const clean: string[] = [];
+    for (let i = words.length - 1; i >= 0; i--) {
+      if (/^[A-Z][a-z]{1,}$/.test(words[i]) && !NAME_STOPWORDS.has(words[i])) clean.unshift(words[i]);
+      else break;
+    }
+    return clean.length >= 1 ? clean.join(' ') : raw.trim();
+  }
+  const seenMembers = new Set<string>();
+  const members: CustomerInfo['members'] = [];
+  let m: RegExpExecArray | null;
+  while ((m = memberPattern.exec(rawText)) !== null) {
+    const name = cleanMemberName(m[1]);
+    const key = `${name}|${m[3]}`; // deduplicate by name+dob
+    if (!seenMembers.has(key)) {
+      seenMembers.add(key);
+      members.push({ name, relation: m[2], dob: m[3] });
+    }
+  }
+
+  return { customerName, policyType, sumInsured, totalPremium, primaryDOB, age, city, premiumTier, preExistingDiseases, policyPeriod, members };
+}
+
+// ────────────────────────────────────────────────────────────────────────────
+
 export const policiesRouter = Router();
 
 // GET /api/policies  →  { insurers: [{ id, label, policies: [{ id, policyName, summary }] }] }
@@ -170,7 +275,8 @@ policiesRouter.get('/policies/:insurer/:policy', (req, res) => {
 // Returns: { matched: true, data: PolicyAnalysis }
 //       or { matched: false, reason: string }
 policiesRouter.post('/policies/identify', (req, res) => {
-  const text: string = String(req.body?.text ?? '').toLowerCase();
+  const rawText: string = String(req.body?.text ?? '');
+  const text: string = rawText.toLowerCase();
 
   if (text.length < 500) {
     return res.json({ matched: false, reason: 'Document too short — could not extract enough text.' });
@@ -239,5 +345,6 @@ policiesRouter.post('/policies/identify', (req, res) => {
     });
   }
 
-  res.json({ matched: true, insurerId: matchedInsurer.id, policyId: best.id, data: best.data });
+  const customerInfo = extractCustomerInfo(rawText);
+  res.json({ matched: true, insurerId: matchedInsurer.id, policyId: best.id, data: best.data, customerInfo });
 });

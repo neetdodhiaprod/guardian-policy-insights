@@ -1,3 +1,17 @@
+export interface CustomerInfo {
+  customerName: string | null;
+  policyType: string | null;
+  sumInsured: string | null;       // raw digits e.g. "2500000"
+  totalPremium: string | null;     // raw digits e.g. "28534"
+  primaryDOB: string | null;       // "26/08/1991"
+  age: number | null;
+  city: string | null;
+  premiumTier: string | null;      // "Tier1" / "Tier2"
+  preExistingDiseases: string[];
+  policyPeriod: string | null;
+  members: Array<{ name: string; relation: string; dob: string }>;
+}
+
 export interface PolicyFeature {
   name: string;
   quote: string;
@@ -24,6 +38,7 @@ export interface PolicyAnalysis {
     unclear: PolicyFeature[];
   };
   disclaimer: string;
+  customerInfo?: CustomerInfo | null;
 }
 
 export const mockAnalysisData: PolicyAnalysis = {

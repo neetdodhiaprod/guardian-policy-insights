@@ -22,35 +22,35 @@ const SummaryCard = ({ summary, policyName, insurer }: SummaryCardProps) => {
       </div>
 
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-        <div className="bg-great/10 rounded-xl p-4 text-center">
-          <div className="w-10 h-10 bg-great rounded-lg flex items-center justify-center mx-auto mb-2">
-            <ShieldCheck className="w-5 h-5 text-great-foreground" />
+        <div className="bg-great-bg rounded-lg p-4 text-center border border-great-border">
+          <div className="w-10 h-10 bg-card rounded-sm flex items-center justify-center mx-auto mb-2 border border-great-border">
+            <ShieldCheck className="w-5 h-5 text-great-text" />
           </div>
-          <p className="font-display text-2xl text-great">{summary.great}</p>
+          <p className="font-display text-2xl text-great-text">{summary.great}</p>
           <p className="font-body text-sm text-muted-foreground">Great</p>
         </div>
 
-        <div className="bg-good/10 rounded-xl p-4 text-center">
-          <div className="w-10 h-10 bg-good rounded-lg flex items-center justify-center mx-auto mb-2">
-            <ThumbsUp className="w-5 h-5 text-good-foreground" />
+        <div className="bg-good-bg rounded-lg p-4 text-center border border-good-border">
+          <div className="w-10 h-10 bg-card rounded-sm flex items-center justify-center mx-auto mb-2 border border-good-border">
+            <ThumbsUp className="w-5 h-5 text-good-text" />
           </div>
-          <p className="font-display text-2xl text-good-foreground">{summary.good}</p>
+          <p className="font-display text-2xl text-good-text">{summary.good}</p>
           <p className="font-body text-sm text-muted-foreground">Good</p>
         </div>
 
-        <div className="bg-bad/10 rounded-xl p-4 text-center">
-          <div className="w-10 h-10 bg-bad rounded-lg flex items-center justify-center mx-auto mb-2">
-            <AlertTriangle className="w-5 h-5 text-bad-foreground" />
+        <div className="bg-bad-bg rounded-lg p-4 text-center border border-bad-border">
+          <div className="w-10 h-10 bg-card rounded-sm flex items-center justify-center mx-auto mb-2 border border-bad-border">
+            <AlertTriangle className="w-5 h-5 text-bad-text" />
           </div>
-          <p className="font-display text-2xl text-bad">{summary.bad}</p>
+          <p className="font-display text-2xl text-bad-text">{summary.bad}</p>
           <p className="font-body text-sm text-muted-foreground">Red Flags</p>
         </div>
 
-        <div className="bg-unclear/10 rounded-xl p-4 text-center">
-          <div className="w-10 h-10 bg-unclear rounded-lg flex items-center justify-center mx-auto mb-2">
-            <HelpCircle className="w-5 h-5 text-unclear-foreground" />
+        <div className="bg-unclear-bg rounded-lg p-4 text-center border border-unclear-border">
+          <div className="w-10 h-10 bg-card rounded-sm flex items-center justify-center mx-auto mb-2 border border-unclear-border">
+            <HelpCircle className="w-5 h-5 text-unclear-text" />
           </div>
-          <p className="font-display text-2xl text-unclear">{summary.unclear}</p>
+          <p className="font-display text-2xl text-unclear-text">{summary.unclear}</p>
           <p className="font-body text-sm text-muted-foreground">Unclear</p>
         </div>
       </div>

@@ -1,12 +1,13 @@
 import { useState, useCallback } from "react";
 import { useQuery } from "@tanstack/react-query";
-import { Upload, FileText, X, ArrowRight, Check, Search } from "lucide-react";
+import { Upload, FileText, X, ArrowRight, Check, Search, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 import ResultsSection from "@/components/ResultsSection";
 import Footer from "@/components/Footer";
 import { PolicyAnalysis } from "@/lib/mockData";
+import { DEFAULT_POLICIES } from "@/data/defaultPolicies";
 import { extractTextFromPDF } from "@/utils/pdfExtractor";
 import { useToast } from "@/hooks/use-toast";
 
@@ -22,17 +23,17 @@ async function getJson<T>(url: string): Promise<T> {
 }
 
 const INSURER_DISPLAY: Record<string, { short: string; color: string; bg: string }> = {
-  "aditya-birla":     { short: "AB", color: "#E05A35", bg: "#FFF3EF" },
-  "care":             { short: "CH", color: "#E63946", bg: "#FFF0F1" },
-  "hdfc-ergo":        { short: "HE", color: "#004C97", bg: "#EEF4FF" },
-  "icici-lombard":    { short: "IL", color: "#F7941D", bg: "#FFF6EC" },
-  "niva-bupa":        { short: "NB", color: "#C1272D", bg: "#FFF0F0" },
-  "star-health-care": { short: "SH", color: "#1D6FA4", bg: "#EDF5FF" },
+  "aditya-birla":     { short: "AB", color: "#C9583A", bg: "#FAF0EB" },
+  "care":             { short: "CH", color: "#C43040", bg: "#FAF0F0" },
+  "hdfc-ergo":        { short: "HE", color: "#005084", bg: "#EEF3F8" },
+  "icici-lombard":    { short: "IL", color: "#D4821A", bg: "#FAF3E8" },
+  "niva-bupa":        { short: "NB", color: "#A82429", bg: "#FAF0F0" },
+  "star-health-care": { short: "SH", color: "#1A638F", bg: "#EBF3F8" },
 };
 
 // ─── Select-from-library path ────────────────────────────────────────────────
 
-function SelectPath({ onResult }: { onResult: (data: PolicyAnalysis) => void }) {
+function SelectPath({ onResult }: { onResult: (data: PolicyAnalysis, insurerId: string) => void }) {
   const [insurerId, setInsurerId] = useState("");
   const [policyId, setPolicyId] = useState("");
   const [policySearch, setPolicySearch] = useState("");
@@ -56,7 +57,21 @@ function SelectPath({ onResult }: { onResult: (data: PolicyAnalysis) => void }) 
     setLoading(true);
     try {
       const result = await getJson<PolicyAnalysis>(`${API}/api/policies/${insurerId}/${policyId}`);
-      onResult(result);
+      onResult(result, insurerId);
+    } catch {
+      toast({ variant: "destructive", title: "Failed to load policy", description: "Please try again." });
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const handleFlagship = async () => {
+    const flagship = DEFAULT_POLICIES[insurerId];
+    if (!flagship) return;
+    setLoading(true);
+    try {
+      const result = await getJson<PolicyAnalysis>(`${API}/api/policies/${insurerId}/${flagship.policyId}`);
+      onResult(result, insurerId);
     } catch {
       toast({ variant: "destructive", title: "Failed to load policy", description: "Please try again." });
     } finally {
@@ -68,13 +83,13 @@ function SelectPath({ onResult }: { onResult: (data: PolicyAnalysis) => void }) 
     <div className="space-y-6">
       {/* Step 1 — Insurer grid */}
       <div>
-        <p className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-3">
+        <p className="label-editorial text-muted-foreground rule-left mb-3">
           Step 1 — Select your insurer
         </p>
         {isLoading ? (
           <div className="grid grid-cols-3 gap-2">
             {[...Array(6)].map((_, i) => (
-              <div key={i} className="h-16 rounded-xl bg-muted animate-pulse" />
+              <div key={i} className="h-16 rounded-lg bg-surface-sunken animate-pulse" />
             ))}
           </div>
         ) : (
@@ -86,12 +101,12 @@ function SelectPath({ onResult }: { onResult: (data: PolicyAnalysis) => void }) 
                 <button
                   key={g.id}
                   onClick={() => { setInsurerId(g.id); setPolicyId(""); setPolicySearch(""); }}
-                  className={`relative flex flex-col items-center justify-center gap-1 h-16 rounded-xl border-2 text-center transition-all duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring ${
+                  className={`relative flex flex-col items-center justify-center gap-1 h-16 rounded-lg border text-center transition-all duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring ${
                     isActive
-                      ? "border-transparent shadow-md scale-[1.03]"
-                      : "border-border hover:border-transparent hover:shadow-sm hover:scale-[1.01] bg-card"
+                      ? "shadow-sm scale-[1.02]"
+                      : "border-border hover:shadow-sm hover:scale-[1.01] bg-card"
                   }`}
-                  style={isActive ? { background: d?.bg, borderColor: d?.color } : {}}
+                  style={isActive ? { background: d?.bg, borderColor: d?.color, borderWidth: "1.5px" } : {}}
                 >
                   {isActive && (
                     <span
@@ -102,7 +117,7 @@ function SelectPath({ onResult }: { onResult: (data: PolicyAnalysis) => void }) 
                     </span>
                   )}
                   <span
-                    className="w-8 h-8 rounded-lg flex items-center justify-center text-xs font-bold text-white flex-shrink-0"
+                    className="w-8 h-8 rounded-sm flex items-center justify-center text-xs font-bold text-white flex-shrink-0"
                     style={{ background: d?.color ?? "#888" }}
                   >
                     {d?.short ?? g.id.slice(0, 2).toUpperCase()}
@@ -119,10 +134,22 @@ function SelectPath({ onResult }: { onResult: (data: PolicyAnalysis) => void }) 
 
       {/* Step 2 — Policy list */}
       <div className={`transition-all duration-300 ${insurerId ? "opacity-100" : "opacity-40 pointer-events-none"}`}>
-        <p className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-3">
+        <p className="label-editorial text-muted-foreground rule-left mb-3">
           Step 2 — Select your policy
           {allPolicies.length > 0 && <span className="font-normal normal-case ml-1">({allPolicies.length} available)</span>}
         </p>
+
+        {/* Flagship shortcut */}
+        {insurerId && DEFAULT_POLICIES[insurerId] && (
+          <button
+            onClick={handleFlagship}
+            disabled={loading}
+            className="w-full flex items-center gap-2 justify-center text-xs font-semibold text-primary border border-primary-muted bg-primary-surface hover:bg-primary/10 rounded-lg px-4 py-2.5 mb-3 transition-colors"
+          >
+            <Sparkles className="w-3.5 h-3.5" />
+            I don't know my policy — show me the most common one
+          </button>
+        )}
         {allPolicies.length > 5 && (
           <div className="relative mb-2">
             <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-3.5 h-3.5 text-muted-foreground pointer-events-none" />
@@ -131,11 +158,11 @@ function SelectPath({ onResult }: { onResult: (data: PolicyAnalysis) => void }) 
               placeholder="Search policy name…"
               value={policySearch}
               onChange={(e) => setPolicySearch(e.target.value)}
-              className="w-full pl-8 pr-3 py-2 text-sm rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-ring placeholder:text-muted-foreground"
+              className="w-full pl-8 pr-3 py-2 text-sm rounded-lg border border-border bg-card focus:outline-none focus:ring-2 focus:ring-ring placeholder:text-muted-foreground"
             />
           </div>
         )}
-        <div className="max-h-52 overflow-y-auto rounded-xl border border-border divide-y divide-border">
+        <div className="max-h-52 overflow-y-auto rounded-lg border border-border divide-y divide-border/60">
           {policies.length === 0 && insurerId && (
             <div className="py-6 text-center text-sm text-muted-foreground">
               {policySearch ? `No policies matching "${policySearch}"` : "No policies found"}
@@ -151,8 +178,8 @@ function SelectPath({ onResult }: { onResult: (data: PolicyAnalysis) => void }) 
               <button
                 key={p.id}
                 onClick={() => setPolicyId(p.id)}
-                className={`w-full flex items-center justify-between px-4 py-3 text-left transition-colors hover:bg-muted/50 ${
-                  isSelected ? "bg-muted/70" : "bg-card"
+                className={`w-full flex items-center justify-between px-4 py-3 text-left transition-colors hover:bg-surface-sunken ${
+                  isSelected ? "bg-surface-sunken" : "bg-card"
                 }`}
               >
                 <div className="min-w-0 flex-1">
@@ -200,7 +227,7 @@ function SelectPath({ onResult }: { onResult: (data: PolicyAnalysis) => void }) 
 
 type UploadStage = "idle" | "extracting" | "identifying";
 
-function UploadPath({ onResult }: { onResult: (data: PolicyAnalysis) => void }) {
+function UploadPath({ onResult }: { onResult: (data: PolicyAnalysis, insurerId: string) => void }) {
   const [file, setFile] = useState<File | null>(null);
   const [dragActive, setDragActive] = useState(false);
   const [stage, setStage] = useState<UploadStage>("idle");
@@ -251,12 +278,16 @@ function UploadPath({ onResult }: { onResult: (data: PolicyAnalysis) => void }) 
       });
       const json = await res.json();
       if (json.matched) {
-        onResult(json.data);
+        const enriched = { ...json.data, customerInfo: json.customerInfo ?? null };
+        onResult(enriched, json.insurerId ?? '');
       } else {
+        const hint = json.insurerLabel
+          ? ` Try selecting "I don't know my policy" for ${json.insurerLabel} in the library.`
+          : '';
         toast({
           variant: "destructive",
           title: "Policy not found in our library",
-          description: json.reason ?? "We couldn't match this document.",
+          description: (json.reason ?? "We couldn't match this document.") + hint,
         });
         setStage("idle");
       }
@@ -274,10 +305,10 @@ function UploadPath({ onResult }: { onResult: (data: PolicyAnalysis) => void }) 
       <div
         className={`border-2 border-dashed rounded-xl transition-all duration-200 ${
           dragActive
-            ? "border-primary bg-primary/5 scale-[1.01]"
+            ? "border-primary bg-primary-surface scale-[1.01]"
             : file
-            ? "border-great/50 bg-great/5"
-            : "border-border hover:border-primary/40 hover:bg-muted/20"
+            ? "border-great-border bg-great-bg/50"
+            : "border-border hover:border-primary hover:bg-primary-surface"
         } ${!file && !isLoading ? "cursor-pointer" : ""}`}
         onDragEnter={handleDrag}
         onDragLeave={handleDrag}
@@ -295,8 +326,8 @@ function UploadPath({ onResult }: { onResult: (data: PolicyAnalysis) => void }) 
 
         {file ? (
           <div className="flex items-center gap-3 px-5 py-4">
-            <div className="w-10 h-10 bg-great/10 rounded-lg flex items-center justify-center flex-shrink-0">
-              <FileText className="w-5 h-5 text-great" />
+            <div className="w-10 h-10 bg-great-bg rounded-lg flex items-center justify-center flex-shrink-0">
+              <FileText className="w-5 h-5 text-great-text" />
             </div>
             <div className="flex-1 min-w-0">
               <p className="text-sm font-semibold text-foreground truncate">{file.name}</p>
@@ -311,14 +342,16 @@ function UploadPath({ onResult }: { onResult: (data: PolicyAnalysis) => void }) 
           </div>
         ) : (
           <div className="py-12 flex flex-col items-center text-center px-6">
-            <div className="w-12 h-12 bg-primary/10 rounded-2xl flex items-center justify-center mb-4">
+            <div className="w-12 h-12 bg-surface-sunken rounded-lg flex items-center justify-center mb-4">
               <Upload className="w-5 h-5 text-primary" />
             </div>
             <p className="font-semibold text-sm text-foreground mb-1">
-              Drop your policy PDF here
+              Upload your policy document
             </p>
             <p className="text-xs text-muted-foreground">
-              or <span className="text-primary underline underline-offset-2 cursor-pointer">browse file</span> · PDF up to 20 MB
+              Drop the PDF here or{" "}
+              <span className="text-primary underline underline-offset-2 cursor-pointer">choose file</span>
+              {" "}· PDF up to 20 MB
             </p>
           </div>
         )}
@@ -363,25 +396,42 @@ function UploadPath({ onResult }: { onResult: (data: PolicyAnalysis) => void }) 
 type Mode = "select" | "upload";
 
 const Index = () => {
-  const [mode, setMode] = useState<Mode>("select");
+  const [mode, setMode] = useState<Mode>("upload");
   const [result, setResult] = useState<PolicyAnalysis | null>(null);
+  const [resultInsurerId, setResultInsurerId] = useState('');
+
+  const handleResult = (data: PolicyAnalysis, insurerId: string) => {
+    setResult(data);
+    setResultInsurerId(insurerId);
+  };
+
+  const handleReset = () => {
+    setResult(null);
+    setResultInsurerId('');
+  };
 
   if (result) {
     return (
       <div className="min-h-screen flex flex-col bg-background">
         <Header />
-        <main className="flex-1 hero-gradient pb-16">
-          <div className="container mx-auto px-4 pt-10 pb-6 text-center">
-            <h1 className="font-display text-4xl md:text-5xl text-foreground mb-2 animate-fade-in">
-              Policy Analyzer
-            </h1>
-            <p className="font-body text-base text-muted-foreground animate-fade-in" style={{ animationDelay: "0.1s" }}>
-              Here's your policy breakdown
-            </p>
+        <main className="flex-1 pb-16">
+          {/* Slim results nav — back link + data source */}
+          <div className="container mx-auto px-4 pt-5 pb-4">
+            <div className="max-w-4xl mx-auto flex items-center justify-between animate-enter-up">
+              <button
+                onClick={handleReset}
+                className="flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors"
+              >
+                <span aria-hidden>←</span> Analyse another policy
+              </button>
+              <p className="label-editorial text-muted-foreground hidden sm:block">
+                IRDAI data · FY 2023–24
+              </p>
+            </div>
           </div>
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto animate-fade-in" style={{ animationDelay: "0.15s" }}>
-              <ResultsSection analysis={result} onReset={() => setResult(null)} />
+          <div className="container mx-auto px-4 pb-4">
+            <div className="max-w-4xl mx-auto animate-enter-up" style={{ animationDelay: "0.05s" }}>
+              <ResultsSection analysis={result} insurerId={resultInsurerId} onReset={handleReset} />
             </div>
           </div>
         </main>
@@ -393,46 +443,67 @@ const Index = () => {
   return (
     <div className="min-h-screen flex flex-col bg-background">
       <Header />
-      <main className="flex-1 hero-gradient">
+      <main className="flex-1">
         <div className="container mx-auto px-4 pt-14 pb-8 text-center">
-          <h1 className="font-display text-4xl md:text-5xl lg:text-6xl text-foreground mb-4 animate-fade-in">
-            Policy Analyzer
-          </h1>
-          <p className="font-body text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto animate-fade-in" style={{ animationDelay: "0.1s" }}>
-            Understand exactly what your health insurance covers — and what it doesn't
+          <p className="label-editorial text-primary mb-4 animate-enter-up">
+            Guardian Policy Insights
           </p>
+          <h1 className="font-display text-4xl md:text-5xl lg:text-6xl text-foreground mb-5 animate-enter-up leading-tight" style={{ animationDelay: "0.05s" }}>
+            Know your policy<br className="hidden sm:block" /> before you need it.
+          </h1>
+          <p className="font-body text-base md:text-lg text-muted-foreground max-w-xl mx-auto animate-enter-up mb-7" style={{ animationDelay: "0.1s" }}>
+            Most Indians discover hidden co-pay clauses only during a hospital stay.
+            Get an independent breakdown of your policy in seconds — free.
+          </p>
+          {/* Trust bar */}
+          <div
+            className="flex items-center justify-center flex-wrap gap-x-5 gap-y-2 animate-enter-up"
+            style={{ animationDelay: "0.15s" }}
+          >
+            {[
+              { value: "103", label: "policies in library" },
+              { value: "6",   label: "major insurers" },
+              { value: "Free", label: "always" },
+            ].map((s, i) => (
+              <span key={i} className="flex items-center gap-2 text-sm text-muted-foreground">
+                {i > 0 && <span className="w-px h-3.5 bg-border hidden sm:block" />}
+                <span className="font-semibold text-foreground">{s.value}</span>
+                <span>{s.label}</span>
+              </span>
+            ))}
+          </div>
         </div>
 
         <div className="container mx-auto px-4 pb-16">
-          <div className="max-w-lg mx-auto animate-fade-in" style={{ animationDelay: "0.2s" }}>
-            <div className="bg-card rounded-2xl shadow-xl overflow-hidden border border-border/50">
-              {mode === "upload" && (
+          <div className="max-w-lg mx-auto animate-enter-up" style={{ animationDelay: "0.2s" }}>
+            <div className="bg-card rounded-3xl shadow-card overflow-hidden border border-border border-t-4 border-t-primary">
+              {mode === "select" && (
                 <div className="flex items-center gap-2 px-6 pt-5 pb-0">
                   <button
-                    onClick={() => setMode("select")}
+                    onClick={() => setMode("upload")}
                     className="text-xs text-muted-foreground hover:text-foreground transition-colors flex items-center gap-1"
                   >
-                    ← Back to library
+                    ← Back to upload
                   </button>
                 </div>
               )}
               <div className="p-6 md:p-8">
                 {mode === "select" ? (
-                  <SelectPath onResult={setResult} />
+                  <SelectPath onResult={handleResult} />
                 ) : (
-                  <UploadPath onResult={setResult} />
+                  <UploadPath onResult={handleResult} />
                 )}
               </div>
             </div>
 
-            {mode === "select" && (
+            {mode === "upload" && (
               <p className="text-center text-xs text-muted-foreground mt-4">
-                Don't see your policy?{" "}
+                Don't have your document?{" "}
                 <button
-                  onClick={() => setMode("upload")}
+                  onClick={() => setMode("select")}
                   className="underline underline-offset-2 hover:text-foreground transition-colors"
                 >
-                  Upload your document
+                  Browse policies by insurer
                 </button>
               </p>
             )}

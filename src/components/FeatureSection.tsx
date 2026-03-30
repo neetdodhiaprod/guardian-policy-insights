@@ -14,42 +14,46 @@ const typeConfig = {
   great: {
     title: "Best-in-class",
     icon: ShieldCheck,
-    bgClass: "bg-great",
-    textClass: "text-great-foreground",
-    contentBg: "bg-great/5",
-    borderClass: "border-great/20",
-    quoteBg: "bg-great/8",
-    quoteBorder: "border-great/25",
+    bgClass: "bg-great-bg",
+    textClass: "text-great-text",
+    contentBg: "bg-card",
+    borderClass: "border-great-border",
+    quoteBg: "bg-surface-sunken",
+    quoteBorder: "border-border-subtle",
+    headerBorder: "border-great-border",
   },
   good: {
     title: "Good Features",
     icon: ThumbsUp,
-    bgClass: "bg-good",
-    textClass: "text-good-foreground",
-    contentBg: "bg-good/5",
-    borderClass: "border-good/20",
-    quoteBg: "bg-good/8",
-    quoteBorder: "border-good/25",
+    bgClass: "bg-good-bg",
+    textClass: "text-good-text",
+    contentBg: "bg-card",
+    borderClass: "border-good-border",
+    quoteBg: "bg-surface-sunken",
+    quoteBorder: "border-border-subtle",
+    headerBorder: "border-good-border",
   },
   bad: {
     title: "Red Flags",
     icon: AlertTriangle,
-    bgClass: "bg-bad",
-    textClass: "text-bad-foreground",
-    contentBg: "bg-bad/5",
-    borderClass: "border-bad/20",
-    quoteBg: "bg-bad/8",
-    quoteBorder: "border-bad/25",
+    bgClass: "bg-bad-bg",
+    textClass: "text-bad-text",
+    contentBg: "bg-card",
+    borderClass: "border-bad-border",
+    quoteBg: "bg-surface-sunken",
+    quoteBorder: "border-border-subtle",
+    headerBorder: "border-bad-border",
   },
   unclear: {
     title: "Needs Clarification",
     icon: HelpCircle,
-    bgClass: "bg-unclear",
-    textClass: "text-unclear-foreground",
-    contentBg: "bg-unclear/5",
-    borderClass: "border-unclear/20",
-    quoteBg: "bg-unclear/8",
-    quoteBorder: "border-unclear/25",
+    bgClass: "bg-unclear-bg",
+    textClass: "text-unclear-text",
+    contentBg: "bg-card",
+    borderClass: "border-unclear-border",
+    quoteBg: "bg-surface-sunken",
+    quoteBorder: "border-border-subtle",
+    headerBorder: "border-unclear-border",
   },
 };
 
@@ -83,7 +87,7 @@ function FeatureItem({ feature, config }: { feature: PolicyFeature; config: type
           </button>
 
           {quoteOpen && (
-            <div className={`mt-2 rounded-lg border ${config.quoteBorder} bg-muted/30 px-4 py-3`}>
+            <div className={`mt-2 rounded-sm border ${config.quoteBorder} ${config.quoteBg} px-4 py-3`}>
               <div className="flex gap-2.5">
                 <Quote className="w-3.5 h-3.5 text-muted-foreground flex-shrink-0 mt-0.5" />
                 <div>
@@ -111,15 +115,15 @@ const FeatureSection = ({ type, features, defaultOpen = false }: FeatureSectionP
   if (!features || features.length === 0) return null;
 
   return (
-    <div className="border border-border rounded-xl overflow-hidden mb-3">
+    <div className={`border ${config.headerBorder} rounded-lg overflow-hidden mb-3`}>
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className={`w-full ${config.bgClass} px-5 py-3.5 flex items-center justify-between transition-all duration-200`}
+        className={`w-full ${config.bgClass} px-5 py-3.5 flex items-center justify-between transition-all duration-200 border-b ${config.headerBorder}`}
       >
         <div className="flex items-center gap-2.5">
           <Icon className={`w-4 h-4 ${config.textClass}`} />
           <span className={`font-semibold text-sm ${config.textClass}`}>{config.title}</span>
-          <span className={`${config.textClass} opacity-70 text-xs`}>({features.length})</span>
+          <span className={`${config.textClass} opacity-60 text-xs`}>({features.length})</span>
         </div>
         <ChevronDown
           className={`w-4 h-4 ${config.textClass} transition-transform duration-200 ${isOpen ? "rotate-180" : ""}`}
